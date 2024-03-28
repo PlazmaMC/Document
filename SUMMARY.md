@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Page](README.md)
+* [Plazma 사용 설명서](README.md)
