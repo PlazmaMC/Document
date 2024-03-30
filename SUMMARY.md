@@ -14,7 +14,7 @@
   * [👟 시작하기](plazma/adminstration/getting-started/README.md)
     * [🎨 사용자화](plazma/adminstration/getting-started/customization.md)
   * [📑 리퍼런스](plazma/adminstration/reference/README.md)
-    * [🎛️ 변수와 속성](plazma/adminstration/reference/startups.md)
+    * [🎛️ 인수와 속성](plazma/adminstration/reference/arguments.md)
     * [🖥️ 명령어](plazma/adminstration/reference/commands.md)
     * [🛡️ 권한](plazma/adminstration/reference/permissions.md)
     * [📜 구성 파일](plazma/adminstration/reference/configurations/README.md)
