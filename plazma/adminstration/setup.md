@@ -27,6 +27,19 @@ Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](
 
 JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 `cmd /k java --version`을 입력하고 실행합니다.
 
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+
+```log
+TODO
+```
+
+위와 같이 출력되지 않거나, 다음과 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+
+```log
+'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+```
+
 [^1]: Java Runtime Environment, Java 실행 환경.
 
 [^2]: Plazma의 기반 Paper는 Spigot을 기반으로 하며, Spigot이 공식 서버 플랫폼을 기반으로 합니다.
