@@ -9,5 +9,5 @@
   * [✅ 지원 버전](plazma/about/supported-versions.md)
   * [📑 포함된 패치](plazma/about/patches-list.md)
 * [⚒️ 서버 관리 가이드](plazma/adminstration/README.md)
-  * [시작하기](plazma/adminstration/undefined.md)
+  * [시작하기](plazma/adminstration/setup.md)
 * [⚙️ 개발자 가이드](plazma/developers.md)
