@@ -56,29 +56,24 @@ Error: A fatal exception has occurred. Program will exit.
 
 설치를 완료한 후, [1.1 단계](setup.md#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
-<details>
+{% tabs %}
 
-<summary>Windows</summary>
+{% tab title="Windows" %}
 
-1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.msi` 형태로 다운로드 합니다.
+1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts&os=windows&architecture=x86-64-bit&package=jdk#zulu) 에서 **JDK 21**을 `.msi` 형태로 다운로드 합니다.
 2. 다운로드된 설치 마법사를 실행하고, `다음`을 클릭합니다.
-3. **창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화 한 후,** `다음`을 클릭합니다.
+3. **__창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화[^5] 한 후,__** `다음`을 클릭합니다.
 4. `설치`를 눌러 JRE 설치를 `완료`합니다.
 
-</details>
+{% endtab %}
 
-<details>
+{% tab title="macOS" %}
 
-<summary>macOS</summary>
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts&os=macos&architecture=x86-64-bit&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
 
-1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태로 다운로드 합니다.
-2. 다운로드된 설치 마법사를 실행하여 JRE를 설치합니다.
+{% endtab %}
 
-</details>
-
-<details>
-
-<summary>Linux (Debian, Ubuntu 등 APT 계열)</summary>
+{% tab title="Debian/Ubuntu" %}
 
 먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
 
@@ -96,11 +91,9 @@ echo "deb [signed-by=/usr/share/keyrings/azul.gpg] https://repos.azul.com/zulu/d
 sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-headless
 ```
 
-</details>
+{% endtab %}
 
-<details>
-
-<summary>Linux (Fedora, RHEL 등 DNF 계열)</summary>
+{% tab title="Fedora/RHEL" %}
 
 다음 명령어를 입력하여 JRE를 설치할 수 있습니다.
 
@@ -110,7 +103,9 @@ sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
 sudo dnf install -y zulu21-ca-jre-headless
 ```
 
-</details>
+{% endtab %}
+
+{% endtabs %}
 
 ***
 
@@ -121,7 +116,8 @@ Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니�
 {% hint style="warning" %}
 대부분의 경우에는 **Reobf Paperclip**을 사용합니다.
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것이며, 일반 사용자라면 [3 단계](setup.md#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](setup.md#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 {% endhint %}
 
 실행 파일의 이름은 `plazma-(버전 관리자)-1.20.4-R0.1-SNAPSHOT-(매핑 형태).jar` 로 정해집니다.
@@ -133,16 +129,12 @@ Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니�
     1.20.5부터 사용이 종료될 예정입니다.
   * **Mojmap**\
     Mojang 매핑, 바닐라 Minecraft 매핑입니다.
-*   **버전 관리자**
-
-    버전 관리자는 서버 구동에 필요한 라이브러리와, 서버 파일을 패치하는 서버의 런처라고 할 수 있습니다.
-
-    *   **Paperclip**
-
-        PaperMC 팀에서 Paper 및 기타 파생 플랫폼을 위해 개발한 관리자로, 라이브러리를 다운로드 하고 서버에 패치를 적용하는 역할을 합니다.
-    *   **Bundler**
-
-        바닐라 Minecraft 버전 관리자입니다.
+* **버전 관리자**\
+  버전 관리자는 서버 구동에 필요한 라이브러리와, 서버 파일을 패치하는 서버의 런처라고 할 수 있습니다.
+  * **Paperclip**\
+    PaperMC 팀에서 Paper 및 기타 파생 플랫폼을 위해 개발한 관리자로, 라이브러리를 다운로드 하고 서버에 패치를 적용하는 역할을 합니다.
+  * **Bundler**\
+    바닐라 Minecraft 버전 관리자입니다.
 
 ***
 
@@ -153,14 +145,14 @@ Plazma를 간단하게 시작하고, 서버를 자동으로 재시작 하려면,
 [Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성할 수 있습니다.](#user-content-fn-5)[^5]\
 Plazma에 [사용할 메모리](#user-content-fn-6)[^6]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
-좌측 하단 다운로드 버튼을 통해 시작 스크립트를 다운로드 할 수 있습니다.
+좌측 하단 다운로드 버튼을 통해 시작 스크립트를 다운로드 할 수 있습니다.\
+**다운로드한 시작 스크립트가 자신의 운영체제와 동일한지 확인하세요.**
 
 이제 다운로드한 시작 스크립트와 Plazma를 새 폴더에 이동합니다.
 
 {% hint style="warning" %}
-시작 스크립트가 자신의 운영 체제와 동일한지 확인하세요.
-
-폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다. 그렇지 않으면 Plazma 또는 JRE가 올바르게 작동하지 않을 수 있습니다.
+폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.\
+그렇지 않으면 Plazma 또는 JRE가 올바르게 작동하지 않을 수 있습니다.
 {% endhint %}
 
 이제 시작 스크립트를 실행합니다. Windows의 경우, 방화벽 허용 선택 창이 표시되면, 반드시 **허용**을 선택해야 합니다.
@@ -276,6 +268,6 @@ Windows IP 구성
 
 [^8]: Microsoft Corporation.
 
-[^9]: 대한민국의 경우 게임산업진흥에 관한 법률 제32조 제1항 제9호에 따라 \_한국 마이크로스프트 주식회사\_에서 법적 고소를 할 수 있습니다.
+[^9]: 대한민국의 경우 게임산업진흥에 관한 법률 제32조 제1항 제9호에 따라 _한국 마이크로스프트 주식회사_에서 법적 고소를 할 수 있습니다.
 
 [^10]: Universal Plug & Play. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
