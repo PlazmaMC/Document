@@ -8,12 +8,12 @@ description: Plazma로 직접 자신만의 서버를 만들어 보세요.
 
 Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
 
-|         | 최저 | 권장 |
+<!--- |         | 최저 | 권장 |
 |   ---   | ---- | --- |
 | 아키텍처 | x64 |  -  |
 |   RAM   | 8GB | 16GB |
 | 저장공간 | 1GB | 8GB |
-|   JRE   |  17 |  21 |
+|   JRE   |  17 |  21 | --->
 
 또한, 앞으로 파일을 열어 수정해야 하는 경우가 많아지므로, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것을 권장합니다.
 
@@ -49,6 +49,8 @@ TODO
 본 가이드에서는 JRE의 종류[^4] 중 하나로 Azul Zulu를 사용합니다.
 
 설치를 완료한 후, [1.1 단계](https://placeholder.com/)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+
+<!---
 
 <details>
 
@@ -111,6 +113,7 @@ sudo dnf install -y zulu21-ca-jre-headless
 ```
 
 </details>
+--->
 
 ## 2. Plazma 다운로드
 
@@ -125,12 +128,13 @@ Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령�
 
 이제 다운로드한 시작 스크립트와 Plazma를 새 폴더에 이동합니다.
 
+<!---
 {% hint style="warn" %}
 시작 스크립트가 자신의 운영 체제와 동일한지 확인하세요.
 
 폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.
 그렇지 않으면 Plazma 또는 JRE가 올바르게 작동하지 않을 수 있습니다.
-{% endhint %}
+{% endhint %}--->
 
 이제 시작 스크립트를 실행합니다. Windows의 경우, 방화벽 허용 선택 창이 표시되면, 반드시 **허용**을 선택해야 합니다.
 
@@ -158,9 +162,10 @@ Windows의 경우, 방화벽은 [3 단계](https://placeholder.com/)에서 허�
 또는 [5.3 단계](https://placeholder.com/)의 [Ngrok](https://ngrok.com/)을 통해 임시 주소를 생성할 수도 있습니다.
 {% endhint %}
 
+<!---
 {% hint style="warn" %}
 Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.
-{% endhint %}
+{% endhint %}--->
 
 ### 5.1 포트 포워딩 필요 유무 확인 <a href="#id-5.1" id="id-5.1"></a>
 
@@ -204,10 +209,10 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 [^6]: 일반적으로 "구동기"라고 알려져 있습니다.
 
-[^7]: "Auto-restart"를 활성화 하면 서버가 자동으로 재시작 됩니다. `Control + C`를 입력해 종료할 수 있습니다.
+[^7]: "Auto-restart"를 활성화 하면 서버가 자동으로 재시작 됩니다. Control + C (Windows의 경우 Shift 포함)를 입력해 종료할 수 있습니다.
 
 [^8]: 시스템의 절반 이상을 넘기는것은 추천되지 않습니다. 예를 들어, 시스템 전체 메모리 용량이 8GB라고 했을 때, 4GB 이상으로 설정하는것은 권장되지 않습니다.
 
-[^9]: End-User License Agreement, 최종 사용자 사용권 계약. 자세한 내용은 [Minecraft 홈페이지](https://www.minecraft.net/ko-kr/usage-guidelines)를 확인해 주세요.
+[^9]: End-User License Agreement, 최종 사용자 사용권 계약. 자세한 내용은 Minecraft 홈페이지 (https://www.minecraft.net/ko-kr/usage-guidelines) 를 확인해 주세요.
 
 [^10]: Universal Plug & Play. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
