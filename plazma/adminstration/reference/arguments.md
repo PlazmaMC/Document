@@ -44,6 +44,25 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 
 {% endhint %}
 
+### 전체 시스템 속성
+
+#### `Plazma.iKnowWhatIAmDoing`
+
+- **형태**: `Boolean`
+- **기본값**: `false`
+
+Plazma가 초기화될 때 출력되는 경고문을 억제할지 결정합니다.
+
+#### `Plazma.aggressiveOptimize`
+
+- **형태**: `Boolean`
+- **기본값**: `false`
+
+처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용할지 결정합니다.
+
+활성화 하면 서버가 더욱 빨라지고 안전해지지만,
+일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
+
 ---
 
 [^1]: `java (...) -jar server.jar (...)`
