@@ -170,7 +170,7 @@ Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서�
 
 ### 5.1 포트 포워딩 필요 유무 확인 <a href="#id-5.1" id="id-5.1"></a>
 
-[실행 창](#user-content-fn-3)[^3]에 다음과 같이 입력하고 실행합니다.
+실행 창에 다음과 같이 입력하고 실행합니다.
 
 ```batch
 powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Invoke-WebRequest "ifconfig.me").content"
