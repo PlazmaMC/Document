@@ -40,6 +40,27 @@ TODO
 배치 파일이 아닙니다.
 ```
 
+```log
+TODO
+```
+
+### 1.2 JRE 설치 <a href="#id-1.2" id="id-1.2"></a>
+
+본 가이드에서는 JRE의 종류[^4] 중 하나로 Azul Zulu를 사용합니다.
+
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+
+<details>
+
+<summary>Windows</summary>
+
+1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts&os=windows&architecture=x86-64-bit&package=jdk#zulu) 에서 **JDK 21**을 `.msi` 형태로 다운로드 합니다.
+2. 다운로드된 설치 마법사를 실행하고, `다음`을 클릭합니다.
+3. **__창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화[^5] 한 후,__** `다음`을 클릭합니다.
+4. `설치`를 눌러 JRE 설치를 `완료`합니다.
+
+</details>
+
 [^1]: Java Runtime Environment, Java 실행 환경.
 
 [^2]: Plazma의 기반 Paper는 Spigot을 기반으로 하며, Spigot이 공식 서버 플랫폼을 기반으로 합니다.
