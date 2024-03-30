@@ -1,5 +1,5 @@
 ---
-description: 보려는 문서를 선택하세요.
+description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문해 주세요.
 ---
 
 # 👋 Welcome to PlazmaMC Document Portal
