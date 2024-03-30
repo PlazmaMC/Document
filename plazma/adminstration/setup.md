@@ -224,7 +224,7 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 3. [Ngrok 대시보드](https://dashboard.ngrok.com/get-started/your-authtoken) 에서 인증 토큰을 생성합니다.
     Ngrok 계정이 없는 경우 Google 또는 GitHub 계정을 통해 Ngrok에 가입합니다.
 4. 서버 폴더에서 아래 `Command Line`에 표시되는 명령어[^13]를 실행합니다.
-5. 실행 스크립트 가장 상단에 `start /b ngrok tcp --region jp `[`25565`](#user-content-fn-14)[^14],
+5. 실행 스크립트 가장 상단에 `start /b ngrok tcp --region jp 25565`,
    최하단에 `taskkill /f /t /im ngrok.exe`를 추가합니다.
 6. 콘솔 최상단에 표시된 `Forwarding    tcp://0.tcp.jp.ngrok.io:12345 -> localhost:25565` 에서, `0.tcp.jp.ngrok.io:12345`가 서버의 주소가 됩니다.
 7. 이제 외부에서 해당 주소를 통해 접속할 수 있습니다.
@@ -233,7 +233,7 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 ### 5.4 로컬에서 접속 <a href="#id-5.4" id="id-5.4"></a>
 
-로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 [`cmd /k ipconfig`](#user-content-fn-14)[^14]를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
+로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 `cmd /k ipconfig`를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
 
 예를 들어, 명령어 실행 후 다음과 같이 출력되었을 때,
 
@@ -251,7 +251,7 @@ Windows IP 구성
 
 여기에서 IPv4 주소에 표시된 `192.168.3.7`로 접속을 시도하면 로컬에서 서버에 접속할 수 있습니다.
 
-서버와 게임[^15]이 같은 PC에서 실행되는 경우, `localhost`로 접속할 수 있습니다.
+서버와 게임[^14]이 같은 PC에서 실행되는 경우, `localhost`로 접속할 수 있습니다.
 
 ---
 
@@ -281,6 +281,4 @@ Windows IP 구성
 
 [^13]: `ngrok config add-authtoken (TOKEN)`
 
-[^14]: 포트가 다른 경우 다른 값을 입력하세요.
-
-[^15]: 클라이언트.
+[^14]: 클라이언트.
