@@ -37,4 +37,5 @@
     * [⚠️ 취약점과 해결 방법](plazma/adminstration/expert/fix-exploits.md)
   * [⁉️ 자주 묻는 질문](plazma/adminstration/faq.md)
 * [⚙️ 개발자 가이드](plazma/developers.md)
+  * [✏️ 기여하기](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   * [☕ Javadocs](https://jd.plazmamc.org/)
