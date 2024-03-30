@@ -4,6 +4,8 @@ description: Plazma로 직접 자신만의 서버를 만들어 보세요.
 
 # 시작하기
 
+<a href="#id-tof" id="id-tof"></a>
+
 ## 0. 기본 요구 사항 <a href="#id-0" id="id-0"></a>
 
 Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
@@ -116,6 +118,26 @@ sudo dnf install -y zulu21-ca-jre-headless
 
 ## 2. Plazma 다운로드
 
+Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니다.
+
+{% hint style="warning" %}
+대부분의 경우에는 **Reobf Paperclip**을 사용합니다.
+
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것이며, 일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+{% endhint %}
+
+실행 파일의 이름은 `plazma-(버전 관리자)-1.20.4-R0.1-SNAPSHOT-(매핑 형태).jar` 로 정해집니다.
+
+- **매핑 형태**
+    매핑은 Minecraft의 실제 코드와 난독화된 코드를 잇는 일종의 지도입니다.
+    - **Reobf** - Reobfuscation, Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.
+        1.20.5부터 사용이 종료될 예정입니다.
+    - **Mojmap** - Mojang 매핑, 바닐라 Minecraft 매핑입니다.
+- **버전 관리자**
+    버전 관리자는 서버 구동에 필요한 라이브러리와, 서버 파일을 패치하는 서버의 런처라고 할 수 있습니다.
+    - **Paperclip** - PaperMC 팀에서 Paper 및 기타 파생 플랫폼을 위해 개발한 관리자로, 라이브러리를 다운로드 하고 서버에 패치를 적용하는 역할을 합니다.
+    - **Bundler** - 바닐라 Minecraft 버전 관리자입니다.
+
 ---
 
 ## 3. 시작 스크립트 생성 <a href="#id-3" id="id-3"></a>
@@ -142,11 +164,9 @@ Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령�
 
 시작 스크립트를 한 번 실행하면, 폴더에 `eula.txt` 가 생성됩니다.
 
-EULA[^9]는 Mojang Studios(Microsoft 주식회사)의 서비스를 이용함으로써 동의해야 하는 사용권 계약입니다.
+EULA[^9]는 [Mojang Studios](#user-content-fn-10)[^10]의 서비스를 이용함으로써 동의해야 하는 사용권 계약입니다.
 
-EULA에 동의하지 않는 경우 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재를 받을 수 있습니다.](#user-content-fn-EULA)[^EULA]
-
-[^EULA]: 대한민국의 경우 게임산업진흥에 관한 법률 제32조 제1항 제9호에 따라 _한국 마이크로스프트 주식회사_에서 법적 고소를 할 수 있습니다.
+EULA에 동의하지 않는 경우 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재를 받을 수 있습니다.](#user-content-fn-11)[^11]
 
 EULA에 동의하려면 `eula.txt` 파일의 `eula=false`를 `eula=true`로 수정하고 저장합니다.
 
@@ -159,7 +179,7 @@ EULA에 동의하려면 `eula.txt` 파일의 `eula=false`를 `eula=true`로 수�
 Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
-해당 가이드에서는 Windows 운영 체제 및 UPnP[^11]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.
+해당 가이드에서는 Windows 운영 체제 및 UPnP[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.
 
 라우터가 UPnP를 지원하지 않는 경우, 라우터 별로 패널이 다르므로, 직접 자료를 검색해야 합니다.
 
@@ -186,7 +206,60 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 그런 다음, 서버를 재시작하면, Plazma가 자동으로 포트 포워딩을 시도합니다.
 
+아래는 콘솔에 출력되는 메세지에 따른 UPnP 성공 여부이며, 콘솔에서는 `[UPnP] (메세지)` 와 같이 출력됩니다.
+
+| 메세지 | 의미 |
+| --- | --- |
+| `Successfully opened port (포트)` | 포트포워딩 성공. |
+| `Port (포트) is already open` | 다른 서비스가 해당 포트를 사용중임. |
+| `Failed to open port (포트)` | 포트포워딩 실패. |
+| `Service is unavailable` | 라우터가 UPnP를 지원하지 않음. |
+
+서버가 종료되면 Plazma가 자동으로 포트를 닫습니다.
+
 ### 5.3 Ngrok으로 임시 주소 생성 <a href="#id-5.3" id="id-5.3"></a>
+
+다음은 Windows 환경에서 Ngrok을 설치하고 사용하는 방법입니다.
+
+1. [Ngrok 홈페이지](https://ngrok.com/download)에서 `Windows (64-bit)` ZIP 파일을 다운로드 합니다.
+2. 다운로드한 Ngrok을 서버 폴더에 넣습니다.
+3. [Ngrok 대시보드](https://dashboard.ngrok.com/get-started/your-authtoken) 에서 인증 토큰을 생성합니다.
+    Ngrok 계정이 없는 경우 Google 또는 GitHub 계정을 통해 Ngrok에 가입합니다.
+4. 서버 폴더에서 아래 `Command Line`에 표시되는 명령어[^13]를 실행합니다.
+5. 실행 스크립트 가장 상단에 `start /b ngrok tcp --region jp `[`25565`](#user-content-fn-14)[^14],
+   최하단에 `taskkill /f /t /im ngrok.exe`를 추가합니다.
+6. 콘솔 최상단에 표시된 `Forwarding    tcp://0.tcp.jp.ngrok.io:12345 -> localhost:25565` 에서, `0.tcp.jp.ngrok.io:12345`가 서버의 주소가 됩니다.
+7. 이제 외부에서 해당 주소를 통해 접속할 수 있습니다.
+
+이러한 방법은 단기적인 테스트, 참여형 또는 친구들과 함께 플레이하기에 유용합니다.
+
+### 5.4 로컬에서 접속 <a href="#id-5.4" id="id-5.4"></a>
+
+로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 [`cmd /k ipconfig`](#user-content-fn-14)[^14]를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
+
+예를 들어, 명령어 실행 후 다음과 같이 출력되었을 때,
+
+```log
+Windows IP 구성
+
+이더넷 어댑터 이더넷:
+
+    연결된 DNS 접미사. . . . :
+    IPv4 주소. . . . . . . . . : 192.168.3.7
+    서브넷 마스크 . . . . . . . : 255.255.255.0
+    기본 게이트웨이 . . . . . . : 192.168.3.1
+
+```
+
+여기에서 IPv4 주소에 표시된 `192.168.3.7`로 접속을 시도하면 로컬에서 서버에 접속할 수 있습니다.
+
+서버와 게임[^15]이 같은 PC에서 실행되는 경우, `localhost`로 접속할 수 있습니다.
+
+## 사용자화 <a href="#id-eof" id="id-eof"></a>
+
+서버에 기능을 추가하고, 서버를 사용자화하는 방법에 대해 알아보려면 [사용자화](./customization.md) 가이드를 둘러보세요.
+
+[최상단으로 돌아가기](#id-tof)
 
 ---
 
@@ -208,4 +281,14 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 [^9]: End-User License Agreement, 최종 사용자 사용권 계약. 자세한 내용은 [Minecraft 홈페이지](https://www.minecraft.net/ko-kr/usage-guidelines)를 확인해 주세요.
 
-[^11]: Universal Plug & Play. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
+[^10]: Microsoft Corporation.
+
+[^11]: 대한민국의 경우 게임산업진흥에 관한 법률 제32조 제1항 제9호에 따라 _한국 마이크로스프트 주식회사_에서 법적 고소를 할 수 있습니다.
+
+[^12]: Universal Plug & Play. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
+
+[^13]: `ngrok config add-authtoken (TOKEN)`
+
+[^14]: 포트가 다른 경우 다른 값을 입력하세요.
+
+[^15]: 클라이언트.
