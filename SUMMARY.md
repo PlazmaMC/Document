@@ -21,11 +21,11 @@
       * [🪨 Property](plazma/adminstration/reference/configurations/property.md)
       * [🪣 Bukkit](plazma/adminstration/reference/configurations/bukkit.md)
       * [🚰 Spigot](plazma/adminstration/reference/configurations/spigot.md)
-      * [🛩️ Paper](https://papermc.io/)
+      * 🛩️ Paper
         * [🌏 전역 구성](plazma/adminstration/reference/configurations/paper-global.md)
         * [🏳️ 월드별 구성](plazma/adminstration/reference/configurations/paper-world.md)
       * [🐡 Pufferfish](plazma/adminstration/reference/configurations/pufferfish.md)
-      * [🦑 Purpur](https://purpurmc.org/)
+      * 🦑 Purpur
         * [🌏 전역 구성](plazma/adminstration/reference/configurations/purpur-global.md)
         * [🏳️ 월드별 구성](plazma/adminstration/reference/configurations/purpur-world.md)
       * ✨ Plazma
