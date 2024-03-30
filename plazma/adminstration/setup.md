@@ -168,6 +168,24 @@ Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포�
 Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.
 {% endhint %}
 
+### 5.1 포트 포워딩 필요 유무 확인 <a href="#id-5.1" id="id-5.1"></a>
+
+[실행 창](#user-content-fn-3)[^3]에 다음과 같이 입력하고 실행합니다.
+
+```batch
+powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Invoke-WebRequest "ifconfig.me").content"
+```
+
+만약 출력이 `True`라면, 여기서 마쳐도 되지만, `False`라면 포트 포워딩을 설정해야 합니다.
+
+### 5.2 UPnP 활성화 <a href="#id-5.2" id="id-5.2"></a>
+
+서버 폴더의 `purpur.yml`에서, `network.upnp-port-forwarding`을 `true`로 활성화합니다.
+
+그런 다음, 서버를 재시작하면, Plazma가 자동으로 포트 포워딩을 시도합니다.
+
+### 5.3 Ngrok으로 임시 주소 생성 <a href="#id-5.3" id="id-5.3"></a>
+
 ---
 
 [^1]: Java Runtime Environment, Java 실행 환경.
