@@ -1,6 +1,9 @@
 # Table of contents
 
 * [🏠 Welcome to Docs Portal](README.md)
+  * [⚛️ GitHub](https://github.com/PlazmaMC/PlazmaBukkit)
+  * [📊 bStats](https://bstats.org/plugin/server-implementation/Plazma)
+  * [💬 Discord](https://discord.gg/MmfC52K8A8)
 
 ## Plazma
 * [✨ Plazma Usage Docs](plazma/README.md)
@@ -18,10 +21,16 @@
       * [🪨 Property](plazma/adminstration/reference/configurations/property.md)
       * [🪣 Bukkit](plazma/adminstration/reference/configurations/bukkit.md)
       * [🚰 Spigot](plazma/adminstration/reference/configurations/spigot.md)
-      * [🛩️ Paper](plazma/adminstration/reference/configurations/paper.md)
+      * [🛩️ Paper](https://papermc.io/)
+        * [🌏 전역 구성](plazma/adminstration/reference/configurations/paper-global.md)
+        * [🏳️ 월드별 구성](plazma/adminstration/reference/configurations/paper-world.md)
       * [🐡 Pufferfish](plazma/adminstration/reference/configurations/pufferfish.md)
-      * [🦑 Purpur](plazma/adminstration/reference/configurations/purpur.md)
-      * [✨ Plazma](plazma/adminstration/reference/configurations/plazma.md)
+      * [🦑 Purpur](https://purpurmc.org/)
+        * [🌏 전역 구성](plazma/adminstration/reference/configurations/purpur-global.md)
+        * [🏳️ 월드별 구성](plazma/adminstration/reference/configurations/purpur-world.md)
+      * ✨ Plazma
+        * [🌏 전역 구성](plazma/adminstration/reference/configurations/plazma-global.md)
+        * [🏳️ 월드별 구성](plazma/adminstration/reference/configurations/plazma-world.md)
   * [🎓 고급](plazma/adminstration/expert/README.md)
     * [🧹 최적화](plazma/adminstration/expert/optimize.md)
     * [↩️ 바닐라화](plazma/adminstration/expert/vanillaize.md)
