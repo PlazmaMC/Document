@@ -57,24 +57,18 @@ Error: A fatal exception has occurred. Program will exit.
 설치를 완료한 후, [1.1 단계](setup.md#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
-
 {% tab title="Windows" %}
-
-1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts&os=windows&architecture=x86-64-bit&package=jdk#zulu) 에서 **JDK 21**을 `.msi` 형태로 다운로드 합니다.
+1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.msi` 형태로 다운로드 합니다.
 2. 다운로드된 설치 마법사를 실행하고, `다음`을 클릭합니다.
-3. **__창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화[^5] 한 후,__** `다음`을 클릭합니다.
+3. **창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화 한 후,** `다음`을 클릭합니다.
 4. `설치`를 눌러 JRE 설치를 `완료`합니다.
-
 {% endtab %}
 
 {% tab title="macOS" %}
-
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts&os=macos&architecture=x86-64-bit&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
-
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
-
 먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
 
 ```bash
@@ -90,11 +84,9 @@ echo "deb [signed-by=/usr/share/keyrings/azul.gpg] https://repos.azul.com/zulu/d
 ```bash
 sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-headless
 ```
-
 {% endtab %}
 
 {% tab title="Fedora/RHEL" %}
-
 다음 명령어를 입력하여 JRE를 설치할 수 있습니다.
 
 ```bash
@@ -102,9 +94,7 @@ sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
 
 sudo dnf install -y zulu21-ca-jre-headless
 ```
-
 {% endtab %}
-
 {% endtabs %}
 
 ***
@@ -155,7 +145,7 @@ Plazma에 [사용할 메모리](#user-content-fn-6)[^6]만 입력하면 명령�
 그렇지 않으면 Plazma 또는 JRE가 올바르게 작동하지 않을 수 있습니다.
 {% endhint %}
 
-이제 시작 스크립트를 실행합니다. Windows의 경우, 방화벽 허용 선택 창이 표시되면, 반드시 **허용**을 선택해야 합니다.
+이제 시작 스크립트를 실행합니다. Windows의 경우, <mark style="background-color:orange;">방화벽 허용 선택 창에서, 반드시</mark> <mark style="background-color:orange;"></mark><mark style="background-color:orange;">**허용**</mark><mark style="background-color:orange;">을 선택</mark>해야 합니다.
 
 ## 4. EULA 동의 <a href="#id-4" id="id-4"></a>
 
@@ -268,6 +258,6 @@ Windows IP 구성
 
 [^8]: Microsoft Corporation.
 
-[^9]: 대한민국의 경우 게임산업진흥에 관한 법률 제32조 제1항 제9호에 따라 _한국 마이크로스프트 주식회사_에서 법적 고소를 할 수 있습니다.
+[^9]: 대한민국의 경우 게임산업진흥에 관한 법률 제32조 제1항 제9호에 따라 \_한국 마이크로스프트 주식회사\_에서 법적 고소를 할 수 있습니다.
 
 [^10]: Universal Plug & Play. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
