@@ -61,6 +61,43 @@ TODO
 
 </details>
 
+<details>
+
+<summary>macOS</summary>
+
+1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts&os=macos&architecture=x86-64-bit&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태로 다운로드 합니다.
+2. 다운로드된 설치 마법사를 실행하여 JRE를 설치합니다.
+
+</details>
+
+<details>
+
+<summary>Linux (Debian, Ubuntu 등 APT 계열)</summary>
+
+먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
+
+```bash
+sudo apt install gnupg ca-certificates curl --no-install-recommends --no-install-suggests -y
+
+curl -s https://repos.azul.com/azul-repo.key | sudo gpg --dearmor -o /usr/share/keyrings/azul.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/azul.gpg] https://repos.azul.com/zulu/deb stable main" | sudo tee /etc/apt/sources.list.d/zulu.list
+```
+
+그런 다음, 다음 명령어를 터미널에서 실행하여 JRE를 설치합니다.
+
+{% hint style="info" %}
+본 가이드에서는 리눅스 환경에 창 관리자가 설치되어 있지 않음을 가정하고 작성되었습니다.
+
+GUI 환경을 사용하려면 `-headless` 를 제거하세요.
+{% endhint %}
+
+```bash
+sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-headless
+```
+
+</details>
+
 [^1]: Java Runtime Environment, Java 실행 환경.
 
 [^2]: Plazma의 기반 Paper는 Spigot을 기반으로 하며, Spigot이 공식 서버 플랫폼을 기반으로 합니다.
