@@ -8,14 +8,14 @@ description: Plazma로 직접 자신만의 서버를 만들어 보세요.
 
 Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
 
-|         | 최저 | 권장 |
-|   ---   | ---- | --- |
-| 아키텍처 | x64 |  -  |
-|   RAM   | 8GB | 16GB |
+|     | 최저 | 권장 |
+| --- | --- | --- |
+| 아키텍쳐 | x64 | - |
+| RAM | 8GB | 16GB |
 | 저장공간 | 1GB | 8GB |
-|   JRE   |  17 |  21 |
+| JRE | 17 | 21 |
 
-또한, 앞으로 파일을 열어 수정해야 하는 경우가 많아지므로, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것을 권장합니다.
+그리고, 원할한 구성 파일 수정을 위하여, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것을 권장합니다.
 
 ---
 
@@ -144,9 +144,11 @@ Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령�
 
 EULA[^9]는 Mojang Studios(Microsoft 주식회사)의 서비스를 이용함으로써 동의해야 하는 사용권 계약입니다.
 
-EULA에 동의하지 않는 경우 서버를 시작할 수 없으며, EULA를 위반하는 경우 Microsoft가 서버주의 계정을 정지하는 등 제재를 하거나, **대한민국의 경우 게임산업진흥에 관한 법률 제32조 제1항 제9호에 따라 "한국 마이크로스프트 주식회사"가 법적 고소를 할 수 있습니다.**
+EULA에 동의하지 않는 경우 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재를 받을 수 있습니다.](#user-content-fn-EULA)[^EULA]
 
-`eula.txt` 파일의 `eula=false`를 `eula=true`로 수정하고 저장합니다.
+[^EULA]: 대한민국의 경우 게임산업진흥에 관한 법률 제32조 제1항 제9호에 따라 _한국 마이크로스프트 주식회사_에서 법적 고소를 할 수 있습니다.
+
+EULA에 동의하려면 `eula.txt` 파일의 `eula=false`를 `eula=true`로 수정하고 저장합니다.
 
 ---
 
@@ -157,7 +159,7 @@ EULA에 동의하지 않는 경우 서버를 시작할 수 없으며, EULA를 �
 Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
-해당 가이드에서는 Windows 운영 체제 및 UPnP[^10]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.
+해당 가이드에서는 Windows 운영 체제 및 UPnP[^11]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.
 
 라우터가 UPnP를 지원하지 않는 경우, 라우터 별로 패널이 다르므로, 직접 자료를 검색해야 합니다.
 
@@ -202,8 +204,8 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 [^7]: "Auto-restart"를 활성화 하면 서버가 자동으로 재시작 됩니다. `Control + C`를 입력해 종료할 수 있습니다.
 
-[^8]: 시스템의 절반 이상을 넘기는것은 추천되지 않습니다. 예를 들어, 시스템 전체 메모리 용량이 8GB라고 했을 때, 4GB 이상으로 설정하는것은 권장되지 않습니다.
+[^8]: 시스템의 절반 이상을 넘기는것은 권장하지 않습니다. 예를 들어, 시스템 전체 메모리 용량이 8GB라고 했을 때, 4GB 이상으로 설정하는것은 권장되지 않습니다.
 
 [^9]: End-User License Agreement, 최종 사용자 사용권 계약. 자세한 내용은 [Minecraft 홈페이지](https://www.minecraft.net/ko-kr/usage-guidelines)를 확인해 주세요.
 
-[^10]: Universal Plug & Play. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
+[^11]: Universal Plug & Play. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
