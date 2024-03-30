@@ -51,17 +51,99 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 - **형태**: `Boolean`
 - **기본값**: `false`
 
-Plazma가 초기화될 때 출력되는 경고문을 억제할지 결정합니다.
+Plazma가 초기화될 때 출력되는 경고문[^6]을 억제합니다.
 
 #### `Plazma.aggressiveOptimize`
 
 - **형태**: `Boolean`
 - **기본값**: `false`
 
-처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용할지 결정합니다.
+{% hint style="warning" %}
+
+해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
+
+{% endhint %}
+
+처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
 
 활성화 하면 서버가 더욱 빨라지고 안전해지지만,
 일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
+
+#### `letMeReload`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+`/reload` 명령어의 재확인 메세지를 비활성화 합니다.
+
+{% hint style="warning" %}
+
+`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.
+
+플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
+
+{% endhint %}
+
+#### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnWhenLegacyFormattingDetected" id="warnWhenLegacyFormattingDetected"></a>
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
+
+#### `Paper.playerConnection.keepAlive`
+
+- **형태**: `Integer`
+- **기본값**: `30`
+
+플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
+
+일반적인 경우, 게임[^7]은 서버로 계속해서 하트비트[^8] 신호를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9]\
+게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+
+#### `Paper.disableChannelLimit`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+플레이어당 적용되는 128개의 플러그인 채널(리스너)의 개수 제한을 비활성화 합니다.
+
+#### `Paper.disableClassPrioritization`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+플러그인 클래스 우선 순위 체계를 비활성화 합니다.
+
+플러그인 셰이드에서 문제가 발생한 경우 유용합니다.
+
+#### `Paper.disableFlushConsolidate`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+Netty flush consolidation 체계를 비활성화 합니다.
+
+#### `Paper.debugDynamicMissingKeys`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
+
+### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
+
+아래 시스템 속성은 사용이 중단된 속성입니다.
+
+#### `timings.bypassMax`
+
+- **형태**: `Boolean`
+- **기본값**: `false`
+- **사용 중단됨**: Timings가 Plazma에서 전면 제거된 후 부터
+
+Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되는지 결정합니다.
+
+이렇게 하더라도 API에서 예외 처리되지 않으면 레이트 제한이 적용됩니다.
 
 ---
 
