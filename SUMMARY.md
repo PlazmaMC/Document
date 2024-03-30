@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🇺🇸 Switch to English](https://docs.plazmamc.org/)
+* [🇺🇸 Switch to English](https://docs.plazmamc.org/en/)
 
 * [🏠 Welcome to Docs Portal](README.md)
 
@@ -12,3 +12,4 @@
     * [🆕 시작하기](plazma/adminstration/setup.md)
     * [🎨 사용자화](plazma/adminstration/customization.md)
   * [⚙️ 개발자 가이드](plazma/developers/README.md)
+    * [☕ Javadocs](https://jd.plazmamc.org/)
