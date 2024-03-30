@@ -56,7 +56,7 @@ TODO
 
 1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts&os=windows&architecture=x86-64-bit&package=jdk#zulu) 에서 **JDK 21**을 `.msi` 형태로 다운로드 합니다.
 2. 다운로드된 설치 마법사를 실행하고, `다음`을 클릭합니다.
-3. **__창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화[^5] 한 후,__** `다음`을 클릭합니다.
+3. **_창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화[^5] 한 후,_** `다음`을 클릭합니다.
 4. `설치`를 눌러 JRE 설치를 `완료`합니다.
 
 </details>
@@ -125,7 +125,7 @@ Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령�
 
 이제 다운로드한 시작 스크립트와 Plazma를 새 폴더에 이동합니다.
 
-{% hint style="warning" %}
+{% hint style="warn" %}
 시작 스크립트가 자신의 운영 체제와 동일한지 확인하세요.
 
 폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.
@@ -158,7 +158,7 @@ Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포�
 또는 [5.3 단계](#id-5.3)의 [Ngrok](https://ngrok.com/)을 통해 임시 주소를 생성할 수도 있습니다.
 {% endhint %}
 
-{% hint style="warning" %}
+{% hint style="warn" %}
 Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.
 {% endhint %}
 
