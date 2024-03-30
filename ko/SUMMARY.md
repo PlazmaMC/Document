@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Plazma 사용 설명서](README.md)
+* [Plazma 사용 설명서](../)
 
 ## Group 1
 
