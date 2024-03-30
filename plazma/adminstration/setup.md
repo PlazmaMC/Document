@@ -1,11 +1,16 @@
 ---
-description: Temporary test file
+description: Plazma로 직접 자신만의 서버를 만들어 보세요.
 ---
 
-# Temporary
+# 시작하기
 
-[Link](https://google.com)
+## 0. 기본 요구 사항 <a href="#id-0" id="id-0"></a>
 
-Annotate[^1]
+Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
 
-[^1]: Test.
+|         | 최저 | 권장 |
+|   ---   | ---- | --- |
+| 아키텍처 | x64 |  -  |
+|   RAM   | 8GB | 16GB |
+| 저장공간 | 1GB | 8GB |
+|   JRE   |  17 |  21 |
