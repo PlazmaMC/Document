@@ -86,11 +86,7 @@ echo "deb [signed-by=/usr/share/keyrings/azul.gpg] https://repos.azul.com/zulu/d
 
 그런 다음, 다음 명령어를 터미널에서 실행하여 JRE를 설치합니다.
 
-{% hint style="info" %}
-본 가이드에서는 리눅스 환경에 창 관리자가 설치되어 있지 않음을 가정하고 작성되었습니다.
-
-GUI 환경을 사용하려면 `-headless` 를 제거하세요.
-{% endhint %}
+<!--- headless 제거 --->
 
 ```bash
 sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-headless
