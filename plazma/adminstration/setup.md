@@ -17,6 +17,8 @@ Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 
 
 또한, 앞으로 파일을 열어 수정해야 하는 경우가 많아지므로, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것을 권장합니다.
 
+---
+
 ## 1. JRE 설치 <a href="#id-1" id="id-1"></a>
 
 이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JRE[^1]를 필요로 합니다.
@@ -110,7 +112,11 @@ sudo dnf install -y zulu21-ca-jre-headless
 
 </details>
 
+---
+
 ## 2. Plazma 다운로드
+
+---
 
 ## 3. 시작 스크립트 생성 <a href="#id-3" id="id-3"></a>
 
@@ -131,6 +137,38 @@ Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령�
 {% endhint %}
 
 이제 시작 스크립트를 실행합니다. Windows의 경우, 방화벽 허용 선택 창이 표시되면, 반드시 **허용**을 선택해야 합니다.
+
+## 4. EULA 동의 <a href="#id-4" id="id-4"></a>
+
+시작 스크립트를 한 번 실행하면, 폴더에 `eula.txt` 가 생성됩니다.
+
+EULA[^9]는 Mojang Studios(Microsoft 주식회사)의 서비스를 이용함으로써 동의해야 하는 사용권 계약입니다.
+
+EULA에 동의하지 않는 경우 서버를 시작할 수 없으며, EULA를 위반하는 경우 Microsoft가 서버주의 계정을 정지하는 등 제재를 하거나, **대한민국의 경우 게임산업진흥에 관한 법률 제32조 제1항 제9호에 따라 "한국 마이크로스프트 주식회사"가 법적 고소를 할 수 있습니다.**
+
+`eula.txt` 파일의 `eula=false`를 `eula=true`로 수정하고 저장합니다.
+
+---
+
+## 5. 외부 접속 허용 (Windows) <a href="#id-5" id="id-5"></a>
+
+현대 운영 체제는 외부에서 위험한 접근을 차단하기 위해, 기본적으로 **방화벽**과 **라우터**가 외부 접속을 차단하고 있습니다.
+
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+
+{% hint style="info" %}
+해당 가이드에서는 Windows 운영 체제 및 UPnP[^10]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.
+
+라우터가 UPnP를 지원하지 않는 경우, 라우터 별로 패널이 다르므로, 직접 자료를 검색해야 합니다.
+
+또는 [5.3 단계](#id-5.3)의 [Ngrok](https://ngrok.com/)을 통해 임시 주소를 생성할 수도 있습니다.
+{% endhint %}
+
+{% hint style="warning" %}
+Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.
+{% endhint %}
+
+---
 
 [^1]: Java Runtime Environment, Java 실행 환경.
 
