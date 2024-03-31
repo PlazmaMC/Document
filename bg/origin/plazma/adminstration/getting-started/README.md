@@ -1,35 +1,35 @@
 ---
-description: Plazma로 서버를 만드는 방법을 알아 보세요.
+description: Научете как да създадете сървър с Plazma.
 ---
 
-# 👟 시작하기
+# 👟 Започване
 
-Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
+За стабилно използване на Plazma, системата трябва да отговаря на следните изисквания.
 
-|      |  최저 |   권장 |
-| :--: | --: | ---: |
-| 아키텍쳐 | x64 |    - |
-|  RAM | 8GB | 16GB |
-| 저장공간 | 1GB |  8GB |
-|  JRE |  17 |   21 |
+|                            | Минимални | Препоръчителни |
+| :------------------------: | --------: | -------------: |
+|         Архитектура        |       x64 |              - |
+|             RAM            |       8GB |           16GB |
+| Пространство за съхранение |       1GB |            8GB |
+|             JRE            |        17 |             21 |
 
-원할한 구성 파일 수정을 위하여, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것도 좋습니다.
+За улеснение на редакцията на конфигурационни файлове, е добре да инсталирате редактор като [Visual Studio Code](https://code.visualstudio.com/download).
 
 ***
 
-## 1. JRE 설치
+## 1. Инсталиране на JRE
 
-이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JRE[^1]를 필요로 합니다.
+Както се разбира от името, Minecraft: **"Java"** Edition е разработен на Java и изисква JRE[^1] за стартиране.
 
-Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JRE를 설치해야 합니다.
+Понеже Plazma се базира на официалната сървърна платформа на Mojang Studios[^2], за да използвате Plazma, трябва да инсталирате JRE.
 
-### 1.1 JRE 유무 확인
+### 1.1 Проверка на наличността на JRE
 
-JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
+За да проверите дали JRE е инсталиран на системата, въведете [`cmd /k java --version`](#user-content-fn-4)[^4] в [командния ред](#user-content-fn-3) и го стартирайте.
 
-다음과 같이 출력되면 [2 단계](setup.md#id-2)로 건너뜁니다.
+Ако получите следния изход, преминете към [стъпка 2](setup.md#id-2).
 
-{% code title="올바른 출력" overflow="wrap" lineNumbers="true" %}
+{% code title="Правилен изход" overflow="wrap" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -39,9 +39,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](setup.md#id-1.2)를 수행해야 합니다.
+Ако не получите този изход или получите следния, значи JRE липсва или е твърде стар и трябва да изпълните [стъпка 1.2](setup.md#id-1.2).
 
-{% code title="JRE가 설치되어 있지 않음" overflow="wrap" lineNumbers="true" %}
+{% code title="JRE липсва" overflow="wrap" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
@@ -50,7 +50,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-{% code title="JRE가 너무 오래됨" overflow="wrap" lineNumbers="true" %}
+{% code title="JRE е твърде стар" overflow="wrap" lineNumbers="true" %}
 
 ```log
 Unrecognized option: --version
