@@ -1,10 +1,10 @@
 ---
-description: 지금 바로 Plazma를 다운로드하여 직접 사용해 보세요.
+description: এখনই Plazma ডাউনলোড করুন এবং নিজে ব্যবহার করুন।
 ---
 
-# ⬇️ 다운로드
+# ⬇️ ডাউনলোড
 
-#### 버전 지원에 대한 자세한 정보를 알고 싶다면?
+#### সমর্থিত সংস্করণের বিস্তারিত তথ্য জানতে চান?
 
 {% content-ref url="supported-versions.md" %}
 [supported-versions.md](supported-versions.md)
@@ -12,4 +12,4 @@ description: 지금 바로 Plazma를 다운로드하여 직접 사용해 보세�
 
 ***
 
-<table data-view="cards"><thead><tr><th>버전</th><th>다운로드</th></tr></thead><tbody><tr><td>1.20.5</td><td><em>Waiting for release</em></td></tr><tr><td>1.20.4</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar">클릭하여 다운로드</a></td></tr><tr><td>1.20.2</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.2/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar">클릭하여 다운로드</a></td></tr><tr><td>1.20.1</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.1/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar">클릭하여 다운로드</a></td></tr><tr><td>1.19.4</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar">클릭하여 다운로드</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>সংস্করণ</th><th>ডাউনলোড</th></tr></thead><tbody><tr><td>1.20.5</td><td><em>রিলিজের জন্য অপেক্ষা করা হচ্ছে</em></td></tr><tr><td>1.20.4</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar">ডাউনলোড করতে ক্লিক করুন</a></td></tr><tr><td>1.20.2</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.2/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar">ডাউনলোড করতে ক্লিক করুন</a></td></tr><tr><td>1.20.1</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.1/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar">ডাউনলোড করতে ক্লিক করুন</a></td></tr><tr><td>1.19.4</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar">ডাউনলোড করতে ক্লিক করুন</a></td></tr></tbody></table>
