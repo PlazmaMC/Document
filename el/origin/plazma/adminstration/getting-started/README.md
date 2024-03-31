@@ -1,35 +1,35 @@
 ---
-description: Plazma로 서버를 만드는 방법을 알아 보세요.
+description: Μάθετε πώς να δημιουργήσετε έναν διακομιστή με το Plazma.
 ---
 
-# 👟 시작하기
+# 👟 Ξεκινήστε
 
-Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
+Για να χρησιμοποιήσετε το Plazma με σταθερότητα, το σύστημά σας πρέπει να πληροί τις ακόλουθες απαιτήσεις.
 
-|      |  최저 |   권장 |
-| :--: | --: | ---: |
-| 아키텍쳐 | x64 |    - |
-|  RAM | 8GB | 16GB |
-| 저장공간 | 1GB |  8GB |
-|  JRE |  17 |   21 |
+|                   | Ελάχιστο | Συνιστώμενο |
+| :---------------: | -------: | ----------: |
+|   Αρχιτεκτονική   |      x64 |           - |
+|        RAM        |      8GB |        16GB |
+| Χώρος αποθήκευσης |      1GB |         8GB |
+|        JRE        |       17 |          21 |
 
-원할한 구성 파일 수정을 위하여, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것도 좋습니다.
+Για ομαλή επεξεργασία αρχείων ρυθμίσεων, είναι καλό να εγκαταστήσετε έναν επεξεργαστή κώδικα όπως το [Visual Studio Code](https://code.visualstudio.com/download).
 
 ***
 
-## 1. JRE 설치
+## 1. Εγκατάσταση JRE
 
-이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JRE[^1]를 필요로 합니다.
+Όπως υποδηλώνει το όνομά του, το Minecraft: **"Java"** Edition έχει αναπτυχθεί με Java και για να εκτελεστεί απαιτεί το JRE[^1].
 
-Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JRE를 설치해야 합니다.
+Δεδομένου ότι το Plazma βασίζεται στην επίσημη πλατφόρμα εξυπηρέτησης της Mojang Studios, πρέπει επίσης να εγκαταστήσετε το JRE για να χρησιμοποιήσετε το Plazma.
 
-### 1.1 JRE 유무 확인
+### 1.1 Έλεγχος ύπαρξης JRE
 
-JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
+Για να ελέγξετε αν το JRE είναι εγκατεστημένο στο σύστημά σας, πληκτρολογήστε [`cmd /k java --version`](#user-content-fn-4)[^4] στην `Γραμμή Εντολών` και πατήστε `Enter`.
 
-다음과 같이 출력되면 [2 단계](setup.md#id-2)로 건너뜁니다.
+Εάν εμφανιστεί το ακόλουθο, πηγαίνετε στο [2ο βήμα](setup.md#id-2).
 
-{% code title="올바른 출력" overflow="wrap" lineNumbers="true" %}
+{% code title="Σωστή έξοδος" overflow="wrap" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -39,9 +39,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](setup.md#id-1.2)를 수행해야 합니다.
+Εάν δεν εμφανιστεί ή εμφανιστεί όπως παρακάτω, σημαίνει ότι το JRE δεν υπάρχει ή είναι πολύ παλιό και πρέπει να εκτελέσετε το [1.2 βήμα](setup.md#id-1.2).
 
-{% code title="JRE가 설치되어 있지 않음" overflow="wrap" lineNumbers="true" %}
+{% code title="Το JRE δεν είναι εγκατεστημένο" overflow="wrap" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
@@ -50,7 +50,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-{% code title="JRE가 너무 오래됨" overflow="wrap" lineNumbers="true" %}
+{% code title="Το JRE είναι πολύ παλιό" overflow="wrap" lineNumbers="true" %}
 
 ```log
 Unrecognized option: --version
@@ -60,23 +60,23 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% endcode %}
 
-### 1.2 JRE 설치
+### 1.2 Εγκατάσταση JRE
 
-본 가이드에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+Σε αυτό τον οδηγό, θα χρησιμοποιήσουμε το Azul Zulu ως [ένα από τα είδη](#user-content-fn-5)[^5] του JRE.
 
-설치를 완료한 후, [1.1 단계](setup.md#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+Αφού ολοκληρώσετε την εγκατάσταση, εκτελέστε ξανά το [1.1 βήμα](setup.md#id-1.1) για να ελέγξετε αν η εγκατάσταση ολοκληρώθηκε σωστά.
 
 {% tabs %}
 {% tab title="Windows" %}
 
-1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.msi` 형태로 다운로드 합니다.
-2. 다운로드된 설치 마법사를 실행하고, `다음`을 클릭합니다.
-3. **창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화 한 후,** `다음`을 클릭합니다.
-4. `설치`를 눌러 JRE 설치를 `완료`합니다.
+1. Κατεβάστε το **JDK 21** από το [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) σε μορφή `.msi`.
+2. Εκτελέστε τον κατεβασμένο οδηγό εγκατάστασης και κάντε κλικ στο `Επόμενο`.
+3. Από το μενού που εμφανίζεται στο κέντρο-αριστερά της οθόνης, ενεργοποιήστε την επιλογή `Set JAVA_HOME variable` και κάντε κλικ στο `Επόμενο`.
+4. Κάντε κλικ στο `Εγκατάσταση` για να ολοκληρώσετε την εγκατάσταση του JRE.
    {% endtab %}
 
 {% tab title="macOS" %}
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
+Κατεβάστε το **JDK 21** από το [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) σε μορφή `.dmg` και εκτελέστε τον οδηγό εγκατάστασης για να εγκαταστήσετε το JRE.
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
