@@ -1,5 +1,5 @@
 ---
-description: Plazma를 전문적으로 다루는 방법에 대해 알아보세요.
+description: Dowiedz się więcej o profesjonalnym podejściu do obsługi Plazmy.
 ---
 
-# 🎓 심화
+# 🎓 Zaawansowane
