@@ -1,526 +1,527 @@
 ---
-description: 시작 인수와 시스템 속성에 대해 알아보세요.
+description: Ismerje meg a kezdő paramétereket és rendszer tulajdonságait.
 ---
 
-# 🎛️ 인수와 속성
+# 🎛️ Paraméterek és tulajdonságok
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,\
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+A kezdő változók és rendszer tulajdonságok olyan értékek, amelyeket a Plazma futtatásához használt parancsokhoz fűznek,\
+és lehetővé teszik, hogy olyan értékeket módosítsanak, amelyeket a Plazma futása után nem lehet megváltoztatni.
 
-[명령어에 덧붙이는 위치에](#user-content-fn-2)[^2] 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
+A **kezdő paraméterek** és a **rendszer tulajdonságok** az [utasításokhoz fűzött helyre](#user-content-fn-2)[^2] vannak felosztva.
 
 ***
 
-## 시스템 속성 <a href="#id-1" id="id-1"></a>
+## Rendszer tulajdonság <a href="#id-1" id="id-1"></a>
 
-시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
+A rendszer tulajdonságok az `-jar` előtt kerülnek be azon értékek közé, amelyeket a Plazma inicializálása előtt a JVM kezel.
 
 {% hint style="warning" %}
 
-### 시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!
+### A rendszer tulajdonságok módosítása befolyásolhatja a Plazma és a JVM működését, és jelentős hatással lehet a játékra!
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Ha nem tudja pontosan, hogy egyes rendszer tulajdonságok milyen szerepet játszanak, **soha ne használja őket!**
 {% endhint %}
 
-### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
+### Használati útmutató <a href="#id-1.1" id="id-1.1"></a>
 
-시스템 속성은 `java` 와 `-jar` 사이에 Java 명령 인수로써 입력됩니다.
+A rendszer tulajdonságok a `java` és a `-jar` közötti Java parancsparaméterként kerülnek megadásra.
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,\
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+Például, ha alkalmazni kívánja a `Plazma.dummyProperty` rendszer tulajdonságot,\
+a következő módon adja meg, és a következő tulajdonságban `37` kerül be a Plazma inicializálásához.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 ```
 
-`-D`는 해당 인수가 JVM에 내장되지 않고 Plazma에 추가된 전용 인수임을 나타내며,
+A `-D` azt jelzi, hogy ez a paraméter nem a JVM-be van beágyazva, hanem kizárólag a Plazmához hozzáadott saját paraméter.
 
-속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정됩니다.](#user-content-fn-3)[^3]
+Ha nem ad meg semmilyen értéket a tulajdonságnál, az érték [`true`-ra lesz rögzítve.](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
 
-### Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.
+### A Paperweight sorozatú szerver platformok mindegyikének külön pontot kell tartalmaznia a rendszer tulajdonságok megkülönböztetéséhez.
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Néhány Windows Powershell és más terminálok nem fogadják el ezeket a paramétereket, ezért a paraméterek két végéhez `"`-t kell [hozzáadni.](#user-content-fn-4)[^4]
 {% endhint %}
 
-### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
+### Összes rendszer tulajdonság <a href="#id-1.2" id="id-1.2"></a>
 
 #### `convertLegacySigns`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-사용 중지된 표지판 포맷을 업데이트 합니다.
+Letiltja a lejárt jelzőtáblák formátumának frissítését.
 
 #### `debug.entities`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-엔티티 정보 관련 디버그 로그를 활성화 합니다.
+Engedélyezi az entitásokhoz kapcsolódó hibakeresési naplókat.
 
 #### `debug.rewriteForIDE`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-IDE에서 디버그 정보를 올바르게 불러올 수 있도록 NMS 리비전을 비활성화 하고,\
-내부 버전 정보를 자동으로 리맵합니다.
+Az IDE-ben a helyes verzióinformációk betöltéséhez letiltja az NMS átvizsgálást,\
+éés automatikusan újra leképezi a belső verzióinformációkat.
 
 #### `disable.watchdog`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
+Letiltja a Spigot Watchdog figyelmeztetési rendszerét.
 
 #### `letMeReload`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-`/reload` 명령어의 재확인 메세지를 비활성화 합니다.
+Letiltja a `/reload` parancs megerősítő üzenetét.
 
 {% hint style="danger" %}
 
-### `/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.
+### Mivel a `/reload` parancs nagyon instabil, minden `/reload` utáni probléma a felhasználó felelőssége.
 
-플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
+Ha fejlesztő vagy és frissítened kell a bővítményedet, használj inkább hotswapot a `/reload` helyett.
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-표준 입출력 체계를 사용하는 플러그인을 비활성화 합니다.
+Letiltja a standard input-output rendszert használó bővítményeket.
 
 #### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
+Figyelmeztet, ha elavult formázást észlel a csevegés komponensben.
 
 #### `Paper.bypassHostCheck`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
+Letiltja a szerverhez való csatlakozáskor a szerver mintázat ellenőrzését.
 
 #### `Paper.debugDynamicMissingKeys`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
+Engedélyezi a hiányzó kulcsokkal kapcsolatos hibakeresési naplókat az NBT objektumokban.
 
 #### `Paper.debugInvalidSkullProfiles`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
+Engedélyezi a hibás koponya profilokkal kapcsolatos hibakeresési naplókat.
 
-이는 월드 내 모든 잘못된 머리 블록을 위치와 함께 로그합니다.
+Ez minden hibás koponya blokkot a világban a helyükkel együtt naplóz.
 
 #### `Paper.disableChannelLimit`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
+Letiltja a játékosonként alkalmazott 128 plugin csatorna[^5] korlátot.
 
 #### `Paper.disableClassPrioritization`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-플러그인 클래스 우선 순위 체계를 비활성화 합니다.
+Letiltja a plugin osztály prioritás rendszert.
 
-플러그인 셰이드에서 문제가 발생한 경우 유용합니다.
+Hasznos lehet problémák esetén a plugin shade-ben.
 
 #### `Paper.disableFlushConsolidate`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-Netty flush consolidation 체계를 비활성화 합니다.
+Letiltja a Netty flush konszolidációs rendszert.
 
 #### `Paper.excessiveTELimit`
 
-- **형태**: `Integer`
-- **기본값**: `750`
+- **Forma**: `Integer`
+- **Alapértelmezett**: `750`
 
-엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
+Ha az entitások száma meghaladja ezt az értéket, több részre osztva küldi el őket.
 
 #### `Paper.filterThreshold`
 
-- **형태**: `Integer`
-- **기본값**: `8192`
+- **Forma**: `Integer`
+- **Alapértelmezett**: `8192`
 
-서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
+Beállítja a szerver által egyszerre fogadható maximális csomagméretet.
 
 #### `Paper.ignoreJavaVersion`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-Java 버전 확인을 비활성화 합니다.
+Letiltja a Java verzió ellenőrzést.
 
 {% hint style="danger" %}
 
-### 이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!
+### Ez lehetővé teszi a JVM számára, hogy hozzáférjen nem létező kódhoz!
 
-월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
+Ez állandóan károsíthatja a világ és más fájlokat, és a játék teljes mechanizmusát tönkreteheti.
 
-이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
+Minden ebből eredő problémáért Ön a felelős, és a Plamza nem nyújt támogatást ezzel kapcsolatban.
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **형태**: `Integer`
-- **기본값**: `64`
+- **Forma**: `Integer`
+- **Alapértelmezett**: `64`
 
-플러그인 채널[^6] 이름의 제한을 설정합니다.
+Beállítja a plugin csatorna[^6] nevének korlátját.
 
 #### `Paper.maxSignLength`
 
-- **형태**: `Integer`
-- **기본값**: `80`
+- **Forma**: `Integer`
+- **Alapértelmezett**: `80`
 
-표지판의 한 줄에 입력 가능한 글자의 최대 길이를 설정합니다.
+Beállítja a táblák egy sorára írható maximális karakterhosszt.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **형태**: `Integer`
-- **기본값**: `(월드 버전) + 1`
+- **Forma**: `Integer`
+- **Alapértelmezett**: `(világ verzió) + 1`
 
-먼저 초기화할 월드 업데이트 정보의 버전을 설정합니다.
+Beállítja az inicializálandó világfrissítési információ verzióját.
 
-대량의 청크를 업데이트 해야 하는 경우 유용하지만, 그 외에 경우 사용되지 않습니다.
+Hasznos lehet nagy mennyiségű chunk frissítésekor, de egyéb esetekben nem használatos.
 
 #### `Paper.parseYamlCommentsByDefault`
 
-- **형태**: `Boolean`
-- **기본값**: `True`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `True`
 
-YAML 파일의 주석의 처리를 활성화 합니다.
+Engedélyezi a YAML fájlok kommentjeinek feldolgozását.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **형태**: `Integer`
-- **기본값**: `30`
+- **Forma**: `Integer`
+- **Alapértelmezett**: `30`
 
-플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
+Ha a játékostól a megadott idő (másodperc) alatt nincs adatátvitel, akkor a játékost kirakja.
 
-일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+Általában a játék folyamatosan küld [szívverés jelet](#user-content-fn-8)[^8] a szervernek, és ekkor nem lesz kirakva,\
+de ha a játék nem válaszol, akkor a játék összeomlottnak tekinti, és nem kezeli tovább a játékost, hanem kirakja.
 
 #### `Paper.skipServerPropertiesComments`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-서버 속성의 주석을 무시합니다.
+A szerver tulajdonságok kommentjeit figyelmen kívül hagyja.
 
 #### `Paper.debug-sync-loads`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-동기 청크 작성의 디버그 로그를 활성화 합니다.
+Engedélyezi a szinkron chunk írásának hibakeresési naplóit.
 
 #### `Paper.enable-sync-chunk-writes`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성화 합니다.
+Engedélyezi a Minecraft [alapértelmezett chunk írási rendszert](#user-content-fn-10)[^10].
 
-이는 각 청크를 저장하는 것을 순서대로 진행하므로, 굉장한 성능 저하를 유발합니다.
+Ez a chunkokat sorrendben menti, ami jelentős teljesítményveszteséget okoz.
 
 #### `Paper.explicit-flush`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-네트워크 채널의 Explicit Flushing을 활성화 합니다.
+Engedélyezi a hálózati csatorna explicit kiürítését.
 
 #### `Paper.strict-thread-checks`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
+Mindig naplózza a fő szálon nem előforduló hibákat.
 
 #### `Paper.tickList-warn-on-excessive-delay`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-예약된 작업이 과도한 대기 시간을 가질 경우 경고를 출력합니다.
+Ha a késleltetés túl hosszú, figyelmeztetést ad a tervezett műveletekről.
 
 #### `Paperclip.patchOnly`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `False`
 
-기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
+Ha az alapértelmezett futtatható fájlt használja, csak a javítást alkalmazza a szerver indítása nélkül.
 
 #### `Plazma.aggressiveOptimize`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `false`
 
 {% hint style="warning" %}
 
-### 해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
+### Ez a tulajdonság a 1.20.5 után a kezdő paraméterek közé kerül.
 
 {% endhint %}
 
-처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
+A kezdeti konfigurációs optimalizálást szigorúbban alkalmazza az első indításkor.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
+Ha aktiválja, a szerver gyorsabbá és biztonságosabbá válik, de néhány mechanizmust blokkolhat vagy jelentős hatással lehet a játékmenetre.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `false`
 
-Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
+Megakadályozza a Plazma inicializálásakor megjelenő figyelmeztetést[^11].
 
-### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
+### Használt tulajdonság <a href="#id-1.3" id="id-1.3"></a>
 
-아래 시스템 속성은 사용이 중단된 속성입니다.
+Az alábbi rendszer tulajdonság egy használt tulajdonság.
 
 #### `timings.bypassMax`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
-- **사용 중단됨**: Timings가 Plazma에서 전면 제거된 후 부터
+- **Forma**: `Boolean`
+- **Alapértelmezett**: `false`
+- **Használt**: Timings a Plazma-ban történő teljes eltávolítása óta
 
-Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되는지 결정합니다.
+Meghatározza, hogy az Aikar Timings API-ba elküldhető érték túllépheti-e a maximált.
 
-이렇게 하더라도 API에서 예외 처리되지 않으면 레이트 제한이 적용됩니다.
+Ha így teszel, és az API nem kezeli kivételesen, akkor a sebességkorlály alkalmazódik.
 
 ***
 
-## 시작 인수 <a href="#id-2" id="id-2"></a>
+## Indítási argumentum <a href="#id-2" id="id-2"></a>
 
-시작 인수는 `-jar *.jar` 뒤에 입력되어 Plazma가 초기화되며 함께 처리되는 값입니다.
+Az indítási argumentumok a `-jar *.jar` után kerülnek be, amikor a Plazma inicializálódik és együttesen kezelik őket.
 
-### 사용 방법 <a href="#id-2.1" id="id-2.1"></a>
+### Használati útmutató <a href="#id-2.1" id="id-2.1"></a>
 
-시스템 속성은 `-jar *.jar` 뒤에 프로그램 명령 인수로써 입력됩니다.
+A rendszer tulajdonságokat a `-jar *.jar` után program parancs argumentumként adják meg.
 
-예를 들어, `nogui` 시작 인수를 적용하려 하는 경우,\
-다음과 같이 입력하면 Plazma가 초기화 중에 `nogui` 인수를 처리하게 됩니다.
+Például, ha a `nogui` indítási argumentumot akarod alkalmazni, \
+akkor az alábbi módon beírva a Plazma inicializálása közben a `nogui` argumentumot fogja kezelni.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 ```
 
-### 전체 시작 인수 <a href="#id-2.2" id="id-2.2"></a>
+### Teljes indítási argumentumok <a href="#id-2.2" id="id-2.2"></a>
 
 #### `bukkit-settings`
 
-- **별칭**: `b`
-- **기본값**: `bukkit.yml`
+- **Alias**: `b`
+- **Alapértelmezett**: `bukkit.yml`
 
-[Bukkit 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+Beállítja a [Bukkit konfigurációs fájl](../reference/configurations/bukkit.md) nevét és helyét.
 
 #### `command-settings`
 
-- **별칭**: `c`
-- **기본값**: `commands.yml`
+- **Alias**: `c`
+- **Alapértelmezett**: `commands.yml`
 
-[Bukkit 명령어 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+Beállítja a [Bukkit parancs konfigurációs fájl](../reference/configurations/bukkit.md) nevét és helyét.
 
 #### `config`
 
-- **별칭**: `c`
-- **기본값**: `server.properties`
+- **Alias**: `c`
+- **Alapértelmezett**: `server.properties`
 
-[서버 속성](../reference/configurations/property.md) 파일의 이름 및 위치를 설정합니다.
+Beállítja a [szerver tulajdonságok](../reference/configurations/property.md) fájl nevét és helyét.
 
 #### `demo`
 
-데모 월드로 서버를 시작합니다.
+A demó világgal indítja a szervert.
 
 #### `eraseCache`
 
-월드 업그레이드 후 남은 캐시 파일을 제거합니다.
+A világ frissítése után a megmaradt gyorsítótárazott fájlokat eltávolítja.
 
 #### `forceUpgrade`
 
-버전을 무시하고 월드를 강제로 [업그레이드](#user-content-fn-12)[^12] 합니다.
+Figyelmen kívül hagyja a verziót és kényszerítetten [frissít](#user-content-fn-12)[^12] a világot.
 
 #### `help`
 
-- **별칭**: `?`
+- **Alias**: `?`
 
-Plazma의 전체 시작 인수와 설명을 출력합니다.
+Kiírja a Plazma teljes indítási argumentumait és leírását.
 
 #### `initSettings`
 
-구성 파일만 생성하고 서버를 종료합니다.
+Csak a konfigurációs fájlokat hozza létre és leállítja a szervert.
 
 #### `jfrProfile`
 
-JFR 프로필링을 활성화 합니다.
+Aktiválja a JFR profilozást.
 
 #### `max-players`
 
-- **별칭**: `s`, `size`
-- **기본값**: `(서버 속성)`
+- **Alias**: `s`, `size`
+- **Alapértelmezett**: `(szerver tulajdonságok)`
 
-허용되는 최대 [플레이어](#user-content-fn-14)[^14] 수를 설정합니다.
+Beállítja a megengedett maximális [játékos](#user-content-fn-14)[^14] számot.
 
 #### `nogui`
 
-그래픽 인터페이스 패널을 비활성화 합니다.
+Letiltja a grafikus felhasználói felület panelt.
 
 #### `nojline`
 
-JLine을 비활성화 하고 바닐라 콘솔을 사용합니다.
+JLine-et kikapcsolva, és a vanília konzolt használja.
 
 #### `online-mode`
 
-- **별칭**: `o`
-- **기본값**: `(서버 속성)`
+- **Alias**: `o`
+- **Alapértelmezett**: `(szerver tulajdonságok)`
 
-Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
+Mojang hitelesítő szerverrel ellenőrzi a játékosokat.
 
-**Velocity 등 프록시를 사용하는 것이 아닌 경우 [EULA](../getting-started/README.md#id-5) 위반으로 제재될 수 있습니다.**
+**Ha nem használ Velocity vagy más proxy-t, akkor [EULA](../getting-started/README.md#id-5) megszegése miatt büntetésre kerülhet.**
 
-#### `paper-settings`
+#### `paper-beállítások`
 
-- **별칭**: `paper`
-- **기본값**: `paper.yml`
+- **Alias**: `paper`
+- **Alapértelmezett**: `paper.yml`
 
 {% hint style="warning" %}
 
-### 이 인수는 1.19.4 이후 사용이 중지되었습니다
+### Ez az opció 1.19.4 után már nem használható
 
 {% endhint %}
 
-사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다.
+A használaton kívüli PaperSpigot konfigurációs fájl helyét állítja be.
 
-이는 기존 구성을 새 구성 파일로 이전하기 위해 사용되며, 그 이후에는 사용되지 않습니다.
+Ez az előző konfiguráció áthelyezésére szolgál egy új konfigurációs fájlba, majd ezt követően már nem használható.
 
-#### `paper-settings-directory`
+#### `paper-beállítások-mappája`
 
-- **별칭**: `paper-dir`
-- **기본값**: `config`
+- **Alias**: `paper-mappa`
+- **Alapértelmezett**: `config`
 
-[Paper 구성 파일](../reference/configurations/paper/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+A [Paper konfigurációs fájl](../reference/configurations/paper/README.md) mappájának és helyének beállítása.
 
-#### `plazma-settings-directory`
+#### `plazma-beállítások-mappája`
 
-- **별칭**: `plazma-dir`
+- **Alias**: `plazma-mappa`
 
-[Plazma 구성 파일](../reference/configurations/plazma/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+A [Plazma konfigurációs fájl](../reference/configurations/plazma/README.md) mappájának és helyének beállítása.
 
-#### `plugins`
+#### `bővítmények`
 
-- **별칭**: `p`
-- **기본값**: `plugins`
+- **Alias**: `b`
+- **Alapértelmezett**: `bővítmények`
 
-플러그인 폴더의 위치를 설정합니다.
+A bővítmények mappájának beállítása.
 
-#### `pufferfish-settings`
+#### `pufferfish-beállítások`
 
-- **별칭**: `pufferfish`
-- **기본값**: `pufferfish.yml`
+- **Alias**: `pufferfish`
+- **Alapértelmezett**: `pufferfish.yml`
 
-[Pufferfish 구성 파일](../reference/configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
+A [Pufferfish konfigurációs fájl](../reference/configurations/pufferfish.md) nevének és helyének beállítása.
 
-#### `purpur-settings`
+#### `purpur-beállítások`
 
-- **별칭**: `purpur`
-- **기본값**: `purpur.yml`
+- **Alias**: `purpur`
+- **Alapértelmezett**: `purpur.yml`
 
-[Purpur 구성 파일](../reference/configurations/purpur/README.md)의 이름 및 위치를 설정합니다.
+A [Purpur konfigurációs fájl](../reference/configurations/purpur/README.md) nevének és helyének beállítása.
 
 #### `safeMode`
 
-(안전 모드) 완전한 바닐라 상태로 서버를 시작합니다.
+(Biztonságos mód) Teljesen vanília állapotban indítja a szervert.
 
-#### `server-ip`
+#### `szerver-ip`
 
-- **별칭**: `h`, `host`
-- **기본값**: `(서버 속성)`
+- **Alias**: `h`, `host`
+- **Alapértelmezett**: `(szerver tulajdonságok)`
 
-서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-13)[^13] 주소를 설정합니다.
+A szerver hosztjának nevét vagy [Internet Protocol](#user-content-fn-13)[^13] címét állítja be.
 
-#### `server-port`
+#### `szerver-port`
 
-- **별칭**: `p`, `port`
-- **기본값**: `(서버 속성)`
+- **Alias**: `p`, `port`
+- **Alapértelmezett**: `(szerver tulajdonságok)`
 
-서버의 포트를 설정합니다.
+A szerver portját állítja be.
 
-#### `server-name`
+#### `szerver-név`
 
-- **기본값**: `A Plazma Server`
+- **Alapértelmezett**: `Egy Plazma Szerver`
 
-서버의 이름을 설정합니다.
+A szerver nevét állítja be.
 
-#### `spigot-settings`
+#### `spigot-beállítások`
 
-- **별칭**: `S`
-- **기본값**: `spigot.yml`
+- **Alias**: `S`
+- **Alapértelmezett**: `spigot.yml`
 
-[Spigot 구성 파일](../reference/configurations/spigot.md)의 이름 및 위치를 설정합니다.
+A [Spigot konfigurációs fájl](../reference/configurations/spigot.md) nevének és helyének beállítása.
 
-#### `version`
+#### `verzió`
 
-- **별칭**: `v`
+- **Alias**: `v`
 
-Plazma 버전을 출력합니다.
+Plazma verzióját jeleníti meg.
 
-#### `world-dir`
+#### `világ-mappa`
 
-- **별칭**: `W`, `universe`, `world-container`
-- **기본값**: `(서버 폴더)`
+- **Alias**: `W`, `univerzum`, `világ-tartó`
+- **Alapértelmezett**: `(szerver mappa)`
 
-월드 파일이 저장되는 위치를 설정합니다.
+A világ fájlok mentési helyét állítja be.
 
-#### `world-name`
+#### `világ-név`
 
-- **별칭**: `w`, `world`
-- **기본값**: `(서버 속성)`
+- **Alias**: `w`, `világ`
+- **Alapértelmezett**: `(szerver tulajdonságok)`
 
-월드 파일의 이름을 설정합니다.
+A világ fájl nevét állítja be.
 
 ***
 
 [^1]: `java (...) -jar server.jar (...)`
 
-[^2]: 덧붙여지는 위치에 따라 인수를 처리하는 위치가 변경됩니다.
+[^2]: Az argumentumok kezelése a hozzáadott helytől függ.
 
-[^3]: 예를 들어, `Plazma.iKnowWhatIAmDoing`을 `true`로 설정(활성화) 하려는 경우, `-DPlazma.iKnowWhatIAmDoing=true` 대신 `-DPlazma.iKnowWhatIAmDoing` 만 입력해도 동일하게 작동합니다.
+[^3]: Például, ha be akarja állítani (aktiválni) a `Plazma.iKnowWhatIAmDoing`-ot `true`-ra, akkor csak a `-DPlazma.iKnowWhatIAmDoing`-ot kell megadnia, és ugyanúgy működni fog, mint a `-DPlazma.iKnowWhatIAmDoing=true`.
 
-[^4]: 예를 들어, `"-DPlazma.iKnowWhatIAmDoing"`
+[^4]: Például, `"-DPlazma.iKnowWhatIAmDoing"`
 
-[^5]: 이벤트 감지기.
+[^5]: Eseményfigyelő.
 
-[^6]: 이벤트 감지기.
+[^6]: Eseményfigyelő.
 
-[^7]: 클라이언트.
+[^7]: Kliens.
 
-[^8]: 심장 박동처럼 서버와 정상적으로 연결 되어 있음을 알리는 신호.
+[^8]: A szerverrel való megfelelő kapcsolatot jelző jelek, mint a szívverés.
 
-[^9]: Purpur의 AFK 추방 기능을 사용하면 자리를 비운 플레이어도 추방할 수 있습니다.
+[^9]: A Purpur AFK kick funkcióval még az inaktív játékosokat is kickelheti.
 
-[^10]: 동기 청크 작성 체계, Sync Chunk Write System.
+[^10]: Szinkron Chunk írási rendszer, Sync Chunk Write System.
 
-[^11]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
+[^11]: `FIGYELEM! Plazma váratlan problémákat okozhat, ezért előtte alaposan tesztelje, mielőtt nyilvános szerveren használná.`
 
-[^12]: 게임에서 `월드 최적화` 도 이와 같은 원리로 동작합니다.
+[^12]: A játékban a `világ optimalizálás` is ugyanezen elven működik.
 
 [^13]: Internet Protocol, IP.
 
-[^14]: `레벨 2` 이상의 관리자는 제외합니다.
+[^14]: A `szint 2` vagy nagyobb szintű adminisztrátorokat kizárja.
