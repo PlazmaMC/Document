@@ -1,35 +1,35 @@
 ---
-description: Plazma로 서버를 만드는 방법을 알아 보세요.
+description: למדו כיצד ליצור שרת באמצעות Plazma.
 ---
 
-# 👟 시작하기
+# 👟 התחלה
 
-Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
+כדי להשתמש ב-Plazma באופן יציב, המערכת צריכה לעמוד בדרישות הבאות:
 
-|      |  최저 |   권장 |
-| :--: | --: | ---: |
-| 아키텍쳐 | x64 |    - |
-|  RAM | 8GB | 16GB |
-| 저장공간 | 1GB |  8GB |
-|  JRE |  17 |   21 |
+|            | מינימום | מומלץ |
+| :--------: | ------: | ----: |
+| ארכיטקטורה |     x64 |     - |
+|     RAM    |     8GB |  16GB |
+|  שטח אחסון |     1GB |   8GB |
+|     JRE    |      17 |    21 |
 
-원할한 구성 파일 수정을 위하여, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것도 좋습니다.
+כדי לערוך קבצי תצורה בצורה חלקה, כדאי להתקין עורך כגון [Visual Studio Code](https://code.visualstudio.com/download).
 
 ***
 
-## 1. JRE 설치
+## 1. התקנת JRE
 
-이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JRE[^1]를 필요로 합니다.
+כפי שניתן להבין מהשם, Minecraft: **"Java"** Edition פותח ב-Java, ולהריץ אותו נדרש JRE[^1].
 
-Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JRE를 설치해야 합니다.
+Plazma מבוסס על פלטפורמת השרת הרשמית של Mojang Studios, ולכן על מנת להשתמש ב-Plazma יש להתקין גם JRE.
 
-### 1.1 JRE 유무 확인
+### 1.1 בדיקת התקנת JRE
 
-JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
+כדי לוודא ש-JRE מותקן במערכת, יש להזין [`cmd /k java --version`](#user-content-fn-4) בחלון הפעולה ולהפעיל אותו.
 
-다음과 같이 출력되면 [2 단계](setup.md#id-2)로 건너뜁니다.
+אם יש פלט כזה, עבור ל[שלב 2](setup.md#id-2).
 
-{% code title="올바른 출력" overflow="wrap" lineNumbers="true" %}
+{% code title="פלט תקין" overflow="wrap" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -39,9 +39,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](setup.md#id-1.2)를 수행해야 합니다.
+אם לא נמצא פלט כזה או אם נמצא פלט כזה, עליך לבדוק את ההתקנה ב[שלב 1.2](setup.md#id-1.2).
 
-{% code title="JRE가 설치되어 있지 않음" overflow="wrap" lineNumbers="true" %}
+{% code title="JRE לא מותקן" overflow="wrap" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
@@ -50,7 +50,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-{% code title="JRE가 너무 오래됨" overflow="wrap" lineNumbers="true" %}
+{% code title="JRE ישן מדי" overflow="wrap" lineNumbers="true" %}
 
 ```log
 Unrecognized option: --version
@@ -60,23 +60,23 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% endcode %}
 
-### 1.2 JRE 설치
+### 1.2 התקנת JRE
 
-본 가이드에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+במדריך זה, נשתמש ב-Azul Zulu כ[אחד מסוגי ה-JRE](#user-content-fn-5).
 
-설치를 완료한 후, [1.1 단계](setup.md#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+לאחר ההתקנה, נדאג לבדוק שההתקנה הסתיימה בהצלחה על ידי ביצוע [שלב 1.1](setup.md#id-1.1) שוב.
 
 {% tabs %}
 {% tab title="Windows" %}
 
-1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.msi` 형태로 다운로드 합니다.
-2. 다운로드된 설치 마법사를 실행하고, `다음`을 클릭합니다.
-3. **창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화 한 후,** `다음`을 클릭합니다.
-4. `설치`를 눌러 JRE 설치를 `완료`합니다.
+1. התחל על ידי הורדת **JDK 21** בפורמט `.msi` מ-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+2. הרץ את אשף ההתקנה שהורדת ולחץ על 'הבא'.
+3. בתפריט המוצג במרכז השמאלי של החלון, הפעל את 'Set JAVA_HOME variable' ולאחר מכן לחץ על 'הבא'.
+4. לחץ על 'התקן' כדי להשלים את התהליך של התקנת JRE.
    {% endtab %}
 
 {% tab title="macOS" %}
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
+מ-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) הורד את **JDK 21** בפורמט `.dmg` והרץ את אשף ההתקנה כדי להתקין את JRE.
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
