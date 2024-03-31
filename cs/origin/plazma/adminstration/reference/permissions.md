@@ -1,5 +1,5 @@
 ---
-description: Plazma의 권한에 대해 알아보세요.
+description: Zjistěte více o oprávněních aplikace Plazma.
 ---
 
-# 🛡️ 권한
+# 🛡️ Oprávnění
