@@ -1,35 +1,35 @@
 ---
-description: Plazma로 서버를 만드는 방법을 알아 보세요.
+description: روش ساخت سرور با استفاده از Plazma را بیاموزید.
 ---
 
-# 👟 시작하기
+# 👟 شروع
 
-Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
+برای استفاده پایدار از Plazma، سیستم باید الزامات زیر را برآورده کند.
 
-|      |  최저 |   권장 |
-| :--: | --: | ---: |
-| 아키텍쳐 | x64 |    - |
-|  RAM | 8GB | 16GB |
-| 저장공간 | 1GB |  8GB |
-|  JRE |  17 |   21 |
+|                 | حداقل | توصیه شده |
+| :-------------: | ----: | --------: |
+|      معماری     |   x64 |         - |
+|       RAM       |   8GB |      16GB |
+| فضای ذخیره‌سازی |   1GB |       8GB |
+|       JRE       |    17 |        21 |
 
-원할한 구성 파일 수정을 위하여, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것도 좋습니다.
+برای ویرایش فایل‌های پلاگین به صورت صحیح، پیشنهاد می‌شود که [ویژوال استودیو کد](https://code.visualstudio.com/download) یا نرم‌افزارهای ویرایشگر دیگر را نصب کنید.
 
 ***
 
-## 1. JRE 설치
+## 1. نصب JRE
 
-이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JRE[^1]를 필요로 합니다.
+همانطور که از نامش پیداست، Minecraft: **"Java"** Edition با استفاده از Java توسعه یافته است و برای اجرا نیازمند JRE[^1] می‌باشد.
 
-Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JRE를 설치해야 합니다.
+Plazma بر اساس پلتفرم سرور رسمی Mojang Studios [ساخته شده است](#user-content-fn-2)[^2]، بنابراین برای استفاده از Plazma نیز باید JRE را نصب کنید.
 
-### 1.1 JRE 유무 확인
+### 1.1 بررسی وجود JRE
 
-JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
+برای بررسی نصب بودن JRE در سیستم، در [پنجره اجرا](#user-content-fn-3)[^3] `cmd /k java --version` را وارد کرده و اجرا کنید.
 
-다음과 같이 출력되면 [2 단계](setup.md#id-2)로 건너뜁니다.
+اگر خروجی به شکل زیر باشد، به [مرحله 2](setup.md#id-2) بروید.
 
-{% code title="올바른 출력" overflow="wrap" lineNumbers="true" %}
+{% code title="خروجی صحیح" overflow="wrap" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -39,9 +39,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](setup.md#id-1.2)를 수행해야 합니다.
+اگر خروجی به شکل زیر نباشد یا به شکل زیر باشد، یعنی JRE موجود نیست یا خیلی قدیمی است، بنابراین باید [مرحله 1.2](setup.md#id-1.2) را انجام دهید.
 
-{% code title="JRE가 설치되어 있지 않음" overflow="wrap" lineNumbers="true" %}
+{% code title="JRE نصب نشده است" overflow="wrap" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
