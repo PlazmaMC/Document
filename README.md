@@ -2,7 +2,7 @@
 description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문해 주세요.
 ---
 
-# 👋 Welcome to PlazmaMC Document Portal
+# 🏠 Welcome to Docs Portal
 
 ### Plazma 관련 정보를 찾으러 왔다면?
 
@@ -22,6 +22,8 @@ description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문�
 [volt](volt/)
 {% endcontent-ref %}
 
----
+***
 
 #### `SPONSOR` 더 많은 Minecraft 관련 정보가 필요하다면?
+
+{% embed url="https://discord.gg/AZwXTA9Pgx" %}
