@@ -9,6 +9,8 @@ Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해�
 
 [명령어에 덧붙이는 위치에](#user-content-fn-2)[^2] 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
 
+---
+
 ## 시스템 속성 <a href="#id-1" id="id-1"></a>
 
 시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
@@ -20,6 +22,8 @@ Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해�
 각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 
 {% endhint %}
+
+---
 
 ### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
 
@@ -43,6 +47,8 @@ Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 �
 Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-5)[^5]
 
 {% endhint %}
+
+---
 
 ### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
 
@@ -84,12 +90,72 @@ Plazma가 초기화될 때 출력되는 경고문[^6]을 억제합니다.
 
 {% endhint %}
 
+#### `convertLegacySigns`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+사용 중지된 표지판 포맷을 업데이트 합니다.
+
+#### `debug.entities`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+엔티티 정보 관련 디버그 로그를 활성화 합니다.
+
+#### `debug.rewriteForIDE`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+IDE에서 디버그 정보를 올바르게 불러올 수 있도록 NMS 리비전을 비활성화 하고,\
+내부 버전 정보를 자동으로 리맵합니다.
+
+#### `disable.watchdog`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
+
 #### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnWhenLegacyFormattingDetected" id="warnWhenLegacyFormattingDetected"></a>
 
 - **형태**: `Boolean`
 - **기본값**: `False`
 
 채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
+
+#### `io.papermc.paper.suppress.sout.nags` <a href="#suppressSoutNags" id="suppressSoutNags"></a>
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+표준 입출력 체계를 사용하는 플러그인을 비활성화 합니다.
+
+#### `Paperclip.patchOnly`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
+
+#### `Paper.ignoreJavaVersion`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+Java 버전 확인을 비활성화 합니다.
+
+{% hint style="warning" %}
+
+이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!
+
+월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
+
+이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
+
+{% endhint %}
 
 #### `Paper.playerConnection.keepAlive`
 
@@ -106,7 +172,7 @@ Plazma가 초기화될 때 출력되는 경고문[^6]을 억제합니다.
 - **형태**: `Boolean`
 - **기본값**: `False`
 
-플레이어당 적용되는 128개의 플러그인 채널(리스너)의 개수 제한을 비활성화 합니다.
+플레이어당 적용되는 128개의 플러그인 채널(이벤트 감지기)의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -130,6 +196,112 @@ Netty flush consolidation 체계를 비활성화 합니다.
 - **기본값**: `False`
 
 NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
+
+#### `Paper.bypassHostCheck`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
+
+#### `Paper.maxCustomChannelName`
+
+- **형태**: `Integer`
+- **기본값**: `64`
+
+플러그인 채널(이벤트 감지기) 이름의 제한을 설정합니다.
+
+#### `Paper.maxSignLength`
+
+- **형태**: `Integer`
+- **기본값**: `80`
+
+표지판의 한 줄에 입력 가능한 글자의 최대 길이를 설정합니다.
+
+#### `Paper.filterThreshold`
+
+- **형태**: `Integer`
+- **기본값**: `8192`
+
+서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
+
+#### `Paper.minPrecachedDatafixVersion`
+
+- **형태**: `Integer`
+- **기본값**: `(월드 버전) + 1`
+
+먼저 초기화할 월드 업데이트 정보의 버전을 설정합니다.
+
+대량의 청크를 업데이트 해야 하는 경우 유용하지만, 그 외에 경우 사용되지 않습니다.
+
+#### `Paper.excessiveTELimit`
+
+- **형태**: `Integer`
+- **기본값**: `750`
+
+엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
+
+#### `Paper.skipServerPropertiesComments`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+서버 속성의 주석을 무시합니다.
+
+#### `Paper.debugInvalidSkullProfiles`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
+
+이는 월드 내 모든 잘못된 머리 블록을 위치와 함께 로그합니다.
+
+#### `Paper.parseYamlCommentsByDefault`
+
+- **형태**: `Boolean`
+- **기본값**: `True`
+
+YAML 파일의 주석의 처리를 활성화 합니다.
+
+#### `Paper.explicit-flush`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+네트워크 채널의 Explicit Flushing을 활성화 합니다.
+
+#### `Paper.enable-sync-chunk-writes`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+Minecraft의 기본 청크 작성 체계을 활성화 합니다.
+
+이는 각 청크를 저장하는 것을 순서대로 진행하므로, 굉장한 성능 저하를 유발합니다.
+
+#### `Paper.debug-sync-loads`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+동기 청크 작성의 디버그 로그를 활성화 합니다.
+
+#### `Paper.tickList-warn-on-excessive-delay`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+예약된 작업이 과도한 대기 시간을 가질 경우 경고를 출력합니다.
+
+#### `Paper.strict-thread-checks`
+
+- **형태**: `Boolean`
+- **기본값**: `False`
+
+메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
+
+---
 
 ### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
 

@@ -1,5 +1,5 @@
 ---
-description: Paper의 오류 해결을 복원하는 방법에 대해 알아보세요.
+description: Paper와 바닐라의 패치를 복원하는 방법에 대해 알아보세요.
 ---
 
 # ↩️ 바닐라화
