@@ -2,9 +2,9 @@
 description: "Plazma는 Paper 기반의 실험적 최적화와 여러 게임 메커니즘 사용자화 기능을 추가한 Minecraft: Java Edition용 오픈 소스 서버 플랫폼입니다."
 ---
 
-# ✨ Plazma Usage Docs
+# ✨ Plazma 사용 설명서
 
-## 👋 Welcome to Plazma Docs
+## 👋 Plazma 설명서에 오신 것을 환영합니다
 
 Plazma 사용 설명서에 방문하신 것을 환영합니다!
 
@@ -15,7 +15,7 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 [공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
 {% endhint %}
 
-### About Plazma
+### Plazma 소개
 
 > Plazma는 어떤 서버 플랫폼인지 알아보세요.
 
@@ -23,7 +23,7 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 [about](about/)
 {% endcontent-ref %}
 
-### For Administrators
+### 관리자를 위한
 
 > Plazma를 활용하여 자신만의 서버를 만들어 보세요.
 
@@ -31,7 +31,7 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 [adminstration](adminstration/)
 {% endcontent-ref %}
 
-### For Developers
+### 개발자를 위한
 
 > Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
 
