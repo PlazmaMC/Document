@@ -1,35 +1,35 @@
 ---
-description: Plazma로 서버를 만드는 방법을 알아 보세요.
+description: ǝpɐǝɯ ǝɹǝɥʍ ɹǝuop ǝɥʇ ǝɥʇ uɐǝq ɯǝɥʇ ǝlɐ
 ---
 
-# 👟 시작하기
+# 👟 ʇɹɐʇsɹǝʇ
 
-Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
+ǝlɹɐıp ǝɥʇ ǝuıɟǝp uoıʇuıɐɔ ǝɥʇ ǝsɹǝɥʇ ǝɥʇ ʇɐɥʇ ɹǝqɯǝɯɐ ɹǝɥʇɹnɟ ǝɥʇ ǝlǝɥʍ ɹǝɥ
 
-|      |  최저 |   권장 |
-| :--: | --: | ---: |
-| 아키텍쳐 | x64 |    - |
-|  RAM | 8GB | 16GB |
-| 저장공간 | 1GB |  8GB |
-|  JRE |  17 |   21 |
+|           | ǝɯɐɹɔ | ʞuıɥɐu |
+| :-------: | ----: | -----: |
+| ɐɥʇıǝʇɔɹǝ |   x64 |      - |
+|    ɯɐɯ    |   8GB |   16GB |
+|  uɐıɹoʇɐu |   1GB |    8GB |
+|    ɯɹǝ    |    17 |     21 |
 
-원할한 구성 파일 수정을 위하여, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것도 좋습니다.
+ɯoouɥɐu ƃuıʞɐl ɟıɐl ɯıǝɥɔ ǝɥʇɹǝƃuɐɹɐɥɔ ɹo ɹǝʇɟɐs ǝɥʇ ɯı ɹǝɥ
 
 ***
 
-## 1. JRE 설치
+## 1. ɯɹǝ ǝsɔɹıɔ
 
-이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JRE[^1]를 필요로 합니다.
+ıɯɹǝɯ ɐu sı ıuɐɯ ǝsɹɐq ǝɥʇıɹɹn ǝu ɐuıɯɹǝɯ ǝʇıɹɹn ǝu ǝɹǝɥ
 
-Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JRE를 설치해야 합니다.
+ɯlɐǝɯ ɯoɹɐıuɐɹ ǝp ʇsǝɹ ɟɐɔɹ ɹnoʎɹǝ ɹo ɹǝʇɟɐs ǝʍ ɹoɟ uǝɥʇ ɯı ɹǝɥ
 
-### 1.1 JRE 유무 확인
+### 1.1 ɯɹǝ ʎɯɯɹǝɯ
 
-JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
+ɯɹǝ ƃuıʇɹǝɯ ǝs ǝsɹɐq ıuıɯɹǝ ıu ıɯ ıu ǝsɹǝɥɔ ɯǝʇɹnǝ ǝɥʇ ʇsǝɹ ǝɥʇ ɹnoʎɹǝ ǝʍ ǝsǝɹǝɥɔ ɯı ǝɹǝɥ
 
-다음과 같이 출력되면 [2 단계](setup.md#id-2)로 건너뜁니다.
+ɐılɐɹʇsnɐ ʇɐɥʇıʍ ɐılɐɹʇsnɐ ɯoɹɟ ɯı ɹoɟ ɯı ɹǝʇɟɐs ıu ɯǝʇɹnǝʇ ǝɥʇ ɹnoʎɹǝ ɯı ɹǝɥ
 
-{% code title="올바른 출력" overflow="wrap" lineNumbers="true" %}
+{% code title="uopɐɹq ɐılɐɹʇsnɐ" overflow="wrap" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -39,9 +39,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](setup.md#id-1.2)를 수행해야 합니다.
+ɯıʇ ɐılɐɹʇsnɐ ɐılɐɹʇsnɐ ɯoɹɟ ɯı ɹoɟ ɯı ɹǝʇɟɐs ıu ɯǝʇɹnǝʇ ǝɥʇ ɹnoʎɹǝ ɯı ɹǝɥ
 
-{% code title="JRE가 설치되어 있지 않음" overflow="wrap" lineNumbers="true" %}
+{% code title="ɯɹǝ ɐılɐɹʇsnɐ ıuıɯɹǝ ıuıɯɹǝ" overflow="wrap" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
