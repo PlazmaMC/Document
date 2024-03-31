@@ -318,108 +318,6 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 ### 전체 시작 인수 <a href="#id-2.2" id="id-2.2"></a>
 
-#### `help`
-
-- **별칭**: `?`
-
-Plazma의 전체 시작 인수와 설명을 출력합니다.
-
-#### `version`
-
-- **별칭**: `v`
-
-Plazma 버전을 출력합니다.
-
-#### `nogui`
-
-그래픽 인터페이스 패널을 비활성화 합니다.
-
-#### `safeMode`
-
-(안전 모드) 완전한 바닐라 상태로 서버를 시작합니다.
-
-#### `initSettings`
-
-구성 파일만 생성하고 서버를 종료합니다.
-
-#### `demo`
-
-데모 월드로 서버를 시작합니다.
-
-#### `jfrProfile`
-
-JFR 프로필링을 활성화 합니다.
-
-#### `forceUpgrade`
-
-버전을 무시하고 월드를 강제로 [업그레이드](#user-content-fn-12)[^12] 합니다.
-
-#### `eraseCache`
-
-월드 업그레이드 후 남은 캐시 파일을 제거합니다.
-
-#### `nojline`
-
-JLine을 비활성화 하고 바닐라 콘솔을 사용합니다.
-
-#### `config`
-
-- **별칭**: `c`
-- **기본값**: `server.properties`
-
-[서버 속성](../reference/configurations/property.md) 파일의 이름 및 위치를 설정합니다.
-
-#### `server-ip`
-
-- **별칭**: `h`, `host`
-- **기본값**: `(서버 속성)`
-
-서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-13)[^13] 주소를 설정합니다.
-
-#### `server-port`
-
-- **별칭**: `p`, `port`
-- **기본값**: `(서버 속성)`
-
-서버의 포트를 설정합니다.
-
-#### `world-dir`
-
-- **별칭**: `W`, `universe`, `world-container`
-- **기본값**: `(서버 폴더)`
-
-월드 파일이 저장되는 위치를 설정합니다.
-
-#### `world-name`
-
-- **별칭**: `w`, `world`
-- **기본값**: `(서버 속성)`
-
-월드 파일의 이름을 설정합니다.
-
-#### `max-players`
-
-- **별칭**: `s`, `size`
-- **기본값**: `(서버 속성)`
-
-허용되는 최대 [플레이어](#user-content-fn-14)[^14] 수를 설정합니다.
-
-#### `online-mode`
-
-- **별칭**: `o`
-- **기본값**: `(서버 속성)`
-
-Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
-
-**Velocity 등 프록시를 사용하지 않는 경우 [EULA](../getting-started/README.md#id-5) 위반으로 제재될 수 있습니다.**
-
-#### `plugins`
-
-- **별칭**: `p`
-- **기본값**: `plugins`
-
-플러그인 폴더의 위치를 설정합니다.
-
 #### `bukkit-settings`
 
 - **별칭**: `b`
@@ -434,12 +332,62 @@ Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 
 [Bukkit 명령어 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
-#### `spigot-settings`
+#### `config`
 
-- **별칭**: `S`
-- **기본값**: `spigot.yml`
+- **별칭**: `c`
+- **기본값**: `server.properties`
 
-[Spigot 구성 파일](../reference/configurations/spigot.md)의 이름 및 위치를 설정합니다.
+[서버 속성](../reference/configurations/property.md) 파일의 이름 및 위치를 설정합니다.
+
+#### `demo`
+
+데모 월드로 서버를 시작합니다.
+
+#### `eraseCache`
+
+월드 업그레이드 후 남은 캐시 파일을 제거합니다.
+
+#### `forceUpgrade`
+
+버전을 무시하고 월드를 강제로 [업그레이드](#user-content-fn-12)[^12] 합니다.
+
+#### `help`
+
+- **별칭**: `?`
+
+Plazma의 전체 시작 인수와 설명을 출력합니다.
+
+#### `initSettings`
+
+구성 파일만 생성하고 서버를 종료합니다.
+
+#### `jfrProfile`
+
+JFR 프로필링을 활성화 합니다.
+
+#### `max-players`
+
+- **별칭**: `s`, `size`
+- **기본값**: `(서버 속성)`
+
+허용되는 최대 [플레이어](#user-content-fn-14)[^14] 수를 설정합니다.
+
+#### `nogui`
+
+그래픽 인터페이스 패널을 비활성화 합니다.
+
+#### `nojline`
+
+JLine을 비활성화 하고 바닐라 콘솔을 사용합니다.
+
+#### `online-mode`
+
+- **별칭**: `o`
+- **기본값**: `(서버 속성)`
+
+Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
+
+**Velocity 등 프록시를 사용하는 것이 아닌 경우 [EULA](../getting-started/README.md#id-5) 위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -461,12 +409,18 @@ Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 
 [Paper 구성 파일](../reference/configurations/paper/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
-#### `purpur-settings`
+#### `plazma-settings-directory`
 
-- **별칭**: `purpur`
-- **기본값**: `purpur.yml`
+- **별칭**: `plazma-dir`
 
-[Purpur 구성 파일](../reference/configurations/purpur/README.md)의 이름 및 위치를 설정합니다.
+[Plazma 구성 파일](../reference/configurations/plazma/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+
+#### `plugins`
+
+- **별칭**: `p`
+- **기본값**: `plugins`
+
+플러그인 폴더의 위치를 설정합니다.
 
 #### `pufferfish-settings`
 
@@ -475,17 +429,63 @@ Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 
 [Pufferfish 구성 파일](../reference/configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
+#### `purpur-settings`
+
+- **별칭**: `purpur`
+- **기본값**: `purpur.yml`
+
+[Purpur 구성 파일](../reference/configurations/purpur/README.md)의 이름 및 위치를 설정합니다.
+
+#### `safeMode`
+
+(안전 모드) 완전한 바닐라 상태로 서버를 시작합니다.
+
+#### `server-ip`
+
+- **별칭**: `h`, `host`
+- **기본값**: `(서버 속성)`
+
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-13)[^13] 주소를 설정합니다.
+
+#### `server-port`
+
+- **별칭**: `p`, `port`
+- **기본값**: `(서버 속성)`
+
+서버의 포트를 설정합니다.
+
 #### `server-name`
 
 - **기본값**: `A Plazma Server`
 
 서버의 이름을 설정합니다.
 
-#### `plazma-settings-directory`
+#### `spigot-settings`
 
-- **별칭**: `plazma-dir`
+- **별칭**: `S`
+- **기본값**: `spigot.yml`
 
-[Plazma 구성 파일](../reference/configurations/plazma/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+[Spigot 구성 파일](../reference/configurations/spigot.md)의 이름 및 위치를 설정합니다.
+
+#### `version`
+
+- **별칭**: `v`
+
+Plazma 버전을 출력합니다.
+
+#### `world-dir`
+
+- **별칭**: `W`, `universe`, `world-container`
+- **기본값**: `(서버 폴더)`
+
+월드 파일이 저장되는 위치를 설정합니다.
+
+#### `world-name`
+
+- **별칭**: `w`, `world`
+- **기본값**: `(서버 속성)`
+
+월드 파일의 이름을 설정합니다.
 
 ***
 
