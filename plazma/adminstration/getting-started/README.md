@@ -102,7 +102,7 @@ sudo dnf install -y zulu21-ca-jre-headless
 Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니다.
 
 {% hint style="warning" %}
-대부분의 경우에는 **Reobf Paperclip**을 사용합니다.
+**대부분의 경우에는 `Reobf Paperclip`을 사용합니다.**
 
 아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
 일반 사용자라면 [3 단계](setup.md#id-3)로 뛰어 넘겨도 문제되지 않습니다.
@@ -139,7 +139,8 @@ Plazma에 [사용할 메모리](#user-content-fn-6)[^6]만 입력하면 명령�
 이제 다운로드한 시작 스크립트와 Plazma를 새 폴더에 이동합니다.
 
 {% hint style="warning" %}
-폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.\
+**폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.**
+
 그렇지 않으면 Plazma 또는 JRE가 올바르게 작동하지 않을 수 있습니다.
 {% endhint %}
 
@@ -164,7 +165,7 @@ EULA에 동의하려면 `eula.txt` 파일의 `eula=false`를 `eula=true`로 수�
 Windows의 경우, 방화벽은 [3 단계](setup.md#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
-해당 가이드에서는 Windows 운영 체제 및 UPnP[^10]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.
+**해당 가이드에서는 Windows 운영 체제 및 UPnP[^10]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 라우터가 UPnP를 지원하지 않는 경우, 라우터 별로 패널이 다르므로, 직접 자료를 검색해야 합니다.
 
@@ -172,7 +173,7 @@ Windows의 경우, 방화벽은 [3 단계](setup.md#id-3)에서 허용했으므�
 {% endhint %}
 
 {% hint style="warning" %}
-Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.
+**Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.**
 {% endhint %}
 
 ### 5.1 포트 포워딩 필요 유무 확인 <a href="#id-5.1" id="id-5.1"></a>

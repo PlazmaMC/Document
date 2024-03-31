@@ -16,7 +16,7 @@ Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해�
 시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
 
 {% hint style="warning" %}
-시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
 각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
@@ -39,7 +39,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정됩니다.](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
-Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
 Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
 {% endhint %}
@@ -47,39 +47,6 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 ***
 
 ### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
-
-#### `Plazma.iKnowWhatIAmDoing`
-
-* **형태**: `Boolean`
-* **기본값**: `false`
-
-Plazma가 초기화될 때 출력되는 경고문\[^6]을 억제합니다.
-
-#### `Plazma.aggressiveOptimize`
-
-* **형태**: `Boolean`
-* **기본값**: `false`
-
-{% hint style="warning" %}
-해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
-{% endhint %}
-
-처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
-
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
-
-#### `letMeReload`
-
-* **형태**: `Boolean`
-* **기본값**: `False`
-
-`/reload` 명령어의 재확인 메세지를 비활성화 합니다.
-
-{% hint style="danger" %}
-`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.
-
-플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
-{% endhint %}
 
 #### `convertLegacySigns`
 
@@ -110,12 +77,18 @@ IDE에서 디버그 정보를 올바르게 불러올 수 있도록 NMS 리비전
 
 Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
 
-#### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
+#### `letMeReload`
 
 * **형태**: `Boolean`
 * **기본값**: `False`
 
-채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
+`/reload` 명령어의 재확인 메세지를 비활성화 합니다.
+
+{% hint style="danger" %}
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+
+플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
+{% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
 
@@ -124,37 +97,35 @@ Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
 
 표준 입출력 체계를 사용하는 플러그인을 비활성화 합니다.
 
-#### `Paperclip.patchOnly`
+#### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
 
 * **형태**: `Boolean`
 * **기본값**: `False`
 
-기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
+채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
 
-#### `Paper.ignoreJavaVersion`
+#### `Paper.bypassHostCheck`
 
 * **형태**: `Boolean`
 * **기본값**: `False`
 
-Java 버전 확인을 비활성화 합니다.
+플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
 
-{% hint style="danger" %}
-이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!
+#### `Paper.debugDynamicMissingKeys`
 
-월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
+* **형태**: `Boolean`
+* **기본값**: `False`
 
-이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
-{% endhint %}
+NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
 
-#### `Paper.playerConnection.keepAlive`
+#### `Paper.debugInvalidSkullProfiles`
 
-* **형태**: `Integer`
-* **기본값**: `30`
+* **형태**: `Boolean`
+* **기본값**: `False`
 
-플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
+잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
 
-일반적인 경우, 게임\[^7]은 서버로 계속해서 하트비트\[^8] 신호를 전송하므로, [추방되지 않지만,](arguments.md#user-content-fn-9)\[^9]\
-게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+이는 월드 내 모든 잘못된 머리 블록을 위치와 함께 로그합니다.
 
 #### `Paper.disableChannelLimit`
 
@@ -179,19 +150,34 @@ Java 버전 확인을 비활성화 합니다.
 
 Netty flush consolidation 체계를 비활성화 합니다.
 
-#### `Paper.debugDynamicMissingKeys`
+#### `Paper.excessiveTELimit`
+
+* **형태**: `Integer`
+* **기본값**: `750`
+
+엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
+
+#### `Paper.filterThreshold`
+
+* **형태**: `Integer`
+* **기본값**: `8192`
+
+서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
+
+#### `Paper.ignoreJavaVersion`
 
 * **형태**: `Boolean`
 * **기본값**: `False`
 
-NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
+Java 버전 확인을 비활성화 합니다.
 
-#### `Paper.bypassHostCheck`
+{% hint style="danger" %}
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
-* **형태**: `Boolean`
-* **기본값**: `False`
+월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
 
-플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
+이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
+{% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
@@ -207,13 +193,6 @@ NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합
 
 표지판의 한 줄에 입력 가능한 글자의 최대 길이를 설정합니다.
 
-#### `Paper.filterThreshold`
-
-* **형태**: `Integer`
-* **기본값**: `8192`
-
-서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
-
 #### `Paper.minPrecachedDatafixVersion`
 
 * **형태**: `Integer`
@@ -223,12 +202,22 @@ NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합
 
 대량의 청크를 업데이트 해야 하는 경우 유용하지만, 그 외에 경우 사용되지 않습니다.
 
-#### `Paper.excessiveTELimit`
+#### `Paper.parseYamlCommentsByDefault`
+
+* **형태**: `Boolean`
+* **기본값**: `True`
+
+YAML 파일의 주석의 처리를 활성화 합니다.
+
+#### `Paper.playerConnection.keepAlive`
 
 * **형태**: `Integer`
-* **기본값**: `750`
+* **기본값**: `30`
 
-엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
+플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
+
+일반적인 경우, 게임\[^7]은 서버로 계속해서 하트비트\[^8] 신호를 전송하므로, [추방되지 않지만,](arguments.md#user-content-fn-9)\[^9]\
+게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -237,28 +226,12 @@ NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합
 
 서버 속성의 주석을 무시합니다.
 
-#### `Paper.debugInvalidSkullProfiles`
+#### `Paper.debug-sync-loads`
 
 * **형태**: `Boolean`
 * **기본값**: `False`
 
-잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
-
-이는 월드 내 모든 잘못된 머리 블록을 위치와 함께 로그합니다.
-
-#### `Paper.parseYamlCommentsByDefault`
-
-* **형태**: `Boolean`
-* **기본값**: `True`
-
-YAML 파일의 주석의 처리를 활성화 합니다.
-
-#### `Paper.explicit-flush`
-
-* **형태**: `Boolean`
-* **기본값**: `False`
-
-네트워크 채널의 Explicit Flushing을 활성화 합니다.
+동기 청크 작성의 디버그 로그를 활성화 합니다.
 
 #### `Paper.enable-sync-chunk-writes`
 
@@ -269,12 +242,19 @@ Minecraft의 기본 청크 작성 체계을 활성화 합니다.
 
 이는 각 청크를 저장하는 것을 순서대로 진행하므로, 굉장한 성능 저하를 유발합니다.
 
-#### `Paper.debug-sync-loads`
+#### `Paper.explicit-flush`
 
 * **형태**: `Boolean`
 * **기본값**: `False`
 
-동기 청크 작성의 디버그 로그를 활성화 합니다.
+네트워크 채널의 Explicit Flushing을 활성화 합니다.
+
+#### `Paper.strict-thread-checks`
+
+* **형태**: `Boolean`
+* **기본값**: `False`
+
+메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
 
 #### `Paper.tickList-warn-on-excessive-delay`
 
@@ -283,12 +263,32 @@ Minecraft의 기본 청크 작성 체계을 활성화 합니다.
 
 예약된 작업이 과도한 대기 시간을 가질 경우 경고를 출력합니다.
 
-#### `Paper.strict-thread-checks`
+#### `Paperclip.patchOnly`
 
 * **형태**: `Boolean`
 * **기본값**: `False`
 
-메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
+기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
+
+#### `Plazma.aggressiveOptimize`
+
+* **형태**: `Boolean`
+* **기본값**: `false`
+
+{% hint style="warning" %}
+**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+{% endhint %}
+
+처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
+
+활성화 하면 서버가 더욱 빨라지고 안전해지지만, 일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
+
+#### `Plazma.iKnowWhatIAmDoing`
+
+* **형태**: `Boolean`
+* **기본값**: `false`
+
+Plazma가 초기화될 때 출력되는 경고문[^6]을 억제합니다.
 
 ***
 
