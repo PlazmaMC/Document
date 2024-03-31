@@ -15,7 +15,7 @@ Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해�
 
 시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
 
-{% hint style="warning" %}
+{% hint style="įspėjimas" %}
 
 ### 시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!
 
@@ -274,7 +274,7 @@ Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성�
 - **형태**: `Boolean`
 - **기본값**: `false`
 
-{% hint style="warning" %}
+{% hint style="įspėjimas" %}
 
 ### 해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
 
@@ -400,7 +400,7 @@ Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 - **별칭**: `paper`
 - **기본값**: `paper.yml`
 
-{% hint style="warning" %}
+{% hint style="įspėjimas" %}
 
 ### 이 인수는 1.19.4 이후 사용이 중지되었습니다
 
