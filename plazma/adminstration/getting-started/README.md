@@ -17,13 +17,13 @@ Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 
 
 ***
 
-## 1. JRE 설치 <a href="#id-1" id="id-1"></a>
+## 1. JRE 설치
 
 이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JRE[^1]를 필요로 합니다.
 
 Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JRE를 설치해야 합니다.
 
-### 1.1 JRE 유무 확인 <a href="#id-1.1" id="id-1.1"></a>
+### 1.1 JRE 유무 확인
 
 JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
 
@@ -54,7 +54,7 @@ Error: A fatal exception has occurred. Program will exit.
 ```
 {% endcode %}
 
-### 1.2 JRE 설치 <a href="#id-1.2" id="id-1.2"></a>
+### 1.2 JRE 설치
 
 본 가이드에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
@@ -108,7 +108,7 @@ sudo dnf install -y zulu21-ca-jre-headless
 Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니다.
 
 {% hint style="warning" %}
-### **대부분의 경우에는 `Reobf Paperclip`을 사용합니다.**
+### 대부분의 경우에는 `Reobf Paperclip`을 사용합니다.
 
 아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
 일반 사용자라면 [3 단계](setup.md#id-3)로 뛰어 넘겨도 문제되지 않습니다.
@@ -138,7 +138,7 @@ Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니�
 
 ***
 
-## 3. 시작 스크립트 생성 <a href="#id-3" id="id-3"></a>
+## 3. 시작 스크립트 생성
 
 Plazma를 간단하게 시작하고, 서버를 자동으로 재시작 하려면, [시작 스크립트](#user-content-fn-6)[^6]를 만들어야 합니다.
 
@@ -155,7 +155,7 @@ Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령�
 이제 다운로드한 시작 스크립트와 Plazma를 새 폴더에 이동합니다.
 
 {% hint style="warning" %}
-### **폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.**
+### 폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.
 
 그렇지 않으면 Plazma 또는 JRE가 올바르게 작동하지 않을 수 있습니다.
 {% endhint %}
@@ -164,7 +164,7 @@ Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령�
 
 ***
 
-## 5. EULA 동의 <a href="#id-4" id="id-4"></a>
+## 5. EULA 동의
 
 시작 스크립트를 한 번 실행하면, 폴더에 `eula.txt` 가 생성됩니다.
 
@@ -176,25 +176,25 @@ EULA에 동의하려면 `eula.txt` 파일의 `eula=false`를 `eula=true`로 수�
 
 ***
 
-## 6. 외부 접속 허용 (Windows) <a href="#id-5" id="id-5"></a>
+## 6. 외부 접속 허용 (Windows)
 
 현대 운영 체제는 외부에서 위험한 접근을 차단하기 위해, 기본적으로 **방화벽**과 **라우터**가 외부 접속을 차단하고 있습니다.
 
 Windows의 경우, 방화벽은 [3 단계](setup.md#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
-### **해당 가이드에서는 Windows 운영 체제 및** [**UPnP**](#user-content-fn-12)[^12]**를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+### 해당 가이드에서는 Windows 운영 체제 및 [**UPnP**](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.
 
 라우터가 UPnP를 지원하지 않는 경우, 라우터 별로 패널이 다르므로, 직접 자료를 검색해야 합니다.
 
-또는 [5.3 단계](setup.md#id-5.3)의 [Ngrok](https://ngrok.com/)을 통해 임시 주소를 생성할 수도 있습니다.
+또는 [Ngrok](https://ngrok.com/)을 통해 임시 주소를 생성할 수도 있습니다.
 {% endhint %}
 
 {% hint style="warning" %}
-### **Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.**
+### Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.
 {% endhint %}
 
-### 6.1 포트 포워딩 필요 유무 확인 <a href="#id-5.1" id="id-5.1"></a>
+### 6.1 포트 포워딩 필요 유무 확인
 
 실행 창에 다음과 같이 입력하고 실행합니다.
 
@@ -208,7 +208,9 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 {% tabs %}
 {% tab title="외부에서 접속" %}
+포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
 
+서버에 접속할 때 사용되는 주소는 [여기에서](https://ip.pe.kr/) 확인할 수 있습니다.
 {% endtab %}
 
 {% tab title="UPnP로 포트포워딩 시도" %}
