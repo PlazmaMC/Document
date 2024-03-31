@@ -1,5 +1,5 @@
 ---
-description: bukkit.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Tudja meg, hogy mit jelentenek a bukkit.yml egyes csomópontjai.
 ---
 
 # 🪣 Bukkit
