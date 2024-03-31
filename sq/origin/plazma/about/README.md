@@ -1,67 +1,65 @@
 ---
-description: Plazma는 어떤 서버 플랫폼인지 알아보세요.
+description: Mësoni më shumë për platformën e serverit Plazma.
 ---
 
-# ❓ Plazma란?
+# ❓ Çfarë është Plazma?
 
-- **Plazma**는 [Andromeda](https://github.com/EarendelArchived/Andromeda)와 [Fusion](https://github.com/RuinedTechnologyUnify/Fusion)에서 장점만을 가져온 [Paper](https://github.com/PaperMC/Paper) 기반의 서버 플랫폼 입니다.
-- 항상 높은 안정성과 강력한 성능, 빠른 업데이트, 방대한 기능을 제공하기 위하여 노력하고 있습니다.
+- **Plazma** është një platformë serveri bazuar në [Paper](https://github.com/PaperMC/Paper) që merr vetëm avantazhet nga [Andromeda](https://github.com/EarendelArchived/Andromeda) dhe [Fusion](https://github.com/RuinedTechnologyUnify/Fusion).
+- Duke punuar për të siguruar gjithmonë stabilitet të lartë, performancë të fuqishme, përditësime të shpejta dhe një gamë të gjerë funksionalitetesh.
 
-## 📋 Plazma의 목표 <a href="#id-1" id="id-1"></a>
+## 📋 Synimi i Plazma <a href="#id-1" id="id-1"></a>
 
-- 빠른 업데이트, 높은 안정성을 가진 서버 플랫폼이 되기 위해 노력하고 있습니다.
-- 모드 플랫폼 못지 않은 방대한 기능과 강력한 성능을 제공하기 위해 노력하고 있습니다.
-- 바닐라의 패치도 사용자화 할 수 있는 자유로운 플랫폼을 만들기 위해 노력하고 있습니다.
+- Duke punuar për të bërë platformën e serverit me përditësime të shpejta dhe stabilitet të lartë.
+- Duke punuar për të ofruar një gamë të gjerë funksionalitetesh dhe performancë të fuqishme, si platforma e modit.
+- Duke punuar për të krijuar një platformë të lirë që mund të përshtatet sipas patch-ave të Vanilla.
 
-## ⚙️ 주요 특징 <a href="#id-2" id="id-2"></a>
+## ⚙️ Pika kryesore <a href="#id-2" id="id-2"></a>
 
-1. **강력한 플러그인 생태계**\
-   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
-2. **설정이 필요 없는 최적화**\
-   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
-3. **원하는 대로 사용자화하는 게임**\
-   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
-4. **안전하게 플레이하는 서버**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며, 진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
-5. **가장 빠른 업데이트**\
-   [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate)는 Plazma의 포함 패치가 항상 최신으로 유지될 수 있도록 해서, Paper 기반 서버 플랫폼 중에서 가장 빠른 업데이트를 제공하고 있습니다.
-6. **기본 구성 파일 최적화**\
-   기본 적용되는 구성 파일이 최적화되어 있어, 직접 구성 파일을 최적화 하지 않아도 됩니다.
-7. **체계적으로 작동하는 멀티스레드**\
-   게임의 메커니즘과 관계 없는 시스템 메커니즘을 비동기화 하여, [지연 시간](#user-content-fn-4)[^4]을 줄여 서버를 최적화 합니다.
-8. **불필요한 공간의 사용 차단**\
-   비슷한 값을 가진 데이터를 모두 하나로 합쳐 메모리 사용량을 줄입니다.
+1. **Ekosistema e fuqishme e shtojcave**\
+   Duke u bazuar në [Paper](https://github.com/PaperMC/Paper), shumica e shtojcave më të fundit që mund të shkarkohen nga interneti funksionojnë si duhet.
+2. **Optimizimi pa nevojë për konfigurim**\
+   Të gjitha patch-et e [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) janë përfshirë, duke ofruar performancë të lartë dhe disa optimizime të brendshme dhe modifikime që sigurojnë performancë të shkëlqyer.
+3. **Loja që personalizohet sipas dëshirës**\
+   [Purpur](https://github.com/PurpurMC/Purpur) i përfshirë në Plazma ju lejon të modifikoni atributet kryesore të lojës.
+4. **Serveri që luajnë në mënyrë të sigurt**\
+   [Përmban Raporte të Chatit](https://github.com/Aizistral-Studios/No-Chat-Reports) lejon bllokimin e sistemit të ri të raportimit të bisedave të shtuar nga Mojang pas versionit 1.19, duke hequr plotësisht mbledhjen e informacionit diagnostik dhe duke ofruar një server të sigurt pa gjurmë.
+5. **Përditësimi më i shpejtë**\
+   [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) siguron që patch-et e përfshira në Plazma gjithmonë mbeten të përditësuara, duke ofruar një nga përditësimet më të shpejta në platformën e serverit të bazuar në Paper.
+6. **Optimizimi i konfigurimit fillestar**\
+   Konfiguracionet fillestare janë të optimizuara, duke ju kursyer nevojën për të optimizuar manualisht konfiguracionet.
+7. **Funksionimi i organizuar me shumë threada**\
+   Sistemi i përdorur për mekanizmat që nuk kanë lidhje me lojën është asinkron, duke zvogëluar kohën e vonuar dhe duke optimizuar serverin.
+8. **Bllokimi i përdorimit të hapësirës së panevojshme**\
+   Të dhënat me vlera të ngjashme janë të bashkuara për të zvogëluar përdorimin e memorjes.
 
-#### Plazma에 대해 더 알아보고 싶다면? <a href="#etc-1" id="etc-1"></a>
+#### Dëshironi të mësoni më shumë për Plazma? <a href="#etc-1" id="etc-1"></a>
 
 {% content-ref url="patches-list.md" %}
 [patches-list.md](patches-list.md)
 {% endcontent-ref %}
 
-## ✨ 활용 사례 <a href="#id-3" id="id-3"></a>
+## ✨ Rastet e përdorimit <a href="#id-3" id="id-3"></a>
 
-- **복잡한 플러그인도 올바르게 처리하는 플랫폼**\
-  개발자 [IPECTER](https://github.com/IPECTER)의 서버에서 Plazma가 사용되고 있습니다. NMS와 리플렉션으로 작동하는 자체 플러그인, 복잡하고 방대한 크기의 데이터팩이 굉장히 많이 적용되어 있음에도,
-  100명대 이상의 플레이어를 성능 하락 없이 받아들이고 있습니다.
-- **RPG 서버에서도 빠른 성능을 유지한 플랫폼**\
-  단일 클러스터에서 100명의 플레이어를 TPS 하락 없이 안정적으로 유지하였으며, 4개의 클러스터에서 총 250명의 플레이어가 쾌적하게 플레이 할 수 있었습니다.
-- **청크/엔티티에서 빛을 보이는 플랫폼**\
-  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을 Purpur에서 Plazma로 변경하며
-  대부분의 지연을 줄일 수 있었습니다.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 치지직 스트리머 분들의 시청자 첨여용 버킷으로 선택받아 사용되고 있습니다.
+- **Platforma që trajton shtojcat e komplikuara në mënyrë të saktë**\
+  Plazma është e përdorur në serverin e zhvilluesit [IPECTER](https://github.com/IPECTER). Duke përdorur shtojcat e vetë zhvilluara që funksionojnë me NMS dhe reflektim, dhe duke përdorur një numër të madh të paketave të të dhënave të mëdha, platforma është në gjendje të pranojë mbi 100 lojtarë pa rënien e performancës.
+- **Platforma që mbajnë performancën e shpejtë në serverët RPG**\
+  Në një klaster të vetëm, platforma ka mbajtur 100 lojtarë pa rënien e TPS dhe në 4 klustera ka ofruar një përvojë të qetë loje për 250 lojtarë.
+- **Platforma që shfaq dritë në blloqet/entitetet**\
+  Duke kaluar nga Purpur në Plazma, platforma ka zvogëluar shumicën e vonës që ndodhte në serverët e mbijetësve për shkak të trajtimit të blloqeve dhe entiteteve.
+- **Platforma e zgjedhur nga shumë streamer**\
+  E përdorur si serveri i preferuar nga shumë streamerë të njohur.
 
-<figure><img src="https://camo.githubusercontent.com/22acffd515755c2cee2078a7697ff35351c5ec7148eb2806deedbe63df1c4ed7/68747470733a2f2f6273746174732e6f72672f7369676e6174757265732f7365727665722d696d706c656d656e746174696f6e2f506c617a6d612e737667" alt=""><figcaption><p>실시간 Plazma 사용자 추이</p></figcaption></figure>
+<figure><img src="https://camo.githubusercontent.com/22acffd515755c2cee2078a7697ff35351c5ec7148eb2806deedbe63df1c4ed7/68747470733a2f2f6273746174732e6f72672f7369676e6174757265732f7365727665722d696d706c656d656e746174696f6e2f506c617a6d612e737667" alt=""><figcaption><p>Tendencat e përdorimit të Plazma në kohë reale</p></figcaption></figure>
 
-## ⬇️ 다운로드
+## ⬇️ Shkarko
 
-아래 페이지에서 Plazma를 다운로드 할 수 있습니다.
+Në faqen më poshtë mund të shkarkoni Plazma.
 
 {% content-ref url="downloads.md" %}
 [downloads.md](downloads.md)
 {% endcontent-ref %}
 
-#### 버전 지원에 대한 자세한 정보를 알고 싶다면?
+#### Dëshironi të merrni informacione të detajuara për mbështetjen e versioneve?
 
 {% content-ref url="supported-versions.md" %}
 [supported-versions.md](supported-versions.md)
@@ -69,10 +67,10 @@ description: Plazma는 어떤 서버 플랫폼인지 알아보세요.
 
 ***
 
-[^1]: Bukkit, CraftBukkit, Spigot 플러그인 및 Paper, Pufferfish, Purpur 플러그인.
+[^1]: Shtojcat e Bukkit, CraftBukkit, Spigot dhe Paper, Pufferfish, Purpur.
 
-[^2]: 이하 Microsoft Corporation.
+[^2]: Microsoft Corporation.
 
-[^3]: 채팅 신고 시스템을 비활성화 하면 채팅이 온전히 서버에서만 처리되어 Mojang의 채팅 추적을 막을 수 있습니다.
+[^3]: Nëse deaktivizohet sistemi i raportimit të bisedave, biseda përpunohet vetëm në server duke parandaluar gjurmimin e bisedave nga Mojang.
 
-[^4]: 시스템 메커니즘이 작동하기 위해 잠시 동안 게임이 멈추는 시간.
+[^4]: Koha kur loja ndalet për një moment për të lejuar funksionimin e mekanizmave të sistemit.
