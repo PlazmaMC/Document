@@ -1,14 +1,14 @@
 ---
-description: Paper와 바닐라의 패치를 복원하는 방법에 대해 알아보세요.
+description: Selvitä, miten palautetaan Paper ja vaniljan korjauspaketti.
 ---
 
-# ↩️ 바닐라화
+# ↩️ Vaniljoida
 
 {% hint style="warning" %}
 
-### Paper는 바닐라의 오류를 해결하는 대부분의 패치에 선택지를 추가하고 있지 않습니다.
+### Paper ei tarjoa vaihtoehtoja suurimmalle osalle vaniljan virheiden korjauksista.
 
-현재 Plazma는 그러한 오류 해결을 구성으로 비활성화 할 수 있도록 개발하고 있습니다.
+Tällä hetkellä Plazma kehittää tapaa poistaa tällaiset virheet asetuksista.
 
-따라서 아직 본 가이드는 작성중이며, 언제나 정보가 바뀔 가능성이 있습니다.
-{% endhint %}
+Siksi tämä opas on vielä kesken ja tiedot voivat muuttua milloin tahansa.
+{% lopeta vinkki %}
