@@ -1,22 +1,22 @@
 ---
-description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문해 주세요.
+description: Ha kérdésed van, kérlek tedd fel a Discord-on vagy a GitHub Issues-on keresztül.
 ---
 
-# 🏠 Welcome to Docs Portal
+# 🏠 Üdvözöljük a Docs Portalon
 
-### Plazma 사용 중 궁금증이 생겼다면?
+### Ha kérdésed van a Plazma használata közben, kérlek tedd fel.
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
 {% endcontent-ref %}
 
-### Thunderbolt에 대해 관심이 있다면?
+### Ha érdekel a Thunderbolt, nézd meg.
 
 {% content-ref url="thunderbolt/" %}
 [thunderbolt](thunderbolt/)
 {% endcontent-ref %}
 
-### Volt로 자신만의 서버 플랫폼을 만들고 싶다면?
+### Ha saját szerver platformot szeretnél létrehozni a Volt segítségével.
 
 {% content-ref url="volt/" %}
 [volt](volt/)
@@ -24,7 +24,7 @@ description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문�
 
 ***
 
-#### `SPONSOR` 더 많은 Minecraft 관련 정보가 필요하다면? <a href="#etc-1" id="etc-1"></a>
+#### `TÁMOGATÓ` Ha több Minecraft-related információra van szükséged. <a href="#etc-1" id="etc-1"></a>
 
 {% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
