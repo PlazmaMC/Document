@@ -1,5 +1,5 @@
 ---
-description: paper-world.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: 了解每个节点在paper-world.yml中代表什么。
 ---
 
-# 🛩️ Paper (월드별 구성)
+# 🛩️ 紙（世界組成）
