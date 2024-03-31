@@ -12,7 +12,7 @@ description: 자주 묻는 질문에 대해 알아보세요.
 자세히 알아보려면 다음 페이지를 참고 하세요.
 
 {% content-ref url="getting-started/" %}
-[getting-started](getting-started/)
+[getting-started](getting-started#id-2)
 {% endcontent-ref %}
 
 ### 서버가 시작될 때 마다 경고가 표시됩니다
@@ -28,7 +28,7 @@ Plazma는 일부 불안정한 패치가 포함되어 있으며, 항상 오작동
 자세히 알아보려면 다음 페이지를 참고 하세요.
 
 {% content-ref url="reference/arguments.md" %}
-[arguments.md](reference/arguments.md)
+[arguments.md](reference/arguments.md#plazma.iknowwhatiamdoing)
 {% endcontent-ref %}
 
 ***
