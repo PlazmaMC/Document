@@ -1,14 +1,14 @@
 ---
-description: Learn how to restore Paper and vanilla patches.
+description: Learn how to restore the patch of Paper and Vanilla.
 ---
 
 # ↩️ Vanillaize
 
 {% hint style="warning" %}
 
-### Paper does not offer choices for most of the patches that fix vanilla errors.
+### Paper does not offer options for most patches that fix Vanilla errors.
 
-Plazma is currently developing the ability to disable such error fixes as a configuration.
+Currently, Plazma is developing a configuration to disable such error fixes.
 
 Therefore, this guide is still being written and the information is subject to change at any time.
 {% endhint %}
