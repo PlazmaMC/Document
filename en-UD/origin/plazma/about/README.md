@@ -32,7 +32,7 @@ description: Plazma는 어떤 서버 플랫폼인지 알아보세요.
 8. **불필요한 공간의 사용 차단**\
    비슷한 값을 가진 데이터를 모두 하나로 합쳐 메모리 사용량을 줄입니다.
 
-#### Plazma에 대해 더 알아보고 싶다면? <a href="#etc-1" id="etc-1"></a>
+#### Plazma에 대해 더 알아보고 싶다면? <ɐ ɥǝʇ-1 ɓuᴉɹɐɥ="ɯɐu-1" ɥǝ="ɐ">\</ɐ>
 
 {% content-ref url="patches-list.md" %}
 [patches-list.md](patches-list.md)
