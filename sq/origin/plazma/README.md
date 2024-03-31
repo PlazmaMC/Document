@@ -1,39 +1,39 @@
 ---
-description: "Plazma는 Paper 기반의 실험적 최적화와 여러 게임 메커니즘 사용자화 기능을 추가한 Minecraft: Java Edition용 오픈 소스 서버 플랫폼입니다."
+description: "Plazma është një platformë serveri open-source për Minecraft: Java Edition që shton optimizimin eksperimental të bazuar në letër dhe shumë mekanizma të personalizuar të lojërave."
 ---
 
-# ✨ Plazma Usage Docs
+# ✨ Dokumentet e Përdorimit të Plazmës
 
-## 👋 Welcome to Plazma Docs
+## 👋 Mirë se vini te Dokumentet e Plazmës
 
-Plazma 사용 설명서에 방문하신 것을 환영합니다!
+Mirë se erdhët te Dokumentet e Përdorimit të Plazmës!
 
 {% hint style="info" %}
 
-### 설명서를 통해 문제를 해결할 수 없나요?
+### Nuk mund të zgjidhni problemin përmes dokumentit?
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+Pyet komunitetin në [serverin Discord zyrtar](https://discord.gg/MmfC52K8A8) ose në [Problemet e GitHub](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
 {% endhint %}
 
-### About Plazma
+### Rreth Plazmës
 
-> Plazma는 어떤 서버 플랫폼인지 알아보세요.
+> Mësoni më shumë për platformën e serverit Plazma.
 
 {% content-ref url="about/" %}
-[about](about/)
+[rreth](about/)
 {% endcontent-ref %}
 
-### For Administrators
+### Për Administratorët
 
-> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+> Krijo serverin tënd duke përdorur Plazmën.
 
 {% content-ref url="adminstration/" %}
 [adminstration](adminstration/)
 {% endcontent-ref %}
 
-### For Developers
+### Për Zhvilluesit
 
-> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
+> Zhvillo projekte të treta duke përdorur Plazmën.
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
