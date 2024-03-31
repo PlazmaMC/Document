@@ -1,5 +1,5 @@
 ---
-description: spigot.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Tìm hiểu ý nghĩa của từng nút trong tệp spigot.yml.
 ---
 
 # 🚰 Spigot
