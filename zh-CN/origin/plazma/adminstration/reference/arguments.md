@@ -1,526 +1,527 @@
 ---
-description: 시작 인수와 시스템 속성에 대해 알아보세요.
+description: 了解启动参数和系统属性。
 ---
 
-# 🎛️ 인수와 속성
+# 🎛️ 参数和属性
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,\
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+启动变量和系统属性是附加到[用于执行Plazma的命令](#user-content-fn-1)[^1]的值，\
+允许更改Plazma在执行后无法更改的值。
 
-[명령어에 덧붙이는 위치에](#user-content-fn-2)[^2] 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
+根据[添加到命令的位置](#user-content-fn-2)[^2]，分为 **启动参数** 和 **系统属性**。
 
 ***
 
-## 시스템 속성 <a href="#id-1" id="id-1"></a>
+## 系统属性 <a href="#id-1" id="id-1"></a>
 
-시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
+系统属性是在 `-jar` 前输入的值，在Plazma初始化之前由JVM处理。
 
 {% hint style="warning" %}
 
-### 시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!
+### 修改系统属性可能会改变Plazma和JVM的运行方式，并可能对游戏产生重大影响！
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+如果不确定每个系统属性的作用，请**绝对不要使用！**
 {% endhint %}
 
-### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
+### 用法 <a href="#id-1.1" id="id-1.1"></a>
 
-시스템 속성은 `java` 와 `-jar` 사이에 Java 명령 인수로써 입력됩니다.
+系统属性作为Java命令参数输入，位于`java`和`-jar`之间。
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,\
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+例如，要应用`Plazma.dummyProperty`系统属性，\
+输入如下内容将值`37`添加到下一个属性，然后Plazma将初始化。
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 ```
 
-`-D`는 해당 인수가 JVM에 내장되지 않고 Plazma에 추가된 전용 인수임을 나타내며,
+`-D`表示该参数不是JVM内置的，而是附加到Plazma的专用参数，
 
-속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정됩니다.](#user-content-fn-3)[^3]
+如果没有输入任何值，则该值将被固定为[`true`。](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
 
-### Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.
+### Paperweight系列服务器平台为区分每个平台的系统属性，在属性名称中包含`.`。
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+在Windows Powershell等某些终端中，可能不允许使用这些参数，因此在参数两端添加`"`。[添加必要。](#user-content-fn-4)[^4]
 {% endhint %}
 
-### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
+### 全部系统属性 <a href="#id-1.2" id="id-1.2"></a>
 
 #### `convertLegacySigns`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-사용 중지된 표지판 포맷을 업데이트 합니다.
+更新停用的标志格式。
 
 #### `debug.entities`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-엔티티 정보 관련 디버그 로그를 활성화 합니다.
+启用与实体信息相关的调试日志。
 
 #### `debug.rewriteForIDE`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-IDE에서 디버그 정보를 올바르게 불러올 수 있도록 NMS 리비전을 비활성화 하고,\
-내부 버전 정보를 자동으로 리맵합니다.
+禁用NMS修订以便IDE正确加载调试信息，\
+并自动重新映射内部版本信息。
 
 #### `disable.watchdog`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
+禁用Spigot的看门狗警告系统。
 
 #### `letMeReload`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-`/reload` 명령어의 재확인 메세지를 비활성화 합니다.
+禁用`/reload`命令的重新加载消息。
 
 {% hint style="danger" %}
 
-### `/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.
+### 由于`/reload`命令非常不稳定，使用后导致的所有服务器问题由用户自行承担。
 
-플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
+如果您是插件开发者并需要更新插件，请使用热交换而不是`/reload`。
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-표준 입출력 체계를 사용하는 플러그인을 비활성화 합니다.
+禁用使用标准输入/输出的插件。
 
 #### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
+检测到聊天组件中使用的停用格式时发出警告。
 
 #### `Paper.bypassHostCheck`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
+禁用玩家连接到服务器时的主机匹配验证。
 
 #### `Paper.debugDynamicMissingKeys`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
+启用对NBT对象中缺失键的调试日志。
 
 #### `Paper.debugInvalidSkullProfiles`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
+启用对具有无效配置文件信息的头骨块的调试日志。
 
-이는 월드 내 모든 잘못된 머리 블록을 위치와 함께 로그합니다.
+记录世界中所有无效头骨块的位置。
 
 #### `Paper.disableChannelLimit`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
+禁用每个玩家的128个插件频道[^5]的限制。
 
 #### `Paper.disableClassPrioritization`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-플러그인 클래스 우선 순위 체계를 비활성화 합니다.
+禁用插件类优先级系统。
 
-플러그인 셰이드에서 문제가 발생한 경우 유용합니다.
+在插件阴影中出现问题时很有用。
 
 #### `Paper.disableFlushConsolidate`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-Netty flush consolidation 체계를 비활성화 합니다.
+禁用Netty刷新合并系统。
 
 #### `Paper.excessiveTELimit`
 
-- **형태**: `Integer`
-- **기본값**: `750`
+- **类型**: `整数`
+- **默认值**: `750`
 
-엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
+如果实体数量超过设置值，则分割为多个数据包进行传输。
 
 #### `Paper.filterThreshold`
 
-- **형태**: `Integer`
-- **기본값**: `8192`
+- **类型**: `整数`
+- **默认值**: `8192`
 
-서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
+设置服务器一次接收的最大数据包大小。
 
 #### `Paper.ignoreJavaVersion`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-Java 버전 확인을 비활성화 합니다.
+禁用Java版本检查。
 
 {% hint style="danger" %}
 
-### 이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!
+### 这可能导致JVM尝试访问不存在的代码！
 
-월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
+可能会永久损坏世界和其他文件，并使游戏机制崩溃。
 
-이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
+由此导致的所有问题由用户自行承担，Plamza不提供任何支持。
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **형태**: `Integer`
-- **기본값**: `64`
+- **类型**: `整数`
+- **默认值**: `64`
 
-플러그인 채널[^6] 이름의 제한을 설정합니다.
+设置插件频道[^6]名称的限制。
 
 #### `Paper.maxSignLength`
 
-- **형태**: `Integer`
-- **기본값**: `80`
+- **类型**: `整数`
+- **默认值**: `80`
 
-표지판의 한 줄에 입력 가능한 글자의 최대 길이를 설정합니다.
+设置标志一行可输入的最大字符数。
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **형태**: `Integer`
-- **기본값**: `(월드 버전) + 1`
+- **类型**: `整数`
+- **默认值**: `(world version) + 1`
 
-먼저 초기화할 월드 업데이트 정보의 버전을 설정합니다.
+设置要首先初始化的世界更新信息的版本。
 
-대량의 청크를 업데이트 해야 하는 경우 유용하지만, 그 외에 경우 사용되지 않습니다.
+对于需要大量更新块的情况很有用，但在其他情况下不使用。
 
 #### `Paper.parseYamlCommentsByDefault`
 
-- **형태**: `Boolean`
-- **기본값**: `True`
+- **类型**: `布尔值`
+- **默认值**: `True`
 
-YAML 파일의 주석의 처리를 활성화 합니다.
+启用默认情况下解析YAML文件的注释。
 
 #### `Paper.playerConnection.keepAlive`
 
-- **형태**: `Integer`
-- **기본값**: `30`
+- **类型**: `整数`
+- **默认值**: `30`
 
-플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
+当玩家在指定时间内（以秒为单位）未收到任何数据时，将踢出玩家。
 
-일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+通常，游戏[^7]会继续向服务器发送[心跳信号](#user-content-fn-8)[^8]，\
+如果没有响应，游戏将认为发生了冲突，并在不再处理玩家的情况下将其踢出。
 
 #### `Paper.skipServerPropertiesComments`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-서버 속성의 주석을 무시합니다.
+忽略服务器属性的注释。
 
 #### `Paper.debug-sync-loads`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-동기 청크 작성의 디버그 로그를 활성화 합니다.
+启用同步块写入的调试日志。
 
 #### `Paper.enable-sync-chunk-writes`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성화 합니다.
+启用Minecraft的[默认块写入系统](#user-content-fn-10)[^10]。
 
-이는 각 청크를 저장하는 것을 순서대로 진행하므로, 굉장한 성능 저하를 유발합니다.
+这会按顺序保存每个块，导致严重性能下降。
 
 #### `Paper.explicit-flush`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-네트워크 채널의 Explicit Flushing을 활성화 합니다.
+启用网络通道的显式刷新。
 
 #### `Paper.strict-thread-checks`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
+始终记录不是在主线程上发生的错误。
 
 #### `Paper.tickList-warn-on-excessive-delay`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-예약된 작업이 과도한 대기 시간을 가질 경우 경고를 출력합니다.
+如果预定任务具有过多的延迟，将输出警告。
 
 #### `Paperclip.patchOnly`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **类型**: `布尔值`
+- **默认值**: `False`
 
-기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
+如果使用默认提供的执行文件，则仅应用补丁而不启动服务器。
 
 #### `Plazma.aggressiveOptimize`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **类型**: `布尔值`
+- **默认值**: `false`
 
 {% hint style="warning" %}
 
-### 해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
+### 此属性将在1.20.5之后移至启动参数中。
 
 {% endhint %}
 
-처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
+更严格地应用于初始配置优化。
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
+激活后，服务器会变得更快、更安全，但可能会阻止某些游戏机制或对游戏玩法产生重大影响。
 
 #### `Plazma.iKnowWhatIAmDoing`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **类型**: `布尔值`
+- **默认值**: `false`
 
-Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
+抑制Plazma初始化时显示的警告[^11]。
 
-### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
+### 已停用的属性 <a href="#id-1.3" id="id-1.3"></a>
 
-아래 시스템 속성은 사용이 중단된 속성입니다.
+以下系统属性已停用。
 
 #### `timings.bypassMax`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
-- **사용 중단됨**: Timings가 Plazma에서 전면 제거된 후 부터
+- **类型**: `布尔值`
+- **默认值**: `false`
+- **已停用**：自Plazma中删除Timings以来
 
-Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되는지 결정합니다.
+决定是否可以超过Aikar的Timings API可发送的最大值。
 
-이렇게 하더라도 API에서 예외 처리되지 않으면 레이트 제한이 적용됩니다.
+即使如此，如果API未处理异常，则会应用速率限制。
 
 ***
 
-## 시작 인수 <a href="#id-2" id="id-2"></a>
+## 起始参数 <a href="#id-2" id="id-2"></a>
 
-시작 인수는 `-jar *.jar` 뒤에 입력되어 Plazma가 초기화되며 함께 처리되는 값입니다.
+起始参数是在`-jar *.jar`之后输入的，用于初始化Plazma并一起处理的值。
 
-### 사용 방법 <a href="#id-2.1" id="id-2.1"></a>
+### 用法 <a href="#id-2.1" id="id-2.1"></a>
 
-시스템 속성은 `-jar *.jar` 뒤에 프로그램 명령 인수로써 입력됩니다.
+系统属性作为`-jar *.jar`后的程序命令参数输入。
 
-예를 들어, `nogui` 시작 인수를 적용하려 하는 경우,\
-다음과 같이 입력하면 Plazma가 초기화 중에 `nogui` 인수를 처리하게 됩니다.
+例如，如果要应用`nogui`起始参数，\
+请按以下方式输入，Plazma在初始化过程中将处理`nogui`参数。
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 ```
 
-### 전체 시작 인수 <a href="#id-2.2" id="id-2.2"></a>
+### 完整的起始参数 <a href="#id-2.2" id="id-2.2"></a>
 
 #### `bukkit-settings`
 
-- **별칭**: `b`
-- **기본값**: `bukkit.yml`
+- **别名**：`b`
+- **默认值**：`bukkit.yml`
 
-[Bukkit 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+设置[Bukkit配置文件](../reference/configurations/bukkit.md)的名称和位置。
 
 #### `command-settings`
 
-- **별칭**: `c`
-- **기본값**: `commands.yml`
+- **别名**：`c`
+- **默认值**：`commands.yml`
 
-[Bukkit 명령어 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+设置[Bukkit命令配置文件](../reference/configurations/bukkit.md)的名称和位置。
 
 #### `config`
 
-- **별칭**: `c`
-- **기본값**: `server.properties`
+- **别名**：`c`
+- **默认值**：`server.properties`
 
-[서버 속성](../reference/configurations/property.md) 파일의 이름 및 위치를 설정합니다.
+设置[服务器属性](../reference/configurations/property.md)文件的名称和位置。
 
 #### `demo`
 
-데모 월드로 서버를 시작합니다.
+启动服务器到演示世界。
 
 #### `eraseCache`
 
-월드 업그레이드 후 남은 캐시 파일을 제거합니다.
+删除升级后剩余的缓存文件。
 
 #### `forceUpgrade`
 
-버전을 무시하고 월드를 강제로 [업그레이드](#user-content-fn-12)[^12] 합니다.
+忽略版本并强制[升级](#user-content-fn-12)[^12]世界。
 
 #### `help`
 
-- **별칭**: `?`
+- **别名**：`?`
 
-Plazma의 전체 시작 인수와 설명을 출력합니다.
+显示Plazma的完整启动参数和说明。
 
 #### `initSettings`
 
-구성 파일만 생성하고 서버를 종료합니다.
+仅创建配置文件并关闭服务器。
 
 #### `jfrProfile`
 
-JFR 프로필링을 활성화 합니다.
+启用JFR分析。
 
 #### `max-players`
 
-- **별칭**: `s`, `size`
-- **기본값**: `(서버 속성)`
+- **别名**：`s`，`size`
+- **默认值**：`(服务器属性)`
 
-허용되는 최대 [플레이어](#user-content-fn-14)[^14] 수를 설정합니다.
+设置允许的最大[玩家](#user-content-fn-14)[^14]数量。
 
 #### `nogui`
 
-그래픽 인터페이스 패널을 비활성화 합니다.
+禁用图形界面面板。
 
 #### `nojline`
 
-JLine을 비활성화 하고 바닐라 콘솔을 사용합니다.
+禁用JLine并使用原始控制台。
 
 #### `online-mode`
 
-- **별칭**: `o`
-- **기본값**: `(서버 속성)`
+- **别名**：`o`
+- **默认值**：`(服务器属性)`
 
-Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
+选择是否要验证玩家到Mojang验证服务器。
 
-**Velocity 등 프록시를 사용하는 것이 아닌 경우 [EULA](../getting-started/README.md#id-5) 위반으로 제재될 수 있습니다.**
+**如果不使用Velocity等代理，可能会因违反[EULA](../getting-started/README.md#id-5)而受到制裁。**
 
 #### `paper-settings`
 
-- **별칭**: `paper`
-- **기본값**: `paper.yml`
+- **别名**：`paper`
+- **默认值**：`paper.yml`
 
 {% hint style="warning" %}
 
-### 이 인수는 1.19.4 이후 사용이 중지되었습니다
+### 此参数在1.19.4之后停用
 
 {% endhint %}
 
-사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다.
+设置已停用的PaperSpigot配置文件位置。
 
-이는 기존 구성을 새 구성 파일로 이전하기 위해 사용되며, 그 이후에는 사용되지 않습니다.
+此用于将现有配置迁移到新配置文件，之后不再使用。
 
 #### `paper-settings-directory`
 
-- **별칭**: `paper-dir`
-- **기본값**: `config`
+- **别名**：`paper-dir`
+- **默认值**：`config`
 
-[Paper 구성 파일](../reference/configurations/paper/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+设置包含[Paper配置文件](../reference/configurations/paper/README.md)的文件夹名称和位置。
 
 #### `plazma-settings-directory`
 
-- **별칭**: `plazma-dir`
+- **别名**：`plazma-dir`
 
-[Plazma 구성 파일](../reference/configurations/plazma/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+设置包含[Plazma配置文件](../reference/configurations/plazma/README.md)的文件夹名称和位置。
 
 #### `plugins`
 
-- **별칭**: `p`
-- **기본값**: `plugins`
+- **别名**：`p`
+- **默认值**：`plugins`
 
-플러그인 폴더의 위치를 설정합니다.
+设置插件文件夹的位置。
 
 #### `pufferfish-settings`
 
-- **별칭**: `pufferfish`
-- **기본값**: `pufferfish.yml`
+- **别名**：`pufferfish`
+- **默认值**：`pufferfish.yml`
 
-[Pufferfish 구성 파일](../reference/configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
+设置[Pufferfish配置文件](../reference/configurations/pufferfish.md)的名称和位置。
 
 #### `purpur-settings`
 
-- **별칭**: `purpur`
-- **기본값**: `purpur.yml`
+- **别名**：`purpur`
+- **默认值**：`purpur.yml`
 
-[Purpur 구성 파일](../reference/configurations/purpur/README.md)의 이름 및 위치를 설정합니다.
+设置[Purpur配置文件](../reference/configurations/purpur/README.md)的名称和位置。
 
 #### `safeMode`
 
-(안전 모드) 완전한 바닐라 상태로 서버를 시작합니다.
+以安全模式启动服务器，完全原始状态。
 
 #### `server-ip`
 
-- **별칭**: `h`, `host`
-- **기본값**: `(서버 속성)`
+- **别名**：`h`，`host`
+- **默认值**：`(服务器属性)`
 
-서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-13)[^13] 주소를 설정합니다.
+设置服务器的主机名或[Internet Protocol](#user-content-fn-13)[^13]地址。
 
 #### `server-port`
 
-- **별칭**: `p`, `port`
-- **기본값**: `(서버 속성)`
+- **别名**：`p`，`port`
+- **默认值**：`(服务器属性)`
 
-서버의 포트를 설정합니다.
+设置服务器的端口。
 
 #### `server-name`
 
-- **기본값**: `A Plazma Server`
+- **默认值**：`A Plazma Server`
 
-서버의 이름을 설정합니다.
+设置服务器的名称。
 
 #### `spigot-settings`
 
-- **별칭**: `S`
-- **기본값**: `spigot.yml`
+- **别名**：`S`
+- **默认值**：`spigot.yml`
 
-[Spigot 구성 파일](../reference/configurations/spigot.md)의 이름 및 위치를 설정합니다.
+设置[Spigot配置文件](../reference/configurations/spigot.md)的名称和位置。
 
 #### `version`
 
-- **별칭**: `v`
+- **别名**：`v`
 
-Plazma 버전을 출력합니다.
+输出Plazma版本。
 
 #### `world-dir`
 
-- **별칭**: `W`, `universe`, `world-container`
-- **기본값**: `(서버 폴더)`
+- **别名**：`W`，`universe`，`world-container`
+- **默认值**：`(服务器文件夹)`
 
-월드 파일이 저장되는 위치를 설정합니다.
+设置存储世界文件的位置。
 
 #### `world-name`
 
-- **별칭**: `w`, `world`
-- **기본값**: `(서버 속성)`
+- **别名**：`w`，`world`
+- **默认值**：`(服务器属性)`
 
-월드 파일의 이름을 설정합니다.
+设置世界文件的名称。
 
 ***
 
 [^1]: `java (...) -jar server.jar (...)`
 
-[^2]: 덧붙여지는 위치에 따라 인수를 처리하는 위치가 변경됩니다.
+[^2]: 根据追加的位置处理参数的位置会发生变化。
 
-[^3]: 예를 들어, `Plazma.iKnowWhatIAmDoing`을 `true`로 설정(활성화) 하려는 경우, `-DPlazma.iKnowWhatIAmDoing=true` 대신 `-DPlazma.iKnowWhatIAmDoing` 만 입력해도 동일하게 작동합니다.
+[^3]: 例如，如果要将 `Plazma.iKnowWhatIAmDoing` 设置为 `true`（启用），只需输入 `-DPlazma.iKnowWhatIAmDoing`，而不是 `-DPlazma.iKnowWhatIAmDoing=true`，它将同样有效。
 
-[^4]: 예를 들어, `"-DPlazma.iKnowWhatIAmDoing"`
+[^4]: 例如，`"-DPlazma.iKnowWhatIAmDoing"`
 
-[^5]: 이벤트 감지기.
+[^5]: 事件检测器。
 
-[^6]: 이벤트 감지기.
+[^6]: 事件检测器。
 
-[^7]: 클라이언트.
+[^7]: 客户端。
 
-[^8]: 심장 박동처럼 서버와 정상적으로 연결 되어 있음을 알리는 신호.
+[^8]: 像心跳一样向服务器发送连接正常的信号。
 
-[^9]: Purpur의 AFK 추방 기능을 사용하면 자리를 비운 플레이어도 추방할 수 있습니다.
+[^9]: 使用Purpur的AFK踢出功能，即使玩家离开也可以将其踢出。
 
-[^10]: 동기 청크 작성 체계, Sync Chunk Write System.
+[^10]: 同步区块写入系统，Sync Chunk Write System。
 
-[^11]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
+[^11]: \`警告！ Plazma可能会导致意外问题，因此请确保在将其用于公共服务器之前进行彻底测试。
 
-[^12]: 게임에서 `월드 최적화` 도 이와 같은 원리로 동작합니다.
+[^12]: 在游戏中，“世界优化”也是按照这个原则运作的。
 
-[^13]: Internet Protocol, IP.
+[^13]: Internet协议，IP。
 
-[^14]: `레벨 2` 이상의 관리자는 제외합니다.
+[^14]: 除了`级别 2`以上的管理员。
