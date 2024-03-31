@@ -1,22 +1,22 @@
 ---
-description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문해 주세요.
+description: Jeśli masz pytania, zadaj je na Discordzie lub za pośrednictwem GitHub Issues.
 ---
 
-# 🏠 Welcome to Docs Portal
+# 🏠 Witaj w portalu dokumentacyjnym
 
-### Plazma 사용 중 궁금증이 생겼다면?
+### Jeśli masz pytania dotyczące korzystania z Plazmy,
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
 {% endcontent-ref %}
 
-### Thunderbolt에 대해 관심이 있다면?
+### Jeśli interesujesz się Thunderboltem,
 
 {% content-ref url="thunderbolt/" %}
 [thunderbolt](thunderbolt/)
 {% endcontent-ref %}
 
-### Volt로 자신만의 서버 플랫폼을 만들고 싶다면?
+### Jeśli chcesz stworzyć własną platformę serwerową za pomocą Volta,
 
 {% content-ref url="volt/" %}
 [volt](volt/)
@@ -24,7 +24,7 @@ description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문�
 
 ***
 
-#### `SPONSOR` 더 많은 Minecraft 관련 정보가 필요하다면? <a href="#etc-1" id="etc-1"></a>
+#### `SPONSOR` Jeśli potrzebujesz więcej informacji związanych z Minecraftem, <a href="#etc-1" id="etc-1"></a>
 
 {% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
