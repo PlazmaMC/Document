@@ -39,3 +39,9 @@
 * [⚙️ 개발자 가이드](plazma/developers.md)
   * [✏️ 기여하기](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   * [☕ Javadocs](https://jd.plazmamc.org/)
+
+## Thunderbolt
+* [🌩️ Thunderbolt Usage Guide](thunderbolt/README.md)
+
+## Volt
+* [⚡ Volt Development Guide](volt/README.md)

@@ -4,4 +4,4 @@ description: >-
   소스 서버 플랫폼입니다.
 ---
 
-# 👋 Plazma Usage Guide
+# ✨ Plazma Usage Guide
