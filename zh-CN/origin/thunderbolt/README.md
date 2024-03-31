@@ -1,5 +1,5 @@
 ---
-description: Thunderbolt는 실험적인 패치를 Flavor로 구분하여 직접 사용해볼 수 있도록 하는 Plazma 기반 서버 플랫폼입니다.
+description: Thunderbolt是基于Plazma的服务器平台，将实验性补丁分为Flavor，以便用户可以直接使用。
 ---
 
-# 🌩️ Thunderbolt Usage Guide
+# 🌩️ Thunderbolt使用指南
