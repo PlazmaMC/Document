@@ -1,5 +1,5 @@
 ---
-description: Plazma를 전문적으로 다루는 방법에 대해 알아보세요.
+description: Cing ma Plazma ki yom cwiny pi romo ada i ma i kare ma en aye.
 ---
 
-# 🎓 심화
+# 🎓 Kwo i cwiny
