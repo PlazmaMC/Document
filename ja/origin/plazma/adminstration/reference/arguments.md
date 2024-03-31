@@ -1,404 +1,404 @@
 ---
-description: 시작 인수와 시스템 속성에 대해 알아보세요.
+description: 開始引数とシステム属性について調べてください。
 ---
 
-# 🎛️ 인수와 속성
+# 🎛️ 引数と属性
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,\
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+開始変数とシステム属性はPlazmaの実行に使用される[コマンド](#user-content-fn-1)[^1]に追加される値であり、\
+Plazmaが実行された後に変更できない値を変更できるようにします。
 
-[명령어에 덧붙이는 위치에](#user-content-fn-2)[^2] 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
+[コマンドに追加される位置に](#user-content-fn-2)[^2]よって **開始引数** と **システム属性** に分かれます。
 
 ***
 
-## 시스템 속성 <a href="#id-1" id="id-1"></a>
+## システム属性 <a href="#id-1" id="id-1"></a>
 
-시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
+システム属性は`-jar`の前に入力され、Plazmaが初期化される前にJVMで処理される値です。
 
 {% hint style="warning" %}
 
-### 시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!
+### システム属性を変更すると、PlazmaやJVMの動作が変更される可能性があり、ゲームに大きな影響を与える可能性があります！
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+各システム属性がどのような役割を果たしているか確実に知らない場合、**絶対に使用しないでください！**
 {% endhint %}
 
-### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
+### 使用方法 <a href="#id-1.1" id="id-1.1"></a>
 
-시스템 속성은 `java` 와 `-jar` 사이에 Java 명령 인수로써 입력됩니다.
+システム属性は`java`と`-jar`の間にJavaコマンド引数として入力されます。
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,\
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+例えば、`Plazma.dummyProperty`システム属性を適用しようとする場合、\
+次のように入力すると次の属性に`37`が入力され、Plazmaが初期化されます。
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 ```
 
-`-D`는 해당 인수가 JVM에 내장되지 않고 Plazma에 추가된 전용 인수임을 나타내며,
+`-D`はその引数がJVMに組み込まれず、Plazmaに追加された専用の引数であることを示し、
 
-속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정됩니다.](#user-content-fn-3)[^3]
+属性に何の値も入力しない場合、値は[`true`で固定されます。](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
 
-### Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.
+### Paperweight系サーバープラットフォームは各プラットフォームごとにシステム属性を区別するために属性名に`.`を含んでいます。
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Windows Powershellなど一部のターミナルではこのような引数を許可しない場合があるため、引数の両端に`"`を[追加する必要があります。](#user-content-fn-4)[^4]
 {% endhint %}
 
-### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
+### 全システム属性 <a href="#id-1.2" id="id-1.2"></a>
 
 #### `convertLegacySigns`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-사용 중지된 표지판 포맷을 업데이트 합니다.
+使用中止された看板フォーマットを更新します。
 
 #### `debug.entities`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-엔티티 정보 관련 디버그 로그를 활성화 합니다.
+エンティティ情報に関連するデバッグログを有効にします。
 
 #### `debug.rewriteForIDE`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-IDE에서 디버그 정보를 올바르게 불러올 수 있도록 NMS 리비전을 비활성화 하고,\
-내부 버전 정보를 자동으로 리맵합니다.
+IDEでデバッグ情報を正しく読み込めるようにNMSリビジョンを無効化し、\
+内部バージョン情報を自動的にリマップします。
 
 #### `disable.watchdog`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
+SpigotのWatchdog警告システムを無効化します。
 
 #### `letMeReload`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-`/reload` 명령어의 재확인 메세지를 비활성화 합니다.
+`/reload`コマンドの再確認メッセージを無効化します。
 
 {% hint style="danger" %}
 
-### `/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.
+### `/reload`コマンドは非常に不安定ですので、`/reload`使用後に発生するサーバー内のすべての問題はユーザー自身の責任です。
 
-플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
+プラグイン開発者でプラグインを更新する必要がある場合は、`/reload`の代わりにホットスワップを使用してください。
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-표준 입출력 체계를 사용하는 플러그인을 비활성화 합니다.
+標準入出力システムを使用するプラグインを無効化します。
 
 #### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
+チャットコンポーネントで使用中止されたフォーマットが検出されると警告します。
 
 #### `Paper.bypassHostCheck`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
+プレイヤーがサーバーに接続する際、サーバーのパターン一致検証を無効化します。
 
 #### `Paper.debugDynamicMissingKeys`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
+NBTオブジェクトで欠落したキーに関するデバッグログを有効にします。
 
 #### `Paper.debugInvalidSkullProfiles`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
+不正なプロファイル情報を持つヘッドブロックのデバッグログを有効にします。
 
-이는 월드 내 모든 잘못된 머리 블록을 위치와 함께 로그합니다.
+これはワールド内のすべての不正なヘッドブロックを位置とともにログします。
 
 #### `Paper.disableChannelLimit`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
+プレイヤーごとに適用される128個のプラグインチャンネル[^5]の数の制限を無効にします。
 
 #### `Paper.disableClassPrioritization`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-플러그인 클래스 우선 순위 체계를 비활성화 합니다.
+プラグインクラスの優先順位システムを無効にします。
 
-플러그인 셰이드에서 문제가 발생한 경우 유용합니다.
+プラグインシェードで問題が発生した場合に役立ちます。
 
 #### `Paper.disableFlushConsolidate`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-Netty flush consolidation 체계를 비활성화 합니다.
+Nettyフラッシュ統合システムを無効にします。
 
 #### `Paper.excessiveTELimit`
 
-- **형태**: `Integer`
-- **기본값**: `750`
+- **形式**: `Integer`
+- **デフォルト値**: `750`
 
-엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
+エンティティが設定された値より多い場合は、複数パケットに分割して送信します。
 
 #### `Paper.filterThreshold`
 
-- **형태**: `Integer`
-- **기본값**: `8192`
+- **形式**: `Integer`
+- **デフォルト値**: `8192`
 
-서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
+サーバーが一度に受け取ることができる最大パケットのサイズを設定します。
 
 #### `Paper.ignoreJavaVersion`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-Java 버전 확인을 비활성화 합니다.
+Javaバージョンの確認を無効にします。
 
 {% hint style="danger" %}
 
-### 이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!
+### これにより、JVMが存在しないコードにアクセスしようとすることができます！
 
-월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
+ワールドなど全体のファイルが永続的に破損する可能性があり、ゲームの全体的なメカニズムが破壊されます。
 
-이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
+これを使用して発生したすべての問題はユーザーが責任を負い、Plamzaはこれに関するいかなるサポートも提供しません。
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **형태**: `Integer`
-- **기본값**: `64`
+- **形式**: `Integer`
+- **デフォルト値**: `64`
 
-플러그인 채널[^6] 이름의 제한을 설정합니다.
+プラグインチャンネル[^6]の名前の制限を設定します。
 
 #### `Paper.maxSignLength`
 
-- **형태**: `Integer`
-- **기본값**: `80`
+- **形式**: `Integer`
+- **デフォルト値**: `80`
 
-표지판의 한 줄에 입력 가능한 글자의 최대 길이를 설정합니다.
+看板の1行に入力できる文字の最大長を設定します。
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **형태**: `Integer`
-- **기본값**: `(월드 버전) + 1`
+- **形式**: `Integer`
+- **デフォルト値**: `(ワールドバージョン) + 1`
 
-먼저 초기화할 월드 업데이트 정보의 버전을 설정합니다.
+最初に初期化するワールド更新情報のバージョンを設定します。
 
-대량의 청크를 업데이트 해야 하는 경우 유용하지만, 그 외에 경우 사용되지 않습니다.
+大量のチャンクを更新する必要がある場合に便利ですが、それ以外の場合は使用されません。
 
 #### `Paper.parseYamlCommentsByDefault`
 
-- **형태**: `Boolean`
-- **기본값**: `True`
+- **形式**: `Boolean`
+- **デフォルト値**: `True`
 
-YAML 파일의 주석의 처리를 활성화 합니다.
+YAMLファイルのコメントの処理を有効にします。
 
 #### `Paper.playerConnection.keepAlive`
 
-- **형태**: `Integer`
-- **기본값**: `30`
+- **形式**: `Integer`
+- **デフォルト値**: `30`
 
-플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
+プレイヤーから入力された値(秒)だけデータを受信しなかった場合、プレイヤーを追放します。
 
-일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+通常、ゲーム[^7]はサーバーに継続的に[心拍信号](#user-content-fn-8)[^8]を送信するため、[追放されませんが、](#user-content-fn-9)[^9]ゲームが応答しない場合、ゲームがクラッシュしたと見なしてサーバーでプレイヤーを処理しなくなります。
 
 #### `Paper.skipServerPropertiesComments`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-서버 속성의 주석을 무시합니다.
+サーバー属性のコメントを無視します。
 
 #### `Paper.debug-sync-loads`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-동기 청크 작성의 디버그 로그를 활성화 합니다.
+同期チャンク作成のデバッグログを有効にします。
 
 #### `Paper.enable-sync-chunk-writes`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성화 합니다.
+Minecraftの[デフォルトチャンク作成システム](#user-content-fn-10)[^10]を有効にします。
 
-이는 각 청크를 저장하는 것을 순서대로 진행하므로, 굉장한 성능 저하를 유발합니다.
+これは各チャンクを順番に保存するため、著しいパフォーマンス低下を引き起こします。
 
 #### `Paper.explicit-flush`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-네트워크 채널의 Explicit Flushing을 활성화 합니다.
+ネットワークチャンネルの明示的なフラッシングを有効にします。
 
 #### `Paper.strict-thread-checks`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
+メインスレッドで発生しないエラーを常にログに記録します。
 
 #### `Paper.tickList-warn-on-excessive-delay`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-예약된 작업이 과도한 대기 시간을 가질 경우 경고를 출력합니다.
+予約されたタスクが過度の遅延を持つ場合、警告を出力します。
 
 #### `Paperclip.patchOnly`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **形式**: `Boolean`
+- **デフォルト値**: `False`
 
-기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
+デフォルトで提供される実行ファイルを使用する場合、サーバーを起動せずにパッチのみを適用します。
 
 #### `Plazma.aggressiveOptimize`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **形式**: `Boolean`
+- **デフォルト値**: `false`
 
 {% hint style="warning" %}
 
-### 해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
+### この属性は1.20.5以降、開始引数に移動する予定です。
 
 {% endhint %}
 
-처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
+初めて開始時に適用される構成最適化をより厳格に適用します。
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
+활성화 하면 서버가 더욱 빨라지고 安全になりますが、一部のミスをブロックしたりゲームプレイに大きな影響を与える可能性があります。
 
 #### `Plazma.iKnowWhatIAmDoing`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **形式**: `Boolean`
+- **デフォルト値**: `false`
 
-Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
+Plazmaが初期化される際に表示される警告文[^11]を抑制します。
 
-### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
+### 廃止された属性 <a href="#id-1.3" id="id-1.3"></a>
 
-아래 시스템 속성은 사용이 중단된 속성입니다.
+以下のシステム属性は廃止されたものです。
 
 #### `timings.bypassMax`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
-- **사용 중단됨**: Timings가 Plazma에서 전면 제거된 후 부터
+- **形式**: `Boolean`
+- **デフォルト値**: `false`
+- **廃止**: TimingsがPlazmaから完全に削除されてから
 
-Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되는지 결정합니다.
+AikarのTimings APIに送信できる値の最大値を超えてもよいかどうかを決定します。
 
-이렇게 하더라도 API에서 예외 처리되지 않으면 레이트 제한이 적용됩니다.
+これを行ってもAPIで例外処理されない場合はレート制限が適用されます。
 
 ***
 
-## 시작 인수 <a href="#id-2" id="id-2"></a>
+## 開始引数 <a href="#id-2" id="id-2"></a>
 
-시작 인수는 `-jar *.jar` 뒤에 입력되어 Plazma가 초기화되며 함께 처리되는 값입니다.
+開始引数は`-jar *.jar`の後に入力され、Plazmaが初期化される際に一緒に処理される値です。
 
-### 사용 방법 <a href="#id-2.1" id="id-2.1"></a>
+### 使用方法 <a href="#id-2.1" id="id-2.1"></a>
 
-시스템 속성은 `-jar *.jar` 뒤에 프로그램 명령 인수로써 입력됩니다.
+システム属性は`-jar *.jar`の後にプログラムのコマンド引数として入力されます。
 
-예를 들어, `nogui` 시작 인수를 적용하려 하는 경우,\
-다음과 같이 입력하면 Plazma가 초기화 중에 `nogui` 인수를 처리하게 됩니다.
+例えば、`nogui`開始引数を適用しようとする場合、\
+次のように入力するとPlazmaが初期化中に`nogui`引数を処理することになります。
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 ```
 
-### 전체 시작 인수 <a href="#id-2.2" id="id-2.2"></a>
+### 全体の開始引数 <a href="#id-2.2" id="id-2.2"></a>
 
 #### `bukkit-settings`
 
-- **별칭**: `b`
-- **기본값**: `bukkit.yml`
+- **エイリアス**: `b`
+- **デフォルト**: `bukkit.yml`
 
-[Bukkit 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+[Bukkit構成ファイル](../reference/configurations/bukkit.md)の名前と位置を設定します。
 
 #### `command-settings`
 
-- **별칭**: `c`
-- **기본값**: `commands.yml`
+- **エイリアス**: `c`
+- **デフォルト**: `commands.yml`
 
-[Bukkit 명령어 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+[Bukkitコマンド構成ファイル](../reference/configurations/bukkit.md)の名前と位置を設定します。
 
 #### `config`
 
-- **별칭**: `c`
-- **기본값**: `server.properties`
+- **エイリアス**: `c`
+- **デフォルト**: `server.properties`
 
-[서버 속성](../reference/configurations/property.md) 파일의 이름 및 위치를 설정합니다.
+[サーバー属性](../reference/configurations/property.md)ファイルの名前と位置を設定します。
 
 #### `demo`
 
-데모 월드로 서버를 시작합니다.
+デモワールドでサーバーを起動します。
 
 #### `eraseCache`
 
-월드 업그레이드 후 남은 캐시 파일을 제거합니다.
+ワールドアップグレード後に残ったキャッシュファイルを削除します。
 
 #### `forceUpgrade`
 
-버전을 무시하고 월드를 강제로 [업그레이드](#user-content-fn-12)[^12] 합니다.
+バージョンを無視してワールドを強制的に[アップグレード](#user-content-fn-12)[^12]します。
 
 #### `help`
 
-- **별칭**: `?`
+- **エイリアス**: `?`
 
-Plazma의 전체 시작 인수와 설명을 출력합니다.
+Plazmaの全体の開始引数と説明を出力します。
 
 #### `initSettings`
 
-구성 파일만 생성하고 서버를 종료합니다.
+構成ファイルのみを生成してサーバーを終了します。
 
 #### `jfrProfile`
 
-JFR 프로필링을 활성화 합니다.
+JFRプロファイリングを有効化します。
 
 #### `max-players`
 
-- **별칭**: `s`, `size`
-- **기본값**: `(서버 속성)`
+- **エイリアス**: `s`, `size`
+- **デフォルト**: `(サーバー属性)`
 
-허용되는 최대 [플레이어](#user-content-fn-14)[^14] 수를 설정합니다.
+許容される最大[プレイヤー](#user-content-fn-14)[^14]数を設定します。
 
 #### `nogui`
 
-그래픽 인터페이스 패널을 비활성화 합니다.
+グラフィックインターフェースパネルを無効化します。
 
 #### `nojline`
 
-JLine을 비활성화 하고 바닐라 콘솔을 사용합니다.
+JLine을 비활성화 하고 바닐라 콘솔을使用します。
 
 #### `online-mode`
 
 - **별칭**: `o`
-- **기본값**: `(서버 속성)`
+- **デフォルト**: `(サーバー属性)`
 
-Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
+Mojang 인증 서버로 플레이어를 검증할지 선택します。
 
 **Velocity 등 프록시를 사용하는 것이 아닌 경우 [EULA](../getting-started/README.md#id-5) 위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
 - **별칭**: `paper`
-- **기본값**: `paper.yml`
+- **기본值**: `paper.yml`
 
 {% hint style="warning" %}
 
@@ -406,121 +406,121 @@ Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 
 {% endhint %}
 
-사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다.
+사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다。
 
-이는 기존 구성을 새 구성 파일로 이전하기 위해 사용되며, 그 이후에는 사용되지 않습니다.
+이는 기존 구성을 새 구성 파일로 이전하기 위해 사용되며、その後には使用されません。
 
 #### `paper-settings-directory`
 
 - **별칭**: `paper-dir`
-- **기본값**: `config`
+- **기본值**: `config`
 
-[Paper 구성 파일](../reference/configurations/paper/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+[Paper 구성 파일](../reference/configurations/paper/README.md)が位置するフォルダの名前と位置を設定します。
 
 #### `plazma-settings-directory`
 
 - **별칭**: `plazma-dir`
 
-[Plazma 구성 파일](../reference/configurations/plazma/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+[Plazma 구성 파일](../reference/configurations/plazma/README.md)が位置するフォルダの名前と位置を設定します。
 
 #### `plugins`
 
 - **별칭**: `p`
-- **기본값**: `plugins`
+- **기본值**: `plugins`
 
-플러그인 폴더의 위치를 설정합니다.
+プラグインフォルダの位置を設定します。
 
 #### `pufferfish-settings`
 
 - **별칭**: `pufferfish`
-- **기본값**: `pufferfish.yml`
+- **기본值**: `pufferfish.yml`
 
-[Pufferfish 구성 파일](../reference/configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
+[Pufferfish 구성 파일](../reference/configurations/pufferfish.md)の名前と位置を設定します。
 
 #### `purpur-settings`
 
 - **별칭**: `purpur`
-- **기본값**: `purpur.yml`
+- **기본値**: `purpur.yml`
 
-[Purpur 구성 파일](../reference/configurations/purpur/README.md)의 이름 및 위치를 설정합니다.
+[Purpur 구성 파일](../reference/configurations/purpur/README.md)の名前と位置を設定します。
 
 #### `safeMode`
 
-(안전 모드) 완전한 바닐라 상태로 서버를 시작합니다.
+(セーフモード) 完全なバニラ状態でサーバーを起動します。
 
 #### `server-ip`
 
 - **별칭**: `h`, `host`
-- **기본값**: `(서버 속성)`
+- **デフォルト**: `(サーバー属性)`
 
-서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-13)[^13] 주소를 설정합니다.
+サーバーのホスト名または[インターネットプロトコル](#user-content-fn-13)[^13]アドレスを設定します。
 
 #### `server-port`
 
 - **별칭**: `p`, `port`
-- **기본값**: `(서버 속성)`
+- **デフォルト**: `(サーバー属性)`
 
-서버의 포트를 설정합니다.
+サーバーのポートを設定します。
 
 #### `server-name`
 
-- **기본값**: `A Plazma Server`
+- **基本値**: `A Plazma Server`
 
-서버의 이름을 설정합니다.
+サーバーの名前を設定します。
 
 #### `spigot-settings`
 
 - **별칭**: `S`
-- **기본값**: `spigot.yml`
+- **基本値**: `spigot.yml`
 
-[Spigot 구성 파일](../reference/configurations/spigot.md)의 이름 및 위치를 설정합니다.
+[Spigot構成ファイル](../reference/configurations/spigot.md)の名前と位置を設定します。
 
 #### `version`
 
 - **별칭**: `v`
 
-Plazma 버전을 출력합니다.
+Plazmaバージョンを出力します。
 
 #### `world-dir`
 
 - **별칭**: `W`, `universe`, `world-container`
-- **기본값**: `(서버 폴더)`
+- **基本値**: `(サーバーフォルダ)`
 
-월드 파일이 저장되는 위치를 설정합니다.
+ワールドファイルが保存される位置を設定します。
 
 #### `world-name`
 
 - **별칭**: `w`, `world`
-- **기본값**: `(서버 속성)`
+- **デフォルト**: `(サーバー属性)`
 
-월드 파일의 이름을 설정합니다.
+ワールドファイルの名前を設定します。
 
 ***
 
 [^1]: `java (...) -jar server.jar (...)`
 
-[^2]: 덧붙여지는 위치에 따라 인수를 처리하는 위치가 변경됩니다.
+[^2]: 追加された場所に応じて引数の処理位置が変更されます。
 
-[^3]: 예를 들어, `Plazma.iKnowWhatIAmDoing`을 `true`로 설정(활성화) 하려는 경우, `-DPlazma.iKnowWhatIAmDoing=true` 대신 `-DPlazma.iKnowWhatIAmDoing` 만 입력해도 동일하게 작동합니다.
+[^3]: たとえば、`Plazma.iKnowWhatIAmDoing`を`true`に設定(有効化)したい場合、`-DPlazma.iKnowWhatIAmDoing=true`ではなく`-DPlazma.iKnowWhatIAmDoing`だけを入力しても同様に機能します。
 
-[^4]: 예를 들어, `"-DPlazma.iKnowWhatIAmDoing"`
+[^4]: たとえば、`"-DPlazma.iKnowWhatIAmDoing"`
 
-[^5]: 이벤트 감지기.
+[^5]: イベント検出器。
 
-[^6]: 이벤트 감지기.
+[^6]: イベント検出器。
 
-[^7]: 클라이언트.
+[^7]: クライアント。
 
-[^8]: 심장 박동처럼 서버와 정상적으로 연결 되어 있음을 알리는 신호.
+[^8]: 心拍のようにサーバーと正常に接続されていることを知らせる信号。
 
-[^9]: Purpur의 AFK 추방 기능을 사용하면 자리를 비운 플레이어도 추방할 수 있습니다.
+[^9]: PurpurのAFKキック機能を使用すると、離席中のプレイヤーもキックできます。
 
-[^10]: 동기 청크 작성 체계, Sync Chunk Write System.
+[^10]: 同期チャンク書き込みシステム、Sync Chunk Write System。
 
-[^11]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
+[^11]: `WARNING! Plazmaには予期せぬ問題が発生する可能性があるため、公開サーバーで使用する前に十分にテストしてください。`
 
-[^12]: 게임에서 `월드 최적화` 도 이와 같은 원리로 동작합니다.
+[^12]: ゲームで`ワールド最適化`も同じ原理で動作します。
 
-[^13]: Internet Protocol, IP.
+[^13]: Internet Protocol, IP。
 
-[^14]: `레벨 2` 이상의 관리자는 제외합니다.
+[^14]: `レベル 2`以上の管理者は除外します。
