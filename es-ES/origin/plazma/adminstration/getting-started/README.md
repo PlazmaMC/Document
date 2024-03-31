@@ -1,35 +1,35 @@
 ---
-description: Plazma로 서버를 만드는 방법을 알아 보세요.
+description: Descubra cómo crear un servidor con Plazma.
 ---
 
-# 👟 시작하기
+# 👟 Empezar
 
-Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
+Para utilizar Plazma de manera estable, el sistema debe cumplir con los siguientes requisitos.
 
-|      |  최저 |   권장 |
-| :--: | --: | ---: |
-| 아키텍쳐 | x64 |    - |
-|  RAM | 8GB | 16GB |
-| 저장공간 | 1GB |  8GB |
-|  JRE |  17 |   21 |
+|                           | Mínimo | Recomendado |
+| :-----------------------: | -----: | ----------: |
+|        Arquitectura       |    x64 |           - |
+|            RAM            |    8GB |        16GB |
+| Espacio de almacenamiento |    1GB |         8GB |
+|            JRE            |     17 |          21 |
 
-원할한 구성 파일 수정을 위하여, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것도 좋습니다.
+Para facilitar la edición de archivos de configuración, también es recomendable instalar un editor como [Visual Studio Code](https://code.visualstudio.com/download).
 
 ***
 
-## 1. JRE 설치
+## 1. Instalación de JRE
 
-이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JRE[^1]를 필요로 합니다.
+Como su nombre indica, Minecraft: **"Java"** Edition está desarrollado en Java y requiere JRE[^1] para ejecutarse.
 
-Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JRE를 설치해야 합니다.
+Dado que Plazma se basa en la plataforma oficial de servidores de Mojang Studios[^2], también es necesario instalar JRE para utilizar Plazma.
 
-### 1.1 JRE 유무 확인
+### 1.1 Verificación de JRE
 
-JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
+Para verificar si JRE está instalado en el sistema, escriba y ejecute [`cmd /k java --version`](#user-content-fn-4)[^4] en la ventana de ejecución.
 
-다음과 같이 출력되면 [2 단계](setup.md#id-2)로 건너뜁니다.
+Si se muestra la siguiente salida, vaya al [Paso 2](setup.md#id-2).
 
-{% code title="올바른 출력" overflow="wrap" lineNumbers="true" %}
+{% code title="Salida correcta" overflow="wrap" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -39,9 +39,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](setup.md#id-1.2)를 수행해야 합니다.
+Si no se muestra como se indica anteriormente, o se muestra como se indica a continuación, significa que JRE no está instalado o está obsoleto, por lo que debe realizar el [Paso 1.2](setup.md#id-1.2).
 
-{% code title="JRE가 설치되어 있지 않음" overflow="wrap" lineNumbers="true" %}
+{% code title="JRE no instalado" overflow="wrap" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
@@ -50,7 +50,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-{% code title="JRE가 너무 오래됨" overflow="wrap" lineNumbers="true" %}
+{% code title="JRE obsoleto" overflow="wrap" lineNumbers="true" %}
 
 ```log
 Unrecognized option: --version
@@ -60,27 +60,27 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% endcode %}
 
-### 1.2 JRE 설치
+### 1.2 Instalación de JRE
 
-본 가이드에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+En esta guía, utilizaremos Azul Zulu como [una de las variantes](#user-content-fn-5)[^5] de JRE.
 
-설치를 완료한 후, [1.1 단계](setup.md#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+Después de completar la instalación, vuelva a realizar el [Paso 1.1](setup.md#id-1.1) para verificar que la instalación se haya realizado correctamente.
 
 {% tabs %}
 {% tab title="Windows" %}
 
-1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.msi` 형태로 다운로드 합니다.
-2. 다운로드된 설치 마법사를 실행하고, `다음`을 클릭합니다.
-3. **창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화 한 후,** `다음`을 클릭합니다.
-4. `설치`를 눌러 JRE 설치를 `완료`합니다.
+1. Primero, descargue **JDK 21** de [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) en formato `.msi`.
+2. Ejecute el asistente de instalación descargado y haga clic en `Siguiente`.
+3. Después de activar `Set JAVA_HOME variable` en el menú mostrado en el centro izquierdo de la ventana, haga clic en `Siguiente`.
+4. Presione `Instalar` para completar la instalación de JRE.
    {% endtab %}
 
 {% tab title="macOS" %}
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
+Descargue el asistente de instalación de **JDK 21** en formato `.dmg` desde [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) y ejecútelo para instalar JRE.
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
-먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
+Primero, ejecute el siguiente comando en la terminal para agregar el repositorio de Azul Zulu a APT.
 
 ```bash
 sudo apt install gnupg ca-certificates curl --no-install-recommends --no-install-suggests -y
@@ -90,7 +90,7 @@ curl -s https://repos.azul.com/azul-repo.key | sudo gpg --dearmor -o /usr/share/
 echo "deb [signed-by=/usr/share/keyrings/azul.gpg] https://repos.azul.com/zulu/deb stable main" | sudo tee /etc/apt/sources.list.d/zulu.list
 ```
 
-그런 다음, 다음 명령어를 터미널에서 실행하여 JRE를 설치합니다.
+Luego, ejecute el siguiente comando en la terminal para instalar JRE.
 
 ```bash
 sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-headless
@@ -99,7 +99,7 @@ sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-
 {% endtab %}
 
 {% tab title="Fedora/RHEL" %}
-다음 명령어를 입력하여 JRE를 설치할 수 있습니다.
+Puede instalar JRE ejecutando el siguiente comando.
 
 ```bash
 sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
@@ -112,154 +112,154 @@ sudo dnf install -y zulu21-ca-jre-headless
 
 ***
 
-## 2. Plazma 다운로드
+## 2. Descarga de Plazma
 
-Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니다.
+Plazma ofrece varios archivos ejecutables.
 
 {% hint style="warning" %}
 
-### 대부분의 경우에는 `Reobf Paperclip`을 사용합니다.
+### En la mayoría de los casos, se utiliza `Reobf Paperclip`.
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](setup.md#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+La siguiente información es para desarrolladores o aquellos interesados en las características de cada tipo.\
+Si es un usuario común, no hay problema en saltar al [Paso 3](setup.md#id-3).
 {% endhint %}
 
 <details>
 
-<summary>자세히 알아보기</summary>
+<summary>Ver más detalles</summary>
 
-실행 파일의 이름은 `plazma-(버전 관리자)-1.20.4-R0.1-SNAPSHOT-(매핑 형태).jar` 로 정해집니다.
+El nombre del archivo ejecutable se establece como `plazma-(administrador de versiones)-1.20.4-R0.1-SNAPSHOT-(formato de mapeo).jar`.
 
-- **매핑 형태**\
-  매핑은 Minecraft의 실제 코드와 난독화된 코드를 잇는 일종의 지도입니다.
+- **Formato de mapeo**\
+  El mapeo es una especie de mapa que une el código real de Minecraft con el código ofuscado.
   - **Reobf**\
-    Reobfuscation, Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
-    1.20.5부터 사용이 종료될 예정입니다.
+    Reobfuscation, también conocido como mapeo de Spigot, se utiliza en la mayoría de los complementos NMS.\
+    A partir de la versión 1.20.5, dejará de utilizarse.
   - **Mojmap**\
-    Mojang 매핑, 바닐라 Minecraft 매핑입니다.
-- **버전 관리자**\
-  버전 관리자는 서버 구동에 필요한 라이브러리와, 서버 파일을 패치하는 서버의 런처라고 할 수 있습니다.
+    Mapeo de Mojang, es el mapeo de Minecraft Vanilla.
+- **Administrador de versiones**\
+  El administrador de versiones es un lanzador de servidores que proporciona las bibliotecas necesarias para ejecutar el servidor y parchear los archivos del servidor.
   - **Paperclip**\
-    PaperMC 팀에서 Paper 및 기타 파생 플랫폼을 위해 개발한 관리자로, 라이브러리를 다운로드 하고 서버에 패치를 적용하는 역할을 합니다.
+    Desarrollado por el equipo de PaperMC para Paper y otras plataformas derivadas, se encarga de descargar bibliotecas y aplicar parches al servidor.
   - **Bundler**\
-    바닐라 Minecraft 버전 관리자입니다.
+    Administrador de versiones de Minecraft Vanilla.
 
 </details>
 
 ***
 
-## 3. 시작 스크립트 생성
+## 3. Creación de script de inicio
 
-Plazma를 간단하게 시작하고, 서버를 자동으로 재시작 하려면, [시작 스크립트](#user-content-fn-6)[^6]를 만들어야 합니다.
+Para iniciar Plazma fácilmente y reiniciar el servidor automáticamente, es necesario crear un [script de inicio](#user-content-fn-6)[^6].
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성할 수 있습니다.](#user-content-fn-7)[^7]\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+Puede generar el script de inicio a través de [Flags.sh](https://flags.sh).\
+Simplemente ingrese la cantidad de memoria que desea asignar a Plazma y el comando se optimizará automáticamente.
 
-좌측 하단 다운로드 버튼을 통해 시작 스크립트를 다운로드 할 수 있습니다.\
-**다운로드한 시작 스크립트가 자신의 운영체제와 동일한지 확인하세요.**
+Puede descargar el script de inicio haciendo clic en el botón de descarga en la esquina inferior izquierda.\
+**Asegúrese de que el script descargado sea compatible con su sistema operativo.**
 
 ***
 
-## 4. 파일 정리
+## 4. Organización de archivos
 
-이제 다운로드한 시작 스크립트와 Plazma를 새 폴더에 이동합니다.
+Mueva el script de inicio descargado y Plazma a una nueva carpeta.
 
 {% hint style="warning" %}
 
-### 폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.
+### El nombre de la carpeta no debe contener espacios y debe estar en inglés.
 
-그렇지 않으면 Plazma 또는 JRE가 올바르게 작동하지 않을 수 있습니다.
+De lo contrario, Plazma o JRE podrían no funcionar correctamente.
 {% endhint %}
 
-이제 시작 스크립트를 실행합니다. Windows의 경우, <mark style="background-color:orange;">방화벽 허용 선택 창에서, 반드시</mark> <mark style="background-color:orange;"></mark><mark style="background-color:orange;">**허용**</mark><mark style="background-color:orange;">을 선택</mark>해야 합니다.
+Ejecute el script de inicio. Para Windows, es necesario <mark style="background-color:orange;">seleccionar <mark style="background-color:orange;">**Permitir**</mark> en la ventana de selección de permisos de firewall</mark>.
 
 ***
 
-## 5. EULA 동의
+## 5. Aceptación del EULA
 
-시작 스크립트를 한 번 실행하면, 폴더에 `eula.txt` 가 생성됩니다.
+Una vez que ejecute el script de inicio, se creará un archivo `eula.txt` en la carpeta.
 
-EULA[^9]는 [Mojang Studios](#user-content-fn-10)[^10]의 서비스를 이용함으로써 동의해야 하는 사용권 계약입니다.
+El EULA[^9] es un acuerdo de licencia que debe aceptar para utilizar los servicios de [Mojang Studios](#user-content-fn-10)[^10].
 
-EULA에 동의하지 않는 경우 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재를 받을 수 있습니다.](#user-content-fn-11)[^11]
+Si no acepta el EULA, no podrá iniciar el servidor y podría recibir sanciones, como la suspensión de la cuenta, por infringir el EULA[^11].
 
-EULA에 동의하려면 `eula.txt` 파일의 `eula=false`를 `eula=true`로 수정하고 저장합니다.
+Para aceptar el EULA, cambie `eula=false` a `eula=true` en el archivo `eula.txt` y guárdelo.
 
 ***
 
-## 6. 외부 접속 허용 (Windows)
+## 6. Permitir acceso externo (Windows)
 
-현대 운영 체제는 외부에서 위험한 접근을 차단하기 위해, 기본적으로 **방화벽**과 **라우터**가 외부 접속을 차단하고 있습니다.
+Los sistemas operativos modernos bloquean el acceso externo por defecto con el fin de prevenir accesos no autorizados mediante el **firewall** y el **enrutador**.
 
-Windows의 경우, 방화벽은 [3 단계](setup.md#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+En el caso de Windows, como se ha permitido en el [Paso 3](setup.md#id-3), solo es necesario configurar el reenvío de puertos.
 
 {% hint style="info" %}
 
-### 해당 가이드에서는 Windows 운영 체제 및 [**UPnP**](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.
+### Esta guía asume que se está utilizando un sistema operativo Windows y un enrutador que admite [**UPnP**](#user-content-fn-12)[^12].
 
-라우터가 UPnP를 지원하지 않는 경우, 라우터 별로 패널이 다르므로, 직접 자료를 검색해야 합니다.
+Si el enrutador no admite UPnP, las instrucciones pueden variar según el modelo del enrutador y se recomienda buscar información específica.
 
-또는 [Ngrok](https://ngrok.com/)을 통해 임시 주소를 생성할 수도 있습니다.
+También se puede utilizar [Ngrok](https://ngrok.com/) para generar una dirección temporal.
 {% endhint %}
 
 {% hint style="warning" %}
 
-### Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.
+### Para sistemas basados en UNIX como Linux o macOS, los métodos de configuración de servicios de firewall varían, por lo que es necesario buscar información específica.
 
 {% endhint %}
 
-### 6.1 포트 포워딩 필요 유무 확인
+### 6.1 Verificación de la necesidad de reenvío de puertos
 
-실행 창에 다음과 같이 입력하고 실행합니다.
+Ingrese y ejecute lo siguiente en la ventana de ejecución.
 
 ```batch
 powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Invoke-WebRequest "ifconfig.me").content"
 ```
 
-만약 출력이 `True`라면, 여기서 마쳐도 되지만, `False`라면 포트 포워딩을 설정해야 합니다.
+Si la salida es `True`, no es necesario realizar más acciones. Si es `False`, debe configurar el reenvío de puertos.
 
-### 6.2 서버에 접속
+### 6.2 Conexión al servidor
 
 {% tabs %}
-{% tab title="외부에서 접속" %}
-포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
+{% tab title="Acceso externo" %}
+Si no es necesario el reenvío de puertos o si ya se ha realizado con éxito, ahora puede conectarse al servidor.
 
-서버에 접속할 때 사용되는 주소는 [여기에서](https://ip.pe.kr/) 확인할 수 있습니다.
+Puede encontrar la dirección utilizada para conectarse al servidor [aquí](https://ip.pe.kr/).
 {% endtab %}
 
-{% tab title="UPnP로 포트포워딩 시도" %}
-서버 폴더의 `purpur.yml`에서, `network.upnp-port-forwarding`을 `true`로 활성화합니다.
+{% tab title="Intento de reenvío de puertos UPnP" %}
+En el archivo `purpur.yml` de la carpeta del servidor, active `network.upnp-port-forwarding` a `true`.
 
-그런 다음, 서버를 재시작하면, Plazma가 자동으로 포트 포워딩을 시도합니다.
+Luego, al reiniciar el servidor, Plazma intentará realizar el reenvío automático de puertos.
 
-아래는 콘솔에 출력되는 메세지에 따른 UPnP 성공 여부이며, 콘솔에서는 `[UPnP] (메세지)` 와 같이 출력됩니다.
+A continuación se muestra el resultado del éxito del UPnP según el mensaje mostrado en la consola, que se mostrará como `[UPnP] (mensaje)` en la consola.
 
-| 메세지                             | 의미                   |
-| ------------------------------- | -------------------- |
-| `Successfully opened port (포트)` | 포트포워딩 성공.            |
-| `Port (포트) is already open`     | 다른 서비스가 해당 포트를 사용중임. |
-| `Failed to open port (포트)`      | 포트포워딩 실패.            |
-| `Service is unavailable`        | 라우터가 UPnP를 지원하지 않음.  |
+| Mensaje                              | Significado                               |
+| ------------------------------------ | ----------------------------------------- |
+| `Puerto abierto con éxito (puerto)`  | Éxito en el reenvío de puertos.           |
+| `El puerto (puerto) ya está abierto` | Otro servicio está utilizando ese puerto. |
+| `Error al abrir el puerto (puerto)`  | Fallo en el reenvío de puertos.           |
+| `El servicio no está disponible`     | El enrutador no es compatible con UPnP.   |
 
-서버가 종료되면 Plazma가 자동으로 포트를 닫습니다.
+Cuando el servidor se apaga, Plazma cierra automáticamente el puerto.
 {% endtab %}
 
-{% tab title="Ngrok으로 임시 주소 생성" %}
-Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들과 함께 플레이하기에 유용합니다.
+{% tab title="Creación de dirección temporal con Ngrok" %}
+El método con Ngrok es útil para pruebas a corto plazo, juegos colaborativos o jugar con amigos.
 
-1. [Ngrok 홈페이지](https://ngrok.com/download)에서 `Windows (64-bit)` ZIP 파일을 다운로드 합니다.
-2. 다운로드한 Ngrok을 서버 폴더에 넣습니다.
-3. [Ngrok 대시보드](https://dashboard.ngrok.com/get-started/your-authtoken) 에서 [인증 토큰을 생성](#user-content-fn-13)[^13]합니다.
-4. 서버 폴더에서 아래 `Command Line`에 표시되는 명령어를 실행합니다.
-5. 실행 스크립트 가장 상단에 `start /b ngrok tcp --region jp 25565`, 최하단에 `taskkill /f /t /im ngrok.exe`를 추가합니다.
-6. 콘솔 최상단에 표시된 `Forwarding tcp://0.tcp.jp.ngrok.io:12345 -> localhost:25565` 에서, `0.tcp.jp.ngrok.io:12345`가 서버의 주소가 됩니다.
-7. 이제 외부에서 해당 주소를 통해 접속할 수 있습니다.
+1. Descargue el archivo ZIP de `Windows (64-bit)` desde la [página de Ngrok](https://ngrok.com/download).
+2. Coloque el Ngrok descargado en la carpeta del servidor.
+3. Genere un token de autenticación desde el [tablero de Ngrok](https://dashboard.ngrok.com/get-started/your-authtoken).
+4. Ejecute el comando mostrado en la `Línea de comandos` en la carpeta del servidor.
+5. Agregue `start /b ngrok tcp --region jp 25565` en la parte superior del script de ejecución, y `taskkill /f /t /im ngrok.exe` en la parte inferior.
+6. En `Reenvío tcp://0.tcp.jp.ngrok.io:12345 -> localhost:25565` mostrado en la parte superior de la consola, `0.tcp.jp.ngrok.io:12345` será la dirección del servidor.
+7. Ahora puede conectarse desde el exterior utilizando esta dirección.
    {% endtab %}
 
-{% tab title="로컬에서 접속" %}
-로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 `cmd /k ipconfig`를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
+{% tab title="Acceso local" %}
+Si desea conectarse al servidor localmente, puede hacerlo utilizando la dirección IPv4 que se muestra al ejecutar `cmd /k ipconfig` en la ventana de comandos.
 
-예를 들어, 명령어 실행 후 다음과 같이 출력되었을 때,
+Por ejemplo, si la ejecución del comando muestra una dirección `IPv4` como la siguiente,
 
 ```log
 Windows IP 구성
@@ -273,17 +273,17 @@ Windows IP 구성
 
 ```
 
-여기에서 IPv4 주소에 표시된 `192.168.3.7`로 접속을 시도하면 로컬에서 서버에 접속할 수 있습니다.
+Puede intentar conectarse al servidor local utilizando la dirección `192.168.3.7` mostrada en la dirección IPv4.
 
-서버와 게임이 같은 PC에서 실행되는 경우, `localhost`로 접속할 수 있습니다.
+Si el servidor y el juego se ejecutan en la misma PC, puede conectarse utilizando `localhost`.
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전 단계
+## 7. Etapa de desarrollo
 
-서버를 성공적으로 시작하고 서버가 올바르게 작동중이라면, 이제 서버를 사용자화 할 차례입니다.
+Una vez que el servidor se ha iniciado con éxito y está funcionando correctamente, es hora de personalizar el servidor.
 
-아래 가이드를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+Consulte la guía a continuación para aprender cómo personalizar el servidor.
 
 {% content-ref url="customization.md" %}
 [customization.md](customization.md)
@@ -291,30 +291,30 @@ Windows IP 구성
 
 ***
 
-[^1]: Java Runtime Environment, Java 실행 환경.
+[^1]: Entorno de ejecución de Java, Java Runtime Environment.
 
-[^2]: Plazma의 기반 Paper는 Spigot을 기반으로 하며, Spigot이 공식 서버 플랫폼을 기반으로 합니다.
+[^2]: Paper, en el que se basa Plazma, se basa en Spigot, que a su vez se basa en la plataforma oficial del servidor de Spigot.
 
-[^3]: Windows 키 + R
+[^3]: Windows key + R
 
-[^4]: Linux의 경우 터미널 에서 `java --version`
+[^4]: Para Linux, use `java --version` en la terminal.
 
-[^5]: JRE는 오픈 소스 프로젝트중 하나로, Minecraft 서버 플랫폼 처럼 여러 종류가 있습니다.
+[^5]: JRE es un proyecto de código abierto con múltiples variantes, al igual que las plataformas de servidores de Minecraft.
 
-[^6]: 일반적으로 **구동기**라고 알려져 있습니다.
+[^6]: Comúnmente conocido como **launcher**.
 
-[^7]: "Auto-restart"를 활성화 하면 서버가 자동으로 재시작 됩니다. `Control + C`를 입력해 종료할 수 있습니다.
+[^7]: Al activar "Auto-reinicio", el servidor se reiniciará automáticamente. Puede detenerlo ingresando `Control + C`.
 
-[^8]: 시스템의 절반 이상을 넘기는것은 권장하지 않습니다.
+[^8]: No se recomienda superar la mitad de la capacidad del sistema.
 
-    예를 들어, 시스템 전체 메모리 용량이 8GB라고 했을 때, 4GB 이상으로 설정하는것은 권장되지 않습니다.
+    Por ejemplo, si la capacidad total de memoria del sistema es de 8GB, no se recomienda configurar más de 4GB.
 
-[^9]: End-User License Agreement, 최종 사용자 사용권 계약. 자세한 내용은 [Minecraft 홈페이지](https://www.minecraft.net/ko-kr/usage-guidelines)를 확인해 주세요.
+[^9]: Acuerdo de Licencia para el Usuario Final, EULA. Consulte el [sitio web de Minecraft](https://www.minecraft.net/ko-kr/usage-guidelines) para obtener más información.
 
-[^10]: Microsoft Corporation.
+[^10]: Corporación Microsoft.
 
-[^11]: 대한민국의 경우 게임산업진흥에 관한 법률 제32조 제1항 제9호에 따라 **한국 마이크로스프트 주식회사**에서 법적 고소를 할 수 있습니다.
+[^11]: Según el Artículo 32, Párrafo 1, Punto 9 de la Ley de Promoción de la Industria de Juegos de la República de Corea, **Korea Microsoft Corporation** tiene el derecho de presentar una demanda legal.
 
-[^12]: Universal Plug & Play. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
+[^12]: Universal Plug & Play. Purpur incluido en Plazma se comunica automáticamente con el enrutador a través de esta tecnología para abrir puertos solo cuando el servidor está en funcionamiento, eliminando la necesidad de reenvío de puertos directo.
 
-[^13]: 계정이 없는 경우 Google 또는 GitHub 계정을 통해 Ngrok에 가입합니다.
+[^13]: Si no tiene una cuenta, regístrese en Ngrok a través de una cuenta de Google o GitHub.
