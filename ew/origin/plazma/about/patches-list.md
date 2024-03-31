@@ -1,5 +1,5 @@
 ---
-description: Learn about all the features added to Plazma.
+description: Check out all the features added to Plazma.
 ---
 
-# 📑 Included Patches
+# 📑 Included patches
