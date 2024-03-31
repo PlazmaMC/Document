@@ -1,39 +1,39 @@
 ---
-description: "Plazma는 Paper 기반의 실험적 최적화와 여러 게임 메커니즘 사용자화 기능을 추가한 Minecraft: Java Edition용 오픈 소스 서버 플랫폼입니다."
+description: "Plazma是为Minecraft: Java Edition添加了基于纸张的实验性优化和多种游戏机制定制功能的开源服务器平台。"
 ---
 
-# ✨ Plazma Usage Docs
+# ✨ Plazma 使用文档
 
-## 👋 Welcome to Plazma Docs
+## 👋 欢迎来到 Plazma 文档
 
-Plazma 사용 설명서에 방문하신 것을 환영합니다!
+欢迎访问 Plazma 使用文档！
 
 {% hint style="info" %}
 
-### 설명서를 통해 문제를 해결할 수 없나요?
+### 无法通过文档解决问题吗？
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+[官方 Discord 服务器](https://discord.gg/MmfC52K8A8)或者[GitHub 问题](https://github.com/PlazmaMC/PlazmaBukkit/issues)向社区提问！
 {% endhint %}
 
-### About Plazma
+### 关于 Plazma
 
-> Plazma는 어떤 서버 플랫폼인지 알아보세요.
+> 了解 Plazma 是什么样的服务器平台。
 
 {% content-ref url="about/" %}
 [about](about/)
 {% endcontent-ref %}
 
-### For Administrators
+### 对于管理员
 
-> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+> 利用 Plazma 创建自己的服务器。
 
 {% content-ref url="adminstration/" %}
 [adminstration](adminstration/)
 {% endcontent-ref %}
 
-### For Developers
+### 对于开发者
 
-> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
+> 利用 Plazma 开发第三方项目。
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
