@@ -1,5 +1,5 @@
 ---
-description: Plazma에 추가된 모든 기능에 대해 알아보세요.
+description: Tutustu kaikkiin Plazmaan lisättyihin toimintoihin.
 ---
 
-# 📑 포함된 패치
+# 📑 Sisältyvät korjaukset
