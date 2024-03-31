@@ -1,14 +1,14 @@
 ---
-description: Paper와 바닐라의 패치를 복원하는 방법에 대해 알아보세요.
+description: Sužinokite, kaip atkurti „Paper“ ir „Vanilla“ pataisų derinį.
 ---
 
-# ↩️ 바닐라화
+# ↩️ Vanilės pataisymas
 
-{% hint style="warning" %}
+{% hint style="įspėjimas" %}
 
-### Paper는 바닐라의 오류를 해결하는 대부분의 패치에 선택지를 추가하고 있지 않습니다.
+### „Paper“ dažniausiai neįtraukia pasirinkimo daugumai „Vanilla“ klaidų taisymo pataisų.
 
-현재 Plazma는 그러한 오류 해결을 구성으로 비활성화 할 수 있도록 개발하고 있습니다.
+Šiuo metu „Plazma“ kuria galimybę išjungti tokius klaidų taisymo konfigūracijos nustatymus.
 
-따라서 아직 본 가이드는 작성중이며, 언제나 정보가 바뀔 가능성이 있습니다.
+Taigi šis vadovas vis dar yra kuriamas, ir informacija gali keistis bet kuriuo metu.
 {% endhint %}
