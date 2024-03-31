@@ -1,0 +1,2 @@
+# 🎨 Fitxers de configuració
+
