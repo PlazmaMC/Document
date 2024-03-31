@@ -1,40 +1,40 @@
 ---
-description: "Plazma는 Paper 기반의 실험적 최적화와 여러 게임 메커니즘 사용자화 기능을 추가한 Minecraft: Java Edition용 오픈 소스 서버 플랫폼입니다."
+description: "Plazma, Minecraft: Java Edition için açık kaynaklı bir sunucu platformudur, Paper tabanlı deneysel optimizasyon ve çeşitli oyun mekanizmaları kullanıcı özelleştirmesi eklenmiştir."
 ---
 
-# ✨ Plazma Usage Docs
+# ✨ Plazma Kullanım Belgeleri
 
-## 👋 Welcome to Plazma Docs
+## 👋 Plazma Belgelerine Hoş Geldiniz
 
-Plazma 사용 설명서에 방문하신 것을 환영합니다!
+Plazma Kullanım Belgelerine hoş geldiniz!
 
 {% hint style="info" %}
 
-### 설명서를 통해 문제를 해결할 수 없나요?
+### Belgeler aracılığıyla sorunları çözemiyor musunuz?
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+[Resmi Discord Sunucusu](https://discord.gg/MmfC52K8A8) veya [GitHub Sorunları](https://github.com/PlazmaMC/PlazmaBukkit/issues) üzerinden topluluktan yardım alın!
 {% endhint %}
 
-### About Plazma
+### Plazma Hakkında
 
-> Plazma는 어떤 서버 플랫폼인지 알아보세요.
+> Plazma'nın hangi tür bir sunucu platformu olduğunu öğrenin.
 
-{% content-ref url="about/" %}
-[about](about/)
+{% content-ref url="hakkimizda/" %}
+[hakkimizda](hakkimizda/)
 {% endcontent-ref %}
 
-### For Administrators
+### Yöneticiler İçin
 
-> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+> Kendi sunucunuzu oluşturmak için Plazma'yı kullanın.
 
-{% content-ref url="adminstration/" %}
-[adminstration](adminstration/)
+{% content-ref url="yonetim/" %}
+[yonetim](yonetim/)
 {% endcontent-ref %}
 
-### For Developers
+### Geliştiriciler İçin
 
-> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
+> Üçüncü taraf projeler geliştirmek için Plazma'yı kullanın.
 
-{% content-ref url="developers.md" %}
-[developers.md](developers.md)
+{% content-ref url="gelistiriciler.md" %}
+[gelistiriciler.md](gelistiriciler.md)
 {% endcontent-ref %}
