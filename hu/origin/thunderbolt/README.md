@@ -1,5 +1,5 @@
 ---
-description: Thunderbolt는 실험적인 패치를 Flavor로 구분하여 직접 사용해볼 수 있도록 하는 Plazma 기반 서버 플랫폼입니다.
+description: Thunderbolt egy Plazma alapú szerver platform, amely lehetővé teszi a kísérleti javításokat Flavor szerinti megkülönböztetéssel közvetlenül használhatóvá tételét.
 ---
 
-# 🌩️ Thunderbolt Usage Guide
+# 🌩️ Thunderbolt Használati Útmutató
