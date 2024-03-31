@@ -1,5 +1,5 @@
 ---
-description: 서버를 사용자화하는 방법에 대해 알아보세요.
+description: Tìm hiểu cách tùy chỉnh máy chủ.
 ---
 
-# 🎨 사용자화
+# 🎨 Tùy chỉnh người dùng
