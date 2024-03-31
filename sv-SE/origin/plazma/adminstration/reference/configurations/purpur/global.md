@@ -1,5 +1,5 @@
 ---
-description: purpur.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Ta reda på vad varje nod i purpur.yml betyder.
 ---
 
-# 🦑 Purpur (전역 구성)
+# 🦑 Purpur (global komposition)
