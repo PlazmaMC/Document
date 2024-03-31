@@ -1,5 +1,5 @@
 ---
-description: paper-global.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Ellenőrizze, hogy a paper-global.yml fájlban minden csomópont mit jelent.
 ---
 
-# 🛩️ Paper (전역 구성)
+# 🛩️ Paper (globális konfiguráció)
