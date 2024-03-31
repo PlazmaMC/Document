@@ -1,5 +1,5 @@
 ---
-description: 서버를 사용자화하는 방법에 대해 알아보세요.
+description: Ta reda på hur du anpassar servern för användare.
 ---
 
-# 🎨 사용자화
+# 🎨 Anpassning för användare
