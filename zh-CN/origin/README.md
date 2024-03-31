@@ -1,16 +1,16 @@
 ---
-description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문해 주세요.
+description: 如有问题，请通过Discord或GitHub Issues提出。
 ---
 
-# 🏠 Welcome to Docs Portal
+# 🏠 欢迎来到文档门户
 
-### Plazma 사용 중 궁금증이 생겼다면?
+### 在使用Plazma时有疑问吗？
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
 {% endcontent-ref %}
 
-### Thunderbolt에 대해 관심이 있다면?
+### 对Thunderbolt感兴趣吗？
 
 {% content-ref url="thunderbolt/" %}
 [thunderbolt](thunderbolt/)
