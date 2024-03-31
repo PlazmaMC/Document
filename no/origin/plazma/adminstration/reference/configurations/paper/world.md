@@ -1,5 +1,5 @@
 ---
-description: paper-world.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Finn ut hva hver node i paper-world.yml betyr.
 ---
 
-# 🛩️ Paper (월드별 구성)
+# 🛩️ Paper (sammensetning av verden)
