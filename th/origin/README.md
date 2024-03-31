@@ -2,7 +2,7 @@
 description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문해 주세요.
 ---
 
-# 🏠 Welcome to Docs Portal
+# 🏠 ยินดีต้อนรับสู่พอร์ทัลเอกสาร
 
 ### Plazma 사용 중 궁금증이 생겼다면?
 
@@ -24,7 +24,7 @@ description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문�
 
 ***
 
-#### `SPONSOR` 더 많은 Minecraft 관련 정보가 필요하다면? <a href="#etc-1" id="etc-1"></a>
+#### `SPONSOR` ต้องการข้อมูลเพิ่มเติมเกี่ยวกับ Minecraft หรือไม่? <a href="#etc-1" id="etc-1"></a>
 
 {% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
