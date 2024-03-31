@@ -1,5 +1,5 @@
 ---
-description: paper-global.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Узнайте, что означает каждый узел в paper-global.yml.
 ---
 
-# 🛩️ Paper (전역 구성)
+# 🛩️ Бумага (глобальная конфигурация)
