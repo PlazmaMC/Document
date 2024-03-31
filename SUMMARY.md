@@ -12,7 +12,7 @@
   * [✅ 지원 버전](plazma/about/supported-versions.md)
   * [📑 포함된 패치](plazma/about/patches-list.md)
 * [⚒️ 서버 관리 가이드](plazma/adminstration/README.md)
-  * [🆕 시작하기](plazma/adminstration/getting-started/README.md)
+  * [👟 시작하기](plazma/adminstration/getting-started/README.md)
     * [🎨 사용자화](plazma/adminstration/getting-started/customization.md)
   * [📜 리퍼런스](plazma/adminstration/reference/README.md)
     * [🎛️ 인수와 속성](plazma/adminstration/reference/arguments.md)
