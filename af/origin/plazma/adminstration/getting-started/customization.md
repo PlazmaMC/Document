@@ -1,5 +1,5 @@
 ---
-description: 서버를 사용자화하는 방법에 대해 알아보세요.
+description: Leer hoe om die bediener aan te pas vir gebruikers.
 ---
 
-# 🎨 사용자화
+# 🎨 Gebruikersaanpassing
