@@ -1,526 +1,526 @@
 ---
-description: 시작 인수와 시스템 속성에 대해 알아보세요.
+description: Başlangıç argümanları ve sistem özelliklerini öğrenin.
 ---
 
-# 🎛️ 인수와 속성
+# 🎛️ Argümanlar ve Özellikler
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,\
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+Başlangıç değişkenleri ve sistem özellikleri, Plazma çalıştırması için [kullanılan komutlara](#user-content-fn-1)[^1] eklenen değerlerdir ve\
+Plazma başlatıldıktan sonra değiştirilemeyen değerleri değiştirmenize olanak tanır.
 
-[명령어에 덧붙이는 위치에](#user-content-fn-2)[^2] 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
+[Komuta eklenen konuma](#user-content-fn-2)[^2] bağlı olarak **başlangıç argümanları** ve **sistem özellikleri** olarak ayrılır.
 
 ***
 
-## 시스템 속성 <a href="#id-1" id="id-1"></a>
+## Sistem özelliği <a href="#id-1" id="id-1"></a>
 
-시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
+Sistem özellikleri, `-jar`'ın önüne yerleştirilir ve Plazma'nın başlatılması öncesinde JVM tarafından işlenen değerlerdir.
 
 {% hint style="warning" %}
 
-### 시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!
+### Sistem özelliklerini değiştirmek, Plazma ve JVM'in çalışma şeklini değiştirebilir ve oyun üzerinde büyük etkilere neden olabilir!
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Her sistem özelliğinin ne işe yaradığını kesin olarak bilmiyorsanız, **kesinlikle kullanmayın!**
 {% endhint %}
 
-### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
+### Kullanım şekli <a href="#id-1.1" id="id-1.1"></a>
 
-시스템 속성은 `java` 와 `-jar` 사이에 Java 명령 인수로써 입력됩니다.
+Sistem özellikleri, `java` ve `-jar` arasına Java komut argümanı olarak eklenir.
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,\
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+Örneğin, `Plazma.dummyProperty` sistem özelliğini uygulamak istediğinizde,\
+şu şekilde girdiğinizde sonraki özelliğe `37` değeri eklenir ve Plazma başlatılır.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 ```
 
-`-D`는 해당 인수가 JVM에 내장되지 않고 Plazma에 추가된 전용 인수임을 나타내며,
+`-D`, bu argümanın JVM'e yerleşik olmadığını ve Plazma'ya eklenen özel bir argüman olduğunu belirtir ve
 
-속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정됩니다.](#user-content-fn-3)[^3]
+değer girilmediğinde değer [`true` olarak sabitlenir.](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
 
-### Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.
+### Paperweight serisi sunucu platformları, her platformu ayırt etmek için özellik adlarında `.` işaretini içerir.
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Windows Powershell gibi bazı terminalde bu tür argümanlara izin verilmeyebilir, bu nedenle argümanların her iki ucuna da `"` eklenmelidir.]\(#user-content-fn-4)[^4]
 {% endhint %}
 
-### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
+### Tüm sistem özellikleri <a href="#id-1.2" id="id-1.2"></a>
 
 #### `convertLegacySigns`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-사용 중지된 표지판 포맷을 업데이트 합니다.
+Kullanımdan kaldırılan işaret formatlarını günceller.
 
 #### `debug.entities`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-엔티티 정보 관련 디버그 로그를 활성화 합니다.
+Varlık bilgileri ile ilgili hata ayıklama günlüklerini etkinleştirir.
 
 #### `debug.rewriteForIDE`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-IDE에서 디버그 정보를 올바르게 불러올 수 있도록 NMS 리비전을 비활성화 하고,\
-내부 버전 정보를 자동으로 리맵합니다.
+IDE'de hata ayıklama bilgilerini doğru şekilde yükleyebilmek için NMS revizyonunu devre dışı bırakır ve,\
+iç versiyon bilgisini otomatik olarak yeniden haritalandırır.
 
 #### `disable.watchdog`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
+Spigot'un Watchdog uyarı sistemi devre dışı bırakılır.
 
 #### `letMeReload`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-`/reload` 명령어의 재확인 메세지를 비활성화 합니다.
+`/reload` komutunun yeniden doğrulama iletişim kutusunu devre dışı bırakır.
 
 {% hint style="danger" %}
 
-### `/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.
+### `/reload` komutu son derece kararsız olduğundan, `/reload` kullanımından sonra oluşan tüm sunucu sorunları kullanıcıya aittir.
 
-플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
+Eğer bir eklenti geliştiricisiyseniz ve eklentiyi güncellemeniz gerekiyorsa, `/reload` yerine hotswap kullanın.
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-표준 입출력 체계를 사용하는 플러그인을 비활성화 합니다.
+Standart giriş/çıkış sistemini kullanan eklentileri devre dışı bırakır.
 
 #### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
+Mesajlaşma bileşenlerinde kullanımdan kaldırılan biçim algılandığında uyarır.
 
 #### `Paper.bypassHostCheck`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
+Oyuncunun sunucuya bağlandığında sunucunun model eşleşme doğrulamasını devre dışı bırakır.
 
 #### `Paper.debugDynamicMissingKeys`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
+NBT nesnelerinde eksik anahtarlar için hata ayıklama günlüklerini etkinleştirir.
 
 #### `Paper.debugInvalidSkullProfiles`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
+Hatalı kafatası profilleri hakkında hata ayıklama günlüklerini etkinleştirir.
 
-이는 월드 내 모든 잘못된 머리 블록을 위치와 함께 로그합니다.
+Bu, tüm hatalı kafatası bloklarını konumlarıyla birlikte günlüğe kaydeder.
 
 #### `Paper.disableChannelLimit`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
+Oyuncu başına uygulanan 128 adet eklenti kanalının sınırını devre dışı bırakır.
 
 #### `Paper.disableClassPrioritization`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-플러그인 클래스 우선 순위 체계를 비활성화 합니다.
+Eklenti sınıf öncelik sistemini devre dışı bırakır.
 
-플러그인 셰이드에서 문제가 발생한 경우 유용합니다.
+Eklenti gölgelendirmede sorun yaşandığında faydalıdır.
 
 #### `Paper.disableFlushConsolidate`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-Netty flush consolidation 체계를 비활성화 합니다.
+Netty flush konsolidasyon sistemini devre dışı bırakır.
 
 #### `Paper.excessiveTELimit`
 
-- **형태**: `Integer`
-- **기본값**: `750`
+- **Biçimi**: `Integer`
+- **Varsayılan Değer**: `750`
 
-엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
+Varlık sayısı belirtilen değerden fazla ise çoklu paketlere bölerek iletilir.
 
 #### `Paper.filterThreshold`
 
-- **형태**: `Integer`
-- **기본값**: `8192`
+- **Biçimi**: `Integer`
+- **Varsayılan Değer**: `8192`
 
-서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
+Sunucunun alabileceği maksimum paket boyutunu ayarlar.
 
 #### `Paper.ignoreJavaVersion`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-Java 버전 확인을 비활성화 합니다.
+Java sürüm kontrolünü devre dışı bırakır.
 
 {% hint style="danger" %}
 
-### 이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!
+### Bu, JVM'in mevcut olmayan kodlara erişmeye çalışmasına neden olabilir!
 
-월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
+Dünya ve diğer tüm dosyalar kalıcı olarak zarar görebilir ve oyunun genel mekanikleri bozulabilir.
 
-이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
+Bu nedenle yaşanan tüm sorunlar sizin sorumluluğunuzdadır ve Plamza bunun için herhangi bir destek sağlamaz.
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **형태**: `Integer`
-- **기본값**: `64`
+- **Biçimi**: `Integer`
+- **Varsayılan Değer**: `64`
 
-플러그인 채널[^6] 이름의 제한을 설정합니다.
+Eklenti kanalı adının sınırını belirler.
 
 #### `Paper.maxSignLength`
 
-- **형태**: `Integer`
-- **기본값**: `80`
+- **Biçimi**: `Integer`
+- **Varsayılan Değer**: `80`
 
-표지판의 한 줄에 입력 가능한 글자의 최대 길이를 설정합니다.
+Tabelanın bir satırına girilebilecek maksimum karakter sayısını ayarlar.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **형태**: `Integer`
-- **기본값**: `(월드 버전) + 1`
+- **Biçimi**: `Integer`
+- **Varsayılan Değer**: `(Dünya Sürümü) + 1`
 
-먼저 초기화할 월드 업데이트 정보의 버전을 설정합니다.
+Önce başlanacak dünya güncelleme bilgisinin sürümünü ayarlar.
 
-대량의 청크를 업데이트 해야 하는 경우 유용하지만, 그 외에 경우 사용되지 않습니다.
+Çok sayıda bloğun güncellenmesi gereken durumlarda faydalı olabilir, ancak diğer durumlarda kullanılmaz.
 
 #### `Paper.parseYamlCommentsByDefault`
 
-- **형태**: `Boolean`
-- **기본값**: `True`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `True`
 
-YAML 파일의 주석의 처리를 활성화 합니다.
+YAML dosyalarındaki yorumların işlenmesini etkinleştirir.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **형태**: `Integer`
-- **기본값**: `30`
+- **Biçimi**: `Integer`
+- **Varsayılan Değer**: `30`
 
-플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
+Oyuncudan belirli bir süre (saniye cinsinden) hiçbir veri alınmazsa, oyuncuyu atar.
 
-일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+Genellikle, oyun[^7] sürekli olarak sunucuya [kalp atış sinyali](#user-content-fn-8)[^8] gönderdiğinden, [atılmazlar ancak,](#user-content-fn-9)[^9] oyun yanıt vermezse çakışma olduğunu düşünür ve artık sunucuda oyuncuyu işlemez ve atar.
 
 #### `Paper.skipServerPropertiesComments`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-서버 속성의 주석을 무시합니다.
+Sunucu özelliklerinin yorumlarını görmezden gelir.
 
 #### `Paper.debug-sync-loads`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-동기 청크 작성의 디버그 로그를 활성화 합니다.
+Senkron yükleme hata ayıklama günlüklerini etkinleştirir.
 
 #### `Paper.enable-sync-chunk-writes`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성화 합니다.
+Minecraft'un [varsayılan yükleme sistemi](#user-content-fn-10)[^10]'ni etkinleştirir.
 
-이는 각 청크를 저장하는 것을 순서대로 진행하므로, 굉장한 성능 저하를 유발합니다.
+Bu, her bir bloğu sırayla kaydetmeyi gerektirdiği için büyük performans düşüşüne neden olur.
 
 #### `Paper.explicit-flush`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-네트워크 채널의 Explicit Flushing을 활성화 합니다.
+Ağ kanalının Açıkça Boşaltılmasını etkinleştirir.
 
 #### `Paper.strict-thread-checks`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
+Ana iş parçacığında meydana gelen hataları her zaman kaydeder.
 
 #### `Paper.tickList-warn-on-excessive-delay`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-예약된 작업이 과도한 대기 시간을 가질 경우 경고를 출력합니다.
+Zamanlamalı görevlerin aşırı gecikmeye sahip olması durumunda uyarı verir.
 
 #### `Paperclip.patchOnly`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `False`
 
-기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
+Varsayılan yürütülebilir dosyayı kullandığınızda, sunucuyu başlatmadan yalnızca yama uygular.
 
 #### `Plazma.aggressiveOptimize`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `false`
 
 {% hint style="warning" %}
 
-### 해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
+### Bu özellik, 1.20.5'ten sonra başlangıç argümanına taşınacaktır.
 
 {% endhint %}
 
-처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
+Başlangıçta uygulanan yapılandırma optimizasyonunu daha katı bir şekilde uygular.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
+Aktifleştirildiğinde sunucu daha hızlı ve güvenli hale gelir, ancak bazı hataları engelleyebilir veya oyun oynamayı büyük ölçüde etkileyebilir.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `false`
 
-Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
+Plazma'nın başlatılması sırasında görüntülenen uyarıyı bastırır.
 
-### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
+### Kullanımdan kaldırılan özellik <a href="#id-1.3" id="id-1.3"></a>
 
-아래 시스템 속성은 사용이 중단된 속성입니다.
+Aşağıdaki sistem özellikleri kullanımdan kaldırılmış özelliklerdir.
 
 #### `timings.bypassMax`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
-- **사용 중단됨**: Timings가 Plazma에서 전면 제거된 후 부터
+- **Biçimi**: `Boolean`
+- **Varsayılan Değer**: `false`
+- **Kullanım dışı**: Timings, Plazma'dan tamamen kaldırıldıktan sonra
 
-Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되는지 결정합니다.
+Aikar'ın Timings API'sine iletilen değerin maksimumunun aşıp aşamayacağını belirler.
 
-이렇게 하더라도 API에서 예외 처리되지 않으면 레이트 제한이 적용됩니다.
+Buna rağmen, API'de istisna olmazsa hız sınırlaması uygulanır.
 
 ***
 
-## 시작 인수 <a href="#id-2" id="id-2"></a>
+## Başlangıç argümanı <a href="#id-2" id="id-2"></a>
 
-시작 인수는 `-jar *.jar` 뒤에 입력되어 Plazma가 초기화되며 함께 처리되는 값입니다.
+Başlangıç argümanı, `-jar *.jar`'ın arkasına girilir ve Plazma başlatıldığında işlenen bir değerdir.
 
-### 사용 방법 <a href="#id-2.1" id="id-2.1"></a>
+### Kullanım şekli <a href="#id-2.1" id="id-2.1"></a>
 
-시스템 속성은 `-jar *.jar` 뒤에 프로그램 명령 인수로써 입력됩니다.
+Sistem özellikleri, `-jar *.jar`'ın arkasına programın komut argümanı olarak girilir.
 
-예를 들어, `nogui` 시작 인수를 적용하려 하는 경우,\
-다음과 같이 입력하면 Plazma가 초기화 중에 `nogui` 인수를 처리하게 됩니다.
+Örneğin, `nogui` başlangıç argümanını uygulamak istediğinizde,\
+şu şekilde girerek Plazma, başlatma sırasında `nogui` argümanını işler.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 ```
 
-### 전체 시작 인수 <a href="#id-2.2" id="id-2.2"></a>
+### Tüm başlangıç argümanı <a href="#id-2.2" id="id-2.2"></a>
 
 #### `bukkit-settings`
 
-- **별칭**: `b`
-- **기본값**: `bukkit.yml`
+- **Takma ad**: `b`
+- **Varsayılan**: `bukkit.yml`
 
-[Bukkit 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+[Bukkit yapılandırma dosyası](../reference/configurations/bukkit.md)'nın adını ve konumunu ayarlar.
 
 #### `command-settings`
 
-- **별칭**: `c`
-- **기본값**: `commands.yml`
+- **Takma ad**: `c`
+- **Varsayılan**: `commands.yml`
 
-[Bukkit 명령어 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+[Bukkit komut yapılandırma dosyası](../reference/configurations/bukkit.md)'nın adını ve konumunu ayarlar.
 
 #### `config`
 
-- **별칭**: `c`
-- **기본값**: `server.properties`
+- **Takma ad**: `c`
+- **Varsayılan**: `server.properties`
 
-[서버 속성](../reference/configurations/property.md) 파일의 이름 및 위치를 설정합니다.
+[Sunucu özellikleri](../reference/configurations/property.md) dosyasının adını ve konumunu ayarlar.
 
 #### `demo`
 
-데모 월드로 서버를 시작합니다.
+Sunucuyu demo dünyasıyla başlatır.
 
 #### `eraseCache`
 
-월드 업그레이드 후 남은 캐시 파일을 제거합니다.
+Dünya yükseltme sonrası kalan önbellek dosyalarını siler.
 
 #### `forceUpgrade`
 
-버전을 무시하고 월드를 강제로 [업그레이드](#user-content-fn-12)[^12] 합니다.
+Sürümü dikkate almadan dünyayı zorla [yükseltir](#user-content-fn-12)[^12].
 
 #### `help`
 
-- **별칭**: `?`
+- **Takma ad**: `?`
 
-Plazma의 전체 시작 인수와 설명을 출력합니다.
+Plazma'nın tüm başlangıç argümanlarını ve açıklamalarını görüntüler.
 
 #### `initSettings`
 
-구성 파일만 생성하고 서버를 종료합니다.
+Yapılandırma dosyasını oluşturur ve sunucuyu kapatır.
 
 #### `jfrProfile`
 
-JFR 프로필링을 활성화 합니다.
+JFR profil oluşturmayı etkinleştirir.
 
 #### `max-players`
 
-- **별칭**: `s`, `size`
-- **기본값**: `(서버 속성)`
+- **Takma ad**: `s`, `size`
+- **Varsayılan**: `(sunucu özellikleri)`
 
-허용되는 최대 [플레이어](#user-content-fn-14)[^14] 수를 설정합니다.
+Kabul edilen maksimum [oyuncu](#user-content-fn-14)[^14] sayısını ayarlar.
 
 #### `nogui`
 
-그래픽 인터페이스 패널을 비활성화 합니다.
+Grafik arayüz panelini devre dışı bırakır.
 
 #### `nojline`
 
-JLine을 비활성화 하고 바닐라 콘솔을 사용합니다.
+JLine'ı devre dışı bırakır ve saf konsolu kullanır.
 
 #### `online-mode`
 
-- **별칭**: `o`
-- **기본값**: `(서버 속성)`
+- **Takma ad**: `o`
+- **Varsayılan**: `(sunucu özellikleri)`
 
-Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
+Oyuncuları Mojang kimlik doğrulama sunucusuyla doğrulamak için seçim yapar.
 
-**Velocity 등 프록시를 사용하는 것이 아닌 경우 [EULA](../getting-started/README.md#id-5) 위반으로 제재될 수 있습니다.**
+**Velocity ve benzeri proxy'ler kullanılmadığı takdirde [EULA](../getting-started/README.md#id-5) ihlali nedeniyle cezalandırılabilirsiniz.**
 
 #### `paper-settings`
 
-- **별칭**: `paper`
-- **기본값**: `paper.yml`
+- **Takma ad**: `paper`
+- **Varsayılan**: `paper.yml`
 
 {% hint style="warning" %}
 
-### 이 인수는 1.19.4 이후 사용이 중지되었습니다
+### Bu argüman 1.19.4'ten sonra kullanımdan kaldırılmıştır
 
 {% endhint %}
 
-사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다.
+Kullanımdan kaldırılan PaperSpigot yapılandırma dosyasının konumunu ayarlar.
 
-이는 기존 구성을 새 구성 파일로 이전하기 위해 사용되며, 그 이후에는 사용되지 않습니다.
+Bu, mevcut yapıyı yeni bir yapılandırma dosyasına taşımak için kullanılır ve daha sonra kullanılmaz.
 
 #### `paper-settings-directory`
 
-- **별칭**: `paper-dir`
-- **기본값**: `config`
+- **Takma ad**: `paper-dir`
+- **Varsayılan**: `config`
 
-[Paper 구성 파일](../reference/configurations/paper/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+[Paper yapılandırma dosyası](../reference/configurations/paper/README.md)'nın bulunduğu klasörün adını ve konumunu ayarlar.
 
 #### `plazma-settings-directory`
 
-- **별칭**: `plazma-dir`
+- **Takma ad**: `plazma-dir`
 
-[Plazma 구성 파일](../reference/configurations/plazma/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+[Plazma yapılandırma dosyası](../reference/configurations/plazma/README.md)'nın bulunduğu klasörün adını ve konumunu ayarlar.
 
 #### `plugins`
 
-- **별칭**: `p`
-- **기본값**: `plugins`
+- **Takma ad**: `p`
+- **Varsayılan**: `plugins`
 
-플러그인 폴더의 위치를 설정합니다.
+Eklenti klasörünün konumunu ayarlar.
 
 #### `pufferfish-settings`
 
-- **별칭**: `pufferfish`
-- **기본값**: `pufferfish.yml`
+- **Takma ad**: `pufferfish`
+- **Varsayılan**: `pufferfish.yml`
 
-[Pufferfish 구성 파일](../reference/configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
+[Pufferfish yapılandırma dosyası](../reference/configurations/pufferfish.md)'nın adını ve konumunu ayarlar.
 
 #### `purpur-settings`
 
-- **별칭**: `purpur`
-- **기본값**: `purpur.yml`
+- **Takma ad**: `purpur`
+- **Varsayılan**: `purpur.yml`
 
-[Purpur 구성 파일](../reference/configurations/purpur/README.md)의 이름 및 위치를 설정합니다.
+[Purpur yapılandırma dosyası](../reference/configurations/purpur/README.md)'nın adını ve konumunu ayarlar.
 
 #### `safeMode`
 
-(안전 모드) 완전한 바닐라 상태로 서버를 시작합니다.
+(Güvenli Mod) Sunucuyu tamamen saf bir şekilde başlatır.
 
 #### `server-ip`
 
-- **별칭**: `h`, `host`
-- **기본값**: `(서버 속성)`
+- **Takma ad**: `h`, `host`
+- **Varsayılan**: `(sunucu özellikleri)`
 
-서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-13)[^13] 주소를 설정합니다.
+Sunucunun ana bilgisayar adını veya [internet protokolü](#user-content-fn-13)[^13] adresini ayarlar.
 
 #### `server-port`
 
-- **별칭**: `p`, `port`
-- **기본값**: `(서버 속성)`
+- **Takma ad**: `p`, `port`
+- **Varsayılan**: `(sunucu özellikleri)`
 
-서버의 포트를 설정합니다.
+Sunucunun bağlantı noktasını ayarlar.
 
 #### `server-name`
 
-- **기본값**: `A Plazma Server`
+- **Varsayılan**: `A Plazma Sunucusu`
 
-서버의 이름을 설정합니다.
+Sunucunun adını ayarlar.
 
 #### `spigot-settings`
 
-- **별칭**: `S`
-- **기본값**: `spigot.yml`
+- **Takma ad**: `S`
+- **Varsayılan**: `spigot.yml`
 
-[Spigot 구성 파일](../reference/configurations/spigot.md)의 이름 및 위치를 설정합니다.
+[Spigot yapılandırma dosyası](../reference/configurations/spigot.md)'nın adını ve konumunu ayarlar.
 
 #### `version`
 
-- **별칭**: `v`
+- **Takma ad**: `v`
 
-Plazma 버전을 출력합니다.
+Plazma sürümünü görüntüler.
 
 #### `world-dir`
 
-- **별칭**: `W`, `universe`, `world-container`
-- **기본값**: `(서버 폴더)`
+- **Takma ad**: `W`, `evren`, `dünya-konteyneri`
+- **Varsayılan**: `(sunucu klasörü)`
 
-월드 파일이 저장되는 위치를 설정합니다.
+Dünya dosyalarının kaydedildiği konumu ayarlar.
 
 #### `world-name`
 
-- **별칭**: `w`, `world`
-- **기본값**: `(서버 속성)`
+- **Takma ad**: `w`, `dünya`
+- **Varsayılan**: `(sunucu özellikleri)`
 
-월드 파일의 이름을 설정합니다.
+Dünya dosyasının adını ayarlar.
 
 ***
 
-[^1]: `java (...) -jar server.jar (...)`
+[^1]: `java (...) -jar sunucu.jar (...)`
 
-[^2]: 덧붙여지는 위치에 따라 인수를 처리하는 위치가 변경됩니다.
+[^2]: Eklenen konuma bağlı olarak argüman işleme konumu değişir.
 
-[^3]: 예를 들어, `Plazma.iKnowWhatIAmDoing`을 `true`로 설정(활성화) 하려는 경우, `-DPlazma.iKnowWhatIAmDoing=true` 대신 `-DPlazma.iKnowWhatIAmDoing` 만 입력해도 동일하게 작동합니다.
+[^3]: Örneğin, `Plazma.iKnowWhatIAmDoing` değerini `true` olarak ayarlamak (etkinleştirmek) istediğinizde, `-DPlazma.iKnowWhatIAmDoing=true` yerine `-DPlazma.iKnowWhatIAmDoing` yazmak yeterlidir ve aynı şekilde çalışır.
 
-[^4]: 예를 들어, `"-DPlazma.iKnowWhatIAmDoing"`
+[^4]: Örneğin, `"-DPlazma.iKnowWhatIAmDoing"`
 
-[^5]: 이벤트 감지기.
+[^5]: Olay algılayıcı.
 
-[^6]: 이벤트 감지기.
+[^6]: Olay algılayıcı.
 
-[^7]: 클라이언트.
+[^7]: İstemci.
 
-[^8]: 심장 박동처럼 서버와 정상적으로 연결 되어 있음을 알리는 신호.
+[^8]: Kalp atışı gibi sunucu ile düzgün bağlantı kurulduğunu belirten sinyal.
 
-[^9]: Purpur의 AFK 추방 기능을 사용하면 자리를 비운 플레이어도 추방할 수 있습니다.
+[^9]: Purpur'un AFK atma özelliği, oyundan ayrılan oyuncuları da atmanıza olanak tanır.
 
-[^10]: 동기 청크 작성 체계, Sync Chunk Write System.
+[^10]: Senkron Chunk Yazma Sistemi, Sync Chunk Write System.
 
-[^11]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
+[^11]: `UYARI! Plazma beklenmedik sorunlara neden olabilir, bu nedenle halka açık bir sunucuda kullanmadan önce detaylı bir şekilde test ettiğinizden emin olun.`
 
-[^12]: 게임에서 `월드 최적화` 도 이와 같은 원리로 동작합니다.
+[^12]: Oyundaki `dünya optimizasyonu` da aynı prensiple çalışır.
 
-[^13]: Internet Protocol, IP.
+[^13]: Internet Protokolü, IP.
 
-[^14]: `레벨 2` 이상의 관리자는 제외합니다.
+[^14]: `Seviye 2` ve üzeri yöneticiler hariç tutulur.
