@@ -1,5 +1,5 @@
 ---
-description: config 폴더의 각 파일의 용도가 무엇인지 알아보세요.
+description: Ontdek het doel van elk bestand in de config-map.
 ---
 
-# 🛩️ Paper
+# 🛩️ Papier
