@@ -1,35 +1,35 @@
 ---
-description: Plazma로 서버를 만드는 방법을 알아 보세요.
+description: Discover how to make a server with Plazma.
 ---
 
-# 👟 시작하기
+# 👟 Gettin' Started
 
-Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
+To use Plazma reliably, yer system must meet the followin' requirements.
 
-|      |  최저 |   권장 |
-| :--: | --: | ---: |
-| 아키텍쳐 | x64 |    - |
-|  RAM | 8GB | 16GB |
-| 저장공간 | 1GB |  8GB |
-|  JRE |  17 |   21 |
+|               | Minimum | Recommended |
+| :-----------: | ------: | ----------: |
+|  Architecture |     x64 |           - |
+|      RAM      |     8GB |        16GB |
+| Storage Space |     1GB |         8GB |
+|      JRE      |      17 |          21 |
 
-원할한 구성 파일 수정을 위하여, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것도 좋습니다.
+For smooth configuration file edits, it be good to install an editor like [Visual Studio Code](https://code.visualstudio.com/download).
 
 ***
 
-## 1. JRE 설치
+## 1. JRE Installation
 
-이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JRE[^1]를 필요로 합니다.
+As the name suggests, Minecraft: **"Java"** Edition be developed in Java, so ye need JRE[^1] to run it.
 
-Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JRE를 설치해야 합니다.
+Plazma be based on Mojang Studios' official server platform, so ye also need to install JRE to use Plazma.
 
-### 1.1 JRE 유무 확인
+### 1.1 Checkin' for JRE
 
-JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
+To check if JRE be installed on yer system, type [`cmd /k java --version`](#user-content-fn-4) in the Run window and run it.
 
-다음과 같이 출력되면 [2 단계](setup.md#id-2)로 건너뜁니다.
+If it be outputtin' like this, skip to [Step 2](setup.md#id-2).
 
-{% code title="올바른 출력" overflow="wrap" lineNumbers="true" %}
+{% code title="Correct Output" overflow="wrap" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -39,9 +39,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](setup.md#id-1.2)를 수행해야 합니다.
+If it don't output like that, or if it be like this, then JRE be either not there or too old, so ye need to do [Step 1.2](setup.md#id-1.2).
 
-{% code title="JRE가 설치되어 있지 않음" overflow="wrap" lineNumbers="true" %}
+{% code title="JRE not installed" overflow="wrap" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
