@@ -265,6 +265,16 @@ Windows IP 구성
 {% endtab %}
 {% endtabs %}
 
+## 7. 발전 단계
+
+서버를 성공적으로 시작하고 서버가 올바르게 작동중이라면, 이제 서버를 사용자화 할 차례입니다.
+
+아래 가이드를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+
+{% content-ref url="customization.md" %}
+[customization.md](customization.md)
+{% endcontent-ref %}
+
 ***
 
 [^1]: Java Runtime Environment, Java 실행 환경.

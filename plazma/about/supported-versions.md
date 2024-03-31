@@ -2,7 +2,7 @@
 description: 'Plazma에서 지원하는 Minecraft: Java Edition 버전을 알아보세요.'
 ---
 
-# ✅ 지원 버전
+# ✅ 버전 지원 상태
 
 {% hint style="info" %}
 ### Plazma는 1.19.4 이후부터 개발되어, 1.19.4 미만의 버전은 개발되어 있지 않습니다.
