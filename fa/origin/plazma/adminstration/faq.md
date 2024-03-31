@@ -1,38 +1,38 @@
 ---
-description: 자주 묻는 질문에 대해 알아보세요.
+description: درباره سوالات متداول بازدید کنید.
 ---
 
-# ⁉️ 자주 묻는 질문
+# ⁉️ سوالات متداول
 
 {% hint style="info" %}
 
-### 원하는 답변을 찾을 수 없나요?
+### آیا پاسخ مورد نظر خود را پیدا نکردید؟
 
 [سرور رسمی Discord](https://discord.gg/MmfC52K8A8) یا [مشکلات GitHub](https://github.com/PlazmaMC/PlazmaBukkit/issues) را برای پرسش‌های خود به جامعه ارسال کنید!
 {% endhint %}
 
-### 메세지가 출력되면서 실행이 되지 않습니다
+### پیامی نمایش داده شده و اجرا نمی شود
 
-콘솔에 `no main manifest attribute, in plazma-(version).jar` 라고 출력된 경우,\
-다운로드한 파일은 개발용 API 파일로, GitHub 페이지에서 **Reobf Paperweight**을 다운로드해야 합니다.
+اگر پیام `no main manifest attribute, in plazma-(version).jar` در کنسول نمایش داده شده است،\
+فایلی که دانلود کرده اید یک فایل API توسعه‌یافته است، باید **Reobf Paperweight** را از صفحه GitHub دانلود کنید.
 
-자세히 알아보려면 다음 페이지를 참고 하세요.
+برای اطلاعات بیشتر به صفحه زیر مراجعه کنید.
 
 {% content-ref url="getting-started/" %}
 [getting-started](getting-started#id-2)
 {% endcontent-ref %}
 
-### 서버가 시작될 때 마다 경고가 표시됩니다
+### هر بار که سرور راه‌اندازی می‌شود، یک هشدار نمایش داده می شود
 
-Plazma는 일부 불안정한 패치가 포함되어 있으며, 항상 오작동할 가능성이 있으므로 다음과 같은 경고문을 서버가 시작될 때 출력하고 있습니다.
+Plazma شامل برخی از پچ‌های ناپایدار است و همیشه احتمال اشتباه وجود دارد، بنابراین این هشدارها را هنگام راه‌اندازی سرور چاپ می‌کند.
 
 ```log
 [12:34:56 WARN]: Warning! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.
 ```
 
-해당 경고문은 [`-DPlazma.iKnowWhatIAmDoing`](#user-content-fn-1)[^1] 시스템 속성을 사용하여 비활성화 할 수 있습니다.
+این هشدار با استفاده از ویژگی سیستم [`-DPlazma.iKnowWhatIAmDoing`](#user-content-fn-1)[^1] قابل غیرفعال سازی است.
 
-자세히 알아보려면 다음 페이지를 참고 하세요.
+برای اطلاعات بیشتر به صفحه زیر مراجعه کنید.
 
 {% content-ref url="reference/arguments.md" %}
 [arguments.md](reference/arguments.md#plazma.iknowwhatiamdoing)
@@ -40,4 +40,4 @@ Plazma는 일부 불안정한 패치가 포함되어 있으며, 항상 오작동
 
 ***
 
-[^1]: 1.20.1부터 사용 가능
+[^1]: قابل دسترس از نسخه 1.20.1
