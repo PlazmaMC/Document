@@ -1,5 +1,5 @@
 ---
-description: purpur.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Descubra o significado de cada nó em purpur.yml.
 ---
 
-# 🦑 Purpur (월드별 구성)
+# 🦑 Purpur (composição mundial)
