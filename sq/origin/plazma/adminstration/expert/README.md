@@ -1,5 +1,5 @@
 ---
-description: Plazma를 전문적으로 다루는 방법에 대해 알아보세요.
+description: Mësoni se si të trajtoni Plazma në mënyrë profesionale.
 ---
 
-# 🎓 심화
+# 🎓 thellë
