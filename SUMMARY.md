@@ -2,8 +2,8 @@
 
 * [🏠 Welcome to Docs Portal](README.md)
   * [⚛️ GitHub](https://github.com/PlazmaMC/PlazmaBukkit)
-  * [📊 bStats](https://bstats.org/plugin/server-implementation/Plazma)
   * [💬 Discord](https://discord.gg/MmfC52K8A8)
+  * [📊 bStats](https://bstats.org/plugin/server-implementation/Plazma)
 
 ## Plazma
 
