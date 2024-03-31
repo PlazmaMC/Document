@@ -1,5 +1,5 @@
 ---
-description: Plazma에 추가된 모든 기능에 대해 알아보세요.
+description: 了解所有添加到Plazma中的功能。
 ---
 
-# 📑 포함된 패치
+# 📑 包含的补丁
