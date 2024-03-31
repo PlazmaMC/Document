@@ -1,67 +1,65 @@
 ---
-description: Plazma는 어떤 서버 플랫폼인지 알아보세요.
+description: 了解 Plazma 是什麼服務器平台。
 ---
 
-# ❓ Plazma란?
+# ❓ 什麼是Plazma?
 
-- **Plazma**는 [Andromeda](https://github.com/EarendelArchived/Andromeda)와 [Fusion](https://github.com/RuinedTechnologyUnify/Fusion)에서 장점만을 가져온 [Paper](https://github.com/PaperMC/Paper) 기반의 서버 플랫폼 입니다.
-- 항상 높은 안정성과 강력한 성능, 빠른 업데이트, 방대한 기능을 제공하기 위하여 노력하고 있습니다.
+- **Plazma**是基於[Andromeda](https://github.com/EarendelArchived/Andromeda)和[Fusion](https://github.com/RuinedTechnologyUnify/Fusion)的優點，以[Paper](https://github.com/PaperMC/Paper)為基礎的服務器平台。
+- 我們致力於提供高度穩定性和強大性能、快速更新和豐富功能。
 
-## 📋 Plazma의 목표 <a href="#id-1" id="id-1"></a>
+## 📋 Plazma的目標 <a href="#id-1" id="id-1"></a>
 
-- 빠른 업데이트, 높은 안정성을 가진 서버 플랫폼이 되기 위해 노력하고 있습니다.
-- 모드 플랫폼 못지 않은 방대한 기능과 강력한 성능을 제공하기 위해 노력하고 있습니다.
-- 바닐라의 패치도 사용자화 할 수 있는 자유로운 플랫폼을 만들기 위해 노력하고 있습니다.
+- 我們致力於成為一個擁有快速更新和高度穩定性的服務器平台。
+- 我們致力於提供與模組平台不相上下的豐富功能和強大性能。
+- 我們致力於創建一個可以自由定制甚至自訂Vanilla補丁的平台。
 
-## ⚙️ 주요 특징 <a href="#id-2" id="id-2"></a>
+## ⚙️ 主要特點 <a href="#id-2" id="id-2"></a>
 
-1. **강력한 플러그인 생태계**\
-   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
-2. **설정이 필요 없는 최적화**\
-   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
-3. **원하는 대로 사용자화하는 게임**\
-   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
-4. **안전하게 플레이하는 서버**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며, 진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
-5. **가장 빠른 업데이트**\
-   [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate)는 Plazma의 포함 패치가 항상 최신으로 유지될 수 있도록 해서, Paper 기반 서버 플랫폼 중에서 가장 빠른 업데이트를 제공하고 있습니다.
-6. **기본 구성 파일 최적화**\
-   기본 적용되는 구성 파일이 최적화되어 있어, 직접 구성 파일을 최적화 하지 않아도 됩니다.
-7. **체계적으로 작동하는 멀티스레드**\
-   게임의 메커니즘과 관계 없는 시스템 메커니즘을 비동기화 하여, [지연 시간](#user-content-fn-4)[^4]을 줄여 서버를 최적화 합니다.
-8. **불필요한 공간의 사용 차단**\
-   비슷한 값을 가진 데이터를 모두 하나로 합쳐 메모리 사용량을 줄입니다.
+1. **強大的插件生態系統**\
+   基於[Paper](https://github.com/PaperMC/Paper)，大部分可在互聯網上下載的[最新插件](#user-content-fn-1)[^1]均能正常運作。
+2. **無需設置的優化**\
+   包含[Pufferfish](https://github.com/pufferfish-gg/Pufferfish)的所有補丁，並且內置了一些自身優化和模組，提供最佳性能。
+3. **自定義遊戲**\
+   包括在Plazma中的[Purpur](https://github.com/PurpurMC/Purpur)可修改遊戲的整體屬性。
+4. **安全遊戲伺服器**\
+   包含[No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)，可停用自1.19版起新增的Mojang[^2]的[聊天舉報系統](#user-content-fn-3)[^3]，並完全刪除診斷信息收集器，讓玩家能在無跟踪的安全伺服器上遊玩。
+5. **最快的更新**\
+   [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate)確保Plazma的補丁始終保持最新，提供Paper基礎伺服器平台中最快的更新。
+6. **優化的預設配置文件**\
+   預設應用的配置文件已優化，無需自行優化配置文件。
+7. **多線程運作**\
+   通過異步化與遊戲機制無關的系統機制，減少[延遲時間](#user-content-fn-4)[^4]以優化伺服器。
+8. **阻止不必要空間使用**\
+   將具有相似值的數據合併為一個以減少內存使用。
 
-#### Plazma에 대해 더 알아보고 싶다면? <a href="#etc-1" id="etc-1"></a>
+#### 想了解更多關於Plazma? <a href="#etc-1" id="etc-1"></a>
 
 {% content-ref url="patches-list.md" %}
 [patches-list.md](patches-list.md)
 {% endcontent-ref %}
 
-## ✨ 활용 사례 <a href="#id-3" id="id-3"></a>
+## ✨ 應用案例 <a href="#id-3" id="id-3"></a>
 
-- **복잡한 플러그인도 올바르게 처리하는 플랫폼**\
-  개발자 [IPECTER](https://github.com/IPECTER)의 서버에서 Plazma가 사용되고 있습니다. NMS와 리플렉션으로 작동하는 자체 플러그인, 복잡하고 방대한 크기의 데이터팩이 굉장히 많이 적용되어 있음에도,
-  100명대 이상의 플레이어를 성능 하락 없이 받아들이고 있습니다.
-- **RPG 서버에서도 빠른 성능을 유지한 플랫폼**\
-  단일 클러스터에서 100명의 플레이어를 TPS 하락 없이 안정적으로 유지하였으며, 4개의 클러스터에서 총 250명의 플레이어가 쾌적하게 플레이 할 수 있었습니다.
-- **청크/엔티티에서 빛을 보이는 플랫폼**\
-  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을 Purpur에서 Plazma로 변경하며
-  대부분의 지연을 줄일 수 있었습니다.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 치지직 스트리머 분들의 시청자 첨여용 버킷으로 선택받아 사용되고 있습니다.
+- **處理複雜插件的平台**\
+  由開發者[IPECTER](https://github.com/IPECTER)的伺服器使用Plazma。 即使使用自家插件，運作依賴NMS和反射，以及大量複雜數據包，仍可在不降低性能的情況下接受100名以上的玩家。
+- **在RPG伺服器上保持高性能的平台**\
+  在單一集群中，能穩定容納100名玩家而不影響TPS，並且在4個集群中共有250名玩家可以順暢遊玩。
+- **在區塊/實體方面展示光芒的平台**\
+  將Purpur替換為Plazma後，成功減少大部分原有的區塊和實體處理延遲。
+- **許多流行串流平台的選擇**\
+  許多知名串流平台的觀眾選擇使用Plazma作為其服務器。
 
-<figure><img src="https://camo.githubusercontent.com/22acffd515755c2cee2078a7697ff35351c5ec7148eb2806deedbe63df1c4ed7/68747470733a2f2f6273746174732e6f72672f7369676e6174757265732f7365727665722d696d706c656d656e746174696f6e2f506c617a6d612e737667" alt=""><figcaption><p>실시간 Plazma 사용자 추이</p></figcaption></figure>
+<figure><img src="https://camo.githubusercontent.com/22acffd515755c2cee2078a7697ff35351c5ec7148eb2806deedbe63df1c4ed7/68747470733a2f2f6273746174732e6f72672f7369676e6174757265732f7365727665722d696d706c656d656e746174696f6e2f506c617a6d612e737667" alt=""><figcaption><p>即時Plazma使用者趨勢</p></figcaption></figure>
 
-## ⬇️ 다운로드
+## ⬇️ 下載
 
-아래 페이지에서 Plazma를 다운로드 할 수 있습니다.
+您可以在以下頁面下載Plazma。
 
 {% content-ref url="downloads.md" %}
 [downloads.md](downloads.md)
 {% endcontent-ref %}
 
-#### 버전 지원에 대한 자세한 정보를 알고 싶다면?
+#### 想了解支援的版本詳情?
 
 {% content-ref url="supported-versions.md" %}
 [supported-versions.md](supported-versions.md)
@@ -69,10 +67,10 @@ description: Plazma는 어떤 서버 플랫폼인지 알아보세요.
 
 ***
 
-[^1]: Bukkit, CraftBukkit, Spigot 플러그인 및 Paper, Pufferfish, Purpur 플러그인.
+[^1]: Bukkit, CraftBukkit, Spigot插件以及Paper, Pufferfish, Purpur插件。
 
-[^2]: 이하 Microsoft Corporation.
+[^2]: 由Microsoft Corporation提供。
 
-[^3]: 채팅 신고 시스템을 비활성화 하면 채팅이 온전히 서버에서만 처리되어 Mojang의 채팅 추적을 막을 수 있습니다.
+[^3]: 停用聊天舉報系統後，聊天將完全在伺服器上處理，防止Mojang的聊天追踪。
 
-[^4]: 시스템 메커니즘이 작동하기 위해 잠시 동안 게임이 멈추는 시간.
+[^4]: 系統機制需要暫停遊戲以運作。
