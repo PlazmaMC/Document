@@ -21,21 +21,18 @@ Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해�
 각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
-***
-
 ### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
 
 시스템 속성은 `java` 와 `-jar` 사이에 Java 명령 인수로써 입력됩니다.
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,\
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+예를 들어, `Plazma.dummyProperty` 시스템 속성에 37을적용하려 하는 경우,\
+다음과 같이 입력하면 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 ```
 
-`-D`는 해당 인수가 JVM에 내장되지 않고 Plazma에 추가된 전용 인수임을 나타내며,
-
+`-D`는 해당 인수가 JVM에 내장되지 않고 Plazma에 추가된 전용 인수임을 나타내며,\
 속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정됩니다.](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
@@ -43,8 +40,6 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
 {% endhint %}
-
-***
 
 ### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
 
@@ -216,8 +211,7 @@ YAML 파일의 주석의 처리를 활성화 합니다.
 
 플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
 
-일반적인 경우, 게임[^5]은 서버로 계속해서 [하트비트 신호](#user-content-fn-6)[^6]를 전송하므로, [추방되지 않지만,](#user-content-fn-7)[^7]
-게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+일반적인 경우, 게임[^5]은 서버로 계속해서 [하트비트 신호](#user-content-fn-6)[^6]를 전송하므로, [추방되지 않지만,](#user-content-fn-7)[^7] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -288,9 +282,7 @@ Minecraft의 기본 청크 작성 체계을 활성화 합니다.
 * **형태**: `Boolean`
 * **기본값**: `false`
 
-Plazma가 초기화될 때 출력되는 경고문[^8]을 억제합니다.
-
-***
+Plazma가 초기화될 때 출력되는 경고문을 억제합니다.
 
 ### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
 
@@ -316,10 +308,8 @@ Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되�
 
 [^4]: 예를 들어, `"-DPlazma.iKnowWhatIAmDoing"`
 
-[^5]: 클라이언트.
+[^5]: 클라이언트
 
 [^6]: 심장 박동처럼 서버와 정상적으로 연결 되어 있음을 알리는 신호.
 
 [^7]: Purpur의 AFK 추방 기능을 사용하면 자리를 비운 플레이어도 추방할 수 있습니다.
-
-[^8]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
