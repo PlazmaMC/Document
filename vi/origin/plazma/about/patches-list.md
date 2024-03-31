@@ -1,5 +1,5 @@
 ---
-description: Plazma에 추가된 모든 기능에 대해 알아보세요.
+description: Tìm hiểu tất cả các tính năng được thêm vào Plazma.
 ---
 
-# 📑 포함된 패치
+# 📑 Bản vá bao gồm
