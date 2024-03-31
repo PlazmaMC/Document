@@ -1,14 +1,14 @@
 ---
-description: Paper와 바닐라의 패치를 복원하는 방법에 대해 알아보세요.
+description: Learn how to restore Paper and vanilla patches.
 ---
 
-# ↩️ 바닐라화
+# ↩️ Vanillaize
 
 {% hint style="warning" %}
 
-### Paper는 바닐라의 오류를 해결하는 대부분의 패치에 선택지를 추가하고 있지 않습니다.
+### Paper does not offer choices for most of the patches that fix vanilla errors.
 
-현재 Plazma는 그러한 오류 해결을 구성으로 비활성화 할 수 있도록 개발하고 있습니다.
+Plazma is currently developing the ability to disable such error fixes as a configuration.
 
-따라서 아직 본 가이드는 작성중이며, 언제나 정보가 바뀔 가능성이 있습니다.
+Therefore, this guide is still being written and the information is subject to change at any time.
 {% endhint %}
