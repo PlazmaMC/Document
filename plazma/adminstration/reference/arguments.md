@@ -510,3 +510,9 @@ Plazma 버전을 출력합니다.
 [^10]: 동기 청크 작성 체계, Sync Chunk Write System.
 
 [^11]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
+
+[^12]: 게임에서 `월드 최적화` 도 이와 같은 원리로 동작합니다.
+
+[^13]: Internet Protocol, IP.
+
+[^14]: `레벨 2` 이상의 관리자는 제외합니다.
