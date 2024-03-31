@@ -1,12 +1,12 @@
 ---
-description: "Plazma is an open-source server platform for Minecraft: Java Edition that adds experimental optimization based on paper and customization features using various game mechanisms."
+description: "Plazma is an open source server platform for Minecraft: Java Edition that adds experimental optimization based on paper and customization features using various game mechanisms."
 ---
 
 # ✨ Plazma Usage Docs
 
 ## 👋 Welcome to Plazma Docs
 
-Welcome to the Plazma Docs!
+Welcome to the Plazma Usage Docs!
 
 {% hint style="info" %}
 
@@ -17,7 +17,7 @@ Ask the community through the [Official Discord Server](https://discord.gg/MmfC5
 
 ### About Plazma
 
-> Learn about what Plazma is as a server platform.
+> Learn about what Plazma server platform is.
 
 {% content-ref url="about/" %}
 [about](about/)
