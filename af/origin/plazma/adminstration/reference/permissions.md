@@ -1,5 +1,5 @@
 ---
-description: Plazma의 권한에 대해 알아보세요.
+description: Vind uit oor die regte van Plazma.
 ---
 
-# 🛡️ 권한
+# 🛡️ Regte
