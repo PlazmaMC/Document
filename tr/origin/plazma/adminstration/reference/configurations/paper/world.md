@@ -1,5 +1,5 @@
 ---
-description: paper-world.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: paper-world.yml'nin her düğümün ne anlama geldiğini öğrenin.
 ---
 
-# 🛩️ Paper (월드별 구성)
+# 🛩️ Kağıt (Dünya Bazlı Yapı)
