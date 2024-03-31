@@ -1,5 +1,5 @@
 ---
-description: server.properties의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Erfahren Sie, was jeder Knoten in server.properties bedeutet.
 ---
 
 # 🪨 Server.properties
