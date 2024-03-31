@@ -4,16 +4,16 @@ description: Plazma는 어떤 서버 플랫폼인지 알아보세요.
 
 # ❓ Plazma란?
 
-* **Plazma**는 [Andromeda](https://github.com/Earendel-Archived/Andromeda)와 [Fusion](https://github.com/RuinedTechnologyUnified/Fusion)에서 장점만을 가져온 [Paper](https://github.com/PaperMC/Paper) 기반의 서버 플랫폼 입니다.
+* **Plazma**는 [Andromeda](https://github.com/EarendelArchived/Andromeda)와 [Fusion](https://github.com/RuinedTechnologyUnify/Fusion)에서 장점만을 가져온 [Paper](https://github.com/PaperMC/Paper) 기반의 서버 플랫폼 입니다.
 * 항상 높은 안정성과 강력한 성능, 빠른 업데이트, 방대한 기능을 제공하기 위하여 노력하고 있습니다.
 
-## 📋 Plazma의 목표
+## 📋 Plazma의 목표 <a href="#id-1" id="id-1"></a>
 
 * 빠른 업데이트, 높은 안정성을 가진 서버 플랫폼이 되기 위해 노력하고 있습니다.
 * 모드 플랫폼 못지 않은 방대한 기능과 강력한 성능을 제공하기 위해 노력하고 있습니다.
 * 바닐라의 패치도 사용자화 할 수 있는 자유로운 플랫폼을 만들기 위해 노력하고 있습니다.
 
-## ⚙️ 주요 특징
+## ⚙️ 주요 특징 <a href="#id-2" id="id-2"></a>
 
 1. **강력한 플러그인 생태계**\
    [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
@@ -33,13 +33,13 @@ description: Plazma는 어떤 서버 플랫폼인지 알아보세요.
 8. **불필요한 공간의 사용 차단**\
    비슷한 값을 가진 데이터를 모두 하나로 합쳐 메모리 사용량을 줄입니다.
 
-#### Plazma에 대해 더 알아보고 싶다면?
+#### Plazma에 대해 더 알아보고 싶다면? <a href="#etc-1" id="etc-1"></a>
 
 {% content-ref url="patches-list.md" %}
 [patches-list.md](patches-list.md)
 {% endcontent-ref %}
 
-## ✨ 활용 사례
+## ✨ 활용 사례 <a href="#id-3" id="id-3"></a>
 
 * **복잡한 플러그인도 올바르게 처리하는 플랫폼**\
   개발자 [IPECTER](https://github.com/IPECTER)의 서버에서 Plazma가 사용되고 있습니다. NMS와 리플렉션으로 작동하는 자체 플러그인, 복잡하고 방대한 크기의 데이터팩이 굉장히 많이 적용되어 있음에도,\
