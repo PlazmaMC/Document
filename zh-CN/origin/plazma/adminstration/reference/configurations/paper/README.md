@@ -1,5 +1,5 @@
 ---
-description: config 폴더의 각 파일의 용도가 무엇인지 알아보세요.
+description: 了解config文件夹中每个文件的用途。
 ---
 
-# 🛩️ Paper
+# 🛩️ 纸
