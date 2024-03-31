@@ -1,35 +1,35 @@
 ---
-description: Plazma로 서버를 만드는 방법을 알아 보세요.
+description: ดูวิธีการสร้างเซิร์ฟเวอร์ด้วย Plazma
 ---
 
-# 👟 시작하기
+# 👟 เริ่มต้น
 
-Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 요구 사항을 충족해야 합니다.
+เพื่อใช้ Plazma อย่างเสถียร, ระบบจำเป็นต้องทำตามความต้องการต่อไปนี้
 
-|      |  최저 |   권장 |
-| :--: | --: | ---: |
-| 아키텍쳐 | x64 |    - |
-|  RAM | 8GB | 16GB |
-| 저장공간 | 1GB |  8GB |
-|  JRE |  17 |   21 |
+|                | ต่ำสุด | แนะนำ |
+| :------------: | -----: | ----: |
+|    โครงสร้าง   |    x64 |     - |
+|       RAM      |    8GB |  16GB |
+| พื้นที่จัดเก็บ |    1GB |   8GB |
+|       JRE      |     17 |    21 |
 
-원할한 구성 파일 수정을 위하여, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것도 좋습니다.
+เพื่อแก้ไขไฟล์การกำหนดค่าได้อย่างราบรื่น, คุณสามารถติดตั้งโปรแกรมแก้ไขเช่น [Visual Studio Code](https://code.visualstudio.com/download)
 
 ***
 
-## 1. JRE 설치
+## 1. การติดตั้ง JRE
 
-이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JRE[^1]를 필요로 합니다.
+ตามชื่อ, Minecraft: **"Java"** Edition ถูกพัฒนาด้วย Java ดังนั้นต้องมี JRE[^1] เพื่อให้ทำงานได้
 
-Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JRE를 설치해야 합니다.
+Plazma ยังต้องการ JRE เพื่อใช้งานเนื่องจากเป็นแพลตฟอร์มเซิร์ฟเวอร์อย่างเป็นทางการของ Mojang Studios [เช่นกัน](#user-content-fn-2)[^2]
 
-### 1.1 JRE 유무 확인
+### 1.1 การตรวจสอบ JRE
 
-JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
+หากต้องการตรวจสอบว่า JRE ถูกติดตั้งในระบบหรือไม่ ให้เปิดหน้าต่างคำสั่ง [ที่นี่](#user-content-fn-3)[^3] แล้วพิมพ์ [`cmd /k java --version`](#user-content-fn-4)[^4] แล้วกด Enter
 
-다음과 같이 출력되면 [2 단계](setup.md#id-2)로 건너뜁니다.
+หากมีการแสดงผลดังต่อไปนี้ ให้ข้ามไปที่ [ขั้นตอนที่ 2](setup.md#id-2)
 
-{% code title="올바른 출력" overflow="wrap" lineNumbers="true" %}
+{% code title="ผลลัพธ์ที่ถูกต้อง" overflow="wrap" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -39,9 +39,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](setup.md#id-1.2)를 수행해야 합니다.
+หากไม่แสดงผลดังนี้ หรือแสดงผลดังต่อไปนี้ แสดงว่า JRE ไม่ได้ติดตั้งหรือเป็นเวอร์ชันเก่า ให้ดำเนินการตาม [ขั้นตอน 1.2](setup.md#id-1.2)
 
-{% code title="JRE가 설치되어 있지 않음" overflow="wrap" lineNumbers="true" %}
+{% code title="JRE ไม่ได้ติดตั้ง" overflow="wrap" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
