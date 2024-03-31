@@ -16,7 +16,7 @@ description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문�
 [thunderbolt](thunderbolt/)
 {% endcontent-ref %}
 
-### Volt для створення власної платформи сервера?
+### Volt로 자신만의 서버 플랫폼을 만들고 싶다면?
 
 {% content-ref url="volt/" %}
 [volt](volt/)
@@ -24,7 +24,7 @@ description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문�
 
 ***
 
-#### `SPONSOR` Потрібна більш докладна інформація щодо Minecraft? <a href="#etc-1" id="etc-1"></a>
+#### `SPONSOR` 더 많은 Minecraft 관련 정보가 필요하다면? <a href="#etc-1" id="etc-1"></a>
 
 {% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
