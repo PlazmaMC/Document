@@ -31,7 +31,7 @@
         * [🏳️ 월드별 구성](plazma/adminstration/reference/configurations/purpur/world.md)
       * [✨ Plazma](plazma/adminstration/reference/configurations/plazma/README.md)
         * [🌏 전역 구성](plazma/adminstration/reference/configurations/plazma/global.md)
-        * [🏳️ 월드별 구성](plazma/adminstration/reference/configurations/plazma/world.md)
+        * [🏳️ 월드별 구성](plazma/adminstration/reference/configurations/plazma/undefined.md)
   * [🎓 고급](plazma/adminstration/expert/README.md)
     * [🧹 최적화](plazma/adminstration/expert/optimize.md)
     * [↩️ 바닐라화](plazma/adminstration/expert/vanillaize.md)
