@@ -9,9 +9,9 @@
 
 * [✨ Plazma Usage Docs](plazma/README.md)
 * [❓ Plazma란?](plazma/about/README.md)
+  * [⬇️ 다운로드](plazma/about/downloads.md)
   * [✅ 버전 지원 상태](plazma/about/supported-versions.md)
   * [📑 포함된 패치](plazma/about/patches-list.md)
-  * [⬇️ 다운로드](plazma/about/downloads.md)
 * [⚒️ 서버 관리 가이드](plazma/adminstration/README.md)
   * [👟 시작하기](plazma/adminstration/getting-started/README.md)
     * [🎨 사용자화](plazma/adminstration/getting-started/customization.md)
