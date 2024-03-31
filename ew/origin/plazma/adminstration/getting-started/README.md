@@ -4,30 +4,30 @@ description: Learn how to create a server with Plazma.
 
 # 👟 Getting Started
 
-To use Plazma reliably, the system must meet the following requirements.
+To use Plazma stably, the system must meet the following requirements:
 
 |               | Minimum | Recommended |
 | :-----------: | ------: | ----------: |
 |  Architecture |     x64 |           - |
 |      RAM      |     8GB |        16GB |
-| Storage space |     1GB |         8GB |
+| Storage Space |     1GB |         8GB |
 |      JRE      |      17 |          21 |
 
-For smooth configuration file editing, it is also recommended to install an editor such as [Visual Studio Code](https://code.visualstudio.com/download).
+For smooth configuration file editing, it is also good to install an editor like [Visual Studio Code](https://code.visualstudio.com/download).
 
 ***
 
 ## 1. JRE Installation
 
-As the name suggests, Minecraft: "Java" Edition is developed in Java, so it requires JRE[^1] to run.
+As the name suggests, Minecraft: **"Java"** Edition is developed in Java, so it requires JRE[^1] to run.
 
-Since Plazma is based on Mojang Studios' official server platform[^2], JRE must be installed to use Plazma.
+Since Plazma is based on Mojang Studios' official server platform,[^2] you also need to install JRE to use Plazma.
 
 ### 1.1 Check for JRE
 
-To check if JRE is installed on the system, type [`cmd /k java --version`](#user-content-fn-4)[^4] in the Run window and run it.
+To check if JRE is installed on your system, type [`cmd /k java --version`](#user-content-fn-4)[^4] in the Run dialog and execute it.
 
-If the output is as follows, skip to [Step 2](setup.md#id-2).
+If the output is as follows, proceed to [Step 2](setup.md#id-2).
 
 {% code title="Correct Output" overflow="wrap" lineNumbers="true" %}
 
@@ -39,9 +39,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-If it does not output as above, or if it outputs as below, JRE is not installed or is too outdated, so you need to perform [Step 1.2](setup.md#id-1.2).
+If the output is not like the above, or if it is as follows, then JRE is either not installed or too outdated, so you need to perform [Step 1.2](setup.md#id-1.2).
 
-{% code title="JRE is not installed" overflow="wrap" lineNumbers="true" %}
+{% code title="JRE not installed" overflow="wrap" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
