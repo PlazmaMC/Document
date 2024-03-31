@@ -216,7 +216,7 @@ YAML 파일의 주석의 처리를 활성화 합니다.
 
 플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
 
-일반적인 경우, 게임\[^7]은 서버로 계속해서 하트비트\[^8] 신호를 전송하므로, [추방되지 않지만,](arguments.md#user-content-fn-9)\[^9]\
+일반적인 경우, 게임[^5]은 서버로 계속해서 [하트비트 신호](#user-content-fn-6)[^6]를 전송하므로, [추방되지 않지만,](#user-content-fn-7)[^7]
 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
@@ -288,7 +288,7 @@ Minecraft의 기본 청크 작성 체계을 활성화 합니다.
 * **형태**: `Boolean`
 * **기본값**: `false`
 
-Plazma가 초기화될 때 출력되는 경고문[^6]을 억제합니다.
+Plazma가 초기화될 때 출력되는 경고문[^8]을 억제합니다.
 
 ***
 
@@ -315,3 +315,11 @@ Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되�
 [^3]: 예를 들어, `Plazma.iKnowWhatIAmDoing`을 `true`로 설정(활성화) 하려는 경우, `-DPlazma.iKnowWhatIAmDoing=true` 대신 `-DPlazma.iKnowWhatIAmDoing` 만 입력해도 동일하게 작동합니다.
 
 [^4]: 예를 들어, `"-DPlazma.iKnowWhatIAmDoing"`
+
+[^5]: 클라이언트.
+
+[^6]: 심장 박동처럼 서버와 정상적으로 연결 되어 있음을 알리는 신호.
+
+[^7]: Purpur의 AFK 추방 기능을 사용하면 자리를 비운 플레이어도 추방할 수 있습니다.
+
+[^8]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
