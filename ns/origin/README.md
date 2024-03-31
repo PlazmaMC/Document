@@ -2,7 +2,7 @@
 description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문해 주세요.
 ---
 
-# 🏠 Welcome to Docs Portal
+# 🏠 문서 포털에 오신 것을 환영합니다
 
 ### Plazma 사용 중 궁금증이 생겼다면?
 
