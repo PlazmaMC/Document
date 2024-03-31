@@ -1,5 +1,5 @@
 ---
-description: Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+description: Cwinywa ki woko ki Plazma ki kwo tic me server mukene.
 ---
 
-# ⚒️ 서버 관리 가이드
+# ⚒️ Dokot pa Server
