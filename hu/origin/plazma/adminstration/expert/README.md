@@ -1,5 +1,5 @@
 ---
-description: Plazma를 전문적으로 다루는 방법에 대해 알아보세요.
+description: Ismerje meg a Plazma szakmai kezelését.
 ---
 
-# 🎓 심화
+# 🎓 Mesterfok
