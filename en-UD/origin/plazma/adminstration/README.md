@@ -1,5 +1,5 @@
 ---
-description: Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+description: .esorytmahtuo데살를드데살만신자레자뉴만신자레자뉴데살자신만의 서버를 만들어 amzaPl roF
 ---
 
-# ⚒️ 서버 관리 가이드
+# ⚒️ .deidnAegnA rof ediug ievraS
