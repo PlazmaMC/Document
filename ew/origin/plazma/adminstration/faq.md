@@ -1,5 +1,5 @@
 ---
-description: Find out about frequently asked questions.
+description: Check out frequently asked questions.
 ---
 
 # ⁉️ Frequently Asked Questions
@@ -11,10 +11,10 @@ description: Find out about frequently asked questions.
 Ask the community through the [Official Discord Server](https://discord.gg/MmfC52K8A8) or [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
 {% endhint %}
 
-### The message is displayed but does not run
+### The message is displayed but not executed
 
 If `no main manifest attribute, in plazma-(version).jar` is displayed in the console,\
-the downloaded file is a development API file, and you need to download **Reobf Paperweight** from the GitHub page.
+the downloaded file is a development API file, and you should download **Reobf Paperweight** from the GitHub page.
 
 Refer to the following page for more details.
 
