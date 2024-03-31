@@ -1,5 +1,5 @@
 ---
-description: plazma-global.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Descobreix què significa cada node de plazma-global.yml.
 ---
 
-# ✨ Plazma (전역 구성)
+# ✨ Plazma (configuració global)
