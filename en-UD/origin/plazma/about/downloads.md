@@ -2,9 +2,9 @@
 description: 지금 바로 Plazma를 다운로드하여 직접 사용해 보세요.
 ---
 
-# ⬇️ 다운로드
+# ⬇️ Download
 
-#### 버전 지원에 대한 자세한 정보를 알고 싶다면?
+#### Want detailed information on supported versions?
 
 {% content-ref url="supported-versions.md" %}
 [supported-versions.md](supported-versions.md)
