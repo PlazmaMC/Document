@@ -1,14 +1,14 @@
 ---
-description: Paper와 바닐라의 패치를 복원하는 방법에 대해 알아보세요.
+description: Tìm hiểu cách khôi phục bản vá giữa Paper và Vanilla.
 ---
 
-# ↩️ 바닐라화
+# ↩️ Vanilla hóa
 
 {% hint style="warning" %}
 
-### Paper는 바닐라의 오류를 해결하는 대부분의 패치에 선택지를 추가하고 있지 않습니다.
+### Paper không cung cấp lựa chọn cho hầu hết các bản vá sửa lỗi của Vanilla.
 
-현재 Plazma는 그러한 오류 해결을 구성으로 비활성화 할 수 있도록 개발하고 있습니다.
+Hiện tại, Plazma đang phát triển cách vô hiệu hóa việc sửa lỗi này thông qua cấu hình.
 
-따라서 아직 본 가이드는 작성중이며, 언제나 정보가 바뀔 가능성이 있습니다.
+Vì vậy, hướng dẫn này vẫn đang được viết và thông tin có thể thay đổi bất cứ lúc nào.
 {% endhint %}
