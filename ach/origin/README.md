@@ -1,22 +1,22 @@
 ---
-description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문해 주세요.
+description: Oyee, coko ki i kom Discord to GitHub Issues ki coko matino.
 ---
 
-# 🏠 Welcome to Docs Portal
+# 🏠 Pe iyi Dokumenti Portal
 
-### Plazma 사용 중 궁금증이 생겼다면?
+### En aye Plazma, ki i kom ma i coko?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
 {% endcontent-ref %}
 
-### Thunderbolt에 대해 관심이 있다면?
+### Kica Thunderbolt, ki i kom ma i coko?
 
 {% content-ref url="thunderbolt/" %}
 [thunderbolt](thunderbolt/)
 {% endcontent-ref %}
 
-### Volt로 자신만의 서버 플랫폼을 만들고 싶다면?
+### Kica Volt, ki i kom ma i coko?
 
 {% content-ref url="volt/" %}
 [volt](volt/)
@@ -24,7 +24,7 @@ description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문�
 
 ***
 
-#### `SPONSOR` 더 많은 Minecraft 관련 정보가 필요하다면? <a href="#etc-1" id="etc-1"></a>
+#### `SPONSOR` Coko ki i kom ma i coko ki Minecraft ma lubo dano? <a href="#etc-1" id="etc-1"></a>
 
 {% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
