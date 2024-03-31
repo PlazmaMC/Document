@@ -1,5 +1,5 @@
 ---
-description: Plazma를 최적화 하는 방법을 알아보세요.
+description: Descubra como otimizar o Plazma.
 ---
 
-# 🧹 최적화
+# 🧹 Otimização
