@@ -1,5 +1,5 @@
 ---
-description: Plazma에 추가된 모든 기능에 대해 알아보세요.
+description: .요세보알 대게 능기 모든 된추 간석에 Plazma
 ---
 
-# 📑 포함된 패치
+# 📑 패치 포함된
