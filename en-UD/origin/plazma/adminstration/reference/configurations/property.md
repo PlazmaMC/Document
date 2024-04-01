@@ -1,5 +1,5 @@
 ---
-description: server.properties의 각 노드가 무엇을 의미하는지 알아보세요.
+description: .oseyobla anieun 은데미 의미하는 노드가 각 의ᴉᴉpɐɹɥsǝɹ
 ---
 
-# 🪨 Server.properties
+# 🪨 .seɹɐpɹɐɹɥsǝɹ
