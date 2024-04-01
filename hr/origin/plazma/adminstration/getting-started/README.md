@@ -315,6 +315,6 @@ Saznajte kako prilagoditi server putem donjeg vodiča.
 
 [^11]: Prema članku 32. stavku 1. točki 9. Zakona o poticanju industrije igara u Republici Koreji, moguće je pokrenuti sudski postupak protiv **Korejske Microsoft korporacije**.
 
-[^12]: Universal Plug & Play. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
+[^12]: Universal Plug & Play. Purpur uključen u Plazmu automatski komunicira s usmjerivačem putem ovog tehnološkog rješenja, otvarajući vrata samo kada je poslužitelj pokrenut, stoga nije potrebno ručno postavljati prosljeđivanje vrata.
 
-[^13]: 계정이 없는 경우 Google 또는 GitHub 계정을 통해 Ngrok에 가입합니다.
+[^13]: U slučaju da nemate račun, registrirajte se na Ngrok putem Google ili GitHub računa.
