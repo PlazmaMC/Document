@@ -2,9 +2,9 @@
 description: अब Plazma को डाउनलोड करें और स्वयं प्रयोग करें।
 ---
 
-# ⬇️ 다운로드
+# ⬇️ डाउनलोड
 
-#### 버전 지원에 대한 자세한 정보를 알고 싶다면?
+#### 버전 지원에 대한 자세한 정보를 जानना चाहते हैं?
 
 {% content-ref url="supported-versions.md" %}
 [supported-versions.md](supported-versions.md)
