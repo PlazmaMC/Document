@@ -48,37 +48,37 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 
 #### `convertLegacySigns`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 사용 중지된 표지판 포맷을 업데이트 합니다.
 
 #### `debug.entities`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 엔티티 정보 관련 디버그 로그를 활성화 합니다.
 
 #### `debug.rewriteForIDE`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 IDE에서 디버그 정보를 올바르게 불러올 수 있도록 NMS 리비전을 비활성화 하고,\
 내부 버전 정보를 자동으로 리맵합니다.
 
 #### `disable.watchdog`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
 
 #### `letMeReload`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 `/reload` 명령어의 재확인 메세지를 비활성화 합니다.
 
@@ -91,36 +91,36 @@ Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 표준 입출력 체계를 사용하는 플러그인을 비활성화 합니다.
 
 #### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
 
 #### `Paper.bypassHostCheck`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
 
 #### `Paper.debugDynamicMissingKeys`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
 
 #### `Paper.debugInvalidSkullProfiles`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
 
@@ -128,15 +128,15 @@ NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합
 
 #### `Paper.disableChannelLimit`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 플러그인 클래스 우선 순위 체계를 비활성화 합니다.
 
@@ -144,29 +144,29 @@ NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합
 
 #### `Paper.disableFlushConsolidate`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 Netty flush consolidation 체계를 비활성화 합니다.
 
 #### `Paper.excessiveTELimit`
 
-- **형태**: `Integer`
+- **Cik mat**: `Integer`
 - **기본값**: `750`
 
 엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
 
 #### `Paper.filterThreshold`
 
-- **형태**: `Integer`
+- **Cik mat**: `Integer`
 - **기본값**: `8192`
 
 서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
 
 #### `Paper.ignoreJavaVersion`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 Java 버전 확인을 비활성화 합니다.
 
@@ -181,21 +181,21 @@ Java 버전 확인을 비활성화 합니다.
 
 #### `Paper.maxCustomChannelName`
 
-- **형태**: `Integer`
+- **Cik mat**: `Integer`
 - **기본값**: `64`
 
 플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **형태**: `Integer`
+- **Cik mat**: `Integer`
 - **기본값**: `80`
 
 표지판의 한 줄에 입력 가능한 글자의 최대 길이를 설정합니다.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **형태**: `Integer`
+- **Cik mat**: `Integer`
 - **기본값**: `(월드 버전) + 1`
 
 먼저 초기화할 월드 업데이트 정보의 버전을 설정합니다.
@@ -204,14 +204,14 @@ Java 버전 확인을 비활성화 합니다.
 
 #### `Paper.parseYamlCommentsByDefault`
 
-- **형태**: `Boolean`
+- **Cik mat**: `Boolean`
 - **기본값**: `True`
 
 YAML 파일의 주석의 처리를 활성화 합니다.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **형태**: `Integer`
+- **Cik mat**: `Integer`
 - **기본값**: `30`
 
 플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
@@ -220,22 +220,22 @@ YAML 파일의 주석의 처리를 활성화 합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 서버 속성의 주석을 무시합니다.
 
 #### `Paper.debug-sync-loads`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 동기 청크 작성의 디버그 로그를 활성화 합니다.
 
 #### `Paper.enable-sync-chunk-writes`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성화 합니다.
 
@@ -243,36 +243,36 @@ Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성�
 
 #### `Paper.explicit-flush`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 네트워크 채널의 Explicit Flushing을 활성화 합니다.
 
 #### `Paper.strict-thread-checks`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
 
 #### `Paper.tickList-warn-on-excessive-delay`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 예약된 작업이 과도한 대기 시간을 가질 경우 경고를 출력합니다.
 
 #### `Paperclip.patchOnly`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `False`
 
 기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
 
 #### `Plazma.aggressiveOptimize`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `false`
 
 {% hint style="warning" %}
 
@@ -286,8 +286,8 @@ Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성�
 
 #### `Plazma.iKnowWhatIAmDoing`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `false`
 
 Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
@@ -297,225 +297,225 @@ Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `timings.bypassMax`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
-- **사용 중단됨**: Timings가 Plazma에서 전면 제거된 후 부터
+- **Cik mat**: `Boolean`
+- **Kel ma kic**: `false`
+- **Kicel ma kicel**: Timings ki Plazma ki ngec pe i tye ka cok
 
-Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되는지 결정합니다.
+Gin ma Aikar Timings API ki i yam mek ikom ki Plazma
 
-이렇게 하더라도 API에서 예외 처리되지 않으면 레이트 제한이 적용됩니다.
+Keto kwede API ki i yam mek icwek i ngec pe tye ka cok, onongo kwanyo kwede ki lanyik
 
 ***
 
-## 시작 인수 <a href="#id-2" id="id-2"></a>
+## Dwog ma en aye <a href="#id-2" id="id-2"></a>
 
-시작 인수는 `-jar *.jar` 뒤에 입력되어 Plazma가 초기화되며 함께 처리되는 값입니다.
+Dwog ma en aye `-jar *.jar` ki ngec pe i tye ka cok, Plazma ki tye ka ngec me kenyo i kom
 
-### 사용 방법 <a href="#id-2.1" id="id-2.1"></a>
+### Lok ma en aye <a href="#id-2.1" id="id-2.1"></a>
 
-시스템 속성은 `-jar *.jar` 뒤에 프로그램 명령 인수로써 입력됩니다.
+Dwog ma en aye `-jar *.jar` ki ngec pe i tye ka cok, ngom ma program ki tye ka ngec me kenyo i kom
 
-예를 들어, `nogui` 시작 인수를 적용하려 하는 경우,\
-다음과 같이 입력하면 Plazma가 초기화 중에 `nogui` 인수를 처리하게 됩니다.
+Pi mara, `nogui` dwog ma en aye ki cok,\
+ka i kom Plazma ki tye ka ngec me kenyo i kom `nogui` dwog ma en aye ki cok
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 ```
 
-### 전체 시작 인수 <a href="#id-2.2" id="id-2.2"></a>
+### Dwog ma en aye pe <a href="#id-2.2" id="id-2.2"></a>
 
 #### `bukkit-settings`
 
-- **별칭**: `b`
-- **기본값**: `bukkit.yml`
+- **Lok pa dano**: `b`
+- **Kit ma en aye**: `bukkit.yml`
 
-[Bukkit 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+Lok ma nying [Dano me Bukkit](../reference/configurations/bukkit.md) ki tye ka cok
 
 #### `command-settings`
 
-- **별칭**: `c`
-- **기본값**: `commands.yml`
+- **Lok pa dano**: `c`
+- **Kit ma en aye**: `commands.yml`
 
-[Bukkit 명령어 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+Lok ma nying [Dano me Bukit Kwany](../reference/configurations/bukkit.md) ki tye ka cok
 
 #### `config`
 
-- **별칭**: `c`
-- **기본값**: `server.properties`
+- **Lok pa dano**: `c`
+- **Kit ma en aye**: `server.properties`
 
-[서버 속성](../reference/configurations/property.md) 파일의 이름 및 위치를 설정합니다.
+Lok ma nying [Dano me Server](../reference/configurations/property.md) ki tye ka cok
 
 #### `demo`
 
-데모 월드로 서버를 시작합니다.
+Dwog ma en aye kulu ki gengo me server
 
 #### `eraseCache`
 
-월드 업그레이드 후 남은 캐시 파일을 제거합니다.
+Dwog ma en aye kacel ki kare ma kacel mukene
 
 #### `forceUpgrade`
 
-버전을 무시하고 월드를 강제로 [업그레이드](#user-content-fn-12)[^12] 합니다.
+Dwog ma en aye ki yam mek kwede mukene [Upgrde](#user-content-fn-12)[^12]
 
 #### `help`
 
-- **별칭**: `?`
+- **Lok pa dano**: `?`
 
-Plazma의 전체 시작 인수와 설명을 출력합니다.
+Lok ma en aye pe kulu ki gengo me dwog ma en aye
 
 #### `initSettings`
 
-구성 파일만 생성하고 서버를 종료합니다.
+Dwog ma en aye ki gengo me kicel ma kicel kacel ki lobo
 
 #### `jfrProfile`
 
-JFR 프로필링을 활성화 합니다.
+JFR profiling ki gengo me cok
 
 #### `max-players`
 
-- **별칭**: `s`, `size`
-- **기본값**: `(서버 속성)`
+- **Lok pa dano**: `s`, `size`
+- **Kit ma en aye**: `(dano me server)`
 
-허용되는 최대 [플레이어](#user-content-fn-14)[^14] 수를 설정합니다.
+Kicel ma kicel me [Lacot](#user-content-fn-14)[^14] ki tye ka cok
 
 #### `nogui`
 
-그래픽 인터페이스 패널을 비활성화 합니다.
+Dwog ma en aye ki gengo me lok pa maleng
 
 #### `nojline`
 
-JLine을 비활성화 하고 바닐라 콘솔을 사용합니다.
+JLine ki gengo me lok pa maleng i yam mek mukene
 
 #### `online-mode`
 
-- **별칭**: `o`
-- **기본값**: `(서버 속성)`
+- **Lok pa dano**: `o`
+- **Kit ma en aye**: `(dano me server)`
 
-Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
+Kicel ki yam mek Mojang authentication server tye ka cok
 
-**Velocity 등 프록시를 사용하는 것이 아닌 경우 [EULA](../getting-started/README.md#id-5) 위반으로 제재될 수 있습니다.**
+**Kicel me Velocity dok Proksi ma kicel ma kicel [EULA](../getting-started/README.md#id-5) ki dogi ki tye ka cok.**
 
 #### `paper-settings`
 
-- **별칭**: `paper`
-- **기본값**: `paper.yml`
+- **Lok pa dano**: `paper`
+- **Kit ma en aye**: `paper.yml`
 
 {% hint style="warning" %}
 
-### 이 인수는 1.19.4 이후 사용이 중지되었습니다
+### Dwog ma en aye ki yam mek 1.19.4 i kom ki dogi
 
 {% endhint %}
 
-사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다.
+Kicel ma kicel me PaperSpigot dano ki tye ka cok
 
-이는 기존 구성을 새 구성 파일로 이전하기 위해 사용되며, 그 이후에는 사용되지 않습니다.
+Kicel ma kicel me lok pa dano ma Plazma
 
 #### `paper-settings-directory`
 
-- **별칭**: `paper-dir`
-- **기본값**: `config`
+- **Lok pa dano**: `paper-dir`
+- **Kit ma en aye**: `config`
 
-[Paper 구성 파일](../reference/configurations/paper/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+Dano me [Paper](../reference/configurations/paper/README.md) ki tye ka cok ki kicel
 
 #### `plazma-settings-directory`
 
-- **별칭**: `plazma-dir`
+- **Lok pa dano**: `plazma-dir`
 
-[Plazma 구성 파일](../reference/configurations/plazma/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+Dano me [Plazma](../reference/configurations/plazma/README.md) ki tye ka cok ki kicel
 
 #### `plugins`
 
-- **별칭**: `p`
-- **기본값**: `plugins`
+- **Lok pa dano**: `p`
+- **Kit ma en aye**: `plugins`
 
-플러그인 폴더의 위치를 설정합니다.
+Lok ma nying me dano ki tye ka cok
 
 #### `pufferfish-settings`
 
-- **별칭**: `pufferfish`
-- **기본값**: `pufferfish.yml`
+- **Lok pa dano**: `pufferfish`
+- **Kit ma en aye**: `pufferfish.yml`
 
-[Pufferfish 구성 파일](../reference/configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
+Dano me [Pufferfish](../reference/configurations/pufferfish.md) ki tye ka cok ki kicel
 
 #### `purpur-settings`
 
-- **별칭**: `purpur`
-- **기본값**: `purpur.yml`
+- **Lok pa dano**: `purpur`
+- **Kit ma en aye**: `purpur.yml`
 
-[Purpur 구성 파일](../reference/configurations/purpur/README.md)의 이름 및 위치를 설정합니다.
+Dano me [Purpur](../reference/configurations/purpur/README.md) ki tye ka cok ki kicel
 
 #### `safeMode`
 
-(안전 모드) 완전한 바닐라 상태로 서버를 시작합니다.
+(Lok pa kicel) Kicel ma kicel me dok kwac me server
 
 #### `server-ip`
 
-- **별칭**: `h`, `host`
-- **기본값**: `(서버 속성)`
+- **Lok pa dano**: `h`, `host`
+- **Kit ma en aye**: `(dano me server)`
 
-서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-13)[^13] 주소를 설정합니다.
+Lok ma nying me dok kwac me server ki tye ka cok ki kicel
 
 #### `server-port`
 
-- **별칭**: `p`, `port`
-- **기본값**: `(서버 속성)`
+- **Lok pa dano**: `p`, `port`
+- **Kit ma en aye**: `(dano me server)`
 
-서버의 포트를 설정합니다.
+Lok ma nying me port ki tye ka cok ki kicel
 
 #### `server-name`
 
-- **기본값**: `A Plazma Server`
+- **Kit ma en aye**: `A Plazma Server`
 
-서버의 이름을 설정합니다.
+Lok ma nying me ngom ki tye ka cok ki kicel
 
 #### `spigot-settings`
 
-- **별칭**: `S`
-- **기본값**: `spigot.yml`
+- **Lok pa dano**: `S`
+- **Kit ma en aye**: `spigot.yml`
 
-[Spigot 구성 파일](../reference/configurations/spigot.md)의 이름 및 위치를 설정합니다.
+Dano me [Spigot](../reference/configurations/spigot.md) ki tye ka cok ki kicel
 
 #### `version`
 
-- **별칭**: `v`
+- **Lok pa dano**: `v`
 
-Plazma 버전을 출력합니다.
+Plazma dong ki tye ka cok
 
 #### `world-dir`
 
-- **별칭**: `W`, `universe`, `world-container`
-- **기본값**: `(서버 폴더)`
+- **Lok pa dano**: `W`, `universe`, `world-container`
+- **Kit ma en aye**: `(doki me server)`
 
-월드 파일이 저장되는 위치를 설정합니다.
+Lok ma nying me doki ki tye ka cok ki kicel
 
 #### `world-name`
 
-- **별칭**: `w`, `world`
-- **기본값**: `(서버 속성)`
+- **Lok pa dano**: `w`, `world`
+- **Kit ma en aye**: `(dano me server)`
 
-월드 파일의 이름을 설정합니다.
+Dwog ma en aye ki gengo me doki
 
 ***
 
 [^1]: `java (...) -jar server.jar (...)`
 
-[^2]: 덧붙여지는 위치에 따라 인수를 처리하는 위치가 변경됩니다.
+[^2]: Keto kwede i kom ma en aye ki gengo me doki ki tye ka cok
 
-[^3]: 예를 들어, `Plazma.iKnowWhatIAmDoing`을 `true`로 설정(활성화) 하려는 경우, `-DPlazma.iKnowWhatIAmDoing=true` 대신 `-DPlazma.iKnowWhatIAmDoing` 만 입력해도 동일하게 작동합니다.
+[^3]: Pi mara, `Plazma.iKnowWhatIAmDoing` ki yam mek `true` ki dong i kom, `-DPlazma.iKnowWhatIAmDoing=true` ki tye ka cok ngene `-DPlazma.iKnowWhatIAmDoing` ki tye ka cok
 
-[^4]: 예를 들어, `"-DPlazma.iKnowWhatIAmDoing"`
+[^4]: Pi mara, `"-DPlazma.iKnowWhatIAmDoing"`
 
-[^5]: 이벤트 감지기.
+[^5]: Kit ma en acoya.
 
-[^6]: 이벤트 감지기.
+[^6]: Kit ma en acoya.
 
-[^7]: 클라이언트.
+[^7]: Kiliyenti.
 
-[^8]: 심장 박동처럼 서버와 정상적으로 연결 되어 있음을 알리는 신호.
+[^8]: Lok me bedo ki server ma tye ka romo itwero woko.
 
-[^9]: Purpur의 AFK 추방 기능을 사용하면 자리를 비운 플레이어도 추방할 수 있습니다.
+[^9]: Gin ma Purpur AFK kwanyo kede ki dong pe itye ka kwo kwanyo player.
 
-[^10]: 동기 청크 작성 체계, Sync Chunk Write System.
+[^10]: Sync Chunk Write System, Lok me gengo chunk me sync.
 
 [^11]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
 
