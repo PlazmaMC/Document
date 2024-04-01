@@ -317,4 +317,4 @@ Sužinokite, kaip pritaikyti serverį, sekdami šį vadovą.
 
 [^12]: Universalus įtaisų jungimas ir grojimas, Universal Plug & Play. Purpur, įtrauktas į Plazma, automatiškai bendrauja su maršrutizatoriumi per šią technologiją, todėl nereikia tiesiogiai konfigūruoti portų persiuntimo, kai serveris veikia.
 
-[^13]: 계정이 없는 경우 Google 또는 GitHub 계정을 통해 Ngrok에 가입합니다.
+[^13]: Jei neturite paskyros, užsiregistruokite į Ngrok naudodami „Google“ arba „GitHub“ paskyrą.
