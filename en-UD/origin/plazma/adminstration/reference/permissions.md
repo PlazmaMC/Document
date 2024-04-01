@@ -1,5 +1,5 @@
 ---
-description: Plazma의 권한에 대해 알아보세요.
+description: .안요보아에 권한의 Plazma
 ---
 
 # 🛡️ 권한
