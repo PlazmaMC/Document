@@ -1,5 +1,5 @@
 ---
-description: plazma-world.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: plazma-world.ymlی این کاربرد هر نود چکاری چکیده را معنا می کند.
 ---
 
-# ✨ Plazma (월드별 구성)
+# ✨ Plazma (ولد بلد)
