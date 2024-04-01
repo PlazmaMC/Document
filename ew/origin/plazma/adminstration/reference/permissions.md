@@ -1,5 +1,5 @@
 ---
-description: Check the permissions of Plazma.
+description: Check out the permissions of Plazma.
 ---
 
-# 🛡️ Permission
+# 🛡️ Permissions
