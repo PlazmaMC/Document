@@ -316,4 +316,4 @@ Zbuloni se si të personalizoni serverin duke ndjekur udhëzimet më poshtë.
 
 [^12]: Universal Plug & Play. Purpur i përfshirë në Plazma komunikon automatikisht me ruterin dhe hap portën vetëm kur serveri është në ekzekutim, kështu që nuk ka nevojë për përcjellje portash manualisht.
 
-[^13]: 계정이 없는 경우 Google 또는 GitHub 계정을 통해 Ngrok에 가입합니다.
+[^13]: Nëse nuk keni llogari, regjistrohuni në Ngrok përmes llogarisë Google ose GitHub.
