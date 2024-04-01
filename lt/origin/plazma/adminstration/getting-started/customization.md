@@ -1,5 +1,5 @@
 ---
-description: 서버를 사용자화하는 방법에 대해 알아보세요.
+description: Sužinokite, kaip pritaikyti serverį vartotojui.
 ---
 
-# 🎨 사용자화
+# 🎨 Vartotojų pritaikymas
