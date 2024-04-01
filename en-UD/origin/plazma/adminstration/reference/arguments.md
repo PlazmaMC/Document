@@ -48,37 +48,37 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 
 #### `convertLegacySigns`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 사용 중지된 표지판 포맷을 업데이트 합니다.
 
 #### `debug.entities`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 엔티티 정보 관련 디버그 로그를 활성화 합니다.
 
 #### `debug.rewriteForIDE`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 IDE에서 디버그 정보를 올바르게 불러올 수 있도록 NMS 리비전을 비활성화 하고,\
 내부 버전 정보를 자동으로 리맵합니다.
 
 #### `disable.watchdog`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
 
 #### `letMeReload`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 `/reload` 명령어의 재확인 메세지를 비활성화 합니다.
 
@@ -91,36 +91,36 @@ Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 표준 입출력 체계를 사용하는 플러그인을 비활성화 합니다.
 
 #### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
 
 #### `Paper.bypassHostCheck`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
 
 #### `Paper.debugDynamicMissingKeys`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
 
 #### `Paper.debugInvalidSkullProfiles`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
 
@@ -128,15 +128,15 @@ NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합
 
 #### `Paper.disableChannelLimit`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 플러그인 클래스 우선 순위 체계를 비활성화 합니다.
 
@@ -144,29 +144,29 @@ NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합
 
 #### `Paper.disableFlushConsolidate`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 Netty flush consolidation 체계를 비활성화 합니다.
 
 #### `Paper.excessiveTELimit`
 
-- **형태**: `Integer`
+- `Integer`: **Shape**
 - **기본값**: `750`
 
 엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
 
 #### `Paper.filterThreshold`
 
-- **형태**: `Integer`
+- `Integer`: **Shape**
 - **기본값**: `8192`
 
 서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
 
 #### `Paper.ignoreJavaVersion`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 Java 버전 확인을 비활성화 합니다.
 
@@ -181,21 +181,21 @@ Java 버전 확인을 비활성화 합니다.
 
 #### `Paper.maxCustomChannelName`
 
-- **형태**: `Integer`
+- `Integer`: **Shape**
 - **기본값**: `64`
 
 플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **형태**: `Integer`
+- `Integer`: **Shape**
 - **기본값**: `80`
 
 표지판의 한 줄에 입력 가능한 글자의 최대 길이를 설정합니다.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **형태**: `Integer`
+- `Integer`: **Shape**
 - **기본값**: `(월드 버전) + 1`
 
 먼저 초기화할 월드 업데이트 정보의 버전을 설정합니다.
@@ -204,14 +204,14 @@ Java 버전 확인을 비활성화 합니다.
 
 #### `Paper.parseYamlCommentsByDefault`
 
-- **형태**: `Boolean`
+- `Boolean`: **Shape**
 - **기본값**: `True`
 
 YAML 파일의 주석의 처리를 활성화 합니다.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **형태**: `Integer`
+- `Integer`: **Shape**
 - **기본값**: `30`
 
 플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
@@ -220,22 +220,22 @@ YAML 파일의 주석의 처리를 활성화 합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 서버 속성의 주석을 무시합니다.
 
 #### `Paper.debug-sync-loads`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 동기 청크 작성의 디버그 로그를 활성화 합니다.
 
 #### `Paper.enable-sync-chunk-writes`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성화 합니다.
 
@@ -243,63 +243,63 @@ Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성�
 
 #### `Paper.explicit-flush`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 네트워크 채널의 Explicit Flushing을 활성화 합니다.
 
 #### `Paper.strict-thread-checks`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
 메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
 
 #### `Paper.tickList-warn-on-excessive-delay`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
-예약된 작업이 과도한 대기 시간을 가질 경우 경고를 출력합니다.
+Outputs a warning if the scheduled task has an excessive wait time.
 
 #### `Paperclip.patchOnly`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- `Boolean`: **Shape**
+- `False`: **Default value**
 
-기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
+If using the default executable, only apply the patch without starting the server.
 
 #### `Plazma.aggressiveOptimize`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- `Boolean`: **Shape**
+- `false`: **Default value**
 
 {% hint style="warning" %}
 
-### 해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
+### This property will be moved to a starting argument after 1.20.5.
 
 {% endhint %}
 
-처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
+Apply more strict configuration optimization at initial startup.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
+Enabling this will make the server faster and more secure, but may block some mechanics or have a significant impact on gameplay.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- `Boolean`: **Shape**
+- `false`: **Default value**
 
-Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
+Suppresses the warning message[^11] displayed when Plazma is initialized.
 
-### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
+### Obsolete property <a href="#id-1.3" id="id-1.3"></a>
 
-아래 시스템 속성은 사용이 중단된 속성입니다.
+The following system properties are obsolete properties.
 
 #### `timings.bypassMax`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
-- **사용 중단됨**: Timings가 Plazma에서 전면 제거된 후 부터
+- `Boolean`: **Shape**
+- `false`: **Default value**
+- **뒤로 상태**: Timings가 Plazma에서 전면 제거된 후 부터
 
 Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되는지 결정합니다.
 
@@ -505,22 +505,22 @@ Plazma 버전을 출력합니다.
 
 [^4]: 예를 들어, `"-DPlazma.iKnowWhatIAmDoing"`
 
-[^5]: 이벤트 감지기.
+[^5]: .이기감 트네디.
 
-[^6]: 이벤트 감지기.
+[^6]: .이기감 트네디.
 
-[^7]: 클라이언트.
+[^7]: .트네디.
 
-[^8]: 심장 박동처럼 서버와 정상적으로 연결 되어 있음을 알리는 신호.
+[^8]: .물리서연 미놀박 임염레과시 레물놀로 을먼놀놀 레물놀로.
 
-[^9]: Purpur의 AFK 추방 기능을 사용하면 자리를 비운 플레이어도 추방할 수 있습니다.
+[^9]: .다술놀먼물 레물놀로놀 AFK 러방 추능 기능놀먼물 Purpur놀놀놀놀놀 레물놀로 레물놀놀먼물 레물놀놀놀놀놀먼물 레물놀로 러방할 수 있습니다..
 
-[^10]: 동기 청크 작성 체계, Sync Chunk Write System.
+[^10]: .메스시놀체 으작크청 기채, System Write Chunk Sync.
 
-[^11]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
+[^11]: !GNIRAW` `.'\`uɹǝɥʇ ǝɥʇ ɹnoʎ ǝɥʇ ǝq pǝɹǝpɹoʍ ǝɥʇ ɹnoʎ ɹǝʇsǝʍun ǝɥʇ ǝq ɹǝpuɐl sɹǝʌǝ˙ɔǝɹǝ
 
-[^12]: 게임에서 `월드 최적화` 도 이와 같은 원리로 동작합니다.
+[^12]: `ɯo˥' ɯǝlǝɟ ʇsǝ˥ɯɐ` ǝɯ ıuɐ ǝɥʇ ǝɥʇ ǝɹɐɯıɹo uoısɹǝ˙
 
-[^13]: Internet Protocol, IP.
+[^13]: Protocol Internet, PI.
 
-[^14]: `레벨 2` 이상의 관리자는 제외합니다.
+[^14]: `ɹǝqɯǝ 2` ıuɐɯǝɹ ǝuısɐɯɹǝɯ ǝɯıɹɐuıɯɐ ǝɯ ǝɹɐɯıɹo
