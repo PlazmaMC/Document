@@ -1,5 +1,5 @@
 ---
-description: pufferfish.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Zistite, čo znamená každý uzol v pufferfish.yml.
 ---
 
 # 🐡 Pufferfish
