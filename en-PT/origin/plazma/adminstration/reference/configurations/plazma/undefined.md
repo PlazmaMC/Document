@@ -1,1 +1,1 @@
-# 🏳️ 월드별 구성
+# 🏴‍☠️ Worldly Composition
