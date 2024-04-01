@@ -2,9 +2,9 @@
 description: Muat turun Plazma sekarang dan cuba gunakan sendiri.
 ---
 
-# ⬇️ 다운로드
+# ⬇️ Muat turun
 
-#### 버전 지원에 대한 자세한 정보를 알고 싶다면?
+#### Ingin mengetahui maklumat terperinci mengenai sokongan versi?
 
 {% content-ref url="supported-versions.md" %}
 [supported-versions.md](supported-versions.md)
