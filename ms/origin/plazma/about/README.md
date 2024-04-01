@@ -53,7 +53,7 @@ description: Pelajari apa itu platform server Plazma.
 
 <figure><img src="https://camo.githubusercontent.com/22acffd515755c2cee2078a7697ff35351c5ec7148eb2806deedbe63df1c4ed7/68747470733a2f2f6273746174732e6f72672f7369676e6174757265732f7365727665722d696d706c656d656e746174696f6e2f506c617a6d612e737667" alt=""><figcaption><p>실시간 Plazma 사용자 추이</p></figcaption></figure>
 
-## ⬇️ 다운로드
+## ⬇️ Muat turun
 
 아래 페이지에서 Plazma를 다운로드 할 수 있습니다.
 
@@ -61,7 +61,7 @@ description: Pelajari apa itu platform server Plazma.
 [downloads.md](downloads.md)
 {% endcontent-ref %}
 
-#### 버전 지원에 대한 자세한 정보를 알고 싶다면?
+#### Ingin mengetahui maklumat terperinci mengenai sokongan versi?
 
 {% content-ref url="supported-versions.md" %}
 [supported-versions.md](supported-versions.md)
