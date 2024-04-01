@@ -1,526 +1,524 @@
 ---
-description: 시작 인수와 시스템 속성에 대해 알아보세요.
+description: Sužinokite apie pradinį argumentą ir sistemos savybes.
 ---
 
-# 🎛️ 인수와 속성
+# 🎛️ Argumentas ir savybės
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,\
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+Pradinis kintamasis ir sistemos savybės yra reikšmės, pridedamos prie [komandos naudojamos Plazma](#user-content-fn-1)[^1] vykdymo, leidžiančios pakeisti nekeičiamą reikšmę po Plazmos vykdymo.
 
-[명령어에 덧붙이는 위치에](#user-content-fn-2)[^2] 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
+Priklausomai nuo [pridėjimo vietos prie komandos](#user-content-fn-2)[^2], jie suskirstomi į **pradinį argumentą** ir **sistemos savybes**.
 
 ***
 
-## 시스템 속성 <a href="#id-1" id="id-1"></a>
+## Sistemos savybės <a href="#id-1" id="id-1"></a>
 
-시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
+Sistemos savybės yra reikšmės, įvestos prieš Plazmos inicijavimą prieš JVM, kuris jas apdoroja.
 
 {% hint style="įspėjimas" %}
 
-### 시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!
+### Modifikuojant sistemos savybes, Plazmos ir JVM veikimas gali pasikeisti ir tai gali turėti didelį poveikį žaidimui!
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Jei nežinote, kokią vaidmenį atlieka kiekviena sistemos savybė, **niekada jų nenaudokite!**
 {% endhint %}
 
-### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
+### Naudojimo instrukcija <a href="#id-1.1" id="id-1.1"></a>
 
-시스템 속성은 `java` 와 `-jar` 사이에 Java 명령 인수로써 입력됩니다.
+Sistemos savybės įvedamos kaip Java komandos argumentas tarp `java` ir `-jar`.
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,\
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+Pavyzdžiui, norint pritaikyti `Plazma.dummyProperty` sistemos savybę,\
+įvedus taip, į kitą savybę įrašomas `37`, ir Plazma inicijuojamas.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 ```
 
-`-D`는 해당 인수가 JVM에 내장되지 않고 Plazma에 추가된 전용 인수임을 나타내며,
+`-D` nurodo, kad ši reikšmė yra specialus argumentas, pridėtas prie Plazmos, o
 
-속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정됩니다.](#user-content-fn-3)[^3]
+jei neįvedate jokios reikšmės, ji bus fiksuota kaip [`true`.](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
 
-### Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.
+### Paperweight serveryje kiekvienas sistemos savybes atskiria, įtraukdamas `.` į savybės pavadinimą.
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Kai kuriuose terminaluose, pvz., Windows Powershell, šių argumentų gali būti neleidžiama, todėl reikės pridėti `"` prie argumento galo.]\(#user-content-fn-4)[^4]
 {% endhint %}
 
-### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
+### Visos sistemos savybės <a href="#id-1.2" id="id-1.2"></a>
 
 #### `convertLegacySigns`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-사용 중지된 표지판 포맷을 업데이트 합니다.
+Atnaujina naudojamus išjungtus ženklus.
 
 #### `debug.entities`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-엔티티 정보 관련 디버그 로그를 활성화 합니다.
+Įjungia susijusią entiteto informacijos derinį.
 
 #### `debug.rewriteForIDE`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-IDE에서 디버그 정보를 올바르게 불러올 수 있도록 NMS 리비전을 비활성화 하고,\
-내부 버전 정보를 자동으로 리맵합니다.
+IDE teisingai įkelia derinimo informaciją, išjungia NMS reviziją ir automatiškai pertvarko vidinę versijos informaciją.
 
 #### `disable.watchdog`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
+Išjungia Spigot stebėjimo šuns sistemos įspėjimus.
 
 #### `letMeReload`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-`/reload` 명령어의 재확인 메세지를 비활성화 합니다.
+Išjungia patvirtinimo pranešimą dėl `reload` komandos.
 
 {% hint style="danger" %}
 
-### `/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.
+### Kadangi `reload` komanda yra labai nestabili, visos problemos, kurios atsiranda po jos naudojimo, yra naudotojo atsakomybė.
 
-플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
+Jeigu esate įskiepių kūrėjas ir turite atnaujinti įskiepius, naudokite šilumą vietoj `reload` komandos.
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-표준 입출력 체계를 사용하는 플러그인을 비활성화 합니다.
+Išjungia įprastos įvesties-išvesties sistemos įskiepius.
 
 #### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
+Įspėja, kai aptinkamas pasenusi formatavimo sistema pokalbių komponente.
 
 #### `Paper.bypassHostCheck`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
+Išjungia serverio šablono patikros patikrinimą, kai žaidėjas prisijungia prie serverio.
 
 #### `Paper.debugDynamicMissingKeys`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
+Įjungia derinimo įrašus, susijusius su praleistomis NBT raktažodžių dalimis.
 
 #### `Paper.debugInvalidSkullProfiles`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
+Įjungia derinimo įrašus, susijusius su netinkamais kaukių profiliais.
 
-이는 월드 내 모든 잘못된 머리 블록을 위치와 함께 로그합니다.
+Tai įrašo visus neteisingus kaukių blokus žemėlapyje kartu su jų vietomis.
 
 #### `Paper.disableChannelLimit`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
+Išjungia 128 įskiepių kanalų ribojimą vienam žaidėjui.
 
 #### `Paper.disableClassPrioritization`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-플러그인 클래스 우선 순위 체계를 비활성화 합니다.
+Išjungia įskiepių klasės prioritizavimo sistemą.
 
-플러그인 셰이드에서 문제가 발생한 경우 유용합니다.
+Tai naudinga, jei yra problemų su įskiepių šešėliu.
 
 #### `Paper.disableFlushConsolidate`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-Netty flush consolidation 체계를 비활성화 합니다.
+Išjungia Netty nusistovėjusią plūduriavimo konsolidavimo sistemą.
 
 #### `Paper.excessiveTELimit`
 
-- **형태**: `Integer`
-- **기본값**: `750`
+- **Formatas**: `Sveikas skaičius`
+- **Numatytasis**: `750`
 
-엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
+Jei entitetas yra didesnis nei nustatyta vertė, jis siunčiamas skaidruose paketuose.
 
 #### `Paper.filterThreshold`
 
-- **형태**: `Integer`
-- **기본값**: `8192`
+- **Formatas**: `Sveikas skaičius`
+- **Numatytasis**: `8192`
 
-서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
+Nustato didžiausią paketo dydį, kurį serveris gali priimti vienu metu.
 
 #### `Paper.ignoreJavaVersion`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-Java 버전 확인을 비활성화 합니다.
+Išjungia Java versijos patikrinimą.
 
 {% hint style="danger" %}
 
-### 이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!
+### Tai gali leisti JVM bandyti pasiekti neegzistuojantį kodą!
 
-월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
+Tai gali pakenkti failams ir visam žaidimo mechanizmui, nes jie gali būti negrįžtamai sugadinti.
 
-이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
+Visos su tuo susijusios problemos yra jūsų atsakomybė, o Plamza nepateiks jokios pagalbos šiuo atveju.
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **형태**: `Integer`
-- **기본값**: `64`
+- **Formatas**: `Sveikas skaičius`
+- **Numatytasis**: `64`
 
-플러그인 채널[^6] 이름의 제한을 설정합니다.
+Nustato įskiepių kanalų pavadinimo ribą.
 
 #### `Paper.maxSignLength`
 
-- **형태**: `Integer`
-- **기본값**: `80`
+- **Formatas**: `Sveikas skaičius`
+- **Numatytasis**: `80`
 
-표지판의 한 줄에 입력 가능한 글자의 최대 길이를 설정합니다.
+Nustato didžiausią simbolių skaičių, kurį galima įvesti į vieną piktogramą.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **형태**: `Integer`
-- **기본값**: `(월드 버전) + 1`
+- **Formatas**: `Sveikas skaičius`
+- **Numatytasis**: `(pasaulio versija) + 1`
 
-먼저 초기화할 월드 업데이트 정보의 버전을 설정합니다.
+Nustato pradinės pasaulio atnaujinimo informacijos versiją.
 
-대량의 청크를 업데이트 해야 하는 경우 유용하지만, 그 외에 경우 사용되지 않습니다.
+Tai naudinga tik tais atvejais, kai reikia atnaujinti didžiulius kiekvieno ruožo duomenis, tačiau kitais atvejais nebenaudojama.
 
 #### `Paper.parseYamlCommentsByDefault`
 
-- **형태**: `Boolean`
-- **기본값**: `True`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `True`
 
-YAML 파일의 주석의 처리를 활성화 합니다.
+Įjungia YAML failų komentarų apdorojimą.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **형태**: `Integer`
-- **기본값**: `30`
+- **Formatas**: `Sveikas skaičius`
+- **Numatytasis**: `30`
 
-플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
+Jei žaidėjas neperduoda jokių duomenų per nustatytą laiką (sekundėmis), jis bus išmestas iš žaidimo.
 
-일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+Paprastai žaidimas[^7] tęsia siųsti [širdies plakimo signalą](#user-content-fn-8)[^8] į serverį, todėl [neišmestas,](#user-content-fn-9)[^9] bet jei žaidimas neatsako, jis laikomas susidūrus ir serveris daugiau nebeapdoroja žaidėjo ir išmeta jį.
 
 #### `Paper.skipServerPropertiesComments`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-서버 속성의 주석을 무시합니다.
+Ignoruoja serverio savybių komentarus.
 
 #### `Paper.debug-sync-loads`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-동기 청크 작성의 디버그 로그를 활성화 합니다.
+Įjungia sinchronizuotų ruožų kūrimo derinimo įrašus.
 
 #### `Paper.enable-sync-chunk-writes`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성화 합니다.
+Įjungia Minecraft [numatytą ruožų kūrimo sistemą](#user-content-fn-10)[^10].
 
-이는 각 청크를 저장하는 것을 순서대로 진행하므로, 굉장한 성능 저하를 유발합니다.
+Tai leidžia kiekvieną ruožą išsaugoti eilės tvarka, kuri labai sumažina našumą.
 
 #### `Paper.explicit-flush`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-네트워크 채널의 Explicit Flushing을 활성화 합니다.
+Įjungia tinklo kanalo išsamią nusistovėjimą.
 
 #### `Paper.strict-thread-checks`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
+Visada žurnališkai užfiksuoja klaidas, kurios neįvyko pagrindiniame gijime.
 
 #### `Paper.tickList-warn-on-excessive-delay`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-예약된 작업이 과도한 대기 시간을 가질 경우 경고를 출력합니다.
+Jeigu užduotis turi per didelį laukimo laiką, išspausdina įspėjimą.
 
 #### `Paperclip.patchOnly`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `Neteisinga`
 
-기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
+Kai naudojamas numatytas vykdomasis failas, tačiau nepradedamas serveris, tik taikomi pataisymai.
 
 #### `Plazma.aggressiveOptimize`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `false`
 
 {% hint style="įspėjimas" %}
 
-### 해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
+### Ši savybė bus perkelta į pradinį argumentą nuo 1.20.5 versijos.
 
 {% endhint %}
 
-처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
+Pradinės konfigūracijos optimizavimas bus taikomas griežčiau nuo pradžios.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
+Aktyvavus, serveris tampa greitesnis ir saugesnis, tačiau gali būti užblokuoti kai kurie mechanizmai arba tai gali turėti didelį poveikį žaidimo žaidimui.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `false`
 
-Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
+Slopina įspėjimą[^11], rodomą, kai inicijuojamas Plazma atkūrimas.
 
-### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
+### Nebenaudojamas atributas <a href="#id-1.3" id="id-1.3"></a>
 
-아래 시스템 속성은 사용이 중단된 속성입니다.
+Žemiau pateikti sistemos atributai yra nebenaudojami.
 
 #### `timings.bypassMax`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
-- **사용 중단됨**: Timings가 Plazma에서 전면 제거된 후 부터
+- **Formatas**: `Logiškas`
+- **Numatytasis**: `false`
+- **Nebenaudojamas**: Timings buvo pašalintas iš Plazma nuo
 
-Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되는지 결정합니다.
+Nusprendžia, ar galima viršyti maksimalų Timings API siunčiamų reikšmių skaičių.
 
-이렇게 하더라도 API에서 예외 처리되지 않으면 레이트 제한이 적용됩니다.
+Jei tai padarysite, tačiau API neapdoros išimčių, bus taikomas greičio apribojimas.
 
 ***
 
-## 시작 인수 <a href="#id-2" id="id-2"></a>
+## Pradžios argumentas <a href="#id-2" id="id-2"></a>
 
-시작 인수는 `-jar *.jar` 뒤에 입력되어 Plazma가 초기화되며 함께 처리되는 값입니다.
+Pradžios argumentas yra įvestas po `-jar *.jar` ir yra reikšmė, kuri bus apdorota kartu su Plazma inicializavimu.
 
-### 사용 방법 <a href="#id-2.1" id="id-2.1"></a>
+### Naudojimo instrukcija <a href="#id-2.1" id="id-2.1"></a>
 
-시스템 속성은 `-jar *.jar` 뒤에 프로그램 명령 인수로써 입력됩니다.
+Sistemos savybės yra įvestos po `-jar *.jar` kaip programos komandiniai argumentai.
 
-예를 들어, `nogui` 시작 인수를 적용하려 하는 경우,\
-다음과 같이 입력하면 Plazma가 초기화 중에 `nogui` 인수를 처리하게 됩니다.
+Pavyzdžiui, norint pritaikyti pradžios argumentą `nogui`,\
+įvedus taip, Plazma inicializuojant bus apdorotas argumentas `nogui`.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 ```
 
-### 전체 시작 인수 <a href="#id-2.2" id="id-2.2"></a>
+### Visas pradžios argumentas <a href="#id-2.2" id="id-2.2"></a>
 
 #### `bukkit-settings`
 
-- **별칭**: `b`
-- **기본값**: `bukkit.yml`
+- **Pseudonimas**: `b`
+- **Numatytoji reikšmė**: `bukkit.yml`
 
-[Bukkit 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+Nurodo [Bukkit konfigūracijos failo](../reference/configurations/bukkit.md) pavadinimą ir vietą.
 
 #### `command-settings`
 
-- **별칭**: `c`
-- **기본값**: `commands.yml`
+- **Pseudonimas**: `c`
+- **Numatytoji reikšmė**: `commands.yml`
 
-[Bukkit 명령어 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+Nurodo [Bukkit komandų konfigūracijos failo](../reference/configurations/bukkit.md) pavadinimą ir vietą.
 
 #### `config`
 
-- **별칭**: `c`
-- **기본값**: `server.properties`
+- **Pseudonimas**: `c`
+- **Numatytoji reikšmė**: `server.properties`
 
-[서버 속성](../reference/configurations/property.md) 파일의 이름 및 위치를 설정합니다.
+Nurodo [serverio savybių](../reference/configurations/property.md) failo pavadinimą ir vietą.
 
 #### `demo`
 
-데모 월드로 서버를 시작합니다.
+Paleidžia serverį su demonstraciniu pasauliu.
 
 #### `eraseCache`
 
-월드 업그레이드 후 남은 캐시 파일을 제거합니다.
+Ištrina likusius talpyklos failus po pasaulio atnaujinimo.
 
 #### `forceUpgrade`
 
-버전을 무시하고 월드를 강제로 [업그레이드](#user-content-fn-12)[^12] 합니다.
+Nesvarbu kokios versijos, priverčia pasaulį [atnaujinti](#user-content-fn-12)[^12].
 
 #### `help`
 
-- **별칭**: `?`
+- **Pseudonimas**: `?`
 
-Plazma의 전체 시작 인수와 설명을 출력합니다.
+Atspausdina Plazmos visus pradžios argumentus ir aprašymą.
 
 #### `initSettings`
 
-구성 파일만 생성하고 서버를 종료합니다.
+Sukuria tik konfigūracijos failą ir išjungia serverį.
 
 #### `jfrProfile`
 
-JFR 프로필링을 활성화 합니다.
+Įjungia JFR profilį.
 
 #### `max-players`
 
-- **별칭**: `s`, `size`
-- **기본값**: `(서버 속성)`
+- **Pseudonimas**: `s`, `size`
+- **Numatytoji reikšmė**: `(serverio savybė)`
 
-허용되는 최대 [플레이어](#user-content-fn-14)[^14] 수를 설정합니다.
+Nustato maksimalų leidžiamą [žaidėjų](#user-content-fn-14)[^14] skaičių.
 
 #### `nogui`
 
-그래픽 인터페이스 패널을 비활성화 합니다.
+Išjungia grafinį sąsajos skydelį.
 
 #### `nojline`
 
-JLine을 비활성화 하고 바닐라 콘솔을 사용합니다.
+Išjungia JLine ir naudoja standartinę konsolę.
 
 #### `online-mode`
 
-- **별칭**: `o`
-- **기본값**: `(서버 속성)`
+- **Pseudonimas**: `o`
+- **Numatytoji reikšmė**: `(serverio savybė)`
 
-Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
+Pasirenka, ar patikrinti žaidėją su Mojang autentifikavimo serveriu.
 
-**Velocity 등 프록시를 사용하는 것이 아닌 경우 [EULA](../getting-started/README.md#id-5) 위반으로 제재될 수 있습니다.**
+**Naudoti [EULA](../getting-started/README.md#id-5) pažeidimas, jei naudojamas ne Velocity ar kitas įgaliojimų serveris.**
 
 #### `paper-settings`
 
-- **별칭**: `paper`
-- **기본값**: `paper.yml`
+- **Pseudonimas**: `paper`
+- **Numatytoji reikšmė**: `paper.yml`
 
 {% hint style="įspėjimas" %}
 
-### 이 인수는 1.19.4 이후 사용이 중지되었습니다
+### Šis argumentas nebeveikia nuo 1.19.4
 
 {% endhint %}
 
-사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다.
+Nustato naudoto PaperSpigot konfigūracijos failo vietą.
 
-이는 기존 구성을 새 구성 파일로 이전하기 위해 사용되며, 그 이후에는 사용되지 않습니다.
+Tai naudojama perkelti seną konfigūraciją į naują failą, po to ji nebeveikia.
 
 #### `paper-settings-directory`
 
-- **별칭**: `paper-dir`
-- **기본값**: `config`
+- **Pseudonimas**: `paper-dir`
+- **Numatytoji reikšmė**: `config`
 
-[Paper 구성 파일](../reference/configurations/paper/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+Nustato [Paper konfigūracijos failo](../reference/configurations/paper/README.md) aplankalo pavadinimą ir vietą.
 
 #### `plazma-settings-directory`
 
-- **별칭**: `plazma-dir`
+- **Pseudonimas**: `plazma-dir`
 
-[Plazma 구성 파일](../reference/configurations/plazma/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+Nustato [Plazma konfigūracijos failo](../reference/configurations/plazma/README.md) aplankalo pavadinimą ir vietą.
 
 #### `plugins`
 
-- **별칭**: `p`
-- **기본값**: `plugins`
+- **Pseudonimas**: `p`
+- **Numatytoji reikšmė**: `plugins`
 
-플러그인 폴더의 위치를 설정합니다.
+Nustato papildomų įskiepių aplankalo vietą.
 
 #### `pufferfish-settings`
 
-- **별칭**: `pufferfish`
-- **기본값**: `pufferfish.yml`
+- **Pseudonimas**: `pufferfish`
+- **Numatytoji reikšmė**: `pufferfish.yml`
 
-[Pufferfish 구성 파일](../reference/configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
+Nustato [Pufferfish konfigūracijos failo](../reference/configurations/pufferfish.md) pavadinimą ir vietą.
 
 #### `purpur-settings`
 
-- **별칭**: `purpur`
-- **기본값**: `purpur.yml`
+- **Pseudonimas**: `purpur`
+- **Numatytoji reikšmė**: `purpur.yml`
 
-[Purpur 구성 파일](../reference/configurations/purpur/README.md)의 이름 및 위치를 설정합니다.
+Nustato [Purpur konfigūracijos failo](../reference/configurations/purpur/README.md) pavadinimą ir vietą.
 
 #### `safeMode`
 
-(안전 모드) 완전한 바닐라 상태로 서버를 시작합니다.
+Paleidžia serverį saugiuoju režimu, kaip visiškai standartinį.
 
 #### `server-ip`
 
-- **별칭**: `h`, `host`
-- **기본값**: `(서버 속성)`
+- **Pseudonimas**: `h`, `host`
+- **Numatytoji reikšmė**: `(serverio savybė)`
 
-서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-13)[^13] 주소를 설정합니다.
+Nustato serverio prievado pavadinimą arba [internetinio protokolo](#user-content-fn-13)[^13] adresą.
 
 #### `server-port`
 
-- **별칭**: `p`, `port`
-- **기본값**: `(서버 속성)`
+- **Pseudonimas**: `p`, `port`
+- **Numatytoji reikšmė**: `(serverio savybė)`
 
-서버의 포트를 설정합니다.
+Nustato serverio prievadą.
 
 #### `server-name`
 
-- **기본값**: `A Plazma Server`
+- **Numatytoji reikšmė**: `A Plazma Server`
 
-서버의 이름을 설정합니다.
+Nustato serverio pavadinimą.
 
 #### `spigot-settings`
 
-- **별칭**: `S`
-- **기본값**: `spigot.yml`
+- **Pseudonimas**: `S`
+- **Numatytoji reikšmė**: `spigot.yml`
 
-[Spigot 구성 파일](../reference/configurations/spigot.md)의 이름 및 위치를 설정합니다.
+Nurodo [Spigot konfigūracijos failo](../reference/configurations/spigot.md) pavadinimą ir vietą.
 
 #### `version`
 
-- **별칭**: `v`
+- **Pseudonimas**: `v`
 
-Plazma 버전을 출력합니다.
+Atspausdina Plazma versiją.
 
 #### `world-dir`
 
-- **별칭**: `W`, `universe`, `world-container`
-- **기본값**: `(서버 폴더)`
+- **Pseudonimas**: `W`, `universe`, `world-container`
+- **Numatytoji reikšmė**: `(serverio aplankas)`
 
-월드 파일이 저장되는 위치를 설정합니다.
+Nustato vietą, kur saugomi pasaulio failai.
 
 #### `world-name`
 
-- **별칭**: `w`, `world`
-- **기본값**: `(서버 속성)`
+- **Pseudonimas**: `w`, `world`
+- **Numatytoji reikšmė**: `(serverio savybė)`
 
-월드 파일의 이름을 설정합니다.
+Nustato pasaulio failo pavadinimą.
 
 ***
 
 [^1]: `java (...) -jar server.jar (...)`
 
-[^2]: 덧붙여지는 위치에 따라 인수를 처리하는 위치가 변경됩니다.
+[^2]: Parametrų tvarka priklauso nuo vietos, kurioje yra pridėti argumentai.
 
-[^3]: 예를 들어, `Plazma.iKnowWhatIAmDoing`을 `true`로 설정(활성화) 하려는 경우, `-DPlazma.iKnowWhatIAmDoing=true` 대신 `-DPlazma.iKnowWhatIAmDoing` 만 입력해도 동일하게 작동합니다.
+[^3]: Pavyzdžiui, norint nustatyti `Plazma.iKnowWhatIAmDoing` į `true`, vietoje `-DPlazma.iKnowWhatIAmDoing=true` galima įvesti tik `-DPlazma.iKnowWhatIAmDoing` ir taip pat veiks.
 
-[^4]: 예를 들어, `"-DPlazma.iKnowWhatIAmDoing"`
+[^4]: Pavyzdžiui, `"-DPlazma.iKnowWhatIAmDoing"`
 
-[^5]: 이벤트 감지기.
+[^5]: Įvykio jutiklis.
 
-[^6]: 이벤트 감지기.
+[^6]: Įvykio jutiklis.
 
-[^7]: 클라이언트.
+[^7]: Klientas.
 
-[^8]: 심장 박동처럼 서버와 정상적으로 연결 되어 있음을 알리는 신호.
+[^8]: Signalas, pranešantis, kad serveris yra sėkmingai prijungtas kaip širdies plakimas.
 
-[^9]: Purpur의 AFK 추방 기능을 사용하면 자리를 비운 플레이어도 추방할 수 있습니다.
+[^9]: Naudodami Purpur AFK išmesti funkciją, galite išmesti net tuos žaidėjus, kurie paliko vietą.
 
-[^10]: 동기 청크 작성 체계, Sync Chunk Write System.
+[^10]: Sinchroninis ruožo rašymo sistema, Sync Chunk Write System.
 
-[^11]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
+[^11]: `ĮSPĖJIMAS! Plazma gali sukelti netikėtų problemų, todėl būtinai išsamiai išbandykite jį prieš naudojant jį viešame serveryje.`
 
-[^12]: 게임에서 `월드 최적화` 도 이와 같은 원리로 동작합니다.
+[^12]: Žaidimuose `pasaulio optimizavimas` taip pat veikia pagal šį principą.
 
-[^13]: Internet Protocol, IP.
+[^13]: Interneto protokolas, IP.
 
-[^14]: `레벨 2` 이상의 관리자는 제외합니다.
+[^14]: `Lygio 2` arba aukštesnis administratorius yra išskiriamas.
