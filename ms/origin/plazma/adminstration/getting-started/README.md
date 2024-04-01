@@ -315,6 +315,6 @@ Ketahui cara untuk menyesuaikan pelayan melalui panduan di bawah.
 
 [^11]: Di Korea, mengikut Seksyen 32(1)(9) Undang-Undang Pemajuan Industri Permainan, **Korea Microsoft Corporation** boleh mengambil tindakan undang-undang.
 
-[^12]: Plug & Play Universal. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
+[^12]: Plug & Play Universal. Purpur yang termasuk dalam Plazma secara automatik berkomunikasi dengan router melalui teknologi ini hanya membuka port apabila server sedang berjalan, oleh itu, tidak perlu meneruskan port secara manual.
 
-[^13]: 계정이 없는 경우 Google 또는 GitHub 계정을 통해 Ngrok에 가입합니다.
+[^13]: Jika tiada akaun, daftar masuk ke Ngrok menggunakan akaun Google atau GitHub.
