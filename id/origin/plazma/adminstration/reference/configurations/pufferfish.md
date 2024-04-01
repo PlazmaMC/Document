@@ -1,5 +1,5 @@
 ---
-description: pufferfish.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Pelajari apa yang masing-masing node dalam pufferfish.yml artinya.
 ---
 
-# 🐡 Pufferfish
+# 🐡 Ikan Buntal
