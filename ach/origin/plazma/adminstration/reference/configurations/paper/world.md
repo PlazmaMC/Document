@@ -1,5 +1,5 @@
 ---
-description: paper-world.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Papil (paper-world.yml tye kiketo gang mito ada mako kede i kom.
 ---
 
-# 🛩️ Paper (월드별 구성)
+# 🛩️ Papil (Duny pa Lutino)
