@@ -1,5 +1,5 @@
 ---
-description: Volt는 Plazma를 기반으로 자신만의 Paperweight 서버 플랫폼을 개발할 수 있는 오픈 소스 템플릿입니다.
+description: Volt adalah templat sumber terbuka yang membolehkan anda membangunkan platform pelayan Paperweight anda sendiri berdasarkan Plazma.
 ---
 
-# ⚡ Volt Development Guide
+# ⚡ Panduan Pembangunan Volt
