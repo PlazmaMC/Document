@@ -315,6 +315,6 @@ Tutvuge alloleva juhendiga, kuidas serverit kohandada.
 
 [^11]: Kui tegemist on Lõuna-Korea mängutööstuse edendamise seaduse § 32 lõike 1 punktiga 9, siis on võimalik esitada õiguslik kaebus **Korea Microsoft Corporation** vastu.
 
-[^12]: Universaalne pistik & mängi. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
+[^12]: Universaalne pistik & mängi. Plazma'ga lisatud Purpur suhtleb automaatselt ruuteriga selle tehnoloogia abil, avades pordi ainult siis, kui server töötab, nii et pole vaja otse portide edastamist teha.
 
-[^13]: 계정이 없는 경우 Google 또는 GitHub 계정을 통해 Ngrok에 가입합니다.
+[^13]: Kui teil pole kontot, registreeruge Ngrokis Google'i või GitHubi konto kaudu.
