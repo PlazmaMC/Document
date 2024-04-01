@@ -59,7 +59,7 @@ You can download Plazma from the page below.
 [downloads.md](downloads.md)
 {% endcontent-ref %}
 
-#### Want detailed information on supported versions?
+#### Want to know more about version support?
 
 {% content-ref url="supported-versions.md" %}
 [supported-versions.md](supported-versions.md)
