@@ -2,9 +2,9 @@
 description: Segera unduh Plazma sekarang dan coba sendiri.
 ---
 
-# ⬇️ 다운로드
+# ⬇️ Unduh
 
-#### 버전 지원에 대한 자세한 정보를 알고 싶다면?
+#### Ingin mengetahui informasi detail tentang dukungan versi?
 
 {% content-ref url="supported-versions.md" %}
 [supported-versions.md](supported-versions.md)
