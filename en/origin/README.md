@@ -24,8 +24,8 @@ description: If you have any questions, please ask them through Discord or GitHu
 
 ***
 
-#### If you need more Minecraft-related information, `SPONSOR`? <a href="#etc-1" id="etc-1"></a>
+#### <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+
 
 ***
