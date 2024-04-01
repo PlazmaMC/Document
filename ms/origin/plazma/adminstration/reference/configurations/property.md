@@ -1,5 +1,5 @@
 ---
-description: server.properties의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Ketahui apa yang setiap nod di server.properties maksudkan.
 ---
 
 # 🪨 Server.properties
