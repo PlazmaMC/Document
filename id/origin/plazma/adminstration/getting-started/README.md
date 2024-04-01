@@ -315,6 +315,6 @@ Pelajari cara menyesuaikan server melalui panduan di bawah ini.
 
 [^11]: Dalam hal Korea Selatan, berdasarkan Pasal 32 Ayat 1 Nomor 9 dari Undang-Undang Promosi Industri Permainan, **Korea Microsoft Corporation** dapat mengajukan tuntutan hukum.
 
-[^12]: Universal Plug & Play. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
+[^12]: Universal Plug & Play. Purpur yang terdapat dalam Plazma berkomunikasi secara otomatis dengan router melalui teknologi ini, sehingga tidak perlu melakukan port forwarding secara langsung ketika server sedang berjalan.
 
-[^13]: 계정이 없는 경우 Google 또는 GitHub 계정을 통해 Ngrok에 가입합니다.
+[^13]: Jika tidak memiliki akun, daftarlah ke Ngrok melalui akun Google atau GitHub.
