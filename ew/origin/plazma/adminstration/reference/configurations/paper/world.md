@@ -1,5 +1,5 @@
 ---
-description: Find out what each node in paper-world.yml represents.
+description: Find out what each node in paper-world.yml means.
 ---
 
-# 🛩️ Paper (Composition by world)
+# 🛩️ Paper (World Composition)
