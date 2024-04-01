@@ -1,526 +1,526 @@
 ---
-description: 시작 인수와 시스템 속성에 대해 알아보세요.
+description: Ketahui tentang argumen permulaan dan sifat sistem.
 ---
 
-# 🎛️ 인수와 속성
+# 🎛️ Argumen dan Sifat
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,\
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+Argumen permulaan dan sifat sistem adalah nilai yang ditambahkan ke [perintah yang digunakan](#user-content-fn-1)[^1] dalam pelaksanaan Plazma,\
+membolehkan nilai yang tidak boleh diubah selepas Plazma dilaksanakan untuk diubah.
 
-[명령어에 덧붙이는 위치에](#user-content-fn-2)[^2] 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
+Berdasarkan [lokasi nilai yang ditambahkan ke perintah](#user-content-fn-2)[^2], ia dibahagikan kepada **argumen permulaan** dan **sifat sistem**.
 
 ***
 
-## 시스템 속성 <a href="#id-1" id="id-1"></a>
+## Sifat sistem <a href="#id-1" id="id-1"></a>
 
-시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
+Sifat sistem dimasukkan sebelum `-jar` dan diproses oleh JVM sebelum Plazma diinisialisasi.
 
 {% hint style="warning" %}
 
-### 시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!
+### Mengubah sifat sistem boleh mengubah cara Plazma dan JVM berfungsi dan boleh memberi kesan besar kepada permainan!
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Jika anda tidak pasti peranan setiap sifat sistem, **jangan gunakannya sama sekali!**
 {% endhint %}
 
-### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
+### Cara Penggunaan <a href="#id-1.1" id="id-1.1"></a>
 
-시스템 속성은 `java` 와 `-jar` 사이에 Java 명령 인수로써 입력됩니다.
+Sifat sistem dimasukkan sebagai argumen perintah Java antara `java` dan `-jar`.
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,\
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+Contohnya, jika anda ingin menggunakan sifat sistem `Plazma.dummyProperty`,\
+masukkan nilai seterusnya sebagai `37` untuk inisialisasi Plazma.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 ```
 
-`-D`는 해당 인수가 JVM에 내장되지 않고 Plazma에 추가된 전용 인수임을 나타내며,
+`-D` menandakan argumen tersebut adalah tambahan khas untuk Plazma dan tidak disertakan dalam JVM,
 
-속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정됩니다.](#user-content-fn-3)[^3]
+Jika tidak ada nilai yang dimasukkan, nilai akan tetap [`true`.](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
 
-### Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.
+### Platform Pemendatang Berat membezakan sifat sistem untuk setiap platform dengan menyertakan `.` dalam nama sifat.
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Beberapa terminal seperti Windows Powershell mungkin tidak menerima argumen ini, jadi, tambahkan `"` pada kedua hujung argumen. [sebagai langkah berjaga-jaga.](#user-content-fn-4)[^4]
 {% endhint %}
 
-### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
+### Sifat Sistem Penuh <a href="#id-1.2" id="id-1.2"></a>
 
 #### `convertLegacySigns`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-사용 중지된 표지판 포맷을 업데이트 합니다.
+Mengemaskini format tanda yang telah digunakan.
 
 #### `debug.entities`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-엔티티 정보 관련 디버그 로그를 활성화 합니다.
+Aktifkan log debug berkaitan maklumat entiti.
 
 #### `debug.rewriteForIDE`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-IDE에서 디버그 정보를 올바르게 불러올 수 있도록 NMS 리비전을 비활성화 하고,\
-내부 버전 정보를 자동으로 리맵합니다.
+Matikan semula revisi NMS untuk IDE,\
+memetakan semula maklumat versi dalaman secara automatik.
 
 #### `disable.watchdog`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
+Matikan sistem amaran Watchdog Spigot.
 
 #### `letMeReload`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-`/reload` 명령어의 재확인 메세지를 비활성화 합니다.
+Matikan mesej pengesahan semula perintah `/reload`.
 
 {% hint style="danger" %}
 
-### `/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.
+### Perintah `/reload` sangat tidak stabil, oleh itu, semua masalah yang berlaku selepas menggunakan `/reload` adalah tanggungjawab pengguna sendiri.
 
-플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
+Untuk pembangun plugin yang perlu mengemaskini plugin, gunakan hotswap sebagai gantinya.
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-표준 입출력 체계를 사용하는 플러그인을 비활성화 합니다.
+Matikan plugin yang menggunakan sistem input/output standard.
 
 #### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
+Amaran jika format lama dikesan dalam komponen chat.
 
 #### `Paper.bypassHostCheck`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
+Matikan pengesahan pola hos semasa pemain menyambung ke pelayan.
 
 #### `Paper.debugDynamicMissingKeys`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
+Aktifkan log debug untuk kunci yang hilang dalam objek NBT.
 
 #### `Paper.debugInvalidSkullProfiles`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
+Aktifkan log debug untuk profil kepala yang tidak sah.
 
-이는 월드 내 모든 잘못된 머리 블록을 위치와 함께 로그합니다.
+Log ini mencatat semua blok kepala yang salah dalam dunia bersama dengan lokasinya.
 
 #### `Paper.disableChannelLimit`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
+Matikan had jumlah saluran plugin (128 saluran setiap pemain) yang dikenakan kepada setiap pemain.
 
 #### `Paper.disableClassPrioritization`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-플러그인 클래스 우선 순위 체계를 비활성화 합니다.
+Matikan sistem keutamaan kelas plugin.
 
-플러그인 셰이드에서 문제가 발생한 경우 유용합니다.
+Berguna jika ada masalah dalam shading plugin.
 
 #### `Paper.disableFlushConsolidate`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-Netty flush consolidation 체계를 비활성화 합니다.
+Matikan sistem konsolidasi flush Netty.
 
 #### `Paper.excessiveTELimit`
 
-- **형태**: `Integer`
-- **기본값**: `750`
+- **Jenis**: `Integer`
+- **Nilai Lalai**: `750`
 
-엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
+Jika entiti melebihi nilai yang ditetapkan, ia akan dihantar melalui paket berganda.
 
 #### `Paper.filterThreshold`
 
-- **형태**: `Integer`
-- **기본값**: `8192`
+- **Jenis**: `Integer`
+- **Nilai Lalai**: `8192`
 
-서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
+Tetapkan saiz maksimum paket yang boleh diterima oleh pelayan pada satu masa.
 
 #### `Paper.ignoreJavaVersion`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-Java 버전 확인을 비활성화 합니다.
+Matikan pengesahan versi Java.
 
 {% hint style="danger" %}
 
-### 이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!
+### Ini boleh menyebabkan JVM cuba mengakses kod yang tidak wujud!
 
-월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
+Ini boleh merosakkan fail dan dunia secara kekal, menyebabkan kegagalan mekanisme permainan.
 
-이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
+Semua masalah yang timbul daripada penggunaan ini adalah tanggungjawab pengguna dan Plamza tidak akan memberikan sebarang sokongan untuk itu.
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **형태**: `Integer`
-- **기본값**: `64`
+- **Jenis**: `Integer`
+- **Nilai Lalai**: `64`
 
-플러그인 채널[^6] 이름의 제한을 설정합니다.
+Tetapkan had nama saluran plugin.
 
 #### `Paper.maxSignLength`
 
-- **형태**: `Integer`
-- **기본값**: `80`
+- **Jenis**: `Integer`
+- **Nilai Lalai**: `80`
 
-표지판의 한 줄에 입력 가능한 글자의 최대 길이를 설정합니다.
+Tetapkan panjang maksimum teks pada satu baris tanda.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **형태**: `Integer`
-- **기본값**: `(월드 버전) + 1`
+- **Jenis**: `Integer`
+- **Nilai Lalai**: `(versi dunia) + 1`
 
-먼저 초기화할 월드 업데이트 정보의 버전을 설정합니다.
+Tetapkan versi maklumat pembetulan data yang perlu diinisialisasi terlebih dahulu.
 
-대량의 청크를 업데이트 해야 하는 경우 유용하지만, 그 외에 경우 사용되지 않습니다.
+Berguna jika perlu mengemaskini banyak chunk, tetapi jarang digunakan dalam keadaan biasa.
 
 #### `Paper.parseYamlCommentsByDefault`
 
-- **형태**: `Boolean`
-- **기본값**: `True`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `True`
 
-YAML 파일의 주석의 처리를 활성화 합니다.
+Aktifkan pemprosesan komen YAML secara lalai.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **형태**: `Integer`
-- **기본값**: `30`
+- **Jenis**: `Integer`
+- **Nilai Lalai**: `30`
 
-플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
+Pemain akan dikeluarkan jika tiada data diterima daripada mereka selama tempoh yang ditetapkan (dalam saat).
 
-일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+Biasanya, permainan[^7] akan terus menghantar [isyarat jantung](#user-content-fn-8)[^8] ke pelayan, [mengelakkan pembanjiran,](#user-content-fn-9)[^9] tetapi jika permainan tidak memberi respons, pelayan menganggap permainan telah mengalami kegagalan dan mengeluarkan pemain tanpa lebih lanjut memproses mereka.
 
 #### `Paper.skipServerPropertiesComments`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-서버 속성의 주석을 무시합니다.
+Abaikan komen sifat pelayan.
 
 #### `Paper.debug-sync-loads`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-동기 청크 작성의 디버그 로그를 활성화 합니다.
+Aktifkan log debug penulisan chunk secara selari.
 
 #### `Paper.enable-sync-chunk-writes`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성화 합니다.
+Aktifkan [sistem penulisan chunk asas Minecraft](#user-content-fn-10)[^10].
 
-이는 각 청크를 저장하는 것을 순서대로 진행하므로, 굉장한 성능 저하를 유발합니다.
+Ini akan menyebabkan setiap chunk disimpan secara berurutan, menyebabkan penurunan prestasi yang ketara.
 
 #### `Paper.explicit-flush`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-네트워크 채널의 Explicit Flushing을 활성화 합니다.
+Aktifkan Pengepaman Eksplisit saluran rangkaian.
 
 #### `Paper.strict-thread-checks`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
+Log ralat yang berlaku di luar utama sentiasa.
 
 #### `Paper.tickList-warn-on-excessive-delay`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-예약된 작업이 과도한 대기 시간을 가질 경우 경고를 출력합니다.
+Paparkan amaran jika tugas yang dirancang mempunyai kelewatan yang terlalu lama.
 
 #### `Paperclip.patchOnly`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `False`
 
-기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
+Jika menggunakan fail eksekusi yang disediakan secara lalai, hanya lakukan pengepaman tanpa memulakan pelayan.
 
 #### `Plazma.aggressiveOptimize`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `false`
 
 {% hint style="warning" %}
 
-### 해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
+### Sifat ini akan dipindahkan sebagai argumen permulaan selepas 1.20.5.
 
 {% endhint %}
 
-처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
+Optimumkan konfigurasi yang digunakan pada permulaan dengan lebih ketat.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
+Apabila diaktifkan, server akan menjadi lebih cepat dan selamat, tetapi boleh menghalang beberapa mekanisme atau memberi kesan besar kepada permainan.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `false`
 
-Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
+Menekan mesej amaran[^11] yang dipaparkan semasa Plazma diinisialisasi.
 
-### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
+### Harta tanah yang telah dihentikan penggunaannya <a href="#id-1.3" id="id-1.3"></a>
 
-아래 시스템 속성은 사용이 중단된 속성입니다.
+Ciri-ciri sistem di bawah ini adalah ciri-ciri yang telah dihentikan penggunaannya.
 
 #### `timings.bypassMax`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
-- **사용 중단됨**: Timings가 Plazma에서 전면 제거된 후 부터
+- **Jenis**: `Boolean`
+- **Nilai Lalai**: `false`
+- **Dihentikan**: Selepas Plazma mengeluarkan Timings secara keseluruhan dari penggunaan
 
-Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되는지 결정합니다.
+Menentukan sama ada nilai yang melebihi had yang boleh dihantar ke API Timings Aikar.
 
-이렇게 하더라도 API에서 예외 처리되지 않으면 레이트 제한이 적용됩니다.
+Walaupun begitu, sekiranya tidak diuruskan dalam API, had kadar akan dikenakan.
 
 ***
 
-## 시작 인수 <a href="#id-2" id="id-2"></a>
+## Argumen Permulaan <a href="#id-2" id="id-2"></a>
 
-시작 인수는 `-jar *.jar` 뒤에 입력되어 Plazma가 초기화되며 함께 처리되는 값입니다.
+Argumen Permulaan dimasukkan selepas `-jar *.jar` untuk inisialisasi Plazma dan nilainya diproses bersama.
 
-### 사용 방법 <a href="#id-2.1" id="id-2.1"></a>
+### Cara Penggunaan <a href="#id-2.1" id="id-2.1"></a>
 
-시스템 속성은 `-jar *.jar` 뒤에 프로그램 명령 인수로써 입력됩니다.
+Ciri sistem dimasukkan sebagai argumen arahan program selepas `-jar *.jar`.
 
-예를 들어, `nogui` 시작 인수를 적용하려 하는 경우,\
-다음과 같이 입력하면 Plazma가 초기화 중에 `nogui` 인수를 처리하게 됩니다.
+Contohnya, jika ingin menggunakan argumen permulaan `nogui`,\
+masukkan seperti berikut untuk membolehkan Plazma memproses argumen `nogui` semasa inisialisasi.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 ```
 
-### 전체 시작 인수 <a href="#id-2.2" id="id-2.2"></a>
+### Argumen Permulaan Penuh <a href="#id-2.2" id="id-2.2"></a>
 
 #### `bukkit-settings`
 
-- **별칭**: `b`
-- **기본값**: `bukkit.yml`
+- **Alias**: `b`
+- **Nilai Asas**: `bukkit.yml`
 
-[Bukkit 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+Menetapkan nama dan lokasi [Fail Konfigurasi Bukkit](../reference/configurations/bukkit.md).
 
 #### `command-settings`
 
-- **별칭**: `c`
-- **기본값**: `commands.yml`
+- **Alias**: `c`
+- **Nilai Asas**: `commands.yml`
 
-[Bukkit 명령어 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+Menetapkan nama dan lokasi [Fail Konfigurasi Perintah Bukkit](../reference/configurations/bukkit.md).
 
 #### `config`
 
-- **별칭**: `c`
-- **기본값**: `server.properties`
+- **Alias**: `c`
+- **Nilai Asas**: `server.properties`
 
-[서버 속성](../reference/configurations/property.md) 파일의 이름 및 위치를 설정합니다.
+Menetapkan nama dan lokasi [Fail Sifat Pelayan](../reference/configurations/property.md).
 
 #### `demo`
 
-데모 월드로 서버를 시작합니다.
+Memulakan pelayan dengan dunia demo.
 
 #### `eraseCache`
 
-월드 업그레이드 후 남은 캐시 파일을 제거합니다.
+Menghapus fail cache yang tinggal selepas menaik taraf dunia.
 
 #### `forceUpgrade`
 
-버전을 무시하고 월드를 강제로 [업그레이드](#user-content-fn-12)[^12] 합니다.
+Memaksa [menaik taraf](#user-content-fn-12)[^12] dunia tanpa mengira versi.
 
 #### `help`
 
-- **별칭**: `?`
+- **Alias**: `?`
 
-Plazma의 전체 시작 인수와 설명을 출력합니다.
+Mencetak argumen permulaan dan penerangan penuh Plazma.
 
 #### `initSettings`
 
-구성 파일만 생성하고 서버를 종료합니다.
+Mencipta fail konfigurasi sahaja dan menamatkan pelayan.
 
 #### `jfrProfile`
 
-JFR 프로필링을 활성화 합니다.
+Aktifkan profil JFR.
 
 #### `max-players`
 
-- **별칭**: `s`, `size`
-- **기본값**: `(서버 속성)`
+- **Alias**: `s`, `size`
+- **Nilai Asas**: `(Sifat Pelayan)`
 
-허용되는 최대 [플레이어](#user-content-fn-14)[^14] 수를 설정합니다.
+Menetapkan jumlah maksimum [pemain](#user-content-fn-14)[^14] yang dibenarkan.
 
 #### `nogui`
 
-그래픽 인터페이스 패널을 비활성화 합니다.
+Matikan panel antara muka grafik.
 
 #### `nojline`
 
-JLine을 비활성화 하고 바닐라 콘솔을 사용합니다.
+Matikan JLine dan gunakan konsol biasa.
 
 #### `online-mode`
 
-- **별칭**: `o`
-- **기본값**: `(서버 속성)`
+- **Alias**: `o`
+- **Nilai Asas**: `(Sifat Pelayan)`
 
-Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
+Pilih untuk mengesahkan pemain dengan pelayan pengesahan Mojang.
 
-**Velocity 등 프록시를 사용하는 것이 아닌 경우 [EULA](../getting-started/README.md#id-5) 위반으로 제재될 수 있습니다.**
+**Jika tidak menggunakan Velocity atau proksi, boleh dikenakan tindakan disiplin mengikut [EULA](../getting-started/README.md#id-5).**
 
 #### `paper-settings`
 
-- **별칭**: `paper`
-- **기본값**: `paper.yml`
+- **Alias**: `paper`
+- **Nilai Asas**: `paper.yml`
 
 {% hint style="warning" %}
 
-### 이 인수는 1.19.4 이후 사용이 중지되었습니다
+### Argumen ini tidak lagi digunakan selepas versi 1.19.4
 
 {% endhint %}
 
-사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다.
+Menetapkan lokasi [Fail Konfigurasi PaperSpigot](../reference/configurations/paper/README.md) yang tidak lagi digunakan.
 
-이는 기존 구성을 새 구성 파일로 이전하기 위해 사용되며, 그 이후에는 사용되지 않습니다.
+Digunakan untuk memindahkan konfigurasi sedia ada ke fail konfigurasi baru dan tidak digunakan selepas itu.
 
 #### `paper-settings-directory`
 
-- **별칭**: `paper-dir`
-- **기본값**: `config`
+- **Alias**: `paper-dir`
+- **Nilai Asas**: `config`
 
-[Paper 구성 파일](../reference/configurations/paper/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+Menetapkan nama dan lokasi folder yang mengandungi [Fail Konfigurasi Paper](../reference/configurations/paper/README.md).
 
 #### `plazma-settings-directory`
 
-- **별칭**: `plazma-dir`
+- **Alias**: `plazma-dir`
 
-[Plazma 구성 파일](../reference/configurations/plazma/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+Menetapkan nama dan lokasi folder yang mengandungi [Fail Konfigurasi Plazma](../reference/configurations/plazma/README.md).
 
 #### `plugins`
 
-- **별칭**: `p`
-- **기본값**: `plugins`
+- **Alias**: `p`
+- **Nilai Asas**: `plugins`
 
-플러그인 폴더의 위치를 설정합니다.
+Menetapkan lokasi folder plugin.
 
 #### `pufferfish-settings`
 
-- **별칭**: `pufferfish`
-- **기본값**: `pufferfish.yml`
+- **Alias**: `pufferfish`
+- **Nilai Asas**: `pufferfish.yml`
 
-[Pufferfish 구성 파일](../reference/configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
+Menetapkan nama dan lokasi [Fail Konfigurasi Pufferfish](../reference/configurations/pufferfish.md).
 
 #### `purpur-settings`
 
-- **별칭**: `purpur`
-- **기본값**: `purpur.yml`
+- **Alias**: `purpur`
+- **Nilai Asas**: `purpur.yml`
 
-[Purpur 구성 파일](../reference/configurations/purpur/README.md)의 이름 및 위치를 설정합니다.
+Menetapkan nama dan lokasi [Fail Konfigurasi Purpur](../reference/configurations/purpur/README.md).
 
 #### `safeMode`
 
-(안전 모드) 완전한 바닐라 상태로 서버를 시작합니다.
+Memulakan pelayan dalam keadaan vanilla penuh.
 
 #### `server-ip`
 
-- **별칭**: `h`, `host`
-- **기본값**: `(서버 속성)`
+- **Alias**: `h`, `host`
+- **Nilai Asas**: `(Sifat Pelayan)`
 
-서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-13)[^13] 주소를 설정합니다.
+Menetapkan nama hos pelayan atau alamat [protokol internet](#user-content-fn-13)[^13].
 
 #### `server-port`
 
-- **별칭**: `p`, `port`
-- **기본값**: `(서버 속성)`
+- **Alias**: `p`, `port`
+- **Nilai Asas**: `(Sifat Pelayan)`
 
-서버의 포트를 설정합니다.
+Menetapkan port pelayan.
 
 #### `server-name`
 
-- **기본값**: `A Plazma Server`
+- **Nilai Asas**: `A Pelayan Plazma`
 
-서버의 이름을 설정합니다.
+Menetapkan nama pelayan.
 
 #### `spigot-settings`
 
-- **별칭**: `S`
-- **기본값**: `spigot.yml`
+- **Alias**: `S`
+- **Nilai Asas**: `spigot.yml`
 
-[Spigot 구성 파일](../reference/configurations/spigot.md)의 이름 및 위치를 설정합니다.
+Menetapkan nama dan lokasi [Fail Konfigurasi Spigot](../reference/configurations/spigot.md).
 
 #### `version`
 
-- **별칭**: `v`
+- **Alias**: `v`
 
-Plazma 버전을 출력합니다.
+Mencetak versi Plazma.
 
 #### `world-dir`
 
-- **별칭**: `W`, `universe`, `world-container`
-- **기본값**: `(서버 폴더)`
+- **Alias**: `W`, `alam semesta`, `bekas alam semesta`
+- **Nilai Asas**: `(Folder Pelayan)`
 
-월드 파일이 저장되는 위치를 설정합니다.
+Menetapkan lokasi di mana fail dunia disimpan.
 
 #### `world-name`
 
-- **별칭**: `w`, `world`
-- **기본값**: `(서버 속성)`
+- **Alias**: `w`, `dunia`
+- **Nilai Asas**: `(Sifat Pelayan)`
 
-월드 파일의 이름을 설정합니다.
+Menetapkan nama fail dunia.
 
 ***
 
 [^1]: `java (...) -jar server.jar (...)`
 
-[^2]: 덧붙여지는 위치에 따라 인수를 처리하는 위치가 변경됩니다.
+[^2]: Lokasi tambahan yang menentukan bagaimana argumen diproses berubah.
 
-[^3]: 예를 들어, `Plazma.iKnowWhatIAmDoing`을 `true`로 설정(활성화) 하려는 경우, `-DPlazma.iKnowWhatIAmDoing=true` 대신 `-DPlazma.iKnowWhatIAmDoing` 만 입력해도 동일하게 작동합니다.
+[^3]: Sebagai contoh, jika ingin menetapkan `Plazma.iKnowWhatIAmDoing` kepada `true`, menggantikan `-DPlazma.iKnowWhatIAmDoing=true` dengan `-DPlazma.iKnowWhatIAmDoing` akan berfungsi sama.
 
-[^4]: 예를 들어, `"-DPlazma.iKnowWhatIAmDoing"`
+[^4]: Sebagai contoh, `"-DPlazma.iKnowWhatIAmDoing"`
 
-[^5]: 이벤트 감지기.
+[^5]: Pendeteksi acara.
 
-[^6]: 이벤트 감지기.
+[^6]: Pendeteksi acara.
 
-[^7]: 클라이언트.
+[^7]: Pelayan.
 
-[^8]: 심장 박동처럼 서버와 정상적으로 연결 되어 있음을 알리는 신호.
+[^8]: Isyarat yang mengesahkan bahawa pelayan berhubung dengan betul seperti denyutan jantung.
 
-[^9]: Purpur의 AFK 추방 기능을 사용하면 자리를 비운 플레이어도 추방할 수 있습니다.
+[^9]: Dengan menggunakan ciri pembersihan AFK Purpur, anda boleh mengeluarkan pemain yang tidak hadir.
 
-[^10]: 동기 청크 작성 체계, Sync Chunk Write System.
+[^10]: Sistem Penulisan Cebisan Serentak, Sync Chunk Write System.
 
-[^11]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
+[^11]: `AMARAN! Plazma mungkin menyebabkan masalah yang tidak dijangka, jadi pastikan untuk mengujinya dengan teliti sebelum menggunakannya di server awam.`
 
-[^12]: 게임에서 `월드 최적화` 도 이와 같은 원리로 동작합니다.
+[^12]: Dalam permainan, `pengoptimuman dunia` beroperasi dengan prinsip yang sama.
 
-[^13]: Internet Protocol, IP.
+[^13]: Protokol Internet, IP.
 
-[^14]: `레벨 2` 이상의 관리자는 제외합니다.
+[^14]: Pentadbir `Tahap 2` atau yang lebih tinggi dikecualikan.
