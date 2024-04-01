@@ -4,44 +4,44 @@ description: Learn about startup arguments and system properties.
 
 # 🎛️ Arguments and Properties
 
-Startup variables and system properties are values appended to the [commands used](#user-content-fn-1)[^1] in Plazma execution, allowing the values that cannot be changed after Plazma is executed to be changed.
+Startup variables and system properties are values appended to the [commands used](#user-content-fn-1)[^1] in Plazma execution, allowing values that cannot be changed after Plazma has been executed to be changed.
 
-Depending on the [location where appended to the command](#user-content-fn-2)[^2], they are divided into **startup arguments** and **system properties**.
+Depending on the [location of the appendage](#user-content-fn-2)[^2], they are divided into **startup arguments** and **system properties**.
 
 ***
 
-## System properties <a href="#id-1" id="id-1"></a>
+## System Properties <a href="#id-1" id="id-1"></a>
 
-System properties inputted before `-jar` are processed in the JVM before Plazma initialization.
+System properties are values processed in the JVM before Plazma is initialized and entered in front of `-jar`.
 
 {% hint style="warning" %}
 
-### Modifying system properties can change the operation of Plazma and the JVM, potentially having a significant impact on the game!
+### Modifying system properties can change the operation of Plazma and JVM, potentially having a significant impact on the game!
 
-If you are not sure about the role of each system property, **never use them!**
+If you are not sure what each system property does, **do not use it under any circumstances!**
 {% endhint %}
 
 ### Usage <a href="#id-1.1" id="id-1.1"></a>
 
-System properties are inputted as Java command arguments between `java` and `-jar`.
+System properties are entered as Java command arguments between `java` and `-jar`.
 
-For example, when applying the `Plazma.dummyProperty` system property, entering as follows will initialize Plazma with the value `37` in the next property.
+For example, if you want to apply the `Plazma.dummyProperty` system property, entering as follows initializes Plazma with `37` in the next property.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 ```
 
-`-D` indicates that the argument is an exclusive argument added to Plazma, not embedded in the JVM,
+`-D` indicates that the argument is an exclusive argument added to Plazma, not inherent to JVM,
 
-and if no value is entered for the property, the value is fixed to [`true.`](#user-content-fn-3)[^3]
+and if no value is entered, the value is fixed to [`true.`](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
 
-### The Paperweight series server platforms include a `.` in the property name to distinguish system properties for each platform.
+### The Paperweight series server platform includes a `.` in the property name to distinguish system properties for each platform.
 
-In some terminals such as Windows Powershell, these arguments may not be allowed, so `"` must be added at both ends of the argument.
+In some terminals like Windows Powershell, these arguments may not be allowed, so `"` should be added to both ends of the argument.
 
-### Complete System Properties <a href="#id-1.2" id="id-1.2"></a>
+### Full System Properties <a href="#id-1.2" id="id-1.2"></a>
 
 #### `convertLegacySigns`
 
@@ -62,7 +62,7 @@ Enables debug logs related to entity information.
 - **Type**: `Boolean`
 - **Default**: `False`
 
-Disables NMS revision in IDE to correctly load debug information, and automatically remaps internal version information.
+Disables NMS revision to correctly load debug information in IDE, and automatically remaps internal version information.
 
 #### `disable.watchdog`
 
@@ -80,9 +80,9 @@ Disables confirmation message for the `/reload` command.
 
 {% hint style="danger" %}
 
-### Since the `/reload` command is highly unstable, all issues occurring after its use are the responsibility of the user.
+### The `/reload` command is very unstable, so all issues occurring after `/reload` are the responsibility of the user.
 
-If you are a plugin developer and need to update a plugin, use hotswapping instead of `/reload`.
+If you are a plugin developer and need to update a plugin, use hotswap instead of `/reload`.
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -90,7 +90,7 @@ If you are a plugin developer and need to update a plugin, use hotswapping inste
 - **Type**: `Boolean`
 - **Default**: `False`
 
-Disables plugins using standard input/output system.
+Disables plugins using standard input and output system.
 
 #### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
 
@@ -104,7 +104,7 @@ Warns when deprecated formatting is detected in chat components.
 - **Type**: `Boolean`
 - **Default**: `False`
 
-Disables server pattern matching verification when players connect to the server.
+Disables server's pattern matching verification when players connect to the server.
 
 #### `Paper.debugDynamicMissingKeys`
 
@@ -118,9 +118,9 @@ Enables debug logs for missing keys in NBT objects.
 - **Type**: `Boolean`
 - **Default**: `False`
 
-Enables debug logs for skull blocks with invalid profile information.
+Enables debug logs for head blocks with invalid profile information.
 
-Logs all invalid skull blocks in the world with their locations.
+Logs all incorrect head blocks in the world with their locations.
 
 #### `Paper.disableChannelLimit`
 
@@ -164,15 +164,15 @@ Sets the maximum packet size the server can receive at once.
 - **Type**: `Boolean`
 - **Default**: `False`
 
-Disables Java version verification.
+Disables Java version check.
 
 {% hint style="danger" %}
 
-### This allows the JVM to attempt to access non-existent code!
+### This may allow JVM to attempt to access non-existent code!
 
-Files and overall game mechanics can be permanently damaged, causing the game to break.
+World and overall files can be permanently corrupted, breaking the game's entire mechanics.
 
-Any issues caused by this are the user's responsibility, and Plamza does not provide any support for it.
+Any issues that arise from using this are the user's responsibility, and Plamza does not provide any support for it.
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
@@ -180,23 +180,23 @@ Any issues caused by this are the user's responsibility, and Plamza does not pro
 - **Type**: `Integer`
 - **Default**: `64`
 
-Sets the limit for plugin channel names.
+Sets the limit of plugin channel names.
 
 #### `Paper.maxSignLength`
 
 - **Type**: `Integer`
 - **Default**: `80`
 
-Sets the maximum length of characters that can be entered on one line of a sign.
+Sets the maximum length of characters that can be entered on a sign line.
 
 #### `Paper.minPrecachedDatafixVersion`
 
 - **Type**: `Integer`
 - **Default**: `(world version) + 1`
 
-Sets the version of initial world update information to be initialized.
+Sets the version of initial world update information to be initialized first.
 
-Useful when updating a large number of chunks, but otherwise not used.
+Useful when a large number of chunks need to be updated, but otherwise not used.
 
 #### `Paper.parseYamlCommentsByDefault`
 
@@ -210,16 +210,16 @@ Enables processing of comments in YAML files.
 - **Type**: `Integer`
 - **Default**: `30`
 
-Kicks players if no data is received from them for the entered value (in seconds).
+Kicks players if no data is received from them for the specified time (in seconds).
 
-Normally, the game[^7] continuously sends [heartbeat signals](#user-content-fn-8)[^8] to the server, so players are not kicked,
+Normally, the game[^7] continuously sends [heartbeat signals](#user-content-fn-8)[^8] to the server, so players are not kicked, but if the game stops responding, it is considered crashed and the player is kicked without further processing on the server.
 
 #### `Paper.skipServerPropertiesComments`
 
 - **Type**: `Boolean`
 - **Default**: `False`
 
-Ignores comments in server properties.
+Ignores server properties comments.
 
 #### `Paper.debug-sync-loads`
 
@@ -235,35 +235,35 @@ Enables debug logs for synchronous chunk loading.
 
 Enables Minecraft's [default chunk writing system](#user-content-fn-10)[^10].
 
-This proceeds to save each chunk in order, causing significant performance degradation.
+This proceeds to save each chunk sequentially, causing significant performance degradation.
 
 #### `Paper.explicit-flush`
 
 - **Type**: `Boolean`
 - **Default**: `False`
 
-Enables Explicit Flushing for network channels.
+Enables explicit flushing of network channels.
 
 #### `Paper.strict-thread-checks`
 
 - **Type**: `Boolean`
 - **Default**: `False`
 
-Always logs errors not occurring on the main thread.
+Always logs errors that do not occur on the main thread.
 
 #### `Paper.tickList-warn-on-excessive-delay`
 
 - **Type**: `Boolean`
 - **Default**: `False`
 
-Outputs a warning if scheduled tasks have excessive wait time.
+Outputs a warning if scheduled tasks have excessive wait times.
 
 #### `Paperclip.patchOnly`
 
 - **Type**: `Boolean`
 - **Default**: `False`
 
-When using the default provided executable, only applies patches without starting the server.
+When using the default executable file, only applies patches without starting the server.
 
 #### `Plazma.aggressiveOptimize`
 
@@ -276,9 +276,9 @@ When using the default provided executable, only applies patches without startin
 
 {% endhint %}
 
-Applies stricter configuration optimization at the initial startup.
+Applies more stringent configuration optimizations at initial startup.
 
-Activating it makes the server faster and safer, but it may block some gimmicks or have a significant impact on gameplay.
+Activating it makes the server faster and more secure, but it may block some gimmicks or have a significant impact on game play.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -287,38 +287,38 @@ Activating it makes the server faster and safer, but it may block some gimmicks 
 
 Suppresses the warning[^11] displayed when Plazma is initialized.
 
-### Obsolete attribute <a href="#id-1.3" id="id-1.3"></a>
+### The deprecated property <a href="#id-1.3" id="id-1.3"></a> is in use.
 
-The following system attribute is obsolete.
+The following system property is a deprecated property.
 
 #### `timings.bypassMax`
 
 - **Type**: `Boolean`
 - **Default**: `false`
-- **Deprecated**: Since Timings was completely removed from Plazma
+- **Deprecated**: Timings has been removed from Plazma since
 
-Determines whether exceeding the maximum value that can be sent to Aikar's Timings API is allowed.
+Determines if values exceeding the maximum that can be sent to Aikar's Timings API are allowed.
 
-Even if done so, rate limiting will be applied if not handled in the API.
+Even if done this way, rate limiting will be applied if not handled in the API.
 
 ***
 
-## Start Argument <a href="#id-2" id="id-2"></a>
+## Start Arguments <a href="#id-2" id="id-2"></a>
 
-The start argument is entered after `-jar *.jar` to initialize Plazma and is processed together.
+Start arguments are entered after `-jar *.jar` to initialize Plazma and are processed together.
 
 ### Usage <a href="#id-2.1" id="id-2.1"></a>
 
-System attributes are entered as program command arguments after `-jar *.jar`.
+System properties are entered as program command arguments after `-jar *.jar`.
 
 For example, if you want to apply the `nogui` start argument,\
-enter as follows to have Plazma process the `nogui` argument during initialization.
+enter as follows for Plazma to process the `nogui` argument during initialization.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 ```
 
-### Full Start Argument <a href="#id-2.2" id="id-2.2"></a>
+### All Start Arguments <a href="#id-2.2" id="id-2.2"></a>
 
 #### `bukkit-settings`
 
@@ -343,25 +343,25 @@ Sets the name and location of the [server properties](../reference/configuration
 
 #### `demo`
 
-Starts the server in demo world.
+Starts the server with a demo world.
 
 #### `eraseCache`
 
-Removes remaining cache files after world upgrade.
+Removes leftover cache files after world upgrades.
 
 #### `forceUpgrade`
 
-Forces upgrading the world regardless of version.
+Forces an upgrade of the world, ignoring the version.
 
 #### `help`
 
 - **Alias**: `?`
 
-Outputs all start arguments and descriptions of Plazma.
+Outputs the full start arguments and descriptions for Plazma.
 
 #### `initSettings`
 
-Creates configuration files only and shuts down the server.
+Only generates configuration files and shuts down the server.
 
 #### `jfrProfile`
 
@@ -387,9 +387,9 @@ Disables JLine and uses vanilla console.
 - **Alias**: `o`
 - **Default**: `(server properties)`
 
-Selects whether to verify players with Mojang authentication server.
+Selects whether to authenticate players with Mojang authentication servers.
 
-**May be sanctioned for violating the [EULA](../getting-started/README.md#id-5) if not using Velocity or other proxies.**
+**Sanctions may apply for violating the [EULA](../getting-started/README.md#id-5) if not using Velocity or other proxies.**
 
 #### `paper-settings`
 
@@ -404,20 +404,20 @@ Selects whether to verify players with Mojang authentication server.
 
 Sets the location of the deprecated PaperSpigot configuration file.
 
-Used to transfer existing configurations to a new configuration file, and is no longer used afterwards.
+Used to transfer existing configurations to new configuration files, and not used afterwards.
 
 #### `paper-settings-directory`
 
 - **Alias**: `paper-dir`
 - **Default**: `config`
 
-Sets the name and location of the folder where [Paper configuration files](../reference/configurations/paper/README.md) are located.
+Sets the name and location of the folder containing the [Paper configuration files](../reference/configurations/paper/README.md).
 
 #### `plazma-settings-directory`
 
 - **Alias**: `plazma-dir`
 
-Sets the name and location of the folder where [Plazma configuration files](../reference/configurations/plazma/README.md) are located.
+Sets the name and location of the folder containing the [Plazma configuration files](../reference/configurations/plazma/README.md).
 
 #### `plugins`
 
@@ -442,7 +442,7 @@ Sets the name and location of the [Purpur configuration file](../reference/confi
 
 #### `safeMode`
 
-Starts the server in a completely vanilla state (safe mode).
+Starts the server in a completely vanilla state (Safe Mode).
 
 #### `server-ip`
 
@@ -482,7 +482,7 @@ Outputs the Plazma version.
 - **Alias**: `W`, `universe`, `world-container`
 - **Default**: `(server folder)`
 
-Sets the location where world files are stored.
+Sets the location where world files are saved.
 
 #### `world-name`
 
@@ -495,9 +495,9 @@ Sets the name of the world file.
 
 [^1]: `java (...) -jar server.jar (...)`
 
-[^2]: The processing location of the acquisition changes depending on the attached location.
+[^2]: The location for processing arguments changes depending on the appended location.
 
-[^3]: For example, if you want to set `Plazma.iKnowWhatIAmDoing` to `true` (activate), instead of entering `-DPlazma.iKnowWhatIAmDoing=true`, entering `-DPlazma.iKnowWhatIAmDoing` will work the same way.
+[^3]: For example, if you want to set (enable) `Plazma.iKnowWhatIAmDoing` to `true`, entering `-DPlazma.iKnowWhatIAmDoing` alone will work the same as `-DPlazma.iKnowWhatIAmDoing=true`.
 
 [^4]: For example, `"-DPlazma.iKnowWhatIAmDoing"`
 
@@ -507,7 +507,7 @@ Sets the name of the world file.
 
 [^7]: Client.
 
-[^8]: A signal indicating that the server is properly connected like a heartbeat.
+[^8]: A signal indicating that the server is properly connected, like a heartbeat.
 
 [^9]: Using Purpur's AFK kick feature, you can kick players who are away from their keyboards.
 
@@ -515,8 +515,8 @@ Sets the name of the world file.
 
 [^11]: `WARNING! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.`
 
-[^12]: In the game, `world optimization` also operates on the same principle.
+[^12]: In games, `world optimization` works on the same principle.
 
 [^13]: Internet Protocol, IP.
 
-[^14]: Administrators above `level 2` are excluded.
+[^14]: Excluding administrators `level 2` and above.
