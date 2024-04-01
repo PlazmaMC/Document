@@ -50,7 +50,7 @@ If the output is not like the above, or if it is as follows, then JRE is either 
 
 {% endcode %}
 
-{% code title="JRE is too outdated" overflow="wrap" lineNumbers="true" %}
+{% code title="JRE is too old" overflow="wrap" lineNumbers="true" %}
 
 ```log
 Unrecognized option: --version
@@ -62,21 +62,21 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 JRE Installation
 
-In this guide, we will use Azul Zulu as one of the [types of JRE](#user-content-fn-5)[^5].
+In this guide, we will use Azul Zulu as one of the types of JREs.
 
-After installation, redo [Step 1.1](setup.md#id-1.1) to verify that the installation is successful.
+After installation, please redo [step 1.1](setup.md#id-1.1) to ensure that the installation is completed correctly.
 
 {% tabs %}
 {% tab title="Windows" %}
 
 1. First, download **JDK 21** in `.msi` format from [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
-2. Run the downloaded installer and click `Next`.
-3. After activating `Set JAVA_HOME variable` from the menu displayed in the center left of the window, click `Next`.
-4. Click `Install` to complete the JRE installation.
+2. Run the downloaded installation wizard and click `Next`.
+3. After activating `Set JAVA_HOME variable` in the menu displayed in the middle left of the window, click `Next`.
+4. Press `Install` to complete the JRE installation.
    {% endtab %}
 
 {% tab title="macOS" %}
-Download **JDK 21** in `.dmg` format from [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) and install JRE by running the downloaded installer.
+Download the **JDK 21** installation wizard in `.dmg` format from [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) and install JRE.
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
@@ -114,31 +114,31 @@ sudo dnf install -y zulu21-ca-jre-headless
 
 ## 2. Plazma Download
 
-Plazma offers various forms of executable files.
+Plazma provides various types of executable files.
 
 {% hint style="warning" %}
 
 ### In most cases, use `Reobf Paperclip`.
 
-The following information is for developers or those curious about the characteristics of each form.\
-If you are a regular user, you can skip to [Step 3](setup.md#id-3) without any issues.
+The following information is for developers or those curious about the characteristics of each type.\
+If you are a regular user, you can skip to [step 3](setup.md#id-3) without any issues.
 {% endhint %}
 
 <details>
 
-<summary>Learn More</summary>
+<summary>Learn more</summary>
 
-The executable file is named `plazma-(version manager)-1.20.4-R0.1-SNAPSHOT-(mapping type).jar`.
+The name of the executable file is determined as `plazma-(version manager)-1.20.4-R0.1-SNAPSHOT-(mapping type).jar`.
 
 - **Mapping Type**\
-  Mapping is a kind of map that connects Minecraft's actual code with obfuscated code.
+  Mapping is a kind of map that connects the actual code of Minecraft with the obfuscated code.
   - **Reobf**\
-    Reobfuscation, also known as Spigot mapping, is used in most NMS plugins.\
+    Reobfuscation, also known as Spigot mapping, is commonly used in most NMS plugins.\
     It will be discontinued starting from 1.20.5.
   - **Mojmap**\
-    Mojang mapping, vanilla Minecraft mapping.
+    Mojang mapping, the vanilla Minecraft mapping.
 - **Version Manager**\
-  The version manager can be considered as the launcher of the server, which is necessary for running the server and patching server files.
+  The version manager can be considered as a launcher for the server, which is necessary for running the server and patching server files.
   - **Paperclip**\
     Developed by the PaperMC team for Paper and other derivative platforms, it downloads libraries and applies patches to the server.
   - **Bundler**\
@@ -148,39 +148,39 @@ The executable file is named `plazma-(version manager)-1.20.4-R0.1-SNAPSHOT-(map
 
 ***
 
-## 3. Creating a Start Script
+## 3. Creating a Startup Script
 
-To easily start Plazma and automatically restart the server, you need to create a [start script](#user-content-fn-6)[^6].
+To easily start Plazma and automatically restart the server, you need to create a [startup script](#user-content-fn-6).
 
-You can create a start script through [Flags.sh](https://flags.sh). By entering only the memory to be used for Plazma, the command will be automatically optimized.
+You can create a startup script via [Flags.sh](https://flags.sh). By entering only the [memory to be used by Plazma](#user-content-fn-8), the command will be automatically optimized.
 
-You can download the start script by clicking the bottom left download button.\
-**Make sure the downloaded start script matches your operating system.**
+You can download the startup script by clicking the bottom left download button.\
+**Make sure the downloaded startup script matches your operating system.**
 
 ***
 
-## 4. File Cleanup
+## 4. File Organization
 
-Now move the downloaded start script and Plazma to a new folder.
+Now, move the downloaded startup script and Plazma to a new folder.
 
 {% hint style="warning" %}
 
-### The folder name must not have spaces and must be in English.
+### The folder name must not contain spaces and should be in English.
 
-Otherwise, Plazma or JRE may not function correctly.
+Otherwise, Plazma or JRE may not function properly.
 {% endhint %}
 
-Now run the start script. For Windows, you must <mark style="background-color:orange;">select</mark> <mark style="background-color:orange;">**Allow**</mark> in the firewall permission dialog box at the bottom left.
+Now, run the startup script. For Windows, you must select `Allow` in the <mark style="background-color:orange;">Firewall Allow Selection window</mark>.
 
 ***
 
 ## 5. EULA Agreement
 
-Once you run the start script, an `eula.txt` file will be generated in the folder.
+Once you run the startup script, a `eula.txt` file will be generated in the folder.
 
-EULA[^9] is a license agreement that you must agree to by using the services of [Mojang Studios](#user-content-fn-10)[^10].
+EULA[^9] is a license agreement that must be agreed upon by using the services of [Mojang Studios](#user-content-fn-10).
 
-If you do not agree to the EULA, you cannot start the server, and violating the EULA may result in sanctions such as account suspension.
+If you do not agree to the EULA, you cannot start the server, and violating the EULA may result in penalties such as account suspension. Refer to [sanctions](#user-content-fn-11).
 
 To agree to the EULA, change `eula=false` to `eula=true` in the `eula.txt` file and save it.
 
@@ -188,77 +188,77 @@ To agree to the EULA, change `eula=false` to `eula=true` in the `eula.txt` file 
 
 ## 6. Allow External Connections (Windows)
 
-Modern operating systems block external access by default to prevent unauthorized access from outside using **firewalls** and **routers**.
+Modern operating systems block external access by default using **Firewalls** and **Routers** to prevent dangerous access from outside.
 
-For Windows, since you allowed it in [Step 3](setup.md#id-3), you just need to do port forwarding.
+For Windows, since you allowed it in [step 3](setup.md#id-3), you just need to do port forwarding.
 
 {% hint style="info" %}
 
-### This guide assumes that you are using a Windows operating system and a router that supports [**UPnP**](#user-content-fn-12)[^12].
+### This guide assumes that it is written for Windows operating systems and routers that can use [**UPnP**](#user-content-fn-12).
 
-If your router does not support UPnP, you will need to search for information as panel layouts vary by router.
+If the router does not support UPnP, you need to search for information yourself as different routers have different panels.
 
-Alternatively, you can use [Ngrok](https://ngrok.com/) to generate a temporary address.
+Alternatively, you can also generate a temporary address using [Ngrok](https://ngrok.com/).
 {% endhint %}
 
 {% hint style="warning" %}
 
-### For Linux or macOS (semi) UNIX-based operating systems, settings for each firewall service vary, so you need to search for information.
+### For Linux or macOS, and other (semi) UNIX-based operating systems, the setup methods for each firewall service are different, so you need to search for information yourself.
 
 {% endhint %}
 
 ### 6.1 Check the Need for Port Forwarding
 
-Enter the following in the Run window and run it.
+Enter the following in the execution window and run it.
 
 ```batch
 powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Invoke-WebRequest "ifconfig.me").content"
 ```
 
-If the output is `True`, you can stop here, but if it is `False`, you need to set up port forwarding.
+If the output is `True`, you can finish here, but if it is `False`, you need to set up port forwarding.
 
 ### 6.2 Connect to the Server
 
 {% tabs %}
 {% tab title="External Connection" %}
-If port forwarding is not needed or if you have already successfully set up port forwarding, you can now connect to the server.
+If port forwarding is not required or has already been successful, you can now connect to the server.
 
-The address used to connect to the server can be checked [here](https://ip.pe.kr/)
+The address to use when connecting to the server can be checked [here](https://ip.pe.kr/).
 {% endtab %}
 
-{% tab title="Attempt port forwarding with UPnP" %}
-In the `purpur.yml` file of the server folder, enable `network.upnp-port-forwarding` to `true`.
+{% tab title="Attempt Port Forwarding with UPnP" %}
+In the `purpur.yml` file in the server folder, enable `network.upnp-port-forwarding` to `true`.
 
 Then, when you restart the server, Plazma will automatically attempt port forwarding.
 
-Below is the indication of UPnP success based on the message output to the console, which will be displayed as `[UPnP] (message)` in the console.
+The success of UPnP will be based on the message output on the console, which will be displayed as `[UPnP] (message)`.
 
-| Message                           | Meaning                                       |
-| --------------------------------- | --------------------------------------------- |
-| `Successfully opened port (port)` | Port forwarding successful.                   |
-| `Port (port) is already open`     | Another service is currently using that port. |
-| `Failed to open port (port)`      | Port forwarding failed.                       |
-| `Service is unavailable`          | The router does not support UPnP.             |
+| Message                           | Meaning                            |
+| --------------------------------- | ---------------------------------- |
+| `Successfully opened port (port)` | Port forwarding successful.        |
+| `Port (port) is already open`     | Another service is using the port. |
+| `Failed to open port (port)`      | Port forwarding failed.            |
+| `Service is unavailable`          | The router does not support UPnP.  |
 
-When the server shuts down, Plazma automatically closes the port.
+When the server is shut down, Plazma automatically closes the port.
 {% endtab %}
 
-{% tab title="Create a temporary address with Ngrok" %}
+{% tab title="Generate Temporary Address with Ngrok" %}
 Using Ngrok is useful for short-term testing, collaborative play, or playing with friends.
 
 1. Download the `Windows (64-bit)` ZIP file from [Ngrok website](https://ngrok.com/download).
 2. Put the downloaded Ngrok into the server folder.
-3. Generate an authentication token at [Ngrok dashboard](https://dashboard.ngrok.com/get-started/your-authtoken)[^13].
-4. Execute the command displayed in the `Command Line` in the server folder.
-5. Add `start /b ngrok tcp --region jp 25565` at the top of the execution script, and `taskkill /f /t /im ngrok.exe` at the bottom.
-6. In the console, the address `0.tcp.jp.ngrok.io:12345` shown at the top will be the server's address.
-7. Now you can connect from external sources using this address.
+3. Generate an authentication token from [Ngrok Dashboard](https://dashboard.ngrok.com/get-started/your-authtoken) as mentioned in [footnote 13](#user-content-fn-13).
+4. Run the command displayed in the `Command Line` at the top of the execution script in the server folder.
+5. Add `start /b ngrok tcp --region jp 25565` at the top and `taskkill /f /t /im ngrok.exe` at the bottom of the execution script.
+6. At the top of the console, the address `Forwarding tcp://0.tcp.jp.ngrok.io:12345 -> localhost:25565` indicates that `0.tcp.jp.ngrok.io:12345` is the server address.
+7. Now you can connect from outside using this address.
    {% endtab %}
 
-{% tab title="Connect locally" %}
-If you are trying to connect to the server locally, you can connect using the `IPv4 address` displayed by running `cmd /k ipconfig` in the command prompt.
+{% tab title="Connecting from Local" %}
+If you are trying to connect to the server from your local machine, you can use the `IPv4 address` displayed by running `cmd /k ipconfig` in the command prompt.
 
-For example, if the output displays as follows after executing the command,
+For example, when the following is displayed after running the command,
 
 ```log
 Windows IP 구성
@@ -272,15 +272,15 @@ Windows IP 구성
 
 ```
 
-When attempting to connect to the server locally, you can connect using the `192.168.3.7` displayed in the IPv4 address here.
+You can connect to the server from your local machine by attempting to connect to the `192.168.3.7` displayed in the IPv4 address.
 
 If the server and the game are running on the same PC, you can connect using `localhost`.
 {% endtab %}
 {% endtabs %}
 
-## 7. Evolution Stage
+## 7. Development Stage
 
-If the server starts successfully and is operating correctly, it is time to customize the server.
+If you have successfully started the server and it is running correctly, it is now time to customize the server.
 
 Learn how to customize the server through the guide below.
 
@@ -290,30 +290,30 @@ Learn how to customize the server through the guide below.
 
 ***
 
-[^1]: Java Runtime Environment, Java Execution Environment.
+[^1]: Java Runtime Environment, Java execution environment.
 
-[^2]: Paper, the foundation of Plazma, is based on Spigot, which is based on the official server platform.
+[^2]: Paper, based on Plazma, is based on Spigot, which is based on the official server platform.
 
 [^3]: Windows key + R
 
 [^4]: For Linux, use `java --version` in the terminal.
 
-[^5]: JRE is one of the open-source projects, similar to Minecraft server platforms.
+[^5]: JRE is one of the open-source projects, like Minecraft server platforms, there are various types.
 
-[^6]: Generally known as **launcher**.
+[^6]: It is commonly known as a **launcher**.
 
 [^7]: Enabling "Auto-restart" will automatically restart the server. You can exit by entering `Control + C`.
 
-[^8]: It is not recommended to exceed more than half of the system.
+[^8]: It is not recommended to exceed more than half of the system's capacity.
 
-    For example, if the total system memory capacity is 8GB, it is not recommended to set it above 4GB.
+    For example, when the total system memory capacity is 8GB, it is not recommended to set it above 4GB.
 
-[^9]: End-User License Agreement, EULA. Please refer to [Minecraft website](https://www.minecraft.net/ko-kr/usage-guidelines) for more details.
+[^9]: End-User License Agreement, EULA. For more information, please check the [Minecraft website](https://www.minecraft.net/ko-kr/usage-guidelines).
 
 [^10]: Microsoft Corporation.
 
-[^11]: In South Korea, according to Article 32, Paragraph 1, Item 9 of the Act on the Promotion of the Game Industry, legal action can be taken by **Korean Microsoft Corporation**.
+[^11]: In the case of South Korea, according to Article 32, Paragraph 1, Item 9 of the Game Industry Promotion Act, legal action can be taken by **Korea Microsoft Corporation**.
 
-[^12]: Universal Plug & Play. Purpur included in Plazma communicates with the router automatically through this technology to open ports only when the server is running, eliminating the need to manually port forward.
+[^12]: Universal Plug & Play. Purpur included in Plazma automatically communicates with the router through this technology, so there is no need to directly forward ports as the server only opens ports when it is running.
 
 [^13]: If you do not have an account, sign up for Ngrok using your Google or GitHub account.
