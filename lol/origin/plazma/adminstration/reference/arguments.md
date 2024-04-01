@@ -1,295 +1,293 @@
 ---
-description: 시작 인수와 시스템 속성에 대해 알아보세요.
+description: Sturtz lurnin' abowt startin' args n' system properteez.
 ---
 
-# 🎛️ 인수와 속성
+# 🎛️ Args n' properteez
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,\
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+Startin' vars n' system properteez be Plazma runnin' [commands used](#user-content-fn-1)[^1] t' append values t',
+let Plazma change unchangeable values afta it be run.
 
-[명령어에 덧붙이는 위치에](#user-content-fn-2)[^2] 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
+Dependin' on where t' append t' commands, they be split int' **startin' args** n' **system properteez**.
 
 ***
 
-## 시스템 속성 <a href="#id-1" id="id-1"></a>
+## System properteez <a href="#id-1" id="id-1"></a>
 
-시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
+System properteez be values processed in JVM afore Plazma initializes in front o' `-jar`.
 
 {% hint style="warning" %}
 
-### 시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!
+### Changin' system properteez can alter Plazma n' JVM functionin', n' 't can 'ave a big impact on games!
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+If ye don' rightly know wha' each system propertee be doin', **NEVER USE IT!**
 {% endhint %}
 
-### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
+### Usage <a href="#id-1.1" id="id-1.1"></a>
 
-시스템 속성은 `java` 와 `-jar` 사이에 Java 명령 인수로써 입력됩니다.
+System properteez be inputted as Java command args between `java` n' `-jar`.
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,\
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+Fer example, if ye be tryin' t' apply `Plazma.dummyProperty` system propertee,\
+ye input `37` as next value, n' Plazma initializes.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 ```
 
-`-D`는 해당 인수가 JVM에 내장되지 않고 Plazma에 추가된 전용 인수임을 나타내며,
+`-D` indicates the arg be fer Plazma n' not built int' JVM,
 
-속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정됩니다.](#user-content-fn-3)[^3]
+If no value be inputted, value be fixed [`true`.](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
 
-### Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.
+### Paperweight line o' server platforms 'ave `.` in propertee names t' differentiate system properteez per platform.
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
-{% endhint %}
+In some terminals like Windows Powershell, they may not allow these args, so ye need t' add `"` at both ends.
 
-### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
+### All system properteez <a href="#id-1.2" id="id-1.2"></a>
 
 #### `convertLegacySigns`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-사용 중지된 표지판 포맷을 업데이트 합니다.
+Updatez deprecated sign formats.
 
 #### `debug.entities`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-엔티티 정보 관련 디버그 로그를 활성화 합니다.
+Enablez entity info debug logs.
 
 #### `debug.rewriteForIDE`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-IDE에서 디버그 정보를 올바르게 불러올 수 있도록 NMS 리비전을 비활성화 하고,\
-내부 버전 정보를 자동으로 리맵합니다.
+Disablez NMS revision t' correctly load debug info in IDE, n' automatically remaps internal version info.
 
 #### `disable.watchdog`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
+Disablez Spigot's Watchdog warnin' system.
 
 #### `letMeReload`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-`/reload` 명령어의 재확인 메세지를 비활성화 합니다.
+Disablez reconfirmation message o' `/reload` command.
 
 {% hint style="danger" %}
 
-### `/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.
+### `/reload` command be very unstable, so any issues occurrin' after `/reload` be yer responsibility.
 
-플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
+If ye be a plugin developer n' need t' update plugins, use hotswap instead o' `/reload`.
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-표준 입출력 체계를 사용하는 플러그인을 비활성화 합니다.
+Disablez plugins usin' standard input-output system.
 
 #### `net.kyori.adventure.text.warnWhenLegacyFormattingDetected` <a href="#warnwhenlegacyformattingdetected" id="warnwhenlegacyformattingdetected"></a>
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-채팅 컴포넌트에서 사용 중단된 포맷이 감지되면 경고합니다.
+Warns when discontinued format be detected in chat component.
 
 #### `Paper.bypassHostCheck`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-플레이어가 서버에 접속할 때 서버의 패턴 일치 검증을 비활성화 합니다.
+Disablez server's pattern match verification when player connects.
 
 #### `Paper.debugDynamicMissingKeys`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합니다.
+Enablez debug logs fer missin' keys in NBT objects.
 
 #### `Paper.debugInvalidSkullProfiles`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-잘못된 프로필 정보를 가진 머리 블록의 디버그 로그를 활성화 합니다.
+Enablez debug logs fer head blocks with invalid profiles.
 
-이는 월드 내 모든 잘못된 머리 블록을 위치와 함께 로그합니다.
+This logs all invalid head blocks in world with their locations.
 
 #### `Paper.disableChannelLimit`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
+Disablez limit o' 128 plugin channels per player.[^5]
 
 #### `Paper.disableClassPrioritization`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-플러그인 클래스 우선 순위 체계를 비활성화 합니다.
+Disablez plugin class prioritization system.
 
-플러그인 셰이드에서 문제가 발생한 경우 유용합니다.
+Useful when issues occur in plugin shade.
 
 #### `Paper.disableFlushConsolidate`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-Netty flush consolidation 체계를 비활성화 합니다.
+Disablez Netty flush consolidation system.
 
 #### `Paper.excessiveTELimit`
 
-- **형태**: `Integer`
-- **기본값**: `750`
+- **Type**: `Integer`
+- **Default**: `750`
 
-엔티티가 설정된 값보다 많으면 다중 패킷으로 분할하여 전송합니다.
+If entities exceed set value, they be split into multiple packets fer transmission.
 
 #### `Paper.filterThreshold`
 
-- **형태**: `Integer`
-- **기본값**: `8192`
+- **Type**: `Integer`
+- **Default**: `8192`
 
-서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
+Sets size o' largest packet server can receive at once.
 
 #### `Paper.ignoreJavaVersion`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-Java 버전 확인을 비활성화 합니다.
+Disables Java version verification.
 
 {% hint style="danger" %}
 
-### 이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!
+### This allows JVM t' attempt access t' non-existent code!
 
-월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
+Worlds n' overall files can be permanently damaged, n' game mechanics can break down.
 
-이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
+Any issues caused by this be yer responsibility, n' Plamza don't provide any support fer it.
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **형태**: `Integer`
-- **기본값**: `64`
+- **Type**: `Integer`
+- **Default**: `64`
 
-플러그인 채널[^6] 이름의 제한을 설정합니다.
+Sets limit on plugin channel[^6] names.
 
 #### `Paper.maxSignLength`
 
-- **형태**: `Integer`
-- **기본값**: `80`
+- **Type**: `Integer`
+- **Default**: `80`
 
-표지판의 한 줄에 입력 가능한 글자의 최대 길이를 설정합니다.
+Sets max length o' characters that can be entered on one line o' sign.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **형태**: `Integer`
-- **기본값**: `(월드 버전) + 1`
+- **Type**: `Integer`
+- **Default**: `(world version) + 1`
 
-먼저 초기화할 월드 업데이트 정보의 버전을 설정합니다.
+Sets version o' initial world update info t' initialize.
 
-대량의 청크를 업데이트 해야 하는 경우 유용하지만, 그 외에 경우 사용되지 않습니다.
+Useful when large chunk updates be needed, but not used otherwise.
 
 #### `Paper.parseYamlCommentsByDefault`
 
-- **형태**: `Boolean`
-- **기본값**: `True`
+- **Type**: `Boolean`
+- **Default**: `True`
 
-YAML 파일의 주석의 처리를 활성화 합니다.
+Enables processin' o' comments in YAML files.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **형태**: `Integer`
-- **기본값**: `30`
+- **Type**: `Integer`
+- **Default**: `30`
 
-플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
+If player doesn't receive any data fer inputted time (seconds), they be kicked.
 
-일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+Normally, game[^7] keeps sendin' [heartbeat signal](#user-content-fn-8)[^8] t' server, so they don't get kicked, but if game stops respondin', server assumes crash n' kicks player without further processin'.
 
 #### `Paper.skipServerPropertiesComments`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-서버 속성의 주석을 무시합니다.
+Ignores comments in server properties.
 
 #### `Paper.debug-sync-loads`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-동기 청크 작성의 디버그 로그를 활성화 합니다.
+Enables debug logs fer synchronized chunk writes.
 
 #### `Paper.enable-sync-chunk-writes`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성화 합니다.
+Enables Minecraft's [default chunk writing system](#user-content-fn-10)[^10].
 
-이는 각 청크를 저장하는 것을 순서대로 진행하므로, 굉장한 성능 저하를 유발합니다.
+This writes each chunk sequentially, causin' significant performance degradation.
 
 #### `Paper.explicit-flush`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-네트워크 채널의 Explicit Flushing을 활성화 합니다.
+Enables Explicit Flushing o' network channels.
 
 #### `Paper.strict-thread-checks`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-메인 스레드에서 발생하지 않은 오류를 항상 로그합니다.
+Always logs errors not occurin' in main thread.
 
 #### `Paper.tickList-warn-on-excessive-delay`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-예약된 작업이 과도한 대기 시간을 가질 경우 경고를 출력합니다.
+Outputs warnin' if scheduled task has excessive wait time.
 
 #### `Paperclip.patchOnly`
 
-- **형태**: `Boolean`
-- **기본값**: `False`
+- **Type**: `Boolean`
+- **Default**: `False`
 
-기본 제공되는 실행 파일을 사용하는 경우, 서버를 시작하지 않고 패치만 적용합니다.
+If usin' default provided executin' file, only apply patch without startin' server.
 
 #### `Plazma.aggressiveOptimize`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Type**: `Boolean`
+- **Default**: `false`
 
 {% hint style="warning" %}
 
-### 해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
+### This property be movin' t' startin' args after 1.20.5.
 
 {% endhint %}
 
-처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
+Applies stricter initial configuration optimization durin' first start.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 일부 기믹을 차단하거나 게임 플레이에 큰 영향을 줄 수 있습니다.
+HAI WEN ACTIVAYT, SERVER GETS FASTER AN SAFER, BUT MAY BLOCK SUM MECHANICS OR HAS BIG IMPACT ON GAMEPLAY.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Type**: `Boolean`
+- **Default**: `false`
 
-Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
+PLAZMA WEN INITIALIZES, HALTS WARNING MESSAGE[^11].
 
 ### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
 
@@ -297,8 +295,8 @@ Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `timings.bypassMax`
 
-- **형태**: `Boolean`
-- **기본값**: `false`
+- **Type**: `Boolean`
+- **Default**: `false`
 - **사용 중단됨**: Timings가 Plazma에서 전면 제거된 후 부터
 
 Aikar의 Timings API에 전송될 수 있는 값의 최대를 초과해도 되는지 결정합니다.
