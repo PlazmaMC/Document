@@ -1,5 +1,5 @@
 ---
-description: paper-global.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Pelajari apa yang dimaksud dengan setiap node dalam paper-global.yml.
 ---
 
-# 🛩️ Paper (전역 구성)
+# 🛩️ Kertas (Konfigurasi Global)
