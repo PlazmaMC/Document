@@ -1,5 +1,5 @@
 ---
-description: paper-global.yml의 각 노드가 무엇을 의미하는지 알아보세요.
+description: Vaadake, mida iga paper-global.yml sõlm tähendab.
 ---
 
-# 🛩️ Paper (전역 구성)
+# 🛩️ Paber (globaalne seadistus)
