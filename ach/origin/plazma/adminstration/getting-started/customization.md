@@ -1,5 +1,5 @@
 ---
-description: 서버를 사용자화하는 방법에 대해 알아보세요.
+description: Kube me nino ma kwo iye i kompyuta.
 ---
 
-# 🎨 사용자화
+# 🎨 I kompyuta
