@@ -73,11 +73,11 @@ Error: A fatal exception has occurred. Program will exit.
 2. 다운로드된 설치 마법사를 실행하고, `다음`을 클릭합니다.
 3. **창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화 한 후,** `다음`을 클릭합니다.
 4. `설치`를 눌러 JRE 설치를 `완료`합니다.
-   {% endtab %}
+   {% پایان تب %}
 
 {% tab title="macOS" %}
 [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
-{% endtab %}
+{% پایان تب %}
 
 {% tab title="Debian/Ubuntu" %}
 먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
@@ -96,7 +96,7 @@ echo "deb [signed-by=/usr/share/keyrings/azul.gpg] https://repos.azul.com/zulu/d
 sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-headless
 ```
 
-{% endtab %}
+{% پایان تب %}
 
 {% tab title="Fedora/RHEL" %}
 다음 명령어를 입력하여 JRE를 설치할 수 있습니다.
@@ -107,8 +107,8 @@ sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
 sudo dnf install -y zulu21-ca-jre-headless
 ```
 
-{% endtab %}
-{% endtabs %}
+{% پایان تب %}
+{% پایان تب‌ها %}
 
 ***
 
@@ -225,7 +225,7 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
 
 서버에 접속할 때 사용되는 주소는 [여기에서](https://ip.pe.kr/) 확인할 수 있습니다.
-{% endtab %}
+{% پایان تب %}
 
 {% tab title="UPnP로 포트포워딩 시도" %}
 서버 폴더의 `purpur.yml`에서, `network.upnp-port-forwarding`을 `true`로 활성화합니다.
@@ -242,7 +242,7 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 | `Service is unavailable`        | 라우터가 UPnP를 지원하지 않음.  |
 
 서버가 종료되면 Plazma가 자동으로 포트를 닫습니다.
-{% endtab %}
+{% پایان تب %}
 
 {% tab title="Ngrok으로 임시 주소 생성" %}
 Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들과 함께 플레이하기에 유용합니다.
@@ -254,7 +254,7 @@ Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들�
 5. 실행 스크립트 가장 상단에 `start /b ngrok tcp --region jp 25565`, 최하단에 `taskkill /f /t /im ngrok.exe`를 추가합니다.
 6. 콘솔 최상단에 표시된 `Forwarding tcp://0.tcp.jp.ngrok.io:12345 -> localhost:25565` 에서, `0.tcp.jp.ngrok.io:12345`가 서버의 주소가 됩니다.
 7. 이제 외부에서 해당 주소를 통해 접속할 수 있습니다.
-   {% endtab %}
+   {% پایان تب %}
 
 {% tab title="로컬에서 접속" %}
 로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 `cmd /k ipconfig`를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
@@ -276,8 +276,8 @@ Windows IP 구성
 여기에서 IPv4 주소에 표시된 `192.168.3.7`로 접속을 시도하면 로컬에서 서버에 접속할 수 있습니다.
 
 서버와 게임이 같은 PC에서 실행되는 경우, `localhost`로 접속할 수 있습니다.
-{% endtab %}
-{% endtabs %}
+{% پایان تب %}
+{% پایان تب‌ها %}
 
 ## 7. 발전 단계
 
@@ -309,12 +309,12 @@ Windows IP 구성
 
     예를 들어, 시스템 전체 메모리 용량이 8GB라고 했을 때, 4GB 이상으로 설정하는것은 권장되지 않습니다.
 
-[^9]: End-User License Agreement, 최종 사용자 사용권 계약. 자세한 내용은 [Minecraft 홈페이지](https://www.minecraft.net/ko-kr/usage-guidelines)를 확인해 주세요.
+[^9]: End-User License Agreement, 최종 사용자 사용권 계약. 자세한 내용은 [صفحه اصلی Minecraft](https://www.minecraft.net/ko-kr/usage-guidelines) را بررسی کنید.
 
-[^10]: Microsoft Corporation.
+[^10]: شرکت مایکروسافت.
 
-[^11]: 대한민국의 경우 게임산업진흥에 관한 법률 제32조 제1항 제9호에 따라 **한국 마이크로스프트 주식회사**에서 법적 고소를 할 수 있습니다.
+[^11]: با توجه به ماده 32 تبصره 1 بند 9 قانون ترویج صنعت بازی کره جنوبی، شرکت **مایکروسافت کره** می‌تواند شکایت قانونی کند.
 
-[^12]: Universal Plug & Play. Plazma에 포함된 Purpur가 이 기술을 통해 자동으로 라우터와 통신하여 서버가 실행 중일 때만 포트를 열기 때문에, 포트 포워딩을 직접 할 필요가 없습니다.
+[^12]: پلاگین و پخش یونیورسال. با توجه به اینکه Purpur که در Plazma شامل می‌شود، از طریق این تکنولوژی به صورت خودکار با روتر ارتباط برقرار می‌کند و تنها زمانی که سرور در حال اجرا است، پورت‌ها را باز می‌کند، بنابراین نیازی به انجام پورت فورواردینگ مستقیم نیست.
 
-[^13]: 계정이 없는 경우 Google 또는 GitHub 계정을 통해 Ngrok에 가입합니다.
+[^13]: در صورت عدم وجود حساب کاربری، از طریق حساب Google یا GitHub در Ngrok ثبت‌نام کنید.
