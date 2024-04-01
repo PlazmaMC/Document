@@ -317,4 +317,4 @@ Zistite, ako prispôsobiť server pomocou nasledujúceho sprievodcu.
 
 [^12]: Universal Plug & Play. Purpur zahrnutý v Plazme komunikuje s routrom automaticky cez túto technológiu a otvára porty len v prípade, že je server spustený, preto nie je potrebné manuálne nastavovať port forwarding.
 
-[^13]: 계정이 없는 경우 Google 또는 GitHub 계정을 통해 Ngrok에 가입합니다.
+[^13]: Ak nemáte účet, zaregistrujte sa na Ngrok cez účet Google alebo GitHub.
