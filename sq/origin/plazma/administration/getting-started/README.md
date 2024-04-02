@@ -44,8 +44,8 @@ Nëse nuk shfaqet si më poshtë ose si më poshtë, atëherë JRE nuk ekziston 
 {% code title="JRE nuk është i instaluar" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' nuk është një komandë, program i ekzekutueshëm i brendshëm ose i jashtëm, ose
+skedar i shkëputur.
 ```
 
 {% endcode %}
@@ -277,14 +277,14 @@ Nëse dëshironi të lidheni me serverin nga lokaliteti, mund të lidheni duke e
 Për shembull, pas ekzekutimit të komandës, nëse shfaqet si më poshtë,
 
 ```log
-Windows IP 구성
+Konfigurimi i IP në Windows
 
-이더넷 어댑터 이더넷:
+Adapteri Ethernet Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Sufiksi DNS i lidhur. . . . :
+    Adresa IPv4. . . . . . . . . : 192.168.3.7
+    Maskë nënrede . . . . . . . : 255.255.255.0
+    Gateway-i parazgjedhur . . . . . . : 192.168.3.1
 
 ```
 
