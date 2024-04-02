@@ -4,6 +4,14 @@ description: Pokud máte nějaké dotazy, obraťte se prosím na Discord nebo pr
 
 # 🏠 Vítejte na portálu dokumentace
 
+{% hint style="info" %}
+
+**Dokumentace Plazma je v současné době přeložena strojově.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) zkontrolujte překlad dokumentace na [https://translate.plazmamc.org/](https://translate.plazmamc.org/) a zkuste dokumentaci vylepšit.
+
+{% endhint %}
+
 ### Máte nějaké otázky týkající se používání Plazmy?
 
 {% content-ref url="plazma/" %}
