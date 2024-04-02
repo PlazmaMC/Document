@@ -12,7 +12,7 @@ description: إذا كان لديك أي أسئلة، يرجى طرحها عبر
 
 {% endhint %}
 
-### هل لديك استفسار أثناء استخدام Plazma؟
+### هل واجهت مشكلة أثناء استخدام Plazma؟
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
