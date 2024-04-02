@@ -10,30 +10,31 @@ Bine ați venit la ghidul de utilizare al Plazma!
 
 {% hint style="info" %}
 
-### Nu puteți rezolva problema prin intermediul ghidului de utilizare?
+**설명서를 통해 문제를 해결할 수 없나요?**
 
-Întrebați comunitatea prin intermediul [serverului oficial de Discord](https://discord.gg/MmfC52K8A8) sau al [problemelor de pe GitHub](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+
 {% endhint %}
 
-### Despre Plazma
+### About Plazma
 
-> Aflați mai multe despre platforma de servere Plazma.
+> Plazma는 어떤 서버 플랫폼인지 알아보세요.
 
 {% content-ref url="about/" %}
-[despre](about/)
+[about](about/)
 {% endcontent-ref %}
 
-### Pentru Administratori
+### For Administrators
 
-> Creează-ți propriul server folosind Plazma.
+> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
 
-{% content-ref url="adminstration/" %}
-[administrație](adminstration/)
+{% content-ref url="administration/" %}
+[administration](administration/)
 {% endcontent-ref %}
 
-### Pentru Dezvoltatori
+### For Developers
 
-> Dezvoltă proiecte terțe folosind Plazma.
+> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
