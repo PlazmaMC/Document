@@ -17,9 +17,9 @@ Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해�
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Okiketo ki Plazma me JVM ma kicoyo atiru, onongo i giketo ma kicoyo!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Ocako ki okiketo ki Plazma ma obedo ni ma yee, **kare dok itye!**
 
 {% endhint %}
 
@@ -40,9 +40,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Paperweight me kare me server platform ma okiketo ki kare ma kicoyo, ki yee `.` ki nyingi ki okiketo.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Windows Powershell me medo tye ki tukwan me terminal wange, onongo itye ki ikeno ki ikinnye ki `"` [tii.](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -86,7 +86,7 @@ Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**`/reload` kwena ki bot bot ma itye, i /reload dong i yubu pi server, i dong i yubu me lubanga me user.**
 
 플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
 
@@ -175,7 +175,7 @@ Java 버전 확인을 비활성화 합니다.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**En aye JVM ma kicoyo me code ma pe i yubu!**
 
 월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
 
@@ -280,7 +280,7 @@ Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성�
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Okiketo ki i 1.20.5 ma i gengo ki i yee.**
 
 {% endhint %}
 
@@ -406,7 +406,7 @@ Kicel ki yam mek Mojang authentication server tye ka cok
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**En aye ikinnye ma i 1.19.4**
 
 {% endhint %}
 
