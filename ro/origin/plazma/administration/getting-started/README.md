@@ -44,8 +44,8 @@ Dacă nu obțineți acest rezultat sau obțineți unul similar cu cel de mai jos
 {% code title="JRE nu este instalat" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' nu este o comandă internă sau externă, un program executabil sau
+un fișier batch.
 ```
 
 {% endcode %}
@@ -53,9 +53,9 @@ Dacă nu obțineți acest rezultat sau obțineți unul similar cu cel de mai jos
 {% code title="JRE este prea vechi" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+Opțiune neidentificată: --version
+Eroare: Nu s-a putut crea Mașina Virtuală Java.
+Eroare: A apărut o excepție fatală. Programul se va închide.
 ```
 
 {% endcode %}
