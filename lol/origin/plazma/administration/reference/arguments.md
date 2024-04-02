@@ -19,7 +19,7 @@ System properteez be values processed in JVM afore Plazma initializes in front o
 
 **시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **NO TOUCHY!**
 
 {% endhint %}
 
