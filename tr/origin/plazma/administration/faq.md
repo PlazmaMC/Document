@@ -12,7 +12,7 @@ description: Sıkça Sorulan Soruları İnceleyin.
 
 {% endhint %}
 
-### Mesaj görüntülenirken çalışmıyor
+### Plazma başlatılamıyor
 
 Eğer konsolda `no main manifest attribute, in plazma-(version).jar` şeklinde bir çıktı alıyorsanız, indirdiğiniz dosya geliştirme amaçlı bir API dosyasıdır, GitHub sayfasından **Reobf Paperweight**'i indirmeniz gerekmektedir.
 
