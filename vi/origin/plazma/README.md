@@ -10,31 +10,31 @@ Chào mừng bạn đến với Tài liệu Sử dụng Plazma!
 
 {% hint style="info" %}
 
-**설명서를 통해 문제를 해결할 수 없나요?**
+**Không thể giải quyết vấn đề qua hướng dẫn?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+[Máy chủ Discord chính thức](https://discord.gg/MmfC52K8A8) hoặc [Vấn đề GitHub](https://github.com/PlazmaMC/PlazmaBukkit/issues) để đặt câu hỏi trong cộng đồng!
 
 {% endhint %}
 
-### About Plazma
+### Về Plazma
 
-> Plazma는 어떤 서버 플랫폼인지 알아보세요.
+> Tìm hiểu về Plazma là gì.
 
 {% content-ref url="about/" %}
 [about](about/)
 {% endcontent-ref %}
 
-### For Administrators
+### Dành cho Quản trị viên
 
-> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+> Tạo máy chủ riêng của bạn bằng cách sử dụng Plazma.
 
 {% content-ref url="administration/" %}
 [administration](administration/)
 {% endcontent-ref %}
 
-### For Developers
+### Dành cho Nhà phát triển
 
-> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
+> Phát triển dự án bên thứ ba bằng cách sử dụng Plazma.
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
