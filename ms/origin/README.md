@@ -4,6 +4,14 @@ description: Jika anda mempunyai sebarang pertanyaan, sila bertanya melalui Disc
 
 # 🏠 Selamat datang ke Portal Dokumen
 
+{% hint style="info" %}
+
+**Dokumen Plazma sedang diterjemahkan oleh mesin pada masa ini.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) di sini untuk merujuk semasa menerjemahkan dokumen dan memperbaiki dokumen.
+
+{% endhint %}
+
 ### Jika anda mempunyai sebarang pertanyaan semasa menggunakan Plazma,
 
 {% content-ref url="plazma/" %}
