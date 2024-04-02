@@ -12,7 +12,7 @@ description: אם יש לך שאלות, אנא שאל ב-Discord או ב-GitHub 
 
 {% endhint %}
 
-### יש לך שאלות בזמן השימוש ב-Plazma?
+### אם יש בעיה בשימוש ב-Plazma, מה לעשות?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
