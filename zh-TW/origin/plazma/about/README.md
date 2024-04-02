@@ -1,5 +1,5 @@
 ---
-description: Plazma는 어떤 서버 플랫폼인지 알아보세요.
+description: 了解 Plazma 是什麼服務器平台。
 ---
 
 # ❓ 什麼是Plazma?
