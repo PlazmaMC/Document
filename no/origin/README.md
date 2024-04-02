@@ -4,6 +4,14 @@ description: Hvis du har spørsmål, vennligst spør gjennom Discord eller GitHu
 
 # 🏠 Velkommen til Docs Portal
 
+{% hint style="info" %}
+
+**Dokumentene til Plazma er for øyeblikket maskinoversatt.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Har du spørsmål mens du bruker Plazma?
 
 {% content-ref url="plazma/" %}
