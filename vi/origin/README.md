@@ -6,9 +6,9 @@ description: Nếu có câu hỏi, vui lòng đặt câu hỏi thông qua Discor
 
 {% hint style="info" %}
 
-**Plazma의 문서는 현재 기계 번역된 상태입니다.**
+**Tài liệu của Plazma hiện đang được dịch bằng máy.**
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) từ trang web để cải thiện tài liệu dựa trên dịch vụ tài liệu.
 
 {% endhint %}
 
