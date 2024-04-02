@@ -29,7 +29,7 @@ JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-c
 
 다음과 같이 출력되면 [2 단계](setup.md#id-2)로 건너뜁니다.
 
-{% code title="올바른 출력" lineNumbers="true" %}
+{% code title="OH RITE OUTPUT" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -41,7 +41,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](setup.md#id-1.2)를 수행해야 합니다.
 
-{% code title="JRE가 설치되어 있지 않음" lineNumbers="true" %}
+{% code title="NO JRE INSTALLED" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
@@ -50,7 +50,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-{% code title="JRE가 너무 오래됨" lineNumbers="true" %}
+{% code title="JRE TOO OLD" lineNumbers="true" %}
 
 ```log
 Unrecognized option: --version
@@ -79,13 +79,13 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) WHAR **JDK 21** be `.dmg` formz, DOWNLOADZ DA WIZARD N RUN FER INSTALLIN JRE.
 
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
 
-먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
+FURST, RUN DIS COMMAND IN TERMINAL FER ADDIN Azul Zulu REPO TO APT.
 
 ```bash
 sudo apt install gnupg ca-certificates curl --no-install-recommends --no-install-suggests -y
@@ -105,7 +105,7 @@ sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-
 
 {% tab title="Fedora/RHEL" %}
 
-다음 명령어를 입력하여 JRE를 설치할 수 있습니다.
+INPUT DIS COMMAND TO INSTALL JRE.
 
 ```bash
 sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
@@ -124,7 +124,7 @@ Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니�
 
 {% hint style="warning" %}
 
-**대부분의 경우에는 `Reobf Paperclip`을 사용합니다.**
+**MOST TIMEZ USE `Reobf Paperclip`.**
 
 아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
 일반 사용자라면 [3 단계](setup.md#id-3)로 뛰어 넘겨도 문제되지 않습니다.
@@ -173,13 +173,13 @@ Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령�
 
 {% hint style="warning" %}
 
-**폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.**
+**FOLDER NAMEZ NO SPACEZ, ENGLISH ONLY.**
 
 그렇지 않으면 Plazma 또는 JRE가 올바르게 작동하지 않을 수 있습니다.
 
 {% endhint %}
 
-이제 시작 스크립트를 실행합니다. Windows의 경우, <mark style="background-color:orange;">방화벽 허용 선택 창에서, 반드시 **허용**을 선택</mark>해야 합니다.
+이제 시작 스크립트를 실행합니다. IN WINDOWS, <mark style="background-color:orange;">FIREWALL ALLOW CHOICE BOX, PICK **ALLOW**</mark>.
 
 ***
 
@@ -203,7 +203,7 @@ Windows의 경우, 방화벽은 [3 단계](setup.md#id-3)에서 허용했으므�
 
 {% hint style="info" %}
 
-**해당 가이드에서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**DIS GUIDE ASSUMES WINDOWS OS N [UPnP](#user-content-fn-12)[^12]-ENABLED ROUTER.**
 
 라우터가 UPnP를 지원하지 않는 경우, 라우터 별로 패널이 다르므로, 직접 자료를 검색해야 합니다.
 
@@ -212,7 +212,7 @@ Windows의 경우, 방화벽은 [3 단계](setup.md#id-3)에서 허용했으므�
 
 {% hint style="warning" %}
 
-**Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.**
+**FOR UNIXY OS LIKE LINUX OR macOS, FIREWALL CONFIG VARIES, RESEARCH YERSELF.**
 
 {% endhint %}
 
@@ -230,15 +230,15 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 {% tabs %}
 
-{% tab title="외부에서 접속" %}
+{% tab title="OUTSIDE ACCESS" %}
 
-포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
+NO NEED PORT FORWARDIN, OR ALREADY DONE, NOW YA CAN CONNECT TO SERVER.
 
 서버에 접속할 때 사용되는 주소는 [여기에서](https://ip.pe.kr/) 확인할 수 있습니다.
 
 {% endtab %}
 
-{% tab title="UPnP로 포트포워딩 시도" %}
+{% tab title="UPnPLOL로 포트포워딩 시도" %}
 
 서버 폴더의 `purpur.yml`에서, `network.upnp-port-forwarding`을 `true`로 활성화합니다.
 
