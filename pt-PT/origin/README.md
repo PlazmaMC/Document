@@ -12,7 +12,7 @@ description: Se tiver alguma dúvida, por favor pergunte no Discord ou no GitHub
 
 {% endhint %}
 
-### Se surgir alguma dúvida durante o uso do Plazma?
+### Se ocorrer algum problema durante a utilização do Plazma?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
