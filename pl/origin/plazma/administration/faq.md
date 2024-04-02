@@ -12,7 +12,7 @@ Zadaj pytanie społeczności na [oficjalnym serwerze Discorda](https://discord.g
 
 {% endhint %}
 
-### Wyświetla się komunikat, ale nie wykonuje się
+### Plazma nie uruchamia się
 
 Jeśli w konsoli pojawi się komunikat `no main manifest attribute, in plazma-(version).jar`,\
 to pobrany plik jest plikiem API dla deweloperów, należy pobrać **Reobf Paperweight** ze strony GitHub.
