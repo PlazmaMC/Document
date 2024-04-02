@@ -17,9 +17,9 @@ description: 了解启动参数和系统属性。
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**修改系统属性可能会改变Plazma和JVM的运行方式，并可能对游戏产生重大影响！**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+如果不确定每个系统属性的作用，请**绝对不要使用！**
 
 {% endhint %}
 
@@ -40,9 +40,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Paperweight系列服务器平台为了区分每个平台的系统属性，在属性名称中包含`.`。**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+在Windows Powershell等某些终端中，可能不允许这些参数，因此在参数两端应该[添加`"`](#user-content-fn-4)[^4]。
 
 {% endhint %}
 
@@ -86,7 +86,7 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**`/reload`命令非常不稳定，因此使用`/reload`后导致的服务器内的所有问题将由用户自行承担。**
 
 如果您是插件开发者并需要更新插件，请使用热交换而不是`/reload`。
 
@@ -175,7 +175,7 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**这样做可能会导致JVM尝试访问不存在的代码！**
 
 可能会永久损坏世界和其他文件，并使游戏机制崩溃。
 
@@ -281,7 +281,7 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**该属性将在1.20.5之后的启动参数中移动。**
 
 {% endhint %}
 
@@ -407,7 +407,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**该参数已在1.19.4之后停止使用**
 
 {% endhint %}
 
