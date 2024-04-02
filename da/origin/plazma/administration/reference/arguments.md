@@ -16,9 +16,9 @@ Systemegenskaber, der indtastes foran `-jar`, behandles af JVM før Plazma initi
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Når du ændrer systemegenskaber, kan Plazma og JVM's adfærd ændres, hvilket kan have stor indflydelse på spillet!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Hvis du ikke er sikker på, hvad hver systemegenskab gør, **må du under ingen omstændigheder bruge det!**
 
 {% endhint %}
 
@@ -38,9 +38,9 @@ hvis der ikke angives nogen værdi, vil værdien være [`true` som standard.](#u
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Paperweight-serverplatformen af hver type har punktum i egenskabsnavnet for at adskille systemegenskaberne fra hinanden.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+I nogle terminaler som f.eks. Windows Powershell, kan disse argumenter muligvis ikke accepteres, så du skal tilføje `"` i begge ender af argumentet [se her](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -83,7 +83,7 @@ Deaktiverer bekræftelsesbeskeden for `/reload`-kommandoen.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**`/reload`-kommandoen er meget ustabil, så alle problemer, der opstår efter brug af `/reload`, er brugerens eget ansvar.**
 
 Hvis du er pluginudvikler og skal opdatere et plugin, skal du bruge hotswap i stedet for `/reload`.
 
@@ -172,7 +172,7 @@ Deaktiverer Java-versionkontrol.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Dette kan muligvis forsøge at tilgå kode, der ikke eksisterer i JVM!**
 
 Dette kan permanent beskadige filer som verdener og ødelægge spillets mekanik.
 
@@ -277,7 +277,7 @@ Anvend kun patch uden at starte serveren, når du bruger den medfølgende eksekv
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Denne egenskab vil blive flyttet til startargumenter efter 1.20.5.**
 
 {% endhint %}
 
@@ -403,7 +403,7 @@ Vælg om spillerne skal valideres mod Mojangs godkendelsesserver.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Dette argument er blevet stoppet med at blive brugt efter 1.19.4**
 
 {% endhint %}
 
