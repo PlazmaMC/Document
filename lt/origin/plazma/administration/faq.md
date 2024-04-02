@@ -12,7 +12,7 @@ Užduokite klausimą bendruomenei naudodami [oficialų Discord serverį](https:/
 
 {% endhint %}
 
-### Įvyksta pranešimas, bet vykdymas nevyksta
+### Plazma neprisijungia
 
 Jei konsolėje rodoma `no main manifest attribute, in plazma-(version).jar`,\
 parsisiųstas failas yra kūrimo API failas, todėl iš GitHub puslapio turite parsisiųsti **Reobf Paperweight**.
