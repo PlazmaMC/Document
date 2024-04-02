@@ -50,7 +50,7 @@
 
 - [⚡ Volt Arendusjuhend](volt/README.md)
 
-## mitmesugust
+## Mitmesugust
 
 - [🧾 Mitmesugust](miscellaneous/README.md)
   - [⬇️ Kõik Allalaadimised](plazma/about/downloads-all.md)
