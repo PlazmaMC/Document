@@ -12,7 +12,7 @@ description: Jei turite klausimų, prašome juos užduoti per Discord arba GitHu
 
 {% endhint %}
 
-### Jei kyla klausimų naudojant Plazmą,
+### Jei kyla problemų naudojant Plazmą, ką daryti?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
