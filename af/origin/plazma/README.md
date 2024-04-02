@@ -10,31 +10,31 @@ Welkom by die Plazma-gebruiksgids!
 
 {% hint style="info" %}
 
-**설명서를 통해 문제를 해결할 수 없나요?**
+**Kan jy nie die probleem oplos deur die handleiding te raadpleeg nie?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+Raadpleeg die [amptelike Discord-bedienaar](https://discord.gg/MmfC52K8A8) of [GitHub-kwessies](https://github.com/PlazmaMC/PlazmaBukkit/issues) om vrae aan die gemeenskap te vra!
 
 {% endhint %}
 
-### About Plazma
+### Oor Plazma
 
-> Plazma는 어떤 서버 플랫폼인지 알아보세요.
+> Leer meer oor wat Plazma se bedienerplatform behels.
 
 {% content-ref url="about/" %}
 [about](about/)
 {% endcontent-ref %}
 
-### For Administrators
+### Vir Administrateurs
 
-> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+> Skep jou eie bediener met behulp van Plazma.
 
-{% content-ref url="administration/" %}
-[administration](administration/)
+{% content-ref url="administrasie/" %}
+[administrasie](administrasie/)
 {% endcontent-ref %}
 
-### For Developers
+### Vir Ontwikkelaars
 
-> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
+> Ontwikkel derdepartyprojekte met behulp van Plazma.
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
