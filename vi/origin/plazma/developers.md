@@ -1,5 +1,5 @@
 ---
-description: Phát triển dự án bên thứ ba bằng cách sử dụng Plazma.
+description: Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
 ---
 
 # ⚙️ Hướng dẫn cho nhà phát triển
