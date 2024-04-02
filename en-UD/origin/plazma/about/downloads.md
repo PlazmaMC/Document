@@ -14,11 +14,15 @@ description: ¡ɘɿɒɘ ɯoɹɒl ɐʇɹo Plazma ɿɒɿɒʇnɘɿɒɿɘ ɿɒɘɿɒ
 
 {% hint style="info" %}
 
-.snoitalepme siht noitseuqer tseretni ruoy fo sserp ot sserts a si siht :snoitseuqer ruoy ot sserts a si siht
+**아래 다운로드는 일반 사용자용 실행 파일입니다.**
 
-.묘차에요로피, 녀형 다인파 의파일 이요필하다면, 아래 섹션을 참고하세요.
+개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
 {% endhint %}
+
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
 
 <table data-view="cards">
     <thead>
@@ -50,16 +54,3 @@ description: ¡ɘɿɒɘ ɯoɹɒl ɐʇɹo Plazma ɿɒɿɒʇnɘɿɒɿɘ ɿɒɘɿɒ
         </tr>
     </tbody>
 </table>
-
-<details>
-<summary>뷰기체보 열로다운다</summary>
-
-|   버전   |          [1^]#1-:R[P]         |          [2^]#2-:M[P]          |         [3^]#3-:B[R]        |         [4^]#4-:B[M]         |
-| :----: | :-----------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
-| 5.02.1 |                                                               _릴리스 대기중_                                                               |                                                                _릴리스 대기중_                                                               |                                                              _릴리스 대기중_                                                              |                                                               _릴리스 대기중_                                                              |
-| 4.02.1 | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
-| 2.02.1 | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.02.1 | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
-| 4.91.1 | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [다운로드 클릭하여](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
-
-</details>
