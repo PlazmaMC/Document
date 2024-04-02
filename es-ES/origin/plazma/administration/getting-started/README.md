@@ -33,8 +33,8 @@ Si se muestra la siguiente salida, vaya al [Paso 2](setup.md#id-2).
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
-OpenJDK Runtime Environment Zulu21.32+17-CA (build 21.0.2+13-LTS)
-OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, sharing)
+Entorno de tiempo de ejecución OpenJDK Zulu21.32+17-CA (compilación 21.0.2+13-LTS)
+Servidor VM de 64 bits de OpenJDK Zulu21.32+17-CA (compilación 21.0.2+13-LTS, modo mixto, compartido)
 ```
 
 {% endcode %}
@@ -44,8 +44,7 @@ Si no se muestra como se indica anteriormente, o se muestra como se indica a con
 {% code title="JRE no está instalado" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' no es un comando interno o externo, programa ejecutable o archivo por lotes.
 ```
 
 {% endcode %}
@@ -53,9 +52,9 @@ Si no se muestra como se indica anteriormente, o se muestra como se indica a con
 {% code title="JRE está desactualizado" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+Opción no reconocida: --version
+Error: No se pudo crear la Máquina Virtual de Java.
+Error: Se ha producido una excepción fatal. El programa se cerrará.
 ```
 
 {% endcode %}
