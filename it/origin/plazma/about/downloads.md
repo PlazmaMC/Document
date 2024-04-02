@@ -14,9 +14,9 @@ description: Scarica Plazma ora e provalo personalmente.
 
 {% hint style="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**Il download qui sotto è un file eseguibile per utenti generali.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+Se sei uno sviluppatore e hai bisogno di un'altra forma di file, consulta la pagina qui sotto.
 
 {% endhint %}
 
