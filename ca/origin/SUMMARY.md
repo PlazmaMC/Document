@@ -50,7 +50,7 @@
 
 - [⚡ Guia de desenvolupament de Volt](volt/README.md)
 
-## miscel·lània
+## Miscel·lània
 
 - [🧾 Miscel·lània](miscellaneous/README.md)
   - [⬇️ Veure totes les descàrregues](plazma/about/downloads-all.md)
