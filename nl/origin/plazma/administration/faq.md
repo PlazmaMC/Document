@@ -12,7 +12,7 @@ Stel uw vragen aan de community via de [officiële Discord-server](https://disco
 
 {% endhint %}
 
-### De uitvoering mislukt met een bericht
+### Plazma start niet op
 
 Als er een bericht wordt weergegeven met `geen hoofdmanifestattribuut in plazma-(versie).jar`,\
 dan is het gedownloade bestand een ontwikkelings-API-bestand en moet u **Reobf Paperweight** downloaden vanaf de GitHub-pagina.
