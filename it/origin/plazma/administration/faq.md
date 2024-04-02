@@ -12,7 +12,7 @@ Fai domande alla comunità tramite il [server Discord ufficiale](https://discord
 
 {% endhint %}
 
-### Il messaggio viene visualizzato ma non si avvia
+### Plazma non si avvia
 
 Se compare `no main manifest attribute, in plazma-(version).jar` sulla console,\
 il file scaricato è un file API di sviluppo, è necessario scaricare **Reobf Paperweight** dalla pagina GitHub.
