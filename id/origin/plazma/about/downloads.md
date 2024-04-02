@@ -14,9 +14,9 @@ description: Segera unduh Plazma sekarang dan coba sendiri.
 
 {% hint style="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**Unduhan di bawah ini adalah file eksekusi untuk pengguna umum.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+Jika Anda seorang pengembang dan memerlukan jenis file lain, silakan lihat halaman di bawah ini.
 
 {% endhint %}
 
