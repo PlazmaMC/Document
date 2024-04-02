@@ -14,11 +14,15 @@ description: Stáhněte si Plazma hned teď a vyzkoušejte ji sami.
 
 {% hint style="info" %}
 
-Níže uvedené stahování je obvyklým typem spustitelného souboru.
+**아래 다운로드는 일반 사용자용 실행 파일입니다.**
 
-Jsem vývojář a pokud potřebujete jiný typ souboru, podívejte se do následující sekce.
+개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
 {% endhint %}
+
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
 
 <table data-view="cards">
     <thead>
@@ -50,16 +54,3 @@ Jsem vývojář a pokud potřebujete jiný typ souboru, podívejte se do násled
         </tr>
     </tbody>
 </table>
-
-<details>
-<summary>Zobrazit celý seznam ke stažení</summary>
-
-|  Verze |                           [RP](#user-content-fn-1)[^1]                           |                            [MP](#user-content-fn-2)[^2]                           |                          [RB](#user-content-fn-3)[^3]                          |                           [MB](#user-content-fn-4)[^4]                          |
-| :----: | :----------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: |
-| 1.20.5 |                                                           _Čeká na vydání_                                                           |                                                            _Čeká na vydání_                                                           |                                                          _Čeká na vydání_                                                          |                                                           _Čeká na vydání_                                                          |
-| 1.20.4 | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.20.2 | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.20.1 | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.19.4 | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [Stáhnout](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
-
-</details>
