@@ -20,7 +20,7 @@
     - [🖥️ কমান্ড](plazma/administration/reference/commands.md)
     - [🛡️ অনুমতি](plazma/administration/reference/permissions.md)
     - [🎨 কনফিগারেশন ফাইল](plazma/administration/reference/configurations/README.md)
-      - [🪨 প্রপার্টি](plazma/administration/reference/configurations/property.md)
+      - [🪨 গুণ](plazma/administration/reference/configurations/property.md)
       - [🪣 বুকিট](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 স্পিগট](plazma/administration/reference/configurations/spigot.md)
       - [🛩️ পেপার](plazma/administration/reference/configurations/paper/README.md)
@@ -50,7 +50,7 @@
 
 - [⚡ ভোল্ট উন্নয়ন গাইড](volt/README.md)
 
-## miscellaneous
+## বিবিধ
 
-- [🧾 miscellaneous](miscellaneous/README.md)
+- [🧾 বিবিধ](miscellaneous/README.md)
   - [⬇️ সম্পূর্ণ ডাউনলোড](plazma/about/downloads-all.md)
