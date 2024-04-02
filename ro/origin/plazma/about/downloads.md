@@ -14,9 +14,9 @@ description: Descărcați acum Plazma și încercați-l direct.
 
 {% hint style="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**Descărcarea de mai jos este un fișier executabil pentru utilizatorii obișnuiți.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+Dacă sunteți dezvoltator și aveți nevoie de un alt tip de fișier, consultați pagina de mai jos.
 
 {% endhint %}
 
