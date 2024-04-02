@@ -12,7 +12,7 @@ description: Pokud máte nějaké dotazy, obraťte se prosím na Discord nebo pr
 
 {% endhint %}
 
-### Máte nějaké otázky týkající se používání Plazmy?
+### Máte problémy s používáním Plazmy?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
