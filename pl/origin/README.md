@@ -4,6 +4,14 @@ description: Jeśli masz pytania, zadaj je na Discordzie lub za pośrednictwem G
 
 # 🏠 Witaj w portalu dokumentacyjnym
 
+{% hint style="info" %}
+
+**Dokumentacja Plazmy jest obecnie w stanie przetłumaczonym maszynowo.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Jeśli masz pytania dotyczące korzystania z Plazmy,
 
 {% content-ref url="plazma/" %}
