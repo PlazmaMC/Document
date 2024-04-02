@@ -50,7 +50,7 @@
 
 - [⚡ Průvodce vývojem Volta](volt/README.md)
 
-## miscellaneous
+## Různé
 
 - [🧾 Různé](miscellaneous/README.md)
   - [⬇️ Stáhnout vše](plazma/about/downloads-all.md)
