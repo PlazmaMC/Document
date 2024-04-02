@@ -50,7 +50,7 @@
 
 - [⚡ Volt Ontwikkelings Gids](volt/README.md)
 
-## overig
+## Diversen
 
-- [🧾 Overig](miscellaneous/README.md)
+- [🧾 Diversen](miscellaneous/README.md)
   - [⬇️ Download alles](plazma/about/downloads-all.md)
