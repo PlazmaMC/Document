@@ -10,9 +10,10 @@ description: "Plazma е отворена платформа за сървъри 
 
 {% hint style="info" %}
 
-### Не можете ли да решите проблема си чрез документацията?
+**Не можете ли да решите проблема чрез инструкциите?**
 
 Попитайте общността чрез [официалния Discord сървър](https://discord.gg/MmfC52K8A8) или [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+
 {% endhint %}
 
 ### Относно Plazma
@@ -27,8 +28,8 @@ description: "Plazma е отворена платформа за сървъри 
 
 > Създайте собствен сървър с помощта на Plazma.
 
-{% content-ref url="adminstration/" %}
-[adminstration](adminstration/)
+{% content-ref url="administration/" %}
+[администрация](administration/)
 {% endcontent-ref %}
 
 ### За разработчици
