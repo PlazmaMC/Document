@@ -12,7 +12,7 @@ description: Kui teil on küsimusi, siis palun esitage need Discordi või GitHub
 
 {% endhint %}
 
-### Kas teil on tekkinud küsimusi Plazma kasutamise kohta?
+### Kui teil tekib probleeme Plazma kasutamisel, siis mida teha?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
