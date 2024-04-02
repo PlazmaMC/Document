@@ -4,6 +4,14 @@ description: Ha kérdésed van, kérlek tedd fel a Discord-on vagy a GitHub Issu
 
 # 🏠 Üdvözöljük a Docs Portalon
 
+{% hint style="info" %}
+
+**Plazma의 문서는 현재 기계 번역된 상태입니다.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Ha kérdésed van a Plazma használata közben, kérlek tedd fel.
 
 {% content-ref url="plazma/" %}
