@@ -4,6 +4,14 @@ description: Ако имате питања, молимо поставите и�
 
 # 🏠 Добродошли на Docs Portal
 
+{% hint style="info" %}
+
+**Plazma의 문서는 현재 기계 번역된 상태입니다.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Да ли имате неких недоумица у вези са коришћењем Plazma?
 
 {% content-ref url="plazma/" %}
