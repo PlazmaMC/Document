@@ -16,9 +16,9 @@ Les propietats del sistema es col·loquen davant de `-jar` i es processen pel JV
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**La modificació de les propietats del sistema pot alterar el funcionament de Plazma i JVM i pot tenir un gran impacte en el joc!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Si no esteu segurs del paper de cada propietat del sistema, **mai l'utilitzeu!**
 
 {% endhint %}
 
@@ -38,9 +38,9 @@ i si no s'indica cap valor, es fixarà a [`true` de manera predeterminada.](#use
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**La plataforma del servidor de la sèrie Paperweight inclou un punt `.` al nom de cada propietat per diferenciar les propietats de cada plataforma.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+En algunes terminals com Windows Powershell, potser no es permeten aquests arguments, per tant, cal afegir `"` al principi i al final dels arguments. [^4]
 
 {% endhint %}
 
@@ -83,7 +83,7 @@ Deshabilita el missatge de confirmació del comandament `/reload`.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**La comanda `/reload` és molt inestable, per tant, qualsevol problema que es produeixi al servidor després d'utilitzar `/reload` serà responsabilitat de l'usuari.**
 
 Si ets un desenvolupador de plugins i necessites actualitzar un plugin, utilitza l'hotswap en lloc de `/reload`.
 
@@ -172,7 +172,7 @@ Deshabilita la comprovació de la versió de Java.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Això pot provocar que JVM intenti accedir a codi inexistent!**
 
 Això pot causar danys permanents als arxius del món i provocar un mal funcionament general del joc.
 
@@ -277,7 +277,7 @@ Aplica només el patch sense iniciar el servidor quan s'utilitza l'executable pr
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Aquesta propietat es traslladarà com a argument d'inici des de la versió 1.20.5 en endavant.**
 
 {% endhint %}
 
@@ -403,7 +403,7 @@ Selecciona si es validen els jugadors amb el servidor d'autenticació de Mojang.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Aquest argument s'ha deixat de utilitzar des de la versió 1.19.4**
 
 {% endhint %}
 
