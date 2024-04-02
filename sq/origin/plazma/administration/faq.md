@@ -12,7 +12,7 @@ Pyet komunitetin në [serverin Discord zyrtar](https://discord.gg/MmfC52K8A8) os
 
 {% endhint %}
 
-### Nuk ekzekutohet duke shfaqur një mesazh
+### Plazma nuk fillon
 
 Nëse shfaqet `no main manifest attribute, në plazma-(version).jar`,\
 skedari i shkarkuar është skedar API zhvillimi, duhet të shkarkoni **Reobf Paperweight** nga faqja e GitHub.
