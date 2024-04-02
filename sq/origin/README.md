@@ -4,6 +4,14 @@ description: Nëse keni pyetje, lutemi pyetni nëpërmjet Discord ose GitHub Iss
 
 # 🏠 Mirësevini në Portalin e Dokumentacionit
 
+{% hint style="info" %}
+
+**Dokumenti i Plazmas është aktualisht në gjendje përkthimi me makinë.**
+
+Referohuni në [https://translate.plazmamc.org/](https://translate.plazmamc.org/) për të përmirësuar dokumentin duke u bazuar në përkthimin e dokumentit.
+
+{% endhint %}
+
 ### Nëse keni ndonjë pyetje gjatë përdorimit të Plazma?
 
 {% content-ref url="plazma/" %}
