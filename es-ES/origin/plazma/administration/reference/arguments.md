@@ -17,9 +17,9 @@ Las propiedades del sistema se ingresan antes de `-jar` y son procesadas por JVM
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Al modificar las propiedades del sistema, el funcionamiento de Plazma y JVM puede cambiar, ¡lo que puede tener un gran impacto en el juego!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Si no está seguro de qué papel desempeña cada propiedad del sistema, **¡no la utilice bajo ninguna circunstancia!**
 
 {% endhint %}
 
@@ -40,9 +40,9 @@ si no se proporciona ningún valor a la propiedad, el valor se fijará en [`true
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**La plataforma del servidor de la serie Paperweight incluye un punto (`.`) en el nombre de cada propiedad del sistema para distinguir las propiedades entre plataformas.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+En algunos terminales como Windows Powershell, es posible que estos argumentos no sean aceptados, por lo que se debe agregar `"` al principio y al final de los argumentos. [^4]
 
 {% endhint %}
 
@@ -85,7 +85,7 @@ Desactiva el mensaje de confirmación del comando `/reload`.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**El comando `/reload` es muy inestable, por lo que cualquier problema que surja en el servidor después de usar `/reload` será responsabilidad del usuario.**
 
 Si eres desarrollador de plugins y necesitas actualizar un plugin, utiliza el hotswap en lugar de `/reload`.
 
@@ -174,7 +174,7 @@ Desactiva la verificación de la versión de Java.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**¡Esto podría hacer que JVM intente acceder a código inexistente!**
 
 Esto puede causar daños permanentes en archivos como mundos, y desestabilizar completamente el juego.
 
@@ -279,7 +279,7 @@ Si se utiliza el archivo de ejecución predeterminado, aplica solo el parche sin
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Esta propiedad se trasladará a un argumento de inicio después de la versión 1.20.5.**
 
 {% endhint %}
 
@@ -405,7 +405,7 @@ Selecciona si verificar a los jugadores con el servidor de autenticación de Moj
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Este argumento ha sido descontinuado después de la versión 1.19.4**
 
 {% endhint %}
 
