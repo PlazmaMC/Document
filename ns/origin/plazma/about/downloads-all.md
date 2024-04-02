@@ -1,5 +1,5 @@
 ---
-description: Plazma 실행 파일 다운로드 전체보기
+description: 플라즈마 실행 파일 다운로드 전체보기
 ---
 
 # ⚙️ 다운로드 전체보기
@@ -27,10 +27,10 @@ description: Plazma 실행 파일 다운로드 전체보기
 
 ***
 
-[^1]: Reobf Paperclip. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^1]: 리옵프 페이퍼클립. [자세히 알아보기](/about/administration/getting-started#id-2)
 
-[^2]: Mojmap Paperclip. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^2]: 모즘맵 페이퍼클립. [자세히 알아보기](/about/administration/getting-started#id-2)
 
-[^3]: Reobf Paperclip. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^3]: 리옵프 페이퍼클립. [자세히 알아보기](/about/administration/getting-started#id-2)
 
-[^4]: Mojmap Bundler. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^4]: 모즘맵 번들러. [자세히 알아보기](/about/administration/getting-started#id-2)
