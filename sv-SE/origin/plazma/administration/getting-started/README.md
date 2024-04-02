@@ -44,8 +44,8 @@ Om det inte visas som ovan eller visas som nedan, saknas JRE eller är för gamm
 {% code title="JRE är inte installerat" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' är inte ett internt eller externt kommando, ett körbart program eller
+en satsfil.
 ```
 
 {% endcode %}
@@ -278,14 +278,14 @@ Om du försöker ansluta till servern lokalt, kan du använda 'IPv4 address' som
 Till exempel, om följande visas efter att kommandot har körts,
 
 ```log
-Windows IP 구성
+Windows IP-konfiguration
 
-이더넷 어댑터 이더넷:
+Ethernet-adapter Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Anslutnings-specifikt DNS-suffix. . . . . . . :
+    IPv4-adress. . . . . . . . . . . . . . . . . : 192.168.3.7
+    Nätmask. . . . . . . . . . . . . . . . . . . : 255.255.255.0
+    Standard-gateway. . . . . . . . . . . . . . : 192.168.3.1
 
 ```
 
