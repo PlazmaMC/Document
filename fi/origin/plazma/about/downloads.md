@@ -14,9 +14,9 @@ description: Lataa Plazma nyt ja kokeile sitä itse.
 
 {% vinkki tyyli="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**Alla oleva lataus on tavallisen käyttäjän suoritettava tiedosto.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+Jos olet kehittäjä ja tarvitset erityyppisen tiedoston, katso alla oleva sivu.
 
 {% endhint %}
 
