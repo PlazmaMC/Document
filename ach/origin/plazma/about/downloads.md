@@ -14,9 +14,9 @@ description: Kube Plazma kwo tic pa ngec kacel i kompyuta.
 
 {% hint style="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**I kilo pa loyo kwede ni kabedo ma kicel acel mako.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+Developer ni, pwonyo kwede ma ber kwede ni, i kilo pa loyo kicel mako ki gengo.
 
 {% endhint %}
 
