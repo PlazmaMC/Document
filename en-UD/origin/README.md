@@ -4,6 +4,14 @@ description: ¿ɹǝʇɟnᴉu ɯᴉsɥʇun ᴉɯ ˙sǝǝɥsᴉɐu ɓᴉuɹǝɯᴉ
 
 # ʞɔǝɹǝɯɐ ʇo puǝpɐɔ sᴉ sᴉɥ┴
 
+{% hint style="info" %}
+
+**.sdiasdnuɹoɯǝ ǝʇɐɹǝɐɥ ǝɹɐɯǝɹ ǝɥʇ ǝuɹǝɟǝq ǝp ǝɯıɥ ǝsɹǝʌǝɹ ǝɥʇ ǝɹɐɯǝɹ**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### ¿ɯǝɥʇɹᴉɐu ʇuǝɹǝɟnᴉp ɯᴉsɥʇuᴉu ɯɐ ɯᴉsɥʇuᴉu
 
 {% content-ref url="plazma/" %}
