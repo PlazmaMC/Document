@@ -44,8 +44,8 @@ Kwon ma pe ki tye kwede, kadi ma iye kwanyo pe ki tye kwede, tye kwede iye, kadi
 {% code title="JRE pe iye i pwonyo" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' ki i kwo woko me kic me kic, me kic matwero, kun o ma
+bati file ma pe i kom.
 ```
 
 {% endcode %}
@@ -277,14 +277,14 @@ Lok kiketo i kwo i server, cwinyo 'cmd /k ipconfig' ki 'IPv4 address' pe kiketo 
 Kikwero, dok pa cwinyo ma cwinyo,
 
 ```log
-Windows IP 구성
+Windows IP gang
 
-이더넷 어댑터 이더넷:
+Ethernet Adapter Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    DNS suffix kun kikwero. . . . :
+    IPv4 Address. . . . . . . . : 192.168.3.7
+    Subnet Mask . . . . . . . : 255.255.255.0
+    Default Gateway . . . . . . : 192.168.3.1
 
 ```
 
