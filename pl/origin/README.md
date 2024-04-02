@@ -12,7 +12,7 @@ description: Jeśli masz pytania, zadaj je na Discordzie lub za pośrednictwem G
 
 {% endhint %}
 
-### Jeśli masz pytania dotyczące korzystania z Plazmy,
+### Jeśli wystąpił problem podczas korzystania z Plazmy, co zrobić?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
