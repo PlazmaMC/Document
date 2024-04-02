@@ -12,7 +12,7 @@ Posez vos questions à la communauté via le [serveur Discord officiel](https://
 
 {% endhint %}
 
-### Le message s'affiche mais l'exécution ne se fait pas
+### Plazma ne démarre pas
 
 Si vous voyez `no main manifest attribute, in plazma-(version).jar` dans la console,\
 le fichier que vous avez téléchargé est destiné à l'API de développement, vous devez télécharger **Reobf Paperweight** depuis la page GitHub.
