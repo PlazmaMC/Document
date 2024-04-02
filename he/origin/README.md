@@ -6,9 +6,9 @@ description: אם יש לך שאלות, אנא שאל ב-Discord או ב-GitHub 
 
 {% hint style="info" %}
 
-**Plazma의 문서는 현재 기계 번역된 상태입니다.**
+**מסמך Plazma כרגע מתורגם באופן אוטומטי.**
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) בבקשה השתמשו בתרגום המצוין באתר זה על מנת לשפר את המסמך.
 
 {% endhint %}
 
