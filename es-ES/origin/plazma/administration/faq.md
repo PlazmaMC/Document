@@ -12,7 +12,7 @@ description: Descubre las preguntas frecuentes.
 
 {% endhint %}
 
-### El programa no se ejecuta y muestra un mensaje
+### Plazma no se inicia
 
 Si aparece `no main manifest attribute, in plazma-(version).jar` en la consola,\
 el archivo descargado es un archivo de API de desarrollo y debes descargar **Reobf Paperweight** desde la página de GitHub.
