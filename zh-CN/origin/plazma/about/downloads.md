@@ -14,11 +14,15 @@ description: 立即下载Plazma并自行使用。
 
 {% hint style="info" %}
 
-以下下载是一种通常使用的可执行文件形式。
+**아래 다운로드는 일반 사용자용 실행 파일입니다.**
 
-作为开发人员，如果需要其他形式的文件，请参考下面的部分。
+개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
 {% endhint %}
+
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
 
 <table data-view="cards">
     <thead>
@@ -50,16 +54,3 @@ description: 立即下载Plazma并自行使用。
         </tr>
     </tbody>
 </table>
-
-<details>
-<summary>下载全部查看</summary>
-
-|   版本   |                         [RP](#user-content-fn-1)[^1]                         |                          [MP](#user-content-fn-2)[^2]                         |                        [RB](#user-content-fn-3)[^3]                        |                         [MB](#user-content-fn-4)[^4]                        |
-| :----: | :------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
-| 1.20.5 |                                                              _发布等待中_                                                             |                                                              _发布等待中_                                                              |                                                             _发布等待中_                                                            |                                                             _发布等待中_                                                             |
-| 1.20.4 | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.20.2 | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.20.1 | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.19.4 | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [点击下载](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
-
-</details>
