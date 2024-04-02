@@ -6,7 +6,7 @@ description: Se você tiver alguma dúvida, por favor, pergunte através do Disc
 
 {% hint style="info" %}
 
-**Plazma의 문서는 현재 기계 번역된 상태입니다.**
+**Os documentos do Plazma estão atualmente em estado de tradução automática.**
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
 
