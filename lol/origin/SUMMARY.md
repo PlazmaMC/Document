@@ -20,7 +20,7 @@
     - [🖥️ MUNYURZ](plazma/administration/reference/commands.md)
     - [🛡️ KWONZ](plazma/administration/reference/permissions.md)
     - [🎨 GOOTSYEON PAHL](plazma/administration/reference/configurations/README.md)
-      - [🪨 PROPERTAY](plazma/administration/reference/configurations/property.md)
+      - [🪨 속성](plazma/administration/reference/configurations/property.md)
       - [🪣 BUKKIT](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 SPIGOT](plazma/administration/reference/configurations/spigot.md)
       - [🛩️ PAPUR](plazma/administration/reference/configurations/paper/README.md)
@@ -50,7 +50,7 @@
 
 - [⚡ Volt Development Guide](volt/README.md)
 
-## miscellaneous
+## Miscellaneous
 
-- [🧾 miscellaneous](miscellaneous/README.md)
+- [🧾 Miscellaneous](miscellaneous/README.md)
   - [⬇️ DAHNLOHD JEON-YUKBOGEE](plazma/about/downloads-all.md)
