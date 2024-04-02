@@ -17,9 +17,9 @@ Stelsel eienskappe word voor `-jar` ingevoer en word deur die JVM voor Plazma ge
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**As jy die stelsel eienskappe wysig, kan die werking van Plazma en JVM verander, en dit kan 'n groot impak op die spel hê!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+As jy nie seker is oor die rol van elke stelsel eienskap nie, **moet jy dit beslis nie gebruik nie!**
 
 {% endhint %}
 
@@ -40,9 +40,9 @@ As geen waarde ingevoer word nie, word die waarde [`true` vasgestel.](#user-cont
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Die Paperweight-reeks bedienerplatform onderskei stelsel eienskappe vir elke platform deur die eienskapnaam te gebruik met `.` ingesluit.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Windows Powershell enkele terminale mag nie hierdie argumente toelaat nie, dus moet jy `"` aan die uiteindes van die argumente [toevoeg.](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -85,7 +85,7 @@ Deaktiveer die bevestigingsboodskap vir die `/reload` opdrag.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**Die `/reload` bevel is baie onstabiel, dus enige probleme wat na die gebruik van `/reload` in die bediener voorkom, is die verantwoordelikheid van die gebruiker self.**
 
 As jy 'n pluginontwikkelaar is en jy moet jou plugin opdateer, gebruik hotswap in plaas van `/reload`.
 
@@ -174,7 +174,7 @@ Deaktiveer Java-weergawe kontrole.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Dit kan veroorsaak dat die JVM probeer om toegang te verkry tot nie-bestaande kode!**
 
 Dit kan lei tot permanente skade aan wêrelde en algemene lêers, en die hele spel se meganika kan ontwrig word.
 
@@ -279,7 +279,7 @@ As jy die standaard uitvoerlêer gebruik, pas slegs die patch toe sonder om die 
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Hierdie eienskap sal na beginargumente skuif vanaf 1.20.5.**
 
 {% endhint %}
 
@@ -405,7 +405,7 @@ Kies of die speler deur die Mojang verifikasiebediener geverifieer moet word.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Hierdie argument is na 1.19.4 nie meer in gebruik nie**
 
 {% endhint %}
 
