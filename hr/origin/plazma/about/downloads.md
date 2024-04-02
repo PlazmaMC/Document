@@ -14,9 +14,9 @@ description: Preuzmite Plazmu odmah i isprobajte je sami.
 
 {% hint style="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**Preuzimanje u nastavku je izvršna datoteka za obične korisnike.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+Ako ste programer i trebate drugačiji oblik datoteke, pogledajte donju stranicu.
 
 {% endhint %}
 
