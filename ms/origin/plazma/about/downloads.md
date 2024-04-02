@@ -14,9 +14,9 @@ description: Muat turun Plazma sekarang dan cuba gunakan sendiri.
 
 {% hint style="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**Muat turun di bawah adalah fail eksekusi untuk pengguna biasa.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+Jika anda seorang pembangun dan memerlukan jenis fail yang lain, sila rujuk kepada halaman di bawah.
 
 {% endhint %}
 
