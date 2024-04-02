@@ -12,7 +12,7 @@ description: در صورت داشتن سوال، لطفا از طریق Discord 
 
 {% endhint %}
 
-### اگر در حین استفاده از Plazma سوالی پیش آمده است؟
+### اگر مشکلی در حین استفاده از پلاسما پیش آمد، چه کنیم؟
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
