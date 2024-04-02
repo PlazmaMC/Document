@@ -12,7 +12,7 @@ Pergunte à comunidade através do [Servidor Discord oficial](https://discord.gg
 
 {% endhint %}
 
-### A execução não ocorre e uma mensagem é exibida
+### Plazma가 시작되지 않습니다
 
 Se `no main manifest attribute, in plazma-(version).jar` for exibido no console,\
 o arquivo baixado é um arquivo de API de desenvolvimento e você precisa baixar **Reobf Paperweight** na página do GitHub.
