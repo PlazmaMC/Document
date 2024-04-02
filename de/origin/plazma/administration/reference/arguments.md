@@ -16,9 +16,9 @@ Systemeigenschaften werden vor dem Start von Plazma vor der Initialisierung in d
 
 {% Hinweis Stil="Warnung" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Wenn Sie Systemeigenschaften ändern, kann sich das Verhalten von Plazma und JVM ändern und sich erheblich auf das Spiel auswirken!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Wenn Sie nicht sicher sind, welche Rolle jede Systemeigenschaft spielt, **verwenden Sie sie auf keinen Fall!**
 
 {% endhint %}
 
@@ -38,9 +38,9 @@ wenn kein Wert angegeben wird, wird der Wert auf [`true` festgelegt.](#user-cont
 
 {% Hinweis-Stil="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Die Paperweight-Serverserie verwendet Punkte in den Attributnamen, um die Systemeigenschaften für jede Plattform zu unterscheiden.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+In einigen Terminals wie Windows Powershell können diese Argumente möglicherweise nicht akzeptiert werden, daher müssen Sie `"` am Anfang und Ende der Argumente [hinzufügen.](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -83,7 +83,7 @@ Deaktiviert die Bestätigungsnachricht des `/reload`-Befehls.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**Der Befehl `/reload` ist äußerst instabil, daher liegt die Verantwortung für alle Probleme im Server nach der Verwendung von `/reload` beim Benutzer selbst.**
 
 Wenn Sie ein Plugin-Entwickler sind und Ihr Plugin aktualisieren müssen, verwenden Sie anstelle von `/reload` das Hotswap.
 
@@ -172,7 +172,7 @@ Deaktiviert die Java-Versionüberprüfung.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Auf diese Weise kann JVM versuchen, auf nicht vorhandenen Code zuzugreifen!**
 
 Dies kann zu dauerhaften Schäden an Dateien wie der Welt und zu einem Zusammenbruch des gesamten Spielmechanismus führen.
 
@@ -277,7 +277,7 @@ Wendet nur Patches an, ohne den Server zu starten, wenn das Standardausführungs
 
 {% Hinweis Stil="Warnung" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Dieses Argument wird ab Version 1.20.5 als Startargument verschoben.**
 
 {% endhint %}
 
@@ -403,7 +403,7 @@ Wählen Sie aus, ob Spieler über den Mojang-Authentifizierungsserver überprüf
 
 {% Hinweis Stil="Warnung" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Dieses Argument wurde nach Version 1.19.4 eingestellt.**
 
 {% endhint %}
 
