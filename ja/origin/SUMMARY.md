@@ -20,7 +20,7 @@
     - [🖥️ コマンド](plazma/administration/reference/commands.md)
     - [🛡️ 権限](plazma/administration/reference/permissions.md)
     - [🎨 構成ファイル](plazma/administration/reference/configurations/README.md)
-      - [🪨 プロパティ](plazma/administration/reference/configurations/property.md)
+      - [🪨 속성](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
       - [🛩️ Paper](plazma/administration/reference/configurations/paper/README.md)
@@ -50,7 +50,7 @@
 
 - [⚡ Volt 開発ガイド](volt/README.md)
 
-## miscellaneous
+## Miscellaneous
 
-- [🧾 miscellaneous](miscellaneous/README.md)
+- [🧾 Miscellaneous](miscellaneous/README.md)
   - [⬇️ ダウンロード全体を表示](plazma/about/downloads-all.md)
