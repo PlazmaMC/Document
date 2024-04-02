@@ -12,7 +12,7 @@ description: Hvis du har spørsmål, vennligst spør gjennom Discord eller GitHu
 
 {% endhint %}
 
-### Har du spørsmål mens du bruker Plazma?
+### Har du problemer mens du bruker Plazma?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
