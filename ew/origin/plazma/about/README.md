@@ -1,5 +1,5 @@
 ---
-description: Learn about what Plazma is as a server platform.
+description: Learn about what Plazma server platform is.
 ---
 
 # ❓ What is Plazma?
