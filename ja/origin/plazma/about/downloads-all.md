@@ -1,15 +1,15 @@
 ---
-description: Plazma 실행 파일 다운로드 전체보기
+description: Plazma 실행 파일 ダウンロード 全体を表示
 ---
 
-# ⚙️ 다운로드 전체보기
+# ⚙️ ダウンロード 全体を表示
 
 {% hint style="info" %}
 
-**해당 페이지는 전문가용 입니다.**
+**該当ページは専門家用です。**
 
-일반 사용자이고, 각 타입이 어떠한 역할을 가지는지 잘 알지 못하는 경우,
-아래 페이지에서 다운로드 하세요.
+一般ユーザーで、各タイプがどのような役割を持っているかよくわからない場合、
+以下のページからダウンロードしてください。
 
 {% endhint %}
 
@@ -27,10 +27,10 @@ description: Plazma 실행 파일 다운로드 전체보기
 
 ***
 
-[^1]: Reobf Paperclip. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^1]: Reobf Paperclip. [詳しくはこちら](/about/administration/getting-started#id-2)
 
-[^2]: Mojmap Paperclip. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^2]: Mojmap Paperclip. [詳しくはこちら](/about/administration/getting-started#id-2)
 
-[^3]: Reobf Paperclip. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^3]: Reobf Paperclip. [詳しくはこちら](/about/administration/getting-started#id-2)
 
-[^4]: Mojmap Bundler. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^4]: Mojmap Bundler. [詳しくはこちら](/about/administration/getting-started#id-2)
