@@ -4,6 +4,14 @@ description: Ak máte otázky, obráťte sa na Discord alebo prostredníctvom Gi
 
 # 🏠 Vitajte v portáli Docs
 
+{% hint style="info" %}
+
+**Dokumentácia k Plazme je momentálne preložená strojovo.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) na preklad dokumentov a vylepšite dokument.
+
+{% endhint %}
+
 ### Ak máte otázky pri používaní Plazmy, neváhajte sa spýtať.
 
 {% content-ref url="plazma/" %}
