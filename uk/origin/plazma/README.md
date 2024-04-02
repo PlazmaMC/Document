@@ -10,31 +10,32 @@ description: "Plazma - це відкрите серверне програмне
 
 {% нагадування стилю="інформація" %}
 
-### Не вдається вирішити проблему за допомогою документації?
+**설명서를 통해 문제를 해결할 수 없나요?**
 
-Задайте питання спільноті через [офіційний Discord сервер](https://discord.gg/MmfC52K8A8) або [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
-{% кінець нагадування %}
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
 
-### Про Plazma
+{% endhint %}
 
-> Дізнайтеся, що таке Plazma серверна платформа.
+### About Plazma
 
-{% зміст-посилання url="про/" %}
-[про](про/)
-{% кінець-змісту %}
+> Plazma는 어떤 서버 플랫폼인지 알아보세요.
 
-### Для адміністраторів
+{% content-ref url="about/" %}
+[about](about/)
+{% endcontent-ref %}
 
-> Створіть свій власний сервер за допомогою Plazma.
+### For Administrators
 
-{% зміст-посилання url="адміністрування/" %}
-[адміністрування](адміністрування/)
-{% кінець-змісту %}
+> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
 
-### Для розробників
+{% content-ref url="administration/" %}
+[administration](administration/)
+{% endcontent-ref %}
 
-> Розробляйте сторонні проекти за допомогою Plazma.
+### For Developers
 
-{% зміст-посилання url="розробники.md" %}
-[розробники.md](розробники.md)
-{% кінець-змісту %}
+> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
+
+{% content-ref url="developers.md" %}
+[developers.md](developers.md)
+{% endcontent-ref %}
