@@ -10,31 +10,31 @@ description: "Plazma是為Minecraft: Java Edition添加了基於紙張的實驗�
 
 {% hint style="info" %}
 
-**설명서를 통해 문제를 해결할 수 없나요?**
+**無法透過說明書解決問題嗎？**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+[官方 Discord 伺服器](https://discord.gg/MmfC52K8A8) 或 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) 向社區提問！
 
 {% endhint %}
 
-### About Plazma
+### 關於 Plazma
 
-> Plazma는 어떤 서버 플랫폼인지 알아보세요.
+> 了解 Plazma 是什麼服務器平台。
 
 {% content-ref url="about/" %}
 [about](about/)
 {% endcontent-ref %}
 
-### For Administrators
+### 對於管理員
 
-> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+> 利用 Plazma 創建自己的服務器。
 
 {% content-ref url="administration/" %}
-[administration](administration/)
+[管理](administration/)
 {% endcontent-ref %}
 
-### For Developers
+### 對於開發人員
 
-> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
+> 利用 Plazma 開發第三方項目。
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
