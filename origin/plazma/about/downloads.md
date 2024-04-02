@@ -18,6 +18,10 @@ description: 지금 바로 Plazma를 다운로드하여 직접 사용해 보세�
 
 개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
+
 {% endhint %}
 
 <table data-view="cards">

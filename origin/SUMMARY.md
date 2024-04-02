@@ -53,4 +53,4 @@
 ## Miscellenous
 
 * [🧾 Miscellenous](miscellenous/README.md)
-  * [⬇️ 다운로드 전체보기](plazma/about/downlodas-all.md)
+  * [⬇️ 다운로드 전체보기](plazma/about/downloads-all.md)
