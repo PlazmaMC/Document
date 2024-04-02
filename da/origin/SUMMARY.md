@@ -50,7 +50,7 @@
 
 - [⚡ Volt Udviklingsvejledning](volt/README.md)
 
-## diverse
+## Diverse
 
-- [🧾 diverse](miscellaneous/README.md)
+- [🧾 Diverse](miscellaneous/README.md)
   - [⬇️ Download Alle](plazma/about/downloads-all.md)
