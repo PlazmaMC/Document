@@ -12,7 +12,7 @@ description: 瞭解常見問題。
 
 {% endhint %}
 
-### 執行時顯示訊息但未執行
+### Plazma無法啟動
 
 如果在控制台上輸出`no main manifest attribute, in plazma-(version).jar`，\
 下載的文件是開發API文件，應該從GitHub頁面下載**Reobf Paperweight**。
