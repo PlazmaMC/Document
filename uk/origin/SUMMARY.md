@@ -50,7 +50,7 @@
 
 - [⚡ Посібник з розробки Volt](volt/README.md)
 
-## miscellaneous
+## Різне
 
 - [🧾 Різне](miscellaneous/README.md)
   - [⬇️ Завантажити повний перегляд](plazma/about/downloads-all.md)
