@@ -44,8 +44,8 @@ Ak sa výstup nezhoduje s vyššie uvedeným, alebo sa zobrazí nasledovné, zna
 {% code title="JRE nie je nainštalované" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' nie je interný ani externý príkaz, spustiteľný program alebo
+súbor s príkazmi.
 ```
 
 {% endcode %}
@@ -278,14 +278,14 @@ Ak sa pokúšate pripojiť k serveru z lokálnej siete, môžete sa pripojiť ce
 Napríklad, po vykonaní príkazu sa zobrazí nasledovné:
 
 ```log
-Windows IP 구성
+Windows IP Configuration
 
-이더넷 어댑터 이더넷:
+Ethernet adapter Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Sufix pre DNS spojenie. . . . . . . :
+    IPv4 adresa. . . . . . . . . : 192.168.3.7
+    Maskovacia podsieť . . . . . . . : 255.255.255.0
+    Predvolená brána . . . . . . : 192.168.3.1
 
 ```
 
