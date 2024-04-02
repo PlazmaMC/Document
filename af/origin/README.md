@@ -4,6 +4,14 @@ description: Indien daar enige vrae is, vra asseblief deur Discord of GitHub Iss
 
 # 🏠 Welkom by die Dokumentasie Portal
 
+{% hint style="info" %}
+
+**Die dokumente van Plazma is tans masjienvertaal.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) op die dokumentvertaling bydra en die dokument verbeter.
+
+{% endhint %}
+
 ### As jy enige vrae het terwyl jy Plazma gebruik?
 
 {% content-ref url="plazma/" %}
