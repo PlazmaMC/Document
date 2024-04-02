@@ -12,7 +12,7 @@ Ask the community through the [Official Discord Server](https://discord.gg/MmfC5
 
 {% endhint %}
 
-### The message is displayed but not executed
+### Plazma does not start
 
 If `no main manifest attribute, in plazma-(version).jar` is displayed in the console,\
 the downloaded file is a development API file, and you should download **Reobf Paperweight** from the GitHub page.
