@@ -10,31 +10,31 @@ Sveiki atvykę į Plazma naudojimo dokumentaciją!
 
 {% hint style="info" %}
 
-**설명서를 통해 문제를 해결할 수 없나요?**
+**Ar negalite išspręsti problemos naudodamiesi instrukcijomis?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+Užduokite klausimą bendruomenei naudodami [oficialų Discord serverį](https://discord.gg/MmfC52K8A8) arba [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
 
 {% endhint %}
 
-### About Plazma
+### Apie Plazmą
 
-> Plazma는 어떤 서버 플랫폼인지 알아보세요.
+> Sužinokite, kas yra Plazma serverio platforma.
 
 {% content-ref url="about/" %}
-[about](about/)
+[apie](about/)
 {% endcontent-ref %}
 
-### For Administrators
+### Administratoriams
 
-> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+> Sukurkite savo serverį naudodami Plazmą.
 
 {% content-ref url="administration/" %}
-[administration](administration/)
+[valdymas](administration/)
 {% endcontent-ref %}
 
-### For Developers
+### Kūrėjams
 
-> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
+> Kurkite trečiųjų šalių projektus naudodamiesi Plazma.
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
