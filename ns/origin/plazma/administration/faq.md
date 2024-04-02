@@ -12,7 +12,7 @@ description: 답변을 찾을 수 없는 질문을 살펴보세요.
 
 {% endhint %}
 
-### 메세지가 출력되면서 실행이 되지 않습니다
+### Plazma가 시작되지 않습니다
 
 콘솔에 `no main manifest attribute, in plazma-(version).jar` 라고 출력된 경우,\
 다운로드한 파일은 개발용 API 파일로, GitHub 페이지에서 **Reobf Paperweight**을 다운로드해야 합니다.
