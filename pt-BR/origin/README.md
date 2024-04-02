@@ -12,7 +12,7 @@ description: Se você tiver alguma dúvida, por favor, pergunte através do Disc
 
 {% endhint %}
 
-### Se surgir alguma dúvida durante o uso do Plazma?
+### Se ocorrer algum problema durante o uso do Plazma, o que devo fazer?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
