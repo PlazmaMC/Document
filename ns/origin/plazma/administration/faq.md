@@ -6,7 +6,7 @@ description: 답변을 찾을 수 없는 질문을 살펴보세요.
 
 {% hint style="info" %}
 
-**원하는 답변을 찾을 수 없나요?**
+**답변을 찾을 수 없나요?**
 
 [공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
 
