@@ -12,7 +12,7 @@ Zeptejte se komunity na [Oficiálním Discord serveru](https://discord.gg/MmfC52
 
 {% endhint %}
 
-### Problém s nezdařeným spuštěním zprávy
+### Plazma se nespustí
 
 Pokud se v konzoli zobrazí `no main manifest attribute, in plazma-(version).jar`,\
 stažený soubor je vývojovým API souborem, musíte stáhnout **Reobf Paperweight** z GitHub stránky.
