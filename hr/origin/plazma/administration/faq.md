@@ -12,7 +12,7 @@ Pitajte zajednicu putem [Službenog Discord poslužitelja](https://discord.gg/Mm
 
 {% endhint %}
 
-### Poruka se prikazuje ali se ne izvršava
+### Plazma ne pokreće
 
 Ako se u konzoli prikaže `no main manifest attribute, in plazma-(version).jar`,\
 znači da je preuzeta datoteka razvojna datoteka API-ja i trebate preuzeti **Reobf Paperweight** sa GitHub stranice.
