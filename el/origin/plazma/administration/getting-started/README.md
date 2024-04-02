@@ -33,8 +33,8 @@ description: Μάθετε πώς να δημιουργήσετε έναν δια
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
-OpenJDK Runtime Environment Zulu21.32+17-CA (build 21.0.2+13-LTS)
-OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, sharing)
+Περιβάλλον Εκτέλεσης OpenJDK Zulu21.32+17-CA (έκδοση 21.0.2+13-LTS)
+Εικοσιτετράμπιτος Διακομιστής VM Zulu21.32+17-CA του OpenJDK (έκδοση 21.0.2+13-LTS, ανάμεικτη λειτουργία, κοινή χρήση)
 ```
 
 {% endcode %}
@@ -44,8 +44,8 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 {% code title="Η JRE δεν είναι εγκατεστημένη" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' δεν είναι εσωτερική ή εξωτερική εντολή, εκτελέσιμο πρόγραμμα, ή
+αρχείο δέσμης.
 ```
 
 {% endcode %}
@@ -53,9 +53,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 {% code title="Η JRE είναι πολύ παλιά" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+Μη αναγνωρισμένη επιλογή: --version
+Σφάλμα: Αδυναμία δημιουργίας της Εικονικής Μηχανής Java.
+Σφάλμα: Παρουσιάστηκε μια μοιραία εξαίρεση. Το πρόγραμμα θα τερματιστεί.
 ```
 
 {% endcode %}
@@ -278,14 +278,14 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 예를 들어, 명령어 실행 후 다음과 같이 출력되었을 때,
 
 ```log
-Windows IP 구성
+Windows IP διαμόρφωση
 
-이더넷 어댑터 이더넷:
+Κάρτα Ethernet Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Συνδεδεμένο DNS κατάληξη. . . . :
+    Διεύθυνση IPv4. . . . . . . . . : 192.168.3.7
+    Μάσκα υποδικτύου . . . . . . . : 255.255.255.0
+    Προεπιλεγμένη πύλη. . . . . . : 192.168.3.1
 
 ```
 
