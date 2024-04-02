@@ -8,7 +8,7 @@ description: Se hai domande, per favore chiedi su Discord o GitHub Issues.
 
 **Il documento di Plazma è attualmente in stato di traduzione automatica.**
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) Utilizza il sito per tradurre i documenti e migliorarli.
 
 {% endhint %}
 
