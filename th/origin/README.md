@@ -12,7 +12,7 @@ description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문�
 
 {% endhint %}
 
-### Plazma 사용 중 궁금증이 생겼다면?
+### ถ้าพบปัญหาในการใช้ Plazma ควรทำอย่างไร?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
