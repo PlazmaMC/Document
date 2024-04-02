@@ -14,9 +14,9 @@ description: Laden Sie Plazma jetzt herunter und probieren Sie es selbst aus.
 
 {% Hinweis-Stil="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**Die folgenden Downloads sind ausführbare Dateien für normale Benutzer.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+Wenn Sie ein Entwickler sind und eine andere Art von Datei benötigen, sehen Sie sich bitte die folgende Seite an.
 
 {% endhint %}
 
