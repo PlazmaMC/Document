@@ -44,8 +44,8 @@ Jika output tidak seperti di atas, atau seperti di bawah, bermakna tiada JRE ata
 {% code title="JRE tidak dipasang" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' bukanlah program perintah internal atau eksternal, program yang dapat dijalankan, atau
+file batch.
 ```
 
 {% endcode %}
@@ -278,14 +278,14 @@ Jika ingin menyambung ke pelayan dari tempatan, boleh menggunakan `cmd /k ipconf
 Contohnya, apabila output seperti berikut dipaparkan selepas menjalankan arahan tersebut,
 
 ```log
-Windows IP 구성
+Konfigurasi IP Windows
 
-이더넷 어댑터 이더넷:
+Adaptor Ethernet Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Sufiks DNS yang Terhubung. . . . :
+    Alamat IPv4. . . . . . . . . : 192.168.3.7
+    Masker Subnet . . . . . . . : 255.255.255.0
+    Gateway Default. . . . . . : 192.168.3.1
 
 ```
 
