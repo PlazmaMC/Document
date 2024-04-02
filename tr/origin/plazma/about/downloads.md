@@ -12,4 +12,54 @@ description: Hemen indirerek Plazma'yı şimdi deneyin.
 
 ***
 
-<table data-view="cards"><thead><tr><th>Sürüm</th><th>İndir</th></tr></thead><tbody><tr><td>1.20.5</td><td><em>Yayın bekleniyor</em></td></tr><tr><td>1.20.4</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar">İndirmek için tıklayın</a></td></tr><tr><td>1.20.2</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.2/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar">İndirmek için tıklayın</a></td></tr><tr><td>1.20.1</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.1/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar">İndirmek için tıklayın</a></td></tr><tr><td>1.19.4</td><td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar">İndirmek için tıklayın</a></td></tr></tbody></table>
+{% hint style="info" %}
+
+Aşağıdaki indirme genellikle kullanılan bir uygulama dosyası biçimidir.
+
+Geliştirici ve başka bir dosya biçimi gerekiyorsa, lütfen aşağıdaki bölüme bakın.
+
+{% endhint %}
+
+<table data-view="cards">
+    <thead>
+        <tr>
+            <th>Sürüm</th>
+            <th>İndir</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.20.5</td>
+            <td><em>Yayın bekliyor</em></td>
+        </tr>
+        <tr>
+            <td>1.20.4</td>
+            <td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar">İndirmek için tıklayın</a></td>
+        </tr>
+        <tr>
+            <td>1.20.2</td>
+            <td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.2/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar">İndirmek için tıklayın</a></td>
+        </tr>
+        <tr>
+            <td>1.20.1</td>
+            <td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.1/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar">İndirmek için tıklayın</a></td>
+        </tr>
+        <tr>
+            <td>1.19.4</td>
+            <td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar">İndirmek için tıklayın</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<details>
+<özet>İndirme Tam Görünümü<!--özet-->
+
+|  Sürüm |                                  [RP](#user-content-fn-1)[^1]                                  |                                   [MP](#user-content-fn-2)[^2]                                  |                                 [RB](#user-content-fn-3)[^3]                                 |                                  [MB](#user-content-fn-4)[^4]                                 |
+| :----: | :------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
+| 1.20.5 |                                                                  _Yayın Beklemede_                                                                 |                                                                  _Yayın Beklemede_                                                                  |                                                                 _Yayın Beklemede_                                                                |                                                                 _Yayın Beklemede_                                                                 |
+| 1.20.4 | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
+| 1.20.2 | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
+| 1.20.1 | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
+| 1.19.4 | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [İndirmek için tıklayın](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
+
+</details>
