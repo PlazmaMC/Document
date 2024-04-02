@@ -33,8 +33,8 @@ As dit soos volg vertoon, spring na [Stap 2](setup.md#id-2).
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
-OpenJDK Runtime Environment Zulu21.32+17-CA (build 21.0.2+13-LTS)
-OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, sharing)
+OpenJDK Runtime-omgewing Zulu21.32+17-CA (bou 21.0.2+13-LTS)
+OpenJDK 64-biet Bediener-VM Zulu21.32+17-CA (bou 21.0.2+13-LTS, gemengde modus, deling)
 ```
 
 {% endcode %}
@@ -44,8 +44,8 @@ Indien dit nie so vertoon nie, of as dit soos hieronder vertoon, beteken dit dat
 {% code title="JRE is nie geïnstalleer nie" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' is nie 'n interne of eksterne bevel, 'n uitvoerbare program, of
+'n bat-lêer nie.
 ```
 
 {% endcode %}
@@ -53,9 +53,9 @@ Indien dit nie so vertoon nie, of as dit soos hieronder vertoon, beteken dit dat
 {% code title="JRE is te oud" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+Onherkenbare opsie: --weergawe
+Fout: Kon nie die Java Virtuele Masjien skep nie.
+Fout: 'n fatale uitsondering het plaasgevind. Program sal afsluit.
 ```
 
 {% endcode %}
@@ -88,17 +88,17 @@ Na installasie, voer [Stap 1.1](setup.md#id-1.1) weer uit om te bevestig dat die
 Voeg eers die Azul Zulu-opberging by APT deur die volgende bevel in die terminaal uit te voer.
 
 ```bash
-sudo apt install gnupg ca-certificates curl --no-install-recommends --no-install-suggests -y
+sudo apt installeer gnupg ca-certificates curl --geen-aanbevolen-installatie --geen-aanbevolen-suggesties -y
 
 curl -s https://repos.azul.com/azul-repo.key | sudo gpg --dearmor -o /usr/share/keyrings/azul.gpg
 
-echo "deb [signed-by=/usr/share/keyrings/azul.gpg] https://repos.azul.com/zulu/deb stable main" | sudo tee /etc/apt/sources.list.d/zulu.list
+echo "deb [onderteken-deur=/usr/share/keyrings/azul.gpg] https://repos.azul.com/zulu/deb stabiel hoof" | sudo tee /etc/apt/sources.list.d/zulu.list
 ```
 
 Voer dan die volgende bevel in die terminaal uit om JRE te installeer.
 
 ```bash
-sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-headless
+sudo apt installeer --geen-aanbevolen-installatie --geen-aanbevolen-suggesties -y zulu21-ca-jre-headless
 ```
 
 {% endtab %}
@@ -108,9 +108,9 @@ sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-
 JRE kan geïnstalleer word deur die volgende bevel in te voer.
 
 ```bash
-sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
+sudo dnf installeer -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
 
-sudo dnf install -y zulu21-ca-jre-headless
+sudo dnf installeer -y zulu21-ca-jre-headless
 ```
 
 {% endtab %}
@@ -278,14 +278,14 @@ As jy vanaf jou plaaslike masjien na die bediener wil verbind, kan jy die `IPv4 
 Byvoorbeeld, as die volgende na die uitvoering van die opdrag verskyn:
 
 ```log
-Windows IP 구성
+Windows IP konfigurasie
 
-이더넷 어댑터 이더넷:
+Ethernet-adapter Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Gekoppelde DNS-suffix. . . . :
+    IPv4-adres. . . . . . . . . : 192.168.3.7
+    Subnet-masker . . . . . . . : 255.255.255.0
+    Standaard gateway . . . . . . : 192.168.3.1
 
 ```
 
