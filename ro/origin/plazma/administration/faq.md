@@ -12,7 +12,7 @@ description: Aflați mai multe despre întrebările frecvente.
 
 {% endhint %}
 
-### Execuția nu se realizează cu un mesaj de ieșire.
+### Plazma nu se deschide
 
 Dacă apare în consolă `no main manifest attribute, in plazma-(version).jar`,\
 fișierul descărcat este un fișier API de dezvoltare, trebuie să descărcați **Reobf Paperweight** de pe pagina GitHub.
