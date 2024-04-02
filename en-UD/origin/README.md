@@ -12,7 +12,7 @@ description: ¿ɹǝʇɟnᴉu ɯᴉsɥʇun ᴉɯ ˙sǝǝɥsᴉɐu ɓᴉuɹǝɯᴉ
 
 {% endhint %}
 
-### ¿ɯǝɥʇɹᴉɐu ʇuǝɹǝɟnᴉp ɯᴉsɥʇuᴉu ɯɐ ɯᴉsɥʇuᴉu
+### ?emanos ot degnerts eb nevahs gnihtemos rehtoM
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
