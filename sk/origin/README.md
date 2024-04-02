@@ -12,7 +12,7 @@ description: Ak máte otázky, obráťte sa na Discord alebo prostredníctvom Gi
 
 {% endhint %}
 
-### Ak máte otázky pri používaní Plazmy, neváhajte sa spýtať.
+### Ak sa vyskytli problémy počas používania Plazmy?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
