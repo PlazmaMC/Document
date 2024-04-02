@@ -4,6 +4,14 @@ description: Als u vragen heeft, stel ze dan via Discord of GitHub Issues.
 
 # 🏠 Welkom bij de Docs Portal
 
+{% hint style="info" %}
+
+**De documenten van Plazma zijn momenteel in machinale vertaalde staat.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Als u vragen heeft terwijl u Plazma gebruikt,
 
 {% content-ref url="plazma/" %}
