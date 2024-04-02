@@ -20,7 +20,7 @@
     - [🖥️ Команде](plazma/administration/reference/commands.md)
     - [🛡️ Дозволе](plazma/administration/reference/permissions.md)
     - [🎨 Конфигурациони фајл](plazma/administration/reference/configurations/README.md)
-      - [🪨 Својство](plazma/administration/reference/configurations/property.md)
+      - [🪨 Својства](plazma/administration/reference/configurations/property.md)
       - [🪣 Букит](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Спигот](plazma/administration/reference/configurations/spigot.md)
       - [🛩️ Пејпер](plazma/administration/reference/configurations/paper/README.md)
@@ -50,7 +50,7 @@
 
 - [⚡ Упутство за развој Volta](volt/README.md)
 
-## miscellaneous
+## Разно
 
-- [🧾 разно](miscellaneous/README.md)
+- [🧾 Разно](miscellaneous/README.md)
   - [⬇️ Преузми све](plazma/about/downloads-all.md)
