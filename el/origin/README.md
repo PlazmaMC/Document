@@ -8,7 +8,7 @@ description: Αν έχετε ερωτήσεις, παρακαλούμε να τ�
 
 **Το έγγραφο του Plazma είναι προς το παρόν μεταφρασμένο από μηχανική μετάφραση.**
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) Χρησιμοποιήστε το [https://translate.plazmamc.org/](https://translate.plazmamc.org/) ως αναφορά για τη μετάφραση του εγγράφου και βελτιώστε το έγγραφο.
 
 {% endhint %}
 
