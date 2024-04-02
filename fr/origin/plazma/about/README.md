@@ -1,5 +1,5 @@
 ---
-description: Découvrez ce qu'est Plazma en tant que plateforme de serveur.
+description: Plazma는 어떤 서버 플랫폼인지 알아보세요.
 ---
 
 # ❓ Qu'est-ce que Plazma?
