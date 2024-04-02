@@ -20,7 +20,7 @@
     - [🖥️ ɯouɹǝɯǝ]
     - [🛡️ ǝɥɔɹɐu]
     - [🎨 ɟnɹouᴉɟ ɯǝǝs]
-      - [🪨 ʎɹoɹʇɐ]
+      - [🪨 속성](plazma/administration/reference/configurations/property.md)
       - [🪣 ʇɐʞǝɯ]
       - [🚰 ʇɯᴉƃ]
       - [🛩️ ɹɐǝɹ]
@@ -50,7 +50,7 @@
 
 - [⚡ ʌoɹʇ ɓuılǝpɹɐʇ ǝɔıpǝ](volt/README.md)
 
-## miscellaneous
+## Miscellaneous
 
-- [🧾 miscellaneous]
+- [🧾 Miscellaneous](miscellaneous/README.md)
   - [⬇️ ɯouǝuɯɐ ǝɹɹǝɯsɹǝɔ]
