@@ -12,7 +12,7 @@ description: Ha kérdésed van, kérlek tedd fel a Discord-on vagy a GitHub Issu
 
 {% endhint %}
 
-### Ha kérdésed van a Plazma használata közben, kérlek tedd fel.
+### Ha probléma merül fel a Plazma használata közben, mi a teendő?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
