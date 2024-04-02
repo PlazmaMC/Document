@@ -12,7 +12,7 @@ Raadpleeg die [amptelike Discord-bedienaar](https://discord.gg/MmfC52K8A8) of [G
 
 {% endhint %}
 
-### Die program hardloop nie met 'n boodskap nie
+### Plazma begin nie
 
 As daar 'n foutmelding is soos `geen hoof manifest atribuut, in plazma-(weergawe).jar`,\
 moet jy die ontwikkelings-API-lêer aflaai, **Reobf Paperweight**, vanaf die GitHub-bladsy.
