@@ -16,9 +16,9 @@ Systémová vlastnosť je hodnota spracovaná v JVM pred inicializáciou Plazmy 
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Ak sa zmenia vlastnosti systému, môže to ovplyvniť fungovanie Plazmy a JVM a môže to mať veľký vplyv na hru!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Ak neviete presne, akú úlohu zohráva každá vlastnosť systému, **určite ju nepoužívajte!**
 
 {% endhint %}
 
@@ -39,9 +39,9 @@ ak nezadáte žiadnu hodnotu, bude hodnota [`true` nastavená.](#user-content-fn
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Platforma serverov z radu Paperweight obsahuje bodku `.` v názve vlastnosti na rozlišovanie vlastností systému pre každú platformu.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+V niektorých termináloch ako Windows Powershell nemusia byť tieto argumenty povolené, preto je potrebné pridať `"` na oba konce argumentu [po jeho použití.](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -84,7 +84,7 @@ Deaktivuje potvrdenie príkazu `/reload`.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**Príkaz `/reload` je veľmi nestabilný, preto všetky problémy v serveri po jeho použití sú zodpovednosťou používateľa.**
 
 Ak ste vývojár pluginov a musíte aktualizovať pluginy, použite hotswap namiesto príkazu `/reload`.
 
@@ -173,7 +173,7 @@ Deaktivuje kontrolu verzie Javy.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Týmto spôsobom sa môže JVM pokúsiť pristúpiť k neexistujúcemu kódu!**
 
 Môže to trvalo poškodiť súbory v hre a spôsobiť zlyhanie hry.
 
@@ -278,7 +278,7 @@ Ak sa používa predvolený spustiteľný súbor, aplikuje sa iba záplatovanie 
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Táto vlastnosť sa presunie na začiatok argumentov po verzii 1.20.5.**
 
 {% endhint %}
 
@@ -404,7 +404,7 @@ Určuje, či sa majú hráči overovať prostredníctvom Mojang autentizačných
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Tento argument bol po verzii 1.19.4 zastavený.**
 
 {% endhint %}
 
