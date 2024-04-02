@@ -14,11 +14,15 @@ description: همین الان Plazma را دانلود کرده و خودتان
 
 {% hint style="info" %}
 
-دانلود زیر نوعی از فایل اجرایی است که به طور عمومی استفاده می شود.
+**아래 다운로드는 일반 사용자용 실행 파일입니다.**
 
-برنامه نویس هستید و اگر نیاز به فایل های دیگری دارید، لطفاً به بخش زیر مراجعه کنید.
+개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
 {% endhint %}
+
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
 
 <table data-view="cards">
     <thead>
@@ -50,16 +54,3 @@ description: همین الان Plazma را دانلود کرده و خودتان
         </tr>
     </tbody>
 </table>
-
-<details>
-<summary>مشاهده کامل دانلود</summary>
-
-|  نسخه  |                                  [RP](#user-content-fn-1)[^1]                                 |                                  [MP](#user-content-fn-2)[^2]                                  |                                 [RB](#user-content-fn-3)[^3]                                |                                 [MB](#user-content-fn-4)[^4]                                 |
-| :----: | :-----------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
-| 1.20.5 |                                                                 _در انتظار انتشار_                                                                |                                                                 _در انتظار انتشار_                                                                 |                                                                _در انتظار انتشار_                                                               |                                                                _در انتظار انتشار_                                                                |
-| 1.20.4 | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.20.2 | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.20.1 | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.19.4 | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [برای دانلود کلیک کنید](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
-
-</details>
