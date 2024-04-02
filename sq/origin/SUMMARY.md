@@ -20,7 +20,7 @@
     - [🖥️ Komandat](plazma/administration/reference/commands.md)
     - [🛡️ Lejet](plazma/administration/reference/permissions.md)
     - [🎨 Konfigurimi i skedarit](plazma/administration/reference/configurations/README.md)
-      - [🪨 Prona](plazma/administration/reference/configurations/property.md)
+      - [🪨 Atribute](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
       - [🛩️ Paper](plazma/administration/reference/configurations/paper/README.md)
@@ -50,7 +50,7 @@
 
 - [⚡ Udhezuesi i Zhvillimit të Volt](volt/README.md)
 
-## miscellaneous
+## Miscellaneous
 
-- [🧾 miscellaneous](miscellaneous/README.md)
+- [🧾 Diverse](miscellaneous/README.md)
   - [⬇️ Shkarko të gjithën](plazma/about/downloads-all.md)
