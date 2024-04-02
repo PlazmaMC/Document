@@ -12,7 +12,7 @@ description: よくある質問をご覧ください。
 
 {% endhint %}
 
-### メッセージが表示されて実行されない
+### Plazmaが起動しません
 
 コンソールに `no main manifest attribute, in plazma-(version).jar` と表示された場合、
 ダウンロードしたファイルは開発用APIファイルであり、GitHubページから **Reobf Paperweight** をダウンロードする必要があります。
