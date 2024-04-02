@@ -12,7 +12,7 @@ description: درباره سوالات متداول بازدید کنید.
 
 {% endhint %}
 
-### پیامی نمایش داده شده و اجرا نمی شود
+### Plazma شروع نمی شود
 
 اگر پیام `no main manifest attribute, in plazma-(version).jar` در کنسول نمایش داده شده است،\
 فایلی که دانلود کرده اید یک فایل API توسعه‌یافته است، باید **Reobf Paperweight** را از صفحه GitHub دانلود کنید.
