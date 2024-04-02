@@ -12,7 +12,7 @@ description: Nếu có câu hỏi, vui lòng đặt câu hỏi thông qua Discor
 
 {% endhint %}
 
-### Nếu bạn có bất kỳ thắc mắc nào khi sử dụng Plazma?
+### Nếu gặp vấn đề khi sử dụng Plazma, bạn có thể làm gì?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
