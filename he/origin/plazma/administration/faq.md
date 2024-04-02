@@ -12,7 +12,7 @@ description: למענה על שאלות נפוצות, בדוק כאן.
 
 {% endhint %}
 
-### הודעת שגיאה מופיעה והרצת התוכנית לא מתבצעת
+### Plazma לא מתחיל
 
 אם מופיע בקונסולה `no main manifest attribute, in plazma-(version).jar`,\
 אז הקובץ שהורדתם הוא קובץ API לצורכי פיתוח, עליכם להוריד את **Reobf Paperweight** מעמוד ה-GitHub.
