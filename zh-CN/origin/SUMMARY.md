@@ -50,7 +50,7 @@
 
 - [⚡ 伏特开发指南](volt/README.md)
 
-## miscellaneous
+## 杂项
 
-- [🧾 miscellaneous](miscellaneous/README.md)
+- [🧾 杂项](miscellaneous/README.md)
   - [⬇️ 下载全部查看](plazma/about/downloads-all.md)
