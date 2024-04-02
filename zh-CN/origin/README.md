@@ -6,9 +6,9 @@ description: 如有问题，请通过Discord或GitHub Issues提出。
 
 {% hint style="info" %}
 
-**Plazma의 문서는 현재 기계 번역된 상태입니다.**
+**Plazma的文档目前处于机器翻译状态。**
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 在这里参考文档翻译，以改进文档。
 
 {% endhint %}
 
