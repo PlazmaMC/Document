@@ -50,7 +50,7 @@
 
 - [⚡ Volt-Entwicklungsanleitung](volt/README.md)
 
-## miscellaneous
+## Verschiedenes
 
 - [🧾 Verschiedenes](miscellaneous/README.md)
   - [⬇️ Alle Downloads anzeigen](plazma/about/downloads-all.md)
