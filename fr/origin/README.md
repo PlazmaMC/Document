@@ -4,6 +4,14 @@ description: Si vous avez des questions, veuillez les poser sur Discord ou GitHu
 
 # 🏠 Bienvenue sur le portail de la documentation
 
+{% hint style="info" %}
+
+**Les documents de Plazma sont actuellement dans un état de traduction automatique.**
+
+Améliorez le document en consultant la traduction du document sur [https://translate.plazmamc.org/](https://translate.plazmamc.org/)
+
+{% endhint %}
+
 ### Si vous avez des questions pendant l'utilisation de Plazma, n'hésitez pas à demander.
 
 {% content-ref url="plazma/" %}
