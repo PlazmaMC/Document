@@ -6,10 +6,10 @@ description: Lær hvordan du genopretter Paper og vanilje patch.
 
 {% hint style="warning" %}
 
-**Paper는 바닐라의 오류를 해결하는 대부분의 패치에 선택지를 추가하고 있지 않습니다.**
+**Paper tilføjer ikke valgmuligheder til de fleste patches, der retter fejl i vanille.**
 
 Plazma udvikler i øjeblikket muligheden for at deaktivere sådanne fejlrettelser som en konfiguration.
 
-따라서 아직 본 가이드는 작성중이며, 언제나 정보가 바뀔 가능성이 있습니다.
+Derfor er denne vejledning stadig under udarbejdelse, og informationen kan altid ændres.
 
 {% endhint %}
