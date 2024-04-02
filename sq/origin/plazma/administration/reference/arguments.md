@@ -16,9 +16,9 @@ Përkatësitë e sistemit vendosen para `-jar` përpara se Plazma të inicializo
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Nëse ndryshoni atributet e sistemit, Plazma dhe mënyra se si vepron JVM mund të ndryshojnë, dhe kjo mund të ketë ndikim të madh në lojë!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Nëse nuk e dini qartë se çfarë rol luajnë atributet e çdo sistemi, **mos i përdorni kurrë ato!**
 
 {% endhint %}
 
@@ -39,9 +39,9 @@ Nëse nuk vendosni asnjë vlerë për përkatësi, vlera do të mbetet [`true`.]
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Platforma e serverit e serisë Paperweight përfshin një `.` në emrin e atributit për të dalluar atributet e sistemit për çdo platformë individuale.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Në disa terminalë si Windows Powershell, mund të mos pranohen këto argumente, kështu që duhet të shtoni `"` në fillim dhe në fund të argumentit. [^4]
 
 {% endhint %}
 
@@ -84,7 +84,7 @@ Aktivizon regjistrimet e debugimit të informacioneve të entitetit.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**Komanda `/reload` është shumë e paqëndrueshme, kështu që çdo problem që ndodh në server pas përdorimit të `/reload` është përgjegjësi e vetë përdoruesit.**
 
 Nëse jeni zhvillues shtojcësh dhe duhet të përditësoni shtojcën, përdorni hotswap në vend të `/reload`.
 
@@ -173,7 +173,7 @@ Cakton madhësinë maksimale të pako të pranueshme nga serveri.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Kjo mund të tentojë qasje në kod që nuk ekziston në JVM!**
 
 Kjo mund të shkaktojë dëmtim të përhershëm të skedarëve të botës dhe shkatërrimin e mekanikës së lojës.
 
@@ -278,7 +278,7 @@ Kur përdoret ekzekutuesi i ofruar, aplikon vetëm ndryshime pa filluar serverin
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Ky argument do të zhvendoset si një argument fillimi pas versionit 1.20.5.**
 
 {% endhint %}
 
@@ -404,7 +404,7 @@ Zgjedh nëse do të verifikohen lojtarët me serverin e autentifikimit të Mojan
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Ky argument është ndaluar për përdorim pas versionit 1.19.4**
 
 {% endhint %}
 
