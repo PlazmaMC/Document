@@ -14,9 +14,9 @@ description: Iškart atsisiųskite „Plazma“ ir išbandykite patys.
 
 {% hint style="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**Žemiau pateiktas vykdomasis failas skirtas įprastiems vartotojams.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+Jeigu esate kūrėjas ir reikia kitos formos failo, žiūrėkite žemiau pateiktą puslapį.
 
 {% endhint %}
 
