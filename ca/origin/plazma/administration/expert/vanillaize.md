@@ -6,10 +6,10 @@ description: Descobreix com restaurar el patch de Paper i Vanilla.
 
 {% hint style="warning" %}
 
-**Paper는 바닐라의 오류를 해결하는 대부분의 패치에 선택지를 추가하고 있지 않습니다.**
+**Paper no afegeix opcions a la majoria de les correccions d'errors de la vainilla.**
 
 Actualment, Plazma està desenvolupant una configuració per desactivar aquestes correccions d'errors.
 
-따라서 아직 본 가이드는 작성중이며, 언제나 정보가 바뀔 가능성이 있습니다.
+Per tant, aquesta guia encara està en procés de redacció i la informació pot canviar en qualsevol moment.
 
 {% endhint %}
