@@ -6,10 +6,10 @@ description: Zistite, ako obnoviť patch Paper a Vanilla.
 
 {% hint style="warning" %}
 
-**Paper는 바닐라의 오류를 해결하는 대부분의 패치에 선택지를 추가하고 있지 않습니다.**
+**Paper neobsahuje možnosti pridania väčšiny záplat na opravu chýb v vanilke.**
 
 Plazma momentálne vyvíja možnosť deaktivovať takéto opravy chýb.
 
-따라서 아직 본 가이드는 작성중이며, 언제나 정보가 바뀔 가능성이 있습니다.
+Preto je tento sprievodca stále v procese úprav a informácie sa môžu meniť.
 
 {% endhint %}
