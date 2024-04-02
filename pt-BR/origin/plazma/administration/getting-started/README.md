@@ -29,7 +29,7 @@ Para verificar se o JRE está instalado no sistema, digite [`cmd /k java --versi
 
 Se a saída for como abaixo, pule para o [passo 2](setup.md#id-2).
 
-{% code title="올바른 출력" lineNumbers="true" %}
+{% code title="Saída Correta" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -41,7 +41,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 Se a saída for diferente ou se for como abaixo, o JRE não está instalado ou está desatualizado, então você precisa executar o [passo 1.2](setup.md#id-1.2).
 
-{% code title="JRE가 설치되어 있지 않음" lineNumbers="true" %}
+{% code title="JRE não está instalado" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
@@ -50,7 +50,7 @@ Se a saída for diferente ou se for como abaixo, o JRE não está instalado ou e
 
 {% endcode %}
 
-{% code title="JRE가 너무 오래됨" lineNumbers="true" %}
+{% code title="JRE está desatualizado" lineNumbers="true" %}
 
 ```log
 Unrecognized option: --version
@@ -79,13 +79,13 @@ Após a instalação, verifique se a instalação foi concluída corretamente ex
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) instala o **JDK 21** baixando e executando o assistente de instalação em formato `.dmg` para instalar o JRE.
 
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
 
-먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
+Adicione o repositório Azul Zulu ao APT executando o seguinte comando no terminal.
 
 ```bash
 sudo apt install gnupg ca-certificates curl --no-install-recommends --no-install-suggests -y
@@ -105,7 +105,7 @@ sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-
 
 {% tab title="Fedora/RHEL" %}
 
-다음 명령어를 입력하여 JRE를 설치할 수 있습니다.
+Você pode instalar o JRE executando o seguinte comando.
 
 ```bash
 sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
@@ -124,7 +124,7 @@ O Plazma oferece diversos tipos de arquivos executáveis.
 
 {% hint style="warning" %}
 
-**대부분의 경우에는 `Reobf Paperclip`을 사용합니다.**
+**Na maioria dos casos, use `Reobf Paperclip`.**
 
 As informações a seguir são para desenvolvedores ou curiosos sobre as características de cada tipo.\
 Se você é um usuário comum, não há problema em pular para o [passo 3](setup.md#id-3).
@@ -172,13 +172,13 @@ Agora, mova o script de inicialização e o Plazma para uma nova pasta.
 
 {% hint style="warning" %}
 
-**폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.**
+**O nome da pasta deve ser sem espaços e em inglês.**
 
 Caso contrário, o Plazma ou o JRE podem não funcionar corretamente.
 
 {% endhint %}
 
-Agora, execute o script de inicialização. Windows의 경우, <mark style="background-color:orange;">방화벽 허용 선택 창에서, 반드시 **허용**을 선택</mark>해야 합니다.
+Agora, execute o script de inicialização. No caso do Windows, <mark style="background-color:orange;">Na janela de seleção de permissão do firewall, selecione **Permitir** obrigatoriamente</mark>.
 
 ***
 
@@ -202,7 +202,7 @@ No Windows, como você já permitiu no [passo 3](setup.md#id-3), basta encaminha
 
 {% hint style="info" %}
 
-**해당 가이드에서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Este guia foi escrito assumindo que você está usando o sistema operacional Windows e um roteador que suporte [UPnP](#user-content-fn-12)[^12].**
 
 Se o roteador não suportar UPnP, você precisará pesquisar as configurações específicas de cada modelo.
 
@@ -211,7 +211,7 @@ Você também pode usar o [Ngrok](https://ngrok.com/) para gerar um endereço te
 
 {% hint style="warning" %}
 
-**Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.**
+**Para sistemas operacionais baseados em UNIX, como Linux ou macOS, os métodos de configuração do firewall variam para cada serviço, portanto, você deve pesquisar por conta própria.**
 
 {% endhint %}
 
@@ -229,17 +229,17 @@ Se a saída for `True`, não é necessário fazer mais nada. Se for `False`, é 
 
 {% tabs %}
 
-{% tab title="외부에서 접속" %}
+{% tab title="Acesso Externo" %}
 
-포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
+Se não for necessário encaminhamento de porta ou se já tiver configurado o encaminhamento de porta com sucesso, agora você pode se conectar ao servidor.
 
 O endereço usado para acessar o servidor pode ser verificado [aqui](https://ip.pe.kr/).
 
 {% endtab %}
 
-{% tab title="UPnP로 포트포워딩 시도" %}
+{% tab title="Tentativa de Encaminhamento de Porta com UPnP" %}
 
-서버 폴더의 `purpur.yml`에서, `network.upnp-port-forwarding`을 `true`로 활성화합니다.
+No arquivo `purpur.yml` da pasta do servidor, ative `network.upnp-port-forwarding` para `true`.
 
 Em seguida, ao reiniciar o servidor, o Plazma tentará automaticamente encaminhar a porta.
 
@@ -256,9 +256,9 @@ Quando o servidor é encerrado, o Plazma automaticamente fecha a porta.
 
 {% endtab %}
 
-{% tab title="Ngrok으로 임시 주소 생성" %}
+{% tab title="Criação de Endereço Temporário com Ngrok" %}
 
-Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들과 함께 플레이하기에 유용합니다.
+O uso do Ngrok é útil para testes temporários, jogar com amigos ou para jogos colaborativos.
 
 1. Baixe o arquivo ZIP `Windows (64-bit)` do [site do Ngrok](https://ngrok.com/download).
 2. Coloque o Ngrok baixado na pasta do servidor.
@@ -270,9 +270,9 @@ Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들�
 
 {% endtab %}
 
-{% tab title="로컬에서 접속" %}
+{% tab title="Acesso Local" %}
 
-로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 `cmd /k ipconfig`를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
+Se estiver tentando acessar o servidor localmente, você pode se conectar usando o `Endereço IPv4` mostrado ao executar `cmd /k ipconfig` na janela de comando.
 
 Por exemplo, se após a execução do comando você vir:
 
