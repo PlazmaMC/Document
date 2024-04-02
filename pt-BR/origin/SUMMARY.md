@@ -50,7 +50,7 @@
 
 - [⚡ Guia de Desenvolvimento do Volt](volt/README.md)
 
-## diversos
+## Vários
 
-- [🧾 Diversos](miscellaneous/README.md)
+- [🧾 Vários](miscellaneous/README.md)
   - [⬇️ Baixar Tudo](plazma/about/downloads-all.md)
