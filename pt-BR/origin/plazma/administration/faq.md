@@ -12,7 +12,7 @@ Faça perguntas à comunidade através do [servidor Discord oficial](https://dis
 
 {% endhint %}
 
-### O programa não está sendo executado com uma mensagem de saída
+### Plazma não está iniciando
 
 Se receber a mensagem `no main manifest attribute, in plazma-(versão).jar` no console,\
 o arquivo baixado é um arquivo de API de desenvolvimento, você deve baixar o **Reobf Paperweight** na página do GitHub.
