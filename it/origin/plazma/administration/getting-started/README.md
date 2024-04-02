@@ -44,8 +44,8 @@ Se l'output non è come sopra o se appare come segue, significa che JRE non è i
 {% code title="JRE non installato" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' non è riconosciuto come comando interno o esterno,
+un programma eseguibile o un file batch.
 ```
 
 {% endcode %}
@@ -53,9 +53,9 @@ Se l'output non è come sopra o se appare come segue, significa che JRE non è i
 {% code title="JRE troppo vecchio" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+Opzione non riconosciuta: --version
+Errore: Impossibile creare la Java Virtual Machine.
+Errore: Si è verificata un'eccezione fatale. Il programma verrà chiuso.
 ```
 
 {% endcode %}
@@ -220,7 +220,7 @@ Puoi anche utilizzare [Ngrok](https://ngrok.com/) per generare un indirizzo temp
 Digita il seguente comando nel prompt e premi Invio.
 
 ```batch
-powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Invoke-WebRequest "ifconfig.me").content"
+powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IndirizzoIP -eq (Invoke-WebRequest "ifconfig.me").content"
 ```
 
 Se l'output è `True`, non è necessario fare altro. Se è `False`, devi configurare il port forwarding.
@@ -277,14 +277,14 @@ Se si desidera accedere al server da locale, è possibile farlo utilizzando l'`i
 Ad esempio, se dopo l'esecuzione del comando viene visualizzato:
 
 ```log
-Windows IP 구성
+Windows Configurazione IP
 
-이더넷 어댑터 이더넷:
+Adattatore Ethernet Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Suffisso DNS specifico per la connessione. . . . :
+    Indirizzo IPv4. . . . . . . . . : 192.168.3.7
+    Subnet mask . . . . . . . : 255.255.255.0
+    Gateway predefinito . . . . . . : 192.168.3.1
 
 ```
 
