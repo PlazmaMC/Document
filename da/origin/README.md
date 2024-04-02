@@ -4,6 +4,14 @@ description: Hvis du har spørgsmål, så spørg venligst gennem Discord eller G
 
 # 🏠 Velkommen til Docs Portal
 
+{% hint style="info" %}
+
+**Plazma's dokument er i øjeblikket maskinoversat.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) brug dette link til at forbedre dokumentationen ved at henvise til dokumentoversættelsen.
+
+{% endhint %}
+
 ### Hvis du har spørgsmål mens du bruger Plazma?
 
 {% content-ref url="plazma/" %}
