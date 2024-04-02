@@ -14,9 +14,9 @@ description: Stáhněte si Plazma hned teď a vyzkoušejte ji sami.
 
 {% hint style="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**Níže uvedené stažení je spustitelný soubor pro běžné uživatele.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+Pokud jste vývojář a potřebujete jiný typ souboru, podívejte se na následující stránku.
 
 {% endhint %}
 
