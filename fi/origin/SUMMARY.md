@@ -50,7 +50,7 @@
 
 - [⚡ Volt Kehitysohje](volt/README.md)
 
-## miscellaneous
+## Miscellaneous
 
 - [🧾 Sekalaiset](miscellaneous/README.md)
   - [⬇️ Lataa kaikki](plazma/about/downloads-all.md)
