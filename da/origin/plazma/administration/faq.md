@@ -12,7 +12,7 @@ Spørg fællesskabet via [Officiel Discord-server](https://discord.gg/MmfC52K8A8
 
 {% endhint %}
 
-### Handlingen udføres ikke med en besked, der vises
+### Plazma starter ikke
 
 Hvis der vises 'ingen hovedmanifestattribut i plazma-(version).jar' i konsollen,\
 filen, du har downloadet, er en udviklings-API-fil, og du skal downloade **Reobf Paperweight** fra GitHub-siden.
