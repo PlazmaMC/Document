@@ -16,9 +16,9 @@ Le proprietà di sistema, inserite prima di `-jar`, sono valori elaborati dalla 
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**La modifica delle proprietà di sistema potrebbe cambiare il funzionamento di Plazma e JVM e potrebbe avere un grande impatto sul gioco!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Se non si conosce esattamente quale ruolo svolgono le singole proprietà di sistema, **non utilizzarle assolutamente!**
 
 {% endhint %}
 
@@ -38,9 +38,9 @@ Se non viene fornito alcun valore, il valore sarà [`true` per impostazione pred
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**La piattaforma server della serie Paperweight include il carattere `.` nei nomi delle proprietà per distinguere le proprietà tra le varie piattaforme.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+In alcuni terminali come Windows Powershell, potrebbe non essere consentito l'utilizzo di questi argomenti, quindi è necessario aggiungere `"` all'inizio e alla fine degli argomenti. [^4]
 
 {% endhint %}
 
@@ -83,7 +83,7 @@ Disattiva il messaggio di conferma del comando `/reload`.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**Il comando `/reload` è molto instabile, quindi tutti i problemi che si verificano dopo l'uso di `/reload` sono di responsabilità dell'utente.**
 
 Se sei uno sviluppatore di plugin e devi aggiornare un plugin, usa il ricaricamento a caldo anziché il comando `/reload`.
 
@@ -172,7 +172,7 @@ Disattiva il controllo della versione di Java.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Questo potrebbe consentire a JVM di tentare di accedere a codice inesistente!**
 
 Ciò potrebbe danneggiare permanentemente file come il mondo e compromettere l'intero meccanismo di gioco.
 
@@ -277,7 +277,7 @@ Se si utilizza il file eseguibile predefinito, applica solo il patch senza avvia
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Questa proprietà sarà spostata agli argomenti di avvio dopo la versione 1.20.5.**
 
 {% endhint %}
 
@@ -403,7 +403,7 @@ Seleziona se verificare i giocatori con il server di autenticazione Mojang.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Questo argomento è stato dismesso dopo la versione 1.19.4**
 
 {% endhint %}
 
