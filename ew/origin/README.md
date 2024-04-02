@@ -4,6 +4,14 @@ description: If you have any questions, please ask via Discord or GitHub Issues.
 
 # 🏠 Welcome to Docs Portal
 
+{% hint style="info" %}
+
+**The document of Plazma is currently in a machine-translated state.**
+
+Refer to [https://translate.plazmamc.org/](https://translate.plazmamc.org/) for document translation and try to improve the document.
+
+{% endhint %}
+
 ### If you have any questions while using Plazma,
 
 {% content-ref url="plazma/" %}
