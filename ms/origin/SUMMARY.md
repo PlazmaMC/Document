@@ -20,7 +20,7 @@
     - [🖥️ Perintah](plazma/administration/reference/commands.md)
     - [🛡️ Kebenaran](plazma/administration/reference/permissions.md)
     - [🎨 Fail Konfigurasi](plazma/administration/reference/configurations/README.md)
-      - [🪨 Harta](plazma/administration/reference/configurations/property.md)
+      - [🪨 Sifat](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
       - [🛩️ Paper](plazma/administration/reference/configurations/paper/README.md)
@@ -50,7 +50,7 @@
 
 - [⚡ Panduan Pembangunan Volt](volt/README.md)
 
-## miscellaneous
+## Miscellaneous
 
-- [🧾 miscellaneous](miscellaneous/README.md)
+- [🧾 Pelbagai](miscellaneous/README.md)
   - [⬇️ Muat Turun Semua](plazma/about/downloads-all.md)
