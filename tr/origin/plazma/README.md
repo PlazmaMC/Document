@@ -10,31 +10,32 @@ Plazma Kullanım Belgelerine hoş geldiniz!
 
 {% hint style="info" %}
 
-### Belgeler aracılığıyla sorunları çözemiyor musunuz?
+**설명서를 통해 문제를 해결할 수 없나요?**
 
-[Resmi Discord Sunucusu](https://discord.gg/MmfC52K8A8) veya [GitHub Sorunları](https://github.com/PlazmaMC/PlazmaBukkit/issues) üzerinden topluluktan yardım alın!
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+
 {% endhint %}
 
-### Plazma Hakkında
+### About Plazma
 
-> Plazma'nın hangi tür bir sunucu platformu olduğunu öğrenin.
+> Plazma는 어떤 서버 플랫폼인지 알아보세요.
 
-{% content-ref url="hakkimizda/" %}
-[hakkimizda](hakkimizda/)
+{% content-ref url="about/" %}
+[about](about/)
 {% endcontent-ref %}
 
-### Yöneticiler İçin
+### For Administrators
 
-> Kendi sunucunuzu oluşturmak için Plazma'yı kullanın.
+> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
 
-{% content-ref url="yonetim/" %}
-[yonetim](yonetim/)
+{% content-ref url="administration/" %}
+[administration](administration/)
 {% endcontent-ref %}
 
-### Geliştiriciler İçin
+### For Developers
 
-> Üçüncü taraf projeler geliştirmek için Plazma'yı kullanın.
+> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
 
-{% content-ref url="gelistiriciler.md" %}
-[gelistiriciler.md](gelistiriciler.md)
+{% content-ref url="developers.md" %}
+[developers.md](developers.md)
 {% endcontent-ref %}
