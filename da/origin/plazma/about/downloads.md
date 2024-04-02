@@ -14,11 +14,15 @@ description: Download Plazma nu og prøv det selv.
 
 {% hint style="info" %}
 
-Nedenstående download er en almindelig form for eksekverbar fil.
+**아래 다운로드는 일반 사용자용 실행 파일입니다.**
 
-Som udvikler, hvis du har brug for en anden form for fil, se nedenstående sektion.
+개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
 {% endhint %}
+
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
 
 <table data-view="cards">
     <thead>
@@ -50,16 +54,3 @@ Som udvikler, hvis du har brug for en anden form for fil, se nedenstående sekti
         </tr>
     </tbody>
 </table>
-
-<details>
-<summary>Se og download alle</summary>
-
-| Version |                                  [RP](#user-content-fn-1)[^1]                                 |                                  [MP](#user-content-fn-2)[^2]                                  |                                 [RB](#user-content-fn-3)[^3]                                |                                 [MB](#user-content-fn-4)[^4]                                 |
-| :-----: | :-----------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
-|  1.20.5 |                                                                _Afventer udgivelse_                                                               |                                                                _Afventer udgivelse_                                                                |                                                               _Afventer udgivelse_                                                              |                                                               _Afventer udgivelse_                                                               |
-|  1.20.4 | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.2 | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.1 | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.19.4 | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [Klik for at downloade](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
-
-</details>
