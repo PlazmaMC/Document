@@ -50,7 +50,7 @@
 
 - [⚡ Panduan Pengembangan Volt](volt/README.md)
 
-## miscellaneous
+## Miscellaneous
 
-- [🧾 miscellaneous](miscellaneous/README.md)
+- [🧾 Lainnya](miscellaneous/README.md)
   - [⬇️ Unduh Semua](plazma/about/downloads-all.md)
