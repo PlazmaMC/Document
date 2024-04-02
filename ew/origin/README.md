@@ -12,7 +12,7 @@ Refer to [https://translate.plazmamc.org/](https://translate.plazmamc.org/) for 
 
 {% endhint %}
 
-### If you have any questions while using Plazma,
+### If you encounter any issues while using Plazma, what should you do?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
