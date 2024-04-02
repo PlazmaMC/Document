@@ -50,7 +50,7 @@
 
 - [⚡ Hướng dẫn phát triển Volt](volt/README.md)
 
-## miscellaneous
+## Miscellaneous
 
-- [🧾 miscellaneous](miscellaneous/README.md)
+- [🧾 Đa dạng](miscellaneous/README.md)
   - [⬇️ Tải xuống Toàn bộ](plazma/about/downloads-all.md)
