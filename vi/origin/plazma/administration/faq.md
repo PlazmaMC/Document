@@ -12,7 +12,7 @@ description: Tìm hiểu về các câu hỏi thường gặp.
 
 {% endhint %}
 
-### Không thể thực thi với thông báo xuất hiện
+### Plazma không khởi động được
 
 Nếu bạn thấy thông báo `no main manifest attribute, in plazma-(version).jar` trên cửa sổ console,\
 file bạn đã tải xuống là file API dành cho phát triển, bạn cần phải tải **Reobf Paperweight** từ trang GitHub.
