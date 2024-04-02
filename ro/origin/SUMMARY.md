@@ -50,7 +50,7 @@
 
 - [⚡ Ghid de Dezvoltare Volt](volt/README.md)
 
-## diverse
+## Diverse
 
-- [🧾 diverse](miscellaneous/README.md)
+- [🧾 Diverse](miscellaneous/README.md)
   - [⬇️ Descărcați Toate](plazma/about/downloads-all.md)
