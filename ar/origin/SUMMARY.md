@@ -20,7 +20,7 @@
     - [🖥️ الأوامر](plazma/administration/reference/commands.md)
     - [🛡️ الأذونات](plazma/administration/reference/permissions.md)
     - [🎨 ملف التكوين](plazma/administration/reference/configurations/README.md)
-      - [🪨 الخاصية](plazma/administration/reference/configurations/property.md)
+      - [🪨 الخصائص](plazma/administration/reference/configurations/property.md)
       - [🪣 بوكيت](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 سبيجوت](plazma/administration/reference/configurations/spigot.md)
       - [🛩️ بيبر](plazma/administration/reference/configurations/paper/README.md)
@@ -50,7 +50,7 @@
 
 - [⚡ دليل تطوير فولت](volt/README.md)
 
-## miscellaneous
+## متنوع
 
-- [🧾 miscellaneous](miscellaneous/README.md)
+- [🧾 متنوع](miscellaneous/README.md)
   - [⬇️ عرض التنزيل الكامل](plazma/about/downloads-all.md)
