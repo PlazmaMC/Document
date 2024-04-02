@@ -6,10 +6,10 @@ description: Saznajte kako vratiti zakrpe za Paper i vanilu.
 
 {% hint style="warning" %}
 
-**Paper는 바닐라의 오류를 해결하는 대부분의 패치에 선택지를 추가하고 있지 않습니다.**
+**Paper ne dodaje opcije u većini zakrpa za ispravljanje pogrešaka u vaniliji.**
 
 Plazma trenutno radi na omogućavanju deaktivacije takvih popravaka.
 
-따라서 아직 본 가이드는 작성중이며, 언제나 정보가 바뀔 가능성이 있습니다.
+Stoga je ovaj vodič još uvijek u izradi i informacije se mogu promijeniti u bilo kojem trenutku.
 
 {% endhint %}
