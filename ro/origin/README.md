@@ -12,7 +12,7 @@ description: Dacă aveți întrebări, vă rugăm să întrebați prin Discord s
 
 {% endhint %}
 
-### Dacă aveți întrebări în timp ce utilizați Plazma?
+### Plazma 사용 중 문제가 생겼다면?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
