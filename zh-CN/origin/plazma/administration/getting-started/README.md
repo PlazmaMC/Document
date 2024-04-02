@@ -29,7 +29,7 @@ description: 了解如何使用Plazma创建服务器。
 
 如果显示如下内容，请跳过到[第2步](setup.md#id-2)。
 
-{% code title="올바른 출력" lineNumbers="true" %}
+{% code title="正确的输出" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -41,7 +41,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 如果没有显示如上内容，或者显示如下内容，则表示没有安装JRE或者太旧，请执行[1.2步骤](setup.md#id-1.2)。
 
-{% code title="JRE가 설치되어 있지 않음" lineNumbers="true" %}
+{% code title="未安装JRE" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
@@ -50,7 +50,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-{% code title="JRE가 너무 오래됨" lineNumbers="true" %}
+{% code title="JRE版本过旧" lineNumbers="true" %}
 
 ```log
 Unrecognized option: --version
@@ -79,13 +79,13 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu)从中下载**JDK 21**的`.dmg`安装向导并运行以安装JRE。
 
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
 
-먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
+首先，在终端中运行以下命令以向APT添加Azul Zulu存储库。
 
 ```bash
 sudo apt install gnupg ca-certificates curl --no-install-recommends --no-install-suggests -y
@@ -105,7 +105,7 @@ sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-
 
 {% tab title="Fedora/RHEL" %}
 
-다음 명령어를 입력하여 JRE를 설치할 수 있습니다.
+输入以下命令即可安装JRE。
 
 ```bash
 sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
@@ -124,7 +124,7 @@ Plazma提供多种形式的可执行文件。
 
 {% hint style="warning" %}
 
-**대부분의 경우에는 `Reobf Paperclip`을 사용합니다.**
+**在大多数情况下，使用`Reobf Paperclip`。**
 
 以下内容适用于对开发人员或不同形式的特性感兴趣的人。\
 如果是普通用户，则跳过到[第3步](setup.md#id-3)也没有问题。
@@ -173,13 +173,13 @@ Plazma提供多种形式的可执行文件。
 
 {% hint style="warning" %}
 
-**폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.**
+**文件夹名称必须无空格，并且必须以英文设置。**
 
 否则，Plazma或JRE可能无法正常工作。
 
 {% endhint %}
 
-现在运行启动脚本。 Windows의 경우, <mark style="background-color:orange;">방화벽 허용 선택 창에서, 반드시 **허용**을 선택</mark>해야 합니다.
+现在运行启动脚本。 在Windows中，<mark style="background-color:orange;">在防火墙允许选择窗口中，务必选择**允许**</mark>。
 
 ***
 
@@ -203,7 +203,7 @@ EULA[^9]是使用[Mojang Studios](#user-content-fn-10)的服务时必须同意�
 
 {% hint style="info" %}
 
-**해당 가이드에서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**本指南假定您使用Windows操作系统和可以使用[UPnP](#user-content-fn-12)[^12]的路由器。**
 
 如果路由器不支持UPnP，则由于每个路由器面板不同，您需要自行搜索资料。
 
@@ -212,7 +212,7 @@ EULA[^9]是使用[Mojang Studios](#user-content-fn-10)的服务时必须同意�
 
 {% hint style="warning" %}
 
-**Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.**
+**对于Linux或macOS等（准）UNIX系统操作系统，由于每个防火墙服务的设置方法不同，因此您需要自行搜索资料。**
 
 {% endhint %}
 
@@ -230,17 +230,17 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 {% tabs %}
 
-{% tab title="외부에서 접속" %}
+{% tab title="外部访问" %}
 
-포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
+如果不需要端口转发，或者已经成功进行了端口转发，则现在可以连接到服务器。
 
 连接服务器时使用的地址可以在[这里](https://ip.pe.kr/)进行确认。
 
 {% endtab %}
 
-{% tab title="UPnP로 포트포워딩 시도" %}
+{% tab title="通过UPnP尝试端口转发" %}
 
-서버 폴더의 `purpur.yml`에서, `network.upnp-port-forwarding`을 `true`로 활성화합니다.
+在服务器文件夹`purpur.yml`中，将`network.upnp-port-forwarding`设置为`true`。
 
 然后，重新启动服务器后，Plazma将自动尝试进行端口转发。
 
@@ -257,9 +257,9 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 {% endtab %}
 
-{% tab title="Ngrok으로 임시 주소 생성" %}
+{% tab title="使用Ngrok创建临时地址" %}
 
-Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들과 함께 플레이하기에 유용합니다.
+使用Ngrok的方法对于短期测试、参与或与朋友一起玩非常有用。
 
 1. 从[Ngrok官网](https://ngrok.com/download)下载`Windows (64-bit)` ZIP文件。
 2. 将下载的Ngrok放入服务器文件夹中。
@@ -271,9 +271,9 @@ Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들�
 
 {% endtab %}
 
-{% tab title="로컬에서 접속" %}
+{% tab title="本地连接" %}
 
-로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 `cmd /k ipconfig`를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
+如果要连接到服务器上的本地，请在运行窗口中运行`cmd /k ipconfig`，然后使用输出的`IPv4地址`进行连接。
 
 例如，运行命令后，输出如下：
 
