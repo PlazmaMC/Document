@@ -10,30 +10,31 @@ Selamat datang di Dokumentasi Penggunaan Plazma!
 
 {% hint style="info" %}
 
-### Tidak dapat menyelesaikan masalah melalui dokumentasi?
+**설명서를 통해 문제를 해결할 수 없나요?**
 
-[Server Discord resmi](https://discord.gg/MmfC52K8A8) atau [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) untuk bertanya kepada komunitas!
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+
 {% endhint %}
 
-### Tentang Plazma
+### About Plazma
 
-> Pelajari lebih lanjut tentang platform server Plazma.
+> Plazma는 어떤 서버 플랫폼인지 알아보세요.
 
 {% content-ref url="about/" %}
-[tentang](about/)
+[about](about/)
 {% endcontent-ref %}
 
-### Untuk Administrator
+### For Administrators
 
-> Gunakan Plazma untuk membuat server Anda sendiri.
+> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
 
-{% content-ref url="adminstration/" %}
-[adminstration](adminstration/)
+{% content-ref url="administration/" %}
+[administration](administration/)
 {% endcontent-ref %}
 
-### Untuk Pengembang
+### For Developers
 
-> Gunakan Plazma untuk mengembangkan proyek pihak ketiga.
+> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
