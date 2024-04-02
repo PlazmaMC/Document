@@ -4,6 +4,14 @@ description: Si tienes alguna pregunta, por favor házla a través de Discord o 
 
 # 🏠 Bienvenido al Portal de Documentos
 
+{% hint style="info" %}
+
+**Los documentos de Plazma están actualmente en estado de traducción automática.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### ¿Tienes alguna duda mientras usas Plazma?
 
 {% content-ref url="plazma/" %}
