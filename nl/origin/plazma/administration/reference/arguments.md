@@ -16,9 +16,9 @@ Systeemeigenschappen worden voorafgaand aan de initialisatie van Plazma verwerkt
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Het wijzigen van systeemeigenschappen kan de werking van Plazma en JVM veranderen en kan een grote invloed hebben op het spel!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Als je niet zeker weet welke rol elke systeemeigenschap speelt, **gebruik het dan absoluut niet!**
 
 {% endhint %}
 
@@ -38,9 +38,9 @@ als er geen waarde voor de eigenschap wordt ingevoerd, wordt de waarde [`true` v
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**De Paperweight-serie serverplatforms gebruikt puntjes in de eigenschapsnamen om eigenschappen voor elk platform te onderscheiden.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+In sommige terminals zoals Windows Powershell kan het zijn dat deze argumenten niet worden geaccepteerd, dus moet je `"` aan beide uiteinden van het argument [toevoegen.](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -83,7 +83,7 @@ Schakelt de bevestigingsberichten voor de `/reload`-opdracht uit.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**Het gebruik van het `/reload` commando is zeer instabiel, dus alle problemen die zich voordoen na het gebruik van `/reload` zijn de verantwoordelijkheid van de gebruiker.**
 
 Als u een plug-inontwikkelaar bent en uw plug-ins moet bijwerken, gebruik dan hotswapping in plaats van `/reload`.
 
@@ -172,7 +172,7 @@ Schakelt Java-versiecontrole uit.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Op deze manier kan JVM proberen toegang te krijgen tot niet-bestaande code!**
 
 Dit kan leiden tot permanente schade aan de wereld en andere bestanden, en kan de werking van het spel volledig verstoren.
 
@@ -277,7 +277,7 @@ Wanneer u de standaard uitvoerbaar gebruikt, past u alleen patches toe zonder de
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Deze eigenschap zal worden verplaatst naar de startargumenten na versie 1.20.5.**
 
 {% endhint %}
 
@@ -403,7 +403,7 @@ Kiest of spelers moeten worden geverifieerd via de Mojang-verificatieserver.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Dit argument is niet meer in gebruik na versie 1.19.4**
 
 {% endhint %}
 
