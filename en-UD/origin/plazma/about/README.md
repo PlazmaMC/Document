@@ -1,5 +1,5 @@
 ---
-description: .morfniatalf레브서무인플 란머피레브서 란머피레브서인플 서버의 어떤인플 란머피레브서 란머피레브서인플 는amzaPl
+description: Plazma는 어떤 서버 플랫폼인지 알아보세요.
 ---
 
 # ¿What is Plazma?
