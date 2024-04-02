@@ -50,7 +50,7 @@
 
 - [⚡ Volt Fejlesztési Útmutató](volt/README.md)
 
-## miscellaneous
+## Miscellaneous
 
 - [🧾 Vegyes](miscellaneous/README.md)
   - [⬇️ Teljes letöltés](plazma/about/downloads-all.md)
