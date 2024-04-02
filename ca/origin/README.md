@@ -12,7 +12,7 @@ description: Si tens alguna pregunta, si us plau, pregunta a través de Discord 
 
 {% endhint %}
 
-### Si tens alguna pregunta mentre fas servir el Plazma, no dubtis a preguntar.
+### Si tens problemes mentre fas servir el Plazma, què has de fer?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
