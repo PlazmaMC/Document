@@ -4,6 +4,14 @@ description: Se tiver alguma dúvida, por favor pergunte no Discord ou no GitHub
 
 # 🏠 Bem-vindo ao Portal de Documentos
 
+{% dica estilo="info" %}
+
+**Os documentos do Plazma estão atualmente em estado de tradução automática.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Se surgir alguma dúvida durante o uso do Plazma?
 
 {% content-ref url="plazma/" %}
