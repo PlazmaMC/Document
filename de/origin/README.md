@@ -4,6 +4,14 @@ description: Bei Fragen kontaktieren Sie uns bitte über Discord oder GitHub Iss
 
 # 🏠 Willkommen beim Docs-Portal
 
+{% Hinweis-Stil="info" %}
+
+**Die Dokumente von Plazma befinden sich derzeit in einem maschinellen Übersetzungszustand.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) Bitte beziehen Sie sich auf die Dokumentübersetzung auf der Website, um die Dokumente zu verbessern.
+
+{% endhint %}
+
 ### Wenn Sie Fragen zu Plazma haben, kontaktieren Sie uns.
 
 {% content-ref url="plazma/" %}
