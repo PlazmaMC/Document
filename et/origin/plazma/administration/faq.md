@@ -12,7 +12,7 @@ Küsige kogukonna käest küsimusi [ametlikus Discordi serveris](https://discord
 
 {% endhint %}
 
-### Kui käivitamisel kuvatakse sõnum, siis see ei käivitu
+### Plazma ei käivitu
 
 Kui konsoolil kuvatakse `no main manifest attribute, in plazma-(version).jar`,\
 tähendab see, et allalaaditud fail on arendusliku API-fail, peate alla laadima GitHubi lehelt **Reobf Paperweight**.
