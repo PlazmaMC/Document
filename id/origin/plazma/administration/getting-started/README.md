@@ -44,8 +44,8 @@ Jika output tidak sama seperti di atas atau jika outputnya menunjukkan bahwa JRE
 {% code title="JRE Tidak Terinstal" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' bukanlah perintah internal atau eksternal, program yang dapat dijalankan, atau
+file batch.
 ```
 
 {% endcode %}
@@ -278,14 +278,14 @@ Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들�
 Misalnya, setelah menjalankan perintah,
 
 ```log
-Windows IP 구성
+Windows Konfigurasi IP
 
-이더넷 어댑터 이더넷:
+Ethernet Adapter Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Suffix DNS terhubung. . . . :
+    Alamat IPv4. . . . . . . . . : 192.168.3.7
+    Subnet Mask . . . . . . . : 255.255.255.0
+    Gateway Default . . . . . . : 192.168.3.1
 
 ```
 
