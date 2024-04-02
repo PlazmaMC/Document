@@ -6,34 +6,34 @@ description: Tìm hiểu về các câu hỏi thường gặp.
 
 {% hint style="info" %}
 
-**원하는 답변을 찾을 수 없나요?**
+**Không tìm thấy câu trả lời bạn muốn?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+[Máy chủ Discord chính thức](https://discord.gg/MmfC52K8A8) hoặc [Vấn đề GitHub](https://github.com/PlazmaMC/PlazmaBukkit/issues) để đặt câu hỏi trong cộng đồng!
 
 {% endhint %}
 
-### 메세지가 출력되면서 실행이 되지 않습니다
+### Không thể thực thi với thông báo xuất hiện
 
-콘솔에 `no main manifest attribute, in plazma-(version).jar` 라고 출력된 경우,\
-다운로드한 파일은 개발용 API 파일로, GitHub 페이지에서 **Reobf Paperweight**을 다운로드해야 합니다.
+Nếu bạn thấy thông báo `no main manifest attribute, in plazma-(version).jar` trên cửa sổ console,\
+file bạn đã tải xuống là file API dành cho phát triển, bạn cần phải tải **Reobf Paperweight** từ trang GitHub.
 
-자세히 알아보려면 다음 페이지를 참고 하세요.
+Để biết thêm chi tiết, vui lòng tham khảo trang sau.
 
 {% content-ref url="getting-started/" %}
 [getting-started](getting-started#id-2)
 {% endcontent-ref %}
 
-### 서버가 시작될 때 마다 경고가 표시됩니다
+### Cảnh báo xuất hiện mỗi khi máy chủ khởi động
 
-Plazma는 일부 불안정한 패치가 포함되어 있으며, 항상 오작동할 가능성이 있으므로 다음과 같은 경고문을 서버가 시작될 때 출력하고 있습니다.
+Plazma chứa một số bản vá không ổn định và luôn có khả năng gây sự cố, vì vậy máy chủ sẽ hiển thị thông báo sau mỗi lần khởi động.
 
 ```log
 [12:34:56 WARN]: Warning! Plazma may cause unexpected problems, so be sure to test it thoroughly before using it on a public server.
 ```
 
-해당 경고문은 [`-DPlazma.iKnowWhatIAmDoing`](#user-content-fn-1)[^1] 시스템 속성을 사용하여 비활성화 할 수 있습니다.
+Bạn có thể vô hiệu hóa thông báo này bằng cách sử dụng thuộc tính hệ thống [`-DPlazma.iKnowWhatIAmDoing`](#user-content-fn-1)[^1].
 
-자세히 알아보려면 다음 페이지를 참고 하세요.
+Để biết thêm chi tiết, vui lòng tham khảo trang sau.
 
 {% content-ref url="reference/arguments.md" %}
 [arguments.md](reference/arguments.md#plazma.iknowwhatiamdoing)
@@ -41,4 +41,4 @@ Plazma는 일부 불안정한 패치가 포함되어 있으며, 항상 오작동
 
 ***
 
-[^1]: 1.20.1부터 사용 가능
+[^1]: Có sẵn từ phiên bản 1.20.1 trở lên
