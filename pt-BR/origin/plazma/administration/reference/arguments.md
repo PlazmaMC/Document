@@ -16,9 +16,9 @@ As propriedades do sistema são valores processados pelo JVM antes da inicializa
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Ao modificar as propriedades do sistema, o funcionamento do Plazma e do JVM pode ser alterado, o que pode ter um grande impacto no jogo!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Se você não tem certeza sobre qual papel cada propriedade do sistema desempenha, **não as utilize de forma alguma!**
 
 {% endhint %}
 
@@ -38,9 +38,9 @@ Se nenhum valor for inserido, o valor será fixado como [`true`.](#user-content-
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**A plataforma do tipo Paperweight diferencia as propriedades do sistema em cada plataforma incluindo um `.` no nome da propriedade.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Em alguns terminais como o Windows Powershell, esses argumentos podem não ser aceitos, então é necessário adicionar `"` nas extremidades dos argumentos. [#user-content-fn-4](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -83,7 +83,7 @@ Desativa a mensagem de confirmação do comando `/reload`.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**O comando `/reload` é extremamente instável, portanto, quaisquer problemas que ocorram no servidor após o uso do `/reload` são de responsabilidade do próprio usuário.**
 
 Se você é um desenvolvedor de plugins e precisa atualizá-los, utilize o hotswap ao invés do `/reload`.
 
@@ -172,7 +172,7 @@ Desativa a verificação da versão do Java.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Isso pode permitir que o JVM tente acessar código inexistente!**
 
 Pode resultar em danos permanentes nos arquivos do mundo e na quebra de todo o mecanismo do jogo.
 
@@ -277,7 +277,7 @@ Se estiver usando o arquivo de execução fornecido por padrão, aplica apenas o
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Esta propriedade será movida para os argumentos de inicialização após a versão 1.20.5.**
 
 {% endhint %}
 
@@ -403,7 +403,7 @@ Escolhe se deve validar os jogadores no servidor de autenticação da Mojang.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Este argumento foi descontinuado após a versão 1.19.4**
 
 {% endhint %}
 
