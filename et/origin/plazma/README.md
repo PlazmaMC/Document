@@ -10,31 +10,31 @@ Tere tulemast Plazma kasutusjuhenditesse!
 
 {% hint style="info" %}
 
-**설명서를 통해 문제를 해결할 수 없나요?**
+**Kas probleemi ei saa lahendada juhendist?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+Küsige kogukonna käest küsimusi [ametlikus Discordi serveris](https://discord.gg/MmfC52K8A8) või [GitHubi küsimustes](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
 
 {% endhint %}
 
-### About Plazma
+### Plazma kohta
 
-> Plazma는 어떤 서버 플랫폼인지 알아보세요.
+> Uurige, milline platvorm Plazma on.
 
 {% content-ref url="about/" %}
 [about](about/)
 {% endcontent-ref %}
 
-### For Administrators
+### Administraatoritele
 
-> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+> Looge oma server Plazma abil.
 
 {% content-ref url="administration/" %}
-[administration](administration/)
+[haldus](administration/)
 {% endcontent-ref %}
 
-### For Developers
+### Arendajatele
 
-> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
+> Arendage kolmanda osapoole projekt Plazma abil välja.
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
