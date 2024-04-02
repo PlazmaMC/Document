@@ -20,7 +20,7 @@
     - [🖥️ دستورات](plazma/administration/reference/commands.md)
     - [🛡️ مجوزها](plazma/administration/reference/permissions.md)
     - [🎨 فایل پیکربندی](plazma/administration/reference/configurations/README.md)
-      - [🪨 خصوصیت](plazma/administration/reference/configurations/property.md)
+      - [🪨 속성](plazma/administration/reference/configurations/property.md)
       - [🪣 بوکیت](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 اسپیگات](plazma/administration/reference/configurations/spigot.md)
       - [🛩️ پیپر](plazma/administration/reference/configurations/paper/README.md)
@@ -50,7 +50,7 @@
 
 - [⚡ راهنمای توسعه ولت](volt/README.md)
 
-## miscellaneous
+## متفرقه
 
 - [🧾 متفرقه](miscellaneous/README.md)
   - [⬇️ دانلود همه](plazma/about/downloads-all.md)
