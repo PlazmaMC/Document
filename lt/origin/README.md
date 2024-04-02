@@ -4,6 +4,14 @@ description: Jei turite klausimų, prašome juos užduoti per Discord arba GitHu
 
 # 🏠 Sveiki atvykę į Dokumentų portalą
 
+{% hint style="info" %}
+
+**Plazmos dokumentas dabar yra išverstas mašininiu būdu.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) Įtraukite dokumentacijos vertimą iš [https://translate.plazmamc.org/](https://translate.plazmamc.org/) kaip pagrindą ir pagerinkite dokumentą.
+
+{% endhint %}
+
 ### Jei kyla klausimų naudojant Plazmą,
 
 {% content-ref url="plazma/" %}
