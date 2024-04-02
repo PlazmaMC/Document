@@ -17,9 +17,9 @@ Järjestelmäominaisuus syötetään `-jar`-parametrin eteen ja sitä käsitell�
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Järjestelmäominaisuuksien muuttaminen voi muuttaa Plazman ja JVM:n toimintatapaa ja vaikuttaa suuresti peliin!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Jos et tiedä tarkalleen, mitä kukin järjestelmäominaisuus tekee, **älä käytä niitä missään tapauksessa!**
 
 {% endhint %}
 
@@ -40,9 +40,9 @@ jos arvoa ei anneta, arvo on [`true` oletusarvoisesti.](#user-content-fn-3)[^3]
 
 {% vinkki tyyli="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Paperweight-sarjan palvelualustat sisältävät pisteen ominaisuuden nimen erottamiseksi kullakin alustalla.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Joissakin terminaaleissa, kuten Windows Powershellissä, nämä parametrit eivät ehkä ole sallittuja, joten parametrien molempiin päihin on [lisättävä `"`.](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -85,7 +85,7 @@ Poistaa käytöstä `/reload`-komentoon liittyvän varmistusviestin.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**`/reload`-komento on erittäin epävakaa, joten kaikki ongelmat, jotka ilmenevät sen käytön jälkeen, ovat käyttäjän omalla vastuulla.**
 
 Jos olet lisäosakehittäjä ja sinun on päivitettävä lisäosaa, käytä `hotswap`-toimintoa `/reload`-käytön sijaan.
 
@@ -174,7 +174,7 @@ Poistaa käytöstä Java-version tarkistuksen.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Tällä tavoin JVM voi yrittää käsitellä olematonta koodia!**
 
 Tämä voi aiheuttaa pysyvää vahinkoa maailmoille ja yleisille tiedostoille, ja pelin koko mekaniikka voi hajota.
 
@@ -279,7 +279,7 @@ Käytettäessä oletustiedostoa, sovellus käynnistetään vain patchia levittä
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Tämä ominaisuus siirtyy käynnistysparametriin 1.20.5 jälkeen.**
 
 {% endhint %}
 
@@ -405,7 +405,7 @@ Valitsee, tarkistetaanko pelaajat Mojangin todennuspalvelimella.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Tämä parametri on poistettu käytöstä 1.19.4 jälkeen**
 
 {% endhint %}
 
