@@ -33,8 +33,8 @@ description: تعرف على كيفية إنشاء خادم باستخدام Pla
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
-OpenJDK Runtime Environment Zulu21.32+17-CA (build 21.0.2+13-LTS)
-OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, sharing)
+بيئة تشغيل OpenJDK Zulu21.32+17-CA (البناء 21.0.2+13-LTS)
+OpenJDK 64 بت خادم VM Zulu21.32+17-CA (البناء 21.0.2+13-LTS، وضع مختلط، مشاركة)
 ```
 
 {% endcode %}
@@ -44,8 +44,8 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 {% code title="لم يتم تثبيت JRE" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' غير معروف كأمر داخلي أو خارجي، برنامج قابل للتنفيذ، أو
+ملف دفعي.
 ```
 
 {% endcode %}
@@ -53,9 +53,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 {% code title="JRE قديم للغاية" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+خيار غير معترف به: --version
+خطأ: تعذر إنشاء الآلة الافتراضية لـ Java.
+خطأ: حدث استثناء قاتل. سيتم الخروج من البرنامج.
 ```
 
 {% endcode %}
