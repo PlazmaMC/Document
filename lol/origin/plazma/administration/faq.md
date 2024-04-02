@@ -12,7 +12,7 @@ description: Jazzu luvvz FAQz, find out moar.
 
 {% endhint %}
 
-### Messagez not runnin' wif outputz
+### Plazma haz startd nt werkin
 
 If console sez `no main manifest attribute, in plazma-(version).jar`, da file yoo downloadz be dev API file, yoo needz to download **Reobf Paperweight** frum GitHub page.
 
