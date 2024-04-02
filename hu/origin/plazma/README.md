@@ -10,30 +10,31 @@ description: "Plazma egy nyílt forráskódú szerver platform a Minecraft: Java
 
 {% hint style="info" %}
 
-### Nem tudja megoldani a problémát az útmutatóval?
+**설명서를 통해 문제를 해결할 수 없나요?**
 
-[Hivatalos Discord szerver](https://discord.gg/MmfC52K8A8) vagy [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) oldalon tegye fel kérdését a közösségnek!
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+
 {% endhint %}
 
-### A Plazma-ról
+### About Plazma
 
-> Ismerje meg, hogy mi is pontosan a Plazma szerver platform.
+> Plazma는 어떤 서버 플랫폼인지 알아보세요.
 
 {% content-ref url="about/" %}
 [about](about/)
 {% endcontent-ref %}
 
-### Adminisztrátoroknak
+### For Administrators
 
-> Hozzon létre saját szerverét a Plazma segítségével.
+> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
 
-{% content-ref url="adminstration/" %}
-[adminstration](adminstration/)
+{% content-ref url="administration/" %}
+[administration](administration/)
 {% endcontent-ref %}
 
-### Fejlesztőknek
+### For Developers
 
-> Fejlesszen harmadik fél projekteket a Plazma segítségével.
+> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
