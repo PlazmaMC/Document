@@ -44,8 +44,8 @@ If the output is not like the above, or if it is as follows, then JRE is either 
 {% code title="JRE not installed" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' is not recognized as an internal or external command,
+operable program or batch file.
 ```
 
 {% endcode %}
@@ -277,14 +277,14 @@ If you are trying to connect to the server from local, you can connect using the
 For example, when the following is displayed after running the command,
 
 ```log
-Windows IP 구성
+Windows IP Configuration
 
-이더넷 어댑터 이더넷:
+Ethernet Adapter Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Connected DNS Suffix. . . . :
+    IPv4 Address. . . . . . . . : 192.168.3.7
+    Subnet Mask . . . . . . . . : 255.255.255.0
+    Default Gateway . . . . . . : 192.168.3.1
 
 ```
 
