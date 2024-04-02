@@ -16,7 +16,7 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 
 {% endhint %}
 
-### About Plazma
+### Plazma 소개
 
 > Plazma는 어떤 서버 플랫폼인지 알아보세요.
 
@@ -24,7 +24,7 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 [about](about/)
 {% endcontent-ref %}
 
-### For Administrators
+### 관리자를 위한
 
 > Plazma를 활용하여 자신만의 서버를 만들어 보세요.
 
@@ -32,7 +32,7 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 [administration](administration/)
 {% endcontent-ref %}
 
-### For Developers
+### 개발자를 위한
 
 > Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
 
