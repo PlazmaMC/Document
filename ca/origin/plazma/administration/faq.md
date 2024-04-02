@@ -12,7 +12,7 @@ Feu preguntes a la comunitat a través del [servidor Discord oficial](https://di
 
 {% endhint %}
 
-### No s'executa amb un missatge de sortida
+### Plazma no s'inicia
 
 Si apareix `no main manifest attribute, in plazma-(versió).jar` a la consola, el fitxer descarregat és un fitxer API de desenvolupament, heu de descarregar **Reobf Paperweight** de la pàgina de GitHub.
 
