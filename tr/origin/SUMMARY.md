@@ -20,7 +20,7 @@
     - [🖥️ Komutlar](plazma/administration/reference/commands.md)
     - [🛡️ İzinler](plazma/administration/reference/permissions.md)
     - [🎨 Yapılandırma Dosyası](plazma/administration/reference/configurations/README.md)
-      - [🪨 Özellik](plazma/administration/reference/configurations/property.md)
+      - [🪨 Özellik](plazma/yönetim/başvuru/ayarlar/özellik.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
       - [🛩️ Paper](plazma/administration/reference/configurations/paper/README.md)
@@ -50,7 +50,7 @@
 
 - [⚡ Volt Geliştirme Kılavuzu](volt/README.md)
 
-## miscellaneous
+## Çeşitli
 
-- [🧾 Çeşitli](miscellaneous/README.md)
+- [🧾 Çeşitli](çeşitli/README.md)
   - [⬇️ Tümünü İndir](plazma/about/downloads-all.md)
