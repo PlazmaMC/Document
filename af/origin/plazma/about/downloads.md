@@ -14,9 +14,9 @@ description: Laai Plazma nou af en probeer dit self uit.
 
 {% hint style="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**Die aflaaibestand hieronder is vir algemene gebruikers se uitvoeringslêer.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+As jy 'n ontwikkelaar is en 'n ander tipe lêer benodig, sien asseblief die onderstaande bladsy.
 
 {% endhint %}
 
