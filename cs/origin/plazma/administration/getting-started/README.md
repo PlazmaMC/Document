@@ -33,8 +33,8 @@ Pokud se zobrazí následující výstup, přeskočte na [2. krok](setup.md#id-2
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
-OpenJDK Runtime Environment Zulu21.32+17-CA (build 21.0.2+13-LTS)
-OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, sharing)
+OpenJDK Runtime Environment Zulu21.32+17-CA (sestavení 21.0.2+13-LTS)
+OpenJDK 64-Bit Server VM Zulu21.32+17-CA (sestavení 21.0.2+13-LTS, smíšený režim, sdílení)
 ```
 
 {% endcode %}
@@ -44,8 +44,8 @@ Pokud se nezobrazí výstup jako výše, nebo se zobrazí následující, chybí
 {% code title="JRE není nainstalováno" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' není rozpoznávaným vnitřním nebo externím příkazem, spustitelným programem nebo
+souborem dávkových příkazů.
 ```
 
 {% endcode %}
@@ -53,9 +53,9 @@ Pokud se nezobrazí výstup jako výše, nebo se zobrazí následující, chybí
 {% code title="JRE je příliš zastaralé" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+Nerozpoznaná volba: --version
+Chyba: Nelze vytvořit virtuální stroj Java.
+Chyba: Došlo k fatální výjimce. Program se ukončí.
 ```
 
 {% endcode %}
@@ -278,14 +278,14 @@ Pokud se chcete připojit k serveru z lokálního zařízení, můžete použít
 Například, pokud se po spuštění příkazu zobrazí následující,
 
 ```log
-Windows IP 구성
+Windows IP konfigurace
 
-이더넷 어댑터 이더넷:
+Ethernetový adaptér Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Připojené DNS přípony. . . . :
+    IPv4 adresa. . . . . . . . . : 192.168.3.7
+    Maskování podsítě. . . . . . . : 255.255.255.0
+    Výchozí brána. . . . . . . : 192.168.3.1
 
 ```
 
