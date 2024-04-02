@@ -50,7 +50,7 @@
 
 - [⚡ Volt Plėtros vadovas](volt/README.md)
 
-## miscellaneous
+## Įvairūs
 
 - [🧾 Įvairūs](miscellaneous/README.md)
   - [⬇️ Atsisiųsti viską](plazma/about/downloads-all.md)
