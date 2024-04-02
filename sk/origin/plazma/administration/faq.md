@@ -12,7 +12,7 @@ Skúste sa obrátiť na komunitu cez [Oficiálny Discord server](https://discord
 
 {% endhint %}
 
-### Problém s vykonaním a zobrazením správy
+### Plazma sa nezačína
 
 Ak sa zobrazí chyba `no main manifest attribute, in plazma-(version).jar`,\
 súbor, ktorý ste stiahli, je vývojovým API súborom a musíte si stiahnuť **Reobf Paperweight** z GitHub stránky.
