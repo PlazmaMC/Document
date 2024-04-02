@@ -4,6 +4,14 @@ description: Dacă aveți întrebări, vă rugăm să întrebați prin Discord s
 
 # 🏠 Bine ați venit la Portalul de Documente
 
+{% hint style="info" %}
+
+**Documentele lui Plazma sunt în prezent traduse automat.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) încercați să vă îmbunătățiți documentul referindu-vă la traducerea documentului de pe [https://translate.plazmamc.org/](https://translate.plazmamc.org/).
+
+{% endhint %}
+
 ### Dacă aveți întrebări în timp ce utilizați Plazma?
 
 {% content-ref url="plazma/" %}
