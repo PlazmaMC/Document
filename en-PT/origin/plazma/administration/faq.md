@@ -12,7 +12,7 @@ description: Learn about the frequently asked questions, ye scallywag.
 
 {% endhint %}
 
-### Execution be not happenin' with a message bein' displayed
+### Plazma be not startin'
 
 If `no main manifest attribute, in plazma-(version).jar` be showin' in the console, the downloaded file be a development API file, and ye need to download **Reobf Paperweight** from the GitHub page.
 
