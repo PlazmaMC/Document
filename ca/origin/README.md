@@ -4,6 +4,14 @@ description: Si tens alguna pregunta, si us plau, pregunta a través de Discord 
 
 # 🏠 Benvingut al Portal de Docs
 
+{% hint style="info" %}
+
+**Els documents de Plazma estan actualment en un estat de traducció automàtica.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) a partir de la traducció de documents, millora els documents.
+
+{% endhint %}
+
 ### Si tens alguna pregunta mentre fas servir el Plazma, no dubtis a preguntar.
 
 {% content-ref url="plazma/" %}
