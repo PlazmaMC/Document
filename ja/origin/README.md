@@ -4,6 +4,14 @@ description: 質問がある場合は、DiscordまたはGitHub Issuesを通じ�
 
 # 🏠 ドキュメントポータルへようこそ
 
+{% hint style="info" %}
+
+**Plazmaの文書は現在機械翻訳されています。**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Plazmaを使用中に疑問が生じた場合は？
 
 {% content-ref url="plazma/" %}
