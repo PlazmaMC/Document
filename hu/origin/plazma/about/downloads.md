@@ -14,11 +14,15 @@ description: Töltsd le most a Plazma-t, és próbáld ki személyesen.
 
 {% hint style="info" %}
 
-A letöltés általában használt formája egy végrehajtható fájl.
+**아래 다운로드는 일반 사용자용 실행 파일입니다.**
 
-Fejlesztő vagyok, és más formátumú fájlokra van szükség, kérjük, tekintse meg az alábbi szekciót.
+개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
 {% endhint %}
+
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
 
 <table data-view="cards">
     <thead>
@@ -50,16 +54,3 @@ Fejlesztő vagyok, és más formátumú fájlokra van szükség, kérjük, tekin
         </tr>
     </tbody>
 </table>
-
-<details>
-<summary>Összes letöltés megtekintése</summary>
-
-| Verzió |                                    [RP](#user-content-fn-1)[^1]                                    |                                     [MP](#user-content-fn-2)[^2]                                    |                                   [RB](#user-content-fn-3)[^3]                                   |                                    [MB](#user-content-fn-4)[^4]                                   |
-| :----: | :----------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 1.20.5 |                                                                     _Kiadásra vár_                                                                     |                                                                      _Kiadásra vár_                                                                     |                                                                    _Kiadásra vár_                                                                    |                                                                     _Kiadásra vár_                                                                    |
-| 1.20.4 | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.20.2 | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.20.1 | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
-| 1.19.4 | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [Letöltéshez kattintson ide](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
-
-</details>
