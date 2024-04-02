@@ -33,8 +33,8 @@ Si es mostra el següent, salteu al [pas 2](setup.md#id-2).
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
-OpenJDK Runtime Environment Zulu21.32+17-CA (build 21.0.2+13-LTS)
-OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, sharing)
+OpenJDK Entorn d'execució Zulu21.32+17-CA (compilació 21.0.2+13-LTS)
+OpenJDK Màquina virtual de servidor de 64 bits Zulu21.32+17-CA (compilació 21.0.2+13-LTS, mode mixt, compartit)
 ```
 
 {% endcode %}
@@ -44,8 +44,8 @@ Si no es mostra així, o es mostra com a continuació, vol dir que JRE no està 
 {% code title="JRE no està instal·lat" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' no és un comandament intern o extern, un programa executable o un
+fitxer de processament per lots.
 ```
 
 {% endcode %}
@@ -53,9 +53,9 @@ Si no es mostra així, o es mostra com a continuació, vol dir que JRE no està 
 {% code title="JRE està massa antic" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+Opció no reconeguda: --versió
+Error: No s'ha pogut crear la Màquina Virtual Java.
+Error: Ha succeït una excepció fatal. El programa sortirà.
 ```
 
 {% endcode %}
@@ -277,14 +277,14 @@ Si vols connectar-te al servidor des de local, pots utilitzar la finestra d'exec
 Per exemple, si després d'executar la comanda es mostra el següent:
 
 ```log
-Windows IP 구성
+Windows IP configuració
 
-이더넷 어댑터 이더넷:
+Adaptador d'Ethernet Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Sufix de DNS connectat. . . . :
+    Adreça IPv4. . . . . . . . . : 192.168.3.7
+    Màscara de subxarxa . . . . . . . : 255.255.255.0
+    Passarel·la predeterminada . . . . . . : 192.168.3.1
 
 ```
 
