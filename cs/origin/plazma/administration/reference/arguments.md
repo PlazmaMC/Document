@@ -17,9 +17,9 @@ Vlastnosti systému jsou hodnoty zpracované v JVM před inicializací Plazmy za
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Úpravou systémových vlastností se může změnit chování Plazma a JVM a může mít velký vliv na hru!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Pokud nevíte přesně, jaká role je přiřazena každé systémové vlastnosti, **nepoužívejte ji!**
 
 {% endhint %}
 
@@ -40,9 +40,9 @@ Pokud nezadáte žádnou hodnotu, hodnota se [nastaví na `true`.](#user-content
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Serverová platforma řady Paperweight obsahuje tečku v názvu vlastnosti k oddělení systémových vlastností pro každou platformu.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+V některých terminálech jako Windows Powershell mohou tyto argumenty neumožňovat, takže na obou koncích argumentu musí být přidána `"` [viz.](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -85,7 +85,7 @@ Deaktivuje potvrzovací zprávu pro příkaz `/reload`.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**Příkaz `/reload` je velmi nestabilní, takže veškeré problémy ve hře po jeho použití jsou zodpovědností uživatele.**
 
 Pokud jste vývojář pluginů a potřebujete aktualizovat plugin, použijte místo `/reload` horkou výměnu.
 
@@ -174,7 +174,7 @@ Deaktivuje kontrolu verze Javy.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Tímto způsobem může JVM pokusit se přistupovat k neexistujícímu kódu!**
 
 Může dojít k trvalému poškození souborů ve světě a selhání celé herní mechaniky.
 
@@ -279,7 +279,7 @@ Pokud používáte výchozí spustitelný soubor, aplikuje pouze patch, ale neza
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Tato vlastnost bude přesunuta jako startovací argument po verzi 1.20.5.**
 
 {% endhint %}
 
@@ -405,7 +405,7 @@ Vyberte, zda chcete ověřovat hráče u Mojang ověřovacího serveru.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Tento argument byl zrušen po verzi 1.19.4.**
 
 {% endhint %}
 
