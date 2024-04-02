@@ -12,7 +12,7 @@ Améliorez le document en consultant la traduction du document sur [https://tran
 
 {% endhint %}
 
-### Si vous avez des questions pendant l'utilisation de Plazma, n'hésitez pas à demander.
+### Si vous rencontrez un problème lors de l'utilisation de Plazma?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
