@@ -33,8 +33,8 @@ Ha az alábbiakhoz hasonló eredményt kapsz, ugorj a [2. lépésre](setup.md#id
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
-OpenJDK Runtime Environment Zulu21.32+17-CA (build 21.0.2+13-LTS)
-OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, sharing)
+OpenJDK Futtatókörnyezet Zulu21.32+17-CA (verzió: 21.0.2+13-LTS)
+OpenJDK 64-bites Szerver VM Zulu21.32+17-CA (verzió: 21.0.2+13-LTS, vegyes mód, megosztás)
 ```
 
 {% endcode %}
@@ -44,8 +44,8 @@ Ha nem ez jelenik meg, vagy az alábbihoz hasonló, akkor nincs telepítve a JRE
 {% code title="JRE nincs telepítve" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' nem ismert parancs, belső vagy külső parancs, futtatható program vagy
+batch fájl.
 ```
 
 {% endcode %}
@@ -53,9 +53,9 @@ Ha nem ez jelenik meg, vagy az alábbihoz hasonló, akkor nincs telepítve a JRE
 {% code title="JRE túl régi" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+Felismeretlen opció: --version
+Hiba: Nem lehet létrehozni a Java virtuális gépet.
+Hiba: Végzetes kivétel történt. A program leáll.
 ```
 
 {% endcode %}
@@ -278,14 +278,14 @@ Ha a szerverhez helyileg szeretnél csatlakozni, futtasd a `cmd /k ipconfig` par
 Például, ha a parancs végrehajtása után a következőképpen jelenik meg a kimenet,
 
 ```log
-Windows IP 구성
+Windows IP konfiguráció
 
-이더넷 어댑터 이더넷:
+Ethernet adapter Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Csatlakoztatott DNS keresztnév. . . . :
+    IPv4 cím. . . . . . . . . : 192.168.3.7
+    Alhálózati maszk . . . . . . . : 255.255.255.0
+    Alapértelmezett átjáró . . . . . . : 192.168.3.1
 
 ```
 
