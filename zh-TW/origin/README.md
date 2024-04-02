@@ -12,7 +12,7 @@ description: 如果有問題，請通過Discord或GitHub Issues提問。
 
 {% endhint %}
 
-### 在使用Plazma時有疑問嗎？
+### 如果在使用Plazma時遇到問題呢？
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
