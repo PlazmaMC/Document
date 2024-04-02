@@ -6,10 +6,10 @@ description: Leer hoe om die herstel van die Paper en vanilla patches te doen.
 
 {% hint style="warning" %}
 
-**Paper는 바닐라의 오류를 해결하는 대부분의 패치에 선택지를 추가하고 있지 않습니다.**
+**Paper voeg nie opsies by vir die meeste pleisters wat Vanilla se foute regstel nie.**
 
 Plazma werk tans aan 'n konfigurasie wat sulke foute kan deaktiveer.
 
-따라서 아직 본 가이드는 작성중이며, 언제나 정보가 바뀔 가능성이 있습니다.
+Daarom is hierdie gids nog in wording en die inligting kan enige tyd verander.
 
 {% endhint %}
