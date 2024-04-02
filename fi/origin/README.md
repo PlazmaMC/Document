@@ -4,6 +4,14 @@ description: Jos sinulla on kysyttävää, kysy Discordin tai GitHub Issuesin ka
 
 # 🏠 Tervetuloa Docs-portaaliin
 
+{% vinkki tyyli="info" %}
+
+**Plazman asiakirja on tällä hetkellä konekäännetty.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Jos sinulla on kysyttävää Plazmaa käytettäessä, kysy rohkeasti.
 
 {% content-ref url="plazma/" %}
