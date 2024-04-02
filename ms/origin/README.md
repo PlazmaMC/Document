@@ -12,7 +12,7 @@ description: Jika anda mempunyai sebarang pertanyaan, sila bertanya melalui Disc
 
 {% endhint %}
 
-### Jika anda mempunyai sebarang pertanyaan semasa menggunakan Plazma,
+### Jika terdapat masalah semasa menggunakan Plazma, apakah yang perlu dilakukan?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
