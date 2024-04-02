@@ -4,6 +4,14 @@ description: Nếu có câu hỏi, vui lòng đặt câu hỏi thông qua Discor
 
 # 🏠 Chào mừng đến với Cổng Tài liệu
 
+{% hint style="info" %}
+
+**Plazma의 문서는 현재 기계 번역된 상태입니다.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Nếu bạn có bất kỳ thắc mắc nào khi sử dụng Plazma?
 
 {% content-ref url="plazma/" %}
