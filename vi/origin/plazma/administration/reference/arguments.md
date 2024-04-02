@@ -17,9 +17,9 @@ Thuộc tính hệ thống được nhập trước `-jar` và được xử lý
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Khi chỉnh sửa thuộc tính hệ thống, cách hoạt động của Plazma và JVM có thể thay đổi, ảnh hưởng lớn đến trò chơi!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Nếu không chắc chắn về vai trò của mỗi thuộc tính hệ thống, **đừng bao giờ sử dụng!**
 
 {% endhint %}
 
@@ -40,9 +40,9 @@ Nếu không nhập giá trị, giá trị sẽ được [`true` cố định.](
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Nền tảng máy chủ dòng Paperweight sử dụng dấu `.` trong tên thuộc tính để phân biệt từng nền tảng.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Trong một số terminal như Windows Powershell, có thể không chấp nhận các đối số này, vì vậy, bạn cần [thêm `"` vào hai đầu của đối số.](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -85,7 +85,7 @@ Vô hiệu hóa thông báo xác nhận lệnh `/reload`.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**Lệnh `/reload` rất không ổn định, vì vậy, mọi vấn đề xảy ra sau khi sử dụng `/reload` là trách nhiệm của người dùng.**
 
 Nếu bạn là nhà phát triển plugin và cần phải cập nhật plugin, hãy sử dụng hotswap thay vì `/reload`.
 
@@ -174,7 +174,7 @@ Vô hiệu hóa kiểm tra phiên bản Java.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Như vậy, JVM có thể cố gắng truy cập vào mã không tồn tại!**
 
 Có thể dẫn đến hỏng toàn bộ tệp trong thế giới và làm hỏng cơ chế trò chơi.
 
@@ -279,7 +279,7 @@ Khi sử dụng tệp thực thi mặc định, chỉ áp dụng bản vá mà k
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Thuộc tính này sẽ được chuyển sang đối số khởi đầu từ phiên bản 1.20.5 trở đi.**
 
 {% endhint %}
 
@@ -405,7 +405,7 @@ Mojang 인증 서버에서 플레이어를 인증할지 선택합니다.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Đối số này đã bị ngưng sử dụng từ phiên bản 1.19.4 trở đi**
 
 {% endhint %}
 
