@@ -12,7 +12,7 @@ description: Indien daar enige vrae is, vra asseblief deur Discord of GitHub Iss
 
 {% endhint %}
 
-### As jy enige vrae het terwyl jy Plazma gebruik?
+### As daar 'n probleem is terwyl jy Plazma gebruik, wat moet gedoen word?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
