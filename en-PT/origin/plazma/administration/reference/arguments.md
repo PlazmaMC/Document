@@ -16,9 +16,9 @@ System properties be values processed by the JVM before Plazma be initialized an
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**If ye be alterin' system attributes, it may change th' operation o' Plazma an' JVM, an' could have a major impact on th' game!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+If ye be not sure what each system attribute does, **never use it!**
 
 {% endhint %}
 
@@ -38,9 +38,9 @@ If no value be entered for the property, the value be fixed to [`true`, arrr.](#
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Paperweight series server platform be includin' a `.` in th' attribute name t' differentiate system attributes fer each platform.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+In some terminals like Windows Powershell, these arguments may not be allowed, so ye should add `"` at th' ends o' th' arguments. [^4]
 
 {% endhint %}
 
@@ -83,7 +83,7 @@ Disables the confirmation message for the `/reload` command, arrr.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**`/reload` command be very unstable, so any issues occurrin' in th' server after usin' `/reload` be on th' user themselves.**
 
 If ye be a plugin developer and need to update a plugin, use hotswapping instead of `/reload`, arrr.
 
@@ -172,7 +172,7 @@ Disables Java version checking, me hearties.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**This may allow JVM t' attempt accessin' non-existent code!**
 
 This could permanently damage world files and overall game mechanics, arrr.
 
@@ -277,7 +277,7 @@ When using the default provided executable, only applies patches without startin
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**This attribute be movin' t' start arguments after 1.20.5.**
 
 {% endhint %}
 
@@ -403,7 +403,7 @@ Chooses whether t' authenticate players with Mojang authentication servers.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**This argument be deprecated after 1.19.4**
 
 {% endhint %}
 
