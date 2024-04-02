@@ -6,10 +6,10 @@ description: Mësoni se si të riktheni rregullimin e letër dhe vaniljes.
 
 {% hint style="warning" %}
 
-**Paper는 바닐라의 오류를 해결하는 대부분의 패치에 선택지를 추가하고 있지 않습니다.**
+**Paper nuk ka shtuar opsionet në shumicën e rregullimeve për gabimet e vanilës.**
 
 Plazma aktualisht po zhvillon mundësinë për të çaktivizuar zgjidhjet e këtyre gabimeve.
 
-따라서 아직 본 가이드는 작성중이며, 언제나 정보가 바뀔 가능성이 있습니다.
+Prandaj, kjo udhëzues është ende në proces shkrimi dhe informacioni mund të ndryshojë në çdo kohë.
 
 {% endhint %}
