@@ -33,8 +33,8 @@ Plazma מבוסס על פלטפורמת השרת הרשמית של Mojang Studio
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
-OpenJDK Runtime Environment Zulu21.32+17-CA (build 21.0.2+13-LTS)
-OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, sharing)
+סביבת הרצה OpenJDK Zulu21.32+17-CA (בנייה 21.0.2+13-LTS)
+OpenJDK 64-Bit שרת VM Zulu21.32+17-CA (בנייה 21.0.2+13-LTS, מצב מעורב, שיתוף)
 ```
 
 {% endcode %}
@@ -44,8 +44,8 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 {% code title="JRE לא מותקן" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' הוא פקודה פנימית או חיצונית, תוכנית הניתנת לביצוע, או
+קובץ batch אינו זמין.
 ```
 
 {% endcode %}
@@ -53,9 +53,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 {% code title="JRE ישן מדי" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+אפשרות לא מוכרת: --version
+שגיאה: לא ניתן היה ליצור את מכונת ה-Java הווירטואלית.
+שגיאה: שגיאה חמורה אירעה. התוכנית תיצא.
 ```
 
 {% endcode %}
@@ -278,14 +278,14 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 예를 들어, 명령어 실행 후 다음과 같이 출력되었을 때,
 
 ```log
-Windows IP 구성
+Windows תצורת IP
 
-이더넷 어댑터 이더넷:
+מתאם Ethernet Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    סיומת DNS מחוברת. . . . :
+    כתובת IPv4. . . . . . . . . : 192.168.3.7
+    מסכת תת-רשת . . . . . . . : 255.255.255.0
+    שער ברירת מחדל . . . . . . : 192.168.3.1
 
 ```
 
