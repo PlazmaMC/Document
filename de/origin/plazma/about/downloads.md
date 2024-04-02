@@ -14,11 +14,15 @@ description: Laden Sie Plazma jetzt herunter und probieren Sie es selbst aus.
 
 {% Hinweis-Stil="info" %}
 
-Der folgende Download ist eine üblicherweise verwendete Form einer ausführbaren Datei.
+**아래 다운로드는 일반 사용자용 실행 파일입니다.**
 
-Ich bin ein Entwickler und wenn Sie eine andere Art von Datei benötigen, siehe den Abschnitt unten.
+개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
 {% endhint %}
+
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
 
 <table data-view="cards">
     <thead>
@@ -50,16 +54,3 @@ Ich bin ein Entwickler und wenn Sie eine andere Art von Datei benötigen, siehe 
         </tr>
     </tbody>
 </table>
-
-<details>
-<Zusammenfassung>Alle herunterladen</Zusammenfassung>
-
-| Version |                                         [RP](#user-content-fn-1)[^1]                                         |                                          [MP](#user-content-fn-2)[^2]                                         |                                        [RB](#user-content-fn-3)[^3]                                        |                                         [MB](#user-content-fn-4)[^4]                                        |
-| :-----: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|  1.20.5 |                                                                       _Release ausstehend_                                                                       |                                                                        _Release ausstehend_                                                                       |                                                                      _Release ausstehend_                                                                      |                                                                       _Release ausstehend_                                                                      |
-|  1.20.4 | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.2 | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.1 | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.19.4 | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [Klicken Sie hier, um herunterzuladen](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
-
-</details>
