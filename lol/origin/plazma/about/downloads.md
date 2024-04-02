@@ -14,11 +14,15 @@ description: Nao downloadz Plazma rite meow n try it out fur yourself.
 
 {% hint style="info" %}
 
-아래 다운로드는 일반적으로 사용되는 형태의 실행 파일입니다.
+**아래 다운로드는 일반 사용자용 실행 파일입니다.**
 
-devlopr an, diffrnt formz ov filez iz needd, see below sectshun fur refernsez.
+개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
 {% endhint %}
+
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
 
 <table data-view="cards">
     <thead>
@@ -50,16 +54,3 @@ devlopr an, diffrnt formz ov filez iz needd, see below sectshun fur refernsez.
         </tr>
     </tbody>
 </table>
-
-<details>
-<summary>dwnlod full view</summary>
-
-| vershun |                              [RP](#user-content-fn-1)[^1]                              |                               [MP](#user-content-fn-2)[^2]                              |                             [RB](#user-content-fn-3)[^3]                             |                              [MB](#user-content-fn-4)[^4]                             |
-| :-----: | :----------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: |
-|  1.20.5 |                                                                 _relz w8in_                                                                |                                                                 _relz w8in_                                                                 |                                                                _relz w8in_                                                               |                                                                _relz w8in_                                                                |
-|  1.20.4 | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.2 | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.1 | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.19.4 | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [klikz 2 dwnlod](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
-
-</details>
