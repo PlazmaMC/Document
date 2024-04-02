@@ -29,7 +29,7 @@ For å sjekke om JRE er installert på systemet, skriv inn [`cmd /k java --versi
 
 Hvis du ser følgende utdata, hopp til [trinn 2](setup.md#id-2).
 
-{% code title="올바른 출력" lineNumbers="true" %}
+{% code title="Riktig utskrift" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -41,7 +41,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 Hvis du ikke ser det ovennevnte, eller ser noe som nedenfor, betyr det at JRE ikke er installert eller er for gammel, og du må utføre [trinn 1.2](setup.md#id-1.2).
 
-{% code title="JRE가 설치되어 있지 않음" lineNumbers="true" %}
+{% code title="JRE er ikke installert" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
@@ -50,7 +50,7 @@ Hvis du ikke ser det ovennevnte, eller ser noe som nedenfor, betyr det at JRE ik
 
 {% endcode %}
 
-{% code title="JRE가 너무 오래됨" lineNumbers="true" %}
+{% code title="JRE er for gammel" lineNumbers="true" %}
 
 ```log
 Unrecognized option: --version
@@ -79,13 +79,13 @@ Etter at du har installert det, utfør [trinn 1.1](setup.md#id-1.1) på nytt for
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) der **JDK 21** kan lastes ned som en `.dmg`-installasjonsveiviser fra og kjøres for å installere JRE.
 
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
 
-먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
+Legg til Azul Zulu-repositoriet i APT ved å kjøre følgende kommando i terminalen først.
 
 ```bash
 sudo apt install gnupg ca-certificates curl --no-install-recommends --no-install-suggests -y
@@ -105,7 +105,7 @@ sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-
 
 {% tab title="Fedora/RHEL" %}
 
-다음 명령어를 입력하여 JRE를 설치할 수 있습니다.
+Du kan installere JRE ved å bruke følgende kommando.
 
 ```bash
 sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
@@ -124,7 +124,7 @@ Plazma tilbyr forskjellige typer kjørbare filer.
 
 {% hint style="warning" %}
 
-**대부분의 경우에는 `Reobf Paperclip`을 사용합니다.**
+**I de fleste tilfeller bruker du `Reobf Paperclip`.**
 
 Nedenfor informasjonen er for utviklere eller de som er interessert i egenskapene til hver type.\
 Hvis du er en vanlig bruker, kan du hoppe til [trinn 3](setup.md#id-3) uten problemer.
@@ -172,13 +172,13 @@ Flytt det nedlastede startskriptet og Plazma til en ny mappe.
 
 {% hint style="warning" %}
 
-**폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.**
+**Mappenavnet må ikke inneholde mellomrom og må være på engelsk.**
 
 Ellers kan Plazma eller JRE kanskje ikke fungere riktig.
 
 {% endhint %}
 
-Kjør startskriptet nå. Windows의 경우, <mark style="background-color:orange;">방화벽 허용 선택 창에서, 반드시 **허용**을 선택</mark>해야 합니다.
+Kjør startskriptet nå. For Windows må du <mark style="background-color:orange;">velge **Tillat** i brannmurtilgangsvinduet.</mark>
 
 ***
 
@@ -202,7 +202,7 @@ For Windows, siden du har tillatt det i [trinn 3](setup.md#id-3), trenger du bar
 
 {% hint style="info" %}
 
-**해당 가이드에서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Denne veiledningen antar at du bruker Windows-operativsystemet og en ruter som støtter [UPnP](#user-content-fn-12)[^12].**
 
 Hvis ruteren ikke støtter UPnP, må du søke etter informasjon om konfigurering for ulike rutere.
 
@@ -211,7 +211,7 @@ Alternativt kan du bruke [Ngrok](https://ngrok.com/) for å opprette en midlerti
 
 {% hint style="warning" %}
 
-**Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.**
+**For (semi-)UNIX-baserte operativsystemer som Linux eller macOS, må du søke etter informasjon om hvordan du konfigurerer brannmuren for hver tjeneste, da prosedyrene vil variere.**
 
 {% endhint %}
 
@@ -229,9 +229,9 @@ Hvis utdataen er `True`, er du ferdig her. Hvis den er `False`, må du konfigure
 
 {% tabs %}
 
-{% tab title="외부에서 접속" %}
+{% tab title="Tilgang utenfra" %}
 
-포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
+Hvis du ikke trenger portvideresending, eller allerede har konfigurert det, kan du nå koble til serveren.
 
 Du kan finne adressen som brukes for å koble til serveren [her](https://ip.pe.kr/).
 
