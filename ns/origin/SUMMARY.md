@@ -50,7 +50,7 @@
 
 - [⚡ Volt 개발 가이드](volt/README.md)
 
-## miscellaneous
+## 기타
 
-- [🧾 miscellaneous](miscellaneous/README.md)
+- [🧾 기타](miscellaneous/README.md)
   - [⬇️ 다운로드 전체보기](plazma/about/downloads-all.md)
