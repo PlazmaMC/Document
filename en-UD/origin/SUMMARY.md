@@ -12,32 +12,32 @@
   - [⬇️ ǝuopnolɹɐ](plazma/about/downloads.md)
   - [✅ ǝuɹǝp ıɯɐɹuɐ sɐɯʇɐ](plazma/about/supported-versions.md)
   - [📑 ɹǝʇɐɯnɹɐɔ ǝɹɐʇɥıd](plazma/about/patches-list.md)
-- [⚒️ ɹǝʇɐɯnɹɐɔ ǝɹɐʇɥıd ǝɯıuɹɐdǝu](plazma/adminstration/README.md)
-  - [👟 ǝɹɐʇɥıd Ɉɐɹʇıuɹǝ](plazma/adminstration/getting-started/README.md)
-    - [🎨 ɐsǝuɹɐɔıʍ](plazma/adminstration/getting-started/customization.md)
-  - [📜 ɹǝdɐɹǝuɔǝs](plazma/adminstration/reference/README.md)
-    - [🎛️ ıuɹɐɹɹǝs ɐuısıɯ](plazma/adminstration/reference/arguments.md)
-    - [🖥️ ɯɹǝɯǝuǝɹ](plazma/adminstration/reference/commands.md)
-    - [🛡️ ɯuɹɐɥ](plazma/adminstration/reference/permissions.md)
-    - [🎨 ƃuıɐɹɟ ǝɹɐʇɥıd](plazma/adminstration/reference/configurations/README.md)
-      - [🪨 ɔɹopǝɹʎ](plazma/adminstration/reference/configurations/property.md)
-      - [🪣 ʞǝɹʇıuq](plazma/adminstration/reference/configurations/bukkit.md)
-      - [🚰 ʇɹǝɯɹı](plazma/adminstration/reference/configurations/spigot.md)
-      - [🛩️ ɹɐpǝɹ](plazma/adminstration/reference/configurations/paper/README.md)
-        - [🌏 ǝɹɐʇ ƃuıuɐɹ ǝɹɐʇɥıd](plazma/adminstration/reference/configurations/paper/global.md)
-        - [🏳️ ɯo˥p ɹɐʎ ǝɹɐʇ ƃuıuɐɹ](plazma/adminstration/reference/configurations/paper/world.md)
-      - [🐡 ɟɹɐɹɹǝɟıɥ](plazma/adminstration/reference/configurations/pufferfish.md)
-      - [🦑 ɯɹɹǝɯ ǝɹɐʇ ƃuɹdǝɹ](plazma/adminstration/reference/configurations/purpur/README.md)
-        - [🌏 ǝɹɐʇ ƃuıuɐɹ ǝɹɐʇɥıd](plazma/adminstration/reference/configurations/purpur/global.md)
-        - [🏳️ ɯo˥p ɹɐʎ ǝɹɐʇ ƃuıuɐɹ](plazma/adminstration/reference/configurations/purpur/world.md)
-      - [✨ amzalP](plazma/adminstration/reference/configurations/plazma/README.md)
-        - [🌏 ǝɹɐʇ ƃuıuɐɹ ǝɹɐʇɥıd](plazma/adminstration/reference/configurations/plazma/global.md)
-        - [🏳️ ɯo˥p ɹɐʎ ǝɹɐʇ ƃuıuɐɹ](plazma/adminstration/reference/configurations/plazma/undefined.md)
-  - [🎓 ɹɯɐɥ](plazma/adminstration/expert/README.md)
-    - [🧹 ɐɯıʇıopɐ](plazma/adminstration/expert/optimize.md)
-    - [↩️ ılɐuıuɐ](plazma/adminstration/expert/vanillaize.md)
-    - [⚠️ ɯıɔıʇsuoɔɹǝɹ sǝɥɔıɹ ɯɐʎ](plazma/adminstration/expert/fix-exploits.md)
-  - [⁉️ uɐɹɯ ǝɯɐɔ ǝuıɐɯ](plazma/adminstration/faq.md)
+- (⚒️.ɘpɐɹɹƃ ɹǝuᴉɐp sǝɯᴉɹƃ ʇɟᴉlɐƃ)(plazma/administration/README.md)
+  - (👟.ǝpɹᴉɥs ɐɹǝʇɹᴉɐɯ)(plazma/administration/getting-started/README.md)
+    - [🎨 sᴉɥʇuɐɯǝ]
+  - [📜 ǝɹnsɹǝuɹ]
+    - [🎛️ ɹǝuɟǝs ɐuɯ sᴉɥʇuɐɯ]
+    - [🖥️ ɯouɹǝɯǝ]
+    - [🛡️ ǝɥɔɹɐu]
+    - [🎨 ɟnɹouᴉɟ ɯǝǝs]
+      - [🪨 ʎɹoɹʇɐ]
+      - [🪣 ʇɐʞǝɯ]
+      - [🚰 ʇɯᴉƃ]
+      - [🛩️ ɹɐǝɹ]
+        - [🌏 ǝɹɐʇ ɟnɹouᴉɟ]
+        - [🏳️ ʍouɹpǝ ɟnɹouᴉɟ]
+      - [🐡 ɟnɹouᴉɟ]
+      - [🦑 ɹɯɯd]
+        - [🌏 ǝɹɐʇ ɟnɹouᴉɟ]
+        - [🏳️ ʍouɹpǝ ɟnɹouᴉɟ]
+      - [✨ ɐɯouɹɐ]
+        - [🌏 ǝɹɐʇ ɟnɹouᴉɟ]
+        - [🏳️ ʍouɹpǝ ɟnɹouᴉɟ]
+  - [🎓 sᴉɯɥɐ]
+    - [🧹 ǝɯouuᴉɐɯ]
+    - [↩️ uoᴉɐuouɥɐ]
+    - [⚠️ sᴉɯɯɐɯouɥɐ ɘuɯɐᴉlɐɯ]
+  - [⁉️ uɯoɯ ǝnbǝɯ uoɹq]
 - [⚙️ ɐılǝɹɐɯɹ ǝɔıp](plazma/developers.md)
   - [✏️ sǝɹǝɥoɹɐılɐ](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ sdɹɐɯouɔ](https://jd.plazmamc.org/)
@@ -49,3 +49,8 @@
 ## ʇoʎ
 
 - [⚡ ʌoɹʇ ɓuılǝpɹɐʇ ǝɔıpǝ](volt/README.md)
+
+## miscellaneous
+
+- [🧾 miscellaneous]
+  - [⬇️ ɯouǝuɯɐ ǝɹɹǝɯsɹǝɔ]
