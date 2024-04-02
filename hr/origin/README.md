@@ -4,6 +4,14 @@ description: Ako imate pitanja, slobodno pitajte putem Discorda ili GitHub Issue
 
 # 🏠 Dobrodošli na portal za dokumentaciju
 
+{% hint style="info" %}
+
+**Dokumentacija Plazme trenutno je prevedena strojno.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Imate li pitanja dok koristite Plazmu?
 
 {% content-ref url="plazma/" %}
