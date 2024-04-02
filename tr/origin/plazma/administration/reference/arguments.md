@@ -17,9 +17,9 @@ Sistem özellikleri, `-jar`'ın önüne yerleştirilir ve Plazma'nın başlatıl
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Sistem özelliklerini değiştirmek, Plazma ve JVM'nin çalışma şeklini değiştirebilir ve oyunu büyük ölçüde etkileyebilir!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Her sistem özelliğinin ne işe yaradığını kesin olarak bilmiyorsanız, **kesinlikle kullanmayın!**
 
 {% endhint %}
 
@@ -40,9 +40,9 @@ değer girilmediğinde değer [`true` olarak sabitlenir.](#user-content-fn-3)[^3
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Paperweight serisi sunucu platformu, her platform için sistem özelliklerini ayırt etmek için özellik adlarında `.` işaretini içermektedir.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Windows Powershell ve benzeri bazı terminal programlarında, bu tür argümanlara izin verilmeyebilir, bu nedenle argümanın her iki ucuna da `"` işaretini [eklemelisiniz.](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -86,7 +86,7 @@ Spigot'un Watchdog uyarı sistemi devre dışı bırakılır.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**`/reload` komutu son derece kararsız olduğundan, `/reload` kullanımından sonra ortaya çıkan tüm sunucu sorunları kullanıcıya aittir.**
 
 Eğer bir eklenti geliştiricisiyseniz ve eklentiyi güncellemeniz gerekiyorsa, `/reload` yerine hotswap kullanın.
 
@@ -175,7 +175,7 @@ Java sürüm kontrolünü devre dışı bırakır.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Bu şekilde, JVM'in mevcut olmayan kodlara erişmeye çalışabileceği unutulmamalıdır!**
 
 Dünya ve diğer tüm dosyalar kalıcı olarak zarar görebilir ve oyunun genel mekanikleri bozulabilir.
 
@@ -280,7 +280,7 @@ Varsayılan yürütülebilir dosyayı kullandığınızda, sunucuyu başlatmadan
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Bu özellik, 1.20.5'ten itibaren başlangıç argümanına taşınacaktır.**
 
 {% endhint %}
 
@@ -406,7 +406,7 @@ Oyuncuları Mojang kimlik doğrulama sunucusuyla doğrulamak için seçim yapar.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Bu argüman, 1.19.4'ten itibaren kullanımdan kaldırılmıştır**
 
 {% endhint %}
 
