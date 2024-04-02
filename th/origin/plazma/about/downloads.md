@@ -14,11 +14,15 @@ description: ดาวน์โหลด Plazma ทันทีเพื่อ�
 
 {% hint style="info" %}
 
-ดาวน์โหลดด้านล่างเป็นไฟล์ที่ใช้งานทั่วไป
+**아래 다운로드는 일반 사용자용 실행 파일입니다.**
 
-พัฒนาและต้องการไฟล์รูปแบบอื่น ๆ ดูในส่วนด้านล่าง
+개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
 {% endhint %}
+
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
 
 <table data-view="cards">
     <thead>
@@ -50,16 +54,3 @@ description: ดาวน์โหลด Plazma ทันทีเพื่อ�
         </tr>
     </tbody>
 </table>
-
-<details>
-<summary>ดาวน์โหลดทั้งหมด</summary>
-
-| เวอร์ชัน |                                [RP](#user-content-fn-1)[^1]                                |                                 [MP](#user-content-fn-2)[^2]                                |                               [RB](#user-content-fn-3)[^3]                               |                                [MB](#user-content-fn-4)[^4]                               |
-| :------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
-|  1.20.5  |                                                                 _รอการเผยแพร่_                                                                 |                                                                  _รอการเผยแพร่_                                                                 |                                                                _รอการเผยแพร่_                                                                |                                                                 _รอการเผยแพร่_                                                                |
-|  1.20.4  | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.2  | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.1  | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.19.4  | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [คลิกเพื่อดาวน์โหลด](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
-
-</details>
