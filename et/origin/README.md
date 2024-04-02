@@ -4,6 +4,14 @@ description: Kui teil on küsimusi, siis palun esitage need Discordi või GitHub
 
 # 🏠 Tere tulemast dokumentide portaali
 
+{% hint style="info" %}
+
+**Plazma dokumentatsioon on hetkel masintõlkega.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) said dokumendi tõlkimisel kasutage viidet ja parandage dokumendit.
+
+{% endhint %}
+
 ### Kas teil on tekkinud küsimusi Plazma kasutamise kohta?
 
 {% content-ref url="plazma/" %}
