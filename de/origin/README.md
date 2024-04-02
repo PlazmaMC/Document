@@ -12,7 +12,7 @@ description: Bei Fragen kontaktieren Sie uns bitte über Discord oder GitHub Iss
 
 {% endhint %}
 
-### Wenn Sie Fragen zu Plazma haben, kontaktieren Sie uns.
+### Wenn es Probleme bei der Verwendung von Plazma gibt, was dann?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
