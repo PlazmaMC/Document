@@ -10,31 +10,31 @@ description: "Plazma es una plataforma de servidor de código abierto para Minec
 
 {% hint style="info" %}
 
-**설명서를 통해 문제를 해결할 수 없나요?**
+**¿No se puede resolver el problema a través del manual?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+¡Haz preguntas a la comunidad a través del [servidor Discord oficial](https://discord.gg/MmfC52K8A8) o [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
 
 {% endhint %}
 
-### About Plazma
+### Acerca de Plazma
 
-> Plazma는 어떤 서버 플랫폼인지 알아보세요.
+> Descubre qué es Plazma como plataforma de servidor.
 
 {% content-ref url="about/" %}
-[about](about/)
+[acerca de](about/)
 {% endcontent-ref %}
 
-### For Administrators
+### Para Administradores
 
-> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+> Crea tu propio servidor con Plazma.
 
 {% content-ref url="administration/" %}
-[administration](administration/)
+[administración](administration/)
 {% endcontent-ref %}
 
-### For Developers
+### Para Desarrolladores
 
-> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
+> Desarrolla proyectos de terceros con Plazma.
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
