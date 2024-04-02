@@ -12,7 +12,7 @@ Referohuni në [https://translate.plazmamc.org/](https://translate.plazmamc.org/
 
 {% endhint %}
 
-### Nëse keni ndonjë pyetje gjatë përdorimit të Plazma?
+### Nëse ka ndodhur ndonjë problem gjatë përdorimit të Plazmës?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
