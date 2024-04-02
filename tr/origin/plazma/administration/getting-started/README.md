@@ -44,8 +44,8 @@ Yukarıdaki gibi bir çıktı alamazsanız veya aşağıdaki gibi bir çıktı a
 {% code title="JRE yüklü değil" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' iç veya dış komut, yürütülebilir program veya
+yürütme dosyası değil.
 ```
 
 {% endcode %}
@@ -278,14 +278,14 @@ Sunucuya yerel ağdan erişmeye çalışıyorsanız, çalıştırma penceresinde
 Örneğin, komutu çalıştırdıktan sonra aşağıdaki gibi bir çıktı alırsanız,
 
 ```log
-Windows IP 구성
+Windows IP Yapılandırması
 
-이더넷 어댑터 이더넷:
+Ethernet Adaptörü Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Bağlı DNS Soneği. . . . :
+    IPv4 Adresi. . . . . . . . . : 192.168.3.7
+    Alt Ağ Maskesi . . . . . . . : 255.255.255.0
+    Varsayılan Ağ Geçidi . . . . . . : 192.168.3.1
 
 ```
 
