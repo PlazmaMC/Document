@@ -16,9 +16,9 @@ Sistemos savybės yra reikšmės, įvestos prieš Plazmos inicijavimą prieš JV
 
 {% hint style="įspėjimas" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Keičiant sistemos savybes, Plazmos ir JVM veikimas gali pasikeisti, tai gali labai paveikti žaidimą!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Jei nežinote, kokia yra kiekvienos sistemos savybės funkcija, **nenaudokite jos!**
 
 {% endhint %}
 
@@ -39,9 +39,9 @@ jei neįvedate jokios reikšmės, ji bus fiksuota kaip [`true`.](#user-content-f
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Paperweight serijos serverių platforma, norėdama atskirti kiekvienos platformos sistemos savybes, į savybės pavadinimą įtraukia `.`**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Kai kuriuose terminaluose, pvz., Windows Powershell, gali būti, kad šie argumentai nebus priimami, todėl argumentų gale reikia pridėti `"` [žr. pridėjimo instrukcijas.](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -84,7 +84,7 @@ Išjungia patvirtinimo pranešimą dėl `reload` komandos.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**`/reload` komanda yra labai nestabili, todėl visi serverio po `/reload` naudojimo atsiradę problemos yra naudotojo atsakomybėje.**
 
 Jeigu esate įskiepių kūrėjas ir turite atnaujinti įskiepius, naudokite šilumą vietoj `reload` komandos.
 
@@ -173,7 +173,7 @@ Išjungia Java versijos patikrinimą.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Taip galite pabandyti pasiekti JVM neegzistuojantį kodą!**
 
 Tai gali pakenkti failams ir visam žaidimo mechanizmui, nes jie gali būti negrįžtamai sugadinti.
 
@@ -278,7 +278,7 @@ Kai naudojamas numatytas vykdomasis failas, tačiau nepradedamas serveris, tik t
 
 {% hint style="įspėjimas" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Ši savybė bus perkelta kaip pradinis argumentas nuo 1.20.5 versijos.**
 
 {% endhint %}
 
@@ -404,7 +404,7 @@ Pasirenka, ar patikrinti žaidėją su Mojang autentifikavimo serveriu.
 
 {% hint style="įspėjimas" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Šis argumentas buvo nutrauktas nuo 1.19.4 versijos**
 
 {% endhint %}
 
