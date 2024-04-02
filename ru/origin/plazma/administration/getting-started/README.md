@@ -44,8 +44,8 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 {% code title="JRE не установлен" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' не является внутренней или внешней командой, исполняемой программой или
+пакетным файлом.
 ```
 
 {% endcode %}
@@ -277,14 +277,14 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 Например, если после выполнения команды у вас отобразится
 
 ```log
-Windows IP 구성
+Windows IP Configuration
 
-이더넷 어댑터 이더넷:
+Ethernet adapter Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Connection-specific DNS Suffix  . . . . . : 
+    IPv4 Address. . . . . . . . . . . : 192.168.3.7
+    Subnet Mask . . . . . . . . . . . : 255.255.255.0
+    Default Gateway . . . . . . . . . : 192.168.3.1
 
 ```
 
