@@ -12,7 +12,7 @@ description: Jos sinulla on kysyttävää, kysy Discordin tai GitHub Issuesin ka
 
 {% endhint %}
 
-### Jos sinulla on kysyttävää Plazmaa käytettäessä, kysy rohkeasti.
+### Jos sinulla on ongelmia Plazma-käytön aikana, mitä tehdä?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
