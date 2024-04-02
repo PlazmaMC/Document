@@ -4,6 +4,14 @@ description: Jika Anda memiliki pertanyaan, silakan bertanya melalui Discord ata
 
 # 🏠 Selamat datang di Portal Dokumentasi
 
+{% hint style="info" %}
+
+**Dokumen Plazma saat ini dalam keadaan diterjemahkan oleh mesin.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) di mana Anda dapat mengacu pada terjemahan dokumen untuk meningkatkan dokumen.
+
+{% endhint %}
+
 ### Jika Anda memiliki pertanyaan saat menggunakan Plazma,
 
 {% content-ref url="plazma/" %}
