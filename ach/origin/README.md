@@ -4,6 +4,14 @@ description: Oyee, coko ki i kom Discord to GitHub Issues ki coko matino.
 
 # 🏠 Pe iyi Dokumenti Portal
 
+{% hint style="info" %}
+
+**Dokumenti ki Plazma kicel me gwok ma kicel me tic pa iye.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### En aye Plazma, ki i kom ma i coko?
 
 {% content-ref url="plazma/" %}
