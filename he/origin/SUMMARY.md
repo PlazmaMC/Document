@@ -20,7 +20,7 @@
     - [פקודות 🖥️](plazma/administration/reference/commands.md)
     - [הרשאות 🛡️](plazma/administration/reference/permissions.md)
     - [קבצי הגדרות 🎨](plazma/administration/reference/configurations/README.md)
-      - [מאפיין 🪨](plazma/administration/reference/configurations/property.md)
+      - [🪨 תכונה](plazma/administration/reference/configurations/property.md)
       - [בוקיט 🪣](plazma/administration/reference/configurations/bukkit.md)
       - [ספיגוט 🚰](plazma/administration/reference/configurations/spigot.md)
       - [פייפר 🛩️](plazma/administration/reference/configurations/paper/README.md)
@@ -50,7 +50,7 @@
 
 - [⚡ מדריך פיתוח ל-Volt](volt/README.md)
 
-## miscellaneous
+## שונות
 
-- [שונות 🧾](miscellaneous/README.md)
+- [🧾 שונות](miscellaneous/README.md)
   - [הורדת כל הקבצים ⬇️](plazma/about/downloads-all.md)
