@@ -53,9 +53,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 {% code title="JRE е прекалено стар" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+Неразпозната опция: --version
+Грешка: Не може да се създаде виртуалната машина Java.
+Грешка: Възникна фатално изключение. Програмата ще излезе.
 ```
 
 {% endcode %}
@@ -278,14 +278,14 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 Например, след изпълнение на командата, ако виждате следното,
 
 ```log
-Windows IP 구성
+Windows IP конфигурация
 
-이더넷 어댑터 이더넷:
+Ethernet адаптер Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Суфикс за DNS на връзката. . . . :
+    IPv4 адрес. . . . . . . . . : 192.168.3.7
+    Мрежова маска . . . . . . . : 255.255.255.0
+    Основен шлюз . . . . . . : 192.168.3.1
 
 ```
 
