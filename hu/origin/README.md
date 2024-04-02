@@ -6,7 +6,7 @@ description: Ha kérdésed van, kérlek tedd fel a Discord-on vagy a GitHub Issu
 
 {% hint style="info" %}
 
-**Plazma의 문서는 현재 기계 번역된 상태입니다.**
+**A Plazma dokumentum jelenleg gépi fordításban van.**
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
 
