@@ -12,7 +12,7 @@ description: Sorularınız varsa lütfen Discord veya GitHub Issues üzerinden s
 
 {% endhint %}
 
-### Plazma kullanırken merak ettikleriniz mi var?
+### Plazma kullanımı sırasında bir sorunla karşılaşırsanız?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
