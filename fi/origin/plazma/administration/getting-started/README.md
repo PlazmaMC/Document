@@ -44,8 +44,8 @@ Jos näyttöön ei tule vastaavaa tai se näyttää seuraavalta, JRE:tä ei ole 
 {% code title="JRE ei ole asennettu" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' on sisäinen tai ulkoinen komento, suoritettava ohjelma tai
+erätaulukko.
 ```
 
 {% endcode %}
@@ -53,9 +53,9 @@ Jos näyttöön ei tule vastaavaa tai se näyttää seuraavalta, JRE:tä ei ole 
 {% code title="JRE on liian vanha" lineNumbers="true" %}
 
 ```log
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+Tunnistamaton vaihtoehto: --version
+Virhe: Java Virtual Machine -ympäristön luominen ei onnistunut.
+Virhe: Vakava poikkeus on tapahtunut. Ohjelma sulkeutuu.
 ```
 
 {% endcode %}
@@ -278,14 +278,14 @@ Jos haluat yhdistää paikallisesti palvelimeen, voit käyttää `cmd /k ipconfi
 Esimerkiksi, kun komento on suoritettu, ja tuloste on seuraavanlainen,
 
 ```log
-Windows IP 구성
+Windows IP konfiguraatio
 
-이더넷 어댑터 이더넷:
+Ethernet-sovitin Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Yhdistetty DNS-etuliite. . . . :
+    IPv4-osoite. . . . . . . . . : 192.168.3.7
+    Aliverkon peite . . . . . . . : 255.255.255.0
+    Oletusyhdyskäytävä . . . . . . : 192.168.3.1
 
 ```
 
