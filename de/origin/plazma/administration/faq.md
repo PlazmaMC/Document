@@ -12,7 +12,7 @@ Fragen Sie die Community über den [offiziellen Discord-Server](https://discord.
 
 {% endhint %}
 
-### Es wird eine Meldung angezeigt, aber das Programm wird nicht ausgeführt.
+### Plazma startet nicht
 
 Wenn in der Konsole `no main manifest attribute, in plazma-(version).jar` angezeigt wird,\
 dann haben Sie die Entwicklungs-API-Datei heruntergeladen und müssen **Reobf Paperweight** von der GitHub-Seite herunterladen.
