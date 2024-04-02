@@ -17,9 +17,9 @@ Sifat sistem dimasukkan sebelum `-jar` dan diproses oleh JVM sebelum Plazma diin
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**Apabila anda mengubah sifat sistem, cara Plazma dan JVM beroperasi mungkin berubah dan boleh memberi kesan besar kepada permainan!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Jika anda tidak pasti peranan setiap sifat sistem, **jangan gunakan langsung!**
 
 {% endhint %}
 
@@ -40,9 +40,9 @@ Jika tidak ada nilai yang dimasukkan, nilai akan tetap [`true`.](#user-content-f
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**Platform pelayan siri Paperweight membezakan sifat sistem untuk setiap platform dengan menyertakan `.` dalam nama sifat.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Di sesetengah terminal seperti Windows Powershell, ia mungkin tidak menerima argumen ini, oleh itu, `"` perlu ditambah di kedua hujung argumen. [^4]
 
 {% endhint %}
 
@@ -86,7 +86,7 @@ Matikan mesej pengesahan semula perintah `/reload`.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**`/reload` adalah perintah yang sangat tidak stabil, oleh itu, sebarang masalah dalam pelayan selepas menggunakan `/reload` adalah tanggungjawab pengguna sendiri.**
 
 Untuk pembangun plugin yang perlu mengemaskini plugin, gunakan hotswap sebagai gantinya.
 
@@ -175,7 +175,7 @@ Matikan pengesahan versi Java.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Ini boleh menyebabkan JVM cuba mengakses kod yang tidak wujud!**
 
 Ini boleh merosakkan fail dan dunia secara kekal, menyebabkan kegagalan mekanisme permainan.
 
@@ -280,7 +280,7 @@ Jika menggunakan fail eksekusi yang disediakan secara lalai, hanya lakukan penge
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Sifat ini akan dipindahkan ke argumen permulaan selepas 1.20.5.**
 
 {% endhint %}
 
@@ -406,7 +406,7 @@ Pilih untuk mengesahkan pemain dengan pelayan pengesahan Mojang.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Argumen ini telah berhenti digunakan selepas 1.19.4**
 
 {% endhint %}
 
