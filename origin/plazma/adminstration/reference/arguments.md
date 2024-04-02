@@ -16,9 +16,11 @@ Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해�
 시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
 
 {% hint style="warning" %}
-### 시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!
+
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
 각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+
 {% endhint %}
 
 ### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
@@ -37,9 +39,11 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정됩니다.](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
-### Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.
+
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
 Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+
 {% endhint %}
 
 ### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
@@ -81,9 +85,11 @@ Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
 `/reload` 명령어의 재확인 메세지를 비활성화 합니다.
 
 {% hint style="danger" %}
-### `/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.
+
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
+
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -168,11 +174,13 @@ Netty flush consolidation 체계를 비활성화 합니다.
 Java 버전 확인을 비활성화 합니다.
 
 {% hint style="danger" %}
-### 이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!
+
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
 
 이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
+
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
@@ -271,7 +279,9 @@ Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성�
 * **기본값**: `false`
 
 {% hint style="warning" %}
-### 해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.
+
+**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+
 {% endhint %}
 
 처음 시작시 적용되는 구성 최적화를 더 엄격하게 적용합니다.
@@ -395,7 +405,9 @@ Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 - **기본값**: `paper.yml`
 
 {% hint style="warning" %}
-### 이 인수는 1.19.4 이후 사용이 중지되었습니다
+
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+
 {% endhint %}
 
 사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다.
