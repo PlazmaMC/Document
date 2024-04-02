@@ -17,9 +17,9 @@ A rendszer tulajdonságok az `-jar` előtt kerülnek be azon értékek közé, a
 
 {% hint style="warning" %}
 
-**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
+**A Plazma és a JVM működése módosulhat a rendszer tulajdonságainak módosításával, ami jelentős hatással lehet a játékra!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
+Ha nem biztos abban, hogy az egyes rendszer tulajdonságok milyen szerepet töltenek be, **soha ne használja őket!**
 
 {% endhint %}
 
@@ -40,9 +40,9 @@ Ha nem ad meg semmilyen értéket a tulajdonságnál, az érték [`true`-ra lesz
 
 {% hint style="info" %}
 
-**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
+**A Paperweight sorozatú szerver platform mindegyik platformon a tulajdonságok megkülönböztetése érdekében a tulajdonság nevébe `.`-t tartalmaz.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Bizonyos terminálokon, mint például a Windows Powershell, előfordulhat, hogy ezeket az argumentumokat nem fogadják el, ezért az argumentumok mindkét végére hozzá kell adni a `"` karaktert. [^4]
 
 {% endhint %}
 
@@ -86,7 +86,7 @@ Letiltja a `/reload` parancs megerősítő üzenetét.
 
 {% hint style="danger" %}
 
-**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
+**A `/reload` parancs nagyon instabil, ezért minden `/reload` használata után felmerülő probléma a felhasználó felelőssége.**
 
 Ha fejlesztő vagy és frissítened kell a bővítményedet, használj inkább hotswapot a `/reload` helyett.
 
@@ -175,7 +175,7 @@ Letiltja a Java verzió ellenőrzést.
 
 {% hint style="danger" %}
 
-**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
+**Ezzel a módszerrel a JVM hozzáférhet olyan kódrészhez, amely nem létezik!**
 
 Ez állandóan károsíthatja a világ és más fájlokat, és a játék teljes mechanizmusát tönkreteheti.
 
@@ -281,7 +281,7 @@ Ha az alapértelmezett futtatható fájlt használja, csak a javítást alkalmaz
 
 {% hint style="warning" %}
 
-**해당 속성은 1.20.5 이후 시작 인수로 이동 될 예정입니다.**
+**Ez a tulajdonság az 1.20.5 verziótól kezdve az indítási argumentumok közé kerül!**
 
 {% endhint %}
 
@@ -407,7 +407,7 @@ Mojang hitelesítő szerverrel ellenőrzi a játékosokat.
 
 {% hint style="warning" %}
 
-**이 인수는 1.19.4 이후 사용이 중지되었습니다**
+**Ez az argumentum a 1.19.4 verziótól kezdve már nem használható!**
 
 {% endhint %}
 
