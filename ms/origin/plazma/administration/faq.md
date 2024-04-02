@@ -12,7 +12,7 @@ description: Ketahui tentang soalan lazim.
 
 {% endhint %}
 
-### Mesej muncul tetapi tidak berjalan
+### Plazma tidak dapat dimulakan
 
 Jika `tiada atribut manifest utama, dalam plazma-(versi).jar` dipaparkan di konsol,\
 fail yang dimuat turun adalah fail API pembangunan, anda perlu memuat turun **Reobf Paperweight** dari laman GitHub.
