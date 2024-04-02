@@ -4,6 +4,14 @@ description: Om du har frågor, vänligen fråga via Discord eller GitHub Issues
 
 # 🏠 Välkommen till Docs Portal
 
+{% hint style="info" %}
+
+**Plazma의 문서는 현재 기계 번역된 상태입니다.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Har du frågor när du använder Plazma?
 
 {% content-ref url="plazma/" %}
