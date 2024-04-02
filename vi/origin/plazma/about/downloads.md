@@ -14,9 +14,9 @@ description: Hãy tải Plazma ngay bây giờ và trải nghiệm trực tiếp
 
 {% hint style="info" %}
 
-**아래 다운로드는 일반 사용자용 실행 파일입니다.**
+**Dưới đây là tệp thực thi dành cho người dùng thông thường.**
 
-개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
+Nếu bạn là một nhà phát triển và cần một loại tệp khác, vui lòng tham khảo trang dưới đây.
 
 {% endhint %}
 
