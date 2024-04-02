@@ -8,7 +8,7 @@ description: Jos sinulla on kysyttävää, kysy Discordin tai GitHub Issuesin ka
 
 **Plazman asiakirja on tällä hetkellä konekäännetty.**
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) -sivustoa käyttäen paranna asiakirjaa kääntämällä asiakirjaa.
 
 {% endhint %}
 
