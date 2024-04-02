@@ -30,8 +30,8 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 
 > Plazma를 활용하여 자신만의 서버를 만들어 보세요.
 
-{% content-ref url="adminstration/" %}
-[adminstration](adminstration/)
+{% content-ref url="administration/" %}
+[administration](administration/)
 {% endcontent-ref %}
 
 ### For Developers
