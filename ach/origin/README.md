@@ -12,7 +12,7 @@ description: Oyee, coko ki i kom Discord to GitHub Issues ki coko matino.
 
 {% endhint %}
 
-### En aye Plazma, ki i kom ma i coko?
+### Kilwama pe i kom Plazma?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
