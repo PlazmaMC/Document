@@ -14,11 +14,15 @@ description: अब Plazma को डाउनलोड करें और स�
 
 {% hint style="info" %}
 
-नीचे दिया गया डाउनलोड सामान्य रूप से प्रयोग किया जाने वाले एक्जीक्यूटेबल फ़ाइल है।
+**아래 다운로드는 일반 사용자용 실행 파일입니다.**
 
-डेवलपर हैं और, अगर अन्य प्रकार की फ़ाइल की आवश्यकता हो तो, तो नीचे दिए गए खंड का संदर्भ लें।
+개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
 {% endhint %}
+
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
 
 <table data-view="cards">
     <thead>
@@ -50,16 +54,3 @@ description: अब Plazma को डाउनलोड करें और स�
         </tr>
     </tbody>
 </table>
-
-<details>
-<summary>पूरी सूची डाउनलोड करें</summary>
-
-| संस्करण |                                      [RP](#user-content-fn-1)[^1]                                      |                                       [MP](#user-content-fn-2)[^2]                                      |                                     [RB](#user-content-fn-3)[^3]                                     |                                      [MB](#user-content-fn-4)[^4]                                     |
-| :-----: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|  1.20.5 |                                                                  _रिलीज़ की प्रतीक्षा में_                                                                 |                                                                  _रिलीज़ की प्रतीक्षा में_                                                                  |                                                                 _रिलीज़ की प्रतीक्षा में_                                                                |                                                                 _रिलीज़ की प्रतीक्षा में_                                                                 |
-|  1.20.4 | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.2 | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.1 | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.19.4 | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [डाउनलोड करने के लिए क्लिक करें](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
-
-</details>
