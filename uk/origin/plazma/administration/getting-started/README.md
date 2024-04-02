@@ -29,7 +29,7 @@ description: Дізнайтеся, як створити сервер за до�
 
 Якщо вивід виглядає так, переходьте до [2 кроку](setup.md#id-2).
 
-{% code title="올바른 출력" lineNumbers="true" %}
+{% code title="Правильний вивід" lineNumbers="true" %}
 
 ```log
 openjdk 21.0.2 2024-01-16 LTS
@@ -41,7 +41,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 Якщо вивід відрізняється або виглядає наступним чином, JRE відсутнє або занадто застаріле, тому потрібно виконати [1.2 крок](setup.md#id-1.2).
 
-{% code title="JRE가 설치되어 있지 않음" lineNumbers="true" %}
+{% code title="JRE не встановлено" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
@@ -50,7 +50,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-{% code title="JRE가 너무 오래됨" lineNumbers="true" %}
+{% code title="JRE занадто старий" lineNumbers="true" %}
 
 ```log
 Unrecognized option: --version
@@ -79,13 +79,13 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) встановлює **JDK 21** через майстер встановлення у форматі `.dmg` та запускає JRE.
 
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
 
-먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
+Спочатку виконайте наступну команду в терміналі, щоб додати сховище Azul Zulu в APT.
 
 ```bash
 sudo apt install gnupg ca-certificates curl --no-install-recommends --no-install-suggests -y
@@ -105,7 +105,7 @@ sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-
 
 {% tab title="Fedora/RHEL" %}
 
-다음 명령어를 입력하여 JRE를 설치할 수 있습니다.
+Введіть наступну команду, щоб встановити JRE.
 
 ```bash
 sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
@@ -124,12 +124,12 @@ Plazma надає різноманітні виконавчі файли.
 
 {% hint style="warning" %}
 
-**대부분의 경우에는 `Reobf Paperclip`을 사용합니다.**
+**У більшості випадків використовується `Reobf Paperclip`.**
 
 Нижче наведено інформацію для розробників або тих, хто цікавиться особливостями кожного типу.\
 Для звичайних користувачів можна пропустити до [3 кроку](setup.md#id-3) без проблем.
 
-{% endhint %}
+{% кінець нагадування %}
 
 <details>
 
@@ -173,13 +173,13 @@ Plazma надає різноманітні виконавчі файли.
 
 {% hint style="warning" %}
 
-**폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.**
+**Назва папки обов'язково повинна бути без пробілів і встановлена англійською мовою.**
 
 Інакше Plazma або JRE можуть не працювати належним чином.
 
-{% endhint %}
+{% кінець нагадування %}
 
-Тепер запустіть початковий скрипт. Windows의 경우, <mark style="background-color:orange;">방화벽 허용 선택 창에서, 반드시 **허용**을 선택</mark>해야 합니다.
+Тепер запустіть початковий скрипт. Для Windows у вікні вибору дозволу брандмауера обов'язково оберіть **Дозволити**.
 
 ***
 
@@ -203,18 +203,18 @@ EULA[^9] - це ліцензійна угода, яку потрібно пог�
 
 {% нагадування стилю="інформація" %}
 
-**해당 가이드에서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Цей посібник передбачає використання операційної системи Windows та роутера, який підтримує [UPnP](#user-content-fn-12)[^12].**
 
 Якщо ваш маршрутизатор не підтримує UPnP, вам потрібно дослідити, які панелі керування має ваш маршрутизатор.
 
 Також можна створити тимчасову адресу через [Ngrok](https://ngrok.com/).
-{% endhint %}
+{% кінець нагадування %}
 
 {% hint style="warning" %}
 
-**Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.**
+**Для операційних систем UNIX, таких як Linux або macOS, налаштування брандмауера для кожної служби може відрізнятися, тому потрібно шукати відповідну інформацію.**
 
-{% endhint %}
+{% кінець нагадування %}
 
 ### 6.1 Перевірка необхідності перенаправлення портів
 
@@ -230,17 +230,17 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 {% tabs %}
 
-{% tab title="외부에서 접속" %}
+{% tab title="Зовнішній доступ" %}
 
-포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
+Якщо не потрібний пересилання портів або воно вже успішно налаштоване, ви можете підключитися до сервера.
 
 Адреса для підключення до сервера може бути знайдена [тут](https://ip.pe.kr/)
 
 {% endtab %}
 
-{% tab title="UPnP로 포트포워딩 시도" %}
+{% tab title="Спроба перенаправлення порту через UPnP" %}
 
-서버 폴더의 `purpur.yml`에서, `network.upnp-port-forwarding`을 `true`로 활성화합니다.
+У файлі `purpur.yml` на сервері активуйте `network.upnp-port-forwarding` на значення `true`.
 
 Після цього, після перезапуску сервера, Plazma автоматично спробує налаштувати перенаправлення портів.
 
@@ -257,9 +257,9 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 {% endtab %}
 
-{% tab title="Ngrok으로 임시 주소 생성" %}
+{% tab title="Створення тимчасової адреси за допомогою Ngrok" %}
 
-Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들과 함께 플레이하기에 유용합니다.
+Метод з використанням Ngrok корисний для тимчасових тестів, участі або гри з друзями.
 
 1. Завантажте ZIP-файл `Windows (64-bit)` з [веб-сайту Ngrok](https://ngrok.com/download).
 2. Розпакуйте завантажений Ngrok у папці сервера.
@@ -271,9 +271,9 @@ Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들�
 
 {% endtab %}
 
-{% tab title="로컬에서 접속" %}
+{% tab title="Підключення з локальної мережі" %}
 
-로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 `cmd /k ipconfig`를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
+Якщо ви намагаєтеся підключитися до сервера з локальної мережі, виконайте `cmd /k ipconfig` в командному вікні, щоб підключитися за допомогою виведеної `IPv4 адреси`.
 
 Наприклад, якщо ви побачите такий результат після виконання команди,
 
