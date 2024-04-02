@@ -44,8 +44,8 @@ Jeśli nie otrzymasz odpowiedzi jak powyżej, lub otrzymasz odpowiedź jak poni�
 {% code title="Brak zainstalowanego JRE" lineNumbers="true" %}
 
 ```log
-'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
-배치 파일이 아닙니다.
+'java' nie jest wewnętrzną ani zewnętrzną komendą, programem wykonywalnym lub
+plikiem wsadowym.
 ```
 
 {% endcode %}
@@ -277,14 +277,14 @@ Jeśli chcesz połączyć się z serwerem lokalnie, możesz użyć polecenia `cm
 Na przykład, po wykonaniu polecenia,
 
 ```log
-Windows IP 구성
+Konfiguracja IP systemu Windows
 
-이더넷 어댑터 이더넷:
+Karta Ethernet Ethernet:
 
-    연결된 DNS 접미사. . . . :
-    IPv4 주소. . . . . . . . . : 192.168.3.7
-    서브넷 마스크 . . . . . . . : 255.255.255.0
-    기본 게이트웨이 . . . . . . : 192.168.3.1
+    Sufiks DNS konkretnego połączenia. . . . :
+    Adres IPv4. . . . . . . . . : 192.168.3.7
+    Maska podsieci. . . . . . . . : 255.255.255.0
+    Brama domyślna. . . . . . . : 192.168.3.1
 
 ```
 
