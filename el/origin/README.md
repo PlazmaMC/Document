@@ -4,6 +4,14 @@ description: Αν έχετε ερωτήσεις, παρακαλούμε να τ�
 
 # 🏠 Καλώς ήλθατε στο Κέντρο Εγγράφων
 
+{% hint style="info" %}
+
+**Το έγγραφο του Plazma είναι προς το παρόν μεταφρασμένο από μηχανική μετάφραση.**
+
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+
+{% endhint %}
+
 ### Αν αντιμετωπίζετε απορίες κατά τη χρήση του Plazma,
 
 {% content-ref url="plazma/" %}
