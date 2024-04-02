@@ -12,7 +12,7 @@ description: Jika Anda memiliki pertanyaan, silakan bertanya melalui Discord ata
 
 {% endhint %}
 
-### Jika Anda memiliki pertanyaan saat menggunakan Plazma,
+### Jika Anda mengalami masalah saat menggunakan Plazma, apa yang harus dilakukan?
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
