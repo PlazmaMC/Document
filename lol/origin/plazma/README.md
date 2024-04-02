@@ -10,7 +10,7 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 
 {% hint style="info" %}
 
-**설명서를 통해 문제를 해결할 수 없나요?**
+**Iz u can't fix problemz thru manualz?**
 
 [공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
 
@@ -18,7 +18,7 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 
 ### About Plazma
 
-> Plazma는 어떤 서버 플랫폼인지 알아보세요.
+> Plazma haz 어떤 서버 플랫폼인지 알아보세요.
 
 {% content-ref url="about/" %}
 [about](about/)
