@@ -12,7 +12,7 @@ description: Kicwoko ki kicwinyo ni kicwinyo ki cungu.
 
 {% endhint %}
 
-### Lok ma inongo i kompyuta pe kicwinyo.
+### Plazma pe kicwako
 
 Consolet `no main manifest attribute, in plazma-(version).jar` gine ki kicwinyo,\
 Fail me donyo ni API me bedo, GitHub pe **Reobf Paperweight** kicoyo.
