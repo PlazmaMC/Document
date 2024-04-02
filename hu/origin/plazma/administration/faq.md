@@ -12,7 +12,7 @@ description: Ismerje meg a gyakran ismételt kérdéseket.
 
 {% endhint %}
 
-### Az üzenet megjelenik, de nem fut le
+### A Plazma nem indul el
 
 Ha a `no main manifest attribute, in plazma-(version).jar` üzenet jelenik meg a konzolon, akkor a letöltött fájl a fejlesztői API fájl, és a GitHub oldalról letöltendő a **Reobf Paperweight**.
 
