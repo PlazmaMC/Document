@@ -10,15 +10,15 @@ Plazmaのご利用説明書へようこそ！
 
 {% hint style="info" %}
 
-**설명서를 통해 문제를 해결할 수 없나요?**
+**説明書で問題を解決できませんか？**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+[公式 Discord サーバー](https://discord.gg/MmfC52K8A8)または[GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)を通じてコミュニティに質問してみてください！
 
 {% endhint %}
 
-### About Plazma
+### Plazmaについて
 
-> Plazma는 어떤 서버 플랫폼인지 알아보세요.
+> Plazmaがどのようなサーバープラットフォームかを知ってください。
 
 {% content-ref url="about/" %}
 [about](about/)
@@ -26,7 +26,7 @@ Plazmaのご利用説明書へようこそ！
 
 ### For Administrators
 
-> Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+> Plazmaを活用して独自のサーバーを作成してください。
 
 {% content-ref url="administration/" %}
 [administration](administration/)
@@ -34,7 +34,7 @@ Plazmaのご利用説明書へようこそ！
 
 ### For Developers
 
-> Plazma를 활용하여 서드파티 프로젝트를 개발해 보세요.
+> Plazmaを活用してサードパーティプロジェクトを開発してください。
 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
