@@ -14,11 +14,15 @@ description: Laadige Plazma kohe alla ja proovige seda otse kasutada.
 
 {% hint style="info" %}
 
-Allalaadimine allpool on tavaliselt kasutatav tüüp käivitatav fail.
+**아래 다운로드는 일반 사용자용 실행 파일입니다.**
 
-Olen arendaja ja vajadusel muude failivormingute jaoks vaadake allolevat jaotist.
+개발자이고, 다른 형태의 파일이 필요하다면, 아래 페이지를 참고하세요.
 
 {% endhint %}
+
+{% content-ref url="downloads-all.md" %}
+[downloads-all.md](downloads-all.md)
+{% endcontent-ref %}
 
 <table data-view="cards">
     <thead>
@@ -50,16 +54,3 @@ Olen arendaja ja vajadusel muude failivormingute jaoks vaadake allolevat jaotist
         </tr>
     </tbody>
 </table>
-
-<details>
-<summary>Allalaadimise täielik vaade</summary>
-
-| Versioon |                                      [RP](#user-content-fn-1)[^1]                                     |                                      [MP](#user-content-fn-2)[^2]                                      |                                     [RB](#user-content-fn-3)[^3]                                    |                                     [MB](#user-content-fn-4)[^4]                                     |
-| :------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|  1.20.5  |                                                                     _Väljalaske ootel_                                                                    |                                                                     _Väljalaske ootel_                                                                     |                                                                    _Väljalaske ootel_                                                                   |                                                                    _Väljalaske ootel_                                                                    |
-|  1.20.4  | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-mojmap.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-reobf.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.4-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.2  | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-mojmap.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-reobf.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.2-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.20.1  | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-mojmap.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-reobf.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.20.1-R0.1-SNAPSHOT-mojmap.jar) |
-|  1.19.4  | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-mojmap.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-reobf.jar) | [Allalaadimiseks klõpsake siin](https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-bundler-1.19.4-R0.1-SNAPSHOT-mojmap.jar) |
-
-</details>
