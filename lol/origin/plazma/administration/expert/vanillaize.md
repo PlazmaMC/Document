@@ -6,7 +6,7 @@ description: Paper와 바닐라의 패치를 복원하는 방법에 대해 알�
 
 {% hint style="warning" %}
 
-**Paper는 바닐라의 오류를 해결하는 대부분의 패치에 선택지를 추가하고 있지 않습니다.**
+**Paper haz no addin optionz in most patchez fixin vanilla errorz.**
 
 현재 Plazma는 그러한 오류 해결을 구성으로 비활성화 할 수 있도록 개발하고 있습니다.
 
