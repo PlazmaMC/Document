@@ -1,5 +1,5 @@
 ---
-description: Plazma를 활용하여 자신만의 서버를 만들어 보세요.
+description: Vytvořte si vlastní server pomocí Plazma.
 ---
 
 # ⚒️ Průvodce správou serveru
