@@ -50,7 +50,7 @@
 
 - [⚡ Οδηγός Ανάπτυξης Volt](volt/README.md)
 
-## miscellaneous
+## Διάφορα
 
-- [🧾 miscellaneous](miscellaneous/README.md)
+- [🧾 Διάφορα](miscellaneous/README.md)
   - [⬇️ Κατέβασμα Όλων](plazma/about/downloads-all.md)
