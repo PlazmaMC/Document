@@ -20,7 +20,7 @@
     - [🖥️ Kommandon](plazma/administration/reference/commands.md)
     - [🛡️ Behörigheter](plazma/administration/reference/permissions.md)
     - [🎨 Konfigurationsfil](plazma/administration/reference/configurations/README.md)
-      - [🪨 Egenskap](plazma/administration/reference/configurations/property.md)
+      - [🪨 Egenskaper](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
       - [🛩️ Paper](plazma/administration/reference/configurations/paper/README.md)
@@ -50,7 +50,7 @@
 
 - [⚡ Volt Utvecklingsguide](volt/README.md)
 
-## diverse
+## Diverse
 
 - [🧾 Diverse](miscellaneous/README.md)
   - [⬇️ Hämta hela översikten](plazma/about/downloads-all.md)
