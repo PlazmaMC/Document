@@ -38,6 +38,8 @@
     - [↩️ Vanilliseer](plazma/administration/expert/vanillaize.md)
     - [⚠️ Swakhede en Oplossings](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Gereelde Vrae](plazma/administration/faq.md)
+  - [🩺 Diagnoseer](plazma/administration/diagnosis/README.md)
+    - [⏬ Inprop](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Ontwikkelaar Gids](plazma/developers.md)
   - [✏️ Bydrae](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
