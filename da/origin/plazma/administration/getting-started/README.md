@@ -140,10 +140,10 @@ Navnet på eksekverbar fil er `plazma-(version manager)-1.20.4-R0.1-SNAPSHOT-(ma
 - **Mapping Form**\
   Mapping er en slags kortlægning mellem Minecrafts faktiske kode og obfuskeringen af koden.
   - **Reobf**\
-    Reobfuscation, også kendt som Spigot-mapping, bruges hovedsageligt i de fleste NMS-plugins.\
-    Det vil blive udfaset fra version 1.20.5.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang-mapping, Vanilla Minecraft-mapping.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Version Manager**\
   Version Manager er en slags launcher, der er nødvendig for at køre serveren og patche serverfilerne.
   - **Paperclip**\
