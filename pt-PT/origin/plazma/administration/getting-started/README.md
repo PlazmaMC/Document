@@ -139,10 +139,10 @@ O nome do arquivo de execução é `plazma-(gerenciador de versão)-1.20.4-R0.1-
 - **Tipo de mapeamento**\
   O mapeamento é uma espécie de mapa que conecta o código real do Minecraft ao código ofuscado.
   - **Reobf**\
-    Reobfuscation, também conhecido como mapeamento Spigot, é amplamente utilizado em plugins NMS.\
-    A partir da versão 1.20.5, seu uso será descontinuado.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mapeamento da Mojang, é o mapeamento do Minecraft Vanilla.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Gerenciador de versão**\
   O gerenciador de versão pode ser considerado o lançador do servidor, que é responsável por fornecer as bibliotecas necessárias para a execução do servidor e aplicar patches nos arquivos do servidor.
   - **Paperclip**\
