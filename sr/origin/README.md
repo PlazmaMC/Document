@@ -8,6 +8,8 @@ description: Ако имате питања, молимо поставите и�
 
 **Документи Плазме тренутно су преведени машински.**
 
+[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) овде можете погледати превод документа и унапредити га.
 
 {% endhint %}
