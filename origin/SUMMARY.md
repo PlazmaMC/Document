@@ -14,7 +14,7 @@
   * [📑 포함된 패치](plazma/about/patches-list.md)
 * [⚒️ 서버 관리 가이드](plazma/administration/README.md)
   * [👟 시작하기](plazma/administration/getting-started/README.md)
-    * [🎨 사용자화](plazma/administration/getting-started/customization.md)
+    * [🎨 사용자화](plazma/administration/getting-started/next-step.md)
   * [📜 리퍼런스](plazma/administration/reference/README.md)
     * [🎛️ 인수와 속성](plazma/administration/reference/arguments.md)
     * [🖥️ 명령어](plazma/administration/reference/commands.md)
