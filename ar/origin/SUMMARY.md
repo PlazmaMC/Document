@@ -38,6 +38,8 @@
     - [↩️ تحويل إلى النسخة الأصلية](plazma/administration/expert/vanillaize.md)
     - [⚠️ الثغرات وكيفية حلها](plazma/administration/expert/fix-exploits.md)
   - [⁉️ الأسئلة الشائعة](plazma/administration/faq.md)
+  - [🩺 التشخيص](plazma/administration/diagnosis/README.md)
+    - [⏬ الإضافة](plazma/administration/diagnosis/plugins.md)
 - [⚙️ دليل المطور](plazma/developers.md)
   - [✏️ المساهمة](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ جافادوكس](https://jd.plazmamc.org/)
