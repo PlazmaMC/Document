@@ -140,10 +140,10 @@ Vykdomojo failo pavadinimas yra `plazma-(versijos tvarkyklė)-1.20.4-R0.1-SNAPSH
 - **Atvaizdavimo būdas**\
   Atvaizdavimas yra kaip žemėlapis, jungiantis „Minecraft“ realųjį kodą su užšifruotu kodu.
   - **Reobf**\
-    Reobfuscation, taip pat žinomas kaip Spigot atvaizdavimas, daugiausia naudojamas NMS įskiepiuose.\
-    Nuo 1.20.5 palaikymas bus nutrauktas.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang atvaizdavimas, tai „vanilinis Minecraft“ atvaizdavimas.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Versijos tvarkyklė**\
   Versijos tvarkyklė yra būtina serverio paleidimui, taip pat ji yra serverio leistuvas, kuris leidžia atsisiųsti bibliotekas ir taikyti serverio failus.
   - **Paperclip**\
