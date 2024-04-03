@@ -8,7 +8,7 @@ description: Ako imate pitanja, slobodno pitajte putem Discorda ili GitHub Issue
 
 **Dokumentacija Plazme trenutno je prevedena strojno.**
 
-[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Status prijevoda](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
 
