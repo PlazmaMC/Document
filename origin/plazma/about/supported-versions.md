@@ -12,10 +12,10 @@ description: 'Plazma에서 지원하는 Minecraft: Java Edition 버전을 알아
 
 {% endhint %}
 
-[wtr]: https://img.shields.io/badge/릴리스%20대기중-gray?style=for-the-badge    <!-- WAITING -->
-[atv]: https://img.shields.io/badge/지원중-success?style=for-the-badge          <!-- ACTIVE -->
-[mtn]: https://img.shields.io/badge/기능%20추가%20종료-blue?style=for-the-badge <!-- MAINTAIN -->
-[eol]: https://img.shields.io/badge/지원%20종료-red?style=for-the-badge       <!-- END OF LIFE -->
+[wtr]: https://img.shields.io/badge/릴리스%20대기중-gray?style=for-the-badge
+[atv]: https://img.shields.io/badge/지원중-success?style=for-the-badge
+[mtn]: https://img.shields.io/badge/기능%20추가%20종료-blue?style=for-the-badge
+[eol]: https://img.shields.io/badge/지원%20종료-red?style=for-the-badge
 
 [nul]: https://img.shields.io/badge/정보%20없음-gray?style=for-the-badge
 [vgd]: https://img.shields.io/badge/매우%20좋음-blue?style=for-the-badge
