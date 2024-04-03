@@ -24,100 +24,102 @@ Përshkrimi i konfigurimit të Plazma-s mund të gjendet në faqen e mëposhtme.
 
 {% hint style="success" %}
 
-**Plazma는 Paper 기반의 모든 플러그인을 정상 지원합니다.**
+**Plazma mbështet të gjitha shtojcat bazuar në letër të Hartës.**
 
-Spigot 플러그인의 경우 1.20.5부터 Paper의 매핑 변화로 일부 동작하지 않을 수 있지만,
-Paper, Pufferfish 및 Purpur 등 Paper를 기반으로 하는 대부분의 플러그인은 Plazma에서도
-모두 작동하며, 만약 정상적으로 작동하지 않을 경우 Plazma의 오류이므로 즉시 [신고해주시기 바랍니다.](../diagnosis/plugins.md)
+Për shtojcat e Spigot, disa prej tyre mund të mos funksionojnë për shkak të ndryshimeve në hartën e Paper që filluan nga 1.20.5, por
+shumica e shtojcave që bazohen në Paper si Paper, Pufferfish dhe Purpur funksionojnë në Plazma,
+dhe nëse nuk funksionojnë siç duhet, kjo është faj i Plazma, kështu që ju lutemi [raportoni menjëherë.](../diagnosis/plugins.md)
 
 {% endhint %}
 
-Plazma를 사용하는 주요 이유이자 Plazma를 사용자화하는 가장 강력한 방법입니다.
-Plazma의 강력한 플러그인 생태계는 서버를 손 쉽게 사용자화 할 수 있게 합니다.
+Kjo është arsyeja kryesore pse të përdorni Plazma dhe mënyra më e fuqishme për të personalizuar Plazma-n.
+Ekosistemi i fuqishëm i shtojcave të Plazma lejon përshtatjen e lehtë të serverit tuaj.
 
-플러그인을 찾고 다운로드 하는데에는 여러 가지 방법이 있습니다. 어떤 플러그인은
-공개 저장소 서비스에 플러그인을 업로드 하고, 어떤 플러그인은 GitHub 또는 자체
-사이트에 업로드하기도 합니다.
+Ka disa mënyra për të gjetur dhe shkarkuar shtojcat. Disa shtojca
+ngarkohen në shërbimet e ruajtjes publike të shtojcave, ndërsa disa të tjera ngarkohen në GitHub ose
+faqet e tyre të internetit.
 
 {% hint style="caution" %}
 
-**플러그인은 시스템에 직접적으로 접근할 수 있습니다!**
+**Shtojcat mund të kenë qasje drejtpërdrejt në sistemin tuaj!**
 
-VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항상 안전한지 확인하거나,
-신뢰 가능한 서비스에서 플러그인을 다운로드 하세요.
+Përdorni shërbimet si VirusTotal për të verifikuar sigurinë e shtojcave para se t'i aplikoni,
+ose shkarkoni shtojcat nga shërbimet e besueshme.
 
 {% endhint %}
 
-플러그인을 다운로드하기 위해 사용되는 서비스에는 여러 가지가 있습니다. 그 중, [SpigotMC Forum](https://www.spigotmc.org/resources/), [BukkitDev (CurseForge)](https://dev.bukkit.org/bukkit-plugins), [Modrinth](https://modrinth.com/plugins), [Hanger](https://hangar.papermc.io/) 등의 서비스는 플러그인이 업로드 되기 전 심사를 거치며, 안전하지 않은 플러그인은 바로 처리하여 안전한 플러그인만 유통되도록 하고 있습니다.
+Ka shumë shërbime për shkarkimin e shtojcave. Në mes tyre, shërbimet si [Forumi i SpigotMC](https://www.spigotmc.org/resources/), [BukkitDev (CurseForge)](https://dev.bukkit.org/bukkit-plugins), [Modrinth](https://modrinth.com/plugins), [Hanger](https://hangar.papermc.io/) kontrollojnë shtojcat para se të ngarkohen, duke siguruar që vetëm shtojcat e sigurta qarkullojnë.
 
-### 플러그인 적용하기 <a href="#id-2.1" id="id-2.1"></a>
+### Aplikimi i Shtojcave <a href="#id-2.1" id="id-2.1"></a>
 
-플러그인을 다운로드 했다면, 이제 플러그인을 적용해볼 차례입니다.
+Pas shkarkimit të shtojcave, tani është koha për t'i aplikuar ato.
 
-1. 플러그인은 `.jar` 또는 `Java Executable File` 로 되어 있습니다.\
-   일부 플러그인은 압축 파일로 압축되어 있는 경우도 있는데, 그런 경우
-   압축을 풀어 이름에 `bukkit`, `spigot` 또는 `paper` 가 포함되어 있고,
-   `fat`이 포함된 파일이 함께 있는 경우 `fat` 파일을 사용하면 됩니다.
-2. 다운로드한 파일을 서버 폴더의 `plugins` 폴더에 넣고 서버를 (재)시작합니다.
-3. Plazma가 시작되면, 콘솔에 새로운 내용이 출력이 될 것입니다.
-   이는 Plazma가 플러그인을 정상적으로 로드했다는 의미입니다.
-4. Plazma가 플러그인을 정상적으로 로드했더라도, 플러그인을 시작하지 못했을 수 있습니다.
-   `/plugins` 명령어를 사용하면 현재 서버에 로드된 플러그인을 불러올 수 있습니다.
-   설치한 플러그인의 이름이 <mark style="background-color:red;">적색</mark>이 아닌 <mark style="background-color:green;">녹색</mark>이라면 플러그인이 정상적으로 로드된 것입니다.
+1. Shtojcat janë në formatin `.jar` ose `Skedar Ekzekutues Java`.
+   Disa shtojca janë të kompresuara në një dosje, në rast se
+   dosja është e kompresuar, hapeni atë dhe nëse emri përmban `bukkit`, `spigot` ose `paper`,
+   përdorni dosjen që përmban `fat`.
+2. Vendosni dosjen e shkarkuar në dosjen `shtojcat` të serverit dhe (ri)nisni serverin.
+3. Kur Plazma fillon, do të shihni përmbajtje të re në konsolë.
+   Kjo tregon se Plazma ka ngarkuar shtojcat me sukses.
+4. Edhe pse Plazma ka ngarkuar shtojcat me sukses, ato mund të mos fillojnë siç duhet.
+   Përdorni komandën `/shtojcat` për të shfaqur shtojcat e ngarkuara aktualisht në server.
+   Nëse emrat e shtojcave të instaluar nuk janë të
+   ngjyrë <mark style="background-color:red;">kuqe</mark>,
+   por <mark style="background-color:green;">jeshile</mark>, atëherë shtojcat janë ngarkuar me sukses.
 
-만약 플러그인이 정상적으로 로드되지 않았다면, 아래 페이지에서 문제에 대한 해결 방법을 찾을 수 있습니다.
+Nëse shtojcat nuk janë ngarkuar me sukses, mund të gjeni zgjidhjet në faqen e mëposhtme.
 
 {% content-ref url="../diagnosis/plugins.md" %}
 [plugins.md](../diagnosis/plugins.md)
 {% endcontent-ref %}
 
-## 데이터팩 사용 <a href="#id-3" id="id-3"></a>
+## Përdorimi i Pakove të të Dhënave <a href="#id-3" id="id-3"></a>
 
-데이터팩은 Minecraft가 기본적으로 제공하는 사용자화 방법으로써,
-[리소스팩](#user-content-fn-1)[^1]과 유사합니다.
+Pakot e të Dhënave janë një mënyrë e Minecraft për të personalizuar lojën, të ngjashme me
+[Paketat e Burimeve](#user-content-fn-1)[^1].
 
-데이터팩을 사용하면 새로운 생물 군계와 도전 과제를 추가하는 등 게임 내부의 일부를 수정할 수 있습니다.
+Me pakot e të dhënave, mund të shtoni grupime të reja të krijesave dhe sfidave në lojë.
 
 {% hint style="caution" %}
 
-**데이터팩은 월드를 손상시킬 수 있습니다!**
+**Pakot e të dhënave mund të dëmtojnë botën!**
 
-일부 고장난 데이터팩은 월드를 손상시킬 수 있으며, 이는 돌이킬 수 없습니다.
+Disa pakove të dëmshme të të dhënave mund të shkaktojnë dëme të pakthyeshme në botë.
 
-따라서, 데이터팩을 적용하기 전 월드를 백업하는것이 권장됩니다.
+Prandaj, është e rekomandueshme të bëni një kopje rezervë të botës para se të aplikoni pakot e të dhënave.
 
 {% endhint %}
 
-데이터팩 또한 여러 서비스에서 다운로드 할 수 있으며, [CurseForge](https://www.curseforge.com/minecraft/search?page=1\&pageSize=50\&sortBy=relevancy\&class=data-packs), [Modrinth](https://modrinth.com/datapacks), [Planet Minecraft](https://www.planetminecraft.com/data-packs/) 등 여러 서비스에서 찾을 수 있습니다.
+Pakot e të dhënave mund të shkarkohen nga shumë shërbime si [CurseForge](https://www.curseforge.com/minecraft/search?page=1\&pageSize=50\&sortBy=relevancy\&class=data-packs), [Modrinth](https://modrinth.com/datapacks), [Planet Minecraft](https://www.planetminecraft.com/data-packs/) etj.
 
-데이터팩을 다운로드 했다면, 서버의 월드 폴더에 `datapacks` 폴더에 넣어 적용할 수 있습니다.
-폴더가 없는 경우 폴더를 생성하여 추가하면 됩니다.
+Pas shkarkimit të pakove të të dhënave, vendosini ato në dosjen `datapacks` të botës së serverit tuaj.
+Nëse dosja nuk ekziston, mund ta krijoni atë dhe ta shtoni.
 
 {% hint style="warning" %}
 
-**일부 [데이터팩](#user-content-fn-2)[^2]의 경우 처음 적용시 정상적으로 적용되지 않을 수 있습니다.**
+**Në raste të caktuara, [pakot e të dhënave](#user-content-fn-2)[^2] mund të mos aplikohen me sukses në fillim.**
 
-이런 경우에 대비하여 서버를 **2번** 재시작하는 것을 권장합니다.
+Për këto raste, rekomandohet që serveri të rifillojë **2 herë**.
 
 {% endhint %}
 
-데이터팩은 Minecraft의 버전이 업데이트 될 때 마다 쉽게 손상될 수 있습니다.
+Pakot e të dhënave mund të dëmtohen lehtë kur Minecraft-i përditësohet.
 
-특히, 데이터팩이 완전히 손상된 경우, 서버가 충돌하기 때문에,
-서버를 업데이트하기 전 충분한 테스트를 거치는 것이 중요합니다.
+Veçanërisht, nëse pakot e të dhënave janë dëmtuar plotësisht, serveri mund të përplaset,
+kështu që është e rëndësishme të kryeni testimet e mjaftueshme para se të përditësoni serverin.
 
 {% hint style="info" %}
 
-**서버 시작 명령어 뒤에 `safeMode`를 입력하여 데이터팩을 모두 비활성화 한 뒤 서버를 시작할 수 있습니다.**
+**Pas komandës së fillimit të serverit, mund të shtypni `safeMode` për të çaktivizuar të gjitha pakot e të dhënave dhe pastaj të rifillonit serverin.**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md)
+[Për më shumë informacion, shihni `Referencat > Argumentet dhe Pronat`.](../reference/arguments.md)
 
 {% endhint %}
 
-적용된 데이터팩은 `/datapack list` 명령어를 통해 확인할 수 있습니다.
+Pakot e aplikuar mund të verifikohen duke përdorur komandën `/datapack list`.
 
 ***
 
-[^1]: 또는 Minecraft: Bedrock Edition의 애드온.
+[^1]: Ose edhe Shtojcat e Minecraft: Bedrock Edition.
 
-[^2]: 생물 군계 추가 등.
+[^2]: Shtimi i grupimeve të krijesave etj.
