@@ -38,6 +38,8 @@
     - [↩️ Convertir a vanilla](plazma/administration/expert/vanillaize.md)
     - [⚠️ Vulnerabilitats i solucions](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Preguntes freqüents](plazma/administration/faq.md)
+  - [🩺 Diagnòstic](plazma/administration/diagnosis/README.md)
+    - [⏬ Connector](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Guia de desenvolupament](plazma/developers.md)
   - [✏️ Contribuir](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
