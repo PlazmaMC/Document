@@ -139,10 +139,10 @@ Poto me doki me kwede iyi `plazma-(kare me bedo)-1.20.4-R0.1-SNAPSHOT-(maping ka
 - **Maping kacel**\
   Maping iyi ni Minecraft ma kwo doki me cwiny me lukalala ki dong kwede.
   - **Reobf**\
-    Reobfuscation, Spigot maping ma kwo doki ma ngec ki dong kwede.\
-    1.20.5 woko i kom mukene.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang maping, Minecraft maping iyi.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Kare me bedo**\
   Kare me bedo ni doki me cwiny me server ki doki me lukalala ki dong kwede.
   - **Paperclip**\
