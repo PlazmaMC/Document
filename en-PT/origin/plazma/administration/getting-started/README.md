@@ -302,8 +302,8 @@ Once ye have successfully started th' server 'n 'tis runnin' properly, 'tis time
 
 Learn how t' customize th' server through th' guide below.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
