@@ -38,6 +38,8 @@
     - [↩️ Vanilla muutmine](plazma/administration/expert/vanillaize.md)
     - [⚠️ Haavatavused ja Nende Parandamine](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Korduma Kippuvad Küsimused](plazma/administration/faq.md)
+  - [🩺 Diagnoos](plazma/administration/diagnosis/README.md)
+    - [⏬ Pistikprogramm](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Arendaja juhend](plazma/developers.md)
   - [✏️ Kaasa aitama](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
