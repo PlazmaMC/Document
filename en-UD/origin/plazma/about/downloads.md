@@ -39,18 +39,30 @@ description: ¡ɘɿɒɘ ɯoɹɒl ɐʇɹo Plazma ɿɒɿɒʇnɘɿɒɿɘ ɿɒɘɿɒ
         <tr>
             <td>4.02.1</td>
             <td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.4/latest/plazma-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar">ɔlᴉʞǝɹɘʇ ɘɿɒɿɒʇnɘɿɒɿɘ</a></td>
+            <!--
+            <td><a href="https://dl.plazmamc.org/1.20.4/">클릭하여 다운로드</a></td>
+            -->
         </tr>
         <tr>
             <td>2.02.1</td>
             <td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.2/latest/plazma-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar">ɔlᴉʞǝɹɘʇ ɘɿɒɿɒʇnɘɿɒɿɘ</a></td>
+            <!--
+            <td><a href="https://dl.plazmamc.org/1.20.2/">클릭하여 다운로드</a></td>
+            -->
         </tr>
         <tr>
             <td>1.02.1</td>
             <td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.20.1/latest/plazma-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar">ɔlᴉʞǝɹɘʇ ɘɿɒɿɒʇnɘɿɒɿɘ</a></td>
+            <!--
+            <td><a href="https://dl.plazmamc.org/1.20.1/">클릭하여 다운로드</a></td>
+            -->
         </tr>
         <tr>
             <td>4.91.1</td>
             <td><a href="https://github.com/PlazmaMC/Plazma/releases/download/build/1.19.4/latest/plazma-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar">ɔlᴉʞǝɹɘʇ ɘɿɒɿɒʇnɘɿɒɿɘ</a></td>
+            <!--
+            <td><a href="https://dl.plazmamc.org/1.19.4/">클릭하여 다운로드</a></td>
+            -->
         </tr>
     </tbody>
 </table>
