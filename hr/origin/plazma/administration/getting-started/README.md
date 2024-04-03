@@ -302,8 +302,8 @@ Ako je server uspješno pokrenut i ispravno funkcionira, sada je vrijeme da pril
 
 Saznajte kako prilagoditi server putem donjeg vodiča.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="sljedeci-korak.md" %}
+[sljedeci-korak.md](sljedeci-korak.md)
 {% endcontent-ref %}
 
 ***
