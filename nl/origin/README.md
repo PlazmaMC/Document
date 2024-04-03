@@ -8,6 +8,8 @@ description: Als u vragen heeft, stel ze dan via Discord of GitHub Issues.
 
 **De documenten van Plazma zijn momenteel in machinale vertaalde staat.**
 
+[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) op basis van de documentvertaling verbeteren op [https://translate.plazmamc.org/](https://translate.plazmamc.org/) .
 
 {% endhint %}
