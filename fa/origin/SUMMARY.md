@@ -38,6 +38,8 @@
     - [↩️ وانیلایز](plazma/administration/expert/vanillaize.md)
     - [⚠️ آسیب‌پذیری‌ها و راه‌حل‌ها](plazma/administration/expert/fix-exploits.md)
   - [⁉️ پرسش‌های متداول](plazma/administration/faq.md)
+  - [🩺 تشخیص](plazma/administration/diagnosis/README.md)
+    - [⏬ پلاگین](plazma/administration/diagnosis/plugins.md)
 - [⚙️ راهنمای توسعه‌دهندگان](plazma/developers.md)
   - [✏️ مشارکت](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ جاوداک‌ها](https://jd.plazmamc.org/)
