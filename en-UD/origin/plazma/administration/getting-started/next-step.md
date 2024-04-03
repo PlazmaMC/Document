@@ -2,7 +2,7 @@
 description: 요세보알에 방법하는화자용사 를러버서
 ---
 
-# 📶 발전 단계
+# 📶 Step of development
 
 sɹǝʇɹǝɯǝɥ uı ǝɹnƃıɟ ǝɥʇ ǝɹɐɯʎɹɐɔ ǝɥʇ ɹoɟ ǝɥʇıǝʌɐɹƃ ɯɐǝɹp ǝɥʇ
 
@@ -22,7 +22,7 @@ sǝɹǝɥɔ ǝɥʇ uǝɯɐp ǝɥʇ ǝɹɐɯʎɹɐɔɹɐƃɹɐ ǝɥʇ
 
 ***
 
-## 플러그인 사용 <a href="#id-2" id="id-2"></a>
+## uılǝɹpıƃ uɹn ɯɐɹʞɔɯ ˙ɹǝɥ-ıp ɯıɥ-ıp
 
 {% hint style="success" %}
 
@@ -99,7 +99,7 @@ VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항
 
 {% hint style="warning" %}
 
-**[일부 데이터팩](#user-content-fn-2)[^2]의 경우 처음 적용시 정상적으로 적용되지 않을 수 있습니다.**
+**[For some data packs](#user-content-fn-2)[^2], it may not be applied correctly when first applied.**
 
 이런 경우에 대비하여 서버를 **2번** 재시작하는 것을 권장합니다.
 
@@ -114,7 +114,7 @@ VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항
 
 **서버 시작 명령어 뒤에 `safeMode`를 입력하여 데이터팩을 모두 비활성화 한 뒤 서버를 시작할 수 있습니다.**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safeMode)
+[Refer to `Reference > Arguments and Properties` for more details.](../reference/arguments.md#safeMode)
 
 {% endhint %}
 
@@ -122,13 +122,13 @@ VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항
 
 ***
 
-## 최적화 <a href="#id-4" id="id-4"></a>
+## Optimization <a href="#id-4" id="id-4"></a>
 
-Plazma에는 많은 최적화 패치가 적용되어 있습니다. 또한, Plazma가 처음으로 시작되면 자동으로
-구성을 최적화 하므로 [시작하기](./README.md) 가이드를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
+Many optimization patches are applied to Plazma. Also, when Plazma first starts, it automatically optimizes the configuration,
+so if you follow the [Getting Started](./README.md) guide, there is no need for additional optimization work.
 
-하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
-아래 가이드를 통해 추가적인 최적화 작업을 할 수 있습니다.
+However, if many players connect or the world size is vast,
+you can perform additional optimization work following the guide below.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
@@ -136,12 +136,12 @@ Plazma에는 많은 최적화 패치가 적용되어 있습니다. 또한, Plazm
 
 ***
 
-## 프록시 <a href="#id-5" id="id-5"></a>
+## Proxy <a href="#id-5" id="id-5"></a>
 
-프록시는 서버를 서로 연결하고 플레이어가 추가적인 작업 없이 서버를 이동하거나,
-다른 서버와 소통할 수 있게 합니다.
+Proxies connect servers and allow players to move between servers without additional work or
+communicate with other servers.
 
-안전하고 올바른 프록시 설정에 대한 정보는 아래 페이지를 참고하세요.
+Refer to the following page for information on safe and proper proxy settings.
 
 {% content-ref url="../expert/proxy.md" %}
 [proxy.md](../expert/proxy.md)
@@ -149,45 +149,45 @@ Plazma에는 많은 최적화 패치가 적용되어 있습니다. 또한, Plazm
 
 ***
 
-## 안전 <a href="#id-5" id="id-5"></a>
+## Safety <a href="#id-5" id="id-5"></a>
 
-Minecraft는 모드가 발달하여 온라인에서도 쉽게 [취약점 공격 엔진](#user-content-fn-3)[^3]을 구할 수 있습니다.
+As mods develop, it is easy to find a [vulnerability attack engine](#user-content-fn-3)[^3] even online in Minecraft.
 
-일반 게임에서도 실행 가능한 대부분의 취약점은 [기본적으로 차단되어 있지만](#user-content-fn-4)[^4],
-서드파티 로더를 통해 취약점을 공격하는것은 차단되어 있지 않습니다.
+Most vulnerabilities that can be executed in regular games are [basically blocked](#user-content-fn-4)[^4],
+but attacking vulnerabilities through third-party loaders is not blocked.
 
-따라서, 서버가 공개되어 있는 경우, 안티 치트 플러그인 등을 설치하여 취약점 사용을 차단하고,
-프록시 및 자동 재시작, 백업 등을 구성하여 서버가 다운되어도 빠르게 복구할 수 있도록 하는 것이 권장됩니다.
+Therefore, if the server is public, it is recommended to install anti-cheat plugins to block vulnerability usage,
+and configure proxies, automatic restarts, backups, etc., to quickly recover the server if it goes down.
 
-### 권한 설정 <a href="#id-5.1" id="id-5.1"></a>
+### Permission settings <a href="#id-5.1" id="id-5.1"></a>
 
-일부 플러그인의 관리자 명령어는 권한이 제대로 설정되지 않은 취약점이 존재하기도 합니다.
+Some plugin administrator commands may have vulnerabilities if permissions are not set properly.
 
-[LuckPerms](https://luckperms.net/) 등의 권한 관리 플러그인을 사용하여
-일반 사용자의 권한을 제한하는 조치를 하는것이 권장됩니다.
+It is recommended to use permission management plugins such as
+[LuckPerms](https://luckperms.net/) to restrict the permissions of regular users.
 
-### X-Ray 차단 <a href="#id-5.2" id="id-5.2"></a>
+### X-Ray Blocking <a href="#id-5.2" id="id-5.2"></a>
 
-X-Ray는 기본적인 최적화 클라이언트에서도 쉽게 사용 가능한 취약점 중 하나입니다.
+X-Ray is one of the vulnerabilities that can be easily used even in a basic optimization client.
 
-Plazma에는 X-Ray를 기본적으로 차단할 수 있는 구성을 제공하고 있습니다.
+Plazma provides configurations that can block X-Ray by default.
 
-X-Ray 차단 방법과 설명은 아래 페이지를 참고하시기 바랍니다.
+Refer to the following page for X-Ray blocking methods and explanations.
 
 {% content-ref url="../expert/xray.md" %}
 [xray.md](../expert/xray.md)
 {% endcontent-ref %}
 
-### 화이트리스트 <a href="#id-5.3" id="id-5.3"></a>
+### Whitelist <a href="#id-5.3" id="id-5.3"></a>
 
-일부 사용자만 서버에 접속할 수 있도록 하는 경우,
-[Ngrok](./README.md#id-6.2)을 사용하여 [난독화된 서버 주소를 사용](#user-content-fn-5)[^5] 하거나,
-화이트리스트를 설정하여 다른 플레이어가 서버에 접속하지 못하도록 하는 것도 권장됩니다.
+If only some users can connect to the server,
+use [Ngrok](./README.md#id-6.2) to use a [obfuscated server address](#user-content-fn-5)[^5] or
+set a whitelist to prevent other players from connecting to the server.
 
-서버 콘솔에서 `/whitelist add <player>` 를 통해 플레이어의 접속을 허용하거나,
-`/whitelist remove <player>` 로 플레이어의 접속을 다시 금지할 수 있습니다.
+Allow player access through `/whitelist add <player>` in the server console or
+prohibit player access again through `/whitelist remove <player>`.
 
-접속이 허용된 플레이어를 보려면 `/whitelist query` 를 사용합니다.
+Use `/whitelist query` to see allowed players.
 
 ***
 
@@ -195,8 +195,8 @@ X-Ray 차단 방법과 설명은 아래 페이지를 참고하시기 바랍니�
 
 [^2]: 생물 군계 추가 등.
 
-[^3]: 일반적으로 "핵" 으로 불립니다.
+[^3]: Generally referred to as "hacks".
 
-[^4]: 구성이 최적화되지 않았거나, Plazma가 오래되었거나, 새로 발견된 취약점의 경우 차단되어 있지 않을 수 있습니다.
+[^4]: If the configuration is not optimized, Plazma is old, or new vulnerabilities are discovered, they may not be blocked.
 
-[^5]: 플레이어가 서버에 접속할 때 Ngrok 프록시 서버를 통해 접속되며, 매 재시작마다 발급되는 Ngrok 주소는 달라집니다.
+[^5]: When players connect to the server, they are connected via the Ngrok proxy server, and the Ngrok address issued with each restart will be different.
