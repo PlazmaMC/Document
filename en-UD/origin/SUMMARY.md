@@ -38,6 +38,8 @@
     - [↩️ uoᴉɐuouɥɐ]
     - [⚠️ sᴉɯɯɐɯouɥɐ ɘuɯɐᴉlɐɯ]
   - [⁉️ uɯoɯ ǝnbǝɯ uoɹq]
+  - [🩺 ᴉɅsᴉuƃ](plazma/administration/diagnosis/README.md)
+    - [⏬ ɹǝɥʇuƃᴉl](plazma/administration/diagnosis/plugins.md)
 - [⚙️ ɐılǝɹɐɯɹ ǝɔıp](plazma/developers.md)
   - [✏️ sǝɹǝɥoɹɐılɐ](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ sdɹɐɯouɔ](https://jd.plazmamc.org/)
