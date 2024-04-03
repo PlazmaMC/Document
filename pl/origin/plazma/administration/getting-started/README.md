@@ -140,10 +140,10 @@ Nazwa pliku wykonywalnego to `plazma-(menedżer wersji)-1.20.4-R0.1-SNAPSHOT-(ty
 - **Typ mapowania**\
   Mapowanie to rodzaj mapy łączącej rzeczywisty kod Minecrafta z zaszyfrowanym kodem.
   - **Reobf**\
-    Reobfuscation, nazywane także mapowaniem Spigot, używane głównie w wtyczkach NMS.\
-    Od wersji 1.20.5 będzie przestarzałe.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mapowanie Mojanga, mapowanie Vanilla Minecrafta.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Menedżer wersji**\
   Menedżer wersji to narzędzie uruchamiające serwer, które jest odpowiedzialne za pobieranie bibliotek niezbędnych do uruchomienia serwera oraz za łatanie plików serwera.
   - **Paperclip**\
