@@ -41,10 +41,10 @@ https://dl.plazmamc.org/<version>/<type> (https://api.plazmamc.org/v1/download/.
 
 ***
 
-[^1]: Реобф Паперклип. [Сазнајте више](/about/administration/getting-started#id-2)
+[^1]: Реобф Паперклип. [Сазнајте више](../administration/getting-started#id-2)
 
-[^2]: Мојмап Паперклип. [Сазнајте више](/about/administration/getting-started#id-2)
+[^2]: Мојмап Паперклип. [Сазнајте више](../administration/getting-started#id-2)
 
-[^3]: Реобф Паперклип. [Сазнајте више](/about/administration/getting-started#id-2)
+[^3]: Реобф Паперклип. [Сазнајте више](../administration/getting-started#id-2)
 
-[^4]: Мојмап Бандлер. [Сазнајте више](/about/administration/getting-started#id-2)
+[^4]: Мојмап Бандлер. [Сазнајте више](../administration/getting-started#id-2)
