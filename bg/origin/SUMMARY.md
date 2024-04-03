@@ -38,6 +38,8 @@
     - [↩️ Ванилизация](plazma/administration/expert/vanillaize.md)
     - [⚠️ Уязвимости и тяхното отстраняване](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Често задавани въпроси](plazma/administration/faq.md)
+  - [🩺 Диагноза](plazma/administration/diagnosis/README.md)
+    - [⏬ Плъгин](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Ръководство за разработчици](plazma/developers.md)
   - [✏️ Сътрудничество](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
