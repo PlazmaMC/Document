@@ -8,6 +8,8 @@ description: در صورت داشتن سوال، لطفا از طریق Discord 
 
 **اسناد Plazma در حال حاضر به صورت ترجمه ماشینی شده است.**
 
+[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) را برای مراجعه به ترجمه مستندات استفاده کنید و مستندات را بهبود بخشید.
 
 {% endhint %}
