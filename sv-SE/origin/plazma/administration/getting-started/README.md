@@ -140,10 +140,10 @@ Namnet på den körbara filen är `plazma-(versionshanterare)-1.20.4-R0.1-SNAPSH
 - **Kartläggningsformat**\
   Kartläggning är en slags karta som kopplar samman Minecrafts faktiska kod med förvanskad kod.
   - **Reobf**\
-    Reobfuscation, även kallat Spigot-mappning, används främst i NMS-plugins.\
-    Från och med 1.20.5 kommer det att sluta användas.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang-mappning, Vanilla Minecraft-mappning.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Versionshanterare**\
   Versionshanteraren är en launcher för servern som behövs för att köra servern och patcha serverfiler.
   - **Paperclip**\
