@@ -300,8 +300,8 @@ Windows IP 구성
 
 تعرف على كيفية تخصيص الخادم من خلال الدليل أدناه.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="الخطوة-التالية.md" %}
+[الخطوة-التالية.md](الخطوة-التالية.md)
 {% endcontent-ref %}
 
 ***
