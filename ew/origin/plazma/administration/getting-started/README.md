@@ -301,8 +301,8 @@ If you have successfully started the server and it is running correctly, it is n
 
 Learn how to customize the server through the guide below.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
