@@ -8,7 +8,7 @@ description: Kui teil on küsimusi, siis palun esitage need Discordi või GitHub
 
 **Plazma dokumentatsioon on hetkel masintõlkega.**
 
-[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Tõlkimise olek](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) said dokumendi tõlkimisel kasutage viidet ja parandage dokumendit.
 
