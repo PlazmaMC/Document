@@ -301,8 +301,8 @@ Wenn der Server erfolgreich gestartet wurde und ordnungsgemäß funktioniert, is
 
 Erfahren Sie, wie Sie den Server anpassen können, indem Sie den folgenden Leitfaden lesen.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="naechster-schritt.md" %}
+[naechster-schritt.md](naechster-schritt.md)
 {% endcontent-ref %}
 
 ***
