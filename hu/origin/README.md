@@ -8,6 +8,8 @@ description: Ha kérdésed van, kérlek tedd fel a Discord-on vagy a GitHub Issu
 
 **A Plazma dokumentum jelenleg gépi fordításban van.**
 
+[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
 
 {% endhint %}
