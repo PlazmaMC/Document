@@ -37,7 +37,7 @@
     - [🔀 프록시](plazma/administration/expert/proxy.md)
     - [🧹 ऑप्टिमाइज़े](plazma/administration/expert/optimize.md)
     - [↩️ वनिलाइज़](plazma/administration/expert/vanillaize.md)
-    - [🩻 X-Ray 차단](plazma/administration/expert/xray.md)
+    - [🩻 X-Ray ब्लॉक](plazma/administration/expert/xray.md)
     - [⚠️ सुरक्षा गड़बड़ी और समाधान](plazma/administration/expert/fix-exploits.md)
   - [⁉️ अक्सर पूछे जाने वाले सवाल](plazma/administration/faq.md)
   - [🩺 निदान](plazma/administration/diagnosis/README.md)
