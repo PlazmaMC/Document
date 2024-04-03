@@ -302,8 +302,8 @@ Kun palvelin on onnistuneesti käynnistetty ja toimii oikein, on aika mukauttaa 
 
 Katso ohjeet palvelimen mukauttamiseen.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="seuraava-askel.md" %}
+[seuraava-askel.md](seuraava-askel.md)
 {% endcontent-ref %}
 
 ***
