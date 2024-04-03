@@ -301,8 +301,8 @@ Windows IP配置
 
 通过以下指南了解如何个性化服务器。
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
