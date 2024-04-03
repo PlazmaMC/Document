@@ -8,6 +8,8 @@ description: Jos sinulla on kysyttävää, kysy Discordin tai GitHub Issuesin ka
 
 **Plazman asiakirja on tällä hetkellä konekäännetty.**
 
+[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) -sivustoa käyttäen paranna asiakirjaa kääntämällä asiakirjaa.
 
 {% endhint %}
