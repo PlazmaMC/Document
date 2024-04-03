@@ -41,10 +41,10 @@ https://dl.plazmamc.org/<version>/<type> (https://api.plazmamc.org/v1/download/.
 
 ***
 
-[^1]: Reobf पेपरक्लिप। [अधिक जानें](/about/administration/getting-started#id-2)
+[^1]: Reobf पेपरक्लिप। [और अधिक जानें](../administration/getting-started#id-2)
 
-[^2]: Mojmap पेपरक्लिप। [अधिक जानें](/about/administration/getting-started#id-2)
+[^2]: Mojmap पेपरक्लिप। [और अधिक जानें](../administration/getting-started#id-2)
 
-[^3]: Reobf पेपरक्लिप। [अधिक जानें](/about/administration/getting-started#id-2)
+[^3]: Reobf पेपरक्लिप। [और अधिक जानें](../administration/getting-started#id-2)
 
-[^4]: Mojmap बंडलर। [अधिक जानें](/about/administration/getting-started#id-2)
+[^4]: Mojmap बंडलर। [और अधिक जानें](../administration/getting-started#id-2)
