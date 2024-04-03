@@ -8,7 +8,7 @@ description: Sorularınız varsa lütfen Discord veya GitHub Issues üzerinden s
 
 **Plazma belgesi şu anda makine çevirisi durumundadır.**
 
-[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Çeviri Durumu](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) adresinde belge çevirilerini referans alarak belgeyi geliştirin.
 
