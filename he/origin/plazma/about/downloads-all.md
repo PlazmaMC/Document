@@ -41,10 +41,10 @@ https://dl.plazmamc.org/<version>/<type> (https://api.plazmamc.org/v1/download/.
 
 ***
 
-[^1]: Reobf Paperclip. [מידע נוסף](/about/administration/getting-started#id-2)
+[^1]: Reobf Paperclip. [למידע נוסף](../administration/getting-started#id-2)
 
-[^2]: Mojmap Paperclip. [מידע נוסף](/about/administration/getting-started#id-2)
+[^2]: Mojmap Paperclip. [למידע נוסף](../administration/getting-started#id-2)
 
-[^3]: Reobf Paperclip. [מידע נוסף](/about/administration/getting-started#id-2)
+[^3]: Reobf Paperclip. [למידע נוסף](../administration/getting-started#id-2)
 
-[^4]: Mojmap Bundler. [מידע נוסף](/about/administration/getting-started#id-2)
+[^4]: Mojmap Bundler. [למידע נוסף](../administration/getting-started#id-2)
