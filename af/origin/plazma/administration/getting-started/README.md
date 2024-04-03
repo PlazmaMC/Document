@@ -302,9 +302,9 @@ As die bediener suksesvol begin het en behoorlik funksioneer, is dit nou tyd om 
 
 Leer hoe om die bediener aan te pas deur die volgende gids te volg.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
-{% endcontent-ref %}
+{% inhoudsverwysing url="next-step.md" %}
+[next-step.md](next-step.md)
+{% endinhoudsverwysing %}
 
 ***
 
