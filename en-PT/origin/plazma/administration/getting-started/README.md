@@ -140,10 +140,10 @@ The name o' the executable file be `plazma-(version manager)-1.20.4-R0.1-SNAPSHO
 - **Mappin' Type**\
   Mappin' be a kind o' map that connects Minecraft's actual code with the obfuscated code.
   - **Reobf**\
-    Reobfuscation, also known as Spigot mappin', be used in most NMS plugins.\
-    It be scheduled t' be discontinued from 1.20.5 onwards.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang mappin', the vanilla Minecraft mappin'.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Version Manager**\
   The version manager be a launcher necessary fer server operation, patchin' server files, and libraries.
   - **Paperclip**\
