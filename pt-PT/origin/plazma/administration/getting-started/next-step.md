@@ -2,7 +2,7 @@
 description: Descubra como personalizar o servidor.
 ---
 
-# 📶 발전 단계
+# 📶 Fase de desenvolvimento
 
 A razão pela qual se utiliza uma plataforma de servidor modificada como o Plazma em vez da plataforma oficial fornecida pela Mojang Studios é a capacidade de **personalização** intensa.
 
@@ -22,52 +22,45 @@ Consulte a página abaixo para obter informações sobre as configurações do P
 
 ***
 
-## 플러그인 사용 <a href="#id-2" id="id-2"></a>
+## Utilização de plugins <a href="#id-2" id="id-2"></a>
 
-{% hint style="success" %}
+{% dica style="sucesso" %}
 
-**Plazma는 Paper 기반의 모든 플러그인을 정상 지원합니다.**
+**Plazma suporta todos os plugins baseados em Paper normalmente.**
 
-Spigot 플러그인의 경우 1.20.5부터 Paper의 매핑 변화로 일부 동작하지 않을 수 있지만,
-Paper, Pufferfish 및 Purpur 등 Paper를 기반으로 하는 대부분의 플러그인은 Plazma에서도
-모두 작동하며, 만약 정상적으로 작동하지 않을 경우 Plazma의 오류이므로 즉시 [신고해주시기 바랍니다.](../diagnosis/plugins.md)
+Para plugins Spigot, devido às mudanças de mapeamento do Paper a partir da 1.20.5, alguns podem não funcionar corretamente, mas a maioria dos plugins baseados em Paper, como Paper, Pufferfish e Purpur, funcionam normalmente no Plazma e, se não funcionarem corretamente, é um erro do Plazma, então por favor [reporte imediatamente.](../diagnosis/plugins.md)
 
 {% endhint %}
 
-Plazma를 사용하는 주요 이유이자 Plazma를 사용자화하는 가장 강력한 방법입니다.
-Plazma의 강력한 플러그인 생태계는 서버를 손 쉽게 사용자화 할 수 있게 합니다.
+Esta é a principal razão para usar o Plazma e a maneira mais poderosa de personalizá-lo.
+O ecossistema de plugins robusto do Plazma permite personalizar facilmente o servidor.
 
-플러그인을 찾고 다운로드 하는데에는 여러 가지 방법이 있습니다. 어떤 플러그인은
-공개 저장소 서비스에 플러그인을 업로드 하고, 어떤 플러그인은 GitHub 또는 자체
-사이트에 업로드하기도 합니다.
+Existem várias maneiras de encontrar e baixar plugins. Alguns plugins são enviados para serviços de repositórios públicos e outros são enviados para GitHub ou sites próprios.
 
-{% hint style="caution" %}
+{% dica style="atenção" %}
 
-**플러그인은 시스템에 직접적으로 접근할 수 있습니다!**
+**Os plugins podem acessar diretamente o sistema!**
 
-VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항상 안전한지 확인하거나,
-신뢰 가능한 서비스에서 플러그인을 다운로드 하세요.
+Sempre verifique se o plugin é seguro antes de aplicá-lo usando serviços como VirusTotal, ou baixe o plugin de serviços confiáveis.
 
 {% endhint %}
 
-플러그인을 다운로드하기 위해 사용되는 서비스에는 여러 가지가 있습니다. 그 중, [SpigotMC Forum](https://www.spigotmc.org/resources/), [BukkitDev (CurseForge)](https://dev.bukkit.org/bukkit-plugins), [Modrinth](https://modrinth.com/plugins), [Hanger](https://hangar.papermc.io/) 등의 서비스는 플러그인이 업로드 되기 전 심사를 거치며, 안전하지 않은 플러그인은 바로 처리하여 안전한 플러그인만 유통되도록 하고 있습니다.
+Existem vários serviços para baixar plugins. Entre eles, serviços como [SpigotMC Forum](https://www.spigotmc.org/resources/), [BukkitDev (CurseForge)](https://dev.bukkit.org/bukkit-plugins), [Modrinth](https://modrinth.com/plugins), [Hanger](https://hangar.papermc.io/) revisam os plugins antes de serem enviados, garantindo que apenas plugins seguros sejam distribuídos.
 
-### 플러그인 적용하기 <a href="#id-2.1" id="id-2.1"></a>
+### Aplicando plugins <a href="#id-2.1" id="id-2.1"></a>
 
-플러그인을 다운로드 했다면, 이제 플러그인을 적용해볼 차례입니다.
+Depois de baixar os plugins, é hora de aplicá-los.
 
-1. 플러그인은 `.jar` 또는 `Java Executable File` 로 되어 있습니다.\
-   일부 플러그인은 압축 파일로 압축되어 있는 경우도 있는데, 그런 경우
-   압축을 풀어 이름에 `bukkit`, `spigot` 또는 `paper` 가 포함되어 있고,
-   `fat`이 포함된 파일이 함께 있는 경우 `fat` 파일을 사용하면 됩니다.
-2. 다운로드한 파일을 서버 폴더의 `plugins` 폴더에 넣고 서버를 (재)시작합니다.
-3. Plazma가 시작되면, 콘솔에 새로운 내용이 출력이 될 것입니다.
-   이는 Plazma가 플러그인을 정상적으로 로드했다는 의미입니다.
-4. Plazma가 플러그인을 정상적으로 로드했더라도, 플러그인을 시작하지 못했을 수 있습니다.
-   `/plugins` 명령어를 사용하면 현재 서버에 로드된 플러그인을 불러올 수 있습니다.
-   설치한 플러그인의 이름이 <mark style="background-color:red;">적색</mark>이 아닌 <mark style="background-color:green;">녹색</mark>이라면 플러그인이 정상적으로 로드된 것입니다.
+1. Os plugins estão em arquivos `.jar` ou `Java Executable File`.\
+   Alguns são compactados e, nesse caso, extraia, procure por `bukkit`, `spigot` ou `paper` no nome e, se houver um arquivo `fat`, use-o.
+2. Coloque o arquivo baixado na pasta `plugins` do servidor e (re)inicie o servidor.
+3. Quando o Plazma iniciar, haverá novas mensagens no console.
+   Isso significa que o Plazma carregou os plugins corretamente.
+4. Mesmo que o Plazma tenha carregado os plugins corretamente, eles podem não iniciar.
+   Com o comando `/plugins`, você pode ver os plugins carregados no servidor.
+   Se o nome do plugin não estiver em <mark style="background-color:red;">vermelho</mark>, mas sim em <mark style="background-color:green;">verde</mark>, significa que o plugin foi carregado corretamente.
 
-만약 플러그인이 정상적으로 로드되지 않았다면, 아래 페이지에서 문제에 대한 해결 방법을 찾을 수 있습니다.
+Se os plugins não foram carregados corretamente, você pode encontrar soluções na página abaixo.
 
 {% content-ref url="../diagnosis/plugins.md" %}
 [plugins.md](../diagnosis/plugins.md)
@@ -75,60 +68,58 @@ VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항
 
 ***
 
-## 데이터팩 사용 <a href="#id-3" id="id-3"></a>
+## Usando pacotes de dados <a href="#id-3" id="id-3"></a>
 
-데이터팩은 Minecraft가 기본적으로 제공하는 사용자화 방법으로써,
-[리소스팩](#user-content-fn-1)[^1]과 유사합니다.
+Os pacotes de dados são uma forma de personalização fornecida pelo Minecraft, semelhante a [pacotes de recursos](#user-content-fn-1)[^1].
 
-데이터팩을 사용하면 새로운 생물 군계와 도전 과제를 추가하는 등 게임 내부의 일부를 수정할 수 있습니다.
+Com pacotes de dados, você pode adicionar novas entidades e desafios ao jogo, entre outras modificações internas.
 
-{% hint style="caution" %}
+{% dica style="atenção" %}
 
-**데이터팩은 월드를 손상시킬 수 있습니다!**
+**Os pacotes de dados podem danificar o mundo!**
 
-일부 고장난 데이터팩은 월드를 손상시킬 수 있으며, 이는 돌이킬 수 없습니다.
+Alguns pacotes de dados defeituosos podem danificar o mundo de forma irreversível.
 
-따라서, 데이터팩을 적용하기 전 월드를 백업하는것이 권장됩니다.
+Portanto, é recomendável fazer backup do mundo antes de aplicar pacotes de dados.
 
 {% endhint %}
 
-데이터팩 또한 여러 서비스에서 다운로드 할 수 있으며, [CurseForge](https://www.curseforge.com/minecraft/search?page=1\&pageSize=50\&sortBy=relevancy\&class=data-packs), [Modrinth](https://modrinth.com/datapacks), [Planet Minecraft](https://www.planetminecraft.com/data-packs/) 등 여러 서비스에서 찾을 수 있습니다.
+Os pacotes de dados podem ser baixados de vários serviços, como [CurseForge](https://www.curseforge.com/minecraft/search?page=1\&pageSize=50\&sortBy=relevancy\&class=data-packs), [Modrinth](https://modrinth.com/datapacks), [Planet Minecraft](https://www.planetminecraft.com/data-packs/), entre outros.
 
-데이터팩을 다운로드 했다면, 서버의 월드 폴더에 `datapacks` 폴더에 넣어 적용할 수 있습니다.
-폴더가 없는 경우 폴더를 생성하여 추가하면 됩니다.
+Depois de baixar os pacotes de dados, você pode aplicá-los colocando-os na pasta `datapacks` do mundo do servidor.
+Se a pasta não existir, crie-a para adicionar os pacotes de dados.
 
 {% hint style="warning" %}
 
-**[일부 데이터팩](#user-content-fn-2)[^2]의 경우 처음 적용시 정상적으로 적용되지 않을 수 있습니다.**
+**[Alguns pacotes de dados](#user-content-fn-2)[^2] podem não ser aplicados corretamente na primeira aplicação.**
 
-이런 경우에 대비하여 서버를 **2번** 재시작하는 것을 권장합니다.
+Para isso, é recomendável reiniciar o servidor **2 vezes**.
 
 {% endhint %}
 
-데이터팩은 Minecraft의 버전이 업데이트 될 때 마다 쉽게 손상될 수 있습니다.
+Os pacotes de dados podem ser facilmente corrompidos a cada atualização do Minecraft.
 
-특히, 데이터팩이 완전히 손상된 경우, 서버가 충돌하기 때문에,
-서버를 업데이트하기 전 충분한 테스트를 거치는 것이 중요합니다.
+Especialmente se os pacotes de dados estiverem completamente corrompidos, é importante testar bem antes de atualizar o servidor para evitar conflitos.
 
 {% dica estilo="info" %}
 
-**서버 시작 명령어 뒤에 `safeMode`를 입력하여 데이터팩을 모두 비활성화 한 뒤 서버를 시작할 수 있습니다.**
+**Depois de inserir `safeMode` após o comando de inicialização do servidor, você pode desativar todos os pacotes de dados e iniciar o servidor.**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safeMode)
+Para mais informações, consulte `Referência > Argumentos e Propriedades`.](../reference/arguments.md#safeMode)
 
 {% endhint %}
 
-적용된 데이터팩은 `/datapack list` 명령어를 통해 확인할 수 있습니다.
+Você pode verificar os pacotes de dados aplicados com o comando `/datapack list`.
 
 ***
 
-## 최적화 <a href="#id-4" id="id-4"></a>
+## Otimização <a href="#id-4" id="id-4"></a>
 
-Plazma에는 많은 최적화 패치가 적용되어 있습니다. 또한, Plazma가 처음으로 시작되면 자동으로
-구성을 최적화 하므로 [시작하기](./README.md) 가이드를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
+Plazma tem muitos patches de otimização aplicados. Além disso, quando o Plazma é iniciado pela primeira vez, otimiza automaticamente
+a configuração, então se você seguir o guia [Começando](./README.md), não há necessidade de mais trabalho de otimização.
 
-하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
-아래 가이드를 통해 추가적인 최적화 작업을 할 수 있습니다.
+No entanto, se muitos jogadores se conectarem ou se o mundo for extenso,
+você pode realizar trabalhos adicionais de otimização seguindo o guia abaixo.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
@@ -136,12 +127,12 @@ Plazma에는 많은 최적화 패치가 적용되어 있습니다. 또한, Plazm
 
 ***
 
-## 프록시 <a href="#id-5" id="id-5"></a>
+## Proxy <a href="#id-5" id="id-5"></a>
 
-프록시는 서버를 서로 연결하고 플레이어가 추가적인 작업 없이 서버를 이동하거나,
-다른 서버와 소통할 수 있게 합니다.
+O proxy conecta servidores e permite que os jogadores se movam entre servidores
+ou se comuniquem com outros servidores sem trabalho adicional.
 
-안전하고 올바른 프록시 설정에 대한 정보는 아래 페이지를 참고하세요.
+Para informações sobre configurações de proxy seguras e corretas, consulte a página abaixo.
 
 {% content-ref url="../expert/proxy.md" %}
 [proxy.md](../expert/proxy.md)
@@ -149,45 +140,45 @@ Plazma에는 많은 최적화 패치가 적용되어 있습니다. 또한, Plazm
 
 ***
 
-## 안전 <a href="#id-5" id="id-5"></a>
+## Segurança <a href="#id-5" id="id-5"></a>
 
-Minecraft는 모드가 발달하여 온라인에서도 쉽게 [취약점 공격 엔진](#user-content-fn-3)[^3]을 구할 수 있습니다.
+Com o avanço dos mods, é fácil encontrar um [motor de ataque de vulnerabilidades](#user-content-fn-3)[^3] online.
 
-일반 게임에서도 실행 가능한 대부분의 취약점은 [기본적으로 차단되어 있지만](#user-content-fn-4)[^4],
-서드파티 로더를 통해 취약점을 공격하는것은 차단되어 있지 않습니다.
+Embora a maioria das vulnerabilidades executáveis em jogos normais sejam [bloqueadas por padrão](#user-content-fn-4)[^4],
+a exploração de vulnerabilidades através de carregadores de terceiros não é bloqueada.
 
-따라서, 서버가 공개되어 있는 경우, 안티 치트 플러그인 등을 설치하여 취약점 사용을 차단하고,
-프록시 및 자동 재시작, 백업 등을 구성하여 서버가 다운되어도 빠르게 복구할 수 있도록 하는 것이 권장됩니다.
+Portanto, se o servidor estiver público, é recomendável instalar plugins anti-cheat para bloquear a exploração de vulnerabilidades,
+e configurar proxies, reinicializações automáticas, backups, etc., para que o servidor possa ser rapidamente recuperado em caso de queda.
 
-### 권한 설정 <a href="#id-5.1" id="id-5.1"></a>
+### Configuração de permissões <a href="#id-5.1" id="id-5.1"></a>
 
-일부 플러그인의 관리자 명령어는 권한이 제대로 설정되지 않은 취약점이 존재하기도 합니다.
+Alguns comandos de administrador de plugins podem ter vulnerabilidades se as permissões não forem configuradas corretamente.
 
-[LuckPerms](https://luckperms.net/) 등의 권한 관리 플러그인을 사용하여
-일반 사용자의 권한을 제한하는 조치를 하는것이 권장됩니다.
+É recomendável usar plugins de gerenciamento de permissões como
+LuckPerms](https\://luckperms.net/) para restringir as permissões de usuários comuns.
 
-### X-Ray 차단 <a href="#id-5.2" id="id-5.2"></a>
+### Bloqueio de X-Ray <a href="#id-5.2" id="id-5.2"></a>
 
-X-Ray는 기본적인 최적화 클라이언트에서도 쉽게 사용 가능한 취약점 중 하나입니다.
+O X-Ray é uma das vulnerabilidades facilmente exploráveis mesmo em clientes de otimização básica.
 
-Plazma에는 X-Ray를 기본적으로 차단할 수 있는 구성을 제공하고 있습니다.
+Plazma oferece uma configuração para bloquear o uso do X-Ray por padrão.
 
-X-Ray 차단 방법과 설명은 아래 페이지를 참고하시기 바랍니다.
+Consulte a página abaixo para obter informações e instruções sobre o bloqueio do X-Ray.
 
 {% content-ref url="../expert/xray.md" %}
 [xray.md](../expert/xray.md)
 {% endcontent-ref %}
 
-### 화이트리스트 <a href="#id-5.3" id="id-5.3"></a>
+### Lista branca <a href="#id-5.3" id="id-5.3"></a>
 
-일부 사용자만 서버에 접속할 수 있도록 하는 경우,
-[Ngrok](./README.md#id-6.2)을 사용하여 [난독화된 서버 주소를 사용](#user-content-fn-5)[^5] 하거나,
-화이트리스트를 설정하여 다른 플레이어가 서버에 접속하지 못하도록 하는 것도 권장됩니다.
+Se deseja permitir apenas alguns usuários a acessarem o servidor,
+utilize [Ngrok](./README.md#id-6.2) para usar [um endereço de servidor ofuscado](#user-content-fn-5)[^5] ou
+configure uma lista branca para impedir que outros jogadores acessem o servidor.
 
-서버 콘솔에서 `/whitelist add <player>` 를 통해 플레이어의 접속을 허용하거나,
-`/whitelist remove <player>` 로 플레이어의 접속을 다시 금지할 수 있습니다.
+No console do servidor, use `/whitelist add <player>` para permitir a entrada de um jogador ou
+`/whitelist remove <player>` para proibir a entrada de um jogador novamente.
 
-접속이 허용된 플레이어를 보려면 `/whitelist query` 를 사용합니다.
+Use `/whitelist query` para ver os jogadores permitidos a entrar.
 
 ***
 
@@ -195,8 +186,8 @@ X-Ray 차단 방법과 설명은 아래 페이지를 참고하시기 바랍니�
 
 [^2]: Adição de novas entidades, entre outras coisas.
 
-[^3]: 일반적으로 "핵" 으로 불립니다.
+[^3]: Normalmente chamado de "hacks".
 
-[^4]: 구성이 최적화되지 않았거나, Plazma가 오래되었거나, 새로 발견된 취약점의 경우 차단되어 있지 않을 수 있습니다.
+[^4]: Se a configuração não estiver otimizada, se o Plazma estiver desatualizado ou se novas vulnerabilidades forem descobertas, elas podem não ser bloqueadas.
 
-[^5]: 플레이어가 서버에 접속할 때 Ngrok 프록시 서버를 통해 접속되며, 매 재시작마다 발급되는 Ngrok 주소는 달라집니다.
+[^5]: Os jogadores se conectam ao servidor através do servidor de proxy Ngrok e um novo endereço Ngrok é emitido a cada reinicialização.
