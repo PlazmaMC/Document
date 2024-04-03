@@ -140,10 +140,10 @@ Numele fișierului de executare este `plazma-(managerul versiunii)-1.20.4-R0.1-S
 - **Forma de mapare**\
   Maparea este o hartă care leagă codul real al Minecraft-ului de codul obfuscat.
   - **Reobf**\
-    Reobfuscarea, cunoscută și sub numele de mapare Spigot, este folosită în mare parte în pluginurile NMS.\
-    Va fi eliminată începând cu versiunea 1.20.5.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Maparea Mojang, este maparea Vanilla Minecraft-ului.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Managerul versiunii**\
   Managerul versiunii este un launcher al serverului care furnizează bibliotecile necesare pentru rularea serverului și aplică patch-uri pe fișierele serverului.
   - **Paperclip**\
