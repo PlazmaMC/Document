@@ -8,6 +8,8 @@ description: 質問がある場合は、DiscordまたはGitHub Issuesを通じ�
 
 **Plazmaの文書は現在機械翻訳されています。**
 
+[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) で文書翻訳を参照して文書を改善してください。
 
 {% endhint %}
