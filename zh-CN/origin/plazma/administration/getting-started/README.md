@@ -139,10 +139,10 @@ Plazma提供多种形式的可执行文件。
 - **映射形式**\
   映射是连接Minecraft实际代码和混淆代码的一种地图。
   - **Reobf**\
-    重新混淆，也称为Spigot映射，在大多数NMS插件中使用。\
-    从1.20.5开始将停止使用。
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang映射，原始Minecraft映射。
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **版本管理器**\
   版本管理器是运行服务器所需的库和修补服务器文件的启动器。
   - **Paperclip**\
