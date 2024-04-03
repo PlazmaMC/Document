@@ -41,10 +41,10 @@ https://dl.plazmamc.org/<version>/<type> (https://api.plazmamc.org/v1/download/.
 
 ***
 
-[^1]: Reobf Paperclip. [Daha Fazlasını Öğren](/hakkinda/yonetim/baslangic#id-2)
+[^1]: Reobf Paperclip. [Daha Fazla Bilgi](../administration/getting-started#id-2)
 
-[^2]: Mojmap Paperclip. [Daha Fazlasını Öğren](/hakkinda/yonetim/baslangic#id-2)
+[^2]: Mojmap Paperclip. [Daha Fazla Bilgi](../administration/getting-started#id-2)
 
-[^3]: Reobf Paperclip. [Daha Fazlasını Öğren](/hakkinda/yonetim/baslangic#id-2)
+[^3]: Reobf Paperclip. [Daha Fazla Bilgi](../administration/getting-started#id-2)
 
-[^4]: Mojmap Paketleyici. [Daha Fazlasını Öğren](/hakkinda/yonetim/baslangic#id-2)
+[^4]: Mojmap Paketleyici. [Daha Fazla Bilgi](../administration/getting-started#id-2)
