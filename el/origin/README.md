@@ -8,6 +8,8 @@ description: Αν έχετε ερωτήσεις, παρακαλούμε να τ�
 
 **Το έγγραφο του Plazma είναι προς το παρόν μεταφρασμένο από μηχανική μετάφραση.**
 
+[![Κατάσταση Μετάφρασης](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) Χρησιμοποιήστε το [https://translate.plazmamc.org/](https://translate.plazmamc.org/) ως αναφορά για τη μετάφραση του εγγράφου και βελτιώστε το έγγραφο.
 
 {% endhint %}
