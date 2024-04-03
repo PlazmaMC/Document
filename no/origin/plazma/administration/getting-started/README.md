@@ -139,10 +139,10 @@ Navnet på kjørefilen er `plazma-(versjonsbehandler)-1.20.4-R0.1-SNAPSHOT-(mapp
 - **Mappingtype**\
   Mapping er en slags veikart som knytter Minecrafts faktiske kode til obfuskert kode.
   - **Reobf**\
-    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
-    1.20.5부터 사용이 종료될 예정입니다.
+    Reobfuscated (omdannet på nytt), også kjent som Spigot-mapping, brukt i de fleste NMS-plugins.\
+    Bruken av dette vil bli avsluttet fra versjon 1.20.5.
   - **Mojmap**\
-    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
+    Mojang-mappet, vanlig Minecraft-mapping.
 - **Versjonsbehandler**\
   En versjonsbehandler er en launcher for serveren som trengs for å kjøre serveren og patche serverfiler.
   - **Paperclip**\
