@@ -38,6 +38,8 @@
     - [↩️ Převod na základní nastavení](plazma/administration/expert/vanillaize.md)
     - [⚠️ Zranitelnosti a opravy](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Časté dotazy](plazma/administration/faq.md)
+  - [🩺 Diagnóza](plazma/administration/diagnosis/README.md)
+    - [⏬ Plugin](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Průvodce vývojářem](plazma/developers.md)
   - [✏️ Přispět](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
