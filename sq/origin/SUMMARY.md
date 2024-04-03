@@ -38,6 +38,8 @@
     - [↩️ Bëhu si Vanilla](plazma/administration/expert/vanillaize.md)
     - [⚠️ Dështimet dhe zgjidhjet](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Pyetje të shpeshta](plazma/administration/faq.md)
+  - [🩺 Diagnoza](plazma/administration/diagnosis/README.md)
+    - [⏬ Shtojca](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Udhezues për Zhvilluesit](plazma/developers.md)
   - [✏️ Kontribuoni](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
