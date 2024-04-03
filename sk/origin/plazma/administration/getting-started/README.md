@@ -302,8 +302,8 @@ Ak ste úspešne spustili server a funguje správne, je čas prispôsobiť si se
 
 Zistite, ako prispôsobiť server pomocou nasledujúceho sprievodcu.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="dalsi-krok.md" %}
+[dalsi-krok.md](dalsi-krok.md)
 {% endcontent-ref %}
 
 ***
