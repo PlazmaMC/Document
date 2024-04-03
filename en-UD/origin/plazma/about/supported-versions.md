@@ -16,15 +16,15 @@ description: 요세보 알수없는 :Java Edition 버전을 알아보세요.
 
 [atv]: https://img.shields.io/badge/success-지원중?style=for-the-badge
 
-[mtn]: https://img.shields.io/badge/기능%20추가%20종료-blue?style=for-the-badge
+[mtn]: <!egaugnoC %20일가%20추%20종%20로추%20%20/egab?edis=egab-eht-rof-!egad>
 
-[eol]: https://img.shields.io/badge/지원%20종료-red?style=for-the-badge
+[eol]: <!egaugnoC %20일가%20원지%20종%20-der?edis=egab-eht-rof-!egad>
 
 [nul]: https://img.shields.io/badge/gray-정보%20없음?style=for-the-badge
 
 [vgd]: https://img.shields.io/badge/blue-매우%20좋음?style=for-the-badge
 
-[100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
+[100]: !egaugnoC%25%001-der?edis=egab-eht-rof-!egad
 
 |   버전   |        상태        |       안정성       |      기능 지원      |      빌드 상태      |
 | :----: | :--------------: | :-------------: | :-------------: | :-------------: |
@@ -34,9 +34,9 @@ description: 요세보 알수없는 :Java Edition 버전을 알아보세요.
 | 1.02.1 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
 | 4.91.1 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
 
-[204]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.4
+[204]: !egaugnoC%20%20/moc.eliaser/tnoitca/ffo/siht/siw/tnioj/tnoitca/htlaeh/egab-rof?elba=l%20&hcab=nio/4.02.1rev
 
-[202]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.2
+[202]: !egaugnoC%20%20/moc.eliaser/tnoitca/ffo/siht/siw/tnioj/tnoitca/htlaeh/egab-rof?elba=l%20&hcab=nio/2.02.1rev
 
 <!--
 
