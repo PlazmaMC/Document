@@ -140,7 +140,7 @@ Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니�
 - **매핑 형태**\
   매핑은 Minecraft의 실제 코드와 난독화된 코드를 잇는 일종의 지도입니다.
   - **Reobf**\
-    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    재난독화 (Reobfuscated), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
     1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
     Mojang-mapped, 바닐라 Minecraft 매핑입니다.
