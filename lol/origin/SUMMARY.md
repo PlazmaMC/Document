@@ -38,6 +38,8 @@
     - [↩️ BAHDEENYAHWAH](plazma/administration/expert/vanillaize.md)
     - [⚠️ KEEYOHNJUNZ AN HAYSHUL BAHNAM](plazma/administration/expert/fix-exploits.md)
   - [⁉️ JAHZHOO MOOTKEEN JILKEUN](plazma/administration/faq.md)
+  - [🩺 진단](plazma/administration/diagnosis/README.md)
+    - [⏬ 플러그인](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Developerz Guide](plazma/developers.md)
   - [✏️ Contriboot](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
