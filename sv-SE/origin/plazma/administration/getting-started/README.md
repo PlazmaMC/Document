@@ -302,8 +302,8 @@ Om servern har startats framgångsrikt och fungerar korrekt, är det dags att an
 
 Lär dig hur du anpassar servern genom följande guide.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="nasta-steg.md" %}
+[nasta-steg.md](nasta-steg.md)
 {% endcontent-ref %}
 
 ***
