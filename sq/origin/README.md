@@ -8,6 +8,8 @@ description: Nëse keni pyetje, lutemi pyetni nëpërmjet Discord ose GitHub Iss
 
 **Dokumenti i Plazmas është aktualisht në gjendje përkthimi me makinë.**
 
+[![Gjendja e Përkthimit](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 Referohuni në [https://translate.plazmamc.org/](https://translate.plazmamc.org/) për të përmirësuar dokumentin duke u bazuar në përkthimin e dokumentit.
 
 {% endhint %}
