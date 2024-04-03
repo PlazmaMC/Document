@@ -140,10 +140,10 @@ Yürütülebilir dosyanın adı `plazma-(version manager)-1.20.4-R0.1-SNAPSHOT-(
 - **Mapping Şekli**\
   Mapping, Minecraft'ın gerçek kodunu ve karışık kodunu birleştiren bir tür haritadır.
   - **Reobf**\
-    Yeniden karıştırma, Spigot eşleşmesi olarak da bilinir ve çoğu NMS eklentisinde kullanılır.\
-    1.20.5'ten itibaren kullanımı sona erecektir.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang eşleşmesi, vanilla Minecraft eşlemesidir.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Sürüm Yöneticisi**\
   Sürüm yöneticisi, sunucu işletimi için gerekli kütüphaneleri sağlayan ve sunucu dosyalarını yamalayan sunucunun başlatıcısı olarak düşünülebilir.
   - **Paperclip**\
