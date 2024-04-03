@@ -14,17 +14,17 @@ Ha az 1.19.4 alatti platformot keresi, használja a [Fusion (`1.19.2 ~ 1.19.3`)]
 
 [wtr]: https://img.shields.io/badge/릴리스%20대기중-szürke?style=for-the-badge
 
-[atv]: https://img.shields.io/badge/지원중-success?style=for-the-badge
+[atv]: https://img.shields.io/badge/지원중-sikeres?style=for-the-badge
 
-[mtn]: https://img.shields.io/badge/기능%20추가%20종료-blue?style=for-the-badge
+[mtn]: https://img.shields.io/badge/기능%20추가%20종료-kék?style=for-the-badge
 
-[eol]: https://img.shields.io/badge/지원%20종료-red?style=for-the-badge
+[eol]: https://img.shields.io/badge/지원%20종료-piros?style=for-the-badge
 
-[nul]: https://img.shields.io/badge/정보%20없음-gray?style=for-the-badge
+[nul]: https://img.shields.io/badge/정보%20없음-szürke?style=for-the-badge
 
-[vgd]: https://img.shields.io/badge/매우%20좋음-blue?style=for-the-badge
+[vgd]: https://img.shields.io/badge/매우%20좋음-kék?style=for-the-badge
 
-[100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
+[100]: https://img.shields.io/badge/100%25-kék?style=for-the-badge
 
 | Verzió |      Állapot     |    Stabilitás   | Funkció támogatás | Építés állapota |
 | :----: | :--------------: | :-------------: | :---------------: | :-------------: |
