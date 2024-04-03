@@ -41,10 +41,10 @@ https://dl.plazmamc.org/<version>/<type> (https://api.plazmamc.org/v1/download/.
 
 ***
 
-[^1]: Reobf Paperclip. [Saznajte više](/about/administration/getting-started#id-2)
+[^1]: Reobf Paperclip. [Saznajte više](../administration/getting-started#id-2)
 
-[^2]: Mojmap Paperclip. [Saznajte više](/about/administration/getting-started#id-2)
+[^2]: Mojmap Paperclip. [Saznajte više](../administration/getting-started#id-2)
 
-[^3]: Reobf Paperclip. [Saznajte više](/about/administration/getting-started#id-2)
+[^3]: Reobf Paperclip. [Saznajte više](../administration/getting-started#id-2)
 
-[^4]: Mojmap Bundler. [Saznajte više](/about/administration/getting-started#id-2)
+[^4]: Mojmap Bundler. [Saznajte više](../administration/getting-started#id-2)
