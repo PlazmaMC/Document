@@ -302,8 +302,8 @@ Windows IP 구성
 
 以下のガイドを通じてサーバーをカスタマイズする方法について知ってください。
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
