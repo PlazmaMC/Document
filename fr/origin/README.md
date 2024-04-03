@@ -8,6 +8,8 @@ description: Si vous avez des questions, veuillez les poser sur Discord ou GitHu
 
 **Les documents de Plazma sont actuellement dans un état de traduction automatique.**
 
+[![État de la traduction](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 Améliorez le document en consultant la traduction du document sur [https://translate.plazmamc.org/](https://translate.plazmamc.org/)
 
 {% endhint %}
