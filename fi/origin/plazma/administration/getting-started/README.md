@@ -140,10 +140,10 @@ Suoritustiedoston nimi on `plazma-(versionhallinta)-1.20.4-R0.1-SNAPSHOT-(kartoi
 - **Kartoitusmuoto**\
   Kartoitus yhdistää Minecraftin todellisen koodin ja käännetyn koodin eräänlaiseksi kartaksi.
   - **Reobf**\
-    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
-    1.20.5부터 사용이 종료될 예정입니다.
+    Uudelleenhämmennetty (재난독화), tunnetaan myös nimellä Spigot-maalaus ja sitä käytetään suurimmassa osassa NMS-liitännäisiä.\
+    Käyttö päättyy versiosta 1.20.5 alkaen.
   - **Mojmap**\
-    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
+    Mojangin määrittämä, vanilja Minecraft -kartoitus.
 - **Versionhallinta**\
   Versionhallinta on palvelimen käynnistämiseen tarvittava kirjasto ja palvelimen tiedostojen korjaaja.
   - **Paperclip**\
