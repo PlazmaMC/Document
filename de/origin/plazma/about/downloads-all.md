@@ -40,10 +40,10 @@ https://dl.plazmamc.org/<version>/<type> (https://api.plazmamc.org/v1/download/.
 
 ***
 
-[^1]: Reobf Paperclip. [Weitere Informationen](/about/administration/getting-started#id-2)
+[^1]: Reobf Paperclip. [Weitere Informationen](../administration/getting-started#id-2)
 
-[^2]: Mojmap Paperclip. [Weitere Informationen](/about/administration/getting-started#id-2)
+[^2]: Mojmap Paperclip. [Weitere Informationen](../administration/getting-started#id-2)
 
-[^3]: Reobf Paperclip. [Weitere Informationen](/about/administration/getting-started#id-2)
+[^3]: Reobf Paperclip. [Weitere Informationen](../administration/getting-started#id-2)
 
-[^4]: Mojmap Bundler. [Weitere Informationen](/about/administration/getting-started#id-2)
+[^4]: Mojmap Bundler. [Weitere Informationen](../administration/getting-started#id-2)
