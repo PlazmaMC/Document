@@ -16,7 +16,7 @@ If you are looking for platforms below 1.19.4, please use [Fusion (`1.19.2 ~ 1.1
 
 [atv]: https://img.shields.io/badge/지원중-success?style=for-the-badge
 
-[mtn]: https://img.shields.io/badge/Feature%20Addition%20End-blue?style=for-the-badge
+[mtn]: https://img.shields.io/badge/Feature%20End-blue?style=for-the-badge
 
 [eol]: https://img.shields.io/badge/Support%20End-red?style=for-the-badge
 
@@ -26,13 +26,13 @@ If you are looking for platforms below 1.19.4, please use [Fusion (`1.19.2 ~ 1.1
 
 [100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
 
-| Version |            Status            |        Stability        |     Feature Support     |       Build Status      |
-| :-----: | :--------------------------: | :---------------------: | :---------------------: | :---------------------: |
-|  1.20.5 |    ![Release Pending][wtr]   | ![Release Pending][wtr] | ![Release Pending][wtr] | ![Release Pending][wtr] |
-|  1.20.4 |       ![Supported][atv]      |    ![Very Good][vgd]    |           100%          |   ![Build Status][204]  |
-|  1.20.2 | ![Feature Addition End][mtn] |    ![Very Good][vgd]    |           100%          |   ![Build Status][202]  |
-|  1.20.1 |      ![Support End][eol]     |    ![Very Good][vgd]    |           100%          |  ![No Information][nul] |
-|  1.19.4 |      ![Support End][eol]     |    ![Very Good][vgd]    |           100%          |  ![No Information][nul] |
+| Version |          Status         |        Stability        |     Feature Support     |       Build Status      |
+| :-----: | :---------------------: | :---------------------: | :---------------------: | :---------------------: |
+|  1.20.5 | ![Release Pending][wtr] | ![Release Pending][wtr] | ![Release Pending][wtr] | ![Release Pending][wtr] |
+|  1.20.4 |    ![Supporting][atv]   |    ![Very Good][vgd]    |           100%          |   ![Build Status][204]  |
+|  1.20.2 |   ![Feature End][mtn]   |    ![Very Good][vgd]    |           100%          |   ![Build Status][202]  |
+|  1.20.1 |   ![Support End][eol]   |    ![Very Good][vgd]    |           100%          |  ![No Information][nul] |
+|  1.19.4 |   ![Support End][eol]   |    ![Very Good][vgd]    |           100%          |  ![No Information][nul] |
 
 [204]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.4
 
