@@ -2,7 +2,7 @@
 description: 瞭解如何自訂伺服器。
 ---
 
-# 📶 발전 단계
+# 📶 發展階段
 
 Mojang Studios提供的官方伺服器平台，與Plazma等修改過的伺服器平台不同，最主要的原因是可以進行強大的**使用者自訂**。
 
@@ -22,52 +22,47 @@ Plazma提供了從遊戲機制到怪物屬性等強大的配置設定。
 
 ***
 
-## 플러그인 사용 <a href="#id-2" id="id-2"></a>
+## 使用插件 <a href="#id-2" id="id-2"></a>
 
 {% hint style="success" %}
 
-**Plazma는 Paper 기반의 모든 플러그인을 정상 지원합니다.**
+**Plazma支持所有基于Paper的插件。**
 
-Spigot 플러그인의 경우 1.20.5부터 Paper의 매핑 변화로 일부 동작하지 않을 수 있지만,
-Paper, Pufferfish 및 Purpur 등 Paper를 기반으로 하는 대부분의 플러그인은 Plazma에서도
-모두 작동하며, 만약 정상적으로 작동하지 않을 경우 Plazma의 오류이므로 즉시 [신고해주시기 바랍니다.](../diagnosis/plugins.md)
+对于Spigot插件，由于从1.20.5开始，由于Paper的映射变化，某些插件可能无法正常工作，但是基于Paper的插件，如Paper、Pufferfish和Purpur等，都可以在Plazma上正常运行。如果插件无法正常工作，请立即[报告给Plazma](../diagnosis/plugins.md)。
 
 {% endhint %}
 
-Plazma를 사용하는 주요 이유이자 Plazma를 사용자화하는 가장 강력한 방법입니다.
-Plazma의 강력한 플러그인 생태계는 서버를 손 쉽게 사용자화 할 수 있게 합니다.
+这是使用Plazma的主要原因，也是使Plazma个性化的最强大方法。
+Plazma强大的插件生态系统使服务器易于个性化。
 
-플러그인을 찾고 다운로드 하는데에는 여러 가지 방법이 있습니다. 어떤 플러그인은
-공개 저장소 서비스에 플러그인을 업로드 하고, 어떤 플러그인은 GitHub 또는 자체
-사이트에 업로드하기도 합니다.
+有多种方法可以查找并下载插件。 一些插件会将插件上传到公共存储库服务，而另一些插件则会上传到GitHub或自己的网站。
 
 {% hint style="caution" %}
 
-**플러그인은 시스템에 직접적으로 접근할 수 있습니다!**
+**插件可以直接访问系统！**
 
-VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항상 안전한지 확인하거나,
-신뢰 가능한 서비스에서 플러그인을 다운로드 하세요.
+使用VirusTotal等服务在应用插件之前始终确保安全性，或者从可信任的服务下载插件。
 
 {% endhint %}
 
-플러그인을 다운로드하기 위해 사용되는 서비스에는 여러 가지가 있습니다. 그 중, [SpigotMC Forum](https://www.spigotmc.org/resources/), [BukkitDev (CurseForge)](https://dev.bukkit.org/bukkit-plugins), [Modrinth](https://modrinth.com/plugins), [Hanger](https://hangar.papermc.io/) 등의 서비스는 플러그인이 업로드 되기 전 심사를 거치며, 안전하지 않은 플러그인은 바로 처리하여 안전한 플러그인만 유통되도록 하고 있습니다.
+有多种服务可用于下载插件。 其中，[SpigotMC论坛](https://www.spigotmc.org/resources/)、[BukkitDev (CurseForge)](https://dev.bukkit.org/bukkit-plugins)、[Modrinth](https://modrinth.com/plugins)、[Hanger](https://hangar.papermc.io/)等服务在上传插件之前经过审核，只有安全的插件才会被分发。
 
-### 플러그인 적용하기 <a href="#id-2.1" id="id-2.1"></a>
+### 应用插件 <a href="#id-2.1" id="id-2.1"></a>
 
-플러그인을 다운로드 했다면, 이제 플러그인을 적용해볼 차례입니다.
+如果已经下载了插件，现在可以应用插件了。
 
-1. 플러그인은 `.jar` 또는 `Java Executable File` 로 되어 있습니다.\
-   일부 플러그인은 압축 파일로 압축되어 있는 경우도 있는데, 그런 경우
-   압축을 풀어 이름에 `bukkit`, `spigot` 또는 `paper` 가 포함되어 있고,
-   `fat`이 포함된 파일이 함께 있는 경우 `fat` 파일을 사용하면 됩니다.
-2. 다운로드한 파일을 서버 폴더의 `plugins` 폴더에 넣고 서버를 (재)시작합니다.
-3. Plazma가 시작되면, 콘솔에 새로운 내용이 출력이 될 것입니다.
-   이는 Plazma가 플러그인을 정상적으로 로드했다는 의미입니다.
-4. Plazma가 플러그인을 정상적으로 로드했더라도, 플러그인을 시작하지 못했을 수 있습니다.
-   `/plugins` 명령어를 사용하면 현재 서버에 로드된 플러그인을 불러올 수 있습니다.
-   설치한 플러그인의 이름이 <mark style="background-color:red;">적색</mark>이 아닌 <mark style="background-color:green;">녹색</mark>이라면 플러그인이 정상적으로 로드된 것입니다.
+1. 插件是`.jar`或`Java可执行文件`。\
+   有些插件可能被压缩成压缩文件，这种情况下
+   解压缩并包含`bukkit`、`spigot`或`paper`的名称，
+   如果有`fat`文件，则使用`fat`文件。
+2. 将下载的文件放入服务器文件夹中的`plugins`文件夹中，然后重新启动服务器。
+3. Plazma启动后，控制台将输出新内容。
+   这表示Plazma已成功加载插件。
+4. 即使Plazma已成功加载插件，某些插件可能无法启动。
+   使用`/plugins`命令可以加载当前服务器上加载的插件。
+   如果安装的插件名称不是<mark style="background-color:red;">红色</mark>，而是 <mark style="background-color:green;">绿色</mark>，则插件已正常加载。
 
-만약 플러그인이 정상적으로 로드되지 않았다면, 아래 페이지에서 문제에 대한 해결 방법을 찾을 수 있습니다.
+如果插件未能正常加载，请查看以下页面以找到解决方案。
 
 {% content-ref url="../diagnosis/plugins.md" %}
 [plugins.md](../diagnosis/plugins.md)
@@ -75,60 +70,58 @@ VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항
 
 ***
 
-## 데이터팩 사용 <a href="#id-3" id="id-3"></a>
+## 使用数据包 <a href="#id-3" id="id-3"></a>
 
-데이터팩은 Minecraft가 기본적으로 제공하는 사용자화 방법으로써,
-[리소스팩](#user-content-fn-1)[^1]과 유사합니다.
+数据包是Minecraft默认提供的个性化方式，类似于[资源包](#user-content-fn-1)[^1]。
 
-데이터팩을 사용하면 새로운 생물 군계와 도전 과제를 추가하는 등 게임 내부의 일부를 수정할 수 있습니다.
+使用数据包可以添加新生物群系和挑战，修改游戏内的部分内容。
 
 {% hint style="caution" %}
 
-**데이터팩은 월드를 손상시킬 수 있습니다!**
+**数据包可能会损坏世界！**
 
-일부 고장난 데이터팩은 월드를 손상시킬 수 있으며, 이는 돌이킬 수 없습니다.
+一些损坏的数据包可能会损坏世界，这是无法挽回的。
 
-따라서, 데이터팩을 적용하기 전 월드를 백업하는것이 권장됩니다.
+因此，建议在应用数据包之前备份世界。
 
 {% endhint %}
 
-데이터팩 또한 여러 서비스에서 다운로드 할 수 있으며, [CurseForge](https://www.curseforge.com/minecraft/search?page=1\&pageSize=50\&sortBy=relevancy\&class=data-packs), [Modrinth](https://modrinth.com/datapacks), [Planet Minecraft](https://www.planetminecraft.com/data-packs/) 등 여러 서비스에서 찾을 수 있습니다.
+数据包也可以从多个服务中下载，如[CurseForge](https://www.curseforge.com/minecraft/search?page=1\&pageSize=50\&sortBy=relevancy\&class=data-packs)、[Modrinth](https://modrinth.com/datapacks)、[Planet Minecraft](https://www.planetminecraft.com/data-packs/)等服务。
 
-데이터팩을 다운로드 했다면, 서버의 월드 폴더에 `datapacks` 폴더에 넣어 적용할 수 있습니다.
-폴더가 없는 경우 폴더를 생성하여 추가하면 됩니다.
+下载数据包后，将其放入服务器世界文件夹中的`datapacks`文件夹中以应用。
+如果文件夹不存在，可以创建文件夹并添加。
 
 {% hint style="warning" %}
 
-**[일부 데이터팩](#user-content-fn-2)[^2]의 경우 처음 적용시 정상적으로 적용되지 않을 수 있습니다.**
+**[部分資料包](#user-content-fn-2)[^2]在初次應用時可能無法正常應用。**
 
-이런 경우에 대비하여 서버를 **2번** 재시작하는 것을 권장합니다.
+为此，建议重新启动服务器**2次**。
 
 {% endhint %}
 
-데이터팩은 Minecraft의 버전이 업데이트 될 때 마다 쉽게 손상될 수 있습니다.
+数据包在Minecraft更新时很容易损坏。
 
-특히, 데이터팩이 완전히 손상된 경우, 서버가 충돌하기 때문에,
-서버를 업데이트하기 전 충분한 테스트를 거치는 것이 중요합니다.
+特别是当数据包完全损坏时，服务器会崩溃，
+因此，在更新服务器之前进行充分测试非常重要。
 
 {% hint style="info" %}
 
-**서버 시작 명령어 뒤에 `safeMode`를 입력하여 데이터팩을 모두 비활성화 한 뒤 서버를 시작할 수 있습니다.**
+**在服务器启动命令后输入`safeMode`，可以禁用所有数据包后启动服务器。**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safeMode)
+[詳細內容請參考 `參考 > 引數與屬性`](../reference/arguments.md#safeMode)
 
 {% endhint %}
 
-적용된 데이터팩은 `/datapack list` 명령어를 통해 확인할 수 있습니다.
+应用的数据包可以通过`/datapack list`命令进行确认。
 
 ***
 
-## 최적화 <a href="#id-4" id="id-4"></a>
+## 最佳化 <a href="#id-4" id="id-4"></a>
 
-Plazma에는 많은 최적화 패치가 적용되어 있습니다. 또한, Plazma가 처음으로 시작되면 자동으로
-구성을 최적화 하므로 [시작하기](./README.md) 가이드를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
+Plazma已經應用了許多最佳化補丁。 此外，當Plazma首次啟動時，會自動優化配置，因此如果遵循[入門指南](./README.md)，則無需進行額外的最佳化工作。
 
-하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
-아래 가이드를 통해 추가적인 최적화 작업을 할 수 있습니다.
+但是，如果有許多玩家連線，或者世界很大，
+您可以通過以下指南進行額外的最佳化工作。
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
@@ -136,12 +129,12 @@ Plazma에는 많은 최적화 패치가 적용되어 있습니다. 또한, Plazm
 
 ***
 
-## 프록시 <a href="#id-5" id="id-5"></a>
+## 代理 <a href="#id-5" id="id-5"></a>
 
-프록시는 서버를 서로 연결하고 플레이어가 추가적인 작업 없이 서버를 이동하거나,
-다른 서버와 소통할 수 있게 합니다.
+代理可將服務器連接在一起，使玩家無需進行額外操作即可移動到其他服務器，
+與其他服務器進行通信。
 
-안전하고 올바른 프록시 설정에 대한 정보는 아래 페이지를 참고하세요.
+有關安全且正確的代理設置的信息，請參閱以下頁面。
 
 {% content-ref url="../expert/proxy.md" %}
 [proxy.md](../expert/proxy.md)
@@ -149,45 +142,45 @@ Plazma에는 많은 최적화 패치가 적용되어 있습니다. 또한, Plazm
 
 ***
 
-## 안전 <a href="#id-5" id="id-5"></a>
+## 安全 <a href="#id-5" id="id-5"></a>
 
-Minecraft는 모드가 발달하여 온라인에서도 쉽게 [취약점 공격 엔진](#user-content-fn-3)[^3]을 구할 수 있습니다.
+由於Minecraft的模組化發展，甚至在線上也很容易獲得[弱點攻擊引擎](#user-content-fn-3)[^3]。
 
-일반 게임에서도 실행 가능한 대부분의 취약점은 [기본적으로 차단되어 있지만](#user-content-fn-4)[^4],
-서드파티 로더를 통해 취약점을 공격하는것은 차단되어 있지 않습니다.
+即使在普通遊戲中，大多數可執行的弱點都是[基本上被阻擋的](#user-content-fn-4)[^4]，
+但通過第三方加載器攻擊弱點是不被阻擋的。
 
-따라서, 서버가 공개되어 있는 경우, 안티 치트 플러그인 등을 설치하여 취약점 사용을 차단하고,
-프록시 및 자동 재시작, 백업 등을 구성하여 서버가 다운되어도 빠르게 복구할 수 있도록 하는 것이 권장됩니다.
+因此，如果服務器是公開的，建議安裝反作弊插件等來阻止弱點使用，
+並配置代理、自動重啟、備份等，以便即使服務器宕機也能快速恢復。
 
-### 권한 설정 <a href="#id-5.1" id="id-5.1"></a>
+### 權限設定 <a href="#id-5.1" id="id-5.1"></a>
 
-일부 플러그인의 관리자 명령어는 권한이 제대로 설정되지 않은 취약점이 존재하기도 합니다.
+一些插件的管理員命令存在未正確設置權限的弱點。
 
-[LuckPerms](https://luckperms.net/) 등의 권한 관리 플러그인을 사용하여
-일반 사용자의 권한을 제한하는 조치를 하는것이 권장됩니다.
+建議使用[LuckPerms](https://luckperms.net/)等權限管理插件，
+限制普通用戶的權限。
 
-### X-Ray 차단 <a href="#id-5.2" id="id-5.2"></a>
+### X射線阻擋 <a href="#id-5.2" id="id-5.2"></a>
 
-X-Ray는 기본적인 최적화 클라이언트에서도 쉽게 사용 가능한 취약점 중 하나입니다.
+X射線是一種基本最佳化客戶端中很容易使用的弱點之一。
 
-Plazma에는 X-Ray를 기본적으로 차단할 수 있는 구성을 제공하고 있습니다.
+Plazma提供了可以基本阻擋X射線的配置。
 
-X-Ray 차단 방법과 설명은 아래 페이지를 참고하시기 바랍니다.
+有關X射線阻擋方法和說明，請參考以下頁面。
 
 {% content-ref url="../expert/xray.md" %}
 [xray.md](../expert/xray.md)
 {% endcontent-ref %}
 
-### 화이트리스트 <a href="#id-5.3" id="id-5.3"></a>
+### 白名單 <a href="#id-5.3" id="id-5.3"></a>
 
-일부 사용자만 서버에 접속할 수 있도록 하는 경우,
-[Ngrok](./README.md#id-6.2)을 사용하여 [난독화된 서버 주소를 사용](#user-content-fn-5)[^5] 하거나,
-화이트리스트를 설정하여 다른 플레이어가 서버에 접속하지 못하도록 하는 것도 권장됩니다.
+如果只允許部分用戶訪問服務器，
+請使用[Ngrok](./README.md#id-6.2)來使用[混淆的服務器地址](#user-content-fn-5)[^5]，或者
+設置白名單以防止其他玩家訪問服務器。
 
-서버 콘솔에서 `/whitelist add <player>` 를 통해 플레이어의 접속을 허용하거나,
-`/whitelist remove <player>` 로 플레이어의 접속을 다시 금지할 수 있습니다.
+您可以在服務器控制台上使用 `/whitelist add <player>` 允許玩家訪問，或者
+使用 `/whitelist remove <player>` 來再次禁止玩家訪問。
 
-접속이 허용된 플레이어를 보려면 `/whitelist query` 를 사용합니다.
+要查看已允許訪問的玩家，請使用 `/whitelist query`。
 
 ***
 
@@ -195,8 +188,8 @@ X-Ray 차단 방법과 설명은 아래 페이지를 참고하시기 바랍니�
 
 [^2]: 添加新生物群系等。
 
-[^3]: 일반적으로 "핵" 으로 불립니다.
+[^3]: 通常被稱為"作弊"。
 
-[^4]: 구성이 최적화되지 않았거나, Plazma가 오래되었거나, 새로 발견된 취약점의 경우 차단되어 있지 않을 수 있습니다.
+[^4]: 如果配置未最佳化，Plazma過時，或者發現了新的弱點，則可能未阻擋。
 
-[^5]: 플레이어가 서버에 접속할 때 Ngrok 프록시 서버를 통해 접속되며, 매 재시작마다 발급되는 Ngrok 주소는 달라집니다.
+[^5]: 玩家通過Ngrok代理服務器訪問，每次重新啟動時發放的Ngrok地址都會有所不同。
