@@ -38,6 +38,8 @@
     - [↩️ Vanilizare](plazma/administration/expert/vanillaize.md)
     - [⚠️ Vulnerabilități și Soluții](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Întrebări Frecvente](plazma/administration/faq.md)
+  - [🩺 Diagnostic](plazma/administration/diagnosis/README.md)
+    - [⏬ Plugin](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Ghid pentru Dezvoltatori](plazma/developers.md)
   - [✏️ Contribuie](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadoc-uri](https://jd.plazmamc.org/)
