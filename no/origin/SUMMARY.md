@@ -38,6 +38,8 @@
     - [↩️ Gjøre om til vanilje](plazma/administration/expert/vanillaize.md)
     - [⚠️ Sårbarheter og løsninger](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Ofte stilte spørsmål](plazma/administration/faq.md)
+  - [🩺 진단](plazma/administration/diagnosis/README.md)
+    - [⏬ 플러그인](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Utviklerguide](plazma/developers.md)
   - [✏️ Bidra](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
