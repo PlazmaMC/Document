@@ -302,8 +302,8 @@ Kui server on edukalt käivitatud ja töötab korralikult, on aeg seda kasutajap
 
 Tutvuge alloleva juhendiga, kuidas serverit kohandada.
 
-{% content-ref url="customization.md" %}
-[kohandamine.md](kohandamine.md)
+{% content-ref url="järgmine-samm.md" %}
+[järgmine-samm.md](järgmine-samm.md)
 {% endcontent-ref %}
 
 ***
