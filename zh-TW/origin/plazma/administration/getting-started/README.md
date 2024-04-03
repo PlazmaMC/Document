@@ -301,8 +301,8 @@ Windows IP配置
 
 通過以下指南了解如何自定義伺服器。
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
