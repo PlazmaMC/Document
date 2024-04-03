@@ -26,13 +26,13 @@ Pokud hledáte platformu starší než 1.19.4, použijte [Fusion (`1.19.2 ~ 1.19
 
 [100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
 
-|  Verze |       Stav       |    Stabilita    |  Podpora funkcí |  Stav sestavení |
-| :----: | :--------------: | :-------------: | :-------------: | :-------------: |
-| 1.20.5 |  ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] |
-| 1.20.4 |    ![지원중][atv]   |  ![매우 좋음][vgd]  |       100%      |  ![빌드 상태][204]  |
-| 1.20.2 | ![기능 추가 종료][mtn] |  ![매우 좋음][vgd]  |       100%      |  ![빌드 상태][202]  |
-| 1.20.1 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
-| 1.19.4 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
+|  Verze |           Stav           |     Stabilita    |  Podpora funkcí |      Stav sestavení     |
+| :----: | :----------------------: | :--------------: | :-------------: | :---------------------: |
+| 1.20.5 |      ![릴리스 대기중][wtr]     |  ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] |     ![릴리스 대기중][wtr]     |
+| 1.20.4 |        ![지원중][atv]       | ![매우 dobře][vgd] |       100%      |  ![Stav sestavení][204] |
+| 1.20.2 |  ![Funkce ukončena][mtn] | ![매우 dobře][vgd] |       100%      |  ![Stav sestavení][202] |
+| 1.20.1 | ![Podpora ukončena][eol] | ![매우 dobře][vgd] |       100%      | ![Žádné informace][nul] |
+| 1.19.4 | ![Podpora ukončena][eol] | ![매우 dobře][vgd] |       100%      | ![Žádné informace][nul] |
 
 [204]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.4
 
