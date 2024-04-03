@@ -302,8 +302,8 @@ Ethernet adapter Ethernet:
 
 Дізнайтеся, як налаштувати сервер, використовуючи наш посібник.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
