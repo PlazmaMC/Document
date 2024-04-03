@@ -38,6 +38,8 @@
     - [↩️ वनिलाइज़](plazma/administration/expert/vanillaize.md)
     - [⚠️ सुरक्षा गड़बड़ी और समाधान](plazma/administration/expert/fix-exploits.md)
   - [⁉️ अक्सर पूछे जाने वाले सवाल](plazma/administration/faq.md)
+  - [🩺 निदान](plazma/administration/diagnosis/README.md)
+    - [⏬ प्लगइन](plazma/administration/diagnosis/plugins.md)
 - [⚙️ डेवलपर गाइड](plazma/developers.md)
   - [✏️ योगदान करें](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ जावाडॉक्स](https://jd.plazmamc.org/)
