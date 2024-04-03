@@ -139,10 +139,10 @@ El nombre del archivo ejecutable se establece como `plazma-(administrador de ver
 - **Formato de mapeo**\
   El mapeo es una especie de mapa que une el código real de Minecraft con el código ofuscado.
   - **Reobf**\
-    Reobfuscation, también conocido como mapeo de Spigot, se utiliza en la mayoría de los complementos NMS.\
-    A partir de la versión 1.20.5, dejará de utilizarse.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mapeo de Mojang, es el mapeo de Minecraft Vanilla.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Administrador de versiones**\
   El administrador de versiones es un lanzador de servidores que proporciona las bibliotecas necesarias para ejecutar el servidor y parchear los archivos del servidor.
   - **Paperclip**\
