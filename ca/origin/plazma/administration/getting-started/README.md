@@ -140,10 +140,10 @@ El nom del fitxer executable és `plazma-(gestor de versions)-1.20.4-R0.1-SNAPSH
 - **Format de mapeig**\
   El mapeig és una mena de mapa que connecta el codi real de Minecraft amb el codi ofuscado.
   - **Reobf**\
-    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
-    1.20.5부터 사용이 종료될 예정입니다.
+    Reobfuscat (reobfuscació), també conegut com a Spigot mapeig, s'utilitza principalment en la majoria dels plugins NMS.\
+    S'aturarà d'utilitzar-se a partir de la versió 1.20.5.
   - **Mojmap**\
-    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
+    Mapeig de Mojang, és el mapeig del Minecraft de la vanila.
 - **Gestor de versions**\
   El gestor de versions és una mena de llançador que necessita biblioteques per al funcionament del servidor i per aplicar patches als fitxers del servidor.
   - **Paperclip**\
