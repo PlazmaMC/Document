@@ -302,8 +302,8 @@ Setelah berhasil memulai server dan server berfungsi dengan baik, saatnya untuk 
 
 Pelajari cara menyesuaikan server melalui panduan di bawah ini.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="langkah-selanjutnya.md" %}
+[langkah-selanjutnya.md](langkah-selanjutnya.md)
 {% endcontent-ref %}
 
 ***
