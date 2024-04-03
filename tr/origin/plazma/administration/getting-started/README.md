@@ -302,8 +302,8 @@ Sunucuyu başarıyla başlattıysanız ve sunucunun düzgün çalıştığından
 
 Sunucuyu nasıl özelleştireceğinizi öğrenmek için aşağıdaki kılavuza göz atın.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="sonraki-adim.md" %}
+[sonraki-adım.md](sonraki-adım.md)
 {% endcontent-ref %}
 
 ***
