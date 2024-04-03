@@ -301,8 +301,8 @@ Als de server succesvol is gestart en correct werkt, is het nu tijd om de server
 
 Leer hoe u de server kunt aanpassen via de onderstaande gids.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="volgende-stap.md" %}
+[volgende-stap.md](volgende-stap.md)
 {% endcontent-ref %}
 
 ***
