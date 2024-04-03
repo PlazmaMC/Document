@@ -302,8 +302,8 @@ Windows IP конфигурација
 
 Прочитајте упутства испод о томе како прилагодити сервер.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
