@@ -302,8 +302,8 @@ Dacă serverul a fost inițiat cu succes și funcționează corect, acum este mo
 
 Consultați ghidul pentru personalizarea serverului.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="urmatorul-pas.md" %}
+[urmatorul-pas.md](urmatorul-pas.md)
 {% endcontent-ref %}
 
 ***
