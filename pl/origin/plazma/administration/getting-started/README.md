@@ -301,8 +301,8 @@ Jeśli serwer został pomyślnie uruchomiony i działa poprawnie, teraz nadszed�
 
 Dowiedz się, jak dostosować serwer, korzystając z poniższego przewodnika.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="następny-krok.md" %}
+[następny-krok.md](następny-krok.md)
 {% endcontent-ref %}
 
 ***
