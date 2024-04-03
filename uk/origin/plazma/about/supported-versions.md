@@ -14,25 +14,25 @@ description: "Дізнайтеся, які версії підтримує Minec
 
 [wtr]: https://img.shields.io/badge/ЧЕКАЄМО%20НА%20РЕЛІЗ-gray?style=for-the-badge
 
-[atv]: https://img.shields.io/badge/지원중-success?style=for-the-badge
+[atv]: https://img.shields.io/badge/підтримка-success?style=for-the-badge
 
-[mtn]: https://img.shields.io/badge/기능%20추가%20종료-blue?style=for-the-badge
+[mtn]: https://img.shields.io/badge/зупинка%20додаткових%20функцій-blue?style=for-the-badge
 
-[eol]: https://img.shields.io/badge/지원%20종료-red?style=for-the-badge
+[eol]: https://img.shields.io/badge/підтримка%20завершена-red?style=for-the-badge
 
-[nul]: https://img.shields.io/badge/정보%20없음-gray?style=for-the-badge
+[nul]: https://img.shields.io/badge/немає%20інформації-gray?style=for-the-badge
 
-[vgd]: https://img.shields.io/badge/매우%20좋음-blue?style=for-the-badge
+[vgd]: https://img.shields.io/badge/дуже%20добре-blue?style=for-the-badge
 
 [100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
 
-| Версія |      Статус      |   Стабільність  | Підтримка функцій |   Стан збірки   |
-| :----: | :--------------: | :-------------: | :---------------: | :-------------: |
-| 1.20.5 |  ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] |  ![릴리스 대기중][wtr]  | ![릴리스 대기중][wtr] |
-| 1.20.4 |    ![지원중][atv]   |  ![매우 좋음][vgd]  |        100%       |  ![빌드 상태][204]  |
-| 1.20.2 | ![기능 추가 종료][mtn] |  ![매우 좋음][vgd]  |        100%       |  ![빌드 상태][202]  |
-| 1.20.1 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |        100%       |  ![정보 없음][nul]  |
-| 1.19.4 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |        100%       |  ![정보 없음][nul]  |
+| Версія |               Статус               |        Стабільність       |     Підтримка функцій     |        Стан збірки        |
+| :----: | :--------------------------------: | :-----------------------: | :-----------------------: | :-----------------------: |
+| 1.20.5 |      ![очікування релізу][wtr]     | ![очікування релізу][wtr] | ![очікування релізу][wtr] | ![очікування релізу][wtr] |
+| 1.20.4 |          ![підтримка][atv]         |     ![дуже добре][vgd]    |            100%           |    ![стан збірки][204]    |
+| 1.20.2 | ![зупинка додаткових функцій][mtn] |     ![дуже добре][vgd]    |            100%           |    ![стан збірки][202]    |
+| 1.20.1 |     ![підтримка завершена][eol]    |     ![дуже добре][vgd]    |            100%           |  ![немає інформації][nul] |
+| 1.19.4 |     ![підтримка завершена][eol]    |     ![дуже добре][vgd]    |            100%           |  ![немає інформації][nul] |
 
 [204]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.4
 
