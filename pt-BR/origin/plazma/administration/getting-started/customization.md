@@ -24,100 +24,90 @@ Consulte a página abaixo para obter informações sobre a configuração do Pla
 
 {% hint style="success" %}
 
-**Plazma는 Paper 기반의 모든 플러그인을 정상 지원합니다.**
+**Plazma suporta todos os plugins baseados em Paper normalmente.**
 
-Spigot 플러그인의 경우 1.20.5부터 Paper의 매핑 변화로 일부 동작하지 않을 수 있지만,
-Paper, Pufferfish 및 Purpur 등 Paper를 기반으로 하는 대부분의 플러그인은 Plazma에서도
-모두 작동하며, 만약 정상적으로 작동하지 않을 경우 Plazma의 오류이므로 즉시 [신고해주시기 바랍니다.](../diagnosis/plugins.md)
+Para plugins do Spigot, devido às mudanças de mapeamento a partir do Paper 1.20.5, alguns podem não funcionar, mas a maioria dos plugins baseados em Paper, Pufferfish e Purpur funcionam normalmente no Plazma. Se não funcionarem corretamente, é um erro do Plazma, portanto, [reporte imediatamente.](../diagnosis/plugins.md)
 
 {% endhint %}
 
-Plazma를 사용하는 주요 이유이자 Plazma를 사용자화하는 가장 강력한 방법입니다.
-Plazma의 강력한 플러그인 생태계는 서버를 손 쉽게 사용자화 할 수 있게 합니다.
+Esta é a principal razão para usar o Plazma e a forma mais poderosa de personalizá-lo.
+O ecossistema de plugins poderoso do Plazma permite personalizar o servidor facilmente.
 
-플러그인을 찾고 다운로드 하는데에는 여러 가지 방법이 있습니다. 어떤 플러그인은
-공개 저장소 서비스에 플러그인을 업로드 하고, 어떤 플러그인은 GitHub 또는 자체
-사이트에 업로드하기도 합니다.
+Existem várias maneiras de encontrar e baixar plugins. Alguns plugins são enviados para serviços de repositórios públicos, enquanto outros são enviados para o GitHub ou sites próprios.
 
 {% hint style="caution" %}
 
-**플러그인은 시스템에 직접적으로 접근할 수 있습니다!**
+**Os plugins podem ter acesso direto ao sistema!**
 
-VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항상 안전한지 확인하거나,
-신뢰 가능한 서비스에서 플러그인을 다운로드 하세요.
+Sempre verifique se os plugins são seguros antes de aplicá-los, usando serviços como o VirusTotal, ou baixe os plugins de serviços confiáveis.
 
 {% endhint %}
 
-플러그인을 다운로드하기 위해 사용되는 서비스에는 여러 가지가 있습니다. 그 중, [SpigotMC Forum](https://www.spigotmc.org/resources/), [BukkitDev (CurseForge)](https://dev.bukkit.org/bukkit-plugins), [Modrinth](https://modrinth.com/plugins), [Hanger](https://hangar.papermc.io/) 등의 서비스는 플러그인이 업로드 되기 전 심사를 거치며, 안전하지 않은 플러그인은 바로 처리하여 안전한 플러그인만 유통되도록 하고 있습니다.
+Existem vários serviços para baixar plugins. Dentre eles, serviços como [SpigotMC Forum](https://www.spigotmc.org/resources/), [BukkitDev (CurseForge)](https://dev.bukkit.org/bukkit-plugins), [Modrinth](https://modrinth.com/plugins), [Hanger](https://hangar.papermc.io/) revisam os plugins antes de serem disponibilizados, garantindo a segurança.
 
-### 플러그인 적용하기 <a href="#id-2.1" id="id-2.1"></a>
+### Aplicando Plugins <a href="#id-2.1" id="id-2.1"></a>
 
-플러그인을 다운로드 했다면, 이제 플러그인을 적용해볼 차례입니다.
+Após baixar os plugins, é hora de aplicá-los.
 
-1. 플러그인은 `.jar` 또는 `Java Executable File` 로 되어 있습니다.\
-   일부 플러그인은 압축 파일로 압축되어 있는 경우도 있는데, 그런 경우
-   압축을 풀어 이름에 `bukkit`, `spigot` 또는 `paper` 가 포함되어 있고,
-   `fat`이 포함된 파일이 함께 있는 경우 `fat` 파일을 사용하면 됩니다.
-2. 다운로드한 파일을 서버 폴더의 `plugins` 폴더에 넣고 서버를 (재)시작합니다.
-3. Plazma가 시작되면, 콘솔에 새로운 내용이 출력이 될 것입니다.
-   이는 Plazma가 플러그인을 정상적으로 로드했다는 의미입니다.
-4. Plazma가 플러그인을 정상적으로 로드했더라도, 플러그인을 시작하지 못했을 수 있습니다.
-   `/plugins` 명령어를 사용하면 현재 서버에 로드된 플러그인을 불러올 수 있습니다.
-   설치한 플러그인의 이름이 <mark style="background-color:red;">적색</mark>이 아닌 <mark style="background-color:green;">녹색</mark>이라면 플러그인이 정상적으로 로드된 것입니다.
+1. Os plugins são arquivos `.jar` ou `Java Executable File`. Alguns podem estar compactados, nesse caso, descompacte e use o arquivo com `bukkit`, `spigot` ou `paper` no nome, ou se houver um arquivo com `fat`, use este.
+2. Coloque o arquivo baixado na pasta 'plugins' do servidor e reinicie o servidor.
+3. Ao iniciar o Plazma, novas informações serão exibidas no console.
+   Isso indica que o Plazma carregou os plugins corretamente.
+4. Mesmo que o Plazma tenha carregado os plugins corretamente, pode haver problemas ao iniciá-los.
+   Use o comando `/plugins` para ver os plugins carregados no servidor.
+   Se o nome do plugin não estiver em <mark style="background-color:red;">vermelho</mark>, mas sim em <mark style="background-color:green;">verde</mark>, significa que o plugin foi carregado corretamente.
 
-만약 플러그인이 정상적으로 로드되지 않았다면, 아래 페이지에서 문제에 대한 해결 방법을 찾을 수 있습니다.
+Se o plugin não foi carregado corretamente, você pode encontrar soluções na página abaixo.
 
 {% content-ref url="../diagnosis/plugins.md" %}
 [plugins.md](../diagnosis/plugins.md)
 {% endcontent-ref %}
 
-## 데이터팩 사용 <a href="#id-3" id="id-3"></a>
+## Uso de Datapacks <a href="#id-3" id="id-3"></a>
 
-데이터팩은 Minecraft가 기본적으로 제공하는 사용자화 방법으로써,
-[리소스팩](#user-content-fn-1)[^1]과 유사합니다.
+Datapacks são uma forma de personalização fornecida pelo Minecraft, semelhante a pacotes de recursos.
 
-데이터팩을 사용하면 새로운 생물 군계와 도전 과제를 추가하는 등 게임 내부의 일부를 수정할 수 있습니다.
+Com datapacks, é possível adicionar novas entidades e desafios ao jogo, modificando partes internas do jogo.
 
 {% hint style="caution" %}
 
-**데이터팩은 월드를 손상시킬 수 있습니다!**
+**Datapacks podem danificar o mundo!**
 
-일부 고장난 데이터팩은 월드를 손상시킬 수 있으며, 이는 돌이킬 수 없습니다.
+Datapacks defeituosos podem danificar o mundo de forma irreversível.
 
-따라서, 데이터팩을 적용하기 전 월드를 백업하는것이 권장됩니다.
+Portanto, é recomendável fazer backup do mundo antes de aplicar datapacks.
 
 {% endhint %}
 
-데이터팩 또한 여러 서비스에서 다운로드 할 수 있으며, [CurseForge](https://www.curseforge.com/minecraft/search?page=1\&pageSize=50\&sortBy=relevancy\&class=data-packs), [Modrinth](https://modrinth.com/datapacks), [Planet Minecraft](https://www.planetminecraft.com/data-packs/) 등 여러 서비스에서 찾을 수 있습니다.
+Datapacks podem ser baixados de diversos serviços, como [CurseForge](https://www.curseforge.com/minecraft/search?page=1\&pageSize=50\&sortBy=relevancy\&class=data-packs), [Modrinth](https://modrinth.com/datapacks), [Planet Minecraft](https://www.planetminecraft.com/data-packs).
 
-데이터팩을 다운로드 했다면, 서버의 월드 폴더에 `datapacks` 폴더에 넣어 적용할 수 있습니다.
-폴더가 없는 경우 폴더를 생성하여 추가하면 됩니다.
+Após baixar o datapack, coloque-o na pasta 'datapacks' do mundo do servidor para aplicá-lo.
+Se a pasta não existir, crie-a antes de adicionar o datapack.
 
 {% hint style="warning" %}
 
-**일부 [데이터팩](#user-content-fn-2)[^2]의 경우 처음 적용시 정상적으로 적용되지 않을 수 있습니다.**
+**Alguns [datapacks](#user-content-fn-2) podem não ser aplicados corretamente na primeira vez.**
 
-이런 경우에 대비하여 서버를 **2번** 재시작하는 것을 권장합니다.
+Para esses casos, é recomendável reiniciar o servidor **2 vezes**.
 
 {% endhint %}
 
-데이터팩은 Minecraft의 버전이 업데이트 될 때 마다 쉽게 손상될 수 있습니다.
+Datapacks podem ser facilmente corrompidos a cada atualização do Minecraft.
 
-특히, 데이터팩이 완전히 손상된 경우, 서버가 충돌하기 때문에,
-서버를 업데이트하기 전 충분한 테스트를 거치는 것이 중요합니다.
+Principalmente se um datapack estiver completamente corrompido, pode causar falhas no servidor. Portanto, é importante testar bem antes de atualizar o servidor.
 
 {% hint style="info" %}
 
-**서버 시작 명령어 뒤에 `safeMode`를 입력하여 데이터팩을 모두 비활성화 한 뒤 서버를 시작할 수 있습니다.**
+**Após o comando de inicialização do servidor, digite `safeMode` para desativar todos os datapacks antes de iniciar o servidor.**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md)
+[Consulte 'Referência > Argumentos' para mais detalhes.](../reference/arguments.md)
 
 {% endhint %}
 
-적용된 데이터팩은 `/datapack list` 명령어를 통해 확인할 수 있습니다.
+Você pode verificar os datapacks aplicados com o comando `/datapack list`.
 
 ***
 
-[^1]: 또는 Minecraft: Bedrock Edition의 애드온.
+[^1]: Ou através de addons do Minecraft: Bedrock Edition.
 
-[^2]: 생물 군계 추가 등.
+[^2]: Adição de novas entidades, etc.
