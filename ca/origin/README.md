@@ -8,6 +8,8 @@ description: Si tens alguna pregunta, si us plau, pregunta a través de Discord 
 
 **Els documents de Plazma estan actualment en un estat de traducció automàtica.**
 
+[![Estat de traducció](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) a partir de la traducció de documents, millora els documents.
 
 {% endhint %}
