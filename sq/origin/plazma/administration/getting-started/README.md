@@ -301,8 +301,8 @@ Pas fillimit të suksesshëm të serverit dhe funksionimit të duhur të tij, ta
 
 Zbuloni se si të personalizoni serverin duke ndjekur udhëzimet më poshtë.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="hapi-hapi.md" %}
+[hapi-hapi.md](hapi-hapi.md)
 {% endcontent-ref %}
 
 ***
