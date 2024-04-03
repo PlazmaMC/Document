@@ -301,8 +301,8 @@ Server ki kwo kikwero, ki kwo kikwero me server ki dano.
 
 Cwalo me Java Runtime Environment, Java Runtime.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
