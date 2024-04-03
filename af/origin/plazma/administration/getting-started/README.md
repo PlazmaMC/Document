@@ -140,10 +140,10 @@ Die uitvoerbaarleër se naam word bepaal as `plazma-(weergawe-bestuurder)-1.20.4
 - **Karteringsvorm**\
   Kartering is 'n soort kaart wat die werklike en die vervloeiingskode van Minecraft met mekaar verbind.
   - **Reobf**\
-    Reobfuscation, ook bekend as Spigot-kartering, word hoofsaaklik in die meeste NMS-invoegtoepassings gebruik.\
-    Vanaf 1.20.5 sal dit nie meer gebruik word nie.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang-kartering, die vanilje-Minecraft-kartering.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Weergawe-bestuurder**\
   Die weergawe-bestuurder is 'n lêerbestuurder wat nodig is vir die bedryf van die bediener en wat die biblioteke en lêers op die bediener toepas.
   - **Paperclip**\
