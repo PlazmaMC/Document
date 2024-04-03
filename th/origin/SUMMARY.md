@@ -38,6 +38,8 @@
     - [↩️ ทำให้เป็นวานิลล่า](plazma/administration/expert/vanillaize.md)
     - [⚠️ จุดอ่อนและวิธีแก้ไข](plazma/administration/expert/fix-exploits.md)
   - [⁉️ คำถามที่ถามบ่อย](plazma/administration/faq.md)
+  - [🩺 การวินิจฉัย](plazma/administration/diagnosis/README.md)
+    - [⏬ ปลั๊กอิน](plazma/administration/diagnosis/plugins.md)
 - [⚙️ คู่มือนักพัฒนา](plazma/developers.md)
   - [✏️ สนับสนุน](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
