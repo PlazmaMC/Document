@@ -8,7 +8,7 @@ description: Jika anda mempunyai sebarang pertanyaan, sila bertanya melalui Disc
 
 **Dokumen Plazma sedang diterjemahkan oleh mesin pada masa ini.**
 
-[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Status Terjemahan](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) di sini untuk merujuk semasa menerjemahkan dokumen dan memperbaiki dokumen.
 
