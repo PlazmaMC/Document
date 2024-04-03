@@ -16,9 +16,9 @@ Wenn Sie nach Plattformen unter 1.19.4 suchen, verwenden Sie bitte [Fusion (`1.1
 
 [atv]: https://img.shields.io/badge/Unterstützt-success?style=for-the-badge
 
-[mtn]: https://img.shields.io/badge/기능%20추가%20종료-blue?style=for-the-badge
+[mtn]: https://img.shields.io/badge/Funktion%20hinzufügen%20abgeschlossen-blue?style=for-the-badge
 
-[eol]: https://img.shields.io/badge/지원%20종료-red?style=for-the-badge
+[eol]: https://img.shields.io/badge/Unterstützung%20beendet-red?style=for-the-badge
 
 [nul]: https://img.shields.io/badge/Keine%20Informationen-gray?style=for-the-badge
 
@@ -26,13 +26,13 @@ Wenn Sie nach Plattformen unter 1.19.4 suchen, verwenden Sie bitte [Fusion (`1.1
 
 [100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
 
-| Version |      Status      |    Stabilität   | Funktionsunterstützung |   Build-Status  |
-| :-----: | :--------------: | :-------------: | :--------------------: | :-------------: |
-|  1.20.5 |  ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] |     ![릴리스 대기중][wtr]    | ![릴리스 대기중][wtr] |
-|  1.20.4 |    ![지원중][atv]   |  ![매우 좋음][vgd]  |          100%          |  ![빌드 상태][204]  |
-|  1.20.2 | ![기능 추가 종료][mtn] |  ![매우 좋음][vgd]  |          100%          |  ![빌드 상태][202]  |
-|  1.20.1 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |          100%          |  ![정보 없음][nul]  |
-|  1.19.4 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |          100%          |  ![정보 없음][nul]  |
+| Version |                   Status                  |         Stabilität         |   Funktionsunterstützung   |         Build-Status        |
+| :-----: | :---------------------------------------: | :------------------------: | :------------------------: | :-------------------------: |
+|  1.20.5 |         ![Release ausstehend][wtr]        | ![Release ausstehend][wtr] | ![Release ausstehend][wtr] |  ![Release ausstehend][wtr] |
+|  1.20.4 |        ![Unterstützung läuft][atv]        |      ![Sehr gut][vgd]      |            100%            |     ![Build-Status][204]    |
+|  1.20.2 | ![Funktion hinzufügen abgeschlossen][mtn] |      ![Sehr gut][vgd]      |            100%            |     ![Build-Status][202]    |
+|  1.20.1 |       ![Unterstützung beendet][eol]       |      ![Sehr gut][vgd]      |            100%            | ![Keine Informationen][nul] |
+|  1.19.4 |       ![Unterstützung beendet][eol]       |      ![Sehr gut][vgd]      |            100%            | ![Keine Informationen][nul] |
 
 [204]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.4
 
