@@ -14,25 +14,25 @@ description: "了解Plazma支持的Minecraft: Java Edition版本。"
 
 [wtr]: https://img.shields.io/badge/发布中-gray?style=for-the-badge
 
-[atv]: https://img.shields.io/badge/지원중-success?style=for-the-badge
+[atv]: https://img.shields.io/badge/支持中-success?style=for-the-badge
 
-[mtn]: https://img.shields.io/badge/기능%20추가%20종료-blue?style=for-the-badge
+[mtn]: https://img.shields.io/badge/功能%20添加%20已结束-blue?style=for-the-badge
 
-[eol]: https://img.shields.io/badge/지원%20종료-red?style=for-the-badge
+[eol]: https://img.shields.io/badge/支持%20结束-red?style=for-the-badge
 
-[nul]: https://img.shields.io/badge/정보%20없음-gray?style=for-the-badge
+[nul]: https://img.shields.io/badge/信息%20无-gray?style=for-the-badge
 
-[vgd]: https://img.shields.io/badge/매우%20좋음-blue?style=for-the-badge
+[vgd]: https://img.shields.io/badge/非常%20好-blue?style=for-the-badge
 
 [100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
 
-|   版本   |        状态        |       稳定性       |       功能支持      |       构建状态      |
-| :----: | :--------------: | :-------------: | :-------------: | :-------------: |
-| 1.20.5 |  ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] |
-| 1.20.4 |    ![지원중][atv]   |  ![매우 좋음][vgd]  |       100%      |  ![빌드 상태][204]  |
-| 1.20.2 | ![기능 추가 종료][mtn] |  ![매우 좋음][vgd]  |       100%      |  ![빌드 상태][202]  |
-| 1.20.1 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
-| 1.19.4 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
+|   版本   |        状态       |      稳定性     |     功能支持     |     构建状态     |
+| :----: | :-------------: | :----------: | :----------: | :----------: |
+| 1.20.5 |   ![等待发布][wtr]  | ![等待发布][wtr] | ![等待发布][wtr] | ![等待发布][wtr] |
+| 1.20.4 |   ![支持中][atv]   |  ![非常好][vgd] |     100%     | ![构建状态][204] |
+| 1.20.2 | ![功能添加已结束][mtn] |  ![非常好][vgd] |     100%     | ![构建状态][202] |
+| 1.20.1 |   ![支持结束][eol]  |  ![非常好][vgd] |     100%     |  ![信息无][nul] |
+| 1.19.4 |   ![支持结束][eol]  |  ![非常好][vgd] |     100%     |  ![信息无][nul] |
 
 [204]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.4
 
