@@ -140,10 +140,10 @@ Il nome del file eseguibile è `plazma-(versione manager)-1.20.4-R0.1-SNAPSHOT-(
 - **Forma di mappatura**\
   La mappatura è una sorta di mappa che collega il codice reale di Minecraft al codice offuscato.
   - **Reobf**\
-    Reobfuscation, noto anche come mappatura Spigot, è utilizzato principalmente nei plugin NMS.\
-    Dal 1.20.5 sarà deprecato.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mappatura Mojang, mappatura di Minecraft vanilla.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Version Manager**\
   Il version manager è un launcher del server che gestisce le librerie necessarie per l'avvio del server e patcha i file del server.
   - **Paperclip**\
