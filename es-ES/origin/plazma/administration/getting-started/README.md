@@ -301,8 +301,8 @@ Una vez que el servidor se ha iniciado con éxito y está funcionando correctame
 
 Consulte la guía a continuación para aprender cómo personalizar el servidor.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
