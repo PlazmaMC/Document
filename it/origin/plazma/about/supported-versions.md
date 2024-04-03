@@ -14,25 +14,25 @@ Se stai cercando una piattaforma precedente alla 1.19.4, ti preghiamo di utilizz
 
 [wtr]: https://img.shields.io/badge/In%20attesa%20di%20rilascio-gray?style=for-the-badge
 
-[atv]: https://img.shields.io/badge/지원중-success?style=for-the-badge
+[atv]: https://img.shields.io/badge/Supporto%20attivo-success?style=for-the-badge
 
-[mtn]: https://img.shields.io/badge/기능%20추가%20종료-blue?style=for-the-badge
+[mtn]: https://img.shields.io/badge/Aggiunta%20funzionalità%20terminata-blue?style=for-the-badge
 
-[eol]: https://img.shields.io/badge/지원%20종료-red?style=for-the-badge
+[eol]: https://img.shields.io/badge/Supporto%20terminato-red?style=for-the-badge
 
-[nul]: https://img.shields.io/badge/정보%20없음-gray?style=for-the-badge
+[nul]: https://img.shields.io/badge/Nessuna%20informazione-gray?style=for-the-badge
 
-[vgd]: https://img.shields.io/badge/매우%20좋음-blue?style=for-the-badge
+[vgd]: https://img.shields.io/badge/Ottimo-blue?style=for-the-badge
 
 [100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
 
-| Versione |       Stato      |    Stabilità    | Supporto delle funzionalità | Stato della build |
-| :------: | :--------------: | :-------------: | :-------------------------: | :---------------: |
-|  1.20.5  |  ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] |       ![릴리스 대기중][wtr]       |  ![릴리스 대기중][wtr]  |
-|  1.20.4  |    ![지원중][atv]   |  ![매우 좋음][vgd]  |             100%            |   ![빌드 상태][204]   |
-|  1.20.2  | ![기능 추가 종료][mtn] |  ![매우 좋음][vgd]  |             100%            |   ![빌드 상태][202]   |
-|  1.20.1  |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |             100%            |   ![정보 없음][nul]   |
-|  1.19.4  |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |             100%            |   ![정보 없음][nul]   |
+| Versione |                  Stato                  |           Stabilità           |  Supporto delle funzionalità  |       Stato della build       |
+| :------: | :-------------------------------------: | :---------------------------: | :---------------------------: | :---------------------------: |
+|  1.20.5  |      ![In attesa di rilascio][wtr]      | ![In attesa di rilascio][wtr] | ![In attesa di rilascio][wtr] | ![In attesa di rilascio][wtr] |
+|  1.20.4  |         ![Supporto attivo][atv]         |         ![Ottimo][vgd]        |              100%             |      ![Stato build][204]      |
+|  1.20.2  | ![Aggiunta funzionalità terminata][mtn] |         ![Ottimo][vgd]        |              100%             |      ![Stato build][202]      |
+|  1.20.1  |        ![Supporto terminato][eol]       |         ![Ottimo][vgd]        |              100%             |  ![Nessuna informazione][nul] |
+|  1.19.4  |        ![Supporto terminato][eol]       |         ![Ottimo][vgd]        |              100%             |  ![Nessuna informazione][nul] |
 
 [204]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.4
 
