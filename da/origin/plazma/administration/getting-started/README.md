@@ -302,8 +302,8 @@ Når serveren er startet succesfuldt og kører korrekt, er det nu tid til at til
 
 Lær hvordan du tilpasser serveren ved at følge denne vejledning.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="næste-trin.md" %}
+[næste-trin.md](næste-trin.md)
 {% endcontent-ref %}
 
 ***
