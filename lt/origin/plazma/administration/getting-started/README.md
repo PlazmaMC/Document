@@ -302,8 +302,8 @@ Kai serveris sėkmingai paleistas ir veikia teisingai, dabar laikas pritaikyti s
 
 Sužinokite, kaip pritaikyti serverį, sekdami šį vadovą.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
