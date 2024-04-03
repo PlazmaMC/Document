@@ -8,6 +8,8 @@ description: Pokud máte nějaké dotazy, obraťte se prosím na Discord nebo pr
 
 **Dokumentace Plazma je v současné době přeložena strojově.**
 
+[![Stav překladu](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) zkontrolujte překlad dokumentace na [https://translate.plazmamc.org/](https://translate.plazmamc.org/) a zkuste dokumentaci vylepšit.
 
 {% endhint %}
