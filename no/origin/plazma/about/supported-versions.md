@@ -14,25 +14,25 @@ Hvis du leter etter plattformer under 1.19.4, vennligst bruk [Fusion (`1.19.2 ~ 
 
 [wtr]: https://img.shields.io/badge/Ventende%20utgivelse-gray?style=for-the-badge
 
-[atv]: https://img.shields.io/badge/지원중-success?style=for-the-badge
+[atv]: https://img.shields.io/badge/Støttet-success?style=for-the-badge
 
-[mtn]: https://img.shields.io/badge/기능%20추가%20종료-blue?style=for-the-badge
+[mtn]: https://img.shields.io/badge/Funksjon%20tilføyd%20avsluttet-blue?style=for-the-badge
 
-[eol]: https://img.shields.io/badge/지원%20종료-red?style=for-the-badge
+[eol]: https://img.shields.io/badge/Støtte%20avsluttet-red?style=for-the-badge
 
-[nul]: https://img.shields.io/badge/정보%20없음-gray?style=for-the-badge
+[nul]: https://img.shields.io/badge/Ingen%20informasjon-gray?style=for-the-badge
 
-[vgd]: https://img.shields.io/badge/매우%20좋음-blue?style=for-the-badge
+[vgd]: https://img.shields.io/badge/Svært%20god-blue?style=for-the-badge
 
 [100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
 
-| Versjon |      Status      |    Stabilitet   | Funksjonsstøtte |    Byggstatus   |
-| :-----: | :--------------: | :-------------: | :-------------: | :-------------: |
-|  1.20.5 |  ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] |
-|  1.20.4 |    ![지원중][atv]   |  ![매우 좋음][vgd]  |       100%      |  ![빌드 상태][204]  |
-|  1.20.2 | ![기능 추가 종료][mtn] |  ![매우 좋음][vgd]  |       100%      |  ![빌드 상태][202]  |
-|  1.20.1 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
-|  1.19.4 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
+| Versjon |               Status               |          Stabilitet         |       Funksjonsstøtte       |          Byggstatus         |
+| :-----: | :--------------------------------: | :-------------------------: | :-------------------------: | :-------------------------: |
+|  1.20.5 |     ![Venter på utgivelse][wtr]    | ![Venter på utgivelse][wtr] | ![Venter på utgivelse][wtr] | ![Venter på utgivelse][wtr] |
+|  1.20.4 |           ![Støttet][atv]          |      ![Svært god][vgd]      |             100%            |     ![Byggestatus][204]     |
+|  1.20.2 | ![Funksjon tilføyd avsluttet][mtn] |      ![Svært god][vgd]      |             100%            |     ![Byggestatus][202]     |
+|  1.20.1 |      ![Støtte avsluttet][eol]      |      ![Svært god][vgd]      |             100%            |  ![Ingen informasjon][nul]  |
+|  1.19.4 |      ![Støtte avsluttet][eol]      |      ![Svært god][vgd]      |             100%            |  ![Ingen informasjon][nul]  |
 
 [204]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.4
 
