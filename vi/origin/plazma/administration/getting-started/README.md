@@ -140,10 +140,10 @@ Tên tệp thực thi được xác định là `plazma-(quản lý phiên bản
 - **Kiểu ánh xạ**\
   Ánh xạ là một loại bản đồ kết nối giữa mã nguồn thực và mã nguồn đã bị làm rối.
   - **Reobf**\
-    Reobfuscation, còn được gọi là Spigot mapping và được sử dụng trong hầu hết các plugin NMS.\
-    Sẽ ngừng sử dụng từ phiên bản 1.20.5 trở đi.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang mapping, là ánh xạ Minecraft vanilla.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Quản lý phiên bản**\
   Quản lý phiên bản là một loại trình khởi chạy máy chủ cung cấp thư viện cần thiết cho việc chạy máy chủ và áp dụng bản vá cho máy chủ.
   - **Paperclip**\
