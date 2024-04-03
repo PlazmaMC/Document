@@ -301,8 +301,8 @@ Se il server è stato avviato con successo e funziona correttamente, è ora il m
 
 Scopri come personalizzare il server seguendo la guida qui sotto.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="prossimo-passo.md" %}
+[prossimo-passo.md](prossimo-passo.md)
 {% endcontent-ref %}
 
 ***
