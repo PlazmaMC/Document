@@ -41,10 +41,10 @@ https://dl.plazmamc.org/<version>/<type> (https://api.plazmamc.org/v1/download/.
 
 ***
 
-[^1]: 리옵프 페이퍼클립. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^1]: 리옵프 페이퍼클립. [무앙탱기에서 자세히 알아보기](../administration/getting-started#id-2)
 
-[^2]: 모즘맵 페이퍼클립. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^2]: 모즘맵 페이퍼클립. [무앙탱기에서 자세히 알아보기](../administration/getting-started#id-2)
 
-[^3]: 리옵프 페이퍼클립. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^3]: 리옵프 페이퍼클립. [무앙탱기에서 자세히 알아보기](../administration/getting-started#id-2)
 
-[^4]: 모즘맵 번들러. [자세히 알아보기](/about/administration/getting-started#id-2)
+[^4]: 모즘맵 번들러. [무앙탱기에서 자세히 알아보기](../administration/getting-started#id-2)
