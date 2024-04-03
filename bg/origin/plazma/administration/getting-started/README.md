@@ -302,8 +302,8 @@ Ethernet адаптер Ethernet:
 
 Научете как да персонализирате сървъра чрез ръководството по-долу.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
