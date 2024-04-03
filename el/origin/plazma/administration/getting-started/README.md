@@ -302,8 +302,8 @@ Windows IP διαμόρφωση
 
 아래 가이드를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
