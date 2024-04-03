@@ -140,10 +140,10 @@ Nama fail eksekusi adalah `plazma-(pengurus versi)-1.20.4-R0.1-SNAPSHOT-(jenis p
 - **Jenis Pemetaan**\
   Pemetaan adalah jenis peta yang menghubungkan kod sebenar Minecraft dengan kod yang telah digarap.
   - **Reobf**\
-    Pemetaan semula, juga dikenali sebagai pemetaan Spigot dan digunakan dalam kebanyakan plugin NMS.\
-    Ia akan digantikan bermula dari 1.20.5.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Pemetaan Mojang, pemetaan Minecraft Vanilla.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Pengurus Versi**\
   Pengurus versi adalah pustaka yang diperlukan untuk menjalankan pelayan dan berfungsi sebagai pelancar pelayan yang memuat turun pustaka dan memohonkan fail pelayan.
   - **Paperclip**\
