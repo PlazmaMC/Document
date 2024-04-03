@@ -140,10 +140,10 @@ Käivitatava faili nimi on `plazma-(versioonihaldur)-1.20.4-R0.1-SNAPSHOT-(kaard
 - **Kaardistamise vorm**\
   Kaardistamine on omamoodi kaart, mis ühendab Minecrafti tegeliku koodi ja obfuskeeritud koodi.
   - **Reobf**\
-    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
-    1.20.5부터 사용이 종료될 예정입니다.
+    Reobfusteeritud (재난독화), tuntud ka kui Spigot kaardistamine, kasutatakse peamiselt enamikus NMS pistikprogrammides.\
+    Alates 1.20.5-st lõpetatakse selle kasutamine tulevikus.
   - **Mojmap**\
-    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
+    Mojang-kaardistatud, see on Vanilla Minecrafti kaardistamine.
 - **Versioonihaldur**\
   Versioonihaldur on serveri käivitamiseks vajalike raamatukogude ja serverifailidega pakkimise serveri käivitaja.
   - **Paperclip**\
