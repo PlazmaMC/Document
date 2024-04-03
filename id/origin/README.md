@@ -8,7 +8,7 @@ description: Jika Anda memiliki pertanyaan, silakan bertanya melalui Discord ata
 
 **Dokumen Plazma saat ini dalam keadaan diterjemahkan oleh mesin.**
 
-[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Status Terjemahan](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) di mana Anda dapat mengacu pada terjemahan dokumen untuk meningkatkan dokumen.
 
