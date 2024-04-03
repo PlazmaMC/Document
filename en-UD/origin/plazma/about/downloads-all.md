@@ -40,10 +40,10 @@ https://dl.plazmamc.org/<version>/<type> (https://api.plazmamc.org/v1/download/.
 
 ***
 
-[^1]: Reobf Paperclip. [ɐlɐsǝɹɹɐ ɐlɐɯ ɐlɐuɐqɹᴉ](/about/administration/getting-started#id-2)
+[^1]: Reobf Paperclip. [d-2 di#id-getting-started/administration../getting-started](../administration/getting-started#자세히 알아보기)
 
-[^2]: Mojmap Paperclip. [ɐlɐsǝɹɹɐ ɐlɐɯ ɐlɐuɐqɹᴉ](/about/administration/getting-started#id-2)
+[^2]: Mojmap Paperclip. [d-2 di#id-getting-started/administration../getting-started](../administration/getting-started#자세히 알아보기)
 
-[^3]: Reobf Paperclip. [ɐlɐsǝɹɹɐ ɐlɐɯ ɐlɐuɐqɹᴉ](/about/administration/getting-started#id-2)
+[^3]: Reobf Paperclip. [d-2 di#id-getting-started/administration../getting-started](../administration/getting-started#자세히 알아보기)
 
-[^4]: Mojmap Bundler. [ɐlɐsǝɹɹɐ ɐlɐɯ ɐlɐuɐqɹᴉ](/about/administration/getting-started#id-2)
+[^4]: Mojmap Bundler. [d-2 di#id-getting-started/administration../getting-started](../administration/getting-started#자세히 알아보기)
