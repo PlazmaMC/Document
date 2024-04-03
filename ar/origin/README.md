@@ -8,6 +8,8 @@ description: إذا كان لديك أي أسئلة، يرجى طرحها عبر
 
 **تم ترجمة وثائق Plazma حاليًا بواسطة الآلة.**
 
+[![حالة الترجمة](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) في محاولة تحسين الوثائق من خلال الاطلاع على ترجمة الوثائق.
 
 {% endhint %}
