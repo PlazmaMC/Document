@@ -25,7 +25,7 @@ Kicel kwede ki Plazma ki kwo iye iye iye iye ki kwo iye iye iye iye.
 
 ***
 
-## 플러그인 사용 <a href="#id-2" id="id-2"></a>
+## Lok ada plugin Plazma <a href="#id-2" id="id-2"></a>
 
 {% hint style="success" %}
 
