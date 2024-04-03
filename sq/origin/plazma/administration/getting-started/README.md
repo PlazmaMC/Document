@@ -140,10 +140,10 @@ Emri i skedarit ekzekutues është `plazma-(menaxheri i versionit)-1.20.4-R0.1-S
 - **Forma e mapimit**\
   Mapimi është një lloj hartimi që lidh kodin real të Minecraft me kodin e zbehur.
   - **Reobf**\
-    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
-    1.20.5부터 사용이 종료될 예정입니다.
+    Reobfuscated (ri-obfikuar), njihet edhe si Spigot mapimi dhe përdoret kryesisht në shumicën e shtojcave NMS.\
+    Nga versioni 1.20.5, pritet të ndalet përdorimi i tij.
   - **Mojmap**\
-    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
+    Mojang-mapimi, është mapimi i Minecraft-it bazë.
 - **Menaxheri i versionit**\
   Menaxheri i versionit është një lloj launcheri që nevojitet për të drejtuar serverin dhe për të patch-uar skedarët e serverit.
   - **Paperclip**\
