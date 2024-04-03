@@ -8,7 +8,7 @@ description: 如有问题，请通过Discord或GitHub Issues提出。
 
 **Plazma的文档目前处于机器翻译状态。**
 
-[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![翻译状态](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) 在这里参考文档翻译，以改进文档。
 
