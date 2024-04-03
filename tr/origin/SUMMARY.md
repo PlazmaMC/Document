@@ -38,6 +38,8 @@
     - [↩️ Vanilla Hâline Getirme](plazma/administration/expert/vanillaize.md)
     - [⚠️ Zafiyetler ve Çözümleri](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Sıkça Sorulan Sorular](plazma/administration/faq.md)
+  - [🩺 진단](plazma/administration/diagnosis/README.md)
+    - [⏬ 플러그인](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Geliştirici Kılavuzu](plazma/developers.md)
   - [✏️ Katkıda Bulun](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
