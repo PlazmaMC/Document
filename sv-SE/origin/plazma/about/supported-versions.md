@@ -14,25 +14,25 @@ Om du letar efter plattformar under 1.19.4, använd [Fusion (`1.19.2 ~ 1.19.3`)]
 
 [wtr]: https://img.shields.io/badge/Väntar%20på%20släpp-gray?style=for-the-badge
 
-[atv]: https://img.shields.io/badge/지원중-success?style=for-the-badge
+[atv]: https://img.shields.io/badge/Stöds-success?style=for-the-badge
 
-[mtn]: https://img.shields.io/badge/기능%20추가%20종료-blue?style=for-the-badge
+[mtn]: https://img.shields.io/badge/Funktions%20tillägg%20avslutad-blue?style=for-the-badge
 
-[eol]: https://img.shields.io/badge/지원%20종료-red?style=for-the-badge
+[eol]: https://img.shields.io/badge/Stöd%20avslutad-red?style=for-the-badge
 
-[nul]: https://img.shields.io/badge/정보%20없음-gray?style=for-the-badge
+[nul]: https://img.shields.io/badge/Ingen%20information-gray?style=for-the-badge
 
-[vgd]: https://img.shields.io/badge/매우%20좋음-blue?style=for-the-badge
+[vgd]: https://img.shields.io/badge/Mycket%20bra-blue?style=for-the-badge
 
 [100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
 
-| Version |      Status      |    Stabilitet   |  Funktionsstöd  |    Byggstatus   |
-| :-----: | :--------------: | :-------------: | :-------------: | :-------------: |
-|  1.20.5 |  ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] |
-|  1.20.4 |    ![지원중][atv]   |  ![매우 좋음][vgd]  |       100%      |  ![빌드 상태][204]  |
-|  1.20.2 | ![기능 추가 종료][mtn] |  ![매우 좋음][vgd]  |       100%      |  ![빌드 상태][202]  |
-|  1.20.1 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
-|  1.19.4 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
+| Version |               Status               |         Stabilitet        |       Funktionsstöd       |         Byggstatus        |
+| :-----: | :--------------------------------: | :-----------------------: | :-----------------------: | :-----------------------: |
+|  1.20.5 |      ![Väntar på release][wtr]     | ![Väntar på release][wtr] | ![Väntar på release][wtr] | ![Väntar på release][wtr] |
+|  1.20.4 |            ![Stöds][atv]           |     ![Mycket bra][vgd]    |            100%           |     ![Byggstatus][204]    |
+|  1.20.2 | ![Funktions tillägg avslutad][mtn] |     ![Mycket bra][vgd]    |            100%           |     ![Byggstatus][202]    |
+|  1.20.1 |        ![Stöd avslutad][eol]       |     ![Mycket bra][vgd]    |            100%           | ![Ingen information][nul] |
+|  1.19.4 |        ![Stöd avslutad][eol]       |     ![Mycket bra][vgd]    |            100%           | ![Ingen information][nul] |
 
 [204]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.4
 
