@@ -14,25 +14,25 @@ description: "Plazma'da desteklenen Minecraft: Java Edition sürümlerini keşfe
 
 [wtr]: https://img.shields.io/badge/Beklemede%20Yayınlandı-gray?style=for-the-badge
 
-[atv]: https://img.shields.io/badge/지원중-success?style=for-the-badge
+[atv]: https://img.shields.io/badge/Destekleniyor-success?style=for-the-badge
 
-[mtn]: https://img.shields.io/badge/기능%20추가%20종료-blue?style=for-the-badge
+[mtn]: https://img.shields.io/badge/Fonksiyon%20Ekleme%20Sonu-blue?style=for-the-badge
 
-[eol]: https://img.shields.io/badge/지원%20종료-red?style=for-the-badge
+[eol]: https://img.shields.io/badge/Destek%20Sonu-red?style=for-the-badge
 
-[nul]: https://img.shields.io/badge/정보%20없음-gray?style=for-the-badge
+[nul]: https://img.shields.io/badge/Bilgi%20Yok-gray?style=for-the-badge
 
-[vgd]: https://img.shields.io/badge/매우%20좋음-blue?style=for-the-badge
+[vgd]: https://img.shields.io/badge/Çok%20İyi-blue?style=for-the-badge
 
 [100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
 
-|  Sürüm |       Durum      |    Stabilite    | Özellik Desteği |  Derleme Durumu |
-| :----: | :--------------: | :-------------: | :-------------: | :-------------: |
-| 1.20.5 |  ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] |
-| 1.20.4 |    ![지원중][atv]   |  ![매우 좋음][vgd]  |       100%      |  ![빌드 상태][204]  |
-| 1.20.2 | ![기능 추가 종료][mtn] |  ![매우 좋음][vgd]  |       100%      |  ![빌드 상태][202]  |
-| 1.20.1 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
-| 1.19.4 |   ![지원 종료][eol]  |  ![매우 좋음][vgd]  |       100%      |  ![정보 없음][nul]  |
+|  Sürüm |             Durum             |     Stabilite     |  Özellik Desteği  |    Derleme Durumu   |
+| :----: | :---------------------------: | :---------------: | :---------------: | :-----------------: |
+| 1.20.5 |       ![Beklemede][wtr]       | ![Beklemede][wtr] | ![Beklemede][wtr] |  ![Beklemede][wtr]  |
+| 1.20.4 |     ![Destekleniyor][atv]     |  ![Çok İyi][vgd]  |        100%       | ![Yapı Durumu][204] |
+| 1.20.2 | ![Fonksiyon Ekleme Sonu][mtn] |  ![Çok İyi][vgd]  |        100%       | ![Yapı Durumu][202] |
+| 1.20.1 |      ![Destek Sonu][eol]      |  ![Çok İyi][vgd]  |        100%       |  ![Bilgi Yok][nul]  |
+| 1.19.4 |      ![Destek Sonu][eol]      |  ![Çok İyi][vgd]  |        100%       |  ![Bilgi Yok][nul]  |
 
 [204]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.4
 
