@@ -302,8 +302,8 @@ Ha sikeresen elindította a szervert, és a szerver megfelelően működik, most
 
 Ismerje meg, hogyan testresztheti a szervert az alábbi útmutató segítségével.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="kovetkezo-lepes.md" %}
+[kovetkezo-lepes.md](kovetkezo-lepes.md)
 {% endcontent-ref %}
 
 ***
