@@ -302,8 +302,8 @@ Pokud se server úspěšně spustil a správně funguje, je čas na jeho přizp�
 
 Zjistěte, jak přizpůsobit server pomocí následujícího průvodce.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
