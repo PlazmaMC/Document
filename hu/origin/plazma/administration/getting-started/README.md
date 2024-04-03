@@ -140,10 +140,10 @@ A futtatható fájl neve `plazma-(verzió kezelő)-1.20.4-R0.1-SNAPSHOT-(leképe
 - **Leképezési forma**\
   A leképezés a Minecraft valós kódját és az obfuskált kódot összekötőfajta térkép.
   - **Reobf**\
-    Az újraobfuskálás, más néven Spigot leképezés, és a legtöbb NMS bővítményben használják.\
-    A 1.20.5-től kezdve a használata befejeződik.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang leképezés, a Vanilla Minecraft leképezése.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Verzió kezelő**\
   A verzió kezelő egy olyan indító, amely a szerver futtatásához szükséges könyvtárakat és a szerver fájlokat patcheli.
   - **Paperclip**\
