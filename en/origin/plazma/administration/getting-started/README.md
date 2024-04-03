@@ -140,10 +140,10 @@ The executable file is named `plazma-(version manager)-1.20.4-R0.1-SNAPSHOT-(map
 - **Mapping Type**\
   Mapping is a kind of map that connects Minecraft's actual code with obfuscated code.
   - **Reobf**\
-    Reobfuscation, also known as Spigot mapping, is used in most NMS plugins.\
-    It will be discontinued starting from 1.20.5.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang mapping, vanilla Minecraft mapping.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Version Manager**\
   The version manager can be considered as the launcher of the server, which is necessary for running the server and patching server files.
   - **Paperclip**\
