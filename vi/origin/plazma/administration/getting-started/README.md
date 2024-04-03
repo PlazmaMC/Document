@@ -302,8 +302,8 @@ Sau khi máy chủ khởi động thành công và hoạt động đúng cách, 
 
 Tìm hiểu cách cá nhân hóa máy chủ thông qua hướng dẫn dưới đây.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
