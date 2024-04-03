@@ -301,8 +301,8 @@ If the server starts successfully and is operating correctly, it is time to cust
 
 Learn how to customize the server through the guide below.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="next-step.md" %}
+[next-step.md](next-step.md)
 {% endcontent-ref %}
 
 ***
