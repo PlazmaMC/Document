@@ -8,6 +8,8 @@ description: If you have any questions, please ask via Discord or GitHub Issues.
 
 **The document of Plazma is currently in a machine-translated state.**
 
+[![번역 상태](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+
 Refer to [https://translate.plazmamc.org/](https://translate.plazmamc.org/) for document translation and try to improve the document.
 
 {% endhint %}
