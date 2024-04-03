@@ -38,6 +38,8 @@
     - [↩️ Vanilla konfigurálás](plazma/administration/expert/vanillaize.md)
     - [⚠️ Sebezhetőségek és megoldások](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Gyakran Ismételt Kérdések](plazma/administration/faq.md)
+  - [🩺 진단](plazma/administration/diagnosis/README.md)
+    - [⏬ 플러그인](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Fejlesztői Útmutató](plazma/developers.md)
   - [✏️ Hozzájárulás](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
