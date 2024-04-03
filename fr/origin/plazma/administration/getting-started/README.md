@@ -139,10 +139,10 @@ Le nom du fichier exécutable est défini comme suit : `plazma-(version du gesti
 - **Type de mappage**\
   Le mappage est une sorte de carte reliant le code réel de Minecraft au code obfusqué.
   - **Reobf**\
-    Reobfuscation, également appelé mappage Spigot, est largement utilisé dans la plupart des plugins NMS.\
-    Son utilisation sera interrompue à partir de la version 1.20.5.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mappage de Mojang, c'est le mappage de Minecraft vanilla.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Version du gestionnaire**\
   Le gestionnaire de version est essentiel pour le fonctionnement du serveur, car il fournit les bibliothèques nécessaires et patche les fichiers du serveur.
   - **Paperclip**\
