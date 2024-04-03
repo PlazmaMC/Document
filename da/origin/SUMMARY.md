@@ -38,6 +38,8 @@
     - [↩️ Gør Vanilje](plazma/administration/expert/vanillaize.md)
     - [⚠️ Sårbarheder og Løsninger](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Ofte Stillede Spørgsmål](plazma/administration/faq.md)
+  - [🩺 Diagnose](plazma/administration/diagnosis/README.md)
+    - [⏬ Plugin](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Udviklerguide](plazma/developers.md)
   - [✏️ Bidrag](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadoc](https://jd.plazmamc.org/)
