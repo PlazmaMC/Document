@@ -38,6 +38,8 @@
     - [↩️ Paversti į vanilę](plazma/administration/expert/vanillaize.md)
     - [⚠️ Pažeidžiamumai ir jų šalinimo būdai](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Dažnai užduodami klausimai](plazma/administration/faq.md)
+  - [🩺 Diagnozė](plazma/administration/diagnosis/README.md)
+    - [⏬ Įskiepiai](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Programuotojo vadovas](plazma/developers.md)
   - [✏️ Prisidėti](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
