@@ -38,6 +38,8 @@
     - [↩️ Vanillaize](plazma/administration/expert/vanillaize.md)
     - [⚠️ Vulnerabilities and Solutions](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Frequently Asked Questions](plazma/administration/faq.md)
+  - [🩺 Dokotela](plazma/administration/diagnosis/README.md)
+    - [⏬ Piringi](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Lubanga Dokar](plazma/developers.md)
   - [✏️ Yee i](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
