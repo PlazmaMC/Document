@@ -140,10 +140,10 @@ Název spustitelného souboru je stanoven jako `plazma-(správce verzí)-1.20.4-
 - **Mapovací forma**\
   Mapování slouží jako jakési spojení mezi skutečným kódem Minecraftu a obfuskovaným kódem.
   - **Reobf**\
-    Reobfuskace, též známá jako Spigot mapování, je běžně používána v NMS zásuvných modulech.\
-    Od verze 1.20.5 bude používání ukončeno.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mapování od Mojang, základní mapování Minecraftu.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Správce verzí**\
   Správce verzí je jakýsi spouštěcí program pro server, který je nezbytný pro spuštění serveru a aplikování patchů na serverové soubory.
   - **Paperclip**\
