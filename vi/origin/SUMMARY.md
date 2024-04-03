@@ -38,6 +38,8 @@
     - [↩️ Biến thành Vanilla](plazma/administration/expert/vanillaize.md)
     - [⚠️ Lỗ hổng và Cách khắc phục](plazma/administration/expert/fix-exploits.md)
   - [⁉️ Câu hỏi thường gặp](plazma/administration/faq.md)
+  - [🩺 진단](plazma/administration/diagnosis/README.md)
+    - [⏬ 플러그인](plazma/administration/diagnosis/plugins.md)
 - [⚙️ Hướng dẫn cho nhà phát triển](plazma/developers.md)
   - [✏️ Đóng góp](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ Javadocs](https://jd.plazmamc.org/)
