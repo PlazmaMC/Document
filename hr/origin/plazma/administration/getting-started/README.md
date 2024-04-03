@@ -140,10 +140,10 @@ Naziv izvršne datoteke je `plazma-(verzija upravitelja)-1.20.4-R0.1-SNAPSHOT-(o
 - **Oblik mapiranja**\
   Mapiranje je vrsta karte koja povezuje stvarni kod Minecrafta s obfuskiranim kodom.
   - **Reobf**\
-    Reobfuscation, također poznato kao Spigot mapiranje, često se koristi u većini NMS dodataka.\
-    Planira se prestanak upotrebe od verzije 1.20.5.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.5부터 사용이 종료될 예정입니다.
   - **Mojmap**\
-    Mojang mapiranje, mapiranje za Vanilla Minecraft.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
 - **Upravitelj verzijama**\
   Upravitelj verzijama je vrsta pokretača potrebnog za pokretanje poslužitelja koji služi kao biblioteka i primjenjuje zakrpe na datoteke poslužitelja.
   - **Paperclip**\
