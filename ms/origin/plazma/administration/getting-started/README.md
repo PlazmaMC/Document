@@ -302,8 +302,8 @@ Setelah berjaya memulakan pelayan dan pelayan berfungsi dengan betul, kini tiba 
 
 Ketahui cara untuk menyesuaikan pelayan melalui panduan di bawah.
 
-{% content-ref url="customization.md" %}
-[customization.md](customization.md)
+{% content-ref url="langkah-seterusnya.md" %}
+[langkah-seterusnya.md](langkah-seterusnya.md)
 {% endcontent-ref %}
 
 ***
