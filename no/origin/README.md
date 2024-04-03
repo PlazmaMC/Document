@@ -8,7 +8,7 @@ description: Hvis du har spørsmål, vennligst spør gjennom Discord eller GitHu
 
 **Dokumentene til Plazma er for øyeblikket maskinoversatt.**
 
-[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Oversettelsesstatus](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) på nettstedet for oversettelse, referer til dokumentasjonen for å forbedre dokumentasjonen.
 
