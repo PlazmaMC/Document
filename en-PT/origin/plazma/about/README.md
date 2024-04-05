@@ -52,7 +52,7 @@ description: Find out what kind o' server platform Plazma be.
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>Real-time Plazma User Trends</p></figcaption>
 </figure>
 
 ## ⬇️ Download
