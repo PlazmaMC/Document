@@ -69,7 +69,7 @@ Após a instalação, verifique novamente o [passo 1.1](setup.md#id-1.1) para ga
 
 {% tab title="Windows" %}
 
-1. Primeiro, faça o download do **JDK 21** em formato `.msi` do [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Primeiro, faça o download do **JDK 21** em formato `.msi` do [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Execute o assistente de instalação baixado e clique em `Next`.
 3. Ative `Set JAVA_HOME variable` no menu exibido no centro esquerdo da janela e clique em `Next`.
 4. Clique em `Install` para concluir a instalação do JRE.
@@ -78,7 +78,7 @@ Após a instalação, verifique novamente o [passo 1.1](setup.md#id-1.1) para ga
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) instale **JDK 21** do Azul Zulu em formato `.dmg` baixando o assistente de instalação e executando para instalar o JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) instale **JDK 21** do Azul Zulu em formato `.dmg` baixando o assistente de instalação e executando para instalar o JRE.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ Em seguida, ao reiniciar o servidor, o Plazma tentará encaminhar automaticament
 
 Abaixo está o resultado do sucesso do UPnP de acordo com a mensagem exibida no console, que será mostrada como `[UPnP] (mensagem)`.
 
-| mensagem                           | significado                         |
-| ---------------------------------- | ----------------------------------- |
+| mensagem                           | significado                                         |
+| ---------------------------------- | --------------------------------------------------- |
 | `Porta aberta com sucesso (porta)` | Sucesso no encaminhamento de porta. |
 | `Porta (porta) já está aberta`     | Outro serviço está usando a porta.  |
 | `Falha ao abrir a porta (porta)`   | Falha no encaminhamento de porta.   |
