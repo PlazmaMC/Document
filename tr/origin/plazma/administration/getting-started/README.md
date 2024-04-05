@@ -70,7 +70,7 @@ Kurulumu tamamladıktan sonra, kurulumun doğru bir şekilde yapıldığını ko
 
 {% tab title="Windows" %}
 
-1. İlk olarak, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) sitesinden **JDK 21**'i `.msi` formatında indirin.
+1. İlk olarak, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) sitesinden **JDK 21**'i `.msi` formatında indirin.
 2. İndirilen kurulum sihirbazını çalıştırın ve `Next`e tıklayın.
 3. **Pencerenin sol ortasında görünen menüden `Set JAVA_HOME variable`'ı etkinleştirin ve ardından** `Next`e tıklayın.
 4. JRE kurulumunu `Complete` seçeneğiyle tamamlayın.
@@ -79,7 +79,7 @@ Kurulumu tamamladıktan sonra, kurulumun doğru bir şekilde yapıldığını ko
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) sitesinden **JDK 21**'i `.dmg` formatında indirme sihirbazını çalıştırarak JRE'yi yükleyin.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) sitesinden **JDK 21**'i `.dmg` formatında indirme sihirbazını çalıştırarak JRE'yi yükleyin.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Sonrasında sunucuyu yeniden başlattığınızda, Plazma otomatik olarak port y
 
 Aşağıdaki mesaj, konsola yazdırılan UPnP başarısını gösterir ve konsolda `[UPnP] (mesaj)` şeklinde görüntülenir.
 
-| Mesaj                                     | Anlam                                         |
-| ----------------------------------------- | --------------------------------------------- |
+| Mesaj                                     | Anlam                                                         |
+| ----------------------------------------- | ------------------------------------------------------------- |
 | `Başarılı bir şekilde port açıldı (port)` | Port yönlendirme başarılı.                    |
 | `Port (port) zaten açık`                  | Başka bir hizmet belirtilen portu kullanıyor. |
 | `Port açılamadı (port)`                   | Port yönlendirme başarısız.                   |
