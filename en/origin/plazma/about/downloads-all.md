@@ -19,6 +19,8 @@ download from the page below.
 
 [wtr]: https://badge.plazmamc.org/0/Waiting%20for%20release
 
+![Waiting for release][wtr]![In development](https://badge.plazmamc.org/1/In%20development)![Supported](https://badge.plazmamc.org/2/Supported)![Function support discontinued](https://badge.plazmamc.org/6/Function%20support%20discontinued)![Support ended](https://badge.plazmamc.org/4/Support%20ended)
+
 |                                      Version                                      |                              [RP](#user-content-fn-1)[^1]                              |                              [MP](#user-content-fn-2)[^2]                              |                              [RB](#user-content-fn-3)[^3]                              |                              [MB](#user-content-fn-4)[^4]                              |
 | :-------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |                                 ![Release Pending][wtr]                                |                                 ![Release Pending][wtr]                                |                                 ![Release Pending][wtr]                                |                                 ![Release Pending][wtr]                                |
