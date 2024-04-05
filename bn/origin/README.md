@@ -36,6 +36,6 @@ description: যদি কোন প্রশ্ন থাকে তাহলে
 
 #### `SPONSOR` আরও অনেক Minecraft সম্পর্কিত তথ্য প্রয়োজন হলে? <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
