@@ -17,6 +17,8 @@ Si busques una plataforma anterior a la 1.19.4, utilitza [Fusion (`1.19.2 ~ 1.19
 [vgd]: https://badge.plazmamc.org/1/Molt%20bo
 [100]: https://badge.plazmamc.org/percent/100
 
+![En espera de llançament][wtr]![En desenvolupament](https://badge.plazmamc.org/1/En%20desenvolupament)![En suport](https://badge.plazmamc.org/2/En%20suport)![Interrupció de suport de funcionalitats](https://badge.plazmamc.org/6/Interrupció%20de%20suport%20de%20funcionalitats)![Suport finalitzat](https://badge.plazmamc.org/4/Suport%20finalitzat)
+
 |                                       Versió                                      | Estabilitat    i    suport de funcionalitats |                                              Estat de construcció                                             |
 | :-------------------------------------------------------------------------------: | :------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |         ![Esperant alliberament][wtr]        |                                         ![Esperant alliberament][wtr]                                         |
