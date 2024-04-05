@@ -70,7 +70,7 @@ Un cop instal·lat, torneu a fer el [pas 1.1](setup.md#id-1.1) per comprovar que
 
 {% tab title="Windows" %}
 
-1. Primer, des de [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) baixeu **JDK 21** en format `.msi`.
+1. Primer, des de [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) baixeu **JDK 21** en format `.msi`.
 2. Executeu l'assistent d'instal·lació descarregat i feu clic a 'Següent'.
 3. Un cop activat 'Set JAVA_HOME variable' al menú central esquerre, feu clic a 'Següent'.
 4. Feu clic a 'Instal·la' per completar la instal·lació de JRE.
@@ -79,7 +79,7 @@ Un cop instal·lat, torneu a fer el [pas 1.1](setup.md#id-1.1) per comprovar que
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) després de descarregar el **JDK 21** en format `.dmg` des de l'assistent d'instal·lació i executar-lo per instal·lar JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) després de descarregar el **JDK 21** en format `.dmg` des de l'assistent d'instal·lació i executar-lo per instal·lar JRE.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ A continuació, en reiniciar el servidor, Plazma intentarà reenviar automàtica
 
 A continuació es mostra l'estat de l'èxit del UPnP segons el missatge que es mostra a la consola, que es visualitzarà com a `[UPnP] (missatge)`.
 
-| Missatge                                 | Significat                               |
-| ---------------------------------------- | ---------------------------------------- |
+| Missatge                                 | Significat                                               |
+| ---------------------------------------- | -------------------------------------------------------- |
 | `S'ha obert correctament el port (port)` | Reenviament de ports reeixit.            |
 | `El port (port) ja està obert`           | Un altre servei està utilitzant el port. |
 | `Error en obrir el port (port)`          | Reenviament de ports fallit.             |
