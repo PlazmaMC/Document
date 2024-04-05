@@ -54,7 +54,7 @@ description: Pelajari lebih lanjut tentang platform server Plazma.
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>Tren Pengguna Plazma Real-time</p></figcaption>
 </figure>
 
 ## ⬇️ Unduh
