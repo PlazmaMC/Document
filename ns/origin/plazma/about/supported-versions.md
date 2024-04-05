@@ -13,11 +13,8 @@ description: "Plazma에서 지원하는 Minecraft: Java Edition 버전을 알아
 {% endhint %}
 
 [wtr]: https://badge.plazmamc.org/0/릴리스%20대기중
-
 [ukn]: https://badge.plazmamc.org/0/정보%20없음
-
 [vgd]: https://badge.plazmamc.org/1/매우%20좋음
-
 [100]: https://badge.plazmamc.org/percent/100
 
 |                                         버전                                        |     안정성    및    기능 지원     |                                              빌드 상태                                             |
