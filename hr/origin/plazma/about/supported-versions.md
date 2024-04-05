@@ -17,6 +17,8 @@ Ako tražite platforme prije 1.19.4, koristite [Fusion (`1.19.2 ~ 1.19.3`)](http
 [vgd]: https://badge.plazmamc.org/1/매우%20좋음
 [100]: https://badge.plazmamc.org/percent/100
 
+![릴리스 대기중][wtr]![개발중](https://badge.plazmamc.org/1/개발중)![지원중](https://badge.plazmamc.org/2/지원중)![기능 지원 중단](https://badge.plazmamc.org/6/기능%20지원%20중단)![지원 종료](https://badge.plazmamc.org/4/지원%20종료)
+
 |                                      Verzija                                      | Stabilnost    i    podrška funkcionalnosti |                                              Status izgradnje                                             |
 | :-------------------------------------------------------------------------------: | :----------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |           ![Čeka se izdanje][wtr]          |                                          ![Čeka se izdanje][wtr]                                          |
