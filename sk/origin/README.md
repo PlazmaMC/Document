@@ -8,7 +8,7 @@ description: Ak máte otázky, obráťte sa na Discord alebo prostredníctvom Gi
 
 **Dokumentácia k Plazme je momentálne preložená strojovo.**
 
-[![Stav prekladu](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Stav prekladu](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) na preklad dokumentov a vylepšite dokument.
 
