@@ -8,7 +8,7 @@ description: Jeśli masz pytania, zadaj je na Discordzie lub za pośrednictwem G
 
 **Dokumentacja Plazmy jest obecnie w stanie przetłumaczonym maszynowo.**
 
-[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Stan tłumaczenia](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) na stronie, aby poprawić dokumentację, korzystając z tłumaczenia dokumentów.
 
