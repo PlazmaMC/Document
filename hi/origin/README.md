@@ -8,7 +8,7 @@ description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문�
 
 **Plazma के दस्तावेज़ मशीन अनुवादित हैं।**
 
-[![अनुवाद स्थिति](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![अनुवाद स्थिति](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) पर जाकर दस्तावेज़ अनुवाद करें और दस्तावेज़ को सुधारें।
 
