@@ -35,31 +35,31 @@ Nëse jeni zhvillues dhe keni nevojë për një formë tjetër skedari, ju lutem
         <tr>
             <td>1.20.5</td>
             <td><a href="">
-                <img src="https://badge.plazmamc.org/0/릴리스%20대기중" alt="">
+                <img src="https://badge.plazmamc.org/0/pritje%20e%20lëshimit" alt="">
             </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="">
+                <img src="https://badge.plazmamc.org/1/shkarko" alt="">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="">
+                <img src="https://badge.plazmamc.org/1/shkarko" alt="">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="">
+                <img src="https://badge.plazmamc.org/1/shkarko" alt="">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="">
+                <img src="https://badge.plazmamc.org/1/shkarko" alt="">
             </a></td>
         </tr>
     </tbody>
