@@ -35,31 +35,31 @@ Jika Anda seorang pengembang dan memerlukan jenis file lain, silakan lihat halam
         <tr>
             <td>1.20.5</td>
             <td><a href="">
-                <img src="https://badge.plazmamc.org/0/릴리스%20대기중" alt="">
+                <img src="https://badge.plazmamc.org/0/Menunggu%20Rilis" alt="Menunggu Rilis">
             </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="">
+                <img src="https://badge.plazmamc.org/1/Unduh" alt="Unduh">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="">
+                <img src="https://badge.plazmamc.org/1/Unduh" alt="Unduh">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="">
+                <img src="https://badge.plazmamc.org/1/Unduh" alt="Unduh">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="">
+                <img src="https://badge.plazmamc.org/1/Unduh" alt="Unduh">
             </a></td>
         </tr>
     </tbody>
