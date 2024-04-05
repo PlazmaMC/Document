@@ -8,7 +8,7 @@ description: Bei Fragen kontaktieren Sie uns bitte über Discord oder GitHub Iss
 
 **Die Dokumente von Plazma befinden sich derzeit in einem maschinellen Übersetzungszustand.**
 
-[![Übersetzungsstatus](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Übersetzungsstatus](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) Bitte beziehen Sie sich auf die Dokumentübersetzung auf der Website, um die Dokumente zu verbessern.
 
