@@ -70,7 +70,7 @@ Na installasie, voer [Stap 1.1](setup.md#id-1.1) weer uit om te bevestig dat die
 
 {% tab title="Windows" %}
 
-1. Eerstens, laai **JDK 21** in `.msi`-formaat van [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) af.
+1. Eerstens, laai **JDK 21** in `.msi`-formaat van [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) af.
 2. Voer die afgelaaide installasiewizard uit en klik op `Volgende`.
 3. Aktiveer `Set JAVA_HOME variable` in die middel van die venster aan die linkerkant en klik dan op `Volgende`.
 4. Druk op `Installeer` om die JRE-installasie te voltooi.
@@ -79,7 +79,7 @@ Na installasie, voer [Stap 1.1](setup.md#id-1.1) weer uit om te bevestig dat die
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) van **JDK 21** in `.dmg` formaat aflaai en uitvoer die installasie-wizard om JRE te installeer.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) van **JDK 21** in `.dmg` formaat aflaai en uitvoer die installasie-wizard om JRE te installeer.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Daarna, as jy die bediener herlaai, sal Plazma outomaties poort deurstuur probee
 
 Hierdie is die sukses van UPnP volgens die boodskap wat op die konsole verskyn, en op die konsole sal dit soos `[UPnP] (boodskap)` wees.
 
-| Boodskap                              | Betekenis                                |
-| ------------------------------------- | ---------------------------------------- |
+| Boodskap                              | Betekenis                                                |
+| ------------------------------------- | -------------------------------------------------------- |
 | `Poort suksesvol oopgemaak (poort)`   | Poortdeurstuur suksesvol.                |
 | `Poort (poort) is reeds oop`          | Ander diens gebruik reeds daardie poort. |
 | `Misluk om poort oop te maak (poort)` | Poortdeurstuur misluk.                   |
