@@ -155,7 +155,7 @@ e configurar proxies, reinicializações automáticas, backups, etc., para que o
 Alguns comandos de administrador de plugins podem ter vulnerabilidades se as permissões não forem configuradas corretamente.
 
 É recomendável usar plugins de gerenciamento de permissões como
-LuckPerms](https\://luckperms.net/) para restringir as permissões de usuários comuns.
+LuckPerms](https://luckperms.net/) para restringir as permissões de usuários comuns.
 
 ### Bloqueio de X-Ray <a href="#id-5.2" id="id-5.2"></a>
 
