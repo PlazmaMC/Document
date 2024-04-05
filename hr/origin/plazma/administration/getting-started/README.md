@@ -70,7 +70,7 @@ Nakon instalacije, ponovno izvršite [korak 1.1](setup.md#id-1.1) kako biste pro
 
 {% tab title="Windows" %}
 
-1. Prvo, preuzmite **JDK 21** u `.msi` formatu s [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Prvo, preuzmite **JDK 21** u `.msi` formatu s [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Pokrenite preuzeti instalacijski čarobnjak i kliknite `Next`.
 3. Nakon što se prikaže meni s lijeve strane prozora, aktivirajte `Set JAVA_HOME variable` i kliknite `Next`.
 4. Kliknite `Install` kako biste dovršili instalaciju JRE-a.
@@ -79,7 +79,7 @@ Nakon instalacije, ponovno izvršite [korak 1.1](setup.md#id-1.1) kako biste pro
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) preuzima **JDK 21** u obliku `.dmg` instalacijskog čarobnjaka i pokreće instalaciju JRE-a.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) preuzima **JDK 21** u obliku `.dmg` instalacijskog čarobnjaka i pokreće instalaciju JRE-a.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Nakon toga, ponovno pokrenite poslužitelj i Plazma će automatski pokušati pos
 
 Uspješnost UPnP-a ovisi o porukama koje se prikazuju u konzoli, a izgledaju kao `[UPnP] (poruka)`.
 
-| Poruka                              | Značenje                                  |
-| ----------------------------------- | ----------------------------------------- |
+| Poruka                              | Značenje                                                  |
+| ----------------------------------- | --------------------------------------------------------- |
 | `Uspješno otvoren port (port)`      | Uspješno postavljanje port forwardinga.   |
 | `Port (port) je već otvoren`        | Druga usluga već koristi taj port.        |
 | `Neuspješno otvaranje porta (port)` | Neuspješno postavljanje port forwardinga. |
