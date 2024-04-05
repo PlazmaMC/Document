@@ -70,7 +70,7 @@ Telepítés után ellenőrizd újra a [1.1. lépést](setup.md#id-1.1), hogy meg
 
 {% tab title="Windows" %}
 
-1. Először töltsd le az **JDK 21**-et az [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) oldalról `.msi` formátumban.
+1. Először töltsd le az **JDK 21**-et az [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) oldalról `.msi` formátumban.
 2. Futtasd a letöltött telepítő varázslót, majd kattints a `Next` gombra.
 3. A megjelenő menüben a bal középső részen aktiváld a `Set JAVA_HOME variable` lehetőséget, majd kattints a `Next` gombra.
 4. Nyomd meg az `Install` gombot az JRE telepítéséhez.
@@ -79,7 +79,7 @@ Telepítés után ellenőrizd újra a [1.1. lépést](setup.md#id-1.1), hogy meg
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) -tól letölti a **JDK 21**-et, majd futtatja a `.dmg` telepítő varázslót a JRE telepítéséhez.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) -tól letölti a **JDK 21**-et, majd futtatja a `.dmg` telepítő varázslót a JRE telepítéséhez.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Ezután a szerver újraindítása után a Plazma automatikusan megpróbálja a p
 
 Az alábbiakban az UPnP sikerességét jelző üzenetek találhatók, amelyek a konzolon `[UPnP] (üzenet)` formában jelennek meg.
 
-| üzenet                                   | jelentés                                           |
-| ---------------------------------------- | -------------------------------------------------- |
+| üzenet                                   | jelentés                                                           |
+| ---------------------------------------- | ------------------------------------------------------------------ |
 | `Sikeresen megnyitott port (port)`       | Porttovábbítás sikeres.                            |
 | `A port (port) már nyitva van`           | Egy másik szolgáltatás használja már ezt a portot. |
 | `Nem sikerült megnyitni a portot (port)` | Porttovábbítás sikertelen.                         |
