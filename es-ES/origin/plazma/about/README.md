@@ -49,7 +49,11 @@ description: Descubre qué es Plazma como plataforma de servidor.
 - **Plataforma elegida por muchos streamers**\
   Utilizada como servidor de visualización por muchos streamers de Twitch.
 
-<figure><img src="https://camo.githubusercontent.com/22acffd515755c2cee2078a7697ff35351c5ec7148eb2806deedbe63df1c4ed7/68747470733a2f2f6273746174732e6f72672f7369676e6174757265732f7365727665722d696d706c656d656e746174696f6e2f506c617a6d612e737667" alt=""><figcaption><p>Tendencia de uso en tiempo real de Plazma</p></figcaption></figure>
+<figure>
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
+   
+   <figcaption><p>Tendencia de usuarios de Plazma en tiempo real</p></figcaption>
+</figure>
 
 ## ⬇️ Descargar
 
