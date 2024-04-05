@@ -8,7 +8,7 @@ description: Dacă aveți întrebări, vă rugăm să întrebați prin Discord s
 
 **Documentele lui Plazma sunt în prezent traduse automat.**
 
-[![Stare traducere](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Stare de traducere](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) încercați să vă îmbunătățiți documentul referindu-vă la traducerea documentului de pe [https://translate.plazmamc.org/](https://translate.plazmamc.org/).
 
