@@ -70,7 +70,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="Windows" %}
 
-1. まず、[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) から **JDK 21**を`.msi`形式でダウンロードします。
+1. まず、[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) から **JDK 21**を`.msi`形式でダウンロードします。
 2. ダウンロードしたインストーラーを実行し、`次へ`をクリックします。
 3. **ウィンドウの左中央に表示されるメニューから`Set JAVA_HOME variable`を有効にした後、**`次へ`をクリックします。
 4. `インストール`を押してJREのインストールを`完了`します。
@@ -79,7 +79,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu)で **JDK 21**を`.dmg`形式のインストーラーをダウンロードし、実行してJREをインストールします。
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu)で **JDK 21**を`.dmg`形式のインストーラーをダウンロードし、実行してJREをインストールします。
 
 {% endtab %}
 
