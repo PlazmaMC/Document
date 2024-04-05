@@ -69,7 +69,7 @@ Después de completar la instalación, vuelva a realizar el [Paso 1.1](setup.md#
 
 {% tab title="Windows" %}
 
-1. Primero, descargue **JDK 21** de [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) en formato `.msi`.
+1. Primero, descargue **JDK 21** de [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) en formato `.msi`.
 2. Ejecute el asistente de instalación descargado y haga clic en `Siguiente`.
 3. Después de activar `Set JAVA_HOME variable` en el menú mostrado en el centro izquierdo de la ventana, haga clic en `Siguiente`.
 4. Presione `Instalar` para completar la instalación de JRE.
@@ -78,7 +78,7 @@ Después de completar la instalación, vuelva a realizar el [Paso 1.1](setup.md#
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) instala **JDK 21** descargando y ejecutando el asistente de instalación en formato `.dmg` desde Azul Zulu para instalar JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) instala **JDK 21** descargando y ejecutando el asistente de instalación en formato `.dmg` desde Azul Zulu para instalar JRE.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ Luego, al reiniciar el servidor, Plazma intentará realizar el reenvío automát
 
 A continuación se muestra el resultado del éxito del UPnP según el mensaje mostrado en la consola, que se mostrará como `[UPnP] (mensaje)` en la consola.
 
-| Mensaje                              | Significado                               |
-| ------------------------------------ | ----------------------------------------- |
+| Mensaje                              | Significado                                               |
+| ------------------------------------ | --------------------------------------------------------- |
 | `Puerto abierto con éxito (puerto)`  | Éxito en el reenvío de puertos.           |
 | `El puerto (puerto) ya está abierto` | Otro servicio está utilizando ese puerto. |
 | `Error al abrir el puerto (puerto)`  | Fallo en el reenvío de puertos.           |
