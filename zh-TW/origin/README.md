@@ -8,7 +8,7 @@ description: 如果有問題，請通過Discord或GitHub Issues提問。
 
 **Plazma的文件目前是机器翻译状态。**
 
-[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
+[![翻譯狀態](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) 在進行文件翻譯時參考並改進文件。
 
@@ -36,6 +36,6 @@ description: 如果有問題，請通過Discord或GitHub Issues提問。
 
 #### `SPONSOR` 더 많은 Minecraft 관련 정보가 필요하다면? <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
