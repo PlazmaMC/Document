@@ -17,6 +17,8 @@ If you are looking for platforms below 1.19.4, please use [Fusion (`1.19.2 ~ 1.1
 [vgd]: https://badge.plazmamc.org/1/Very%20good
 [100]: https://badge.plazmamc.org/percent/100
 
+![Waiting for release][wtr]![In development](https://badge.plazmamc.org/1/In%20development)![Supporting](https://badge.plazmamc.org/2/Supporting)![Function support discontinued](https://badge.plazmamc.org/6/Function%20support%20discontinued)![Support ended](https://badge.plazmamc.org/4/Support%20ended)
+
 |                                      Version                                      | Stability and feature support |                                              Build Status                                             |
 | :-------------------------------------------------------------------------------: | :---------------------------: | :---------------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |    ![Release Pending][wtr]    |                                        ![Release Pending][wtr]                                        |
