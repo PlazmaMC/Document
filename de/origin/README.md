@@ -36,6 +36,6 @@ description: Bei Fragen kontaktieren Sie uns bitte über Discord oder GitHub Iss
 
 #### `SPONSOR` Wenn Sie mehr Informationen zu Minecraft benötigen, kontaktieren Sie uns. <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
