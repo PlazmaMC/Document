@@ -36,6 +36,6 @@ description: Jeśli masz pytania, zadaj je na Discordzie lub za pośrednictwem G
 
 #### `SPONSOR` Jeśli potrzebujesz więcej informacji związanych z Minecraftem, <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
