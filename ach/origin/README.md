@@ -8,7 +8,7 @@ description: Oyee, coko ki i kom Discord to GitHub Issues ki coko matino.
 
 **Dokumenti ki Plazma kicel me gwok ma kicel me tic pa iye.**
 
-[![Lok ma Rwot acel ki iye](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
 
