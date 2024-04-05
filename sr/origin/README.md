@@ -8,7 +8,7 @@ description: Ако имате питања, молимо поставите и�
 
 **Документи Плазме тренутно су преведени машински.**
 
-[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
+[![Статус превода](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) овде можете погледати превод документа и унапредити га.
 
@@ -36,6 +36,6 @@ description: Ако имате питања, молимо поставите и�
 
 #### `SPONSOR` Aко вам је потребно више информација везаних за Minecraft? <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
