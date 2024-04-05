@@ -36,6 +36,6 @@ description: Jika Anda memiliki pertanyaan, silakan bertanya melalui Discord ata
 
 #### `SPONSOR` Jika Anda memerlukan informasi lebih lanjut tentang Minecraft, <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
