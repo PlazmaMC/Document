@@ -52,7 +52,7 @@ description: 了解 Plazma 是什麼服務器平台。
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>實時 Plazma 使用者趨勢</p></figcaption>
 </figure>
 
 ## ⬇️ 下載
