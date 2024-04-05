@@ -8,7 +8,7 @@ description: Если у вас есть вопросы, пожалуйста, �
 
 **Документы Plazma в настоящее время находятся в состоянии машинного перевода.**
 
-[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
+[![Статус перевода](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) на основе перевода документации на [https://translate.plazmamc.org/](https://translate.plazmamc.org/) улучшите документацию.
 
@@ -36,6 +36,6 @@ description: Если у вас есть вопросы, пожалуйста, �
 
 #### `СПОНСОР` Нужна больше информации о Minecraft? <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
