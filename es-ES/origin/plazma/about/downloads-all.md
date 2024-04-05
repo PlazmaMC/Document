@@ -19,6 +19,8 @@ descargue desde la página a continuación.
 
 [wtr]: https://badge.plazmamc.org/0/En%20espera%20de%20lanzamiento
 
+![Esperando lanzamiento][wtr]![En desarrollo](https://badge.plazmamc.org/1/En%20desarrollo)![En soporte](https://badge.plazmamc.org/2/En%20soporte)![Fin de soporte de funciones](https://badge.plazmamc.org/6/Fin%20de%20soporte%20de%20funciones)![Fin de soporte](https://badge.plazmamc.org/4/Fin%20de%20soporte)
+
 |                                      Versión                                      |                               [RP](#user-content-fn-1)[^1]                               |                               [MP](#user-content-fn-2)[^2]                               |                               [RB](#user-content-fn-3)[^3]                               |                               [MB](#user-content-fn-4)[^4]                               |
 | :-------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |                               ![Esperando lanzamiento][wtr]                              |                               ![Esperando lanzamiento][wtr]                              |                               ![Esperando lanzamiento][wtr]                              |                               ![Esperando lanzamiento][wtr]                              |
