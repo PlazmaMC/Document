@@ -70,7 +70,7 @@ După instalare, verificați din nou [Pasul 1.1](setup.md#id-1.1) pentru a confi
 
 {% tab title="Windows" %}
 
-1. Descărcați JDK 21 de la [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) în format `.msi`.
+1. Descărcați JDK 21 de la [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) în format `.msi`.
 2. Executați asistentul de instalare descărcat și faceți clic pe `Next`.
 3. După ce activați `Set JAVA_HOME variable` din meniul afișat în mijlocul stânga al ferestrei, faceți clic pe `Next`.
 4. Finalizați instalarea JRE făcând clic pe `Install`.
@@ -79,7 +79,7 @@ După instalare, verificați din nou [Pasul 1.1](setup.md#id-1.1) pentru a confi
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) descarcă **JDK 21** sub formă de fișier `.dmg`, apoi rulează asistentul de instalare pentru a instala JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) descarcă **JDK 21** sub formă de fișier `.dmg`, apoi rulează asistentul de instalare pentru a instala JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Apoi, dacă reporniți serverul, Plazma va încerca automat să redirecționeze 
 
 Mai jos este un mesaj de succes sau eșec UPnP afișat în consolă, care va fi afișat ca `[UPnP] (mesaj)`.
 
-| Mesaj                                       | Semnificație                            |
-| ------------------------------------------- | --------------------------------------- |
+| Mesaj                                       | Semnificație                                            |
+| ------------------------------------------- | ------------------------------------------------------- |
 | `Portul (port)` a fost deschis cu succes    | Redirecționare porturi reușită.         |
 | `Portul (port) este deja deschis`           | Alt serviciu folosește deja acest port. |
 | `Nu s-a reușit deschiderea portului (port)` | Redirecționarea porturilor a eșuat.     |
