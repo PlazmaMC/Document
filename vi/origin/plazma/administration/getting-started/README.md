@@ -70,7 +70,7 @@ Sau khi cài đặt xong, hãy thực hiện lại [Bước 1.1](setup.md#id-1.1
 
 {% tab title="Windows" %}
 
-1. Trước tiên, tải JDK 21 từ [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) dưới dạng `.msi`.
+1. Trước tiên, tải JDK 21 từ [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) dưới dạng `.msi`.
 2. Chạy trình cài đặt đã tải xuống và nhấn `Next`.
 3. **Kích hoạt `Set JAVA_HOME variable` trong menu hiển thị ở giữa bên trái của cửa sổ,** sau đó nhấn `Next`.
 4. Nhấn `Install` để hoàn tất quá trình cài đặt JRE.
@@ -79,7 +79,7 @@ Sau khi cài đặt xong, hãy thực hiện lại [Bước 1.1](setup.md#id-1.1
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) từ **JDK 21** bằng cách tải xuống và chạy trình cài đặt dạng `.dmg` sau đó cài đặt JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) từ **JDK 21** bằng cách tải xuống và chạy trình cài đặt dạng `.dmg` sau đó cài đặt JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Sau đó, khởi động lại máy chủ, Plazma sẽ tự động thử chuy�
 
 Dưới đây là kết quả thành công của UPnP dựa trên thông báo xuất hiện trên cửa sổ console, trên console sẽ hiển thị `[UPnP] (thông báo)`.
 
-| Thông báo                         | Ý nghĩa                                  |
-| --------------------------------- | ---------------------------------------- |
+| Thông báo                         | Ý nghĩa                                                  |
+| --------------------------------- | -------------------------------------------------------- |
 | `Successfully opened port (cổng)` | Chuyển tiếp cổng thành công.             |
 | `Port (cổng) is already open`     | Cổng đang được sử dụng bởi dịch vụ khác. |
 | `Failed to open port (cổng)`      | Chuyển tiếp cổng thất bại.               |
