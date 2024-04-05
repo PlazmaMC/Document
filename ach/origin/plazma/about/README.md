@@ -54,7 +54,7 @@ description: Cwinywa ki woko ki Plazma.
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>Ma gik me Plazma pe iye kelo</p></figcaption>
 </figure>
 
 ## ⬇️ Download
