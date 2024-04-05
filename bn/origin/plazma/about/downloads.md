@@ -35,31 +35,31 @@ description: এখনই Plazma ডাউনলোড করুন এবং �
         <tr>
             <td>1.20.5</td>
             <td><a href="">
-                <img src="https://badge.plazmamc.org/0/প্রকাশনা%20অপেক্ষায়" alt="">
+                <img src="https://badge.plazmamc.org/0/মুক্তি%20অপেক্ষাধীন" alt="মুক্তি অপেক্ষাধীন">
             </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/ডাউনলোড" alt="">
+                <img src="https://badge.plazmamc.org/1/ডাউনলোড" alt="ডাউনলোড">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/ডাউনলোড" alt="">
+                <img src="https://badge.plazmamc.org/1/ডাউনলোড" alt="ডাউনলোড">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/ডাউনলোড" alt="">
+                <img src="https://badge.plazmamc.org/1/ডাউনলোড" alt="ডাউনলোড">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/ডাউনলোড" alt="">
+                <img src="https://badge.plazmamc.org/1/ডাউনলোড" alt="ডাউনলোড">
             </a></td>
         </tr>
     </tbody>
