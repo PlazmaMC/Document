@@ -35,31 +35,31 @@ description: ดาวน์โหลด Plazma ทันทีเพื่อ�
         <tr>
             <td>1.20.5</td>
             <td><a href="">
-                <img src="https://badge.plazmamc.org/0/รอการปล่อย"> 
+                <img src="https://badge.plazmamc.org/0/대기 중" alt="대기 중">
             </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/ดาวน์โหลด"> 
+                <img src="https://badge.plazmamc.org/1/ดาวน์โหลด" alt="ดาวน์โหลด">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/ดาวน์โหลด"> 
+                <img src="https://badge.plazmamc.org/1/ดาวน์โหลด" alt="ดาวน์โหลด">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/ดาวน์โหลด"> 
+                <img src="https://badge.plazmamc.org/1/ดาวน์โหลด" alt="ดาวน์โหลด">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/ดาวน์โหลด"> 
+                <img src="https://badge.plazmamc.org/1/ดาวน์โหลด" alt="ดาวน์โหลด">
             </a></td>
         </tr>
     </tbody>
