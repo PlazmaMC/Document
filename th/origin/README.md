@@ -8,7 +8,7 @@ description: 질문이 있다면 Discord 또는 GitHub Issues를 통해 질문�
 
 **เอกสารของ Plazma ถูกแปลด้วยเครื่องในปัจจุบัน**
 
-[![สถานะการแปล](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![สถานะการแปล](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) โปรดอ้างอิงจากการแปลเอกสารที่ [https://translate.plazmamc.org/](https://translate.plazmamc.org/) เพื่อปรับปรุงเอกสาร
 
