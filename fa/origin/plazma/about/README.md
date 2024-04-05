@@ -52,7 +52,7 @@ description: با Plazma آشنا شوید که یک پلتفرم سرور چی�
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>پیشرفت کاربران Plazma در زمان واقعی</p></figcaption>
 </figure>
 
 ## ⬇️ دانلود
