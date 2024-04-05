@@ -8,7 +8,7 @@ description: If ye have any questions, ask 'em through Discord or GitHub Issues,
 
 **Plazma's document be currently in a state o' machine translation.**
 
-[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
 
