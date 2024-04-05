@@ -69,7 +69,7 @@ Etter at du har installert det, utfør [trinn 1.1](setup.md#id-1.1) på nytt for
 
 {% tab title="Windows" %}
 
-1. Først laster du ned **JDK 21** fra [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) i `.msi`-format.
+1. Først laster du ned **JDK 21** fra [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) i `.msi`-format.
 2. Kjør den nedlastede installasjonsveiviseren og klikk `Next`.
 3. Aktiver `Set JAVA_HOME variable` fra menyen som vises midt på venstre side av vinduet, og klikk deretter `Next`.
 4. Trykk på `Install` for å fullføre JRE-installasjonen.
@@ -78,7 +78,7 @@ Etter at du har installert det, utfør [trinn 1.1](setup.md#id-1.1) på nytt for
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) der **JDK 21** kan lastes ned som en `.dmg`-installasjonsveiviser fra og kjøres for å installere JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) der **JDK 21** kan lastes ned som en `.dmg`-installasjonsveiviser fra og kjøres for å installere JRE.
 
 {% endtab %}
 
@@ -244,8 +244,8 @@ Deretter, når serveren startes på nytt, vil Plazma automatisk prøve å videre
 
 Nedenfor er betydningen av meldingene som vises på konsollen for å indikere om UPnP var vellykket, og de vises som `[UPnP] (melding)` på konsollen.
 
-| Melding                             | Betydning                                     |
-| ----------------------------------- | --------------------------------------------- |
+| Melding                             | Betydning                                                     |
+| ----------------------------------- | ------------------------------------------------------------- |
 | `Porten ble åpnet vellykket (port)` | Videresending av porten var vellykket.        |
 | `Porten (port) er allerede åpen`    | En annen tjeneste bruker allerede den porten. |
 | `Kunne ikke åpne porten (port)`     | Videresending av porten mislyktes.            |
