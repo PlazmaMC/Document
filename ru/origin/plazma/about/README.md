@@ -52,7 +52,7 @@ description: Узнайте больше о платформе Plazma.
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>Тенденции использования Plazma в реальном времени</p></figcaption>
 </figure>
 
 ## ⬇️ Скачать
