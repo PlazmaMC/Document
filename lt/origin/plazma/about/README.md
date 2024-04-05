@@ -52,7 +52,7 @@ description: Sužinokite, kas yra Plazma serverio platforma.
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>Realaus laiko Plazmos naudotojų tendencija</p></figcaption>
 </figure>
 
 ## ⬇️ Parsisiųsti
