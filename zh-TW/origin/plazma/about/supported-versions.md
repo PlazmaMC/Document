@@ -17,6 +17,8 @@ description: "在 Plazma 中查看支持的 Minecraft: Java Edition 版本。"
 [vgd]: https://badge.plazmamc.org/1/非常好
 [100]: https://badge.plazmamc.org/percent/100
 
+![릴리스 대기중][wtr]![개발중](https://badge.plazmamc.org/1/개발중)![지원중](https://badge.plazmamc.org/2/지원중)![기능 지원 중단](https://badge.plazmamc.org/6/기능%20지원%20중단)![지원 종료](https://badge.plazmamc.org/4/지원%20종료)
+
 |                                         版本                                        |     穩定性    及    功能支援    |                                              建置狀態                                             |
 | :-------------------------------------------------------------------------------: | :---------------------: | :-------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |       ![待釋出][wtr]       |                                          ![待釋出][wtr]                                          |
