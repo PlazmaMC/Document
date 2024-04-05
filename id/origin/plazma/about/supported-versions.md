@@ -17,6 +17,8 @@ Jika mencari platform di bawah 1.19.4, gunakan [Fusion (`1.19.2 ~ 1.19.3`)](http
 [vgd]: https://badge.plazmamc.org/1/Sangat%20baik
 [100]: https://badge.plazmamc.org/percent/100
 
+![Menunggu Rilis][wtr]![Sedang Dikembangkan](https://badge.plazmamc.org/1/Sedang%20Dikembangkan)![Sedang Didukung](https://badge.plazmamc.org/2/Sedang%20Didukung)![Dukungan Fungsi Dihentikan](https://badge.plazmamc.org/6/Dukungan%20Fungsi%20Dihentikan)![Dukungan Berakhir](https://badge.plazmamc.org/4/Dukungan%20Berakhir)
+
 |                                       Versi                                       | Keamanan    dan    Dukungan Fungsional |                                               Status Build                                               |
 | :-------------------------------------------------------------------------------: | :------------------------------------: | :------------------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |         ![Menunggu Rilis][wtr]         |                                          ![Menunggu Rilis][wtr]                                          |
