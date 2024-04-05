@@ -8,7 +8,7 @@ description: যদি কোন প্রশ্ন থাকে তাহলে
 
 **প্লাজমা ডকুমেন্টটি বর্তমানে যন্ত্র অনুবাদ অবস্থায় রয়েছে।**
 
-[![অনুবাদ অবস্থা](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![অনুবাদ অবস্থা](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) এ দলীয় অনুবাদ করার জন্য দলীয় ডকুমেন্ট দেখুন এবং ডকুমেন্টগুলি উন্নত করুন।
 
