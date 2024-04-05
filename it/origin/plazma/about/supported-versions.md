@@ -17,6 +17,8 @@ Se stai cercando una piattaforma precedente alla 1.19.4, ti preghiamo di utilizz
 [vgd]: https://badge.plazmamc.org/1/Ottimo
 [100]: https://badge.plazmamc.org/percent/100
 
+![릴리스 대기중][wtr]![개발중](https://badge.plazmamc.org/1/개발중)![지원중](https://badge.plazmamc.org/2/지원중)![기능 지원 중단](https://badge.plazmamc.org/6/기능%20지원%20중단)![지원 종료](https://badge.plazmamc.org/4/지원%20종료)
+
 |                                      Versione                                     | Stabilità    e    supporto funzionale |                                           Stato della build                                          |
 | :-------------------------------------------------------------------------------: | :-----------------------------------: | :--------------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |     ![In attesa di rilascio][wtr]     |                                     ![In attesa di rilascio][wtr]                                    |
