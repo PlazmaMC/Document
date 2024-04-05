@@ -70,7 +70,7 @@ Efter installationen, kontrollera igen genom att utföra [steg 1.1](setup.md#id-
 
 {% tab title="Windows" %}
 
-1. Ladda först ner **JDK 21** i `.msi`-format från [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Ladda först ner **JDK 21** i `.msi`-format från [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Kör den nedladdade installationsguiden och klicka på `Nästa`.
 3. Aktivera `Set JAVA_HOME variable` från menyn i mitten till vänster och klicka sedan på `Nästa`.
 4. Klicka på `Install` för att slutföra JRE-installationen.
@@ -79,7 +79,7 @@ Efter installationen, kontrollera igen genom att utföra [steg 1.1](setup.md#id-
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) laddar ner och kör installationsguiden för **JDK 21** i `.dmg` format för att installera JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) laddar ner och kör installationsguiden för **JDK 21** i `.dmg` format för att installera JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Därefter, om servern startas om, kommer Plazma automatiskt att försöka vidare
 
 Nedan visas om UPnP lyckades enligt meddelandet som visas i konsolen, som kommer att vara i formatet `[UPnP] (meddelande)`.
 
-| Meddelande                             | Betydelse                                          |
-| -------------------------------------- | -------------------------------------------------- |
+| Meddelande                             | Betydelse                                                          |
+| -------------------------------------- | ------------------------------------------------------------------ |
 | `Porten (port)` öppnades framgångsrikt | Port vidarebefordran lyckades.                     |
 | `Porten (port) är redan öppen`         | En annan tjänst använder redan den angivna porten. |
 | `Misslyckades att öppna porten (port)` | Port vidarebefordran misslyckades.                 |
