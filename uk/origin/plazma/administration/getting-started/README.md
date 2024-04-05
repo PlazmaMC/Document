@@ -70,7 +70,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="Windows" %}
 
-1. Спочатку завантажте **JDK 21** у форматі `.msi` з [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Спочатку завантажте **JDK 21** у форматі `.msi` з [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Запустіть завантажений майстер встановлення та натисніть `Next`.
 3. Після цього активуйте `Set JAVA_HOME variable` в центрі лівої частини вікна та натисніть `Next`.
 4. Натисніть `Install`, щоб завершити встановлення JRE.
@@ -79,7 +79,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) встановлює **JDK 21** через майстер встановлення у форматі `.dmg` та запускає JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) встановлює **JDK 21** через майстер встановлення у форматі `.dmg` та запускає JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 Нижче наведено варіанти повідомлень, які виводяться в консолі в залежності від успішності UPnP, вони виглядають як `[UPnP] (повідомлення)`.
 
-| Повідомлення                      | Значення                                |
-| --------------------------------- | --------------------------------------- |
+| Повідомлення                      | Значення                                                |
+| --------------------------------- | ------------------------------------------------------- |
 | `Успішно відкритий порт (порт)`   | Успішне перенаправлення порту.          |
 | `Порт (порт) вже відкритий`       | Інший сервіс вже використовує цей порт. |
 | `Не вдалося відкрити порт (порт)` | Невдале перенаправлення порту.          |
