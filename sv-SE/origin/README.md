@@ -8,7 +8,7 @@ description: Om du har frågor, vänligen fråga via Discord eller GitHub Issues
 
 **Plazma:s dokument är för närvarande översatt av maskin.**
 
-[![Översättningsstatus](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) på webbplatsen för att förbättra dokumentet genom att hänvisa till dokumentöversättningen.
 
