@@ -70,7 +70,7 @@ Po inštalácii skontrolujte, či bola inštalácia úspešne dokončená, opako
 
 {% tab title="Windows" %}
 
-1. Najprv si stiahnite **JDK 21** vo formáte `.msi` z [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Najprv si stiahnite **JDK 21** vo formáte `.msi` z [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Spustite stiahnuté inštalačné sprievodcu a kliknite na `Ďalej`.
 3. **V ľavom strede okna sa zobrazí ponuka, aktivujte `Nastaviť JAVA_HOME premennú`,** potom kliknite na `Ďalej`.
 4. Kliknutím na `Inštalovať` dokončite inštaláciu JRE.
@@ -79,7 +79,7 @@ Po inštalácii skontrolujte, či bola inštalácia úspešne dokončená, opako
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) - Stiahnite si **JDK 21** vo formáte `.dmg` a spustite inštalačného sprievodcu na inštaláciu JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) - Stiahnite si **JDK 21** vo formáte `.dmg` a spustite inštalačného sprievodcu na inštaláciu JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Potom reštartujte server a Plazma automaticky skúsi nastaviť port forwarding.
 
 Úspech UPnP záleží na správe zobrazených správ v konzole, kde sa zobrazí `[UPnP] (správa)`.
 
-| Správa                              | Význam                        |
-| ----------------------------------- | ----------------------------- |
+| Správa                              | Význam                                        |
+| ----------------------------------- | --------------------------------------------- |
 | `Úspešne otvorený port (port)`      | Port forwarding úspešný.      |
 | `Port (port) je už otvorený`        | Iná služba používa daný port. |
 | `Nepodarilo sa otvoriť port (port)` | Port forwarding zlyhal.       |
