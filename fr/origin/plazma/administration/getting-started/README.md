@@ -69,7 +69,7 @@ Une fois l'installation terminée, refaites l'étape 1.1 pour vérifier que l'in
 
 {% tab title="Windows" %}
 
-1. Téléchargez d'abord **JDK 21** en format `.msi` depuis [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Téléchargez d'abord **JDK 21** en format `.msi` depuis [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Exécutez l'assistant d'installation téléchargé et cliquez sur `Suivant`.
 3. **Activez `Set JAVA_HOME variable` dans le menu affiché au centre gauche de la fenêtre**, puis cliquez sur `Suivant`.
 4. Cliquez sur `Installer` pour terminer l'installation de JRE.
@@ -78,7 +78,7 @@ Une fois l'installation terminée, refaites l'étape 1.1 pour vérifier que l'in
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) téléchargez et exécutez l'assistant d'installation en forme de fichier `.dmg` pour installer JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) téléchargez et exécutez l'assistant d'installation en forme de fichier `.dmg` pour installer JRE.
 
 {% endtab %}
 
@@ -244,8 +244,8 @@ Ensuite, après avoir redémarré le serveur, Plazma tentera automatiquement de 
 
 Le succès du UPnP est déterminé par le message affiché dans la console, qui sera affiché comme `[UPnP] (message)`.
 
-| Message                               | Signification                           |
-| ------------------------------------- | --------------------------------------- |
+| Message                               | Signification                                           |
+| ------------------------------------- | ------------------------------------------------------- |
 | `Port (port) ouvert avec succès`      | Redirection de port réussie.            |
 | `Le port (port) est déjà ouvert`      | Un autre service utilise déjà ce port.  |
 | `Échec de l'ouverture du port (port)` | Échec de la redirection de port.        |
