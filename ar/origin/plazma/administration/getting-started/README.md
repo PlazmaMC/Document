@@ -70,7 +70,7 @@ OpenJDK 64 بت خادم VM Zulu21.32+17-CA (البناء 21.0.2+13-LTS، وضع
 
 {% tab title="ويندوز" %}
 
-1. أولًا، قم بتنزيل JDK 21 من [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) بتنسيق `.msi`.
+1. أولًا، قم بتنزيل JDK 21 من [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) بتنسيق `.msi`.
 2. قم بتشغيل معالج التثبيت الذي تم تنزيله وانقر على `التالي`.
 3. بعد ذلك، انتقل إلى القائمة الموجودة في منتصف الجزء الأيسر من النافذة وقم بتفعيل `تعيين متغير JAVA_HOME`، ثم انقر على `التالي`.
 4. اضغط على `تثبيت` لإكمال تثبيت JRE.
@@ -79,7 +79,7 @@ OpenJDK 64 بت خادم VM Zulu21.32+17-CA (البناء 21.0.2+13-LTS، وضع
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) حيث يتم تنزيل JDK 21 بصيغة `.dmg` من خلال معالج التثبيت وتشغيله لتثبيت JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) حيث يتم تنزيل JDK 21 بصيغة `.dmg` من خلال معالج التثبيت وتشغيله لتثبيت JRE.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 النجاح أو الفشل في UPnP يعتمد على الرسالة التي تظهر في وحدة التحكم، حيث تظهر على سبيل المثال `[UPnP] (الرسالة)`.
 
-| رسالة                          | المعنى                                 |
-| ------------------------------ | -------------------------------------- |
+| رسالة                          | المعنى                                                 |
+| ------------------------------ | ------------------------------------------------------ |
 | `تم فتح المنفذ بنجاح (المنفذ)` | نجاح توجيه المنفذ.                     |
 | `المنفذ (المنفذ) مفتوح بالفعل` | المنفذ قيد الاستخدام بواسطة خدمة أخرى. |
 | `فشل في فتح المنفذ (المنفذ)`   | فشل توجيه المنفذ.                      |
