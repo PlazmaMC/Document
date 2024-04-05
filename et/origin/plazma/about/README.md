@@ -52,7 +52,7 @@ description: Uurige, milline platvorm Plazma on.
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>Reaalajas Plazma kasutajate suundumused</p></figcaption>
 </figure>
 
 ## ⬇️ Lae alla
