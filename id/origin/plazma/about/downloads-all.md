@@ -19,6 +19,8 @@ silakan unduh dari halaman di bawah.
 
 [wtr]: https://badge.plazmamc.org/0/릴리스%20대기중
 
+![Menunggu Rilis][wtr]![Sedang Dikembangkan](https://badge.plazmamc.org/1/Sedang%20Dikembangkan)![Sedang Didukung](https://badge.plazmamc.org/2/Sedang%20Didukung)![Dukungan Fungsi Dihentikan](https://badge.plazmamc.org/6/Dukungan%20Fungsi%20Dihentikan)![Dukungan Berakhir](https://badge.plazmamc.org/4/Dukungan%20Berakhir)
+
 |                                       Versi                                       |                          [RP](#user-content-fn-1)[^1]                          |                          [MP](#user-content-fn-2)[^2]                          |                          [RB](#user-content-fn-3)[^3]                          |                          [MB](#user-content-fn-4)[^4]                          |
 | :-------------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |                             ![Menunggu Rilis][wtr]                             |                             ![Menunggu Rilis][wtr]                             |                             ![Menunggu Rilis][wtr]                             |                             ![Menunggu Rilis][wtr]                             |
