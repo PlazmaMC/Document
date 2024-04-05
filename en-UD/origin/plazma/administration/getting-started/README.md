@@ -70,7 +70,7 @@ After installation, perform [step 1.1](setup.md#id-1.1) again to ensure that the
 
 {% tab title="Windows" %}
 
-1. First, download **JDK 21** from [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) in `.msi` format.
+1. First, download **JDK 21** from [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) in `.msi` format.
 2. Run the downloaded installation wizard and click `Next`.
 3. After activating `Set JAVA_HOME variable` in the menu displayed in the middle left of the window, click `Next`.
 4. Press `Install` to complete the JRE installation.
@@ -79,7 +79,7 @@ After installation, perform [step 1.1](setup.md#id-1.1) again to ensure that the
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) from **JDK 21** download the `.dmg` installation wizard and run to install JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) from **JDK 21** download the `.dmg` installation wizard and run to install JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Then, when you restart the server, Plazma will automatically attempt port forwar
 
 The success of UPnP depends on the message displayed in the console, which will be shown as `[UPnP] (message)` in the console.
 
-| Message                           | Meaning                            |
-| --------------------------------- | ---------------------------------- |
+| Message                           | Meaning                                            |
+| --------------------------------- | -------------------------------------------------- |
 | `Successfully opened port (port)` | Port forwarding successful.        |
 | `Port (port) is already open`     | Another service is using the port. |
 | `Failed to open port (port)`      | Port forwarding failed.            |
