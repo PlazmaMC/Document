@@ -8,7 +8,7 @@ description: Ако имате въпроси, моля, задайте ги ч�
 
 **Документите на Plazma в момента са преведени от машина.**
 
-[![Статус на превода](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Статус на превода](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) открийте и подобрете документа си, като се възползвате от превода на документа.
 
