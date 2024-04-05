@@ -12,18 +12,15 @@ description: "Βρείτε τις εκδόσεις που υποστηρίζον
 
 {% endhint %}
 
-[wtr]: https://badge.plazmamc.org/0/릴리스%20대기중
-
-[ukn]: https://badge.plazmamc.org/0/정보%20없음
-
-[vgd]: https://badge.plazmamc.org/1/매우%20좋음
-
+[wtr]: https://badge.plazmamc.org/0/Σε%20αναμονή%20κυκλοφορίας
+[ukn]: <https://badge.plazmamc.org/0/Δεν υπάρχουν πληροφορίες>
+[vgd]: <https://badge.plazmamc.org/1/Πολύ καλό>
 [100]: https://badge.plazmamc.org/percent/100
 
-|                                       Έκδοση                                      |       안정성    및    기능 지원       |                                      Κατάσταση κατασκευής                                      |
-| :-------------------------------------------------------------------------------: | :---------------------------: | :--------------------------------------------------------------------------------------------: |
-|                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  | ![ΑΝΑΜΟΝΗ%20ΚΥΚΛΟΦΟΡΙΑΣ][wtr] |                                  ![ΑΝΑΜΟΝΗ%20ΚΥΚΛΟΦΟΡΙΑΣ][wtr]                                 |
-| [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |   ![매우 좋음][vgd]![100%][100]   | [![빌드 상태](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) |   ![매우 좋음][vgd]![100%][100]   | [![빌드 상태](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |   ![매우 좋음][vgd]![100%][100]   |                                          ![정보 없음][ukn]                                         |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |   ![매우 좋음][vgd]![100%][100]   |                                          ![정보 없음][ukn]                                         |
+|                                       Έκδοση                                      | Υποστήριξη Σταθερότητας και Λειτουργικότητας |                                              Κατάσταση κατασκευής                                             |
+| :-------------------------------------------------------------------------------: | :------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
+|                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |         ![ΑΝΑΜΟΝΗ%20ΚΥΚΛΟΦΟΡΙΑΣ][wtr]        |                                         ![ΑΝΑΜΟΝΗ%20ΚΥΚΛΟΦΟΡΙΑΣ][wtr]                                         |
+| [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |         ![Πολύ καλό][vgd]![100%][100]        | [![Κατάσταση Κατασκευής](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) |         ![Πολύ καλό][vgd]![100%][100]        | [![Κατάσταση Κατασκευής](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |         ![Πολύ καλό][vgd]![100%][100]        |                                        ![Δεν υπάρχουν πληροφορίες][ukn]                                       |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |         ![Πολύ καλό][vgd]![100%][100]        |                                        ![Δεν υπάρχουν πληροφορίες][ukn]                                       |
