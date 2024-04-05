@@ -8,7 +8,7 @@ description: Nếu có câu hỏi, vui lòng đặt câu hỏi thông qua Discor
 
 **Tài liệu của Plazma hiện đang được dịch bằng máy.**
 
-[![Trạng thái Dịch](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) từ trang web để cải thiện tài liệu dựa trên dịch vụ tài liệu.
 
