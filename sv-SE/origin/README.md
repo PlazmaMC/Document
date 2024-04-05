@@ -8,7 +8,7 @@ description: Om du har frågor, vänligen fråga via Discord eller GitHub Issues
 
 **Plazma:s dokument är för närvarande översatt av maskin.**
 
-[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
+[![Översättningsstatus](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) på webbplatsen för att förbättra dokumentet genom att hänvisa till dokumentöversättningen.
 
@@ -36,6 +36,6 @@ description: Om du har frågor, vänligen fråga via Discord eller GitHub Issues
 
 #### `SPONSOR` Behöver du mer information om Minecraft? <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
