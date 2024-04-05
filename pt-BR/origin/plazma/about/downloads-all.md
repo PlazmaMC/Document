@@ -19,6 +19,8 @@ faça o download na página abaixo.
 
 [wtr]: https://badge.plazmamc.org/0/릴리스%20대기중
 
+![릴리스 대기중][wtr]![개발중](https://badge.plazmamc.org/1/개발중)![지원중](https://badge.plazmamc.org/2/지원중)![기능 지원 중단](https://badge.plazmamc.org/6/기능%20지원%20중단)![지원 종료](https://badge.plazmamc.org/4/지원%20종료)
+
 |                                       Versão                                      |                            [RP](#user-content-fn-1)[^1]                            |                            [MP](#user-content-fn-2)[^2]                            |                            [RB](#user-content-fn-3)[^3]                            |                            [MB](#user-content-fn-4)[^4]                            |
 | :-------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |                            ![Aguardando lançamento][wtr]                           |                            ![Aguardando lançamento][wtr]                           |                            ![Aguardando lançamento][wtr]                           |                            ![Aguardando lançamento][wtr]                           |
