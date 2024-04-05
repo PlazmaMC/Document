@@ -70,7 +70,7 @@ Selepas pemasangan, sila jalankan semula [Langkah 1.1](setup.md#id-1.1) untuk me
 
 {% tab title="Windows" %}
 
-1. Pertama, muat turun **JDK 21** dari [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) dalam format `.msi`.
+1. Pertama, muat turun **JDK 21** dari [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) dalam format `.msi`.
 2. Jalankan penyelenggaraan muat turun dan klik `Next`.
 3. Di tengah kiri tetingkap, aktifkan `Set JAVA_HOME variable` dan kemudian klik `Next`.
 4. Tekan `Install` untuk menyelesaikan pemasangan JRE.
@@ -79,7 +79,7 @@ Selepas pemasangan, sila jalankan semula [Langkah 1.1](setup.md#id-1.1) untuk me
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) memuat turun **JDK 21** dari wizard pemasangan dalam format `.dmg` dan jalankan untuk memasang JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) memuat turun **JDK 21** dari wizard pemasangan dalam format `.dmg` dan jalankan untuk memasang JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Kemudian, mulakan semula pelayan dan Plazma akan cuba meneruskan port secara aut
 
 Kejayaan UPnP bergantung kepada mesej yang dipaparkan dalam konsol, di mana ia akan menunjukkan `[UPnP] (mesej)`.
 
-| Mesej                         | Makna                                        |
-| ----------------------------- | -------------------------------------------- |
+| Mesej                         | Makna                                                        |
+| ----------------------------- | ------------------------------------------------------------ |
 | `Berjaya membuka port (port)` | Penerusan port berjaya.                      |
 | `Port (port) sudah terbuka`   | Port telah digunakan oleh perkhidmatan lain. |
 | `Gagal membuka port (port)`   | Penerusan port gagal.                        |
