@@ -70,7 +70,7 @@ Po zakończeniu instalacji, ponownie wykonaj [krok 1.1](setup.md#id-1.1), aby sp
 
 {% tab title="Windows" %}
 
-1. Najpierw pobierz **JDK 21** w formacie `.msi` z [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Najpierw pobierz **JDK 21** w formacie `.msi` z [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Uruchom pobrany instalator i kliknij `Dalej`.
 3. Po lewej stronie środkowej części okna wybierz `Set JAVA_HOME variable`, a następnie kliknij `Dalej`.
 4. Kliknij `Instaluj`, aby zainstalować JRE.
@@ -79,7 +79,7 @@ Po zakończeniu instalacji, ponownie wykonaj [krok 1.1](setup.md#id-1.1), aby sp
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) pobierz **JDK 21** w formie pliku `.dmg`, uruchom instalator i zainstaluj JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) pobierz **JDK 21** w formie pliku `.dmg`, uruchom instalator i zainstaluj JRE.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ Następnie po restarcie serwera, Plazma automatycznie próbuje przekierować por
 
 Poniżej znajduje się informacja o sukcesie przekierowania UPnP, która zostanie wyświetlona w konsoli, np. `[UPnP] (wiadomość)`.
 
-| wiadomość                             | znaczenie                                  |
-| ------------------------------------- | ------------------------------------------ |
+| wiadomość                             | znaczenie                                                  |
+| ------------------------------------- | ---------------------------------------------------------- |
 | `Pomyślnie otwarto port (port)`       | Sukces przekierowania portów.              |
 | `Port (port) jest już otwarty`        | Inna usługa korzysta obecnie z tego portu. |
 | `Nie udało się otworzyć portu (port)` | Przekierowanie portów nie powiodło się.    |
