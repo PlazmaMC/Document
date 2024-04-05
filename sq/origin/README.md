@@ -36,6 +36,6 @@ Referohuni në [https://translate.plazmamc.org/](https://translate.plazmamc.org/
 
 #### `SPONSOR` Nëse kërkoni më shumë informacione lidhur me Minecraft? <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
