@@ -8,7 +8,7 @@ description: Sorularınız varsa lütfen Discord veya GitHub Issues üzerinden s
 
 **Plazma belgesi şu anda makine çevirisi durumundadır.**
 
-[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
+[![Çeviri Durumu](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) adresinde belge çevirilerini referans alarak belgeyi geliştirin.
 
@@ -36,6 +36,6 @@ description: Sorularınız varsa lütfen Discord veya GitHub Issues üzerinden s
 
 #### `SPONSOR` Daha fazla Minecraft ile ilgili bilgiye mi ihtiyacınız var? <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
