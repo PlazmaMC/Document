@@ -70,7 +70,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="Windows" %}
 
-1. Прво, преузмите **JDK 21** у `.msi` формату са [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Прво, преузмите **JDK 21** у `.msi` формату са [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Покрените преузети инсталатер и кликните на `Next`.
 3. Након тога, активирајте `Set JAVA_HOME variable` у средини левог менија и кликните `Next`.
 4. Кликните на `Install` да бисте завршили инсталацију JRE.
@@ -79,7 +79,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) од **JDK 21** у облику `.dmg` преузмите помоћу волшебника за инсталацију и инсталирајте JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) од **JDK 21** у облику `.dmg` преузмите помоћу волшебника за инсталацију и инсталирајте JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 Доње наведено је да ли је UPnP успео на основу поруке која се приказује на конзоли, а на конзоли ће се приказати `[UPnP] (порука)`.
 
-| Порука                            | Значење                        |
-| --------------------------------- | ------------------------------ |
+| Порука                            | Значење                                        |
+| --------------------------------- | ---------------------------------------------- |
 | `Успешно отворен порт (порт)`     | Пренос порта је успео.         |
 | `Порт (порт) је већ отворен`      | Друга услуга користи тај порт. |
 | `Неуспешно отварање порта (порт)` | Пренос порта није успео.       |
