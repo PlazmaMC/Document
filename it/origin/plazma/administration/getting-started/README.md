@@ -70,7 +70,7 @@ Dopo aver completato l'installazione, ripeti il [Passaggio 1.1](setup.md#id-1.1)
 
 {% tab title="Windows" %}
 
-1. Scarica il **JDK 21** in formato `.msi` da [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Scarica il **JDK 21** in formato `.msi` da [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Esegui il file di installazione scaricato e clicca su `Avanti`.
 3. Attiva `Imposta la variabile JAVA_HOME` dal menu visualizzato al centro sinistra della finestra e clicca su `Avanti`.
 4. Clicca su `Installa` per completare l'installazione di JRE.
@@ -79,7 +79,7 @@ Dopo aver completato l'installazione, ripeti il [Passaggio 1.1](setup.md#id-1.1)
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) scarica **JDK 21** in formato `.dmg` dal wizard di installazione e esegui per installare JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) scarica **JDK 21** in formato `.dmg` dal wizard di installazione e esegui per installare JRE.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ Successivamente, al riavvio del server, Plazma proverà automaticamente a fare i
 
 Di seguito vi è la conferma del successo del forwarding della porta in base al messaggio visualizzato sulla console, che apparirà come `[UPnP] (messaggio)`.
 
-| Messaggio                             | Significato                                             |
-| ------------------------------------- | ------------------------------------------------------- |
+| Messaggio                             | Significato                                                             |
+| ------------------------------------- | ----------------------------------------------------------------------- |
 | `Porta aperta con successo (porta)`   | Forwarding della porta riuscito.                        |
 | `Porta (porta) già aperta`            | Un altro servizio sta utilizzando la porta specificata. |
 | `Impossibile aprire la porta (porta)` | Forwarding della porta fallito.                         |
