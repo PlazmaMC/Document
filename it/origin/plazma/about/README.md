@@ -49,7 +49,11 @@ description: Scopri di più su cosa sia Plazma come piattaforma server.
 - **Piattaforma scelta da molti streamer**\
   Utilizzata come versione di Bucket preferita dai numerosi streamer di Chijik.
 
-<figure><img src="https://camo.githubusercontent.com/22acffd515755c2cee2078a7697ff35351c5ec7148eb2806deedbe63df1c4ed7/68747470733a2f2f6273746174732e6f72672f7369676e6174757265732f7365727665722d696d706c656d656e746174696f6e2f506c617a6d612e737667" alt=""><figcaption><p>Tendenza degli utenti di Plazma in tempo reale</p></figcaption></figure>
+<figure>
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
+   
+   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+</figure>
 
 ## ⬇️ Scarica
 
