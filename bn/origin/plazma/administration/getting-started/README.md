@@ -69,7 +69,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="Windows" %}
 
-1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) 에서 **JDK 21**을 `.msi` 형태로 다운로드 합니다.
+1. 먼저, [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) 에서 **JDK 21**을 `.msi` 형태로 다운로드 합니다.
 2. 다운로드된 설치 마법사를 실행하고, `다음`을 클릭합니다.
 3. **창 좌측 중앙에 표시되는 메뉴에서 `Set JAVA_HOME variable`을 활성화 한 후,** `다음`을 클릭합니다.
 4. `설치`를 눌러 JRE 설치를 `완료`합니다.
@@ -78,7 +78,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) থেকে **JDK 21** এ `.dmg` ফর্ম্যাটের ইনস্টলার ডাউনলোড করে JRE ইনস্টল করুন।
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) থেকে **JDK 21** এ `.dmg` ফর্ম্যাটের ইনস্টলার ডাউনলোড করে JRE ইনস্টল করুন।
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 아래는 콘솔에 출력되는 메세지에 따른 UPnP 성공 여부이며, 콘솔에서는 `[UPnP] (메세지)` 와 같이 출력됩니다.
 
-| 메세지                             | 의미                   |
-| ------------------------------- | -------------------- |
+| 메세지                             | 의미                                   |
+| ------------------------------- | ------------------------------------ |
 | `Successfully opened port (포트)` | 포트포워딩 성공.            |
 | `Port (포트) is already open`     | 다른 서비스가 해당 포트를 사용중임. |
 | `Failed to open port (포트)`      | 포트포워딩 실패.            |
