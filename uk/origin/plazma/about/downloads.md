@@ -35,31 +35,31 @@ description: Завантажте Plazma прямо зараз та випроб
         <tr>
             <td>1.20.5</td>
             <td><a href="">
-                <img src="https://badge.plazmamc.org/0/릴리스%20대기중" alt="릴리스 대기중">
+                <img src="https://badge.plazmamc.org/0/Очікування%20релізу" alt="Очікування релізу">
             </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Завантажити" alt="Завантажити">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Завантажити" alt="Завантажити">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Завантажити" alt="Завантажити">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Завантажити" alt="Завантажити">
             </a></td>
         </tr>
     </tbody>
