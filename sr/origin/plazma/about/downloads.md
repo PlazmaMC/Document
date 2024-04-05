@@ -35,31 +35,31 @@ description: Одмах преузмите Плазму и пробајте је
         <tr>
             <td>1.20.5</td>
             <td><a href="">
-                <img src="https://badge.plazmamc.org/0/릴리스%20대기중" alt="릴리스 대기중">
+                <img src="https://badge.plazmamc.org/0/Чекање%20на%20издање" alt="Чекање на издање">
             </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Преузимање" alt="Преузимање">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Преузимање" alt="Преузимање">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Преузимање" alt="Преузимање">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Преузимање" alt="Преузимање">
             </a></td>
         </tr>
     </tbody>
