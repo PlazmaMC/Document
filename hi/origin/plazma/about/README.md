@@ -52,7 +52,7 @@ description: Plazma क्या है, एक सर्वर प्लेट�
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>रियल-टाइम Plazma उपयोगकर्ता रुझान</p></figcaption>
 </figure>
 
 ## ⬇️ डाउनलोड
