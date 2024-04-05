@@ -70,7 +70,7 @@ Asennuksen jälkeen suorita [1.1 vaihe](setup.md#id-1.1) uudelleen varmistaakses
 
 {% tab title="Windows" %}
 
-1. Lataa ensin [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) ja asenna **JDK 21** `.msi`-muodossa.
+1. Lataa ensin [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) ja asenna **JDK 21** `.msi`-muodossa.
 2. Suorita ladattu asennusvelho ja napsauta `Seuraava`.
 3. Aktivoi `Aseta JAVA_HOME-muuttuja` vasemman keskellä olevasta valikosta ja napsauta sitten `Seuraava`.
 4. Klikkaa `Asenna` JRE:n asentamiseksi ja valitse `Valmis`.
@@ -79,7 +79,7 @@ Asennuksen jälkeen suorita [1.1 vaihe](setup.md#id-1.1) uudelleen varmistaakses
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) asentaa **JDK 21** `.dmg` muodossa olevan asennusvelhon lataamisen jälkeen ja suorittamisen avulla asentaa JRE:n.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) asentaa **JDK 21** `.dmg` muodossa olevan asennusvelhon lataamisen jälkeen ja suorittamisen avulla asentaa JRE:n.
 
 {% endtab %}
 
@@ -246,12 +246,12 @@ Tämän jälkeen, jos käynnistät palvelimen uudelleen, Plazma yrittää automa
 
 Alla oleva viesti kertoo UPnP:n onnistumisesta ja konsolissa se näkyy muodossa `[UPnP] (viesti)`.
 
-| Viesti                                   | Merkitys                                    |
-| ---------------------------------------- | ------------------------------------------- |
+| Viesti                                   | Merkitys                                                    |
+| ---------------------------------------- | ----------------------------------------------------------- |
 | `Portti (portti) avattiin onnistuneesti` | Portinohjaus onnistui.                      |
 | `Portti (portti) on jo avoinna`          | Toinen palvelu käyttää jo kyseistä porttia. |
 | `Portin (portti) avaaminen epäonnistui`  | Portinohjaus epäonnistui.                   |
-| `Palvelu ei ole käytettävissä`           | Reititin ei tue UPnP:tä.                    |
+| `Palvelu ei ole käytettävissä`           | Reititin ei tue UPnP:tä.    |
 
 Palvelimen sammuttua Plazma sulkee portin automaattisesti.
 
