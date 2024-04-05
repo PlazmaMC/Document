@@ -36,6 +36,6 @@ description: Jei turite klausimų, prašome juos užduoti per Discord arba GitHu
 
 #### `RĖMĖJAS` Jei reikia daugiau informacijos apie „Minecraft“, <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
