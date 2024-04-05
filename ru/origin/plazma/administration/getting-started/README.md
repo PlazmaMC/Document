@@ -70,7 +70,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="Windows" %}
 
-1. Сначала загрузите **JDK 21** в формате `.msi` с [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Сначала загрузите **JDK 21** в формате `.msi` с [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Запустите загруженного мастера установки и нажмите `Далее`.
 3. После этого активируйте `Set JAVA_HOME variable` в меню, отображаемом в левом центре окна, и нажмите `Далее`.
 4. Нажмите `Установить`, чтобы завершить установку JRE.
@@ -79,7 +79,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) скачайте **JDK 21** в формате `.dmg` с сайта и запустите мастер установки для установки JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) скачайте **JDK 21** в формате `.dmg` с сайта и запустите мастер установки для установки JRE.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 Ниже приведены возможные сообщения в консоли в зависимости от результата UPnP, они будут отображаться как `[UPnP] (сообщение)` в консоли.
 
-| Сообщение                        | Значение                                |
-| -------------------------------- | --------------------------------------- |
+| Сообщение                        | Значение                                                |
+| -------------------------------- | ------------------------------------------------------- |
 | `Успешно открыт порт (порт)`     | Проброс порта выполнен успешно.         |
 | `Порт (порт) уже открыт`         | Другой сервис уже использует этот порт. |
 | `Не удалось открыть порт (порт)` | Не удалось выполнить проброс порта.     |
