@@ -8,7 +8,7 @@ description: ¿ɹǝʇɟnᴉu ɯᴉsɥʇun ᴉɯ ˙sǝǝɥsᴉɐu ɓᴉuɹǝɯᴉ
 
 **.sdiasdnuɹoɯǝ ǝʇɐɹǝɐɥ ǝɹɐɯǝɹ ǝɥʇ ǝuɹǝɟǝq ǝp ǝɯıɥ ǝsɹǝʌǝɹ ǝɥʇ ǝɹɐɯǝɹ**
 
-[![Translation Status](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
 
