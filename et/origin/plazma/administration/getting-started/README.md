@@ -70,7 +70,7 @@ Pärast installimist kontrollige uuesti [1.1 samm](setup.md#id-1.1), et veenduda
 
 {% tab title="Windows" %}
 
-1. Esiteks laadige alla [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) **JDK 21** `.msi` vormingus.
+1. Esiteks laadige alla [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) **JDK 21** `.msi` vormingus.
 2. Käivitage allalaaditud installimisviisard ja klõpsake „Edasi“.
 3. **Aktiveerige menüüs „Seadke JAVA_HOME muutuja“ vasakul keskel** ja klõpsake seejärel „Järgmine“.
 4. Vajutage nuppu „Install“ JRE installimiseks „Lõpeta“.
@@ -79,7 +79,7 @@ Pärast installimist kontrollige uuesti [1.1 samm](setup.md#id-1.1), et veenduda
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) kaudu **JDK 21** `.dmg` vormis installimeistri allalaadimine ja käivitamine JRE installimiseks.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) kaudu **JDK 21** `.dmg` vormis installimeistri allalaadimine ja käivitamine JRE installimiseks.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Seejärel taaskäivitage server, et Plazma prooviks automaatselt portide edastam
 
 Allpool on toodud UPnP edukuse kontrollimiseks konsoolile kuvatavad sõnumid, konsoolis kuvatakse `[UPnP] (sõnum)`.
 
-| Sõnum                              | Tähendus                            |
-| ---------------------------------- | ----------------------------------- |
+| Sõnum                              | Tähendus                                            |
+| ---------------------------------- | --------------------------------------------------- |
 | `Port (port) edukalt avatud`       | Portide edastamine õnnestus.        |
 | `Port (port) on juba avatud`       | Muu teenus kasutab seda porti juba. |
 | `Porti (port) ei õnnestunud avada` | Portide edastamine ebaõnnestus.     |
