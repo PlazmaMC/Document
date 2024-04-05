@@ -70,7 +70,7 @@ Når installationen er færdig, skal du køre [trin 1.1](setup.md#id-1.1) igen f
 
 {% tab title="Windows" %}
 
-1. Først skal du downloade **JDK 21** i `.msi`-format fra [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Først skal du downloade **JDK 21** i `.msi`-format fra [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Kør den downloadede installationsguide og klik på `Næste`.
 3. Aktivér `Set JAVA_HOME variable` fra menuen i midten af vinduet og klik derefter på `Næste`.
 4. Afslut installationen ved at klikke på `Installer` for at installere JRE.
@@ -79,7 +79,7 @@ Når installationen er færdig, skal du køre [trin 1.1](setup.md#id-1.1) igen f
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) download **JDK 21** som en `.dmg` fil fra installationsguiden og kør den for at installere JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) download **JDK 21** som en `.dmg` fil fra installationsguiden og kør den for at installere JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Derefter, når serveren genstartes, vil Plazma automatisk forsøge at videresend
 
 Nedenfor er resultatet af UPnP ifølge meddelelsen, som vises i konsollen som '[UPnP] (besked)'.
 
-| Besked                                                   | Betydning                                              |
-| -------------------------------------------------------- | ------------------------------------------------------ |
+| Besked                                                   | Betydning                                                              |
+| -------------------------------------------------------- | ---------------------------------------------------------------------- |
 | 'Porten (port) blev åbnet med succes' | Portvideresendelse lykkedes.                           |
 | 'Porten (port) er allerede åben'      | En anden tjeneste bruger allerede den pågældende port. |
 | 'Kunne ikke åbne porten (port)'       | Portvideresendelse mislykkedes.                        |
@@ -266,7 +266,7 @@ Metoden med Ngrok er nyttig til midlertidige tests, samarbejde eller spil med ve
 3. Generer en godkendelsestoken fra [Ngrok Dashboard](https://dashboard.ngrok.com/get-started/your-authtoken).
 4. Kør kommandoen, der vises i 'Command Line' i servermappen.
 5. Tilføj 'start /b ngrok tcp --region jp 25565' øverst i kørselsskriptet og 'taskkill /f /t /im ngrok.exe' nederst.
-6. Fra 'Forwarding tcp\://0.tcp.jp.ngrok.io:12345 -> localhost:25565' i konsollen vil '0.tcp.jp.ngrok.io:12345' være serverens adresse.
+6. Fra 'Forwarding tcp://0.tcp.jp.ngrok.io:12345 -> localhost:25565' i konsollen vil '0.tcp.jp.ngrok.io:12345' være serverens adresse.
 7. Nu kan du oprette forbindelse eksternt via denne adresse.
 
 {% endtab %}
