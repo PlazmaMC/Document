@@ -8,7 +8,7 @@ description: Jei turite klausimų, prašome juos užduoti per Discord arba GitHu
 
 **Plazmos dokumentas dabar yra išverstas mašininiu būdu.**
 
-[![Vertimo būsena](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Vertimo būsena](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) Įtraukite dokumentacijos vertimą iš [https://translate.plazmamc.org/](https://translate.plazmamc.org/) kaip pagrindą ir pagerinkite dokumentą.
 
