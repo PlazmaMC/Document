@@ -70,7 +70,7 @@ Kwede ki tye, [1.1 dong](setup.md#id-1.1) kadi kwede ki tye kwede i kom put me k
 
 {% tab title="Windows" %}
 
-1. Ka ki tye kwede ki JRE **JDK 21** me `.msi` kwede ma [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) ki download.
+1. Ka ki tye kwede ki JRE **JDK 21** me `.msi` kwede ma [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) ki download.
 2. Jokkwa kwede ma gin ma, `Doki` ki cwalo.
 3. **Lok me cwalo, `Set JAVA_HOME variable` ki gengo ngolo,** `Doki` ki cwalo.
 4. Ki cwalo ki tye kwede JRE ki tye ki `kwede` ki tye kwede.
@@ -79,7 +79,7 @@ Kwede ki tye, [1.1 dong](setup.md#id-1.1) kadi kwede ki tye kwede i kom put me k
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) ki **JDK 21** o `.dmg` me woko kacel ma kacel iye kwo i pwonyo JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) ki **JDK 21** o `.dmg` me woko kacel ma kacel iye kwo i pwonyo JRE.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ Kadi kwede, server me cwalo ki dong kwede, Plazma ki yom me fowadi ki dong kwede
 
 Iyi ni dok ma pe tye, UPnP mukene pe i kom iye moko, i kom iye moko, i kom iye moko, i kom iye moko, i kom iye moko.
 
-| Dok ma pe tye                   | Kwo mukene                                  |
-| ------------------------------- | ------------------------------------------- |
+| Dok ma pe tye                   | Kwo mukene                                                  |
+| ------------------------------- | ----------------------------------------------------------- |
 | `Lok ma tye kare (kare)`        | Kare me fowadi mukene.                      |
 | `Kare (kare) ki tye kwo mukene` | Doki me server ki tye ki dong kwede mukene. |
 | `Lok ma tye kare (kare)`        | Kare me fowadi mukene.                      |
