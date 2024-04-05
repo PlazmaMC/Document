@@ -8,7 +8,7 @@ description: Якщо у вас є питання, будь ласка, зада
 
 **Документація Plazma наразі перебуває в стані машинного перекладу.**
 
-[![Статус перекладу](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) належить до документації, використовуйте його для покращення документації.
 
