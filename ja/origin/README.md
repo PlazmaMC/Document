@@ -36,6 +36,6 @@ description: 質問がある場合は、DiscordまたはGitHub Issuesを通じ�
 
 #### `SPONSOR` もっと多くのMinecraft関連情報が必要な場合は？ <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
