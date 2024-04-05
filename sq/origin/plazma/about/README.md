@@ -52,8 +52,7 @@ description: Mësoni më shumë për platformën e serverit Plazma.
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
-</figure>
+   <figcaption><p>Plazma përdoruesit e shërbimit të drejtpërdrejtë</figure>
 
 ## ⬇️ Shkarko
 
