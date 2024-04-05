@@ -52,7 +52,7 @@ description: Tìm hiểu về Plazma là gì.
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>Trend người dùng Plazma trực tiếp</p></figcaption>
 </figure>
 
 ## ⬇️ Tải xuống
