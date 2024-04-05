@@ -36,6 +36,6 @@ description: ¿ɹǝʇɟnᴉu ɯᴉsɥʇun ᴉɯ ˙sǝǝɥsᴉɐu ɓᴉuɹǝɯᴉ
 
 #### `ƃuᴉɹɐɥ` ɯǝ ɯɐuǝɯǝ ɯɐ ɹǝɥʇɐǝɥ ǝɥʇ ɹǝɥʇɐǝɥ ɓuᴉɹɐɥ ɹǝʇǝʍ sᴉɥ┴ <ɐ ɥǝʇ-1 ɓuᴉɹɐɥ="ɯɐu-1" ɥǝ="ɐ">\</ɐ>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
