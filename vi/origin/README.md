@@ -8,7 +8,7 @@ description: Nếu có câu hỏi, vui lòng đặt câu hỏi thông qua Discor
 
 **Tài liệu của Plazma hiện đang được dịch bằng máy.**
 
-[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
+[![Trạng thái Dịch](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) từ trang web để cải thiện tài liệu dựa trên dịch vụ tài liệu.
 
@@ -36,6 +36,6 @@ description: Nếu có câu hỏi, vui lòng đặt câu hỏi thông qua Discor
 
 #### `SPONSOR` 더 많은 Minecraft 관련 정보가 필요하다면? <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
