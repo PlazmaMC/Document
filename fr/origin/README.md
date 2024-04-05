@@ -36,6 +36,6 @@ Améliorez le document en consultant la traduction du document sur [https://tran
 
 #### `SPONSOR` Si vous avez besoin de plus d'informations sur Minecraft, <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
