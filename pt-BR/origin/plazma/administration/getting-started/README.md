@@ -69,7 +69,7 @@ Após a instalação, verifique se a instalação foi concluída corretamente ex
 
 {% tab title="Windows" %}
 
-1. Primeiramente, faça o download do **JDK 21** em formato `.msi` do [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Primeiramente, faça o download do **JDK 21** em formato `.msi` do [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Execute o assistente de instalação baixado e clique em `Next`.
 3. Ative a opção `Set JAVA_HOME variable` no menu exibido no centro esquerdo da janela e clique em `Next`.
 4. Clique em `Install` para concluir a instalação do JRE.
@@ -78,7 +78,7 @@ Após a instalação, verifique se a instalação foi concluída corretamente ex
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) instala o **JDK 21** baixando e executando o assistente de instalação em formato `.dmg` para instalar o JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) instala o **JDK 21** baixando e executando o assistente de instalação em formato `.dmg` para instalar o JRE.
 
 {% endtab %}
 
@@ -244,8 +244,8 @@ Em seguida, ao reiniciar o servidor, o Plazma tentará automaticamente encaminha
 
 Abaixo está o resultado do sucesso do UPnP com base na mensagem exibida no console, que será exibida como `[UPnP] (mensagem)` no console.
 
-| mensagem                           | significado                         |
-| ---------------------------------- | ----------------------------------- |
+| mensagem                           | significado                                         |
+| ---------------------------------- | --------------------------------------------------- |
 | `Porta aberta com sucesso (porta)` | Sucesso no encaminhamento de porta. |
 | `Porta (porta) já está aberta`     | Outro serviço está usando a porta.  |
 | `Falha ao abrir porta (porta)`     | Falha no encaminhamento de porta.   |
