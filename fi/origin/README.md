@@ -36,6 +36,6 @@ description: Jos sinulla on kysyttävää, kysy Discordin tai GitHub Issuesin ka
 
 #### `SPONSOR` Jos tarvitset lisää tietoa Minecraftista, tutustu tähän. <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
