@@ -54,7 +54,7 @@ description: Plazma'nın hangi tür bir sunucu platformu olduğunu öğrenin.
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>Gerçek Zamanlı Plazma Kullanıcı Trendi</p></figcaption>
 </figure>
 
 ## ⬇️ İndir
