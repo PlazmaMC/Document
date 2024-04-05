@@ -70,7 +70,7 @@ Setelah instalasi selesai, lakukan kembali langkah [1.1](setup.md#id-1.1) untuk 
 
 {% tab title="Windows" %}
 
-1. Pertama, unduh **JDK 21** dari [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) dalam format `.msi`.
+1. Pertama, unduh **JDK 21** dari [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) dalam format `.msi`.
 2. Jalankan wizard instalasi yang telah diunduh dan klik `Next`.
 3. **Aktifkan `Set JAVA_HOME variable` di menu sebelah kiri tengah jendela** dan klik `Next`.
 4. Klik `Install` untuk menyelesaikan instalasi JRE.
@@ -79,7 +79,7 @@ Setelah instalasi selesai, lakukan kembali langkah [1.1](setup.md#id-1.1) untuk 
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) memasang **JDK 21** dari Wizard Instalasi dalam format `.dmg` setelah diunduh, lalu menjalankan untuk menginstal JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) memasang **JDK 21** dari Wizard Instalasi dalam format `.dmg` setelah diunduh, lalu menjalankan untuk menginstal JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Kemudian, restart server, Plazma akan mencoba port forwarding secara otomatis.
 
 Keberhasilan UPnP akan tergantung pada pesan yang muncul di konsol, yang akan ditampilkan sebagai `[UPnP] (pesan)`.
 
-| Pesan                          | Arti                                     |
-| ------------------------------ | ---------------------------------------- |
+| Pesan                          | Arti                                                     |
+| ------------------------------ | -------------------------------------------------------- |
 | `Berhasil membuka port (port)` | Port forwarding berhasil.                |
 | `Port (port) sudah terbuka`    | Port sedang digunakan oleh layanan lain. |
 | `Gagal membuka port (port)`    | Port forwarding gagal.                   |
