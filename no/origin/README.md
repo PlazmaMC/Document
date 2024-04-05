@@ -36,6 +36,6 @@ description: Hvis du har spørsmål, vennligst spør gjennom Discord eller GitHu
 
 #### `SPONSOR` Hvis du trenger mer informasjon om Minecraft, <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
