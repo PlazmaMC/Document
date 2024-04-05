@@ -12,54 +12,18 @@ If you are looking for platforms below 1.19.4, please use [Fusion (`1.19.2 ~ 1.1
 
 {% endhint %}
 
-[wtr]: https://img.shields.io/badge/Release%20Waiting-gray?style=for-the-badge
+[wtr]: https://badge.plazmamc.org/0/릴리스%20대기중
 
-[atv]: https://img.shields.io/badge/Supported-success?style=for-the-badge
+[ukn]: https://badge.plazmamc.org/0/정보%20없음
 
-[mtn]: https://img.shields.io/badge/Feature%20Addition%20End-blue?style=for-the-badge
+[vgd]: https://badge.plazmamc.org/1/매우%20좋음
 
-[eol]: https://img.shields.io/badge/Support%20End-red?style=for-the-badge
+[100]: https://badge.plazmamc.org/percent/100
 
-[nul]: https://img.shields.io/badge/No%20Information-gray?style=for-the-badge
-
-[vgd]: https://img.shields.io/badge/Very%20Good-blue?style=for-the-badge
-
-[100]: https://img.shields.io/badge/100%25-blue?style=for-the-badge
-
-| Version |            Status            |        Stability        |     Feature Support     |       Build Status      |
-| :-----: | :--------------------------: | :---------------------: | :---------------------: | :---------------------: |
-|  1.20.5 |    ![Release Pending][wtr]   | ![Release Pending][wtr] | ![Release Pending][wtr] | ![Release Pending][wtr] |
-|  1.20.4 |       ![Supported][atv]      |    ![Very Good][vgd]    |           100%          |   ![Build Status][204]  |
-|  1.20.2 | ![Feature Addition End][mtn] |    ![Very Good][vgd]    |           100%          |   ![Build Status][202]  |
-|  1.20.1 |      ![Support End][eol]     |    ![Very Good][vgd]    |           100%          |  ![No Information][nul] |
-|  1.19.4 |      ![Support End][eol]     |    ![Very Good][vgd]    |           100%          |  ![No Information][nul] |
-
-[204]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.4
-
-[202]: https://img.shields.io/github/actions/workflow/status/PlazmaMC/Plazma/release.yml?style=for-the-badge&label=%20&branch=ver/1.20.2
-
-<!--
-
-https://api.plazmamc.org/v1/badge/<bit>/<str>
-- bit: RGB (Boolean, ...)
-    - EX) 110 -> Yellow / 001 -> Blue / 000 -> Grey
-    000 001 010 011 100 101 110 111
-
-[wtr]: https://api.plazmamc.org/v1/badge/0/릴리스%20대기중
-
-[dev]: https://api.plazmamc.org/v1/badge/1/개발중
-[atv]: https://api.plazmamc.org/v1/badge/2/지원중
-[mtn]: https://api.plazmamc.org/v1/badge/6/기능%20추가%20종료
-[eol]: https://api.plazmamc.org/v1/badge/4/지원%20종료
-
-[ukn]: https://api.plazmamc.org/v1/badge/0/정보%20없음
-[vgd]: https://api.plazmamc.org/v1/badge/1/매우%20좋음
-
-|  버전  |          상태          |        안정성        |       기능 지원       |       빌드 상태       |
-| :----: | :-------------------: | :------------------: | :------------------: | :------------------: |
-| 1.20.5 | ![릴리스 대기중][wtr]  | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] | ![릴리스 대기중][wtr] |
-| 1.20.4 |    ![지원중][atv]     |   ![매우 좋음][vgd]   |         100%         | [![빌드 상태](https://build.plazmamc.org/1.20.4/sh)](https://build.plazmamc.org/1.20.4/) |
-| 1.20.2 | ![기능 추가 종료][mtn] |   ![매우 좋음][vgd]   |         100%        | [![빌드 상태](https://build.plazmamc.org/1.20.2/sh)](https://build.plazmamc.org/1.20.2/) |
-| 1.20.1 |   ![지원 종료][eol]    |   ![매우 좋음][vgd]  |         100%         |   ![빌드 상태][ukn]   |
-| 1.19.4 |   ![지원 종료][eol]    |   ![매우 좋음][vgd]  |         100%         |   ![빌드 상태][ukn]   |
--->
+|                                      Version                                      |     안정성    및    기능 지원     |                                          Build Status                                          |
+| :-------------------------------------------------------------------------------: | :-----------------------: | :--------------------------------------------------------------------------------------------: |
+|                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |  ![Release Pending][wtr]  |                                     ![Release Pending][wtr]                                    |
+| [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) | ![매우 좋음][vgd]![100%][100] | [![빌드 상태](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) | ![매우 좋음][vgd]![100%][100] | [![빌드 상태](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) | ![매우 좋음][vgd]![100%][100] |                                          ![정보 없음][ukn]                                         |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) | ![매우 좋음][vgd]![100%][100] |                                          ![정보 없음][ukn]                                         |
