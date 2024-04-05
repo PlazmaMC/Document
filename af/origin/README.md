@@ -8,7 +8,7 @@ description: Indien daar enige vrae is, vra asseblief deur Discord of GitHub Iss
 
 **Die dokumente van Plazma is tans masjienvertaal.**
 
-[![Vertalingsstatus](https://badges.crowdin.net/plazmamc-document-portal/localized.svg)](https://translate.plazmamc.org/)
+[![Vertalingsstatus](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) op die dokumentvertaling bydra en die dokument verbeter.
 
