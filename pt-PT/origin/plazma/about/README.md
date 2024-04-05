@@ -52,7 +52,7 @@ description: Descubra o que é o Plazma como plataforma de servidor.
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>Real-time tendência de uso do Plazma</p></figcaption>
 </figure>
 
 ## ⬇️ Download
