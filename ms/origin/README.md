@@ -36,6 +36,6 @@ description: Jika anda mempunyai sebarang pertanyaan, sila bertanya melalui Disc
 
 #### `PENAJA` Jika anda memerlukan lebih banyak maklumat berkaitan Minecraft, <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
