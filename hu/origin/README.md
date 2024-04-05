@@ -36,6 +36,6 @@ description: Ha kérdésed van, kérlek tedd fel a Discord-on vagy a GitHub Issu
 
 #### `TÁMOGATÓ` Ha több Minecraft-related információra van szükséged. <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
