@@ -70,7 +70,7 @@ Pas instalimit, rishikoni hapin [1.1](setup.md#id-1.1) për të siguruar që ins
 
 {% tab title="Windows" %}
 
-1. Fillimisht, shkarkoni **JDK 21** nga [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) në formatin `.msi`.
+1. Fillimisht, shkarkoni **JDK 21** nga [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) në formatin `.msi`.
 2. Ekzekutoni magjistrin e instalimit të shkarkuar dhe klikoni "Vazhdo".
 3. Aktivizoni opsionin `Set JAVA_HOME variable` në mes të shiritit të menysë në të majtë dhe klikoni "Vazhdo".
 4. Klikoni "Instalo" për të përfunduar instalimin e JRE.
@@ -79,7 +79,7 @@ Pas instalimit, rishikoni hapin [1.1](setup.md#id-1.1) për të siguruar që ins
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) instalo JDK 21 nga instaluesi `.dmg` i Azul Zulu dhe pastaj ekzekuto JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) instalo JDK 21 nga instaluesi `.dmg` i Azul Zulu dhe pastaj ekzekuto JRE.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ Pastaj, ristartoni serverin dhe Plazma do të provojë automatikisht të bëjë 
 
 Suksesin e UPnP vlerësoni sipas mesazhit që shfaqet në konsolë, si `[UPnP] (mesazhi)`.
 
-| Mesazhi                              | Kuptimi                                 |
-| ------------------------------------ | --------------------------------------- |
+| Mesazhi                              | Kuptimi                                                 |
+| ------------------------------------ | ------------------------------------------------------- |
 | `Porti u hap me sukses (porti)`      | Forwardimi i portit është i suksesshëm. |
 | `Porti (porti) është i hapur tashmë` | Një shërbim tjetër po përdor këtë port. |
 | `Dështoi hapja e portit (porti)`     | Forwardimi i portit dështoi.            |
