@@ -36,6 +36,6 @@ description: Oyee, coko ki i kom Discord to GitHub Issues ki coko matino.
 
 #### `SPONSOR` Coko ki i kom ma i coko ki Minecraft ma lubo dano? <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
