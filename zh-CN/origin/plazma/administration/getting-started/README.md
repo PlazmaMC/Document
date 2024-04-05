@@ -69,7 +69,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="Windows" %}
 
-1. 首先，在[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu)上下载**JDK 21**的`.msi`安装程序。
+1. 首先，在[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu)上下载**JDK 21**的`.msi`安装程序。
 2. 运行下载的安装向导，点击`下一步`。
 3. 在左上角的菜单中激活`Set JAVA_HOME variable`，然后点击`下一步`。
 4. 点击`安装`完成JRE安装。
@@ -78,7 +78,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu)从中下载**JDK 21**的`.dmg`安装向导并运行以安装JRE。
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu)从中下载**JDK 21**的`.dmg`安装向导并运行以安装JRE。
 
 {% endtab %}
 
