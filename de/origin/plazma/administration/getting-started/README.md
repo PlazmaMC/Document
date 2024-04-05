@@ -70,7 +70,7 @@ In diesem Handbuch verwenden wir Azul Zulu als eine der [JRE-Varianten](#user-co
 
 {% tab title="Windows" %}
 
-1. Laden Sie zuerst [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) herunter und installieren Sie **JDK 21** im `.msi`-Format.
+1. Laden Sie zuerst [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) herunter und installieren Sie **JDK 21** im `.msi`-Format.
 2. Führen Sie den heruntergeladenen Installationsassistenten aus und klicken Sie auf `Next`.
 3. Aktivieren Sie im mittleren linken Bereich des Fensters `Set JAVA_HOME variable` und klicken Sie dann auf `Next`.
 4. Klicken Sie auf `Install`, um die JRE-Installation abzuschließen.
@@ -79,7 +79,7 @@ In diesem Handbuch verwenden wir Azul Zulu als eine der [JRE-Varianten](#user-co
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) **JDK 21** als `.dmg` Installationsassistenten von Azul Zulu herunterladen und ausführen, um JRE zu installieren.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) **JDK 21** als `.dmg` Installationsassistenten von Azul Zulu herunterladen und ausführen, um JRE zu installieren.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ Danach, wenn Sie den Server neu starten, versucht Plazma automatisch Portweiterl
 
 Die folgende Meldung auf der Konsole zeigt den Erfolg oder Misserfolg von UPnP an, und in der Konsole wird `[UPnP] (Nachricht)` angezeigt.
 
-| Nachricht                                | Bedeutung                                      |
-| ---------------------------------------- | ---------------------------------------------- |
+| Nachricht                                | Bedeutung                                                      |
+| ---------------------------------------- | -------------------------------------------------------------- |
 | `Port (포트)` erfolgreich geöffnet         | Portweiterleitung erfolgreich.                 |
 | `Port (포트) ist bereits geöffnet`         | Ein anderer Dienst verwendet den Port bereits. |
 | `Port (포트) konnte nicht geöffnet werden` | Portweiterleitung fehlgeschlagen.              |
