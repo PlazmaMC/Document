@@ -52,7 +52,7 @@ description: .morfniatalf레브서무인플 란머피레브서 란머피레브�
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
    
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
+   <figcaption><p>Real-time Plazma User Trend</p></figcaption>
 </figure>
 
 ## ⬇️ Download
