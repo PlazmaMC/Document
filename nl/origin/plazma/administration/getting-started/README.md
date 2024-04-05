@@ -70,7 +70,7 @@ Na installatie, controleer opnieuw met [Stap 1.1](setup.md#id-1.1) om te zien of
 
 {% tab title="Windows" %}
 
-1. Download eerst **JDK 21** in `.msi` formaat van [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. Download eerst **JDK 21** in `.msi` formaat van [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Voer de gedownloade installatiewizard uit en klik op 'Volgende'.
 3. Activeer 'Set JAVA_HOME variable' in het menu links van het midden van het venster en klik op 'Volgende'.
 4. Voltooi de JRE-installatie door op 'Installeren' te klikken.
@@ -79,7 +79,7 @@ Na installatie, controleer opnieuw met [Stap 1.1](setup.md#id-1.1) om te zien of
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) installeert **JDK 21** door de `.dmg` installatiewizard te downloaden en uit te voeren om JRE te installeren.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) installeert **JDK 21** door de `.dmg` installatiewizard te downloaden en uit te voeren om JRE te installeren.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ Na het opnieuw starten van de server zal Plazma automatisch proberen port forwar
 
 Hieronder staat of UPnP succesvol was op basis van de berichten die op de console worden weergegeven, op de console wordt het als `[UPnP] (bericht)` weergegeven.
 
-| Bericht                           | Betekenis                                |
-| --------------------------------- | ---------------------------------------- |
+| Bericht                           | Betekenis                                                |
+| --------------------------------- | -------------------------------------------------------- |
 | `Poort succesvol geopend (poort)` | Port forwarding succesvol.               |
 | `Poort (poort) is al geopend`     | Een andere service gebruikt de poort al. |
 | `Kon poort niet openen (poort)`   | Port forwarding mislukt.                 |
