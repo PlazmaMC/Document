@@ -70,7 +70,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% tab title="Windows" %}
 
-1. Първоначално изтеглете **JDK 21** от [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) във формат `.msi`.
+1. Първоначално изтеглете **JDK 21** от [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) във формат `.msi`.
 2. Стартирайте изтегления инсталационен мастър и кликнете `Next`.
 3. **Активирайте `Set JAVA_HOME variable` от менюто в средата наляво на прозореца,** след което кликнете `Next`.
 4. Натиснете `Install`, за да завършите инсталацията на JRE.
@@ -79,7 +79,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) изтеглете **JDK 21** от `.dmg` формата и стартирайте инсталационния магьосник, за да инсталирате JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) изтеглете **JDK 21** от `.dmg` формата и стартирайте инсталационния магьосник, за да инсталирате JRE.
 
 {% крайнаКартка %}
 
@@ -246,8 +246,8 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 Успеха на UPnP се определя от съобщенията, изведени в конзолата, като се използва `[UPnP] (съобщение)`.
 
-| Съобщение                           | Значение                         |
-| ----------------------------------- | -------------------------------- |
+| Съобщение                           | Значение                                         |
+| ----------------------------------- | ------------------------------------------------ |
 | `Успешно отворен порт (порт)`       | Успешно пренасочване на порта.   |
 | `Порт (порт) вече е отворен`        | Друга услуга използва този порт. |
 | `Неуспешно отваряне на порт (порт)` | Неуспешно пренасочване на порта. |
