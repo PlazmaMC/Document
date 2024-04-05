@@ -70,7 +70,7 @@ OpenJDK 64-Bit שרת VM Zulu21.32+17-CA (בנייה 21.0.2+13-LTS, מצב מע�
 
 {% tab title="Windows" %}
 
-1. התחל על ידי הורדת **JDK 21** בפורמט `.msi` מ-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. התחל על ידי הורדת **JDK 21** בפורמט `.msi` מ-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. הרץ את אשף ההתקנה שהורדת ולחץ על 'הבא'.
 3. בתפריט המוצג במרכז השמאלי של החלון, הפעל את 'Set JAVA_HOME variable' ולאחר מכן לחץ על 'הבא'.
 4. לחץ על 'התקן' כדי להשלים את התהליך של התקנת JRE.
@@ -79,7 +79,7 @@ OpenJDK 64-Bit שרת VM Zulu21.32+17-CA (בנייה 21.0.2+13-LTS, מצב מע�
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) מורידים את **JDK 21** בפורמט `.dmg` מהקישור ומריצים את אשף ההתקנה כדי להתקין JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) מורידים את **JDK 21** בפורמט `.dmg` מהקישור ומריצים את אשף ההתקנה כדי להתקין JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 아래는 콘솔에 출력되는 메세지에 따른 UPnP 성공 여부이며, 콘솔에서는 `[UPnP] (메세지)` 와 같이 출력됩니다.
 
-| 메세지                             | 의미                   |
-| ------------------------------- | -------------------- |
+| 메세지                             | 의미                                   |
+| ------------------------------- | ------------------------------------ |
 | `Successfully opened port (포트)` | 포트포워딩 성공.            |
 | `Port (포트) is already open`     | 다른 서비스가 해당 포트를 사용중임. |
 | `Failed to open port (포트)`      | 포트포워딩 실패.            |
