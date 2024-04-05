@@ -70,7 +70,7 @@ openjdk 21.0.2 2024-01-16 LTS
 
 {% tab title="Windows" %}
 
-1. Κατεβάστε το **JDK 21** από το [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) σε μορφή `.msi`.
+1. Κατεβάστε το **JDK 21** από το [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) σε μορφή `.msi`.
 2. Εκτελέστε τον κατεβασμένο οδηγό εγκατάστασης και κάντε κλικ στο `Επόμενο`.
 3. Από το μενού που εμφανίζεται στο κέντρο-αριστερά της οθόνης, ενεργοποιήστε την επιλογή `Set JAVA_HOME variable` και κάντε κλικ στο `Επόμενο`.
 4. Κάντε κλικ στο `Εγκατάσταση` για να ολοκληρώσετε την εγκατάσταση του JRE.
@@ -79,7 +79,7 @@ openjdk 21.0.2 2024-01-16 LTS
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) όπου **JDK 21** σε μορφή `.dmg` μπορείτε να κατεβάσετε τον οδηγό εγκατάστασης και να εγκαταστήσετε το JRE.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) όπου **JDK 21** σε μορφή `.dmg` μπορείτε να κατεβάσετε τον οδηγό εγκατάστασης και να εγκαταστήσετε το JRE.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 
 아래는 콘솔에 출력되는 메세지에 따른 UPnP 성공 여부이며, 콘솔에서는 `[UPnP] (메세지)` 와 같이 출력됩니다.
 
-| 메세지                             | 의미                   |
-| ------------------------------- | -------------------- |
+| 메세지                             | 의미                                   |
+| ------------------------------- | ------------------------------------ |
 | `Successfully opened port (포트)` | 포트포워딩 성공.            |
 | `Port (포트) is already open`     | 다른 서비스가 해당 포트를 사용중임. |
 | `Failed to open port (포트)`      | 포트포워딩 실패.            |
