@@ -70,7 +70,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="Windows" %}
 
-1. Pirmiausia, iš [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu) parsisiųskite **JDK 21** kaip `.msi` failą.
+1. Pirmiausia, iš [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) parsisiųskite **JDK 21** kaip `.msi` failą.
 2. Paleiskite atsisiųstą diegimo vediklį ir spustelėkite `Next`.
 3. **Kairėje viduryje esančiame meniu pasirinkite `Set JAVA_HOME variable`,** tada spustelėkite `Next`.
 4. Paspauskite `Install`, kad baigtumėte JRE diegimą.
@@ -79,7 +79,7 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% tab title="macOS" %}
 
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) **JDK 21** įdiekite JRE, atsisiųsdami `.dmg` diegimo vedlį iš **Azul Zulu** svetainės ir vykdant jį.
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) **JDK 21** įdiekite JRE, atsisiųsdami `.dmg` diegimo vedlį iš **Azul Zulu** svetainės ir vykdant jį.
 
 {% endtab %}
 
@@ -246,8 +246,8 @@ Tada paleiskite serverį ir Plazma automatiškai bandys nustatyti portų peradre
 
 Sėkmės UPnP atveju bus matoma pagal išvestį konsolėje, kurioje bus rodomas `[UPnP] (pranešimas)`.
 
-| Pranešimas                                | Reikšmė                                  |
-| ----------------------------------------- | ---------------------------------------- |
+| Pranešimas                                | Reikšmė                                                  |
+| ----------------------------------------- | -------------------------------------------------------- |
 | `Sėkmingai atidarytas prievadas (portas)` | Portų peradresavimas sėkmingas.          |
 | `Prievadas (portas) jau yra atviras`      | Kitas paslaugas jau naudoja šį prievadą. |
 | `Nepavyko atidaryti prievado (portas)`    | Portų peradresavimas nepavyko.           |
