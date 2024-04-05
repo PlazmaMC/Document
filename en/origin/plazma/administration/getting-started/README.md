@@ -70,7 +70,7 @@ After installation, redo [Step 1.1](setup.md#id-1.1) to verify that the installa
 
 {% tab title="Windows" %}
 
-1. First, download **JDK 21** in `.msi` format from [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=windows\&architecture=x86-64-bit\&package=jdk#zulu).
+1. First, download **JDK 21** in `.msi` format from [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Run the downloaded installer and click `Next`.
 3. After activating `Set JAVA_HOME variable` from the menu displayed in the center left of the window, click `Next`.
 4. Click `Install` to complete the JRE installation.
@@ -79,7 +79,7 @@ After installation, redo [Step 1.1](setup.md#id-1.1) to verify that the installa
 
 {% tab title="macOS" %}
 
-Download the **JDK 21** in `.dmg` format from [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\&os=macos\&architecture=x86-64-bit\&package=jdk#zulu) and run the installation wizard to install JRE.
+Download the **JDK 21** in `.dmg` format from [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) and run the installation wizard to install JRE.
 
 {% endtab %}
 
@@ -245,8 +245,8 @@ Then, when you restart the server, Plazma will automatically attempt port forwar
 
 Below is the indication of UPnP success based on the message output to the console, which will be displayed as `[UPnP] (message)` in the console.
 
-| Message                           | Meaning                                       |
-| --------------------------------- | --------------------------------------------- |
+| Message                           | Meaning                                                       |
+| --------------------------------- | ------------------------------------------------------------- |
 | `Successfully opened port (port)` | Port forwarding successful.                   |
 | `Port (port) is already open`     | Another service is currently using that port. |
 | `Failed to open port (port)`      | Port forwarding failed.                       |
