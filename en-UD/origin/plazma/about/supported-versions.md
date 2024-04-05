@@ -17,6 +17,8 @@ description: 요세보 알수없는 :Java Edition 버전을 알아보세요.
 [vgd]: <ɯɯɐɯɯ ǝɯɯɹɯ>
 [100]: 001/ɯɯɹɯ
 
+![Waiting for release][wtr]![In development](https://badge.plazmamc.org/1/In%20development)![Supporting](https://badge.plazmamc.org/2/Supporting)![Function support discontinued](https://badge.plazmamc.org/6/Function%20support%20discontinued)![Support ended](https://badge.plazmamc.org/4/Support%20ended)
+
 |                                         버전                                        |       uɯɯɐɯs ɐɯɯ ɯɯǝɯɯɹ ǝuɯoɯ       |                                               빌드 상태                                               |
 | :-------------------------------------------------------------------------------: | :---------------------------------: | :-----------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |           ![릴리스 대기중][wtr]           |                                          ![릴리스 대기중][wtr]                                          |
