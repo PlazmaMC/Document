@@ -8,7 +8,7 @@ description: Se você tiver alguma dúvida, por favor, pergunte através do Disc
 
 **Os documentos do Plazma estão atualmente em estado de tradução automática.**
 
-[![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
+[![Status de Tradução](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
 
@@ -36,6 +36,6 @@ description: Se você tiver alguma dúvida, por favor, pergunte através do Disc
 
 #### `PATROCINADOR` Precisa de mais informações relacionadas ao Minecraft? <a href="#etc-1" id="etc-1"></a>
 
-{% embed url="https\://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
+{% embed url="https://discord.gg/AZwXTA9Pgx" fullWidth="false" %}
 
 ***
