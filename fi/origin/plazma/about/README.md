@@ -16,13 +16,15 @@ description: Tutustu siihen, mikä Plazma-palvelin alusta on.
 ## ⚙️ Tärkeimmät ominaisuudet <a href="#id-2" id="id-2"></a>
 
 1. **Vahva lisäosien ekosysteemi**\
-   Perustuu [Paperiin](https://github.com/PaperMC/Paper), joten suurin osa internetistä ladattavissa olevista [uusimmista lisäosista](#user-content-fn-1)[^1] toimii normaalisti.
-2. **Optimoitu ilman asetuksia**\
-   Sisältää kaikki [Pufferfishin](https://github.com/pufferfish-gg/Pufferfish) patchit ja tarjoaa parhaan suorituskyvyn sisäänrakennetuilla optimoinneilla ja modeilla.
-3. **Muokkaa peliä haluamallasi tavalla**\
-   Sisältää [Purpurin](https://github.com/PurpurMC/Purpur), joka mahdollistaa pelin yleisten ominaisuuksien muokkaamisen.
+   [Paper](https://github.com/PaperMC/Paper)-pohjainen, joten suurin osa internetistä ladattavissa olevista [uusimmista lisäosista](#user-content-fn-1)[^1] toimii moitteettomasti.
+2. **Ei tarvetta säädöille, optimoitu valmiiksi**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) sisältää kaikki patchit ja tarjoaa joitakin sisäisiä optimointeja ja tilat, jotka takaavat parhaan suorituskyvyn.
+3. **Pelaa haluamallasi tavalla**\
+   [Plazma](https://github.com/PurpurMC/Purpur) sisältää Purpurin, joka mahdollistaa pelin yleisten ominaisuuksien muokkaamisen haluamallasi tavalla.
 4. **Turvallinen pelipalvelin**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) sisältyy, joten voit poistaa käytöstä [Mojang](#user-content-fn-2)[^2] lisäämän [keskustelun raportointijärjestelmän](#user-content-fn-3)[^3] versiosta 1.19 alkaen ja pelata täysin jäljittämätöntä turvallista palvelinta.
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) on sisällytetty lisäyksenä 1.19 alkaen
+   [Mojang](#user-content-fn-2)[^2] [Chat-ilmoitusjärjestelmä](#user-content-fn-3)[^3] voidaan poistaa käytöstä,\
+   ja diagnostiikkatietojen kerääjä on täysin poistettu, jotta voit pelata turvallisesti jäljittämättömällä palvelimella.
 5. **Nopeimmat päivitykset**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) pitää Plazman mukana olevat patchit aina ajan tasalla, tarjoten nopeimmat päivitykset Paper-pohjaisista palvelin-alustoista.
 6. **Perusmääritystiedoston optimointi**\
@@ -40,16 +42,18 @@ description: Tutustu siihen, mikä Plazma-palvelin alusta on.
 
 ## ✨ Käyttötarkoitukset <a href="#id-3" id="id-3"></a>
 
-- **Käsittelee oikein monimutkaiset lisäosat**\
-  Kehittäjä [IPECTER](https://github.com/IPECTER) käyttää Plazmaa palvelimellaan. Itse kehitetyt lisäosat, jotka toimivat NMS:llä ja heijastuksella, sekä suuri ja monimutkainen datapaketti, joka on käytössä,
-  vastaanottaa yli 100 pelaajaa ilman suorituskyvyn laskua.
-- **Ylläpitää nopeaa suorituskykyä RPG-palvelimilla**\
-  Ylläpiti 100 pelaajan klusterissa TPS-laskua ilman vakautta ja mahdollisti yhteensä 250 pelaajan pelaamisen 4 klusterissa mukavasti.
-- **Näyttää valoa chunk/entityissä**\
-  Muutimme Purpurista Plazmaan selviytyäksemme selviytymispalvelimen viiveistä,
-  ja pystyimme vähentämään suurinta osaa viiveistä.
-- **Monet suoratoistajat valitsevat alustan**\
-  Monet suositut suoratoistajat käyttävät Plazmaa katsojiensa virranhallintaan.
+- **Monimutkainen lisäosa-alusta**\
+  Kehittäjä [IPECTER](https://github.com/IPECTER) käyttää Plazmaa palvelimellaan.\
+  Oma lisäosa, joka toimii NMS:llä ja heijastuksella, sekä laaja ja monimutkainen datapaketti on laajasti käytössä,\
+  ja se pystyy vastaanottamaan yli 100 pelaajaa ilman suorituskyvyn laskua.
+- **RPG-palvelimella ylläpidetty nopea suorituskykyalusta**\
+  Yksi klusteri pystyi pitämään 100 pelaajaa vakaina ilman TPS-laskua,\
+  ja neljässä klusterissa yhteensä 250 pelaajaa pystyi pelaamaan mukavasti.
+- **Valoa näyttävä alusta palasissa/olioissa**\
+  Purpurin sijaan Plazmaan vaihtamalla voitiin vähentää suurinta osaa viivästyksistä
+  joita aiheutui selviytymispalvelimen palasien ja olioiden käsittelystä.
+- **Monien striimaajien valitsema alusta**\
+  Monet striimaajat ovat valinneet tämän alustan katsojien osallistumiseen ja käyttöön.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
