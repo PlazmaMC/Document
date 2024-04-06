@@ -2,7 +2,7 @@
 description: Erfahren Sie, wie Sie den Server anpassen können.
 ---
 
-# 📶 Entwicklungsstufe
+# 📶 발전하기
 
 Der Grund, warum Plazma und nicht die offizielle Serverplattform von Mojang Studios verwendet wird, ist die Möglichkeit einer starken **Benutzeranpassung**.
 
