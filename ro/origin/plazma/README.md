@@ -12,7 +12,7 @@ Bine ați venit la ghidul de utilizare al Plazma!
 
 **Nu puteți rezolva problema prin intermediul manualului de instrucțiuni?**
 
-Întrebați comunitatea prin intermediul [serverului oficial de Discord](https://discord.gg/MmfC52K8A8) sau al [problemelor de pe GitHub](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ Bine ați venit la ghidul de utilizare al Plazma!
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
