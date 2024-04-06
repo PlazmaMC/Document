@@ -8,7 +8,7 @@ description: Sıkça Sorulan Soruları İnceleyin.
 
 **Aradığınız cevabı bulamadınız mı?**
 
-[Resmi Discord Sunucusu](https://discord.gg/MmfC52K8A8) veya [GitHub Sorunları](https://github.com/PlazmaMC/PlazmaBukkit/issues) üzerinden topluluktan yardım alın!
+Topluluğa sorular sormak için [Resmi Discord Sunucusu](https://discord.gg/MmfC52K8A8) veya [GitHub Tartışmaları](https://github.com/PlazmaMC/PlazmaBukkit/discussions) üzerinden iletişime geçin!
 
 {% endhint %}
 
