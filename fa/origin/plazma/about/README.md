@@ -58,11 +58,9 @@ description: با Plazma آشنا شوید که یک پلتفرم سرور چی�
 - **پلتفرمی که توسط بسیاری از استریمرها انتخاب شده است**\
   به عنوان یک بوکت محبوب برای بسیاری از تماشاگران استریمرها انتخاب شده است.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>پیشرفت کاربران Plazma در زمان واقعی</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="آمار استفاده کنندگان Plazma به صورت زنده">
+</a>
 
 ## ⬇️ دانلود
 
