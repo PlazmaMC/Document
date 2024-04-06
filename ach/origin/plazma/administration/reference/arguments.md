@@ -4,8 +4,7 @@ description: 시작 인수와 시스템 속성에 대해 알아보세요.
 
 # 🎛️ 인수와 속성
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
 
 [명령어에 덧붙이는 위치](#user-content-fn-2)[^2]에 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
 
@@ -27,8 +26,8 @@ Ocako ki okiketo ki Plazma ma obedo ni ma yee, **kare dok itye!**
 
 시스템 속성은 `java` 와 `-jar` 사이에 Java 명령 인수로써 입력됩니다.
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+Meno, `Plazma.dummyProperty` ki kicel ki system me atir ki gin ma en aye i,
+ki iye ki bikwany ki `37` ma kicel ki Plazma ki gin ma ki yubu.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -188,7 +187,7 @@ Java 버전 확인을 비활성화 합니다.
 - **Cik mat**: `Integer`
 - **기본값**: `64`
 
-플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
+Dokomen ki [cakke](#user-content-fn-6)[^6] ki nying omeno ki gin ma en aye i.
 
 #### `Paper.maxSignLength`
 
