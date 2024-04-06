@@ -1,5 +1,5 @@
 ---
-description: If ye have any questions, ask 'em through Discord or GitHub Issues, savvy.
+description: If ye have any questions, please ask on Discord or GitHub Discussions.
 ---
 
 # 🏠 Welcome to Docs Portal
