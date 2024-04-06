@@ -55,7 +55,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 <details>
 
-<special>현재 사용 가능한 특수 기술 보기</special>
+<summary>현재 사용 가능한 특수 기술 보기</summary>
 
 {% hint style="info" %}
 
