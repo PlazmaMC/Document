@@ -2,7 +2,7 @@
 description: Mësoni se si të personalizoni serverin.
 ---
 
-# 📶 Faza e zhvillimit
+# 📶 발전하기
 
 Përdorimi i një platforme zyrtare serveri të ofruar nga Mojang Studios dhe jo përdorimi i një platforme serveri të modifikuar si Plazma është për shkak të mundësisë së **personalizimit** të fuqishëm që është më i rëndësishmi.
 
