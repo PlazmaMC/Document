@@ -26,3 +26,5 @@ description: "نسخه Minecraft: Java Edition که توسط Plazma پشتیبا
 | [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) |    ![خیلی خوب][vgd]![100%][100]    | [![وضعیت ساخت](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
 | [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |    ![خیلی خوب][vgd]![100%][100]    |                                        ![اطلاعات ندارد][ukn]                                        |
 | [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |    ![خیلی خوب][vgd]![100%][100]    |                                        ![اطلاعات ندارد][ukn]                                        |
+
+***
