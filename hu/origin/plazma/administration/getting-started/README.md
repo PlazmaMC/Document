@@ -27,7 +27,7 @@ Mivel a Plazma a Mojang Studios hivatalos szerverplatformján [alapul](#user-con
 
 Ha meg szeretnéd győződni arról, hogy a rendszeren telepítve van-e a JRE, írd be a Futtatás mezőbe a [`cmd /k java --version`](#user-content-fn-4)[^4] parancsot, majd nyomd meg az Enter billentyűt.
 
-다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+Amikor a következő módon jelenik meg, ugorjon a [2. lépésre](#id-2).
 
 {% code title="Helyes kimenet" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-bites Szerver VM Zulu21.32+17-CA (verzió: 21.0.2+13-LTS, vegyes mód
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+Ha nem jelenik meg a fent említett módon, vagy az alábbi módon jelenik meg, akkor nincs telepítve a JRE, vagy túl régi, ezért el kell végeznie az [1.2. lépést](#id-1.2).
 
 {% code title="JRE nincs telepítve" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Hiba: Végzetes kivétel történt. A program leáll.
 
 ### 1.2 JRE telepítése
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+Ebben az útmutatóban az Azul Zulu-t használjuk az JRE [egyik típusaként](#user-content-fn-5)[^5].
 
-설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+A telepítés befejezése után ellenőrizze a helyes telepítéshez a [1.1. lépést](#id-1.1) ismételten el kell végeznie.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ A Plazma többféle futtatható fájlt kínál.
 
 **Általában a `Reobf Paperclip`-et használják.**
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+Az alábbiak a fejlesztőknek vagy az egyes jellegű érdeklődőknek szólnak.\
+Ha átlagos felhasználó, akkor nyugodtan ugorhat a [3. lépésre](#id-3) anélkül, hogy problémák merülnének fel.
 
 {% endhint %}
 
@@ -203,11 +203,11 @@ Az EULA elfogadásához módosítsd az `eula.txt` fájlban az `eula=false`-t `eu
 
 A modern operációs rendszerek alapértelmezetten blokkolják a külső hozzáférést a tűzfal és a router által, hogy megvédjenek a veszélyes hozzáférésektől.
 
-Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+Windows esetén a tűzfalat a [3. lépésben](#id-3) engedélyezte, így csak port átirányításra van szükség.
 
 {% hint style="info" %}
 
-**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Ez az útmutató a Windows operációs rendszerre és az UPnP-t használó routerekre vonatkozik.**
 
 Ha a router nem támogatja az UPnP-t, vagy a router típusától függően eltérő lehet a panel, akkor magadnak kell keresned információkat.
 
@@ -304,7 +304,7 @@ Ha a szerver és a játék ugyanazon a PC-n fut, akkor a `localhost`-on kereszt�
 
 Ha sikeresen elindította a szervert, és a szerver megfelelően működik, most a szerver testreszabásának ideje van.
 
-아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+Ismerje meg, hogyan személyre szabhatja a szerver használatát az alábbi útmutató segítségével.
 
 {% content-ref url="kovetkezo-lepes.md" %}
 [kovetkezo-lepes.md](kovetkezo-lepes.md)
