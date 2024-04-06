@@ -27,7 +27,7 @@ Plazma je oficiální serverová platforma od Mojang Studios [založená na tomt
 
 Pro ověření instalace JRE na systému zadejte do [spustitelného okna](#user-content-fn-3)[^3] příkaz [`cmd /k java --version`](#user-content-fn-4)[^4] a spusťte ho.
 
-다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+Pokud se zobrazí následující, přeskočte na [Krok 2](#id-2).
 
 {% code title="Správný výstup" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (sestavení 21.0.2+13-LTS, smíšený r
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+Pokud se nezobrazí jako výše, nebo pokud se zobrazí níže, chybí JRE nebo je příliš zastaralý, proveďte [Krok 1.2](#id-1.2).
 
 {% code title="JRE není nainstalováno" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Chyba: Došlo k fatální výjimce. Program se ukončí.
 
 ### 1.2 Instalace JRE
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+V této příručce používáme Azul Zulu jako jeden z [typů JRE](#user-content-fn-5)[^5].
 
-설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+Po dokončení instalace proveďte znovu [Krok 1.1](#id-1.1) k ověření, zda byla instalace úspěšně dokončena.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma nabízí různé verze spustitelných souborů.
 
 **Většinou se používá `Reobf Paperclip`.**
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+Následující informace jsou určeny pro vývojáře nebo ty, kteří se zajímají o různé funkce.\
+Pokud jste běžný uživatel, můžete přeskočit na [Krok 3](#id-3) bez problémů.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ Pro souhlas s EULOU upravte a uložte soubor `eula.txt` z `eula=false` na `eula=
 
 Moderní operační systémy blokují externí přístup pomocí základních funkcí jako jsou **firewall** a **router**.
 
-Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+V případě Windows je firewall povolen v [Kroku 3](#id-3), stačí provést pouze přesměrování portů.
 
 {% hint style="info" %}
 
-**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Tato příručka je psána za předpokladu, že používáte operační systém Windows a router, který podporuje [UPnP](#user-content-fn-12)[^12].**
 
 Pokud váš router nepodporuje UPnP, každý router má jiné rozhraní, takže je třeba provést vlastní vyhledávání informací.
 
@@ -303,7 +303,7 @@ Pokud server a hra běží na stejném počítači, můžete se připojit pomoc�
 
 Pokud se server úspěšně spustil a správně funguje, je čas na jeho přizpůsobení.
 
-아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+Pro zpřiznění serveru se podívejte na následující příručku.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
