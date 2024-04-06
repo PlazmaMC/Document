@@ -7,7 +7,7 @@ description: Sturtz lurnin' abowt startin' args n' system properteez.
 Startin' vars n' system properteez be Plazma runnin' [commands used](#user-content-fn-1)[^1] t' append values t',
 let Plazma change unchangeable values afta it be run.
 
-Dependin' on where t' append t' commands, they be split int' **startin' args** n' **system properteez**.
+[명령어에 덧붙이는 위치](#user-content-fn-2)[^2]에 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` indicates the arg be fer Plazma n' not built int' JVM,
 
-If no value be inputted, value be fixed [`true`.](#user-content-fn-3)[^3]
+속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정](#user-content-fn-3)[^3]됩니다.
 
 {% hint style="info" %}
 
 **Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야](#user-content-fn-4)[^4] 합니다.
 
 {% endhint %}
 
@@ -133,7 +133,7 @@ This logs all invalid head blocks in world with their locations.
 - **Type**: `Boolean`
 - **Default**: `False`
 
-Disablez limit o' 128 plugin channels per player.[^5]
+플레이어당 적용되는 128개의 플러그인 [채널](#user-content-fn-5)[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -187,7 +187,7 @@ Any issues caused by this be yer responsibility, n' Plamza don't provide any sup
 - **Type**: `Integer`
 - **Default**: `64`
 
-Sets limit on plugin channel[^6] names.
+플러그인 [채널](#user-content-fn-5)[^5] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
@@ -219,7 +219,7 @@ Enables processin' o' comments in YAML files.
 
 If player doesn't receive any data fer inputted time (seconds), they be kicked.
 
-Normally, game[^7] keeps sendin' [heartbeat signal](#user-content-fn-8)[^8] t' server, so they don't get kicked, but if game stops respondin', server assumes crash n' kicks player without further processin'.
+일반적인 경우, [게임](#user-content-fn-7)[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -292,7 +292,7 @@ HAI WEN ACTIVAYT, SERVER GETS FASTER AN SAFER, BUT MAY BLOCK SUM MECHANICS OR HA
 - **Type**: `Boolean`
 - **Default**: `false`
 
-PLAZMA WEN INITIALIZES, HALTS WARNING MESSAGE[^11].
+Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을 억제합니다.
 
 ### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
 
