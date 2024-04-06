@@ -4,7 +4,7 @@ description: Uurige algust ja süsteemi atribuute.
 
 # 🎛️ Algused ja atribuudid
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Algusparameetrid ja süsteemi omadused on väärtused, mis lisatakse Plazma käivitamisel kasutatavatele käskudele, mis mõjutavad Plazma üldist toimimist.
 
 [Käivitusparameetrite lisamine](#user-content-fn-2)[^2] jaguneb **algparameetriteks** ja **süsteemi atribuutideks** vastavalt nende lisamise kohale käskudele.
 
