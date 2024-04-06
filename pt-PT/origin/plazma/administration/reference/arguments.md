@@ -6,7 +6,7 @@ description: Descubra sobre os argumentos de inicialização e as propriedades d
 
 Os argumentos de inicialização e as propriedades do sistema são valores adicionados aos comandos [usados ​​na execução do Plazma](#user-content-fn-1)[^1], que permitem alterar valores que não podem ser alterados após a execução do Plazma.
 
-Dependendo da [posição em que são adicionados ao comando](#user-content-fn-2)[^2], eles são divididos em **Argumentos de Inicialização** e **Propriedades do Sistema**.
+[명령어에 덧붙이는 위치](#user-content-fn-2)[^2]에 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
 
 ***
 
@@ -34,13 +34,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` indica que o argumento não está embutido no JVM, mas é um argumento exclusivo adicionado ao Plazma,
 
-Se nenhum valor for inserido na propriedade, o valor será fixado como [`true`.](#user-content-fn-3)[^3]
+속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정](#user-content-fn-3)[^3]됩니다.
 
 {% dica estilo="info" %}
 
 **A plataforma de servidores da série Paperweight diferencia as propriedades do sistema em cada plataforma incluindo um `.` no nome da propriedade.**
 
-Em alguns terminais como o Windows Powershell, pode não ser permitido usar esses argumentos, portanto, você deve adicionar `"` nas extremidades dos argumentos. [^4]
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야](#user-content-fn-4)[^4] 합니다.
 
 {% endhint %}
 
@@ -131,7 +131,7 @@ Isso registra todos os blocos de cabeça inválidos no mundo, juntamente com sua
 - **Tipo**: `Boolean`
 - **Valor Padrão**: `Falso`
 
-Desativa o limite de 128 canais de plugin por jogador.
+플레이어당 적용되는 128개의 플러그인 [채널](#user-content-fn-5)[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -185,7 +185,7 @@ Qualquer problema causado pelo uso disso é de responsabilidade do usuário e o 
 - **Tipo**: `Integer`
 - **Valor Padrão**: `64`
 
-Define o limite de caracteres no nome do canal do plugin.
+플러그인 [채널](#user-content-fn-5)[^5] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
@@ -217,7 +217,7 @@ Ativa o processamento de comentários em arquivos YAML.
 
 Expulsa o jogador se não receber dados por um determinado período de tempo (em segundos).
 
-Normalmente, o jogo[^7] envia continuamente um [sinal de pulsação](#user-content-fn-8)[^8] para o servidor, evitando a expulsão, mas se o jogo não responder, o servidor considera que houve uma falha e expulsa o jogador.
+일반적인 경우, [게임](#user-content-fn-7)[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -290,7 +290,7 @@ Ao ativar, o servidor ficará mais rápido e seguro, mas pode bloquear algumas m
 - **Tipo**: `Boolean`
 - **Valor Padrão**: `falso`
 
-Suprime o aviso[^11] exibido quando o Plazma é inicializado.
+Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을 억제합니다.
 
 ### Atributo <a href="#id-1.3" id="id-1.3"></a> obsoleto
 
