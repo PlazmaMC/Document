@@ -7,11 +7,11 @@ description: Zjistěte, jak vytvořit server pomocí Plazma.
 Pro stabilní používání Plazmy musí systém splňovat následující požadavky.
 
 |                | Minimální | Doporučené |
-| :------------: | --------: | ---------: |
-|  Architektura  |       x64 |          - |
-|       RAM      |       8GB |       16GB |
-| Úložný prostor |       1GB |        8GB |
-|       JRE      |        17 |         21 |
+| :------------: | :-------- | :--------- |
+|  Architektura  | x64       | -          |
+|       RAM      | 8GB       | 16GB       |
+| Úložný prostor | 1GB       | 8GB        |
+|       JRE      | 17        | 21         |
 
 Pro pohodlnou úpravu konfiguračních souborů je dobré nainstalovat editor jako [Visual Studio Code](https://code.visualstudio.com/download).
 
