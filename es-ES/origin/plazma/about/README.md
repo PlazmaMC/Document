@@ -22,7 +22,7 @@ description: Descubre qué es Plazma como plataforma de servidor.
 3. **Juego personalizable a tu gusto**\
    [Purpur](https://github.com/PurpurMC/Purpur) incluido en Plazma te permite modificar las propiedades generales del juego.
 4. **Servidor seguro para jugar**\
-   Incluye [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) que te permite desactivar el sistema de [reporte de chat](#user-content-fn-3)[^3] de Mojang añadido desde la versión 1.19, eliminando por completo el recolector de información de diagnóstico para jugar en un servidor seguro sin rastreo.
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) está incluido, lo que permite desactivar el [sistema de reporte de chat](#user-content-fn-3)[^3] de [Mojang](#user-content-fn-2)[^2] añadido desde la versión 1.19, eliminando por completo el recolector de información de diagnóstico para poder jugar en un servidor seguro sin rastreo.
 5. **Actualizaciones más rápidas**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) mantiene los parches incluidos en Plazma siempre actualizados, ofreciendo las actualizaciones más rápidas entre las plataformas de servidor basadas en Paper.
 6. **Optimización de archivos de configuración predeterminados**\
