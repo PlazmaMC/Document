@@ -1,5 +1,5 @@
 ---
-description: Se tiver alguma dúvida, por favor pergunte no Discord ou no GitHub Issues.
+description: Se tiver alguma pergunta, por favor faça no Discord ou nas Discussões do GitHub.
 ---
 
 # 🏠 Bem-vindo ao Portal de Documentos
