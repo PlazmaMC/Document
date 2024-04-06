@@ -12,7 +12,7 @@ Selamat datang di Dokumentasi Penggunaan Plazma!
 
 **Apakah Anda tidak bisa menyelesaikan masalah melalui manual?**
 
-[Server Discord resmi](https://discord.gg/MmfC52K8A8) atau [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) untuk bertanya kepada komunitas!
+[Server Discord resmi](https://discord.gg/MmfC52K8A8) atau bertanya kepada komunitas melalui [Diskusi GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ Selamat datang di Dokumentasi Penggunaan Plazma!
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
