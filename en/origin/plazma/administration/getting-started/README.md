@@ -27,7 +27,7 @@ Since Plazma is based on Mojang Studios' official server platform[^2], JRE must 
 
 To check if JRE is installed on the system, type [`cmd /k java --version`](#user-content-fn-4)[^4] in the Run window and run it.
 
-다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+If the output is as shown below, skip to [Step 2](#id-2).
 
 {% code title="Correct Output" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+If the output is not as shown above, or if it is as shown below, it means that JRE is missing or too old, so you need to perform [Step 1.2](#id-1.2).
 
 {% code title="JRE Not Installed" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 JRE Installation
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+In this guide, Azul Zulu is used as one of the types of JRE. Refer to [^5] for more information.
 
-설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+After completing the installation, redo [Step 1.1](#id-1.1) to ensure that the installation is correctly completed.
 
 {% tabs %}
 
@@ -126,8 +126,7 @@ Plazma offers various forms of executable files.
 
 **In most cases, use `Reobf Paperclip`.**
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+The following content is for developers or those curious about various features. If you are a regular user, you can skip to [Step 3](#id-3) without any issues.
 
 {% endhint %}
 
@@ -202,11 +201,11 @@ To agree to the EULA, change `eula=false` to `eula=true` in the `eula.txt` file 
 
 Modern operating systems block external access by default to prevent unauthorized access from outside using **firewalls** and **routers**.
 
-Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+For Windows, since the firewall was allowed in [Step 3](#id-3), you just need to do port forwarding.
 
 {% hint style="info" %}
 
-**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**This guide assumes that it is written for Windows operating system and a router that can use [UPnP](#user-content-fn-12)[^12].**
 
 If your router does not support UPnP, you will need to search for information as panel layouts vary by router.
 
@@ -303,7 +302,7 @@ If the server and the game are running on the same PC, you can connect using `lo
 
 If the server starts successfully and is operating correctly, it is time to customize the server.
 
-아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+Explore how to customize the server through the following guide.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
