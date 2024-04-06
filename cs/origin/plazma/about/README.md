@@ -15,14 +15,18 @@ description: Zjistěte, o jakou serverovou platformu se jedná.
 
 ## ⚙️ Hlavní rysy <a href="#id-2" id="id-2"></a>
 
-1. **Silný ekosystém pluginů**\
-   Díky základu [Paper](https://github.com/PaperMC/Paper) je schopna správně fungovat většina [nejnovějších pluginů](#user-content-fn-1)[^1] dostupných na internetu.
-2. **Optimalizace bez potřeby nastavení**\
-   Všechny opravy od [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) jsou zahrnuty, a díky vlastní optimalizaci a vestavěným módu poskytuje nejlepší výkon.
-3. **Hra podle vašich představ**\
-   [Purpur](https://github.com/PurpurMC/Purpur) obsažený v Plazmě vám umožňuje upravit vlastnosti hry.
+1. **Silný ekosystém doplňků**\
+   [Paper](https://github.com/PaperMC/Paper) je založen na,
+   což umožňuje většině [nejnovějších doplňků](#user-content-fn-1)[^1] stažených z internetu správně fungovat.
+2. **Optimalizace bez nutnosti nastavení**\
+   Všechny záplaty od [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) jsou zahrnuty a
+   obsahuje některé vlastní optimalizace a módy, které poskytují nejlepší výkon.
+3. **Hra přizpůsobená vašim představám**\
+   [Purpur](https://github.com/PurpurMC/Purpur) zahrnutý v Plazma umožňuje upravit
+   celkové vlastnosti hry podle vašich představ.
 4. **Bezpečný herní server**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) obsahuje možnost deaktivace [systému nahlášení chatu](#user-content-fn-3)[^3] od [Mojang](#user-content-fn-2)[^2], který byl přidán od verze 1.19, a kompletní odstranění sběrače diagnostických informací, což umožňuje hrát na serveru bez sledování.
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) obsahuje možnost deaktivace [systému nahlášení chatu](#user-content-fn-3)[^3] od [Mojangu](#user-content-fn-2)[^2], který byl přidán od verze 1.19,\
+   což umožňuje hrát na serveru bez sledování a bez úplného odstranění sběrače diagnostických informací.
 5. **Nejrychlejší aktualizace**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) udržuje zahrnuté opravy Plazmy vždy aktuální, což zajišťuje nejrychlejší aktualizace mezi serverovými platformami založenými na Paper.
 6. **Optimalizace základních konfiguračních souborů**\
@@ -40,14 +44,16 @@ description: Zjistěte, o jakou serverovou platformu se jedná.
 
 ## ✨ Příklady využití <a href="#id-3" id="id-3"></a>
 
-- **Platforma, která správně zpracovává i složité pluginy**\
-  Plazma je používána na serveru vývojáře [IPECTER](https://github.com/IPECTER). I přes vlastní pluginy fungující pomocí NMS a reflexí, a velké množství datových balíčků, dokáže bez výpadků zvládnout více než 100 hráčů.
+- **Platforma, která správně zpracovává složité pluginy**\
+  Na serveru vývojáře [IPECTER](https://github.com/IPECTER) je používán Plazma.\
+  I přes komplexní vlastní pluginy fungující pomocí NMS a reflexe, a velké množství datových balíčků,\
+  je schopna obsluhovat více než 100 hráčů bez výrazného poklesu výkonu.
 - **Platforma udržující rychlý výkon i na RPG serverech**\
-  Na jednom clusteru bylo úspěšně udržováno 100 hráčů bez poklesu TPS a na 4 clusterech mohlo hrát celkem 250 hráčů pohodlně.
-- **Platforma, která ukazuje světlo v oblasti chunků/entit**\
-  Změnou z Purpur na Plazmu bylo možné snížit většinu prodlev při zpracování chunků a entit na serveru survivalu.
-- **Platforma, kterou volí mnoho streamerů**\
-  Je používána jako náhrada za Bucket pro mnoho populárních streamerů.
+  Na jednom clusteru bylo udržováno stabilní prostředí pro 100 hráčů bez poklesu TPS a na 4 clusterech bylo možné pohodlně hrát až 250 hráčů.
+- **Platforma, která zlepšuje výkon v oblasti chunků a entit**\
+  Přechodem ze serverové platformy Purpur na Plazma došlo k výraznému snížení zpoždění při zpracování chunků a entit na serveru survival.
+- **Platforma vybraná mnoha streamery**\
+  Je používána jako hlavní nástroj pro streamování mnoha streamery a jejich diváky.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
