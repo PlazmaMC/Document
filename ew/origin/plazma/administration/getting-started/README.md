@@ -27,7 +27,7 @@ Since Plazma is based on Mojang Studios' official server platform,[^2] you also 
 
 To check if JRE is installed on your system, type [`cmd /k java --version`](#user-content-fn-4)[^4] in the Run dialog and execute it.
 
-If the output is as follows, proceed to [Step 2](setup.md#id-2).
+If the output is as shown below, skip to [Step 2](#id-2).
 
 {% code title="Correct output" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-If the output is not like the above, or if it is as follows, then JRE is either not installed or too outdated, so you need to perform [Step 1.2](setup.md#id-1.2).
+If the output is not as shown above or if it is as shown below, it means that JRE is either missing or too outdated, so you need to perform [Step 1.2](#id-1.2).
 
 {% code title="JRE not installed" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 JRE Installation
 
-In this guide, we will use Azul Zulu as one of the types of JREs.
+In this guide, Azul Zulu is used as one of the types of JREs.
 
-After installation, please redo [step 1.1](setup.md#id-1.1) to ensure that the installation is completed correctly.
+After completing the installation, redo [Step 1.1](#id-1.1) to verify that the installation has been completed correctly.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma provides various types of executable files.
 
 **In most cases, use `Reobf Paperclip`.**
 
-The following information is for developers or those curious about the characteristics of each type.\
-If you are a regular user, you can skip to [step 3](setup.md#id-3) without any issues.
+The following content is for developers or those curious about the characteristics of each form.\
+If you are a general user, you can skip to [Step 3](#id-3) without any issues.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ To agree to the EULA, change `eula=false` to `eula=true` in the `eula.txt` file 
 
 Modern operating systems block external access by default using **Firewalls** and **Routers** to prevent dangerous access from outside.
 
-For Windows, since you allowed it in [step 3](setup.md#id-3), you just need to do port forwarding.
+For Windows, since the firewall was allowed in [Step 3](#id-3), you just need to do port forwarding.
 
 {% hint style="info" %}
 
-**This guide assumes the use of Windows operating system and [UPnP](#user-content-fn-12)[^12]-capable router.**
+**This guide assumes that it is written for Windows operating systems and routers that can use [UPnP](#user-content-fn-12).**
 
 If the router does not support UPnP, you need to search for information yourself as different routers have different panels.
 
@@ -303,7 +303,7 @@ If the server and the game are running on the same PC, you can connect using `lo
 
 If you have successfully started the server and it is running correctly, it is now time to customize the server.
 
-Learn how to customize the server through the guide below.
+Learn how to customize the server through the following guide.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
