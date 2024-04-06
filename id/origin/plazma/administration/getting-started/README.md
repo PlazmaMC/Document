@@ -7,11 +7,11 @@ description: Pelajari cara membuat server dengan Plazma.
 Untuk menggunakan Plazma secara stabil, sistem harus memenuhi persyaratan berikut:
 
 |                   | Minimum | Disarankan |
-| :---------------: | ------: | ---------: |
-|     Arsitektur    |     x64 |          - |
-|        RAM        |     8GB |       16GB |
-| Ruang Penyimpanan |     1GB |        8GB |
-|        JRE        |      17 |         21 |
+| :---------------: | :------ | :--------- |
+|     Arsitektur    | x64     | -          |
+|        RAM        | 8GB     | 16GB       |
+| Ruang Penyimpanan | 1GB     | 8GB        |
+|        JRE        | 17      | 21         |
 
 Untuk pengeditan file konfigurasi yang lancar, disarankan untuk menginstal editor seperti [Visual Studio Code](https://code.visualstudio.com/download).
 
