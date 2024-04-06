@@ -12,7 +12,7 @@ Welkom by die Plazma-gebruiksgids!
 
 **Kan jy nie die probleem oplos deur die handleiding te raadpleeg nie?**
 
-Raadpleeg die [amptelike Discord-bedienaar](https://discord.gg/MmfC52K8A8) of [GitHub-kwessies](https://github.com/PlazmaMC/PlazmaBukkit/issues) om vrae aan die gemeenskap te vra!
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ Raadpleeg die [amptelike Discord-bedienaar](https://discord.gg/MmfC52K8A8) of [G
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
