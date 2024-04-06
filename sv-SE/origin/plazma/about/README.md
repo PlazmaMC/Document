@@ -54,7 +54,7 @@ description: Lär dig mer om vad Plazma är för serverplattform.
   Används av många streamers och deras tittare som en vald Bukkit-plattform.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma användartrender">
 </a>
 
 ## ⬇️ Ladda ner
