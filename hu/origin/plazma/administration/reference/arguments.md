@@ -4,7 +4,7 @@ description: Ismerje meg a kezdő paramétereket és rendszer tulajdonságait.
 
 # 🎛️ Paraméterek és tulajdonságok
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+A kezdő argumentumok és rendszer tulajdonságok azok az értékek, amelyeket hozzá kell adni a Plazma futtatásához használt parancshoz [fn-1](#user-content-fn-1)[^1], és általánosságban befolyásolják a Plazma működését.
 
 [A **kezdeti argumentumokra** és a **rendszer tulajdonságokra** oszlik az **utasításokhoz hozzáadott helyzet** alapján](#user-content-fn-2)[^2].
 
