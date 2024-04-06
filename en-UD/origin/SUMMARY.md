@@ -14,7 +14,7 @@
   - [📑 ɹǝʇɐɯnɹɐɔ ǝɹɐʇɥıd](plazma/about/patches-list.md)
 - (⚒️.ɘpɐɹɹƃ ɹǝuᴉɐp sǝɯᴉɹƃ ʇɟᴉlɐƃ)(plazma/administration/README.md)
   - (👟.ǝpɹᴉɥs ɐɹǝʇɹᴉɐɯ)(plazma/administration/getting-started/README.md)
-    - [🎨 ɐılɹǝʇsɹǝƃ](plazma/administration/getting-started/next-step.md)
+    - [📶 발전하기](plazma/administration/getting-started/next-step.md)
   - [📜 ǝɹnsɹǝuɹ]
     - [🎛️ ɹǝuɟǝs ɐuɯ sᴉɥʇuɐɯ]
     - [🖥️ ɯouɹǝɯǝ]
@@ -25,17 +25,17 @@
       - [🚰 ʇɯᴉƃ]
       - [🛩️ ɹɐǝɹ]
         - [🌏 ǝɹɐʇ ɟnɹouᴉɟ]
-        - [🏳️ ʍouɹpǝ ɟnɹouᴉɟ]
+        - [🏳️ 세계별 구성](plazma/administration/reference/configurations/paper/world.md)
       - [🐡 ɟnɹouᴉɟ]
       - [🦑 ɹɯɯd]
         - [🌏 ǝɹɐʇ ɟnɹouᴉɟ]
-        - [🏳️ ʍouɹpǝ ɟnɹouᴉɟ]
+        - [🏳️ 세계별 구성](plazma/administration/reference/configurations/purpur/world.md)
       - [✨ ɐɯouɹɐ]
         - [🌏 ǝɹɐʇ ɟnɹouᴉɟ]
-        - [🏳️ ʍouɹpǝ ɟnɹouᴉɟ]
+        - [🏳️ 세계별 구성](plazma/administration/reference/configurations/plazma/world.md)
   - [🎓 sᴉɯɥɐ]
-    - [🔀 ɹoʞsᴉ](plazma/administration/expert/proxy.md)
     - [🧹 ǝɯouuᴉɐɯ]
+    - [🔀 ɹoʞsᴉ](plazma/administration/expert/proxy.md)
     - [↩️ uoᴉɐuouɥɐ]
     - [🩻 X-Ray ɹǝɯɐu](plazma/administration/expert/xray.md)
     - [⚠️ sᴉɯɯɐɯouɥɐ ɘuɯɐᴉlɐɯ]
