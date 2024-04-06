@@ -26,3 +26,5 @@ Nëse kërkoni platforma më të ulëta se 1.19.4, ju lutemi përdorni [Fusion (
 | [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) |         ![Çudit mirë][vgd]![100%][100]         | [![Gjendja e ndërtimit](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
 | [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |         ![Çudit mirë][vgd]![100%][100]         |                                                ![No info][ukn]                                               |
 | [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |         ![Çudit mirë][vgd]![100%][100]         |                                                ![No info][ukn]                                               |
+
+***
