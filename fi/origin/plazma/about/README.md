@@ -56,7 +56,7 @@ description: Tutustu siihen, mikä Plazma-palvelin alusta on.
   Monet striimaajat ovat valinneet tämän alustan katsojien osallistumiseen ja käyttöön.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Tilastotietoja Plazma-käyttäjistä reaaliajassa">
 </a>
 
 ## ⬇️ Lataa
