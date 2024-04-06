@@ -4,7 +4,8 @@ description: Aprengui sobre els arguments d'inici i les propietats del sistema.
 
 # 🎛️ Arguments d'inici i propietats
 
-Els arguments d'inici i les propietats del sistema són valors afegits als [comandaments utilitzats](#user-content-fn-1)[^1] en l'execució de Plazma, permetent canviar valors que no es poden modificar després de l'execució de Plazma.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [Posició afegida a la comanda](#user-content-fn-2)[^2] que es divideix en **paràmetres d'inici** i **proprietats del sistema**.
 
@@ -26,7 +27,8 @@ Si no esteu segurs del paper de cada propietat del sistema, **mai l'utilitzeu!**
 
 Les propietats del sistema s'introdueixen com a arguments de comandament de Java entre `java` i `-jar`.
 
-Per exemple, si vol aplicar la propietat del sistema `Plazma.dummyProperty`, introduint `37` com a valor, es inicialitzarà Plazma de la següent manera.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -185,7 +187,7 @@ L'usuari assumeix tota la responsabilitat dels problemes que puguin sorgir i Pla
 - **Tipus**: `Enter`
 - **Valor per defecte**: `64`
 
-Estableix la restricció del nom dels [canals](#user-content-fn-5)[^5] de plugins.
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
