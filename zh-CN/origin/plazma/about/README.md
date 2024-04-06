@@ -55,7 +55,7 @@ description: 了解 Plazma 是什么样的服务器平台。
   被许多流媒体观众所选择，用作观看的桶。
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="实时 Plazma 用户趋势">
 </a>
 
 ## ⬇️ 下载
