@@ -21,8 +21,8 @@ description: Tìm hiểu về Plazma là gì.
    Bao gồm tất cả các bản vá từ [Pufferfish](https://github.com/pufferfish-gg/Pufferfish), một số tối ưu hóa tự do và mod tích hợp để cung cấp hiệu suất tốt nhất.
 3. **Tự do tùy chỉnh trò chơi theo ý muốn**\
    [Purpur](https://github.com/PurpurMC/Purpur) đi kèm với Plazma cho phép sửa đổi các thuộc tính tổng thể của trò chơi.
-4. **Máy chủ chơi an toàn**\
-   Bao gồm [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) cho phép vô hiệu hóa hệ thống [báo cáo trò chuyện](#user-content-fn-3)[^3] mới được thêm vào từ 1.19 của Mojang[^2], và loại bỏ hoàn toàn trình thu thập thông tin để chơi trên máy chủ an toàn không bị theo dõi.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 [Mojang](#user-content-fn-2)[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며, 진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **Cập nhật nhanh nhất**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) giữ cho các bản vá trong Plazma luôn cập nhật, cung cấp cập nhật nhanh nhất trong các nền tảng máy chủ dựa trên Paper.
 6. **Tối ưu hóa tệp cấu hình mặc định**\
