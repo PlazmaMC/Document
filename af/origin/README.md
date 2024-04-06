@@ -1,5 +1,5 @@
 ---
-description: Indien daar enige vrae is, vra asseblief deur Discord of GitHub Issues.
+description: As daar enige vrae is, vra asseblief deur Discord of GitHub Besprekings.
 ---
 
 # 🏠 Welkom by die Dokumentasie Portal
