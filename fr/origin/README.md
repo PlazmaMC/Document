@@ -1,5 +1,5 @@
 ---
-description: Si vous avez des questions, veuillez les poser sur Discord ou GitHub Issues.
+description: Si vous avez des questions, veuillez les poser sur Discord ou GitHub Discussions.
 ---
 
 # 🏠 Bienvenue sur le portail de la documentation
