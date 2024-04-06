@@ -6,12 +6,12 @@ description: 請了解如何使用Plazma創建服務器。
 
 為了穩定使用Plazma，系統必須滿足以下要求。
 
-|      |  最低 |   建議 |
-| :--: | --: | ---: |
-|  架構  | x64 |    - |
+|      | 最低  | 建議   |
+| :--: | :-- | :--- |
+|  架構  | x64 | -    |
 |  RAM | 8GB | 16GB |
-| 儲存空間 | 1GB |  8GB |
-|  JRE |  17 |   21 |
+| 儲存空間 | 1GB | 8GB  |
+|  JRE | 17  | 21   |
 
 為了方便進行配置文件修改，建議安裝類似[Visual Studio Code](https://code.visualstudio.com/download)的編輯器。
 
