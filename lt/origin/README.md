@@ -1,5 +1,5 @@
 ---
-description: Jei turite klausimų, prašome juos užduoti per Discord arba GitHub Issues.
+description: Jei turite klausimų, prašome juos užduoti per Discord arba GitHub aptarimus.
 ---
 
 # 🏠 Sveiki atvykę į Dokumentų portalą
