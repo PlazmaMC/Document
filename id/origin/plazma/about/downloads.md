@@ -24,6 +24,8 @@ Jika Anda seorang pengembang dan memerlukan jenis file lain, silakan lihat halam
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
@@ -64,3 +66,5 @@ Jika Anda seorang pengembang dan memerlukan jenis file lain, silakan lihat halam
         </tr>
     </tbody>
 </table>
+
+***
