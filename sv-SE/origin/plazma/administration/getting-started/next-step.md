@@ -104,7 +104,7 @@ Särskilt om datapaketet är allvarligt skadat kan det leda till serverkollision
 
 **Efter serverstartkommandot kan du skriva `safeMode` för att inaktivera alla datapaket och sedan starta om servern.**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
+[För mer information, se 'Referens > Argument och egenskaper'.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -114,11 +114,9 @@ Du kan kontrollera vilka datapaket som har tillämpats med kommandot `/datapack 
 
 ## Optimering <a href="#id-4" id="id-4"></a>
 
-Plazma har många optimeringspatchar. 또한, Plazma가 처음으로 시작되면 자동으로
-구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
+Plazma har många optimeringspatchar. När Plazma startar för första gången optimeras konfigurationen automatiskt, så om du följer instruktionerna i [Kom igång](./README.md) behöver du inte göra ytterligare optimeringsåtgärder.
 
-하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
-아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
+Men om många spelare ansluter sig eller om världen är stor kan du genomföra ytterligare optimeringsåtgärder enligt följande instruktioner.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
