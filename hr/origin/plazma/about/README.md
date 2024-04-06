@@ -22,7 +22,7 @@ description: Saznajte više o platformi Plazma za poslužitelje.
 3. **Igrajte igru po vlastitim pravilima**\
    [Purpur](https://github.com/PurpurMC/Purpur) koji dolazi s Plazmom omogućuje izmjenu općih svojstava igre.
 4. **Siguran server za igranje**\
-   Uključuje [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) koji omogućuje onemogućavanje dodanog Mojang[^2] [sustava za prijavu chata](#user-content-fn-3)[^3] od 1.19, kao i potpuno uklanjanje dijagnostičkog alata za sigurno igranje na serveru bez praćenja.
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) uključuje [Mojang](#user-content-fn-2)[^2] dodani [sustav prijava razgovora](#user-content-fn-3)[^3] od 1.19 koji se može onemogućiti, a dijagnostički alat je potpuno uklonjen kako biste mogli igrati na sigurnom serveru bez praćenja.
 5. **Najbrže nadogradnje**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) osigurava da zakrpe uključene u Plazmu uvijek budu ažurirane, pružajući tako najbrže nadogradnje među svim server platformama temeljenim na Paperu.
 6. **Optimizirane osnovne konfiguracijske datoteke**\
