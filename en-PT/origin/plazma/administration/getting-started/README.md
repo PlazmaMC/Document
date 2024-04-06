@@ -159,8 +159,7 @@ The name o' the executable file be `plazma-(version manager)-1.20.4-R0.1-SNAPSHO
 
 T' easily start Plazma and automatically restart the server, ye need t' create a [start script](#user-content-fn-6)[^6].
 
-Ye can create the start script via [Flags.sh](https://flags.sh).\
-Just enter the memory ye want t' use fer Plazma, and the command will be automatically optimized.
+[Flags.sh](https://flags.sh)be startin' yer script wit' [creation](#user-content-fn-7)[^7]. Plazma be enterin' only the [memory to use](#user-content-fn-8)[^8] and the command be optimized automatically.
 
 Ye can download the start script by clickin' the download button at the bottom left.\
 **Make sure the downloaded start script matches yer operatin' system.**
@@ -189,7 +188,11 @@ Once ye run the start script, a `eula.txt` file will be created in the folder.
 
 The EULA[^9] be a license agreement ye must agree t' by usin' the services o' [Mojang Studios](#user-content-fn-10)[^10].
 
-If ye do not agree t' the EULA, ye cannot start the server and may face sanctions such as account suspension fer violatin' the EULA.
+{% hint style="warning" %}
+
+If ye do not agree, ye canna start the server, and if ye violate the EULA, ye may be subject to sanctions such as account suspension.
+
+{% endhint %}
 
 T' agree t' the EULA, change `eula=false` in the `eula.txt` file t' `eula=true` and save it.
 
@@ -296,7 +299,7 @@ If th' server 'n th' game be runnin' on th' same PC, ye can connect usin' `local
 {% endtab %}
 {% endtabs %}
 
-## 7. Evolution Stage
+## 7. Thrivin'
 
 Once ye have successfully started th' server 'n 'tis runnin' properly, 'tis time t' customize th' server.
 
