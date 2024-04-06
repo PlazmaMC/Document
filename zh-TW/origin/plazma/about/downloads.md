@@ -29,8 +29,8 @@ description: 立即下載 Plazma 並立即使用。
 <table data-view="cards">
     <thead>
         <tr>
-            <th>버전</th>
-            <th>다운로드</th>
+            <th>版本</th>
+            <th>下載</th>
         </tr>
     </thead>
     <tbody>
@@ -43,25 +43,25 @@ description: 立即下載 Plazma 並立即使用。
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/下載" alt="下載">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/下載" alt="下載">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/下載" alt="下載">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/下載" alt="下載">
             </a></td>
         </tr>
     </tbody>
