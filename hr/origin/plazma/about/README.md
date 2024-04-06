@@ -16,13 +16,18 @@ description: Saznajte više o platformi Plazma za poslužitelje.
 ## ⚙️ Glavne značajke <a href="#id-2" id="id-2"></a>
 
 1. **Snažan ekosustav dodataka**\
-   Zbog temelja na [Paper](https://github.com/PaperMC/Paper), većina [najnovijih dodataka](#user-content-fn-1)[^1] dostupnih na internetu normalno funkcionira.
+   [Paper](https://github.com/PaperMC/Paper) temelji se na njemu,
+   Većina [najnovijih dodataka](#user-content-fn-1)[^1] dostupnih na internetu ispravno funkcionira.
 2. **Optimizacija bez potrebe za postavljanjem**\
-   Uključuje sve zakrpe [Pufferfish](https://github.com/pufferfish-gg) i pruža najbolje performanse s nekim internim optimizacijama i ugrađenim modovima.
-3. **Igrajte igru po vlastitim pravilima**\
-   [Purpur](https://github.com/PurpurMC/Purpur) koji dolazi s Plazmom omogućuje izmjenu općih svojstava igre.
-4. **Siguran server za igranje**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) uključuje [Mojang](#user-content-fn-2)[^2] dodani [sustav prijava razgovora](#user-content-fn-3)[^3] od 1.19 koji se može onemogućiti, a dijagnostički alat je potpuno uklonjen kako biste mogli igrati na sigurnom serveru bez praćenja.
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) sadrži sve zakrpe,
+   Ugrađene su neke vlastite optimizacije i modovi koji pružaju vrhunske performanse.
+3. **Igra prilagođena vašim željama**\
+   [Purpur](https://github.com/PurpurMC/Purpur) koji dolazi s Plazmom omogućuje
+   uređivanje općih svojstava igre.
+4. **Siguran poslužitelj za igranje**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) je uključen kako bi se omogućilo onemogućavanje
+   [Mojang](#user-content-fn-2)[^2]ovog [sustava prijave u chatu](#user-content-fn-3)[^3] dodanog od 1.19,\
+   Sakupljač dijagnostičkih podataka je potpuno uklonjen kako biste mogli igrati na siguran poslužitelj bez praćenja.
 5. **Najbrže nadogradnje**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) osigurava da zakrpe uključene u Plazmu uvijek budu ažurirane, pružajući tako najbrže nadogradnje među svim server platformama temeljenim na Paperu.
 6. **Optimizirane osnovne konfiguracijske datoteke**\
@@ -41,13 +46,17 @@ description: Saznajte više o platformi Plazma za poslužitelje.
 ## ✨ Primjeri korištenja <a href="#id-3" id="id-3"></a>
 
 - **Platforma koja ispravno obrađuje složene dodatke**\
-  Plazma se koristi na serveru razvojnog programera [IPECTER](https://github.com/IPECTER). Iako se koristi vlastiti dodatak koji radi s NMS-om i refleksijom, te ima veliku količinu podataka, Plazma uspješno podržava više od 100 igrača bez gubitka performansi.
-- **Platforma koja održava brze performanse čak i na RPG serverima**\
-  Na jednom klasteru uspješno je održavao 100 igrača bez pada TPS-a, dok je na 4 klastera omogućio ugodno igranje za ukupno 250 igrača.
-- **Platforma koja pokazuje svjetlo u chunkovima/entitetima**\
-  Prelaskom s Purpura na Plazmu na serveru preživljavanja smanjili smo većinu kašnjenja u obradi chunkova i entiteta.
-- **Platforma koju je odabrao mnogi streameri**\
-  Koristi se kao glavni bucket za gledatelje mnogih popularnih streamera.
+  Plazma se koristi na poslužitelju [IPECTER](https://github.com/IPECTER).\
+  Vlastiti dodaci koji rade s NMS-om i refleksijom, veliki i složeni paketi podataka su obilno primijenjeni,\
+  Bez smanjenja performansi može primiti više od 100 igrača.
+- **Platforma koja održava brze performanse čak i na RPG poslužitelju**\
+  U jednom klasteru održava stabilnih 100 igrača bez pada TPS-a,\
+  Na 4 klastera ukupno 250 igrača moglo je ugodno igrati.
+- **Platforma koja pokazuje svjetlost u čunkovima/entitetima**\
+  Promjenom s Purpura na Plazmu za platformu prethodno opterećenog poslužitelja preživljavanja
+  Mogli smo smanjiti većinu kašnjenja.
+- **Platforma koju mnogi streameri odabiru**\
+  Koristi se kao glavna verzija za gledatelje mnogih streamera.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
