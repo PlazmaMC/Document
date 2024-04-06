@@ -4,7 +4,7 @@ description: Înțelegeți argumentele de pornire și proprietățile sistemului
 
 # 🎛️ Argumente și proprietăți
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Începutul achiziției și proprietățile sistemului sunt valori adăugate la [comenzile utilizate](#user-content-fn-1)[^1] pentru a rula Plazma, având un impact general asupra funcționării Plazmei.
 
 [Locația adăugată comenzii](#user-content-fn-2)[^2] va fi împărțită în **Argumentul de pornire** și **Proprietățile sistemului** conform.
 
