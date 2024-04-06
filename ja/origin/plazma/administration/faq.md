@@ -8,7 +8,7 @@ description: よくある質問をご覧ください。
 
 **回答が見つからない場合は？**
 
-[公式 Discord サーバー](https://discord.gg/MmfC52K8A8)または[GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)を通じてコミュニティに質問してみてください！
+コミュニティの質問は、[公式Discordサーバー](https://discord.gg/MmfC52K8A8)または[GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)でお尋ねください！
 
 {% endhint %}
 
