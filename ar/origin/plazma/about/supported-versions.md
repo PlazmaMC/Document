@@ -19,10 +19,12 @@ description: "اكتشف الإصدارات التي تدعمها Plazma في Mi
 
 ![في انتظار الإصدار][wtr]![قيد التطوير](https://badge.plazmamc.org/1/قيد%20التطوير)![دعم](https://badge.plazmamc.org/2/دعم)![توقف دعم الميزات](https://badge.plazmamc.org/6/توقف%20دعم%20الميزات)![نهاية الدعم](https://badge.plazmamc.org/4/نهاية%20الدعم)
 
-|                                      الإصدار                                      |    الاستقرار ودعم الوظائف    |                                              حالة البناء                                             |
+|                                         버전                                        |    الاستقرار ودعم الوظائف    |                                              حالة البناء                                             |
 | :-------------------------------------------------------------------------------: | :--------------------------: | :--------------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |   ![في انتظار الإصدار][wtr]  |                                       ![في انتظار الإصدار][wtr]                                      |
 | [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) | ![جيد جداً][vgd]![100%][100] | [![حالة البناء](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
 | [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) | ![جيد جداً][vgd]![100%][100] | [![حالة البناء](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
 | [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) | ![جيد جداً][vgd]![100%][100] |                                        ![لا يوجد معلومات][ukn]                                       |
 | [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) | ![جيد جداً][vgd]![100%][100] |                                        ![لا يوجد معلومات][ukn]                                       |
+
+***
