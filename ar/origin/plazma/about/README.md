@@ -59,7 +59,7 @@ description: تعرف على منصة الخادم Plazma.
   تم اختيارها كدلوقتي لاستخدامها كدلوقتي لعدد كبير من مشاهدي البثوث.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="توجيهات استخدام Plazma الحية">
 </a>
 
 ## ⬇️ تنزيل
