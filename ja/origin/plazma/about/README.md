@@ -58,11 +58,9 @@ description: Plazmaがどのようなサーバープラットフォームかを�
 - **多くのストリーマーが選んだプラットフォーム**\
   多くのストリーマーの視聴者投票で選ばれて使用されています。
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>リアルタイムのPlazmaユーザー動向</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ ダウンロード
 
