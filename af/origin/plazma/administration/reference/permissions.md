@@ -10,407 +10,407 @@ Om toestemming behoorlik te gebruik en maklik te wysig, moet jy plugins soos [Lu
 
 ***
 
-## 기본 권한 체계 이해하기 <a href="#id-1" id="id-1"></a>
+## Begrip van basiese toestemmingsisteem <a href="#id-1" id="id-1"></a>
 
-Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니다.
+Minecraft bied basiese bestuursgroep-toestemmings aan.
 
-[운영자](#user-content-fn-1)[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
+Jy kan toestemming vir [operateurs](#user-content-fn-1)[^1] en bevelblokke instel en dit kan by [bediener-eienskappe](configurations/property.md) gewysig word.
 
-0. **플레이어**\
-   일반적으로 모든 플레이어어게 주어지는 권한 그룹입니다.
-1. **중재자**\
-   스폰 보호를 무시할 수 있습니다.
-2. **세계 관리자**\
-   세계 관리와 관련된 모든 명령어와 명령 블록을 사용할 수 있습니다.\
-   데이터팩 및 명령 블록에 기본 적용되는 권한 그룹입니다.
-3. **관리자**\
-   플레이어 관리와 관련된 모든 명령어를 사용할 수 있습니다.
-4. **총관리자**\
-   서버 관리를 포함한 모든 명령어를 사용할 수 있습니다.\
-   콘솔 및 운영자에게 기본 적용되는 권한 그룹입니다.
-
-***
-
-## 권한 설정하기 <a href="#id-2" id="id-2"></a>
+0. **Spelers**\
+   Gewoonlik die standaard toestemmingsgroep vir alle spelers.
+1. **Bemiddelaar**\
+   Kan spawngbeskerming ignoreer.
+2. **Wêreldbestuurder**\
+   Kan alle bevele en bevelblokke wat met wêreldbestuur verband hou, gebruik.\
+   Dit is die standaard toestemmingsgroep vir datapakke en bevelblokke.
+3. **Bestuurder**\
+   Kan alle bevele wat met spelerbestuur verband hou, gebruik.
+4. **Hoofbestuurder**\
+   Kan alle bevele insluitend bedienerbestuur gebruik.\
+   Dit is die standaard toestemmingsgroep vir konsole en operateurs.
 
 ***
 
-## 전체 권한 <a href="#id-3" id="id-3"></a>
+## Toestemming instel <a href="#id-2" id="id-2"></a>
 
 ***
 
-#### `allow.ride.(Namespaced Key)`
+## Algemene toestemming <a href="#id-3" id="id-3"></a>
 
-- **기본 제공**: `없음`
+***
 
-플레이어가 엔티티에 `웅크리고 상호 작용`하여 엔티티를 탑승할 수 있도록 허용합니다.
+#### `toelaat.ry.(Namespaced Key)`
 
-엔티티를 탑승하면 `이동 키`로 엔티티의 이동을 조작할 수 있으며, `점프 키`로 점프하거나 날 수 있습니다.
+- **Standaard Verskaf**: `Geen`
 
-`(Namespaced Key)`에는 엔티티의 [Namespaced ID](#user-content-fn-2)[^2]가 입력됩니다.
+Laat spelers toe om op 'n entiteit te klim deur dit te 'shift' en met die entiteit te interaksioneer.
+
+As jy op 'n entiteit klim, kan jy die entiteit se beweging met die 'bewegingsleutel' beheer en met die 'springleutel' spring of vlieg.
+
+Die [Namespaced ID](#user-content-fn-2)[^2] van die entiteit word ingevoer in die `(Namespaced Key)`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer slegs wanneer `(Entity) > berijdbaar` in die Purpur wêreldkonfigurasie geaktiveer is.**
 
 {% endhint %}
 
-#### `allow.special.(Namespaced Key)`
+#### `toelaat.spesiaal.(Naamruimte Sleutel)`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-플레이어가 엔티티를 탑승하고 있을 때, 엔티티의 특수 기술을 사용할 수 있도록 허용합니다.
+Laat spelers toe om die spesiale vaardighede van 'n entiteit te gebruik terwyl hulle dit ry.
 
-모든 엔티티의 특수 기능이 사용 가능한 것은 아닙니다. 사용 가능한 전체 특수 기술은 아래를 참고하세요.
+Nie alle entiteite se spesiale vaardighede is beskikbaar nie. Raadpleeg die lys van alle beskikbare spesiale vaardighede hieronder.
 
 {% hint style="info" %}
 
-**특수 기술에 대한 좋은 아이디어가 있나요?**
+**Het jy 'n goeie idee vir 'n spesiale vaardigheid?**
 
-[Plazma Discord](https://plazmamc.org/discord) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)에 아이디어를 게시해 주세요!
+Plaas jou idee op [Plazma Discord](https://plazmamc.org/discord) of [GitHub Besprekings](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
 <details>
 
-<summary>현재 사용 가능한 특수 기술 보기</summary>
+<opsomming>Sien alle beskikbare spesiale vaardighede</opsomming>
 
-- **`crepper`**\
-  `점프 키`를 누르면 폭발합니다.\
-  플레이어가 `allow.powered.creeper` 권한을 가지고 있으면, `점프 키`를 꾹 눌러 충전할 수 있습니다.
-- **`dolphin`**\
-  `점프 키`를 누르면 돌진합니다.
-- **`phantom`**\
-  `점프 키`를 누르면 화염을 발사합니다.
-- **`wither`**\
-  `상호 작용`하면 위더 머리를 발사합니다.
+- **`kruip`**\
+  Druk die `spring sleutel` om te ontplof.\
+  As 'n speler die `toelaat.kragtige.kruiper` toestemming het, kan jy die `spring sleutel` ingedruk hou om dit te laai.
+- **`dolfyn`**\
+  Druk die `spring sleutel` om te duik.
+- **`spook`**\
+  Druk die `spring sleutel` om vlamme te skiet.
+- **`verwelk`**\
+  Deur `interaksie` te gebruik, skiet jy 'n verwelk kop af.
 
 </details>
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer slegs wanneer `(Entity) > berijdbaar` in die Purpur wêreldkonfigurasie geaktiveer is.**
 
 {% endhint %}
 
-#### `bukkit.command.compass`
+#### `bukkit.opdrag.kompas`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-[`/compass` 명령어](commands.md#compass) 사용을 허용합니다.
+Laat die gebruik van die [`/kompas` opdrag](commands.md#compass) toe.
 
-#### `bukkit.command.credits`
+#### `bukkit.opdrag.krediete`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-[`/credits (Player)` 명령어](commands.md#credits) 사용을 허용합니다.
+Laat die gebruik van die [`/krediete (Speler)` opdrag](commands.md#credits) toe.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Voer `.ander` agter die toestemming naam in om dit vir ander spelers toe te laat.
 
-#### `bukkit.command.demo`
+#### `bukkit.opdrag.demonstrasie`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-[`/demo (Player)` 명령어](commands.md#demo) 사용을 허용합니다.
+Laat die gebruik van die [`/demonstrasie (Speler)` opdrag](commands.md#demo) toe.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Voer `.ander` agter die toestemming naam in om dit vir ander spelers toe te laat.
 
-#### `bukkit.command.ping`
+#### `bukkit.opdrag.piek`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-[`/ping (Player)` 명령어](commands.md#ping) 사용을 허용합니다.
+Laat die gebruik van die [`/piek (Speler)` opdrag](commands.md#ping) toe.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Voer `.ander` agter die toestemming naam in om dit vir ander spelers toe te laat.
 
-#### `bukkit.command.ram`
+#### `bukkit.opdrag.ram`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-[`/ram` 명령어](commands.md#ram) 사용을 허용합니다.
+Laat die gebruik van die [`/ram` opdrag](commands.md#ram) toe.
 
-#### `bukkit.command.rambar`
+#### `bukkit.opdrag.rambalk`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-[`/rambar (Player)` 명령어](commands.md#rambar) 사용을 허용합니다.
+Laat die gebruik van die [`/rambalk (Speler)` opdrag](commands.md#rambar) toe.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Voer `.ander` agter die toestemming naam in om dit vir ander spelers toe te laat.
 
-#### `bukkit.command.restart`
+#### `bukkit.opdrag.herlaai`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-[`/restart` 명령어](commands.md#restart) 사용을 허용합니다.
+Laat die gebruik van die [`/herlaai` opdrag](commands.md#restart) toe.
 
-#### `bukkit.command.tps`
+#### `bukkit.opdrag.tps`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-[`/tps` 명령어](commands.md#tps) 사용을 허용합니다.
+Laat die gebruik van die [`/tps` opdrag](commands.md#tps) toe.
 
-#### `bukkit.command.tpsbar`
+#### `bukkit.opdrag.tpsbalk`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-[`/tpsbar (Player)` 명령어](commands.md#tpsbar) 사용을 허용합니다.
+Laat die gebruik van die [`/tpsbalk (Speler)` opdrag](commands.md#tpsbar) toe.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Voer `.ander` agter die toestemming naam in om dit vir ander spelers toe te laat.
 
-#### `bukkit.command.timings`
+#### `bukkit.opdrag.tydmetings`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-[`/timings` 명령어](commands.md#timings) 사용을 허용합니다.
+Laat die gebruik van die [`/tydmetings` opdrag](commands.md#timings) toe.
 
 {% hint style="warning" %}
 
-**해당 명령어는 사용이 중단되었습니다.**
+**Hierdie opdrag is gestaak.**
 
-비슷한 기능을 가지는 명령어에 대해 알아보려면 [Spark](https://spark.lucko.me/docs/Command-Usage)를 확인하세요.
+Kyk na [Spark](https://spark.lucko.me/docs/Command-Usage) vir soortgelyke funksionaliteit oorweeg.
 
 {% endhint %}
 
-#### `bukkit.command.uptime`
+#### `bukkit.opdrag.opdop`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-[`/uptime` 명령어](commands.md#uptime) 사용을 허용합니다.
+Laat die gebruik van die [`/opdop` opdrag](commands.md#uptime) toe.
 
-#### `minecraft.command.gamemode.(GameMode)`
+#### `minecraft.opdrag.speelmodus.(Speelmodus)`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-`/gamemode (GameMode) (Player)` 명령어 사용을 허용합니다.
+Laat die gebruik van die `/speelmodus (Speelmodus) (Speler)` opdrag toe.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Voer `.ander` agter die toestemming naam in om dit vir ander spelers toe te laat.
 
-#### `paper.antixray.bypass`
+#### `papier.antixray.deurloop`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우,
-권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
+As die [X-straal blokkering](../expert/xray.md) geaktiveer is,
+sal spelers met die regte toestemming nie X-straal blokkering blokkeer nie.
 
-이렇게 하면 양 측 모두 성능 향상을 경험할 수 있습니다.
+Dit sal beide kante se prestasie verbeter.
 
-> X-Ray 설정 방법에 대해 알아보려면 아래 페이지를 참고하세요.
+> Kyk na die volgende bladsy vir X-straal instellings.
 
 {% content-ref url="../expert/xray.md" %}
 [xray.md](../expert/xray.md)
 {% endcontent-ref %}
 
-#### `plazma.bypass-moved-to-quickly-check`
+#### `plazma.deurloop-beweeg-te-vinnig-kontrole`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
 {% hint style="warning" %}
 
-해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
+Hierdie toestemming sal binnekort verander na `plazma.deurloop.wagter` in 1.20.5.
 
 {% endhint %}
 
-#### `purpur.anvil.color`
+#### `purpur.aambeeld.kleur`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-모루에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Laat die gebruik van [kleur kodes](https://minecraft.wiki/w/Formatting_codes#Color_codes) op aambeelde toe.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `aambeeld > toelaat-kleure` om dit te laat werk.**
 
 {% endhint %}
 
-#### `purpur.anvil.format`
+#### `purpur.aambeeld.formaat`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)을 사용할 수 있도록 허용합니다.
+Laat die gebruik van [styl kodes](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) op aambeelde toe.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `aambeeld > toelaat-kleure` om dit te laat werk.**
 
 {% endhint %}
 
-#### `purpur.anvil.minimessage`
+#### `purpur.aambeeld.miniberig`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-모루에 [MiniMessage 태그](https://docs.advntr.dev/minimessage/format.html)를 사용할 수 있도록 허용합니다.
+Laat die gebruik van [MiniMessage etikette](https://docs.advntr.dev/minimessage/format.html) op aambeelde toe.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
+**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `aambeeld > toelaat-miniberigte` om dit te laat werk.**
 
 {% endhint %}
 
-#### `purpur.anvil.remove_italics`
+#### `purpur.aambeeld.verwyder_kursief`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
+Laat die gebruik van die [`&r` styl kode](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) toe om `skreef` te deaktiveer.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `aambeeld > toelaat-kleure` om dit te laat werk.**
 
 {% endhint %}
 
-#### `purpur.book.color.sign`
+#### `purpur.boek.kleur.teken`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)가 적용되도록 합니다.
+As 'n speler 'n boek onderteken, word [styl kodes](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) toegepas.
 
-#### `purpur.bypassIdleKick`
+#### `purpur.verbyIdleKick`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-플레이어를 유휴 상태 추방 대상에서 제외합니다.
+Sluit spelers uit van die idle kick lys.
 
-#### `purpur.debug.f3n`
+#### `purpur.debuur.f3n`
 
-- **기본 제공**: `세계 관리자`
+- **Standaard Verskaf**: `Wêreld Bestuurder`
 
-플레이어가 `F3 + N` 키로 게임 모드를 변경할 수 있도록 허용합니다.
+Laat spelers toe om die spelmodus te verander met die `F3 + N` sleutel kombinasie.
 
-해당 게임모드에 대한 권한이 없으면 작동하지 않습니다.
+Dit sal nie werk as die speler nie die regte spelmodus toestemming het nie.
 
-#### `purpur.drop.spawners`
+#### `purpur.aflaai.spawners`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-구성에서 설정한 아이템으로 스포너 블록을 채굴하면 스포너 블록을 떨어뜨립니다.
+As jy 'n spawner blok met die regte item breek, laat dit die spawner blok val.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `speel-meganika > sy-tik` om dit te laat werk.**
 
 {% endhint %}
 
-#### `purpur.enderchest.rows.(NumberString)`
+#### `purpur.enderkis.rye.(Nommerteks)`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-엔더 상자의 크기를 변경합니다.
+Verander die grootte van die Ender Chest.
 
-`(NumberString)`에는 `one`, `two`, `three`, `four`, `five`, `six`를 입력할 수 있습니다.
+Jy kan `een`, `twee`, `drie`, `vier`, `vyf`, `ses` in `Nommerteks` invoer.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
+**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `ender_kis > ses-rye` en `ender_kis > gebruik-toestemmings-vir-rye` om dit te laat werk.**
 
 {% endhint %}
 
-#### `purpur.inventory_totem`
+#### `purpur.inventaris_totem`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-불사의 토템이 인벤토리에 있어도 작동하도록 허용합니다.
+Laat die werking van die onsterflikheid totem in die inventaris toe.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
+**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `totem-of-undying-works-in-inventory` aktiveer om te werk.**
 
 {% endhint %}
 
 #### `purpur.joinFullServer`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-플레이어가 접속자수 제한을 무시하도록 허용합니다.
+Laat spelers toe om die verbindingstoegrens te ignoreer.
 
 #### `purpur.mending_shift_click`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-플레이어가 `웅크리고 상호 작용`하면 들고 있는 아이템을 수선할 수 있도록 허용합니다.
+Laat spelers toe om 'n voorwerp wat hulle dra te herstel deur `kniel en interaksie`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
+**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `shift-right-click-repairs-mending-points` aktiveer om te werk.**
 
 {% endhint %}
 
 #### `purpur.place.spawners`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-플레이어가 스포너를 설치할 수 있도록 허용합니다.
+Laat spelers toe om spawners te plaas.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `speel-meganika > sy-tik` om dit te laat werk.**
 
 {% endhint %}
 
 #### `purpur.portal.instant`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-플레이어가 네더 차원문을 사용했을 때 바로 순간이동 하도록 합니다.
+Laat spelers direk na die Nether dimensie spring as hulle 'n Nether portal gebruik.
 
 #### `purpur.sign.color`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-표지판에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Laat toe dat [kleurkodes](https://minecraft.wiki/w/Formatting_codes#Color_codes) op skilders gebruik word.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `sign > allow-colors` aktiveer om te werk.**
 
 {% endhint %}
 
 #### `purpur.sign.magic`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-표지판에 난독화 코드`(&o)`를 사용할 수 있도록 허용합니다.
+Laat toe dat skilders die verwarrende kode`(&o)` gebruik.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `sign > allow-colors` aktiveer om te werk.**
 
 {% endhint %}
 
 #### `purpur.sign.style`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)를 사용할 수 있도록 허용합니다.
+Laat toe dat [stylkode `(&o uitgesluit)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) op skilders gebruik word.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `sign > allow-colors` aktiveer om te werk.**
 
 {% endhint %}
 
 #### `purpur.tnt.defuse`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-플레이어가 가위로 `상호 작용`하여 TNT 폭발을 막을 수 있도록 허용합니다.
+Laat spelers toe om TNT ontploffing te stop deur `interaksie` met 'n skêr.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
+**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `defuse-tnt-change` `0.0` of meer wees om te werk.**
 
 {% endhint %}
 
-### 제공 예정 권한
+### Voorsiene toestemming
 
 #### `plazma.bypass.ncr-require`
 
-- **기본 제공**: `없음`
+- **Standaard Verskaf**: `Geen`
 
-플레이어가 [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) 모드가 설치되어 있지 않아도 접속할 수 있도록 허용합니다.
+Laat spelers toe om aan te sluit sonder dat [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) mod geïnstalleer is.
 
 {% hint style="info" %}
 
-**[Plazma 세계별 구성](configurations/plazma/world.md)에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
+**[Plazma-wêreldkonfigurasies](configurations/plazma/world.md) moet `no-chat-reports > require-install` aktiveer om te werk.**
 
 {% endhint %}
 
@@ -418,4 +418,4 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 [^1]: Operator.
 
-[^2]: 예: `ender_dragon`
+[^2]: Byvoorbeeld: `ender_dragon`
