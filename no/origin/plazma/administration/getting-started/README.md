@@ -7,11 +7,11 @@ description: Lær hvordan du oppretter en server med Plazma.
 For å bruke Plazma på en stabil måte, må systemet oppfylle følgende krav:
 
 |               | Minimum | Anbefalt |
-| :-----------: | ------: | -------: |
-|   Arkitektur  |     x64 |        - |
-|      RAM      |     8GB |     16GB |
-| Lagringsplass |     1GB |      8GB |
-|      JRE      |      17 |       21 |
+| :-----------: | :------ | :------- |
+|   Arkitektur  | x64     | -        |
+|      RAM      | 8GB     | 16GB     |
+| Lagringsplass | 1GB     | 8GB      |
+|      JRE      | 17      | 21       |
 
 For en smidig konfigurasjonsfilredigering, er det også bra å installere en redaktør som [Visual Studio Code](https://code.visualstudio.com/download).
 
