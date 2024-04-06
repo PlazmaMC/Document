@@ -4,8 +4,8 @@ description: Tìm hiểu về đối số khởi đầu và thuộc tính hệ t
 
 # 🎛️ Đối số và thuộc tính
 
-Đối số khởi đầu và thuộc tính hệ thống là các giá trị được thêm vào các [lệnh được sử dụng](#user-content-fn-1)[^1] trong quá trình chạy Plazma,\
-cho phép thay đổi giá trị không thể thay đổi sau khi Plazma đã chạy.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [위치에 덧붙이는 위치](#user-content-fn-2)[^2]에 따라 **시작 매개변수**와 **시스템 속성**으로 나뉘게 됩니다.
 
@@ -27,8 +27,8 @@ Nếu không chắc chắn về vai trò của mỗi thuộc tính hệ thống,
 
 Thuộc tính hệ thống được nhập như một đối số lệnh Java giữa `java` và `-jar`.
 
-Ví dụ, nếu muốn áp dụng thuộc tính hệ thống `Plazma.dummyProperty`,\
-bằng cách nhập như sau, giá trị `37` sẽ được nhập vào thuộc tính tiếp theo và Plazma sẽ khởi tạo.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -187,7 +187,7 @@ Mọi vấn đề phát sinh từ việc này là trách nhiệm của bạn và
 - **Loại**: `Integer`
 - **Giá trị mặc định**: `64`
 
-플러그인 [채널](#user-content-fn-5)[^5] 이름의 제한을 설정합니다.
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
