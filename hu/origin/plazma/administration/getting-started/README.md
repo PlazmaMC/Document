@@ -7,11 +7,11 @@ description: Tudj meg többet arról, hogyan készíthetsz szervereket a Plazma 
 A Plazma stabil használatához a rendszernek az alábbi követelményeknek kell megfelelnie.
 
 |              | Minimum | Ajánlott |
-| :----------: | ------: | -------: |
-| Architektúra |     x64 |        - |
-|      RAM     |     8GB |     16GB |
-|    Tárhely   |     1GB |      8GB |
-|      JRE     |      17 |       21 |
+| :----------: | :------ | :------- |
+| Architektúra | x64     | -        |
+|      RAM     | 8GB     | 16GB     |
+|    Tárhely   | 1GB     | 8GB      |
+|      JRE     | 17      | 21       |
 
 A könnyebb konfiguráció módosítás érdekében érdemes telepíteni olyan szerkesztőket, mint a [Visual Studio Code](https://code.visualstudio.com/download).
 
