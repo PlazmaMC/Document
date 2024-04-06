@@ -19,7 +19,7 @@
     - [🖥️ 命令](plazma/administration/reference/commands.md)
     - [🛡️ 權限](plazma/administration/reference/permissions.md)
     - [🎛️ 參數和屬性](plazma/administration/reference/arguments.md)
-    - [📋 구성](plazma/administration/reference/configurations/README.md)
+    - [📋 配置](plazma/administration/reference/configurations/README.md)
       - [🪨 屬性](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
