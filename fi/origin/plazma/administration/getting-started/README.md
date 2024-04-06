@@ -159,8 +159,8 @@ Suoritustiedoston nimi on `plazma-(versionhallinta)-1.20.4-R0.1-SNAPSHOT-(kartoi
 
 Plazman käynnistämiseksi helposti ja palvelimen automaattiseksi uudelleenkäynnistämiseksi sinun on luotava [käynnistyskomentosarja](#user-content-fn-6).[^6]
 
-Voit luoda käynnistyskomentosarjan [Flags.sh](https://flags.sh) kautta.\
-Syötä vain käytettävä muisti \[^(#user-content-fn-8)][^8], ja komento optimoidaan automaattisesti.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Voit ladata käynnistyskomentosarjan napsauttamalla vasemmassa alakulmassa olevaa Lataa-painiketta.\
 **Varmista, että ladattu käynnistyskomentosarja vastaa omaa käyttöjärjestelmääsi.**
@@ -189,7 +189,11 @@ Kun käynnistyskomentosarja on suoritettu kerran, kansioon luodaan `eula.txt`-ti
 
 EULA[^9] on sopimus, joka on hyväksyttävä käyttämällä [Mojang Studiosin](#user-content-fn-10)[^10] palveluita.
 
-Jos et hyväksy EULA:a, et voi käynnistää palvelinta, ja jos rikot EULA:a, voit saada rangaistuksia, kuten tilin sulkemisen \[^(#user-content-fn-11)][^11].
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Hyväksyäksesi EULA:n muuta `eula.txt`-tiedoston `eula=false` muotoon `eula=true` ja tallenna se.
 
@@ -296,7 +300,7 @@ Jos palvelin ja peli toimivat samalla tietokoneella, voit yhdistää käyttäen 
 {% endtab %}
 {% endtabs %}
 
-## 7. Kehitysvaihe
+## 7. 발전하기
 
 Kun palvelin on onnistuneesti käynnistetty ja toimii oikein, on aika mukauttaa palvelinta.
 
