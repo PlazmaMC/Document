@@ -29,8 +29,8 @@ Als u een ontwikkelaar bent en een ander type bestand nodig heeft, raadpleeg dan
 <table data-view="cards">
     <thead>
         <tr>
-            <th>버전</th>
-            <th>다운로드</th>
+            <th>Versie</th>
+            <th>Download</th>
         </tr>
     </thead>
     <tbody>
