@@ -159,7 +159,8 @@ El nom del fitxer executable és `plazma-(gestor de versions)-1.20.4-R0.1-SNAPSH
 
 Per iniciar Plazma de manera senzilla i reiniciar el servidor automàticament, heu de crear un [script d'inici](#user-content-fn-6)[^6].
 
-Podeu crear un script d'inici a través de [Flags.sh](https://flags.sh). Només cal introduir la [memòria a utilitzar per Plazma](#user-content-fn-8)[^8] i l'ordre s'optimitzarà automàticament.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Podeu descarregar l'script d'inici fent clic al botó de descàrrega a la part inferior esquerra.\
 **Assegureu-vos que l'script d'inici descarregat és compatible amb el vostre sistema operatiu.**
@@ -188,7 +189,11 @@ Després d'executar l'script d'inici, es crearà un fitxer `eula.txt` a la carpe
 
 L'EULA[^9] és un acord de llicència que has d'acceptar per utilitzar els serveis de [Mojang Studios](#user-content-fn-10)[^10].
 
-Si no accepteu l'EULA, no podreu iniciar el servidor i, si incompliu l'EULA, podeu rebre sancions com la suspensió del compte, entre altres [mesures disciplinàries](#user-content-fn-11)[^11].
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Per acceptar l'EULA, canvieu `eula=false` a `eula=true` al fitxer `eula.txt` i deseu-lo.
 
@@ -295,7 +300,7 @@ Si el servidor i el joc s'estan executant al mateix PC, podeu connectar-vos util
 {% endtab %}
 {% endtabs %}
 
-## 7. Fase de desenvolupament
+## 7. 발전하기
 
 Si heu iniciat el servidor amb èxit i aquest funciona correctament, ara és moment de personalitzar-lo.
 
