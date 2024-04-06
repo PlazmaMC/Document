@@ -10,191 +10,190 @@ A jogosultságok megfelelő kihasználásához és könnyű módosításához ha
 
 ***
 
-## 기본 권한 체계 이해하기 <a href="#id-1" id="id-1"></a>
+## Alap jogosultság rendszer megértése <a href="#id-1" id="id-1"></a>
 
-Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니다.
+A Minecraft alapvető adminisztrációs jogosultság csoportokat biztosít.
 
-[운영자](#user-content-fn-1)[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
+[Adminisztrátor](#user-content-fn-1)[^1] és parancsblokk jogosultságokat állíthat be, módosíthatja a [szerver tulajdonságokat](configurations/property.md).
 
-0. **플레이어**\
-   일반적으로 모든 플레이어어게 주어지는 권한 그룹입니다.
-1. **중재자**\
-   스폰 보호를 무시할 수 있습니다.
-2. **세계 관리자**\
-   세계 관리와 관련된 모든 명령어와 명령 블록을 사용할 수 있습니다.\
-   데이터팩 및 명령 블록에 기본 적용되는 권한 그룹입니다.
-3. **관리자**\
-   플레이어 관리와 관련된 모든 명령어를 사용할 수 있습니다.
-4. **총관리자**\
-   서버 관리를 포함한 모든 명령어를 사용할 수 있습니다.\
-   콘솔 및 운영자에게 기본 적용되는 권한 그룹입니다.
-
-***
-
-## 권한 설정하기 <a href="#id-2" id="id-2"></a>
+0. **Játékos**\
+   Általában minden játékosnak rendelkezésére álló jogosultság csoport.
+1. **Mediátor**\
+   Figyelmen kívül hagyhatja a spawn védelmet.
+2. **Világkezelő**\
+   Minden világkezeléshez kapcsolódó parancsokat és parancsblokkokat használhat.\
+   Ez az alapértelmezett jogosultság csoport a datapackokhoz és parancsblokkokhoz.
+3. **Adminisztrátor**\
+   Minden játékossal kapcsolatos parancsokat használhat.
+4. **Főadminisztrátor**\
+   Minden szerverkezeléshez kapcsolódó parancsot használhat.\
+   Ez az alapértelmezett jogosultság csoport a konzolhoz és az adminisztrátorokhoz.
 
 ***
 
-## 전체 권한 <a href="#id-3" id="id-3"></a>
+## Jogosultságok beállítása <a href="#id-2" id="id-2"></a>
+
+***
+
+## Összes jogosultság <a href="#id-3" id="id-3"></a>
 
 ***
 
 #### `allow.ride.(Namespaced Key)`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-플레이어가 엔티티에 `웅크리고 상호 작용`하여 엔티티를 탑승할 수 있도록 허용합니다.
+Engedélyezi a játékosoknak, hogy lehajolva és interakcióval felszálljanak az entitásra.
 
-엔티티를 탑승하면 `이동 키`로 엔티티의 이동을 조작할 수 있으며, `점프 키`로 점프하거나 날 수 있습니다.
+Ha felszáll az entitásra, akkor a `mozgás billentyűkkel` irányíthatja az entitás mozgását, és a `ugrás billentyűvel` ugorhat vagy repülhet.
 
-`(Namespaced Key)`에는 엔티티의 [Namespaced ID](#user-content-fn-2)[^2]가 입력됩니다.
+A `(Namespaced Key)` helyére az entitás [Namespaced ID](#user-content-fn-2)[^2] kerül.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `(Entity) > ridable` engedélyezve van.**
 
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-플레이어가 엔티티를 탑승하고 있을 때, 엔티티의 특수 기술을 사용할 수 있도록 허용합니다.
+Engedélyezi a játékosoknak, hogy az entitáson ülve használhassák az entitás speciális képességeit.
 
-모든 엔티티의 특수 기능이 사용 가능한 것은 아닙니다. 사용 가능한 전체 특수 기술은 아래를 참고하세요.
+Nem minden entitás speciális képessége használható. Az összes elérhető speciális képességet az alábbiakban találja.
 
 {% hint style="info" %}
 
-**특수 기술에 대한 좋은 아이디어가 있나요?**
+Van ötlete speciális képességekre?
 
-[Plazma Discord](https://plazmamc.org/discord) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)에 아이디어를 게시해 주세요!
+Kérjük, ossza meg az ötleteit a [Plazma Discord](https://plazmamc.org/discord) vagy a [GitHub Beszélgetések](https://github.com/PlazmaMC/PlazmaBukkit/discussions) oldalon!
 
 {% endhint %}
 
 <details>
 
-<summary>현재 사용 가능한 특수 기술 보기</summary>
+<összefoglalás>Elérhető speciális képességek megtekintése<!--összefoglalás-->
 
 - **`crepper`**\
-  `점프 키`를 누르면 폭발합니다.\
-  플레이어가 `allow.powered.creeper` 권한을 가지고 있으면, `점프 키`를 꾹 눌러 충전할 수 있습니다.
+  Ha megnyomja az `ugrás gombot`, akkor felrobban.\
+  Ha a játékos rendelkezik az `allow.powered.creeper` jogosultsággal, akkor tartsa lenyomva az `ugrás gombot` a töltéshez.
 - **`dolphin`**\
-  `점프 키`를 누르면 돌진합니다.
+  Ha megnyomja az `ugrás gombot`, akkor úszik.
 - **`phantom`**\
-  `점프 키`를 누르면 화염을 발사합니다.
+  Ha megnyomja az `ugrás gombot`, akkor tüzet lövöldöz.
 - **`wither`**\
-  `상호 작용`하면 위더 머리를 발사합니다.
+  Ha `kölcsönhatásba lép`, akkor wither fejet lő ki.
 
 </details>
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `(Entity) > ridable` engedélyezve van.**
 
 {% endhint %}
 
 #### `bukkit.command.compass`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-[`/compass` 명령어](commands.md#compass) 사용을 허용합니다.
+Engedélyezi a [`/compass` parancs](commands.md#compass) használatát.
 
 #### `bukkit.command.credits`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-[`/credits (Player)` 명령어](commands.md#credits) 사용을 허용합니다.
+Engedélyezi a [`/credits (Játékos)` parancs](commands.md#credits) használatát.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Ha a jogosultság után `.other`-t ír, akkor más játékosok számára is engedélyezi a használatát.
 
 #### `bukkit.command.demo`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-[`/demo (Player)` 명령어](commands.md#demo) 사용을 허용합니다.
+Engedélyezi a [`/demo (Játékos)` parancs](commands.md#demo) használatát.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Ha a jogosultság után `.other`-t ír, akkor más játékosok számára is engedélyezi a használatát.
 
 #### `bukkit.command.ping`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-[`/ping (Player)` 명령어](commands.md#ping) 사용을 허용합니다.
+Engedélyezi a [`/ping (Játékos)` parancs](commands.md#ping) használatát.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Ha a jogosultság után `.other`-t ír, akkor más játékosok számára is engedélyezi a használatát.
 
 #### `bukkit.command.ram`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-[`/ram` 명령어](commands.md#ram) 사용을 허용합니다.
+Engedélyezi a [`/ram` parancs](commands.md#ram) használatát.
 
 #### `bukkit.command.rambar`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-[`/rambar (Player)` 명령어](commands.md#rambar) 사용을 허용합니다.
+Engedélyezi a [`/rambar (Játékos)` parancs](commands.md#rambar) használatát.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Ha a jogosultság után `.other`-t ír, akkor más játékosok számára is engedélyezi a használatát.
 
 #### `bukkit.command.restart`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-[`/restart` 명령어](commands.md#restart) 사용을 허용합니다.
+Engedélyezi a [`/restart` parancs](commands.md#restart) használatát.
 
 #### `bukkit.command.tps`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-[`/tps` 명령어](commands.md#tps) 사용을 허용합니다.
+Engedélyezi a [`/tps` parancs](commands.md#tps) használatát.
 
 #### `bukkit.command.tpsbar`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-[`/tpsbar (Player)` 명령어](commands.md#tpsbar) 사용을 허용합니다.
+Engedélyezi a [`/tpsbar (Játékos)` parancs](commands.md#tpsbar) használatát.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Ha a jogosultság után `.other`-t ír, akkor más játékosok számára is engedélyezi a használatát.
 
 #### `bukkit.command.timings`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-[`/timings` 명령어](commands.md#timings) 사용을 허용합니다.
+Engedélyezi a [`/timings` parancs](commands.md#timings) használatát.
 
 {% hint style="warning" %}
 
-**해당 명령어는 사용이 중단되었습니다.**
+**Ez a parancs használata megszűnt.**
 
-비슷한 기능을 가지는 명령어에 대해 알아보려면 [Spark](https://spark.lucko.me/docs/Command-Usage)를 확인하세요.
+További hasonló parancsokért látogasson el a [Spark](https://spark.lucko.me/docs/Command-Usage) oldalra.
 
 {% endhint %}
 
 #### `bukkit.command.uptime`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-[`/uptime` 명령어](commands.md#uptime) 사용을 허용합니다.
+Engedélyezi a [`/uptime` parancs](commands.md#uptime) használatát.
 
 #### `minecraft.command.gamemode.(GameMode)`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-`/gamemode (GameMode) (Player)` 명령어 사용을 허용합니다.
+Engedélyezi a [`/gamemode (GameMode) (Játékos)` parancs](commands.md#gamemode) használatát.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Ha a jogosultság után `.other`-t ír, akkor más játékosok számára is engedélyezi a használatát.
 
 #### `paper.antixray.bypass`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우,
-권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
+Ha az [X-Ray blokkolás](../expert/xray.md) aktív, akkor a jogosultsággal rendelkező játékosoknak nem végzi el az X-Ray blokkok elhomályosítását.
 
-이렇게 하면 양 측 모두 성능 향상을 경험할 수 있습니다.
+Ezzel mindkét fél javulást tapasztalhat.
 
-> X-Ray 설정 방법에 대해 알아보려면 아래 페이지를 참고하세요.
+> Az X-Ray beállításokról további információért látogasson el az alábbi oldalra.
 
 {% content-ref url="../expert/xray.md" %}
 [xray.md](../expert/xray.md)
@@ -202,220 +201,220 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 #### `plazma.bypass-moved-to-quickly-check`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
 {% hint style="warning" %}
 
-해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
+Ez a jogosultság a 1.20.5 verzióban `plazma.bypass.watchdog` -ra fog változni.
 
 {% endhint %}
 
 #### `purpur.anvil.color`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-모루에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Lehetővé teszi a kovácsoló asztalon a [színkódok](https://minecraft.wiki/w/Formatting_codes#Color_codes) használatát.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `anvil > allow-colors` engedélyezve van.**
 
 {% endhint %}
 
 #### `purpur.anvil.format`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)을 사용할 수 있도록 허용합니다.
+Lehetővé teszi a kovácsoló asztalon a [stílus kódok](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) használatát.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `anvil > allow-colors` engedélyezve van.**
 
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-모루에 [MiniMessage 태그](https://docs.advntr.dev/minimessage/format.html)를 사용할 수 있도록 허용합니다.
+Lehetővé teszi a kovácsoló asztalon a [MiniMessage címkék](https://docs.advntr.dev/minimessage/format.html) használatát.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
+**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `anvil > allow-minimessages` engedélyezve van.**
 
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
+Lehetővé teszi a kovácsoló asztalon a [`&r` stílus kód](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) segítségével az `igazított szöveg` eltávolítását.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `anvil > allow-colors` engedélyezve van.**
 
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)가 적용되도록 합니다.
+Ha a játékos aláírja a könyvet, akkor alkalmazza a [stílus kódokat](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
 
 #### `purpur.bypassIdleKick`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-플레이어를 유휴 상태 추방 대상에서 제외합니다.
+Kizárja a játékost az inaktív állapotból történő kirúgásból.
 
 #### `purpur.debug.f3n`
 
-- **기본 제공**: `세계 관리자`
+- **Alapértelmezett**: `Világkezelő`
 
-플레이어가 `F3 + N` 키로 게임 모드를 변경할 수 있도록 허용합니다.
+Lehetővé teszi a játékos számára, hogy az `F3 + N` billentyűkombinációval változtassa a játék módot.
 
-해당 게임모드에 대한 권한이 없으면 작동하지 않습니다.
+Csak akkor működik, ha nincs jogosultsága a megfelelő játékmódhoz.
 
 #### `purpur.drop.spawners`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-구성에서 설정한 아이템으로 스포너 블록을 채굴하면 스포너 블록을 떨어뜨립니다.
+Ha az előre beállított tárggyal bányászik spawner blokkot, akkor a spawner blokkot elejti.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha a `gameplay-mechanics > silk-touch` engedélyezve van.**
 
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-엔더 상자의 크기를 변경합니다.
+Megváltoztatja az ender láda méretét.
 
-`(NumberString)`에는 `one`, `two`, `three`, `four`, `five`, `six`를 입력할 수 있습니다.
+A `(NumberString)` helyére `one`, `two`, `three`, `four`, `five`, `six` írható.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
+**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `ender_chest > six-rows` és `ender_chest > use-permissions-for-rows` engedélyezve van.**
 
 {% endhint %}
 
 #### `purpur.inventory_totem`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-불사의 토템이 인벤토리에 있어도 작동하도록 허용합니다.
+Lehetővé teszi a visszatérő totem működését az inventáriumban.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
+**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha a `totem-of-undying-works-in-inventory` engedélyezve van.**
 
 {% endhint %}
 
 #### `purpur.joinFullServer`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-플레이어가 접속자수 제한을 무시하도록 허용합니다.
+A játékosnak engedélyezve van, hogy figyelmen kívül hagyja a csatlakozók számának korlátozását.
 
 #### `purpur.mending_shift_click`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-플레이어가 `웅크리고 상호 작용`하면 들고 있는 아이템을 수선할 수 있도록 허용합니다.
+A játékosnak lehetősége van az `együttműködés lehajlására`, hogy megjavítsa a kezében lévő tárgyat.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
+**A [Purpur világbeállítások](configurations/purpur/world.md)ban aktiválni kell a `shift-right-click-repairs-mending-points`-ot, hogy működjön.**
 
 {% endhint %}
 
 #### `purpur.place.spawners`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-플레이어가 스포너를 설치할 수 있도록 허용합니다.
+A játékosnak engedélyezve van a mobgenerálók telepítése.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha a `gameplay-mechanics > silk-touch` engedélyezve van.**
 
 {% endhint %}
 
 #### `purpur.portal.instant`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-플레이어가 네더 차원문을 사용했을 때 바로 순간이동 하도록 합니다.
+A játékosnak lehetősége van azonnal átugrani, amikor használja a Nether portált.
 
 #### `purpur.sign.color`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-표지판에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+표지판에 [színkódokat](https://minecraft.wiki/w/Formatting_codes#Color_codes) használhat.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+\*\*A **[Purpur világbeállításokban](configurations/purpur/world.md) aktiválnod kell a `sign > allow-colors`-ot, hogy működjön.**
 
 {% endhint %}
 
 #### `purpur.sign.magic`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-표지판에 난독화 코드`(&o)`를 사용할 수 있도록 허용합니다.
+표지판에 난독화 kód`(&o)` használatát engedélyezi.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+\*\*A **[Purpur világbeállításokban](configurations/purpur/world.md) aktiválnod kell a `sign > allow-colors`-ot, hogy működjön.**
 
 {% endhint %}
 
-#### `purpur.sign.style`
+#### `purpur.jel.stílus`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)를 사용할 수 있도록 허용합니다.
+Táblákon [stílus kódok használata `(&o kivéve)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) engedélyezve.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+\*\*A **[Purpur világbeállításokban](configurations/purpur/world.md) aktiválnod kell a `sign > allow-colors`-ot, hogy működjön.**
 
 {% endhint %}
 
-#### `purpur.tnt.defuse`
+#### `purpur.tnt.hatástalanít`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-플레이어가 가위로 `상호 작용`하여 TNT 폭발을 막을 수 있도록 허용합니다.
+A játékosok `kölcsönhatás` használatával megakadályozhatják a TNT robbanását.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
+**[Purpur világ konfiguráció](configurations/purpur/world.md) `hatástalanítás-tnt-változás` értéke legalább `0.0` kell legyen a működéshez.**
 
 {% endhint %}
 
-### 제공 예정 권한
+### Biztosított jog
 
-#### `plazma.bypass.ncr-require`
+#### `plazma.mellőzés.ncr-szükség`
 
-- **기본 제공**: `없음`
+- **Alapértelmezett**: `None`
 
-플레이어가 [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) 모드가 설치되어 있지 않아도 접속할 수 있도록 허용합니다.
+A játékosoknak lehetőségük van a [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) módot telepítetlenül is csatlakozni.
 
 {% hint style="info" %}
 
-**[Plazma 세계별 구성](configurations/plazma/world.md)에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
+**[Plazma világ konfiguráció](configurations/plazma/world.md) `nincs-csevegés-jelentések > telepítés-szükséges` aktiválása szükséges a működéshez.**
 
 {% endhint %}
 
 ***
 
-[^1]: Operator.
+[^1]: Operátor.
 
-[^2]: 예: `ender_dragon`
+[^2]: Például: `ender_dragon`
