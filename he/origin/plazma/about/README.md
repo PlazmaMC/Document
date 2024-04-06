@@ -58,11 +58,9 @@ description: גלו מהו פלזמה כפלטפורמת שרת.
 - **פלטפורמה שנבחרה על ידי הרבה זרמים**\
   משמשת כסליל הצפייה של הרבה זרמים מובילים.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>טרנד משתמשי Plazma בזמן אמת</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ הורדה
 
