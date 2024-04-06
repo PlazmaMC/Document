@@ -19,7 +19,7 @@
     - [🖥️ Parancsok](plazma/administration/reference/commands.md)
     - [🛡️ Jogosultságok](plazma/administration/reference/permissions.md)
     - [🎛️ Argumentumok és tulajdonságok](plazma/administration/reference/arguments.md)
-    - [📋 구성](plazma/administration/reference/configurations/README.md)
+    - [📋 Konfiguráció](plazma/administration/reference/configurations/README.md)
       - [🪨 Tulajdonság](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
