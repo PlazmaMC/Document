@@ -1,5 +1,5 @@
 ---
-description: Ha kérdésed van, kérlek tedd fel a Discord-on vagy a GitHub Issues-on keresztül.
+description: Ha kérdésed van, kérlek tedd fel a Discordon vagy a GitHub Tárgyalásokon keresztül.
 ---
 
 # 🏠 Üdvözöljük a Docs Portalon
