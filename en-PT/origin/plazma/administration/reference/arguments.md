@@ -4,7 +4,7 @@ description: Learn about the start arguments and system properties, me hearties.
 
 # 🎛️ Arguments and Properties
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Start acquisition and system attributes be values added to Plazma execution [commands](#user-content-fn-1)[^1], impacting Plazma's operation overall.
 
 [Location to add to the command](#user-content-fn-2)[^2] will be divided into **start arguments** and **system properties** according to the instructions.
 
