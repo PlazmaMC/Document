@@ -21,8 +21,8 @@ description: Zjistěte, o jakou serverovou platformu se jedná.
    Všechny opravy od [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) jsou zahrnuty, a díky vlastní optimalizaci a vestavěným módu poskytuje nejlepší výkon.
 3. **Hra podle vašich představ**\
    [Purpur](https://github.com/PurpurMC/Purpur) obsažený v Plazmě vám umožňuje upravit vlastnosti hry.
-4. **Bezpečný server pro hraní**\
-   S obsahem [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) můžete od verze 1.19 deaktivovat nový [systém hlášení chatu](#user-content-fn-3)[^3] od Mojangu a zcela odstranit sběr diagnostických údajů pro bezpečné hraní na serveru bez sledování.
+4. **Bezpečný herní server**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) obsahuje možnost deaktivace [systému nahlášení chatu](#user-content-fn-3)[^3] od [Mojang](#user-content-fn-2)[^2], který byl přidán od verze 1.19, a kompletní odstranění sběrače diagnostických informací, což umožňuje hrát na serveru bez sledování.
 5. **Nejrychlejší aktualizace**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) udržuje zahrnuté opravy Plazmy vždy aktuální, což zajišťuje nejrychlejší aktualizace mezi serverovými platformami založenými na Paper.
 6. **Optimalizace základních konfiguračních souborů**\
