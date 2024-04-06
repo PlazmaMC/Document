@@ -24,43 +24,47 @@ Si eres desarrollador y necesitas otro tipo de archivo, consulta la siguiente p�
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
-            <th>Versión</th>
-            <th>Descargar</th>
+            <th>버전</th>
+            <th>다운로드</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>1.20.5</td>
             <td><a href="">
- <img src="https://badge.plazmamc.org/0/En%20espera%20de%20lanzamiento" alt="En espera de lanzamiento">
- </a></td>
+                <img src="https://badge.plazmamc.org/0/릴리스%20대기중" alt="릴리스 대기중">
+            </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
- <img src="https://badge.plazmamc.org/1/Descargar" alt="Descargar">
- </a></td>
+                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+            </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
- <img src="https://badge.plazmamc.org/1/Descargar" alt="Descargar">
- </a></td>
+                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+            </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
- <img src="https://badge.plazmamc.org/1/Descargar" alt="Descargar">
- </a></td>
+                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+            </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
- <img src="https://badge.plazmamc.org/1/Descargar" alt="Descargar">
- </a></td>
+                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+            </a></td>
         </tr>
     </tbody>
 </table>
+
+***
