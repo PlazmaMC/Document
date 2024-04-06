@@ -1,5 +1,5 @@
 ---
-description: 플러그인이 정상 작동하지 않을 때 해결하는 방법에 대해 알아보세요.
+description: Découvrez comment résoudre les problèmes lorsque le plug-in ne fonctionne pas correctement.
 ---
 
-# ⏬ 플러그인
+# ⏬ Plug-in
