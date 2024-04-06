@@ -8,7 +8,7 @@ description: Ta reda på vanliga frågor.
 
 **Hittar du inte det svar du letar efter?**
 
-Fråga gemenskapen via [Officiell Discord-server](https://discord.gg/MmfC52K8A8) eller [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Officiell Discord-server](https://discord.gg/MmfC52K8A8) eller via [GitHub-diskussioner](https://github.com/PlazmaMC/PlazmaBukkit/discussions) för att ställa frågor till gemenskapen!
 
 {% endhint %}
 
