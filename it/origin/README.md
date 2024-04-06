@@ -1,5 +1,5 @@
 ---
-description: Se hai domande, per favore chiedi su Discord o GitHub Issues.
+description: Se hai domande, per favore chiedi su Discord o GitHub Discussions.
 ---
 
 # 🏠 Benvenuti nel portale della documentazione
