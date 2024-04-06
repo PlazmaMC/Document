@@ -10,7 +10,7 @@ description: Plazma의 권한에 대해 알아보세요.
 
 ***
 
-## 기본 권한 체계 이해하기 <a href="#id-1" id="id-1"></a>
+## 권한 체계 이해하기 <a href="#id-1" id="id-1"></a>
 
 Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니다.
 
@@ -320,17 +320,17 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 - **기본 제공**: `없음`
 
-플레이어가 접속자수 제한을 무시하도록 허용합니다.
+plaiyer haz access limit ignord
 
 #### `purpur.mending_shift_click`
 
 - **기본 제공**: `없음`
 
-플레이어가 `웅크리고 상호 작용`하면 들고 있는 아이템을 수선할 수 있도록 허용합니다.
+plaiyer can fix itemz wen `crouch interact`
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
+**[Purpur wurld configz](configurations/purpur/world.md) needz `shift-right-click-repairs-mending-points` enabled to work.**
 
 {% endhint %}
 
@@ -338,7 +338,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 - **기본 제공**: `없음`
 
-플레이어가 스포너를 설치할 수 있도록 허용합니다.
+plaiyer can put spawnerz
 
 {% hint style="info" %}
 
@@ -350,7 +350,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 - **기본 제공**: `없음`
 
-플레이어가 네더 차원문을 사용했을 때 바로 순간이동 하도록 합니다.
+plaiyer teleportz instantly wen using nether portal
 
 #### `purpur.sign.color`
 
