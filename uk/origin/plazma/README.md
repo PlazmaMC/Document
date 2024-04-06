@@ -12,7 +12,7 @@ description: "Plazma - це відкрите серверне програмне
 
 **Чи не вдається вирішити проблему за допомогою посібника?**
 
-Задайте питання спільноті через [офіційний Discord сервер](https://discord.gg/MmfC52K8A8) або [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
 
 {% кінець нагадування %}
 
@@ -39,3 +39,5 @@ description: "Plazma - це відкрите серверне програмне
 {% зміст-посилання url="розробники.md" %}
 [розробники.md](розробники.md)
 {% кінець-змісту %}
+
+***
