@@ -57,11 +57,9 @@ description: Научете повече за каква платформа е P
 - **Платформа, избрана от много стриймъри**\
   Използва се като предпочитан бъкет от много гледачи на стриймъри.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Потребителски трендове на Plazma в реално време</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Следене на реално време на потребителите на Plazma">
+</a>
 
 ## ⬇️ Изтегляне
 
