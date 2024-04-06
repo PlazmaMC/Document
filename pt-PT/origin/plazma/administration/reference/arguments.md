@@ -4,7 +4,7 @@ description: Descubra sobre os argumentos de inicialização e as propriedades d
 
 # 🎛️ Argumentos e Propriedades
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Os argumentos de entrada e as propriedades do sistema são valores adicionais anexados ao comando usado na execução do Plazma, que afetam globalmente o funcionamento do Plazma.
 
 [명령어에 덧붙이는 위치](#user-content-fn-2)[^2]에 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
 
