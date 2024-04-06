@@ -1,15 +1,15 @@
 ---
-description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법입니다.
+description: پیکربندی، ساده‌ترین روش برای سفارشی‌سازی Plazma می‌باشد.
 ---
 
-# 📋 구성
+# 📋 ساختار
 
 ***
 
-## 🪨 속성 <a href="#id-1" id="id-1"></a>
+## 🪨 ویژگی <a href="#id-1" id="id-1"></a>
 
-> 속성은 Minecraft에서 제공하는 가장 기초적인 구성 파일입니다.
-> 속성을 사용하면 게임의 기본적인 메커니즘을 변경할 수 있습니다.
+> ویژگی یکی از پایه‌ای‌ترین فایل‌های تنظیماتی است که در Minecraft ارائه می‌شود.
+> استفاده از ویژگی به شما امکان تغییر مکانیزم‌های پایه‌ای بازی را می‌دهد.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -17,10 +17,10 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🪣 Bukkit 구성 <a href="#id-2" id="id-2"></a>
+## 🪣 تنظیمات Bukkit <a href="#id-2" id="id-2"></a>
 
-> Bukkit 구성은 Plazma에서 제공하는 가장 기초적인 구성 파일입니다.
-> Bukkit 구성을 사용하면 Minecraft 서버의 기본적인 메커니즘을 변경할 수 있습니다.
+> تنظیمات Bukkit یکی از پایه‌ای‌ترین فایل‌های تنظیماتی است که توسط Plazma ارائه می‌شود.
+> استفاده از تنظیمات Bukkit به شما امکان تغییر مکانیزم‌های پایه‌ای سرور Minecraft را می‌دهد.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -28,9 +28,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🚰 Spigot 구성 <a href="#id-3" id="id-3"></a>
+## 🚰 تنظیمات Spigot <a href="#id-3" id="id-3"></a>
 
-> Spigot 구성은 게임의 세부 메커니즘, 플레이어 처리, 명령어 등의 작동 및 메세지를 수정할 수 있게 합니다.
+> تنظیمات Spigot به شما امکان تغییر جزئیات مکانیزم‌ها، پردازش بازیکن‌ها، دستورات و غیره را می‌دهد.
 
 {% content-ref url="spigot.md" %}
 [spigot.md](spigot.md)
@@ -38,9 +38,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🛩️ Paper 구성 <a href="#id-4" id="id-4"></a>
+## 🛩️ تنظیمات Paper <a href="#id-4" id="id-4"></a>
 
-> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](#user-content-fn-1)[^1]을 활성화 할 수 있게 합니다.
+> تنظیمات Paper به شما امکان تغییر کلی مکانیزم‌های Plazma و فعال‌سازی بهینه‌سازی‌ها و رفع آسیب‌پذیری‌ها[^1] را می‌دهد.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
@@ -48,9 +48,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🐡 Pufferfish <a href="#id-6" id="id-6"></a>
+## 🐡 تنظیمات Pufferfish <a href="#id-6" id="id-6"></a>
 
-> Pufferfish 구성은 Plazma의 월드와 엔티티의 처리를 변경할 수 있게 합니다.
+> تنظیمات Pufferfish به شما امکان تغییر پردازش جهان و موجودیت‌ها در Plazma را می‌دهد.
 
 {% content-ref url="pufferfish.md" %}
 [pufferfish.md](pufferfish.md)
@@ -58,9 +58,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🦑 Purpur 구성 <a href="#id-7" id="id-7"></a>
+## 🦑 تنظیمات Purpur <a href="#id-7" id="id-7"></a>
 
-> Purpur 속성은 게임의 전반적인 기본 데이터를 수정할 수 있게 합니다.
+> ویژگی‌های Purpur به شما امکان تغییر داده‌های پایه‌ای بازی را می‌دهد.
 
 {% content-ref url="purpur/" %}
 [purpur](purpur/)
@@ -68,9 +68,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## ✨ Plazma 구성 <a href="#id-8" id="id-8"></a>
+## ✨ تنظیمات Plazma <a href="#id-8" id="id-8"></a>
 
-> Plazma 구성은 Plazma의 기능을 사용자화 할 수 있게 합니다.
+> تنظیمات Plazma به شما امکان سفارشی‌سازی ویژگی‌های Plazma را می‌دهد.
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
