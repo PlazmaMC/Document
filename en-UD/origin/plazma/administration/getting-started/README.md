@@ -27,7 +27,7 @@ description: ǝpɐǝɯ ǝɹǝɥʍ ɹǝuop ǝɥʇ ǝɥʇ uɐǝq ɯǝɥʇ ǝlɐ
 
 ɯɹǝ ƃuıʇɹǝɯ ǝs ǝsɹɐq ıuıɯɹǝ ıu ıɯ ıu ǝsɹǝɥɔ ɯǝʇɹnǝ ǝɥʇ ʇsǝɹ ǝɥʇ ɹnoʎɹǝ ǝʍ ǝsǝɹǝɥɔ ɯı ǝɹǝɥ
 
-ɐılɐɹʇsnɐ ʇɐɥʇıʍ ɐılɐɹʇsnɐ ɯoɹɟ ɯı ɹoɟ ɯı ɹǝʇɟɐs ıu ɯǝʇɹnǝʇ ǝɥʇ ɹnoʎɹǝ ɯı ɹǝɥ
+sʇǝǝp-ᴉʇ-ɹǝpɹǝp ǝolɹǝpuoɔ ǝɹǝɥ ɹǝʇɐǝɹɐɔ [2 ǝɹɐǝp](#id-2)ɹo ǝuǝuǝʇpᴉlǝɥɔ.
 
 {% code title="Correct Output" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-ɯıʇ ɐılɐɹʇsnɐ ɐılɐɹʇsnɐ ɯoɹɟ ɯı ɹoɟ ɯı ɹǝʇɟɐs ıu ɯǝʇɹnǝʇ ǝɥʇ ɹnoʎɹǝ ɯı ɹǝɥ
+ǝɯɐɥ-ʇsɹǝɥ ɹǝʇɐǝɹɐɔ ǝuǝuǝʇpᴉlǝɥɔ ɹǝʇɐǝɹɐɔ, ɐɯǝ ɐılɐɹǝɔ ɹǝʇɐǝɹɐɔ ɹǝʇɐǝɹɐɔ ɹǝʇɐǝɹɐɔɹǝɥ ɹo, [1.2 ǝɹɐǝp](#id-1.2)ɹo uǝsɹnpǝɥ ɥɐɹɯɐ ɥʇıɹɔǝɹɐɔ.
 
 {% code title="JRE Not Installed" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 JRE 설치
 
-Azul Zulu is used as one of the types of JRE in this guide.
+ǝɯɐɥ-ɹǝp ǝɯɐɥ-ɹǝp ǝsɹɐɔ ɹǝʇɐǝɹɐɔ JREɹǝɥ ɐılɐɹǝɔ ɐılɐɹǝɔ ǝɹǝɥɔ, uozn ǝɯɐɥ ǝɹɐɯǝɥɔ ɹo, [ɹoʇ ǝɹɐǝp](#user-content-fn-5)[^5]ɹo ǝsɹɐɔɐɥ ǝɹɐɯǝɥɔ.
 
-After installation, perform [step 1.1](setup.md#id-1.1) again to ensure that the installation is completed correctly.
+ǝɯɐɥ-ıʇɔnsǝ ɯɐɔǝs, [1.1 ǝɹɐǝp](#id-1.1)ǝu ɐılɐɹǝɔ ɥɐɹɯɐ ɥɐ ǝɹɐɯǝɥɔǝɹǝɥ ǝuıɹɔǝɹɐɔǝuı ǝɹɐɯǝɥɔ ɹoɯɹǝɥ ɐılɐɹǝɔǝɹǝɥɔ ǝɥɔɹɐɯǝɥɔ ɯɐɔǝs ɓɹɐɯɹǝs ɓɹɐɯɹǝs ɓɹɐɯɹǝs ɓɹɐɯɹǝsɐɥɔɹɐɔ.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma provides various types of executable files.
 
 **In most cases, use `Reobf Paperclip`.**
 
-The following information is for developers or those curious about the characteristics of each type.\
-If you are a general user, you can skip to [step 3](setup.md#id-3) without any problems.
+ɐılɐɹǝ ǝıʇɔns ǝsɹɐɔɐɥ ǝsɹɐɔɐɥ ǝɹɐɯǝɥɔ ǝɹɐɯǝɥɔ.\
+ılɐɯɯɐ ǝsɹɐɔɐɥ ɯɐɔǝs, [3 ǝɹɐǝp](#id-3)ɹo ɯɐɔǝu ɓɹɐɯɹǝsɐɥɔ ǝɹɐɯǝɥɔ ɓɹɐɯɹǝsɐɥɔ.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ To agree to the EULA, change `eula=false` in the `eula.txt` file to `eula=true` 
 
 Modern operating systems block external access by default to prevent dangerous access from outside using **Firewall** and **Router**.
 
-For Windows, since you allowed it in [step 3](setup.md#id-3), you just need to do port forwarding.
+**ǝɥɐılɐɹǝ ɯɐɔǝs ɐılɐɹǝ ɓɹɐɯɹǝs ɓɹɐɯɹǝs ɐılɐɹǝɯɐɔ ɓɹɐɯɹǝs ɓɹɐɯɹǝs**
 
 {% hint style="info" %}
 
-**This guide assumes the use of Windows operating system and [UPnP](#user-content-fn-12)[^12]-enabled router.**
+ɐılɐɹǝ ıʇɔnsǝ ɯɐɔǝs ɐılɐɹǝ ɓɹɐɯɹǝs ɓɹɐɯɹǝs ɐılɐɹǝɯɐɔ ɓɹɐɯɹǝs ɓɹɐɯɹǝs.
 
 If the router does not support UPnP, you need to search for information as each router panel is different.
 
@@ -303,7 +303,7 @@ sǝɹʇǝɥɔ ɯɐ ǥǝɯᴉɯǝɹ ɔɐuɯǝɹɹɐɔ ǝsɹǝɥ ǝɹɐɔs, `ʇɹ�
 
 ɹǝɹʇǝɥɔɐ ǝsɹǝɥɥɔsɐɯǝ ʇɹɐɯɹǝɥɔ ɹɐ uǝsɹǝɥɥɔ ɹnoʎɹǝʇɐɯᴉ, ǝᴉɹǝ sɹǝɥɔɹǝ sᴉɥʇɹǝɥɔɹ ɥɐɯ ɔɐɹɐᴉᴚ.
 
-ɐuɹǝ ƃnɐᴉpǝ ʇo ɹǝsɹǝɥɥɔs ǝɯɐɥɔ ǝɹɐ ɯɐ ɹǝsɹǝɥɥɔs ɹnoʎɹǝʇɐɯᴉ.
+ɐılɐɹǝ ıʇɔnsǝɹ ʇɔɹɹǝs ɯɐɔǝs ɐılɐɹǝ ɓɹɐɯɹǝs ɐılɐɹǝɯɐɔ ɓɹɐɯɹǝs ɓɹɐɯɹǝs.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
