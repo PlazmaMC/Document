@@ -24,43 +24,47 @@ Wenn Sie ein Entwickler sind und eine andere Art von Datei benötigen, sehen Sie
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
-            <th>Version</th>
-            <th>Herunterladen</th>
+            <th>버전</th>
+            <th>다운로드</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>1.20.5</td>
             <td><a href="">
- <img src="https://badge.plazmamc.org/0/Warten%20auf%20Freigabe" alt="Warten auf Freigabe">
- </a></td>
+                <img src="https://badge.plazmamc.org/0/릴리스%20대기중" alt="릴리스 대기중">
+            </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
- <img src="https://badge.plazmamc.org/1/Herunterladen" alt="Herunterladen">
- </a></td>
+                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+            </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
- <img src="https://badge.plazmamc.org/1/Herunterladen" alt="Herunterladen">
- </a></td>
+                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+            </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
- <img src="https://badge.plazmamc.org/1/Herunterladen" alt="Herunterladen">
- </a></td>
+                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+            </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
- <img src="https://badge.plazmamc.org/1/Herunterladen" alt="Herunterladen">
- </a></td>
+                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+            </a></td>
         </tr>
     </tbody>
 </table>
+
+***
