@@ -14,7 +14,7 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 
 **설명서를 통해 문제를 해결할 수 없나요?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)를 통해 커뮤니티에 질문해 보세요!
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
 
 {% endhint %}
 
@@ -41,3 +41,5 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***

@@ -117,7 +117,7 @@ VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항
 
 **서버 시작 명령어 뒤에 `safeMode`를 입력하여 데이터팩을 모두 비활성화 한 뒤 서버를 시작할 수 있습니다.**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safeMode)
+[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
 
 {% endhint %}
 

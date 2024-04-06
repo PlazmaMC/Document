@@ -58,10 +58,9 @@ description: Plazma는 어떤 서버 플랫폼인지 알아보세요.
 * **많은 스트리머가 선택한 플랫폼**\
   많은 스트리머 분들의 시청자 첨여용 버킷으로 선택받아 사용되고 있습니다.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ 다운로드
 
