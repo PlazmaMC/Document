@@ -27,7 +27,7 @@ Da Plazma auf der offiziellen Serverplattform von Mojang Studios basiert[^2], mu
 
 Um zu überprüfen, ob JRE auf dem System installiert ist, geben Sie [`cmd /k java --version`](#user-content-fn-4)[^4] in das Ausführungsfenster ein und führen Sie es aus.
 
-Wenn die Ausgabe wie folgt aussieht, überspringen Sie [Schritt 2](setup.md#id-2).
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="Richtige Ausgabe" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (Build 21.0.2+13-LTS, gemischter Modus,
 
 {% endcode %}
 
-Wenn dies nicht der Fall ist oder wenn die Ausgabe wie folgt aussieht, ist JRE nicht vorhanden oder zu alt, und Sie müssen [Schritt 1.2](setup.md#id-1.2) ausführen.
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="JRE nicht installiert" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Fehler: Es ist ein schwerwiegender Ausnahmefehler aufgetreten. Das Programm wird
 
 ### 1.2 JRE-Installation
 
-In diesem Handbuch verwenden wir Azul Zulu als eine der [JRE-Varianten](#user-content-fn-5)[^5].
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Überprüfen Sie nach Abschluss der Installation erneut [Schritt 1.1](setup.md#id-1.1), um sicherzustellen, dass die Installation korrekt abgeschlossen wurde.
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma bietet verschiedene Arten von ausführbaren Dateien an.
 
 **In den meisten Fällen wird `Reobf Paperclip` verwendet.**
 
-Die folgenden Informationen sind für Entwickler oder diejenigen gedacht, die sich für die Eigenschaften der verschiedenen Arten interessieren.\
-Für normale Benutzer ist es nicht erforderlich, [Schritt 3](setup.md#id-3) zu lesen.
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -159,8 +159,7 @@ Der Name der ausführbaren Datei ist `plazma-(Version Manager)-1.20.4-R0.1-SNAPS
 
 Um Plazma einfach zu starten und den Server automatisch neu zu starten, müssen Sie ein [Startskript](#user-content-fn-6)[^6] erstellen.
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+Über [Flags.sh](https://flags.sh) können Sie das Startskript für [Plazma](#user-content-fn-7)[^7] erstellen, indem Sie nur den [zu verwendenden Speicher](#user-content-fn-8)[^8] eingeben, werden die Befehle automatisch optimiert.
 
 Sie können das Startskript über den Download-Button unten links herunterladen.\
 **Stellen Sie sicher, dass das heruntergeladene Startskript mit Ihrem Betriebssystem übereinstimmt.**
@@ -191,7 +190,7 @@ Die EULA[^9] ist ein Endbenutzer-Lizenzvertrag, dem Sie zustimmen müssen, um di
 
 {% Hinweis Stil="Warnung" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+Wenn Sie nicht zustimmen, können Sie den Server nicht starten und bei Verstoß gegen die EULA können [Sanktionen](#user-content-fn-11)[^11] wie die Sperrung des Kontos verhängt werden.
 
 {% endhint %}
 
@@ -203,11 +202,11 @@ Um der EULA zuzustimmen, ändern Sie `eula=false` in der `eula.txt`-Datei in `eu
 
 Moderne Betriebssysteme blockieren standardmäßig externe Zugriffe, um vor Gefahren zu schützen, indem sie die Firewall und den Router verwenden.
 
-Da Sie in Schritt 3 die Windows-Firewall bereits zugelassen haben, müssen Sie nur noch Port-Weiterleitungen einrichten.
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% Hinweis-Stil="info" %}
 
-**In diesem Leitfaden wird davon ausgegangen, dass das Betriebssystem Windows und der Router UPnP unterstützen.**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Wenn Ihr Router UPnP nicht unterstützt, müssen Sie je nach Routermodell Informationen suchen.
 
@@ -300,11 +299,11 @@ Wenn Server und Spiel auf demselben PC ausgeführt werden, können Sie sich mit 
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. Fortschritt
 
 Wenn der Server erfolgreich gestartet wurde und ordnungsgemäß funktioniert, ist es jetzt an der Zeit, den Server anzupassen.
 
-Erfahren Sie, wie Sie den Server anpassen können, indem Sie den folgenden Leitfaden lesen.
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% content-ref url="naechster-schritt.md" %}
 [naechster-schritt.md](naechster-schritt.md)
