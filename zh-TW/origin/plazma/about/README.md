@@ -58,7 +58,7 @@ description: 了解 Plazma 是什麼服務器平台。
   被許多串流者的觀眾選為使用的存儲桶。
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="實時 Plazma 使用者趨勢">
 </a>
 
 ## ⬇️ 下載
