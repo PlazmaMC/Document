@@ -4,8 +4,8 @@ description: Uurige algust ja süsteemi atribuute.
 
 # 🎛️ Algused ja atribuudid
 
-Algusmuutujad ja süsteemi atribuudid on väärtused, mis lisatakse [kasutatavatele käskudele](#user-content-fn-1)[^1] Plazma käivitamisel,\
-võimaldades muuta muutumatuid väärtusi pärast Plazma käivitamist.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [Käivitusparameetrite lisamine](#user-content-fn-2)[^2] jaguneb **algparameetriteks** ja **süsteemi atribuutideks** vastavalt nende lisamise kohale käskudele.
 
@@ -27,8 +27,8 @@ Kui te ei tea täpselt, millist rolli iga süsteemi atribuut täidab, siis **är
 
 Süsteemi atribuudid sisestatakse Java käsu argumendina `java` ja `-jar` vahel.
 
-Näiteks kui soovite rakendada `Plazma.dummyProperty` süsteemi atribuuti,\
-siis sisestage järgmine väärtus ja järgmine atribuut sisestatakse `37` ja Plazma alglaadimisel algväärtuseks.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -187,7 +187,7 @@ Kõik sellest tulenevad probleemid on teie enda vastutusel ja Plazma ei paku sel
 - **Tüüp**: `Integer`
 - **Vaikimisi väärtus**: `64`
 
-Määrab plugini [kanali](#user-content-fn-5)[^5] nime piirangu.
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
