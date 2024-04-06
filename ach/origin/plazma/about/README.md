@@ -58,11 +58,9 @@ description: Cwinywa ki woko ki Plazma.
 - **Wek i pwonyo me pwonyo ki server**\
   Kwan me wek ki streamer ki pe kicel ki bucket ma pe kicel ki gin ma wek i cwalo.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Ma gik me Plazma pe iye kelo</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="ŋatwero Plazma makoŋo i kare">
+</a>
 
 ## ⬇️ Download
 
