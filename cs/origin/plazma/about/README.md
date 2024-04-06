@@ -56,7 +56,7 @@ description: Zjistěte, o jakou serverovou platformu se jedná.
   Je používána jako hlavní nástroj pro streamování mnoha streamery a jejich diváky.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Aktuální trendy uživatelů Plazma">
 </a>
 
 ## ⬇️ Stáhnout
