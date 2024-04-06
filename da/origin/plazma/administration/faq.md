@@ -8,7 +8,7 @@ description: Find svar på ofte stillede spørgsmål.
 
 **Kan du ikke finde det svar, du leder efter?**
 
-Spørg fællesskabet via [Officiel Discord-server](https://discord.gg/MmfC52K8A8) eller [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+Spørg fællesskabet ved at bruge [Officiel Discord-server](https://discord.gg/MmfC52K8A8) eller [GitHub-diskussioner](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
