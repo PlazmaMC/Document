@@ -159,7 +159,8 @@ Nazwa pliku wykonywalnego to `plazma-(menedżer wersji)-1.20.4-R0.1-SNAPSHOT-(ty
 
 Aby łatwo uruchamiać Plazma i automatycznie restartować serwer, musisz stworzyć [skrypt startowy](#user-content-fn-6)[^6].
 
-Możesz utworzyć skrypt startowy za pomocą [Flags.sh](https://flags.sh). Wystarczy podać [ilość pamięci do użycia przez Plazma](#user-content-fn-8)[^8], a komenda zostanie zoptymalizowana automatycznie.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Możesz pobrać skrypt startowy klikając na przycisk pobierania w lewym dolnym rogu.\
 **Upewnij się, że pobrany skrypt startowy jest zgodny z twoim systemem operacyjnym.**
@@ -188,7 +189,11 @@ Po pierwszym uruchomieniu skryptu startowego zostanie utworzony plik `eula.txt` 
 
 EULA[^9] to umowa licencyjna, którą trzeba zaakceptować korzystając z usług [Mojang Studios](#user-content-fn-10)[^10].
 
-Brak zgody na EULA uniemożliwi uruchomienie serwera, a naruszenie EULA może skutkować zawieszeniem konta lub innymi [sankcjami](#user-content-fn-11)[^11].
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Aby zaakceptować EULA, zmień `eula=false` na `eula=true` w pliku `eula.txt` i zapisz zmiany.
 
@@ -295,7 +300,7 @@ Jeśli serwer i gra działają na tym samym komputerze, można użyć `localhost
 {% endtab %}
 {% endtabs %}
 
-## 7. Etap rozwoju
+## 7. 발전하기
 
 Jeśli serwer został pomyślnie uruchomiony i działa poprawnie, teraz nadszedł czas na dostosowanie serwera.
 
