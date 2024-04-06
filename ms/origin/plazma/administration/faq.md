@@ -8,7 +8,7 @@ description: Ketahui tentang soalan lazim.
 
 **Tidak dapat menemui jawapan yang anda cari?**
 
-[Server Discord resmi](https://discord.gg/MmfC52K8A8) atau [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) untuk bertanya kepada komunitas!
+[Server Discord rasmi](https://discord.gg/MmfC52K8A8) atau [Perbincangan GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) untuk bertanya kepada komuniti!
 
 {% endhint %}
 
