@@ -7,11 +7,11 @@ description: Kwon ma Plazma ki yoo kare ma server iye ki kwanyo.
 Kwon ma Plazma ki tye kwede ngom me cwinywa, kadi sistema ki dong i kom bedo ma i kom.
 
 |                 | Tye kwede | Tye kwede iye |
-| :-------------: | --------: | ------------: |
-|     Akitekci    |       x64 |             - |
-|       RAM       |       8GB |          16GB |
-| Dano me cwinywa |       1GB |           8GB |
-|       JRE       |        17 |            21 |
+| :-------------: | :-------- | :------------ |
+|     Akitekci    | x64       | -             |
+|       RAM       | 8GB       | 16GB          |
+| Dano me cwinywa | 1GB       | 8GB           |
+|       JRE       | 17        | 21            |
 
 Icwinywa me kwo koni i kit ma pe ngom, [Visual Studio Code](https://code.visualstudio.com/download) me iye ma kwo yee kwanyo woko iye.
 
