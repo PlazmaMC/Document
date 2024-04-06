@@ -58,11 +58,9 @@ description: Saznajte više o platformi Plazma za poslužitelje.
 - **Platforma koju mnogi streameri odabiru**\
   Koristi se kao glavna verzija za gledatelje mnogih streamera.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Stvarni trendovi korisnika Plazme u realnom vremenu</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma user trend">
+</a>
 
 ## ⬇️ Preuzimanje
 
