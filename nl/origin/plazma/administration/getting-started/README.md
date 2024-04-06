@@ -159,7 +159,8 @@ De naam van het uitvoerbare bestand is `plazma-(version manager)-1.20.4-R0.1-SNA
 
 Om Plazma eenvoudig te starten en de server automatisch opnieuw te starten, moet u een [startscript](#user-content-fn-6)[^6] maken.
 
-U kunt een startscript maken via [Flags.sh](https://flags.sh). Voer alleen de [geheugenlimiet](#user-content-fn-8)[^8] in en de opdracht wordt automatisch geoptimaliseerd.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 U kunt het startscript downloaden via de knop linksonder.\
 **Controleer of het gedownloade startscript overeenkomt met uw besturingssysteem.**
@@ -188,7 +189,11 @@ Na het uitvoeren van het startscript wordt er een 'eula.txt' bestand in de map g
 
 EULA[^9] is een gebruiksrechtovereenkomst waarbij u akkoord moet gaan met het gebruik van de diensten van [Mojang Studios](#user-content-fn-10)[^10].
 
-Zonder akkoord te gaan met de EULA kunt u de server niet starten en bij schending van de EULA kunt u sancties zoals accountopschorting krijgen, enzovoort.]\(#user-content-fn-11)[^11]
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Om akkoord te gaan met de EULA, wijzigt u `eula=false` naar `eula=true` in het `eula.txt` bestand en slaat u het op.
 
@@ -295,7 +300,7 @@ Als de server en het spel op dezelfde pc worden uitgevoerd, kunt u verbinding ma
 {% endtab %}
 {% endtabs %}
 
-## 7. Development Stage
+## 7. 발전하기
 
 Als de server succesvol is gestart en correct werkt, is het nu tijd om de server aan te passen.
 
