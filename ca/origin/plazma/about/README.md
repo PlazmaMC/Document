@@ -58,11 +58,9 @@ description: Descobreix què és Plazma com a plataforma de servidor.
 - **Plataforma escollida per molts streamers**\
   És utilitzada com a servidor per molts espectadors de molts streamers.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Tendència d'usuaris en temps real de Plazma</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ Descarregar
 
