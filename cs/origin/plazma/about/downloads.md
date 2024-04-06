@@ -29,8 +29,8 @@ Pokud jste vývojář a potřebujete jiný typ souboru, podívejte se na násled
 <table data-view="cards">
     <thead>
         <tr>
-            <th>버전</th>
-            <th>다운로드</th>
+            <th>Verze</th>
+            <th>Stáhnout</th>
         </tr>
     </thead>
     <tbody>
