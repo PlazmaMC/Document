@@ -2,7 +2,7 @@
 description: Learn how to userize the server.
 ---
 
-# 📶 Development Stage
+# 📶 발전하기
 
 Using a modified server platform like Plazma instead of the official server platform provided by Mojang Studios
 is because the most significant reason is the ability for **customization**.
