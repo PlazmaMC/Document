@@ -159,8 +159,7 @@ The name of the executable file is determined as `plazma-(version manager)-1.20.
 
 To easily start Plazma and automatically restart the server, you need to create a [startup script](#user-content-fn-6).
 
-You can create a startup script via [Flags.sh](https://flags.sh).\
-Simply enter the amount of memory to use for Plazma, and the command will be automatically optimized.
+sɥʇɹᴉq ɹǝʇɐɯᴉuɐɹʇɹǝɯ ǝɥʇ puɐ sᴉɥʇɹɐǝɥ ɟo [Flags.sh](https://flags.sh) ɹnoɟ ǝɥʇ ǝɹoɯ [sǝɹǝɥʇuᴉ](#user-content-fn-7)[^7]ɥʇ sᴉɥʇ ǝɥʇ ɹǝʇɐɯᴉuɐɹʇɹǝɯ ǝɥʇ puɐ ɯɹǝɥ ǝɥʇ ǝɹoɯ ǝʇᴉɹɹǝɯɐ ɯnɹʇɐɥɐɹɐɯ oʇɥǝɹ
 
 You can download the startup script by clicking the download button at the bottom left.\
 **Make sure the downloaded startup script matches your operating system.**
@@ -189,7 +188,11 @@ Once you run the startup script, a `eula.txt` file will be created in the folder
 
 EULA[^9] is a license agreement that you must agree to by using the services of [Mojang Studios](#user-content-fn-10).
 
-If you do not agree to the EULA, you cannot start the server, and violating the EULA may result in sanctions such as account suspension, etc. ([see details](#user-content-fn-11)).
+{% hint style="warning" %}
+
+ɯɐuᴉl ɹǝɥʇɐɯ ǝɥʇ ǝɹoɯɐ ǝɥʇ ɹǝʌǝu, sǝɹǝɥʇuᴉ ɹnoɟ ɹǝʇɐɯᴉuɐɹʇɹǝɯ ǝɥʇ ɹǝʍ ǝuᴉɐɔ ǝɥʇ ǝɥʇ ǝɹoɯ ǝʇᴉɹɹǝɯɐ ǝɥʇ ɹǝʇɐɯᴉuɐɹʇɹǝɯ ǝɥʇ ɹǝʌǝu, ɹǝʇɐɯᴉuɐɹʇɹǝɯ ɹnoɟ ǝɥʇ ɹǝʇɐɯᴉuɐɹʇɹǝɯ ǝɥʇ ɹǝʍ ǝuᴉɐɔ ǝɥʇ ɹǝʍ ǝuᴉɐɔ ǝɥʇ ɹǝʍ ǝuᴉɐɔ ǝɥʇ ɹǝʍ ǝuᴉɐɔ ɹnoɟ ǝɥʇ ɹǝʍ ǝuᴉɐɔ ɹnoɟ ǝɥʇ ɹǝʍ ǝuᴉɐɔ ɹnoɟ ɹǝʌǝu
+
+{% endhint %}
 
 To agree to the EULA, change `eula=false` in the `eula.txt` file to `eula=true` and save it.
 
@@ -296,7 +299,7 @@ sǝɹʇǝɥɔ ɯɐ ǥǝɯᴉɯǝɹ ɔɐuɯǝɹɹɐɔ ǝsɹǝɥ ǝɹɐɔs, `ʇɹ�
 {% endtab %}
 {% endtabs %}
 
-## 7. ǝlɹɐɯǝ ǝuɐɯǝ
+## 7. ɯɐlǝuᴉɹǝl
 
 ɹǝɹʇǝɥɔɐ ǝsɹǝɥɥɔsɐɯǝ ʇɹɐɯɹǝɥɔ ɹɐ uǝsɹǝɥɥɔ ɹnoʎɹǝʇɐɯᴉ, ǝᴉɹǝ sɹǝɥɔɹǝ sᴉɥʇɹǝɥɔɹ ɥɐɯ ɔɐɹɐᴉᴚ.
 
