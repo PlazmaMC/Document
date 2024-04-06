@@ -12,7 +12,7 @@ description: "Plazma egy nyílt forráskódú szerver platform a Minecraft: Java
 
 **Nem tudja megoldani a problémát a kézikönyv segítségével?**
 
-[Hivatalos Discord szerver](https://discord.gg/MmfC52K8A8) vagy [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) oldalon tegye fel kérdését a közösségnek!
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ description: "Plazma egy nyílt forráskódú szerver platform a Minecraft: Java
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
