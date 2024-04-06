@@ -6,7 +6,7 @@ description: Erfahren Sie mehr über Startargumente und Systemeigenschaften.
 
 Startvariablen und Systemeigenschaften sind Werte, die an [Plazma-Befehle](#user-content-fn-1)[^1] angehängt werden, um Werte hinzuzufügen, die nach dem Start von Plazma nicht mehr geändert werden können.
 
-Je nach [Anhängestelle des Befehls](#user-content-fn-2)[^2] werden sie in **Startargumente** und **Systemeigenschaften** unterteilt.
+[Anweisungsposition](#user-content-fn-2)[^2] wird in **Startargumente** und **Systemeigenschaften** unterteilt.
 
 ***
 
@@ -34,13 +34,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` zeigt an, dass das Argument nicht in die JVM integriert ist, sondern ein eigenes Argument für Plazma ist und
 
-wenn kein Wert angegeben wird, wird der Wert auf [`true` festgelegt.](#user-content-fn-3)[^3]
+Wenn keine Werte für Eigenschaften eingegeben werden, wird der Wert auf [`true` festgelegt](#user-content-fn-3)[^3].
 
 {% Hinweis-Stil="info" %}
 
 **Die Paperweight-Serverserie verwendet Punkte in den Attributnamen, um die Systemeigenschaften für jede Plattform zu unterscheiden.**
 
-In einigen Terminals wie Windows Powershell können diese Argumente möglicherweise nicht akzeptiert werden, daher müssen Sie `"` am Anfang und Ende der Argumente [hinzufügen.](#user-content-fn-4)[^4]
+In einigen Terminals wie Windows Powershell können diese Argumente möglicherweise nicht akzeptiert werden, daher müssen Sie `"` am Anfang und Ende der Argumente [hinzufügen](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -131,7 +131,7 @@ Dies protokolliert alle fehlerhaften Schädelblöcke in der Welt mit ihren Posit
 - **Typ**: `Boolean`
 - **Standardwert**: `False`
 
-Deaktiviert die Begrenzung der Anzahl von Plugin-Kanälen pro Spieler auf 128.
+Deaktiviert die Begrenzung der Anzahl von 128 Plug-in [Kanälen](#user-content-fn-5)[^5] pro Spieler.
 
 #### `Paper.disableClassPrioritization`
 
@@ -185,7 +185,7 @@ Alle Probleme, die durch diese Maßnahme entstehen, liegen in Ihrer Verantwortun
 - **Typ**: `Integer`
 - **Standardwert**: `64`
 
-Legt die Beschränkung für den Namen des Plugin-Kanals fest.
+Legt die Beschränkung für die Namen der Plug-in [Kanäle](#user-content-fn-5)[^5] fest.
 
 #### `Paper.maxSignLength`
 
@@ -217,7 +217,7 @@ Aktiviert die Verarbeitung von Kommentaren in YAML-Dateien standardmäßig.
 
 Wenn ein Spieler für die angegebene Zeit (in Sekunden) keine Daten sendet, wird der Spieler gekickt.
 
-Normalerweise sendet das Spiel[^7] weiterhin Herzschläge an den Server, sodass kein Kick erfolgt, wenn das Spiel nicht antwortet, wird angenommen, dass es abgestürzt ist und der Spieler wird gekickt.
+In der Regel sendet das [Spiel](#user-content-fn-7)[^7] kontinuierlich [Heartbeat-Signale](#user-content-fn-8)[^8] an den Server, daher wird ein Spieler nicht ausgeschlossen, aber wenn das Spiel nicht antwortet, wird angenommen, dass das Spiel abgestürzt ist und der Server den Spieler nicht mehr behandelt und ihn ausschließt.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -290,7 +290,7 @@ Wenn aktiviert, wird der Server schneller und sicherer, aber es kann einige Gimm
 - **Typ**: `Boolean`
 - **Standardwert**: `false`
 
-Unterdrückt die Warnmeldung[^11], die beim Initialisieren von Plazma angezeigt wird.
+Unterdrückt die Warnung, die beim Initialisieren von Plazma angezeigt wird, [aus](#user-content-fn-11)[^11].
 
 ### Das <a href="#id-1.3" id="id-1.3"></a> Eigenschaft wurde eingestellt
 
