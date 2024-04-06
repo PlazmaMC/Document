@@ -2,7 +2,7 @@
 description: Leer hoe om die bediener aan te pas vir gebruikers.
 ---
 
-# 📶 Ontwikkelingsfase
+# 📶 발전하기
 
 Die rede waarom aangepaste bedienerplatforms soos Plazma gebruik word, sonder om die amptelike bedienerplatform wat deur Mojang Studios voorsien word, te gebruik, is dat dit die moontlikheid van sterk **aanpassing** bied.
 
