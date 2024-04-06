@@ -27,7 +27,7 @@ Plazma étant basé sur la plateforme officielle de serveurs de Mojang Studios, 
 
 Pour vérifier si JRE est installé sur le système, saisissez [`cmd /k java --version`](#user-content-fn-4)[^4] dans la fenêtre d'exécution et exécutez.
 
-Si vous obtenez la sortie suivante, passez à l'étape 2.
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="Sortie correcte" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64 bits Server VM Zulu21.32+17-CA (version 21.0.2+13-LTS, mode mixte, pa
 
 {% endcode %}
 
-Si la sortie est différente ou ressemble à ce qui suit, cela signifie que JRE est absent ou trop ancien, vous devez alors effectuer l'étape 1.2.
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="JRE non installé" lineNumbers="true" %}
 
@@ -61,9 +61,9 @@ Erreur : Une exception fatale s'est produite. Le programme va se fermer.
 
 ### 1.2 Installation de JRE
 
-Dans ce guide, nous utilisons Azul Zulu comme l'une des versions de JRE[^5].
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Une fois l'installation terminée, refaites l'étape 1.1 pour vérifier que l'installation s'est correctement déroulée.
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -125,8 +125,8 @@ Plazma propose différents types de fichiers exécutables.
 
 **Dans la plupart des cas, utilisez `Reobf Paperclip`.**
 
-Les informations ci-dessous sont destinées aux développeurs ou à ceux qui s'intéressent aux caractéristiques de chaque type.\
-Si vous êtes un utilisateur standard, vous pouvez passer directement à l'étape 3 sans problème.
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -158,8 +158,7 @@ Le nom du fichier exécutable est défini comme suit : `plazma-(version du gesti
 
 Pour démarrer Plazma facilement et redémarrer automatiquement le serveur, vous devez créer un [script de démarrage](#user-content-fn-6)[^6].
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+Vous pouvez créer un script de démarrage via [Flags.sh](https://flags.sh) pour Plazma en entrant simplement la [quantité de mémoire à utiliser](#user-content-fn-8)[^8]. Les commandes seront automatiquement optimisées.
 
 Vous pouvez télécharger le script de démarrage en bas à gauche.\
 **Assurez-vous que le script téléchargé correspond à votre système d'exploitation.**
@@ -190,7 +189,7 @@ L'EULA[^9] est un contrat de licence que vous devez accepter en utilisant les se
 
 {% hint style="warning" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+En cas de refus, vous ne pourrez pas démarrer le serveur et pourriez être soumis à des [sanctions](#user-content-fn-11)[^11] telles que la suspension de votre compte pour violation de l'EULA.
 
 {% endhint %}
 
@@ -202,11 +201,11 @@ Pour accepter l'EULA, modifiez `eula=false` en `eula=true` dans le fichier `eula
 
 Les systèmes d'exploitation modernes bloquent généralement l'accès externe par défaut à des fins de sécurité à l'aide du **pare-feu** et du **routeur**.
 
-Pour Windows, puisque vous avez autorisé le pare-feu à l'étape 3, il vous suffit de configurer le transfert de port.
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
 
-**Ce guide suppose que vous utilisez le système d'exploitation Windows et un routeur compatible avec [UPnP](#user-content-fn-12)[^12].**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Si votre routeur ne prend pas en charge l'UPnP, vous devrez rechercher comment configurer le transfert de port spécifiquement pour votre routeur.
 
@@ -299,11 +298,11 @@ Si le serveur et le jeu sont exécutés sur le même PC, vous pouvez vous connec
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. Évoluer
 
 Après avoir démarré avec succès le serveur et qu'il fonctionne correctement, il est temps de le personnaliser.
 
-Découvrez comment personnaliser le serveur en suivant le guide ci-dessous.
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
