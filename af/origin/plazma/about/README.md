@@ -56,7 +56,7 @@ description: Leer meer oor wat Plazma se bedienerplatform behels.
   Dit word gebruik as 'n bedieneremmer vir baie strome se kykers.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma gebruikers tendens">
 </a>
 
 ## ⬇️ Laai Af
