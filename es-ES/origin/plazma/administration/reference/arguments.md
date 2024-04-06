@@ -4,8 +4,8 @@ description: Aprenda sobre los argumentos de inicio y las propiedades del sistem
 
 # 🎛️ Argumentos y propiedades
 
-Los valores de los argumentos de inicio y las propiedades del sistema son valores adjuntos a los [comandos utilizados](#user-content-fn-1)[^1] en la ejecución de Plazma,\
-permitiendo cambiar valores que no pueden ser modificados después de la ejecución de Plazma.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 De acuerdo con la ubicación a la que se adjunta el comando, se divide en **argumentos de inicio** y **atributos del sistema**.
 
@@ -27,8 +27,8 @@ Si no está seguro de qué papel desempeña cada propiedad del sistema, **¡no l
 
 Las propiedades del sistema se ingresan como argumentos de Java entre `java` y `-jar`.
 
-Por ejemplo, si desea aplicar la propiedad del sistema `Plazma.dummyProperty`,\
-al ingresar de la siguiente manera, el valor `37` se asignará a la siguiente propiedad y Plazma se inicializará.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -187,7 +187,7 @@ Cualquier problema causado por esto es responsabilidad del usuario, y Plamza no 
 - **Tipo**: `Integer`
 - **Valor predeterminado**: `64`
 
-Establece el límite de nombres de canales de plugins.
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
