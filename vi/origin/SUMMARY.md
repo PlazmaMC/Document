@@ -19,7 +19,7 @@
     - [🖥️ Lệnh](plazma/administration/reference/commands.md)
     - [🛡️ Quyền](plazma/administration/reference/permissions.md)
     - [🎛️ Đối số và Thuộc tính](plazma/administration/reference/arguments.md)
-    - [📋 구성](plazma/administration/reference/configurations/README.md)
+    - [📋 Cấu hình](plazma/administration/reference/configurations/README.md)
       - [🪨 Thuộc tính](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
