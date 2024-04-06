@@ -26,3 +26,5 @@ description: "Plazma দ্বারা সমর্থিত Minecraft: Java Ed
 | [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) |   ![অত্যন্ত ভাল][vgd]![100%][100]  | [![বিল্ড অবস্থা](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
 | [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |   ![অত্যন্ত ভাল][vgd]![100%][100]  |                                            ![তথ্য নেই][ukn]                                           |
 | [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |   ![অত্যন্ত ভাল][vgd]![100%][100]  |                                            ![তথ্য নেই][ukn]                                           |
+
+***
