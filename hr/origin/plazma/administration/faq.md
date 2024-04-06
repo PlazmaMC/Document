@@ -8,7 +8,7 @@ description: Saznajte više o često postavljanim pitanjima.
 
 **Ne možete pronaći željeni odgovor?**
 
-Pitajte zajednicu putem [Službenog Discord poslužitelja](https://discord.gg/MmfC52K8A8) ili [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Službeni Discord poslužitelj](https://discord.gg/MmfC52K8A8) ili pitajte zajednicu putem [GitHub rasprava](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
