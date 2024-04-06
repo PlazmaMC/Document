@@ -4,7 +4,8 @@ description: Learn about startup arguments and system properties.
 
 # 🎛️ Arguments and Properties
 
-Startup variables and system properties are values appended to the [commands used](#user-content-fn-1)[^1] in Plazma execution, allowing values that cannot be changed after Plazma has been executed to be changed.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 According to the **start argument** and **system properties** in the position added to the command (#user-content-fn-2)[^2], it will be divided.
 
@@ -26,7 +27,8 @@ If you are not sure what each system property does, **do not use it under any ci
 
 System properties are entered as Java command arguments between `java` and `-jar`.
 
-For example, if you want to apply the `Plazma.dummyProperty` system property, entering as follows initializes Plazma with `37` in the next property.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -185,7 +187,7 @@ Any issues that arise from using this are the user's responsibility, and Plamza 
 - **Type**: `Integer`
 - **Default**: `64`
 
-Sets the limit for plugin [channel](#user-content-fn-5)[^5] names.
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
