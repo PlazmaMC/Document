@@ -12,7 +12,7 @@ Plazma Kullanım Belgelerine hoş geldiniz!
 
 **Kılavuzla sorunu çözemiyor musunuz?**
 
-[Resmi Discord Sunucusu](https://discord.gg/MmfC52K8A8) veya [GitHub Sorunları](https://github.com/PlazmaMC/PlazmaBukkit/issues) üzerinden topluluktan yardım alın!
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ Plazma Kullanım Belgelerine hoş geldiniz!
 {% content-ref url="gelistiriciler.md" %}
 [gelistiriciler.md](gelistiriciler.md)
 {% endcontent-ref %}
+
+***
