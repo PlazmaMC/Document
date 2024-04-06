@@ -4,7 +4,7 @@ description: Descubra sobre os argumentos iniciais e as propriedades do sistema.
 
 # 🎛️ Argumentos e Propriedades
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+O início da aquisição e as propriedades do sistema são valores adicionados ao comando usado na execução do Plazma, que têm um impacto geral na operação do Plazma.
 
 [Posição anexada ao comando](#user-content-fn-2)[^2] irá dividir-se em **Argumento Inicial** e **Propriedades do Sistema**.
 
