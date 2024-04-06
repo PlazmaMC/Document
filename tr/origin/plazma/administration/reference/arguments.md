@@ -4,8 +4,7 @@ description: Başlangıç argümanları ve sistem özelliklerini öğrenin.
 
 # 🎛️ Argümanlar ve Özellikler
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
 
 [명령어에 덧붙이는 위치](#user-content-fn-2)[^2]e göre **başlangıç argümanı** ve **sistem özellikleri** olarak ayrılır.
 
@@ -27,8 +26,7 @@ Her sistem özelliğinin ne işe yaradığını kesin olarak bilmiyorsanız, **k
 
 Sistem özellikleri, `java` ve `-jar` arasına Java komut argümanı olarak eklenir.
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+Örneğin, `Plazma.dummyProperty` sistem özelliğini uygulamak istediğinizde, aşağıdaki gibi girerek sonraki özelliğe `37` girilir ve Plazma başlatılır.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -188,7 +186,7 @@ Bu nedenle yaşanan tüm sorunlar sizin sorumluluğunuzdadır ve Plamza bunun i�
 - **Biçimi**: `Integer`
 - **Varsayılan Değer**: `64`
 
-플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
+Eklenti [kanal](#user-content-fn-6)[^6] adının sınırını belirler.
 
 #### `Paper.maxSignLength`
 
