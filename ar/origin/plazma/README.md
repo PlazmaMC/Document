@@ -12,7 +12,7 @@ description: "Plazma هو منصة خادم مفتوحة المصدر لـ Minec
 
 **هل لا يمكنك حل المشكلة من خلال الدليل؟**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
+[الخادم الرسمي لديسكورد](https://discord.gg/MmfC52K8A8) أو من خلال [مناقشات GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions)، جرب أن تسأل المجتمع!
 
 {% endhint %}
 
