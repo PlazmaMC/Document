@@ -2,7 +2,7 @@
 description: Aflați cum să personalizați serverul.
 ---
 
-# 📶 발전하기
+# 📶 A se dezvolta
 
 Motivul pentru care se utilizează o platformă de server modificată precum Plazma în locul platformei oficiale furnizate de Mojang Studios este capacitatea puternică de **personalizare** pe care o oferă.
 
@@ -105,7 +105,7 @@ Datapack-urile pot fi afectate ușor de actualizările Minecraft-ului.
 
 **După comanda de pornire a serverului, puteți introduce `safeMode` pentru a dezactiva toate Datapack-urile și apoi să porniți serverul.**
 
-[Pentru informații detaliate, consultați `Referințe > Argumente și Atribute`.](../reference/arguments.md#safeMode)
+[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -115,9 +115,11 @@ Datapack-urile aplicate pot fi verificate folosind comanda `/datapack list`.
 
 ## Optimizare <a href="#id-4" id="id-4"></a>
 
-Plazma are multe patch-uri de optimizare aplicate. De asemenea, atunci când Plazma este pornită pentru prima dată, optimizează automat configurația, deci nu este necesară efectuarea unor operațiuni suplimentare de optimizare dacă urmați ghidul de [pornire](./README.md).
+Plazma are multe patch-uri de optimizare aplicate. 또한, Plazma가 처음으로 시작되면 자동으로
+구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
 
-Cu toate acestea, dacă sunt mulți jucători conectați sau dimensiunea lumii este mare, puteți efectua operații suplimentare de optimizare urmând ghidul de mai jos.
+하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
+아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
