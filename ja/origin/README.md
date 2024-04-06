@@ -1,5 +1,5 @@
 ---
-description: 質問がある場合は、DiscordまたはGitHub Issuesを通じて質問してください。
+description: 質問がある場合は、DiscordまたはGitHub Discussionsを通じて質問してください。
 ---
 
 # 🏠 ドキュメントポータルへようこそ
