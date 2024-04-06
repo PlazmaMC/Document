@@ -6,7 +6,7 @@ description: Aprengui sobre els arguments d'inici i les propietats del sistema.
 
 Els arguments d'inici i les propietats del sistema són valors afegits als [comandaments utilitzats](#user-content-fn-1)[^1] en l'execució de Plazma, permetent canviar valors que no es poden modificar després de l'execució de Plazma.
 
-En funció de la [posició on s'afegeixen als comandaments](#user-content-fn-2)[^2], es divideixen en **arguments d'inici** i **proprietats del sistema**.
+[Posició afegida a la comanda](#user-content-fn-2)[^2] que es divideix en **paràmetres d'inici** i **proprietats del sistema**.
 
 ***
 
@@ -34,13 +34,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` indica que l'argument no està integrat al JVM sinó que és un argument exclusiu afegit a Plazma,
 
-i si no s'indica cap valor, es fixarà a [`true` de manera predeterminada.](#user-content-fn-3)[^3]
+Si no s'introdueix cap valor als paràmetres, el valor es fixa a [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **La plataforma del servidor de la sèrie Paperweight inclou un punt `.` al nom de cada propietat per diferenciar les propietats de cada plataforma.**
 
-En algunes terminals com Windows Powershell, potser no es permeten aquests arguments, per tant, cal afegir `"` al principi i al final dels arguments. [^4]
+En algunes terminals com ara Windows Powershell, pot ser que no s'acceptin aquests paràmetres, així que cal afegir `"` al principi i al final dels paràmetres [com a mesura de precaució](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -131,7 +131,7 @@ Això registra tots els blocs de crani incorrectes al món amb les seves coorden
 - **Tipus**: `Boolean`
 - **Valor per defecte**: `Fals`
 
-Deshabilita la limitació de 128 canals de plugin per jugador[^5].
+Desactiva la limitació de 128 canals de plugins aplicats per jugador.
 
 #### `Paper.disableClassPrioritization`
 
@@ -185,7 +185,7 @@ L'usuari assumeix tota la responsabilitat dels problemes que puguin sorgir i Pla
 - **Tipus**: `Enter`
 - **Valor per defecte**: `64`
 
-Estableix el límit de caràcters per als noms dels canals de plugins.
+Estableix la restricció del nom dels [canals](#user-content-fn-5)[^5] de plugins.
 
 #### `Paper.maxSignLength`
 
@@ -217,7 +217,7 @@ Activa el tractament dels comentaris YAML per defecte.
 
 Quan un jugador no envia cap dada durant el temps especificat (en segons), es desconnecta.
 
-Normalment, el joc[^7] envia un [senyal de batut](#user-content-fn-8)[^8] al servidor de manera constant, per tant, no es desconnecta, però si el joc no respon, es considera que s'ha bloquejat i es desconnecta el jugador.
+Normalment, el [joc](#user-content-fn-7)[^7] envia de manera constant senyals de [latitut](#user-content-fn-8)[^8] al servidor, pel que no s'expulsa cap jugador, però si el joc no respon es considera que ha col·lisionat i ja no es processa el jugador al servidor, expulsant-lo.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -290,7 +290,7 @@ En activar-ho, el servidor es torna més ràpid i segur, però pot bloquejar alg
 - **Tipus**: `Boolean`
 - **Valor per defecte**: `fals`
 
-Suprimeix l'avís que es mostra en la inicialització de Plazma[^11].
+Inhibeix els [avisos](#user-content-fn-11)[^11] que es mostren quan s'inicialitza Plazma.
 
 ### Propietat obsoleta <a href="#id-1.3" id="id-1.3"></a>
 
