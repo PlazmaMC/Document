@@ -59,7 +59,7 @@ description: Tìm hiểu về Plazma là gì.
   Được sử dụng như một phần của bucket được lựa chọn bởi nhiều người xem của nhiều streamer.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Trend người dùng Plazma trực tiếp">
 </a>
 
 ## ⬇️ Tải xuống
