@@ -7,11 +7,11 @@ description: Dowiedz się, jak zrobić serwer za pomocą Plazma.
 Aby stabilnie korzystać z Plazma, system musi spełniać następujące wymagania.
 
 |                    | Minimalne | Zalecane |
-| :----------------: | --------: | -------: |
-|    Architektura    |       x64 |        - |
-|         RAM        |       8GB |     16GB |
-| Przestrzeń dyskowa |       1GB |      8GB |
-|         JRE        |        17 |       21 |
+| :----------------: | :-------- | :------- |
+|    Architektura    | x64       | -        |
+|         RAM        | 8GB       | 16GB     |
+| Przestrzeń dyskowa | 1GB       | 8GB      |
+|         JRE        | 17        | 21       |
 
 Aby swobodnie edytować pliki konfiguracyjne, zaleca się zainstalowanie edytora takiego jak [Visual Studio Code](https://code.visualstudio.com/download).
 
