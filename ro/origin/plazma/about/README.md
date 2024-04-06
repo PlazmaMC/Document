@@ -15,14 +15,18 @@ description: Aflați mai multe despre platforma de servere Plazma.
 
 ## ⚙️ Caracteristici cheie <a href="#id-2" id="id-2"></a>
 
-1. **Ecosistem puternic de plugin-uri**\
-   Bazat pe [Paper](https://github.com/PaperMC/Paper), Plazma suportă majoritatea [plugin-urilor recente](#user-content-fn-1) disponibile pentru descărcare de pe internet.
-2. **Optimizare fără nevoi de configurare**\
-   Toate patch-urile de la [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) sunt incluse, iar unele optimizări interne și moduri sunt integrate pentru a oferi cea mai bună performanță.
-3. **Personalizarea jocului după bunul plac**\
-   [Purpur](https://github.com/PurpurMC/Purpur) inclus în Plazma permite modificarea atributelor generale ale jocului.
-4. **Server care joacă în condiții de siguranță**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) este inclus pentru a dezactiva [Sistemul de raportare a chat-ului](#user-content-fn-3)[^3] adăugat începând cu versiunea 1.19 de la [Mojang](#user-content-fn-2)[^2], iar colectorul de informații de diagnosticare este complet eliminat pentru a juca pe un server sigur fără urmărire.
+1. **Ecologie puternică a plugin-urilor**\
+   [Paper](https://github.com/PaperMC/Paper) se bazează pe el,
+   majoritatea [ultimelor plugin-uri](#user-content-fn-1)[^1] disponibile pentru descărcare de pe internet funcționează corect.
+2. **Optimizare fără setări necesare**\
+   Toate patch-urile [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) sunt incluse,
+   oferind performanțe excelente datorită unor optimizări interne și modurilor integrate.
+3. **Joc personalizat după dorință**\
+   [Purpur](https://github.com/PurpurMC/Purpur) inclus în Plazma permite modificarea
+   atributelor generale ale jocului conform preferințelor utilizatorului.
+4. **Server care joacă în siguranță**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) este inclus, începând cu versiunea 1.19, pentru a dezactiva
+   sistemul de raportare a chat-ului[^2] al [Mojang](#user-content-fn-2)[^3] și pentru a elimina complet colectorul de informații de diagnosticare, permițând jocul pe un server sigur fără urme de urmărire.
 5. **Cele mai rapide actualizări**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) asigură că patch-urile incluse în Plazma sunt întotdeauna actualizate, oferind cele mai rapide actualizări printre platformele de server bazate pe Paper.
 6. **Optimizarea fișierelor de configurare implicite**\
@@ -41,13 +45,14 @@ description: Aflați mai multe despre platforma de servere Plazma.
 ## ✨ Studii de caz <a href="#id-3" id="id-3"></a>
 
 - **Platforma care gestionează corect și plugin-urile complexe**\
-  Plazma este utilizată pe serverul dezvoltatorului [IPECTER](https://github.com/IPECTER). Cu plugin-uri personalizate care funcționează cu NMS și reflexie, precum și cu o cantitate mare și complexă de datapack-uri, poate susține peste 100 de jucători fără scăderea performanței.
+  Plazma este utilizat pe serverul dezvoltatorului [IPECTER](https://github.com/IPECTER).\
+  Cu propriul său plugin care funcționează cu NMS și reflecție, și cu o cantitate mare și complexă de pachete de date aplicate, serverul poate susține peste 100 de jucători fără scădere de performanță.
 - **Platforma care menține performanța rapidă și pe serverele RPG**\
-  Pentru un singur cluster, a reușit să mențină 100 de jucători fără scăderea TPS-ului și pe 4 clustere, un total de 250 de jucători au putut juca fără probleme.
-- **Platforma care face lumina în chunk-uri/entități**\
-  Schimbarea de la Purpur la Plazma pentru platforma serverului unui server de supraviețuire care avea întârzieri în procesarea chunk-urilor și entităților a permis reducerea majorității întârzierilor.
+  A reușit să mențină 100 de jucători pe un singur cluster fără scădere a TPS-ului și să permită 250 de jucători să joace confortabil pe 4 clustere.
+- **Platforma care arată lumina din chunk-uri/entități**\
+  Schimbarea platformei de la Purpur la Plazma pe serverul de supraviețuire, care avea întârzieri la procesarea chunk-urilor și entităților, a permis reducerea majorității întârzierilor.
 - **Platforma aleasă de mulți streameri**\
-  Este folosită ca server de vizualizare pentru mulți streameri cunoscuți.
+  Este folosit ca un bucket preferat pentru vizionarea de către mulți spectatori ai streamerilor.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
