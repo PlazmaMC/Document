@@ -1,5 +1,5 @@
 ---
-description: 문제가 발생했을 때 대처하는 방법을 알아보세요.
+description: Tudj meg többet arról, hogy hogyan kezeljük a problémákat.
 ---
 
-# 🩺 진단
+# 🩺 Diagnózis
