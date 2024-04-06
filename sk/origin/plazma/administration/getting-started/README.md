@@ -27,7 +27,7 @@ Plazma je oficiálna serverová platforma od Mojang Studios [založená na](#use
 
 Ak chcete overiť prítomnosť JRE v systéme, zadajte v [spustiteľnom okne](#user-content-fn-3)[^3] príkaz [`cmd /k java --version`](#user-content-fn-4)[^4] a spustite ho.
 
-Ak sa zobrazí správny výstup, prejdite na [2. krok](setup.md#id-2).
+Ak sa zobrazí nasledujúce, preskočí sa na [2. krok](#id-2).
 
 {% code title="Správny výstup" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Ak sa výstup nezhoduje s vyššie uvedeným, alebo sa zobrazí nasledovné, znamená to, že JRE chýba alebo je príliš starý a je potrebné vykonať [1.2 krok](setup.md#id-1.2).
+Ak sa nezobrazí vyššie uvedené alebo sa zobrazí nižšie uvedené, znamená to, že chýba JRE alebo je príliš stará, preto musíte vykonať [1.2. krok](#id-1.2).
 
 {% code title="JRE nie je nainštalované" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 Inštalácia JRE
 
-V tomto sprievodcovi používame Azul Zulu ako [jednu z možností](#user-content-fn-5)[^5] pre JRE.
+V tomto návode sa používa Azul Zulu ako jeden z [typov JRE](#user-content-fn-5)[^5].
 
-Po inštalácii skontrolujte, či bola inštalácia úspešne dokončená, opakovane vykonajte [krok 1.1](setup.md#id-1.1).
+Po dokončení inštalácie skontrolujte, či bola inštalácia úspešne dokončená, vykonaním [1.1. kroku](#id-1.1).
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma ponúka rôzne typy spustiteľných súborov.
 
 **Väčšinou sa používa `Reobf Paperclip`.**
 
-Informácie nižšie sú určené pre vývojárov alebo tých, ktorí sa zaujímajú o jednotlivé typy.\
-Pre bežného používateľa nie je potrebné sa zaoberať [krokom 3](setup.md#id-3).
+Nasledujúce informácie sú určené pre vývojárov alebo tých, ktorí sa zaujímajú o rôzne formy.\
+Ak ste bežný používateľ, môžete preskočiť na [3. krok](#id-3) bez problémov.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ Pre súhlas s EULA zmeňte v súbore `eula.txt` `eula=false` na `eula=true` a ul
 
 Moderne operačné systémy blokujú externé prístupy pomocou **firewallu** a **routeru**.
 
-V prípade Windows, keďže ste povolili firewall v [kroku 3](setup.md#id-3), stačí nastaviť port forwarding.
+V prípade Windows je firewall povolený v [3. kroku](#id-3), stačí len nastaviť port forwarding.
 
 {% hint style="info" %}
 
-**Tento sprievodca predpokladá, že používate operačný systém Windows a router, ktorý podporuje [UPnP](#user-content-fn-12)[^12].**
+**Tento návod je predpokladaný pre operačný systém Windows a router, ktorý podporuje použitie [UPnP](#user-content-fn-12)[^12].**
 
 Ak váš router nepodporuje UPnP, musíte si vyhľadať informácie pre jednotlivé panely routerov.
 
@@ -303,7 +303,7 @@ Ak server a hra bežia na rovnakom PC, môžete sa pripojiť cez `localhost`.
 
 Ak ste úspešne spustili server a funguje správne, je čas prispôsobiť si server podľa vašich potrieb.
 
-Zistite, ako prispôsobiť server pomocou nasledujúceho sprievodcu.
+Zistite, ako prispôsobiť server pomocou nasledujúceho návodu.
 
 {% content-ref url="dalsi-krok.md" %}
 [dalsi-krok.md](dalsi-krok.md)
