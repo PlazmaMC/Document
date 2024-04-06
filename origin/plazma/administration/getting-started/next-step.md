@@ -2,7 +2,7 @@
 description: 서버를 사용자화하는 방법에 대해 알아보세요.
 ---
 
-# 📶 발전 단계
+# 📶 발전하기
 
 Mojang Studios에서 제공하는 공식 서버 플랫폼을 사용하지 않고
 Plazma와 같이 수정된 서버 플랫폼을 사용하는 이유는 강력한
@@ -146,8 +146,8 @@ Plazma에는 많은 최적화 패치가 적용되어 있습니다. 또한, Plazm
 
 안전하고 올바른 프록시 설정에 대한 정보는 아래 페이지를 참고하세요.
 
-{% content-ref url="../expert/proxy.md" %}
-[proxy.md](../expert/proxy.md)
+{% content-ref url="../expert/optimize.md" %}
+[optimize.md](../expert/optimize.md)
 {% endcontent-ref %}
 
 ***
@@ -177,8 +177,8 @@ Plazma에는 X-Ray를 기본적으로 차단할 수 있는 구성을 제공하�
 
 X-Ray 차단 방법과 설명은 아래 페이지를 참고하시기 바랍니다.
 
-{% content-ref url="../expert/xray.md" %}
-[xray.md](../expert/xray.md)
+{% content-ref url="../expert/optimize.md" %}
+[optimize.md](../expert/optimize.md)
 {% endcontent-ref %}
 
 ### 화이트리스트 <a href="#id-5.3" id="id-5.3"></a>
