@@ -27,7 +27,7 @@ Plazma be based on Mojang Studios' official server platform, so ye also need to 
 
 To check if JRE be installed on yer system, type [`cmd /k java --version`](#user-content-fn-4) in the Run window and run it.
 
-If it be outputtin' like this, skip to [Step 2](setup.md#id-2).
+If ye be seein' th' followin', skip t' [2 steps](#id-2).
 
 {% code title="Proper Output" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-If it don't output like that, or if it be like this, then JRE be either not there or too old, so ye need to do [Step 1.2](setup.md#id-1.2).
+If ye not be seein' like above, or be seein' like below, 'tis 'cause thar be no JRE or 'tis too old, so ye need t' perform [1.2 steps](#id-1.2).
 
 {% code title="JRE Not Installed" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 JRE Install
 
-In this guide, we be usin' Azul Zulu as [one o' the types](#user-content-fn-5)[^5] o' JRE.
+In this here guide, we be usin' Azul Zulu as one o' th' types o' JRE.
 
-After ye be finishin' the install, run [step 1.1](setup.md#id-1.1) again t' make sure the install be completed correctly.
+After ye be finishin' installin', redo [1.1 steps](#id-1.1) t' make sure th' install be done rightly.
 
 {% tabs %}
 
@@ -126,8 +126,7 @@ Plazma offers various types o' executable files.
 
 **In most cases, use `Reobf Paperclip`.**
 
-The followin' be fer developers or those curious about the characteristics o' each type.\
-If ye be a regular user, ye can skip t' [step 3](setup.md#id-3) without any issues.
+Th' followin' be fer developers or those curious 'bout each form's features. If ye be a regular user, ye can skip t' [3 steps](#id-3) without any issue.
 
 {% endhint %}
 
@@ -202,11 +201,11 @@ T' agree t' the EULA, change `eula=false` in the `eula.txt` file t' `eula=true` 
 
 Modern operatin' systems block external access by default t' prevent risky access from outside via the **firewall** and **router**.
 
-Since ye allowed the firewall in [step 3](setup.md#id-3) fer Windows, ye just need t' do port forwardin'.
+For Windows, since th' firewall be allowed in [3 steps](#id-3), ye just need t' do port forwardin'.
 
 {% hint style="info" %}
 
-**This guide assumes Windows operating system and a router capable of using [UPnP](#user-content-fn-12)[^12] are being used.**
+**This here guide be assumin' ye be havin' a Windows operatin' system 'n a router that can use UPnP.**
 
 If yer router does not support UPnP, ye must search fer the specific panel fer each router, as they vary.
 
@@ -303,7 +302,7 @@ If th' server 'n th' game be runnin' on th' same PC, ye can connect usin' `local
 
 Once ye have successfully started th' server 'n 'tis runnin' properly, 'tis time t' customize th' server.
 
-Learn how t' customize th' server through th' guide below.
+Learn how t' customize yer server through th' followin' guide.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
