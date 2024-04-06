@@ -12,7 +12,7 @@ Plazma usage docs ye be welcome!
 
 **Can ye not solve th' problem through th' manual?**
 
-[Official Discord Server](https://discord.gg/MmfC52K8A8) or [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) be where ye can ask the community!
+[Official Discord ship](https://discord.gg/MmfC52K8A8) or [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions) be askin' questions to the crew through the community!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ Plazma usage docs ye be welcome!
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
