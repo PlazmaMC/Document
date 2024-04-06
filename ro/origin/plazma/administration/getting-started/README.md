@@ -159,8 +159,8 @@ Numele fișierului de executare este `plazma-(managerul versiunii)-1.20.4-R0.1-S
 
 Pentru a porni Plazma simplu și pentru a reporni automat serverul, trebuie să creați un [script de pornire](#user-content-fn-6)[^6].
 
-Puteți genera scriptul de pornire folosind [Flags.sh](https://flags.sh).\
-Introduceți doar memoria pe care doriți să o alocați pentru Plazma și comanda va fi optimizată automat.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Puteți descărca scriptul de pornire făcând clic pe butonul de descărcare din partea de jos stânga.\
 **Asigurați-vă că scriptul de pornire descărcat este compatibil cu sistemul de operare al dvs.**
@@ -189,7 +189,11 @@ După ce rulați scriptul de pornire o dată, un fișier `eula.txt` va fi creat 
 
 EULA[^9] este un acord de licență pe care trebuie să-l acceptați pentru a utiliza serviciile [Mojang Studios](#user-content-fn-10)[^10].
 
-Dacă nu acceptați EULA, nu veți putea porni serverul și veți fi supus sancțiunilor, cum ar fi suspendarea contului, dacă încălcați EULA.
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Pentru a accepta EULA, modificați `eula=false` în fișierul `eula.txt` în `eula=true` și salvați modificările.
 
@@ -296,7 +300,7 @@ Dacă serverul și jocul rulează pe același PC, puteți accesa folosind `local
 {% endtab %}
 {% endtabs %}
 
-## 7. Faza de dezvoltare
+## 7. 발전하기
 
 Dacă serverul a fost inițiat cu succes și funcționează corect, acum este momentul să îl personalizați.
 
