@@ -15,14 +15,18 @@ description: Find out what kind o' server platform Plazma be.
 
 ## ⚙️ Main features <a href="#id-2" id="id-2"></a>
 
-1. **Powerful plugin ecosystem**\
-   Based on [Paper](https://github.com/PaperMC/Paper), most of the [latest plugins](#user-content-fn-1)[^1] available on the internet be workin' properly.
-2. **No need for optimization**\
-   Contains all patches from [Pufferfish](https://github.com/pufferfish-gg/Pufferfish), some self-optimization and mods be embedded t' provide the best performance.
-3. **Customize the game as ye wish**\
-   [Purpur](https://github.com/PurpurMC/Purpur) included in Plazma allows ye t' modify the overall properties o' the game.
-4. **Safe playin' server**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) be includin' from 1.19 onwards [Mojang](#user-content-fn-2)[^2]'s [Chat Report System](#user-content-fn-3)[^3] can be disabled, and diagnostic data collector be completely removed so ye can play on a traceless safe server.
+1. **Powerful Plugin Ecosystem**\
+   [Paper](https://github.com/PaperMC/Paper) bein' based on,
+   most o' th' latest [plugins](#user-content-fn-1)[^1] available fer download on th' internet be workin' properly.
+2. **Optimization without needin' settin's**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) be includin' all patches,
+   some self-optimization an' mods be built in t' provide th' best performance.
+3. **Game personalized as ye wish**\
+   [Purpur](https://github.com/PurpurMC/Purpur) included in Plazma be allowin' modification o' th' overall attributes o' th' game.
+4. **Servers playin' safely**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) be included t' disable
+   [Mojang](#user-content-fn-2)[^2]'s [chat report system](#user-content-fn-3)[^3] added since 1.19,\
+   removin' th' diagnostic information collector completely, allowin' ye t' play on a traceless safe server.
 5. **Fastest updates**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) ensures that Plazma's included patches be always kept up t' date, providin' the fastest updates among Paper-based server platforms.
 6. **Optimized default configuration files**\
@@ -40,14 +44,16 @@ description: Find out what kind o' server platform Plazma be.
 
 ## ✨ Use cases <a href="#id-3" id="id-3"></a>
 
-- **Platform that properly handles complex plugins**\
-  Plazma be used on the server o' developer [IPECTER](https://github.com/IPECTER). With self-plugins workin' with NMS and reflection, despite a lot o' complex and vast data packs bein' applied, it be acceptin' over 100 players without performance degradation.
-- **Platform maintainin' fast performance even on RPG servers**\
-  Maintained 100 players on a single cluster without TPS degradation, and 250 players could play comfortably on four clusters.
-- **Platform showin' light in chunks/entities**\
-  By switchin' from Purpur t' Plazma on a survival server where delays occurred in processin' chunks and entities, most delays could be reduced.
+- **Platform handlin' complex plugins correctly**\
+  Plazma be used on developer [IPECTER](https://github.com/IPECTER)'s server.\
+  With self-plugins operatin' with NMS an' reflection, extensive an' complex data packs be heavily applied,\
+  acceptin' over 100 players without performance degradation.
+- **Platform maintainin' fast performance on RPG servers**\
+  Stably maintainin' 100 players on a single cluster without TPS drops, an' allowin' a pleasant play experience fer 250 players on 4 clusters.
+- **Platform showin' light on chunks/entities**\
+  Switchin' from Purpur t' Plazma on a survival server where delays occurred in handlin' chunks an' entities helped reduce most o' th' delays.
 - **Platform chosen by many streamers**\
-  Used as a viewing bucket by many popular streamers.
+  Chosen as th' bucket fer many streamers' viewership participation.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
