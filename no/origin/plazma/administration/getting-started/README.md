@@ -158,7 +158,8 @@ Navnet på kjørefilen er `plazma-(versjonsbehandler)-1.20.4-R0.1-SNAPSHOT-(mapp
 
 For enkel oppstart og automatisert omstart av serveren med Plazma, må du lage et [startskript](#user-content-fn-6)[^6].
 
-Du kan generere et startskript via [Flags.sh](https://flags.sh). Når du har oppgitt [minnebruken til Plazma](#user-content-fn-8)[^8], vil kommandoen optimaliseres automatisk.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Du kan laste ned startskriptet ved å klikke på nedlastingsknappen nederst til venstre.\
 **Sjekk om det nedlastede startskriptet samsvarer med operativsystemet ditt.**
@@ -187,7 +188,11 @@ Når du kjører startskriptet, opprettes en `eula.txt`-fil i mappen.
 
 EULA[^9] er en lisensavtale du må godta for å bruke tjenestene til [Mojang Studios](#user-content-fn-10)[^10].
 
-Hvis du ikke godtar EULA-en, kan du ikke starte serveren, og brudd på EULA-en kan føre til sanksjoner som suspensjon av kontoen, osv. [Les mer.](#user-content-fn-11)[^11]
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Hvis du godtar EULA-en, endre `eula=false` til `eula=true` i `eula.txt`-filen og lagre endringene.
 
@@ -294,7 +299,7 @@ Hvis serveren og spillet kjører på samme PC, kan du koble til med `localhost`.
 {% endtab %}
 {% endtabs %}
 
-## 7. Utviklingssteg
+## 7. 발전하기
 
 Når serveren er startet vellykket og fungerer som den skal, er det på tide å tilpasse serveren.
 
