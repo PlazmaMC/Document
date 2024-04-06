@@ -21,8 +21,8 @@ description: Plazma haz 어떤 서버 플랫폼인지 알아보세요.
    [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
 3. **원하는 대로 사용자화하는 게임**\
    Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
-4. **안전하게 플레이하는 서버**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며, 진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
+4. **ANJUN SAFELY PLAYIN SERVER**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)GA INCLUDED SO 1.19 FRUM ADDED [Mojang](#user-content-fn-2)[^2]Z [CHAT REPORT SYSTEM](#user-content-fn-3)[^3] WIF DISABLE CAN, DIAGNOSTIC INFO COLLECTOR GONE COMPLETELY SO TRACKLESS SAFE PLAYIN SERVER CAN BE.
 5. **가장 빠른 업데이트**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate)는 Plazma의 포함 패치가 항상 최신으로 유지될 수 있도록 해서, Paper 기반 서버 플랫폼 중에서 가장 빠른 업데이트를 제공하고 있습니다.
 6. **기본 구성 파일 최적화**\
