@@ -7,11 +7,11 @@ description: Plazma ile sunucu oluşturma yöntemini öğrenin.
 Plazma'yı stabil bir şekilde kullanabilmek için, sistem aşağıdaki gereksinimleri karşılamalıdır.
 
 |          | Minimum | Tavsiye Edilen |
-| :------: | ------: | -------------: |
-|  Mimari  |     x64 |              - |
-|    RAM   |     8GB |           16GB |
-| Depolama |     1GB |            8GB |
-|    JRE   |      17 |             21 |
+| :------: | :------ | :------------- |
+|  Mimari  | x64     | -              |
+|    RAM   | 8GB     | 16GB           |
+| Depolama | 1GB     | 8GB            |
+|    JRE   | 17      | 21             |
 
 Düzenli yapılandırma dosyası düzenlemesi için, [Visual Studio Code](https://code.visualstudio.com/download) gibi bir düzenleyici kurmanız da iyi olacaktır.
 
