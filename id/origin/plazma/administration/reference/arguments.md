@@ -7,7 +7,7 @@ description: Pelajari tentang argumen awal dan properti sistem.
 Argumen awal dan properti sistem adalah nilai yang ditambahkan ke [perintah yang digunakan](#user-content-fn-1)[^1] dalam eksekusi Plazma,\
 memungkinkan untuk mengubah nilai yang tidak dapat diubah setelah Plazma dieksekusi.
 
-Berdasarkan [lokasi nilai yang ditambahkan ke perintah](#user-content-fn-2)[^2], **argumen awal** dan **properti sistem** dibedakan.
+[Posisi yang ditambahkan ke perintah](#user-content-fn-2)[^2] akan dibagi menjadi **Argumen Awal** dan **Properti Sistem** sesuai dengan posisi tersebut.
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` menandakan argumen tersebut adalah argumen tambahan yang ditambahkan ke Plazma, tidak bawaan JVM, dan
 
-jika tidak ada nilai yang diberikan, nilainya akan [`true secara default.`](#user-content-fn-3)[^3]
+Jika tidak ada nilai yang dimasukkan ke dalam properti, nilai akan tetap [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Platform server seri Paperweight menggunakan `.` dalam nama properti untuk membedakan properti sistem di setiap platform.**
 
-Di beberapa terminal seperti Windows Powershell, argumen semacam ini mungkin tidak diterima, sehingga Anda harus menambahkan `"` di kedua ujung argumen [seperti ini.](#user-content-fn-4)[^4]
+Di beberapa terminal seperti Windows Powershell, argumen semacam ini mungkin tidak diizinkan, sehingga, `"` harus ditambahkan di kedua ujung argumen\[#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -134,7 +134,7 @@ Semua blok tengkorak yang tidak valid akan dicatat dengan posisi mereka di dunia
 - **Tipe**: `Boolean`
 - **Default**: `False`
 
-Menonaktifkan batasan 128 saluran plugin per pemain[^5].
+Menonaktifkan batasan jumlah 128 plugin [channel](#user-content-fn-5)[^5] yang diterapkan per pemain.
 
 #### `Paper.disableClassPrioritization`
 
@@ -188,7 +188,7 @@ Semua masalah yang timbul dari penggunaan ini menjadi tanggung jawab pengguna, d
 - **Tipe**: `Integer`
 - **Default**: `64`
 
-Menetapkan batasan nama saluran plugin[^6].
+Mengatur batasan nama [channel](#user-content-fn-5)[^5] plugin.
 
 #### `Paper.maxSignLength`
 
@@ -220,7 +220,7 @@ Mengaktifkan pengolahan komentar dalam file YAML secara default.
 
 Mengeluarkan pemain dari server jika tidak menerima data apa pun dari pemain selama jumlah waktu tertentu (dalam detik).
 
-Secara umum, permainan[^7] akan terus mengirimkan [sinyal denyut](#user-content-fn-8)[^8] ke server, sehingga tidak akan diusir, namun, jika tidak merespons, dianggap permainan crash dan akan diusir dari server.
+Secara umum, [game](#user-content-fn-7)[^7] akan terus mengirimkan [sinyal detak](#user-content-fn-8)[^8] ke server, sehingga tidak akan diusir, tetapi jika game tidak merespons, server akan menganggapnya bertabrakan dan tidak akan lagi memproses pemain di server dan mengusirnya.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -293,7 +293,7 @@ Mengaktifkan akan membuat server lebih cepat dan aman, tetapi dapat memblokir be
 - **Tipe**: `Boolean`
 - **Default**: `false`
 
-Menghambat pesan peringatan[^11] yang muncul saat Plazma diinisialisasi.
+Menghentikan pesan [peringatan](#user-content-fn-11)[^11] yang muncul saat Plazma diinisialisasi.
 
 ### Atribut yang sudah tidak digunakan <a href="#id-1.3" id="id-1.3"></a>
 
