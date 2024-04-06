@@ -1,5 +1,5 @@
 ---
-description: Als u vragen heeft, stel ze dan via Discord of GitHub Issues.
+description: Als u vragen heeft, stel ze dan via Discord of GitHub Discussies.
 ---
 
 # 🏠 Welkom bij de Docs Portal
