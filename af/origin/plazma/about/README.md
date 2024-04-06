@@ -55,11 +55,9 @@ description: Leer meer oor wat Plazma se bedienerplatform behels.
 - **Platform wat deur baie strome gekies is**\
   Dit word gebruik as 'n bedieneremmer vir baie strome se kykers.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Realtym Plazma gebruikerstendens in werklikheid</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ Laai Af
 
