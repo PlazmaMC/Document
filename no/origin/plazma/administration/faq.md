@@ -8,7 +8,7 @@ description: Finn ut mer om vanlige spørsmål.
 
 **Finner du ikke svaret du leter etter?**
 
-Spør fellesskapet via [offisiell Discord-server](https://discord.gg/MmfC52K8A8) eller [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Offisiell Discord-server](https://discord.gg/MmfC52K8A8) eller [GitHub-diskusjoner](https://github.com/PlazmaMC/PlazmaBukkit/discussions) for å stille spørsmål til fellesskapet!
 
 {% endhint %}
 
