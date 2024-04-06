@@ -27,7 +27,7 @@ Plazma yra paremta Mojang Studios oficialia serverio platforma, todėl norint na
 
 Norėdami patikrinti, ar sistemoje yra įdiegta JRE, eikite į [vykdomąjį langą](#user-content-fn-3) ir įveskite [`cmd /k java --version`](#user-content-fn-4), tada paleiskite komandą.
 
-Jei matote tokius rezultatus, eikite prie [2 žingsnio](setup.md#id-2).
+Jei atspausdinsite kaip nurodyta, pereikite prie [2 žingsnio](#id-2).
 
 {% code title="Teisingas išvestis" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Jei nerodoma taip, arba matote šį rezultatą, reiškia, kad JRE nėra arba yra per senas, todėl turite vykdyti [1.2 žingsnį](setup.md#id-1.2).
+Jei nespausdinsite kaip anksčiau arba jei spausdinsite kaip žemiau, reiškia, kad neturite arba per sena JRE, todėl turite atlikti [1.2 žingsnį](#id-1.2).
 
 {% code title="JRE nėra įdiegtas" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 JRE diegimas
 
-Šiame vadove naudojamas Azul Zulu kaip [vienas iš variantų](#user-content-fn-5)[^5] JRE.
+Šiame vadove naudojamas Azul Zulu kaip vieną iš JRE [tipų](#user-content-fn-5)[^5].
 
-Įdiegus, patikrinkite, ar diegimas buvo sėkmingas, pakartodami [1.1 žingsnį](setup.md#id-1.1).
+Baigus diegimą, patikrinkite, ar įdiegimas buvo atliktas teisingai, vėl atlikdami [1.1 žingsnį](#id-1.1).
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma siūlo įvairių vykdomųjų failų variantų.
 
 **Daugumoje atvejų naudokite `Reobf Paperclip`.**
 
-Ši informacija skirta kūrėjams arba tiems, kurie domisi kiekvienu variantu.\
-Paprastiems vartotojams galima tiesiog praleisti ir pereiti prie [3 žingsnio](setup.md#id-3).
+Šis turinys skirtas plėtototojams arba tiems, kurie nori sužinoti apie įvairius formų ypatumus.\
+Jei esate paprastas vartotojas, galite praleisti [3 žingsnį](#id-3) be jokių problemų.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ Norėdami sutikti su EULA, `eula=false` faile pakeiskite į `eula=true` ir išsa
 
 Šiuolaikinės operacinės sistemos numatytai blokuoja pavojingus išorinius prisijungimus ugniasienės ir maršrutizatoriaus lygmeniu.
 
-Windows atveju, užteks tik atlikti [3 žingsnį](setup.md#id-3) ir nustatyti portų peradresavimą.
+Windows atveju, ugniasienė yra leista [3 žingsnyje](#id-3), todėl tereikia atlikti portų peradresavimą.
 
 {% hint style="info" %}
 
-**Šiame vadove numatyta, kad naudojate Windows operacinę sistemą ir turite maršrutizatorių, palaikantį [UPnP](#user-content-fn-12)[^12].**
+**Šiame vadove numatyta, kad naudojamas Windows operacinė sistema ir maršrutizatorius, palaikantis [UPnP](#user-content-fn-12)[^12].**
 
 Jei maršrutizatorius nepalaiko UPnP, reikės paieškoti informacijos apie konkrečią maršrutizatoriaus sąsają.
 
@@ -303,7 +303,7 @@ Jei serveris ir žaidimas vyksta toje pačioje PC, galite prisijungti naudodami 
 
 Kai serveris sėkmingai paleistas ir veikia teisingai, dabar laikas pritaikyti serverį pagal savo poreikius.
 
-Sužinokite, kaip pritaikyti serverį, sekdami šį vadovą.
+Sužinokite, kaip pritaikyti serverį, peržiūrėdami žemiau pateiktą vadovą.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
