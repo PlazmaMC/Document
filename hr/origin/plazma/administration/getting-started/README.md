@@ -27,7 +27,7 @@ Budući da je Plazma temeljena na službenoj platformi za poslužitelje Mojang S
 
 Za provjeru je li JRE instaliran na sustavu, unesite [`cmd /k java --version`](#user-content-fn-4) u [prozor za pokretanje](#user-content-fn-3) i pokrenite naredbu.
 
-Ako se prikaže sljedeći rezultat, preskočite na [2. korak](setup.md#id-2).
+Kada se prikaže kao što je navedeno, preskočite na [2. korak](#id-2).
 
 {% code title="Ispravan ispis" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Ako se rezultat ne podudara ili se prikaže sljedeće, JRE nije instaliran ili je zastario te je potrebno izvršiti [1.2 korak](setup.md#id-1.2).
+Ako se ne prikaže kao gore ili se prikaže kao dolje, to znači da nemate JRE ili je predugo star, pa morate izvršiti [1.2 korak](#id-1.2).
 
 {% code title="JRE nije instaliran" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 Instalacija JRE
 
-U ovom vodiču koristimo Azul Zulu kao [jednu od vrsta](#user-content-fn-5)[^5] JRE-a.
+U ovom priručniku koristimo Azul Zulu kao jednu od vrsta JRE-a.
 
-Nakon instalacije, ponovno izvršite [korak 1.1](setup.md#id-1.1) kako biste provjerili je li instalacija uspješno dovršena.
+Nakon što završite instalaciju, ponovno izvršite [1.1 korak](#id-1.1) kako biste provjerili je li instalacija uspješno dovršena.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma pruža različite vrste izvršnih datoteka.
 
 **U većini slučajeva koristi se `Reobf Paperclip`.**
 
-Sljedeći sadržaj je namijenjen developerima ili onima koji su zainteresirani za karakteristike svake vrste.\
-Ako ste obični korisnik, možete preskočiti na [korak 3](setup.md#id-3) bez problema.
+Sadržaj u nastavku namijenjen je programerima ili onima koji su zainteresirani za različite oblike.\
+Ako ste obični korisnik, možete preskočiti na [3. korak](#id-3) bez problema.
 
 {% endhint %}
 
@@ -203,11 +203,11 @@ Za prihvaćanje EULA-e, promijenite `eula=false` u `eula=true` u datoteci `eula.
 
 Moderne operativne sustave osiguravaju blokiranje vanjskih pristupa putem **firewalla** i **rutera**.
 
-Za Windows, budući da ste omogućili portove u [koraku 3](setup.md#id-3), samo trebate postaviti port forwarding.
+Za Windows, budući da ste omogućili vatrozid u [3. koraku](#id-3), dovoljno je samo prosljeđivanje vrata.
 
 {% hint style="info" %}
 
-**Ovaj vodič pretpostavlja korištenje Windows operativnog sustava i [UPnP](#user-content-fn-12)[^12] na ruteru.**
+**Ovaj priručnik pretpostavlja da koristite Windows operativni sustav i ruter koji podržava [UPnP](#user-content-fn-12).**
 
 Ako vaš router ne podržava UPnP, svaki router ima različite postavke pa ih morate istražiti sami.
 
@@ -304,7 +304,7 @@ Ako se server i igra izvršavaju na istom PC-ju, možete se povezati putem `loca
 
 Ako je server uspješno pokrenut i ispravno funkcionira, sada je vrijeme da prilagodite server prema svojim potrebama.
 
-Saznajte kako prilagoditi server putem donjeg vodiča.
+Pročitajte dolje navedeni priručnik kako biste saznali kako prilagoditi poslužitelj.
 
 {% content-ref url="sljedeci-korak.md" %}
 [sljedeci-korak.md](sljedeci-korak.md)
