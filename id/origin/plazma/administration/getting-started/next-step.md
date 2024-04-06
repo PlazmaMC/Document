@@ -2,7 +2,7 @@
 description: Pelajari cara menyesuaikan server.
 ---
 
-# 📶 Tahap Pengembangan
+# 📶 발전하기
 
 Alasan menggunakan platform server yang dimodifikasi seperti Plazma tanpa menggunakan platform resmi yang disediakan oleh Mojang Studios adalah kemampuan **penyesuaian pengguna** yang kuat.
 
