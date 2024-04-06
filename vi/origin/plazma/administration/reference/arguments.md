@@ -7,7 +7,7 @@ description: Tìm hiểu về đối số khởi đầu và thuộc tính hệ t
 Đối số khởi đầu và thuộc tính hệ thống là các giá trị được thêm vào các [lệnh được sử dụng](#user-content-fn-1)[^1] trong quá trình chạy Plazma,\
 cho phép thay đổi giá trị không thể thay đổi sau khi Plazma đã chạy.
 
-Tùy thuộc vào [vị trí thêm vào lệnh](#user-content-fn-2)[^2], **đối số khởi đầu** và **thuộc tính hệ thống** được phân chia.
+[위치에 덧붙이는 위치](#user-content-fn-2)[^2]에 따라 **시작 매개변수**와 **시스템 속성**으로 나뉘게 됩니다.
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` chỉ ra rằng đối số này không được tích hợp trong JVM mà là đối số riêng của Plazma,
 
-Nếu không nhập giá trị, giá trị sẽ được [`true` cố định.](#user-content-fn-3)[^3]
+속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정](#user-content-fn-3)[^3]됩니다.
 
 {% hint style="info" %}
 
 **Nền tảng máy chủ dòng Paperweight sử dụng dấu `.` trong tên thuộc tính để phân biệt từng nền tảng.**
 
-Trong một số terminal như Windows Powershell, có thể không chấp nhận các đối số này, vì vậy, bạn cần [thêm `"` vào hai đầu của đối số.](#user-content-fn-4)[^4]
+Windows Powershell 등 일부 터미널에서는 이러한 매개변수를 허용하지 않을 수 있으므로, 매개변수 양 끝에 `"`를 [추가해야](#user-content-fn-4)[^4] 합니다.
 
 {% endhint %}
 
@@ -133,7 +133,7 @@ Nhật ký này sẽ ghi lại tất cả các hồ sơ đầu mạc không hợ
 - **Loại**: `Boolean`
 - **Giá trị mặc định**: `False`
 
-Vô hiệu hóa giới hạn 128 kênh plugin mỗi người chơi[^5].
+플레이어당 적용되는 128개의 플러그인 [채널](#user-content-fn-5)[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -187,7 +187,7 @@ Mọi vấn đề phát sinh từ việc này là trách nhiệm của bạn và
 - **Loại**: `Integer`
 - **Giá trị mặc định**: `64`
 
-Thiết lập giới hạn tên kênh plugin[^6].
+플러그인 [채널](#user-content-fn-5)[^5] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
@@ -219,7 +219,7 @@ Kích hoạt xử lý chú thích trong tệp YAML mặc định.
 
 Khi không nhận được bất kỳ dữ liệu nào từ người chơi trong thời gian được chỉ định (giây), máy chủ sẽ đuổi người chơi.
 
-Thường thì trò chơi[^7] sẽ tiếp tục gửi [tín hiệu đập tim](#user-content-fn-8)[^8] đến máy chủ, [không bị đuổi,](#user-content-fn-9)[^9] nhưng nếu trò chơi không phản hồi, máy chủ sẽ coi đó là sự xung đột và ngưng xử lý người chơi.
+일반적인 경우, [게임](#user-content-fn-7)[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -292,7 +292,7 @@ Khi kích hoạt, máy chủ sẽ trở nhanh hơn và an toàn hơn, nhưng có
 - **Loại**: `Boolean`
 - **Giá trị mặc định**: `false`
 
-Ngăn chặn cảnh báo xuất hiện khi Plazma được khởi tạo.
+Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을 억제합니다.
 
 ### Thuộc tính đã bị ngưng sử dụng <a href="#id-1.3" id="id-1.3"></a>
 
