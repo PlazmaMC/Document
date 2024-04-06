@@ -2,7 +2,7 @@
 description: Kube me nino ma kwo iye i kompyuta.
 ---
 
-# 📶 발전 단계
+# 📶 발전하기
 
 Gin Mojang Studios kicel i kwo kicel kwede kwede ki kompyuta
 Plazma ma en aye i kwo kicel kwede kwede ki kompyuta, gin ma giketo
