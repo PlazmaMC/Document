@@ -21,8 +21,8 @@ description: Sužinokite, kas yra Plazma serverio platforma.
    Visi [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) patobulinimai yra įtraukti, o kai kurie patys optimizavimai ir modifikacijos užtikrina geriausią veikimą.
 3. **Žaidimą galite pritaikyti pagal savo poreikius**\
    [Purpur](https://github.com/PurpurMC/Purpur), įtrauktas į Plazmą, leidžia redaguoti žaidimo bendruosius požymius.
-4. **Saugus serveris**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) leidžia išjungti nuo 1.19 pridėtą Mojang[^2] [pranešimų apie pokalbių sistema](#user-content-fn-3)[^3], taip pat visi diagnostikos įrankiai yra visiškai pašalinti, leidžiantys žaisti saugų serverį be sekimo.
+4. **Saugus žaidimas serveriuose**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) yra įtrauktas, pradedant nuo 1.19, galite išjungti [Mojang](#user-content-fn-2)[^2] pridėtą [pranešimų apie pokalbius sistemą](#user-content-fn-3)[^3], ir visiškai pašalinti diagnostikos informacijos rinkiklį, leidžiantį žaisti saugiai be sekimo serveriuose.
 5. **Greitieji atnaujinimai**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) užtikrina, kad Plazmos įtraukti patobulinimai visada būtų naujausi, siūlantys greičiausius atnaujinimus iš visų ant Paper pagrįstų serverių platformų.
 6. **Numatyti konfigūracijos failai**\
