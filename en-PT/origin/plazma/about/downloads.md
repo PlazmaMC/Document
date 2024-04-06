@@ -24,6 +24,8 @@ If ye be a developer and be needin' a different type o' file, consult the page b
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
@@ -64,3 +66,5 @@ If ye be a developer and be needin' a different type o' file, consult the page b
         </tr>
     </tbody>
 </table>
+
+***
