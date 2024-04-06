@@ -2,4 +2,4 @@
 description: Descubra o que cada nó em paper-world.yml significa.
 ---
 
-# 🛩️ Paper (Composição por mundo)
+세계별
