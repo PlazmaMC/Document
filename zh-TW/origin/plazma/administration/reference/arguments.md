@@ -4,8 +4,8 @@ description: 了解启动参数和系统属性。
 
 # 🎛️ 启动参数和属性
 
-启动变量和系统属性是附加到Plazma执行中使用的命令[^1]的值，\
-允许更改无法在Plazma执行后更改的值。
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [명령어에 덧붙이는 위치](#user-content-fn-2)[^2]에 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
 
@@ -27,8 +27,8 @@ description: 了解启动参数和系统属性。
 
 系统属性作为Java命令参数输入在`java`和`-jar`之间。
 
-例如，要应用`Plazma.dummyProperty`系统属性，\
-输入如下将在下一个属性中输入`37`以初始化Plazma。
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -187,7 +187,7 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 - **类型**: `整数`
 - **默认值**: `64`
 
-플러그인 [채널](#user-content-fn-5)[^5] 이름의 제한을 설정합니다.
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
