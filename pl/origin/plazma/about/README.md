@@ -16,13 +16,18 @@ description: Dowiedz się, czym jest Plazma jako platforma serwerowa.
 ## ⚙️ Główne cechy <a href="#id-2" id="id-2"></a>
 
 1. **Potężny ekosystem wtyczek**\
-   Dzięki oparciu o [Paper](https://github.com/PaperMC/Paper), większość [najnowszych wtyczek](#user-content-fn-1)[^1] dostępnych w Internecie działa poprawnie.
-2. **Optymalizacja bez konieczności konfiguracji**\
-   Zawiera wszystkie łaty [Pufferfish](https://github.com/pufferfish-gg/Pufferfish), a także niektóre własne optymalizacje i moduły, zapewniając najlepszą wydajność.
+   [Paper](https://github.com/PaperMC/Paper) bazuje na nim,
+   Większość [najnowszych wtyczek](#user-content-fn-1)[^1] dostępnych do pobrania z internetu działa poprawnie.
+2. **Optymalizacja bez potrzeby konfiguracji**\
+   Wszystkie łaty [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) są zawarte,
+   Zawiera pewne optymalizacje i moduły wewnętrzne, zapewniając najlepszą wydajność.
 3. **Gra dostosowana do Twoich potrzeb**\
-   [Purpur](https://github.com/PurpurMC/Purpur) zawarty w Plazmie pozwala na modyfikację ogólnych właściwości gry.
-4. **Bezpieczny serwer do gry**\
-   [Zestawienie raportów czatu](https://github.com/Aizistral-Studios/No-Chat-Reports) zawiera możliwość wyłączenia [systemu zgłaszania czatu](#user-content-fn-3)[^3] od [Mojang](#user-content-fn-2)[^2], który został dodany od wersji 1.19, a także całkowicie usuwa zbieranie informacji diagnostycznych, umożliwiając grę na bezpiecznym serwerze bez śledzenia.
+   [Purpur](https://github.com/PurpurMC/Purpur) zawarty w Plazma pozwala na
+   modyfikację ogólnych właściwości gry.
+4. **Bezpieczne serwery do gry**\
+   Zawiera [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) dodane od wersji 1.19
+   [Mojang](#user-content-fn-2)[^2] [system zgłaszania czatu](#user-content-fn-3)[^3] można dezaktywować,\
+   Diagnostyczny zbieracz danych został całkowicie usunięty, umożliwiając grę na bezpiecznych serwerach bez śledzenia.
 5. **Najszybsze aktualizacje**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) zapewnia, że łaty w Plazmie zawsze pozostają aktualne, oferując najbardziej dynamiczne aktualizacje wśród platform serwerowych opartych na Paper.
 6. **Optymalizacja podstawowych plików konfiguracyjnych**\
@@ -41,13 +46,17 @@ description: Dowiedz się, czym jest Plazma jako platforma serwerowa.
 ## ✨ Przykłady użycia <a href="#id-3" id="id-3"></a>
 
 - **Platforma obsługująca nawet skomplikowane wtyczki**\
-  Plazma jest używana na serwerze programisty [IPECTER](https://github.com/IPECTER). Mimo zastosowania własnych wtyczek działających na NMS i refleksji, oraz dużej ilości skomplikowanych pakietów danych, serwer obsługuje ponad 100 graczy bez spadku wydajności.
-- **Platforma utrzymująca szybkość na serwerach RPG**\
-  Na pojedynczym klastrze utrzymywano 100 graczy bez spadków TPS, a na 4 klastrach łącznie 250 graczy mogło komfortowo grać.
-- **Platforma świetnie radząca sobie z chunkami/encjami**\
-  Zamiana Purpura na Plazmę na serwerze survival, gdzie występowały opóźnienia związane z obsługą chunków i encji, pozwoliła na znaczną redukcję opóźnień.
+  Plazma jest używana na serwerze dewelopera [IPECTER](https://github.com/IPECTER).\
+  Działa bez problemu nawet z własnymi wtyczkami opartymi na NMS i refleksji, mimo zastosowania skomplikowanych i obszernych pakietów danych,
+  bez obniżania wydajności przy przyjęciu ponad 100 graczy.
+- **Platforma zapewniająca szybką wydajność nawet na serwerach RPG**\
+  Stabilnie utrzymała 100 graczy na jednym klastrze bez spadku TPS,
+  Na 4 klastrach łącznie 250 graczy mogło komfortowo grać.
+- **Platforma oświetlająca chunki/entitety**\
+  Zmiana platformy z Purpur na Plazma dla serwera survival, gdzie występowały opóźnienia w przetwarzaniu chunków i entitetów,
+  pozwoliła na znaczną redukcję opóźnień.
 - **Platforma wybierana przez wielu streamerów**\
-  Jest używana jako bukiet przez wielu popularnych streamerów.
+  Jest wybierana przez wielu widzów streamerów jako ich preferowana platforma.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
