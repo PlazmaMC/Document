@@ -10,191 +10,190 @@ Norint tinkamai naudoti leidimus ir lengvai juos keisti, reikia naudoti įskiepi
 
 ***
 
-## 기본 권한 체계 이해하기 <a href="#id-1" id="id-1"></a>
+## Suprasti pagrindinę leidimų sistemą <a href="#id-1" id="id-1"></a>
 
-Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니다.
+Minecraft teikia pagrindinius valdymo leidimų grupes.
 
-[운영자](#user-content-fn-1)[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
+[Administratorius](#user-content-fn-1)[^1] gali nustatyti operatorių ir komandų blokų leidimus, kuriuos galima keisti [serverio nustatymuose](configurations/property.md).
 
-0. **플레이어**\
-   일반적으로 모든 플레이어어게 주어지는 권한 그룹입니다.
-1. **중재자**\
-   스폰 보호를 무시할 수 있습니다.
-2. **세계 관리자**\
-   세계 관리와 관련된 모든 명령어와 명령 블록을 사용할 수 있습니다.\
-   데이터팩 및 명령 블록에 기본 적용되는 권한 그룹입니다.
-3. **관리자**\
-   플레이어 관리와 관련된 모든 명령어를 사용할 수 있습니다.
-4. **총관리자**\
-   서버 관리를 포함한 모든 명령어를 사용할 수 있습니다.\
-   콘솔 및 운영자에게 기본 적용되는 권한 그룹입니다.
-
-***
-
-## 권한 설정하기 <a href="#id-2" id="id-2"></a>
+0. **Žaidėjas**\
+   Paprastai tai yra priskiriamas visiems žaidėjams leidimų grupė.
+1. **Tarpininkas**\
+   Gali ignoruoti spawno apsaugą.
+2. **Pasaulio valdytojas**\
+   Gali naudoti visas komandas ir komandų blokus, susijusius su pasaulio valdymu.\
+   Tai yra numatytasis leidimų grupė, taikomas duomenų paketams ir komandų blokams.
+3. **Administratorius**\
+   Gali naudoti visas komandas, susijusias su žaidėjų valdymu.
+4. **Visagalis**\
+   Gali naudoti visas komandas, įskaitant serverio valdymą.\
+   Tai yra numatytasis leidimų grupė, taikomas konsolėje ir administratoriams.
 
 ***
 
-## 전체 권한 <a href="#id-3" id="id-3"></a>
+## Leidimų nustatymas <a href="#id-2" id="id-2"></a>
+
+***
+
+## Visiški leidimai <a href="#id-3" id="id-3"></a>
 
 ***
 
 #### `allow.ride.(Namespaced Key)`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-플레이어가 엔티티에 `웅크리고 상호 작용`하여 엔티티를 탑승할 수 있도록 허용합니다.
+Leidžia žaidėjams šliaužti prie entiteto ir jį apeiti.
 
-엔티티를 탑승하면 `이동 키`로 엔티티의 이동을 조작할 수 있으며, `점프 키`로 점프하거나 날 수 있습니다.
+Kai sėdite ant entiteto, galite valdyti jo judėjimą naudodami `judėjimo klavišus` ir šokinėti arba skristi naudodami `šuolio klavišą`.
 
-`(Namespaced Key)`에는 엔티티의 [Namespaced ID](#user-content-fn-2)[^2]가 입력됩니다.
+Į `(Namespaced Key)` įveskite entiteto [Namespaced ID](#user-content-fn-2)[^2].
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**[Purpur pasaulio konfigūracijoje](configurations/purpur/world.md) ši funkcija veikia tik tada, kai yra įjungta `(Entity) > ridable`.**
 
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-플레이어가 엔티티를 탑승하고 있을 때, 엔티티의 특수 기술을 사용할 수 있도록 허용합니다.
+Leidžia žaidėjams naudoti entiteto specialias funkcijas, kai jie sėdi ant jo.
 
-모든 엔티티의 특수 기능이 사용 가능한 것은 아닙니다. 사용 가능한 전체 특수 기술은 아래를 참고하세요.
+Ne visiems entitetams yra leidžiama naudoti specialias funkcijas. Pilną specialių funkcijų sąrašą rasite žemiau.
 
 {% hint style="info" %}
 
-**특수 기술에 대한 좋은 아이디어가 있나요?**
+**Turite idėjų dėl specialių funkcijų?**
 
-[Plazma Discord](https://plazmamc.org/discord) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)에 아이디어를 게시해 주세요!
+Paskelbkite savo idėjas [Plazma Discord](https://plazmamc.org/discord) arba [GitHub diskusijose](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
 <details>
 
-<summary>현재 사용 가능한 특수 기술 보기</summary>
+<summary>Žiūrėti dabartines specialias funkcijas</summary>
 
 - **`crepper`**\
-  `점프 키`를 누르면 폭발합니다.\
-  플레이어가 `allow.powered.creeper` 권한을 가지고 있으면, `점프 키`를 꾹 눌러 충전할 수 있습니다.
+  Paspaudus `šuolio klavišą`, jis sprogs.\
+  Jei žaidėjas turi `allow.powered.creeper` leidimą, jis gali ilgai laikyti `šuolio klavišą`, kad įkrautų.
 - **`dolphin`**\
-  `점프 키`를 누르면 돌진합니다.
+  Paspaudus `šuolio klavišą`, jis puola.
 - **`phantom`**\
-  `점프 키`를 누르면 화염을 발사합니다.
+  Paspaudus `šuolio klavišą`, jis išspjaudys ugnį.
 - **`wither`**\
-  `상호 작용`하면 위더 머리를 발사합니다.
+  Jei su juo sąveikaujate, jis iššaudys wither galvą.
 
 </details>
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**[Purpur pasaulio konfigūracijoje](configurations/purpur/world.md) ši funkcija veikia tik tada, kai yra įjungta `(Entity) > ridable`.**
 
 {% endhint %}
 
 #### `bukkit.command.compass`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-[`/compass` 명령어](commands.md#compass) 사용을 허용합니다.
+Leidžia naudoti [`/compass` komandą](commands.md#compass).
 
 #### `bukkit.command.credits`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-[`/credits (Player)` 명령어](commands.md#credits) 사용을 허용합니다.
+Leidžia naudoti [`/credits (Žaidėjas)` komandą](commands.md#credits).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Įrašius leidimo pavadinimą pabaigoje `.other`, leidžia kitiems žaidėjams naudoti.
 
 #### `bukkit.command.demo`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-[`/demo (Player)` 명령어](commands.md#demo) 사용을 허용합니다.
+Leidžia naudoti [`/demo (Žaidėjas)` komandą](commands.md#demo).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Įrašius leidimo pavadinimą pabaigoje `.other`, leidžia kitiems žaidėjams naudoti.
 
 #### `bukkit.command.ping`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-[`/ping (Player)` 명령어](commands.md#ping) 사용을 허용합니다.
+Leidžia naudoti [`/ping (Žaidėjas)` komandą](commands.md#ping).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Įrašius leidimo pavadinimą pabaigoje `.other`, leidžia kitiems žaidėjams naudoti.
 
 #### `bukkit.command.ram`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-[`/ram` 명령어](commands.md#ram) 사용을 허용합니다.
+Leidžia naudoti [`/ram` komandą](commands.md#ram).
 
 #### `bukkit.command.rambar`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-[`/rambar (Player)` 명령어](commands.md#rambar) 사용을 허용합니다.
+Leidžia naudoti [`/rambar (Žaidėjas)` komandą](commands.md#rambar).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Įrašius leidimo pavadinimą pabaigoje `.other`, leidžia kitiems žaidėjams naudoti.
 
 #### `bukkit.command.restart`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-[`/restart` 명령어](commands.md#restart) 사용을 허용합니다.
+Leidžia naudoti [`/restart` komandą](commands.md#restart).
 
 #### `bukkit.command.tps`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-[`/tps` 명령어](commands.md#tps) 사용을 허용합니다.
+Leidžia naudoti [`/tps` komandą](commands.md#tps).
 
 #### `bukkit.command.tpsbar`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-[`/tpsbar (Player)` 명령어](commands.md#tpsbar) 사용을 허용합니다.
+Leidžia naudoti [`/tpsbar (Žaidėjas)` komandą](commands.md#tpsbar).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Įrašius leidimo pavadinimą pabaigoje `.other`, leidžia kitiems žaidėjams naudoti.
 
 #### `bukkit.command.timings`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-[`/timings` 명령어](commands.md#timings) 사용을 허용합니다.
+Leidžia naudoti [`/timings` komandą](commands.md#timings).
 
 {% hint style="įspėjimas" %}
 
-**해당 명령어는 사용이 중단되었습니다.**
+**Ši komanda nebeveikia.**
 
-비슷한 기능을 가지는 명령어에 대해 알아보려면 [Spark](https://spark.lucko.me/docs/Command-Usage)를 확인하세요.
+Norėdami sužinoti apie panašias funkcijas, apsilankykite [Spark](https://spark.lucko.me/docs/Command-Usage).
 
 {% endhint %}
 
 #### `bukkit.command.uptime`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-[`/uptime` 명령어](commands.md#uptime) 사용을 허용합니다.
+Leidžia naudoti [`/uptime` komandą](commands.md#uptime).
 
 #### `minecraft.command.gamemode.(GameMode)`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-`/gamemode (GameMode) (Player)` 명령어 사용을 허용합니다.
+Leidžia naudoti [`/gamemode (GameMode) (Žaidėjas)` komandą](commands.md#gamemode).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Įrašius leidimo pavadinimą pabaigoje `.other`, leidžia kitiems žaidėjams naudoti.
 
 #### `paper.antixray.bypass`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우,
-권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
+Kai yra įjungtas [X-Ray blokavimas](../expert/xray.md), leidžia registruotiems žaidėjams naudoti X-Ray blokų aptemimo funkciją.
 
-이렇게 하면 양 측 모두 성능 향상을 경험할 수 있습니다.
+Tai leidžia abiem pusėms patirti našumo pagerėjimą.
 
-> X-Ray 설정 방법에 대해 알아보려면 아래 페이지를 참고하세요.
+> Norėdami sužinoti daugiau apie X-Ray nustatymus, apsilankykite žemiau pateiktame puslapyje.
 
 {% content-ref url="../expert/xray.md" %}
 [xray.md](../expert/xray.md)
@@ -202,220 +201,220 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 #### `plazma.bypass-moved-to-quickly-check`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
 {% hint style="įspėjimas" %}
 
-해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
+Šis leidimas 1.20.5 versijoje bus pakeistas į `plazma.bypass.watchdog`.
 
 {% endhint %}
 
 #### `purpur.anvil.color`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-모루에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Leidžia naudoti kalbos [spalvų kodavimą](https://minecraft.wiki/w/Formatting_codes#Color_codes) kalvėje.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur pasaulio konfigūracijoje](configurations/purpur/world.md) ši funkcija veikia tik tada, kai yra įjungta `anvil > allow-colors`.**
 
 {% endhint %}
 
 #### `purpur.anvil.format`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)을 사용할 수 있도록 허용합니다.
+Leidžia naudoti [stiliaus kodavimą](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) kalvėje.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur pasaulio konfigūracijoje](configurations/purpur/world.md) ši funkcija veikia tik tada, kai yra įjungta `anvil > allow-colors`.**
 
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-모루에 [MiniMessage 태그](https://docs.advntr.dev/minimessage/format.html)를 사용할 수 있도록 허용합니다.
+Leidžia naudoti [MiniMessage žymes](https://docs.advntr.dev/minimessage/format.html) kalvėje.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
+**[Purpur pasaulio konfigūracijoje](configurations/purpur/world.md) ši funkcija veikia tik tada, kai yra įjungta `anvil > allow-minimessages`.**
 
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
+Leidžia išjungti `kursyvinį tekstą` kalvėje naudojant [`&r` stiliaus kodą](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur pasaulio konfigūracijoje](configurations/purpur/world.md) ši funkcija veikia tik tada, kai yra įjungta `anvil > allow-colors`.**
 
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)가 적용되도록 합니다.
+Kai žaidėjas pasirašo knygą, taikomi [stiliaus kodai](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
 
 #### `purpur.bypassIdleKick`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-플레이어를 유휴 상태 추방 대상에서 제외합니다.
+Išskiria žaidėją iš neaktyvių išmetimo sąrašo.
 
 #### `purpur.debug.f3n`
 
-- **기본 제공**: `세계 관리자`
+- **Numatytasis**: `Pasaulio valdytojas`
 
-플레이어가 `F3 + N` 키로 게임 모드를 변경할 수 있도록 허용합니다.
+Leidžia žaidėjui naudoti `F3 + N` klavišus keisti žaidimo režimą.
 
-해당 게임모드에 대한 권한이 없으면 작동하지 않습니다.
+Veiks tik turint atitinkamą žaidimo režimo leidimą.
 
 #### `purpur.drop.spawners`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-구성에서 설정한 아이템으로 스포너 블록을 채굴하면 스포너 블록을 떨어뜨립니다.
+Iškasant bloką, nustatytą konfigūracijoje, sukuria spawnerį.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**[Purpur pasaulio konfigūracijoje](configurations/purpur/world.md) ši funkcija veikia tik tada, kai yra įjungta `gameplay-mechanics > silk-touch`.**
 
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-엔더 상자의 크기를 변경합니다.
+Keičia enderlado dydį.
 
-`(NumberString)`에는 `one`, `two`, `three`, `four`, `five`, `six`를 입력할 수 있습니다.
+Į `(NumberString)` galima įvesti `one`, `two`, `three`, `four`, `five`, `six`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
+**[Purpur pasaulio konfigūracijoje](configurations/purpur/world.md) ši funkcija veikia tik tada, kai yra įjungta `ender_chest > six-rows` ir `ender_chest > use-permissions-for-rows`.**
 
 {% endhint %}
 
 #### `purpur.inventory_totem`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-불사의 토템이 인벤토리에 있어도 작동하도록 허용합니다.
+Leidžia totemui veikti, net jei jis yra inventoriuje.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
+**[Purpur pasaulio konfigūracijoje](configurations/purpur/world.md) ši funkcija veikia tik tada, kai yra įjungta `totem-of-undying-works-in-inventory`.**
 
 {% endhint %}
 
 #### `purpur.joinFullServer`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-플레이어가 접속자수 제한을 무시하도록 허용합니다.
+Leidžia žaidėjui ignoruoti prisijungusių vartotojų limitą.
 
 #### `purpur.mending_shift_click`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-플레이어가 `웅크리고 상호 작용`하면 들고 있는 아이템을 수선할 수 있도록 허용합니다.
+Leidžia žaidėjui remontuoti laikomą daiktą, kai jis `pasilenkia ir sąveikauja`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
+**Norint, kad tai veiktų, Purpur konfigūracijos faile (configurations/purpur/world.md) būtų įjungtas `shift-right-click-repairs-mending-points`.**
 
 {% endhint %}
 
 #### `purpur.place.spawners`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-플레이어가 스포너를 설치할 수 있도록 허용합니다.
+Leidžia žaidėjui įdiegti spawnerius.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**[Purpur pasaulio konfigūracijoje](configurations/purpur/world.md) ši funkcija veikia tik tada, kai yra įjungta `gameplay-mechanics > silk-touch`.**
 
 {% endhint %}
 
 #### `purpur.portal.instant`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-플레이어가 네더 차원문을 사용했을 때 바로 순간이동 하도록 합니다.
+Leidžia žaidėjui iškart teleportuotis, kai jis naudoja Nether portalą.
 
 #### `purpur.sign.color`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-표지판에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Leidžiama naudoti [spalvų kodą](https://minecraft.wiki/w/Formatting_codes#Color_codes) ženkleliuose.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**Norint, kad veiktų, Purpur pasaulio konfigūracijoje [`sign > allow-colors`](configurations/purpur/world.md) turi būti įjungtas.**
 
 {% endhint %}
 
 #### `purpur.sign.magic`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-표지판에 난독화 코드`(&o)`를 사용할 수 있도록 허용합니다.
+Leidžiama naudoti kodavimo simbolį `(&o)` ant ženklelio.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**Norint, kad veiktų, Purpur pasaulio konfigūracijoje [`sign > allow-colors`](configurations/purpur/world.md) turi būti įjungtas.**
 
 {% endhint %}
 
 #### `purpur.sign.style`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)를 사용할 수 있도록 허용합니다.
+Leidžiama naudoti [stiliavimo kodą `(&o išskyrus)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) ant ženklelio.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**Norint, kad veiktų, Purpur pasaulio konfigūracijoje [`sign > allow-colors`](configurations/purpur/world.md) turi būti įjungtas.**
 
 {% endhint %}
 
 #### `purpur.tnt.defuse`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-플레이어가 가위로 `상호 작용`하여 TNT 폭발을 막을 수 있도록 허용합니다.
+Leidžiama žaidėjui su švyturėliu `sąveikauti` ir išvengti TNT sprogimo.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
+**[Purpur pasaulio konfigūracijoje](configurations/purpur/world.md) `defuse-tnt-change` turi būti ne mažesnis nei `0.0`, kad veiktų.**
 
 {% endhint %}
 
-### 제공 예정 권한
+### Suteikiamos numatomosios teisės
 
 #### `plazma.bypass.ncr-require`
 
-- **기본 제공**: `없음`
+- **Numatytasis**: `None`
 
-플레이어가 [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) 모드가 설치되어 있지 않아도 접속할 수 있도록 허용합니다.
+Leidžiama žaidėjui prisijungti neturint įdiegto [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) modifikacijos.
 
 {% hint style="info" %}
 
-**[Plazma 세계별 구성](configurations/plazma/world.md)에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
+**[Plazma pasaulio konfigūracijoje](configurations/plazma/world.md) reikia įjungti `no-chat-reports > require-install`, kad veiktų.**
 
 {% endhint %}
 
 ***
 
-[^1]: Operator.
+[^1]: Operatorius.
 
-[^2]: 예: `ender_dragon`
+[^2]: Pavyzdys: `ender_dragon`
