@@ -29,39 +29,39 @@ description: قم بتنزيل Plazma الآن وجربه بنفسك مباشر�
 <table data-view="cards">
     <thead>
         <tr>
-            <th>버전</th>
-            <th>다운로드</th>
+            <th>الإصدار</th>
+            <th>تحميل</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>1.20.5</td>
             <td><a href="">
-                <img src="https://badge.plazmamc.org/0/릴리스%20대기중" alt="릴리스 대기중">
+                <img src="https://badge.plazmamc.org/0/في انتظار الإصدار" alt="في انتظار الإصدار">
             </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/تحميل" alt="تحميل">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/تحميل" alt="تحميل">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/تحميل" alt="تحميل">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/تحميل" alt="تحميل">
             </a></td>
         </tr>
     </tbody>
