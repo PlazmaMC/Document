@@ -4,7 +4,7 @@ description: Tìm hiểu về đối số khởi đầu và thuộc tính hệ t
 
 # 🎛️ Đối số và thuộc tính
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Bắt đầu và thuộc tính hệ thống là các giá trị được thêm vào [lệnh được sử dụng](#user-content-fn-1)[^1] trong việc thực thi Plazma, ảnh hưởng tổng thể đến hoạt động của Plazma.
 
 [위치에 덧붙이는 위치](#user-content-fn-2)[^2]에 따라 **시작 매개변수**와 **시스템 속성**으로 나뉘게 됩니다.
 
