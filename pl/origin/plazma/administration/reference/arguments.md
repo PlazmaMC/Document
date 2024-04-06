@@ -6,7 +6,7 @@ description: Dowiedz się o początkowych argumentach i właściwościach system
 
 Początkowe zmienne i właściwości systemowe to wartości dodawane do [polecenia używanego do uruchomienia Plazmy](#user-content-fn-1)[^1], które umożliwiają zmianę wartości, które nie mogą być zmienione po uruchomieniu Plazmy.
 
-W zależności od [miejsca, w którym jest dodawane do polecenia](#user-content-fn-2)[^2], dzielą się na **początkowe argumenty** i **właściwości systemowe**.
+Zgodnie z **parametrem lokalizacji** dodanym do [polecenia](#user-content-fn-2)[^2], zostanie podzielony na **argumenty początkowe** i **właściwości systemowe**.
 
 ***
 
@@ -35,13 +35,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` oznacza, że ten argument jest dodatkowym argumentem dedykowanym Plazmie, a
 
-jeśli nie wprowadzisz żadnej wartości, wartość zostanie [\`ustawiona na wartość „true”.](#user-content-fn-3)[^3]
+Jeśli nie podasz żadnej wartości dla właściwości, zostanie ona ustawiona na [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Platformy serwerowe z rodziny Paperweight używają kropki w nazwach właściwości do odróżnienia właściwości dla każdej platformy.**
 
-W niektórych terminalach, takich jak Windows Powershell, może nie być możliwe użycie tych argumentów, dlatego na końcach argumentów należy dodać `"` [^4]
+W niektórych terminalach, takich jak Windows Powershell, może nie być dozwolone używanie tych argumentów, dlatego na końcach argumentów należy dodać `"` [^4].
 
 {% endhint %}
 
@@ -132,7 +132,7 @@ Loguje wszystkie błędne bloki czaszek w świecie wraz z ich lokalizacją.
 - **Typ**: `Boolean`
 - **Domyślnie**: `False`
 
-Wyłącza limit 128 kanałów pluginów na gracza[^5].
+Wyłącza limit 128 kanałów wtyczek [dla każdego](#user-content-fn-5)[^5] gracza.
 
 #### `Paper.disableClassPrioritization`
 
@@ -186,7 +186,7 @@ Wszelkie problemy wynikające z tego są twoją odpowiedzialnością, a Plazma n
 - **Typ**: `Integer`
 - **Domyślnie**: `64`
 
-Ustawia limit nazw kanałów pluginów[^6].
+Ustawia limit nazw kanałów [wtyczek](#user-content-fn-5)[^5].
 
 #### `Paper.maxSignLength`
 
@@ -218,7 +218,7 @@ Włącza obsługę komentarzy w plikach YAML.
 
 Po określonym czasie (w sekundach) bez otrzymania danych od gracza, gracz zostanie wyrzucony.
 
-Zazwyczaj gra[^7] nadal wysyła [sygnał bicza serwera](#user-content-fn-8)[^8], więc nie zostaniesz wyrzucony, ale]\(#user-content-fn-9)[^9] jeśli gra nie odpowiada, serwer uzna to za awarię i przestanie obsługiwać gracza, wyrzucając go.
+Zazwyczaj [gra](#user-content-fn-7)[^7] regularnie wysyła [sygnał bicia serca](#user-content-fn-8)[^8] do serwera, więc [nie zostaniesz wyrzucony,](#user-content-fn-9)[^9] ale jeśli gra nie odpowiada, zostanie uznana za zderzoną i serwer przestanie obsługiwać gracza, a następnie go wyrzuci.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -291,7 +291,7 @@ Aktywacja sprawia, że serwer staje się szybszy i bezpieczniejszy, ale może bl
 - **Typ**: `Boolean`
 - **Domyślnie**: `false`
 
-Tłumi komunikat ostrzegawczy[^11], który pojawia się podczas inicjalizacji Plazmy.
+Zapobiega wyświetlaniu [ostrzeżeń](#user-content-fn-11)[^11] podczas inicjowania Plazmy.
 
 ### Używane atrybuty <a href="#id-1.3" id="id-1.3"></a> zostały zakończone
 
