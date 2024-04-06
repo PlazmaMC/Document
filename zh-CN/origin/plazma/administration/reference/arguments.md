@@ -4,8 +4,7 @@ description: 了解启动参数和系统属性。
 
 # 🎛️ 参数和属性
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
 
 [命令中添加的位置](#user-content-fn-2)[^2]将被分为**起始参数**和**系统属性**。
 
@@ -27,8 +26,8 @@ Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해�
 
 系统属性作为Java命令参数输入，位于`java`和`-jar`之间。
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+例如，如果要应用`Plazma.dummyProperty`系统属性，
+则输入如下，然后下一个属性将初始化为`37`。
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -188,7 +187,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **类型**: `整数`
 - **默认值**: `64`
 
-플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
+设置插件[通道](#user-content-fn-6)[^6]名称的限制。
 
 #### `Paper.maxSignLength`
 
