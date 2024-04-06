@@ -7,7 +7,7 @@ description: Ismerje meg a kezdő paramétereket és rendszer tulajdonságait.
 A kezdő változók és rendszer tulajdonságok olyan értékek, amelyeket a Plazma futtatásához használt parancsokhoz fűznek,\
 és lehetővé teszik, hogy olyan értékeket módosítsanak, amelyeket a Plazma futása után nem lehet megváltoztatni.
 
-A **kezdő paraméterek** és a **rendszer tulajdonságok** az [utasításokhoz fűzött helyre](#user-content-fn-2)[^2] vannak felosztva.
+[A **kezdeti argumentumokra** és a **rendszer tulajdonságokra** oszlik az **utasításokhoz hozzáadott helyzet** alapján](#user-content-fn-2)[^2].
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 A `-D` azt jelzi, hogy ez a paraméter nem a JVM-be van beágyazva, hanem kizárólag a Plazmához hozzáadott saját paraméter.
 
-Ha nem ad meg semmilyen értéket a tulajdonságnál, az érték [`true`-ra lesz rögzítve.](#user-content-fn-3)[^3]
+Ha nem ad meg értéket a tulajdonságoknál, az érték [`true`-ra lesz rögzítve](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **A Paperweight sorozatú szerver platform mindegyik platformon a tulajdonságok megkülönböztetése érdekében a tulajdonság nevébe `.`-t tartalmaz.**
 
-Bizonyos terminálokon, mint például a Windows Powershell, előfordulhat, hogy ezeket az argumentumokat nem fogadják el, ezért az argumentumok mindkét végére hozzá kell adni a `"` karaktert. [^4]
+Néhány terminálban, például a Windows Powershell-ben, lehet, hogy nem fogadja el ezeket az argumentumokat, ezért az argumentumok mindkét végéhez hozzá kell adni a `"` jelet [^4].
 
 {% endhint %}
 
@@ -134,7 +134,7 @@ Ez minden hibás koponya blokkot a világban a helyükkel együtt naplóz.
 - **Forma**: `Boolean`
 - **Alapértelmezett**: `False`
 
-Letiltja a játékosonként alkalmazott 128 plugin csatorna[^5] korlátot.
+Letiltja a 128 db [csatorna](#user-content-fn-5)[^5] plugin alkalmazásának korlátozását játékosonként.
 
 #### `Paper.disableClassPrioritization`
 
@@ -188,7 +188,7 @@ Minden ebből eredő problémáért Ön a felelős, és a Plamza nem nyújt tám
 - **Forma**: `Integer`
 - **Alapértelmezett**: `64`
 
-Beállítja a plugin csatorna[^6] nevének korlátját.
+Beállítja a plugin [csatorna](#user-content-fn-5)[^5] nevének korlátait.
 
 #### `Paper.maxSignLength`
 
@@ -220,8 +220,7 @@ Engedélyezi a YAML fájlok kommentjeinek feldolgozását.
 
 Ha a játékostól a megadott idő (másodperc) alatt nincs adatátvitel, akkor a játékost kirakja.
 
-Általában a játék folyamatosan küld [szívverés jelet](#user-content-fn-8)[^8] a szervernek, és ekkor nem lesz kirakva,\
-de ha a játék nem válaszol, akkor a játék összeomlottnak tekinti, és nem kezeli tovább a játékost, hanem kirakja.
+Általában a [játék](#user-content-fn-7)[^7] folyamatosan küld [szívverés jeleket](#user-content-fn-8)[^8] a szerverre, így nem lesz [kikapcsolva, de](#user-content-fn-9)[^9] ha a játék nem válaszol, összeütközésnek tekinti és többé nem kezeli a játékost a szerveren, hanem kirúgja.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -294,7 +293,7 @@ Ha aktiválja, a szerver gyorsabbá és biztonságosabbá válik, de néhány me
 - **Forma**: `Boolean`
 - **Alapértelmezett**: `false`
 
-Megakadályozza a Plazma inicializálásakor megjelenő figyelmeztetést[^11].
+Megakadályozza a Plazma inicializálásakor megjelenő [figyelmeztetéseket](#user-content-fn-11)[^11].
 
 ### Használt tulajdonság <a href="#id-1.3" id="id-1.3"></a>
 
