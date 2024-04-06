@@ -8,7 +8,7 @@ description: Merrni informacion mbi pyetjet e shpeshta.
 
 **Nuk mund të gjeni përgjigjen që kërkoni?**
 
-Pyet komunitetin në [serverin Discord zyrtar](https://discord.gg/MmfC52K8A8) ose në [Problemet e GitHub](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Serveri Zyrtar i Discord-it](https://discord.gg/MmfC52K8A8) ose [Diskutimet në GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) për të pyetur komunitetin!
 
 {% endhint %}
 
