@@ -21,8 +21,8 @@ description: 了解 Plazma 是什麼服務器平台。
    包含[Pufferfish](https://github.com/pufferfish-gg/Pufferfish)的所有補丁，並且內置了一些自身優化和模組，提供最佳性能。
 3. **自定義遊戲**\
    包括在Plazma中的[Purpur](https://github.com/PurpurMC/Purpur)可修改遊戲的整體屬性。
-4. **安全遊戲伺服器**\
-   包含[No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)，可停用自1.19版起新增的Mojang[^2]的[聊天舉報系統](#user-content-fn-3)[^3]，並完全刪除診斷信息收集器，讓玩家能在無跟踪的安全伺服器上遊玩。
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 [Mojang](#user-content-fn-2)[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며, 진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **最快的更新**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate)確保Plazma的補丁始終保持最新，提供Paper基礎伺服器平台中最快的更新。
 6. **優化的預設配置文件**\
