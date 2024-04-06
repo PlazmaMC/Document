@@ -2,7 +2,7 @@
 description: Ketahui cara menggunaan semula pelayan.
 ---
 
-# 📶 발전하기
+# 📶 Membangun
 
 Alasan mengapa menggunakan platform server yang telah diubah seperti Plazma daripada platform server rasmi yang disediakan oleh Mojang Studios adalah kerana ia membolehkan **penyesuaian pengguna** yang kuat.
 
@@ -107,7 +107,7 @@ ujian yang mencukupi sebelum mengemaskini pelayan adalah penting.
 
 **Selepas memulakan pelayan, masukkan `safeMode` selepas arahan permulaan untuk menonaktifkan semua Data Pack sebelum memulakan semula pelayan.**
 
-[Sila rujuk `Rujukan > Argumen dan Sifat` untuk maklumat lanjut.](../reference/arguments.md#safeMode)
+[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -117,9 +117,11 @@ Data Pack yang dipasang boleh disahkan dengan menggunakan perintah `/datapack li
 
 ## Pemodenan <a href="#id-4" id="id-4"></a>
 
-Plazma telah dilengkapi dengan banyak penambahbaikan pemodenan. Selain itu, apabila Plazma pertama kali dimulakan, ia akan mengoptimumkan konfigurasi secara automatik, jadi jika anda mengikuti panduan [Bermula](./README.md), tiada tindakan pemodenan tambahan diperlukan.
+Plazma telah dilengkapi dengan banyak penambahbaikan pemodenan. 또한, Plazma가 처음으로 시작되면 자동으로
+구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
 
-Walau bagaimanapun, jika terdapat banyak pemain yang menyertai atau jika saiz dunia besar, anda boleh melakukan tindakan pemodenan tambahan mengikut panduan di bawah.
+하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
+아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
