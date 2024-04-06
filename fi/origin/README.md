@@ -1,5 +1,5 @@
 ---
-description: Jos sinulla on kysyttävää, kysy Discordin tai GitHub Issuesin kautta.
+description: Jos sinulla on kysyttävää, kysy Discordissa tai GitHub-keskusteluissa.
 ---
 
 # 🏠 Tervetuloa Docs-portaaliin
