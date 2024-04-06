@@ -27,7 +27,7 @@ Plazma étant basé sur la plateforme officielle de serveurs de Mojang Studios, 
 
 Pour vérifier si JRE est installé sur le système, saisissez [`cmd /k java --version`](#user-content-fn-4)[^4] dans la fenêtre d'exécution et exécutez.
 
-다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+Si cela s'affiche comme suit, passez à l'[étape 2](#id-2).
 
 {% code title="Sortie correcte" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64 bits Server VM Zulu21.32+17-CA (version 21.0.2+13-LTS, mode mixte, pa
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+Si cela ne s'affiche pas comme indiqué ci-dessus, ou si cela s'affiche comme ci-dessous, cela signifie que JRE est manquant ou trop ancien, vous devez alors effectuer l'[étape 1.2](#id-1.2).
 
 {% code title="JRE non installé" lineNumbers="true" %}
 
@@ -61,9 +61,9 @@ Erreur : Une exception fatale s'est produite. Le programme va se fermer.
 
 ### 1.2 Installation de JRE
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+Dans ce guide, nous utilisons Azul Zulu comme l'une des [variantes](#user-content-fn-5)[^5] de JRE.
 
-설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+Après avoir terminé l'installation, refaites l'[étape 1.1](#id-1.1) pour vérifier si l'installation s'est correctement terminée.
 
 {% tabs %}
 
@@ -125,8 +125,8 @@ Plazma propose différents types de fichiers exécutables.
 
 **Dans la plupart des cas, utilisez `Reobf Paperclip`.**
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+Les informations ci-dessous sont destinées aux développeurs ou à ceux qui s'intéressent aux différentes caractéristiques.\
+Si vous êtes un utilisateur général, vous pouvez passer à l'[étape 3](#id-3) sans problème.
 
 {% endhint %}
 
@@ -201,11 +201,11 @@ Pour accepter l'EULA, modifiez `eula=false` en `eula=true` dans le fichier `eula
 
 Les systèmes d'exploitation modernes bloquent généralement l'accès externe par défaut à des fins de sécurité à l'aide du **pare-feu** et du **routeur**.
 
-Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+Pour Windows, puisque le pare-feu a été autorisé à l'[étape 3](#id-3), il vous suffit de faire du port forwarding.
 
 {% hint style="info" %}
 
-**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Ce guide suppose que vous utilisez le système d'exploitation Windows et un routeur compatible avec [UPnP](#user-content-fn-12)[^12].**
 
 Si votre routeur ne prend pas en charge l'UPnP, vous devrez rechercher comment configurer le transfert de port spécifiquement pour votre routeur.
 
@@ -302,7 +302,7 @@ Si le serveur et le jeu sont exécutés sur le même PC, vous pouvez vous connec
 
 Après avoir démarré avec succès le serveur et qu'il fonctionne correctement, il est temps de le personnaliser.
 
-아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+Découvrez comment personnaliser le serveur à travers le guide ci-dessous.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
