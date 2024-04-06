@@ -6,7 +6,7 @@ description: Leer over de startargumenten en systeemeigenschappen.
 
 Startvariabelen en systeemeigenschappen zijn waarden die worden toegevoegd aan de [opdrachten](#user-content-fn-1)[^1] die worden gebruikt bij het uitvoeren van Plazma, waardoor het mogelijk is om waarden te wijzigen die niet kunnen worden gewijzigd nadat Plazma is gestart.
 
-Afhankelijk van de [locatie waar de opdracht wordt toegevoegd](#user-content-fn-2)[^2], worden ze verdeeld in **startargumenten** en **systeemeigenschappen**.
+[De argumenten](#user-content-fn-2)[^2] worden verdeeld in **startparameters** en **systeemeigenschappen** volgens de toegevoegde positie van de opdracht.
 
 ***
 
@@ -34,13 +34,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` geeft aan dat dit argument geen ingebouwd JVM-argument is maar een specifiek argument toegevoegd aan Plazma,
 
-als er geen waarde voor de eigenschap wordt ingevoerd, wordt de waarde [`true` vastgezet.](#user-content-fn-3)[^3]
+Als er geen waarden voor eigenschappen worden ingevoerd, wordt de waarde standaard ingesteld op [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **De Paperweight-serie serverplatforms gebruikt puntjes in de eigenschapsnamen om eigenschappen voor elk platform te onderscheiden.**
 
-In sommige terminals zoals Windows Powershell kan het zijn dat deze argumenten niet worden geaccepteerd, dus moet je `"` aan beide uiteinden van het argument [toevoegen.](#user-content-fn-4)[^4]
+In sommige terminals zoals Windows Powershell kan het zijn dat deze argumenten niet worden geaccepteerd, dus moet je aan beide kanten van de argumenten `"` [toevoegen](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -131,7 +131,7 @@ Logt alle ongeldige hoofdblokken in de wereld samen met hun locatie.
 - **Type**: `Boolean`
 - **Standaardwaarde**: `False`
 
-Schakelt de limiet van 128 plug-inkanalen per speler uit.
+Schakelt de limiet van 128 kanalen voor plug-ins die van toepassing zijn op elke speler [uit](#user-content-fn-5)[^5].
 
 #### `Paper.disableClassPrioritization`
 
@@ -185,7 +185,7 @@ Alle problemen die voortvloeien uit het gebruik hiervan zijn de verantwoordelijk
 - **Type**: `Integer`
 - **Standaardwaarde**: `64`
 
-Stelt de limiet in voor de naam van plug-inkanalen.
+Stelt de beperking in voor de naam van het plug-in [kanaal](#user-content-fn-5)[^5].
 
 #### `Paper.maxSignLength`
 
@@ -217,7 +217,7 @@ Activeert het verwerken van opmerkingen in YAML-bestanden standaard.
 
 Als er gedurende de opgegeven tijd (in seconden) geen gegevens van de speler worden ontvangen, wordt de speler verwijderd.
 
-Normaal gesproken blijft het spel[^7] hartslagsignalen naar de server sturen, dus [wordt de speler niet verwijderd,](#user-content-fn-8)[^8] maar als het spel niet reageert, wordt aangenomen dat het is vastgelopen en wordt de speler verwijderd zonder verdere verwerking op de server.
+In de meeste gevallen blijft het [spel](#user-content-fn-7)[^7] voortdurend [hartslag signalen](#user-content-fn-8)[^8] naar de server sturen. Als het spel niet reageert, wordt het beschouwd als een crash en zal het de speler niet langer verwerken en zal de speler worden verbannen.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -290,7 +290,7 @@ Als u het activeert, zal de server sneller en veiliger worden, maar het kan somm
 - **Type**: `Boolean`
 - **Standaardwaarde**: `false`
 
-Onderdrukt de waarschuwing[^11] die wordt weergegeven wanneer Plazma wordt geïnitialiseerd.
+Onderdrukt waarschuwingen die worden weergegeven bij het initialiseren van Plazma [uit](#user-content-fn-11)[^11].
 
 ### Gebruikte eigenschap <a href="#id-1.3" id="id-1.3"></a> is stopgezet
 
