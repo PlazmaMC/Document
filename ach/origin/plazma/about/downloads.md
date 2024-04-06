@@ -24,6 +24,8 @@ Developer ni, pwonyo kwede ma ber kwede ni, i kilo pa loyo kicel mako ki gengo.
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
@@ -64,3 +66,5 @@ Developer ni, pwonyo kwede ma ber kwede ni, i kilo pa loyo kicel mako ki gengo.
         </tr>
     </tbody>
 </table>
+
+***
