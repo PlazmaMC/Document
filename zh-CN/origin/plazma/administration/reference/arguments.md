@@ -7,7 +7,7 @@ description: 了解启动参数和系统属性。
 启动变量和系统属性是附加到[用于执行Plazma的命令](#user-content-fn-1)[^1]的值，\
 允许更改Plazma在执行后无法更改的值。
 
-根据[添加到命令的位置](#user-content-fn-2)[^2]，分为 **启动参数** 和 **系统属性**。
+[命令中添加的位置](#user-content-fn-2)[^2]将被分为**起始参数**和**系统属性**。
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D`表示该参数不是JVM内置的，而是附加到Plazma的专用参数，
 
-如果没有输入任何值，则该值将被固定为[`true`。](#user-content-fn-3)[^3]
+如果未输入任何值，则值将被固定为[`true`](#user-content-fn-3)[^3]。
 
 {% hint style="info" %}
 
 **Paperweight系列服务器平台为了区分每个平台的系统属性，在属性名称中包含`.`。**
 
-在Windows Powershell等某些终端中，可能不允许这些参数，因此在参数两端应该[添加`"`](#user-content-fn-4)[^4]。
+在某些终端（如Windows Powershell）中，可能不允许这些参数，因此必须在参数两端添加 `"`。
 
 {% endhint %}
 
@@ -134,7 +134,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **类型**: `布尔值`
 - **默认值**: `False`
 
-禁用每个玩家的128个插件频道[^5]的限制。
+禁用每个玩家应用的128个插件[通道](#user-content-fn-5)[^5]的数量限制。
 
 #### `Paper.disableClassPrioritization`
 
@@ -188,7 +188,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **类型**: `整数`
 - **默认值**: `64`
 
-设置插件频道[^6]名称的限制。
+设置插件[通道](#user-content-fn-5)[^5]名称的限制。
 
 #### `Paper.maxSignLength`
 
@@ -220,8 +220,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 当玩家在指定时间内（以秒为单位）未收到任何数据时，将踢出玩家。
 
-通常，游戏[^7]会继续向服务器发送[心跳信号](#user-content-fn-8)[^8]，\
-如果没有响应，游戏将认为发生了冲突，并在不再处理玩家的情况下将其踢出。
+通常情况下，游戏会持续向服务器发送[心跳信号](#user-content-fn-8)[^8]，如果游戏没有响应，则被视为游戏崩溃，并且服务器将不再处理玩家并将其踢出。
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -294,7 +293,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **类型**: `布尔值`
 - **默认值**: `false`
 
-抑制Plazma初始化时显示的警告[^11]。
+抑制Plazma初始化时显示的[警告](#user-content-fn-11)[^11]。
 
 ### 已停用的属性 <a href="#id-1.3" id="id-1.3"></a>
 
