@@ -7,7 +7,7 @@ description: Uurige algust ja süsteemi atribuute.
 Algusmuutujad ja süsteemi atribuudid on väärtused, mis lisatakse [kasutatavatele käskudele](#user-content-fn-1)[^1] Plazma käivitamisel,\
 võimaldades muuta muutumatuid väärtusi pärast Plazma käivitamist.
 
-Sõltuvalt [käsu lisamise kohast](#user-content-fn-2)[^2] jagunevad **algusmuutujad** ja **süsteemi atribuudid**.
+[Käivitusparameetrite lisamine](#user-content-fn-2)[^2] jaguneb **algparameetriteks** ja **süsteemi atribuutideks** vastavalt nende lisamise kohale käskudele.
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` tähistab, et see argument pole JVM-is sisse ehitatud, vaid lisatud eraldi Plazma jaoks,
 
-kui väärtust ei sisestata, siis väärtus [`true`ks fikseeritakse.](#user-content-fn-3)[^3]
+Kui atribuudile ei sisestata mingit väärtust, siis väärtus fikseeritakse [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Paperweight seeria serveri platvormid eristavad süsteemi omadusi iga platvormi jaoks, sisaldades atribuudi nimes `.`.**
 
-Mõnedes terminalides, nagu Windows Powershell, võib olla nende argumentide kasutamine keelatud, seega tuleb lisada argumentide mõlemale poolele `"`.
+Mõnedes terminalides, nagu Windows Powershell, võib olla nende parameetrite lubamine keelatud, seega tuleb parameetrite mõlemale otsale lisada `"` [lõppu](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -133,7 +133,7 @@ See logib kõik valesti paigutatud koljuprofiilid asukohaga ja maailmas.
 - **Tüüp**: `Boolean`
 - **Vaikimisi väärtus**: `False`
 
-Keelab 128 pistikprogrammi kanali piirangu mängija kohta.
+Keelab 128 plugini [kanali](#user-content-fn-5)[^5] piirangu mängijale.
 
 #### `Paper.disableClassPrioritization`
 
@@ -187,7 +187,7 @@ Kõik sellest tulenevad probleemid on teie enda vastutusel ja Plazma ei paku sel
 - **Tüüp**: `Integer`
 - **Vaikimisi väärtus**: `64`
 
-Määrab pistikprogrammi kanali[^6] nime piirangu.
+Määrab plugini [kanali](#user-content-fn-5)[^5] nime piirangu.
 
 #### `Paper.maxSignLength`
 
@@ -219,7 +219,7 @@ Lülitab sisse YAML failide kommentaaride töötlemise.
 
 Kui mängijalt pole määratud aja jooksul (sekundites) saadud andmeid, siis mängija välja visatakse.
 
-Tavaliselt saadab mäng [jätkuvalt serverisse](#user-content-fn-8)[^8] südamelöögisignaale, nii et [ei visata välja,](#user-content-fn-9)[^9] kuid kui mäng ei vasta, siis loetakse kokkupõrkeks ja mängija visatakse välja.
+Tavaliselt saadab [mäng](#user-content-fn-7)[^7] pidevalt [südamepekslemise signaali](#user-content-fn-8)[^8] serverisse, seega kui mäng ei vasta, siis seda ei visata, vaid loetakse mäng kokkupõrkeks ja mängijat ei töödelda serveris edasi ning ta saadetakse minema.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -292,7 +292,7 @@ Kui aktiveerite, muutub server kiiremaks ja turvalisemaks, kuid see võib blokee
 - **Tüüp**: `Boolean`
 - **Vaikimisi väärtus**: `false`
 
-Pärssib hoiatusteksti[^11], mis ilmub Plazma lähtestamisel.
+Pärsib Plazma alglaadimisel kuvatava [hoiatuse](#user-content-fn-11)[^11].
 
 ### Kasutatud omadus <a href="#id-1.3" id="id-1.3"></a> on lõpetatud
 
