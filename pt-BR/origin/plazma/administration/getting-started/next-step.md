@@ -2,7 +2,7 @@
 description: Descubra como personalizar o servidor.
 ---
 
-# 📶 Fase de desenvolvimento
+# 📶 발전하기
 
 A razão pela qual se utiliza uma plataforma de servidor modificada como Plazma, em vez da plataforma oficial fornecida pela Mojang Studios, é a capacidade de **personalização** poderosa.
 
