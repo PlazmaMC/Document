@@ -8,7 +8,7 @@ description: למענה על שאלות נפוצות, בדוק כאן.
 
 **לא מוצאים את התשובה שחיפשתם?**
 
-[שרת Discord רשמי](https://discord.gg/MmfC52K8A8) או [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) לשאול שאלות בקהילה!
+[שרת Discord רשמי](https://discord.gg/MmfC52K8A8) או [דיונים ב-GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) - נסה לשאול שאלות בקהילה דרך זה!
 
 {% endhint %}
 
