@@ -19,7 +19,7 @@
     - [פקודות 🖥️](plazma/administration/reference/commands.md)
     - [הרשאות 🛡️](plazma/administration/reference/permissions.md)
     - [ארגומנטים ומאפיינים 🎛️](plazma/administration/reference/arguments.md)
-    - [📋 구성](plazma/administration/reference/configurations/README.md)
+    - [📋 תצורה](plazma/administration/reference/configurations/README.md)
       - [🪨 תכונה](plazma/administration/reference/configurations/property.md)
       - [בוקיט 🪣](plazma/administration/reference/configurations/bukkit.md)
       - [ספיגוט 🚰](plazma/administration/reference/configurations/spigot.md)
