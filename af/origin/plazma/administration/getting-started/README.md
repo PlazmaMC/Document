@@ -159,8 +159,8 @@ Die uitvoerbaarleër se naam word bepaal as `plazma-(weergawe-bestuurder)-1.20.4
 
 Om Plazma maklik te begin en die bediener outomaties te herlaai, moet jy 'n [begin skripsie](#user-content-fn-6)[^6] skep.
 
-Jy kan 'n begin skripsie deur [Flags.sh](https://flags.sh) skep.\
-Net voer jou [geheue wat gebruik moet word](#user-content-fn-8)[^8] in en die opdrag sal outomaties geoptimaliseer word.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Jy kan die begin skripsie deur die onderste regterkant aflaai-knoppie aflaai.\
 **Maak seker dat die afgelaaide begin skripsie ooreenstem met jou bedryfstelsel.**
@@ -189,7 +189,11 @@ Nadat jy die begin skripsie een keer uitgevoer het, word 'n `eula.txt`-lêer in 
 
 EULA[^9] is 'n gebruikerslisensie-ooreenkoms waarmee jy moet instem om van die dienste van [Mojang Studios](#user-content-fn-10)[^10] gebruik te maak.
 
-As jy nie met die EULA saamstem nie, kan jy nie die bediener begin nie, en as jy die EULA oortree, kan jy gestraf word met die opskorting van jou rekening ens. [sanksies](#user-content-fn-11)[^11].
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Om met die EULA saam te stem, verander `eula=false` na `eula=true` in die `eula.txt`-lêer en stoor dit.
 
@@ -296,7 +300,7 @@ Indien die bediener en die spel op dieselfde rekenaar hardloop, kan jy met `loca
 {% endtab %}
 {% endtabs %}
 
-## 7. Ontwikkelingsfase
+## 7. 발전하기
 
 As die bediener suksesvol begin het en behoorlik funksioneer, is dit nou tyd om die bediener aan te pas.
 
