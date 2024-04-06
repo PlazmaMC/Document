@@ -10,191 +10,191 @@ To properly utilize and easily modify permissions, you should use plugins like [
 
 ***
 
-## 기본 권한 체계 이해하기 <a href="#id-1" id="id-1"></a>
+## Understanding the default permission system <a href="#id-1" id="id-1"></a>
 
-Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니다.
+In Minecraft, basic management permission groups are provided.
 
-[운영자](#user-content-fn-1)[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
+You can set permissions for [operators](#user-content-fn-1)[^1] and command blocks, and modify them in [server properties](configurations/property.md).
 
-0. **플레이어**\
-   일반적으로 모든 플레이어어게 주어지는 권한 그룹입니다.
-1. **중재자**\
-   스폰 보호를 무시할 수 있습니다.
-2. **세계 관리자**\
-   세계 관리와 관련된 모든 명령어와 명령 블록을 사용할 수 있습니다.\
-   데이터팩 및 명령 블록에 기본 적용되는 권한 그룹입니다.
-3. **관리자**\
-   플레이어 관리와 관련된 모든 명령어를 사용할 수 있습니다.
-4. **총관리자**\
-   서버 관리를 포함한 모든 명령어를 사용할 수 있습니다.\
-   콘솔 및 운영자에게 기본 적용되는 권한 그룹입니다.
-
-***
-
-## 권한 설정하기 <a href="#id-2" id="id-2"></a>
+0. **Player**\
+   This is the permission group typically given to all players.
+1. **Mediator**\
+   Can bypass spawn protection.
+2. **World Administrator**\
+   Can use all commands and command blocks related to world management.\
+   This is the permission group applied by default to datapacks and command blocks.
+3. **Administrator**\
+   Can use all commands related to player management.
+4. **Super Administrator**\
+   Can use all commands including server management.\
+   This is the permission group applied by default to the console and operators.
 
 ***
 
-## 전체 권한 <a href="#id-3" id="id-3"></a>
+## Setting Permissions <a href="#id-2" id="id-2"></a>
+
+***
+
+## Full Permissions <a href="#id-3" id="id-3"></a>
 
 ***
 
 #### `allow.ride.(Namespaced Key)`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-플레이어가 엔티티에 `웅크리고 상호 작용`하여 엔티티를 탑승할 수 있도록 허용합니다.
+Allows players to mount entities by `crouching and interacting` with them.
 
-엔티티를 탑승하면 `이동 키`로 엔티티의 이동을 조작할 수 있으며, `점프 키`로 점프하거나 날 수 있습니다.
+When mounted on an entity, players can control the entity's movement with the `movement keys` and jump or fly with the `jump key`.
 
-`(Namespaced Key)`에는 엔티티의 [Namespaced ID](#user-content-fn-2)[^2]가 입력됩니다.
+The [Namespaced ID](#user-content-fn-2)[^2] of the entity is entered in `(Namespaced Key)`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**Only works if `(Entity) > ridable` is enabled in [Purpur world settings](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-플레이어가 엔티티를 탑승하고 있을 때, 엔티티의 특수 기술을 사용할 수 있도록 허용합니다.
+Allows players to use special abilities of entities while mounted on them.
 
-모든 엔티티의 특수 기능이 사용 가능한 것은 아닙니다. 사용 가능한 전체 특수 기술은 아래를 참고하세요.
+Not all entities have available special abilities. Refer below for a list of all available special abilities.
 
 {% hint style="info" %}
 
-**특수 기술에 대한 좋은 아이디어가 있나요?**
+**Have a great idea for a special ability?**
 
-[Plazma Discord](https://plazmamc.org/discord) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)에 아이디어를 게시해 주세요!
+Post your ideas on [Plazma Discord](https://plazmamc.org/discord) or [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
 <details>
 
-<summary>현재 사용 가능한 특수 기술 보기</summary>
+<summary>View currently available special abilities</summary>
 
 - **`crepper`**\
-  `점프 키`를 누르면 폭발합니다.\
-  플레이어가 `allow.powered.creeper` 권한을 가지고 있으면, `점프 키`를 꾹 눌러 충전할 수 있습니다.
+  Explodes when the `jump key` is pressed.\
+  If the player has the `allow.powered.creeper` permission, they can hold down the `jump key` to charge it.
 - **`dolphin`**\
-  `점프 키`를 누르면 돌진합니다.
+  Dashes when the `jump key` is pressed.
 - **`phantom`**\
-  `점프 키`를 누르면 화염을 발사합니다.
+  Shoots fire when the `jump key` is pressed.
 - **`wither`**\
-  `상호 작용`하면 위더 머리를 발사합니다.
+  Fires wither heads when `interacted with`.
 
 </details>
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**Only works if `(Entity) > ridable` is enabled in [Purpur world settings](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `bukkit.command.compass`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-[`/compass` 명령어](commands.md#compass) 사용을 허용합니다.
+Allows the use of the [`/compass` command](commands.md#compass).
 
 #### `bukkit.command.credits`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-[`/credits (Player)` 명령어](commands.md#credits) 사용을 허용합니다.
+Allows the use of the [`/credits (Player)` command](commands.md#credits).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adding `.other` after the permission name allows it to be used by other players.
 
 #### `bukkit.command.demo`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-[`/demo (Player)` 명령어](commands.md#demo) 사용을 허용합니다.
+Allows the use of the [`/demo (Player)` command](commands.md#demo).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adding `.other` after the permission name allows it to be used by other players.
 
 #### `bukkit.command.ping`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-[`/ping (Player)` 명령어](commands.md#ping) 사용을 허용합니다.
+Allows the use of the [`/ping (Player)` command](commands.md#ping).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adding `.other` after the permission name allows it to be used by other players.
 
 #### `bukkit.command.ram`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-[`/ram` 명령어](commands.md#ram) 사용을 허용합니다.
+Allows the use of the [`/ram` command](commands.md#ram).
 
 #### `bukkit.command.rambar`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-[`/rambar (Player)` 명령어](commands.md#rambar) 사용을 허용합니다.
+Allows the use of the [`/rambar (Player)` command](commands.md#rambar).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adding `.other` after the permission name allows it to be used by other players.
 
 #### `bukkit.command.restart`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-[`/restart` 명령어](commands.md#restart) 사용을 허용합니다.
+Allows the use of the [`/restart` command](commands.md#restart).
 
 #### `bukkit.command.tps`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-[`/tps` 명령어](commands.md#tps) 사용을 허용합니다.
+Allows the use of the [`/tps` command](commands.md#tps).
 
 #### `bukkit.command.tpsbar`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-[`/tpsbar (Player)` 명령어](commands.md#tpsbar) 사용을 허용합니다.
+Allows the use of the [`/tpsbar (Player)` command](commands.md#tpsbar).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adding `.other` after the permission name allows it to be used by other players.
 
 #### `bukkit.command.timings`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-[`/timings` 명령어](commands.md#timings) 사용을 허용합니다.
+Allows the use of the [`/timings` command](commands.md#timings).
 
 {% hint style="warning" %}
 
-**해당 명령어는 사용이 중단되었습니다.**
+**This command has been discontinued.**
 
-비슷한 기능을 가지는 명령어에 대해 알아보려면 [Spark](https://spark.lucko.me/docs/Command-Usage)를 확인하세요.
+Check [Spark](https://spark.lucko.me/docs/Command-Usage) for similar commands.
 
 {% endhint %}
 
 #### `bukkit.command.uptime`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-[`/uptime` 명령어](commands.md#uptime) 사용을 허용합니다.
+Allows the use of the [`/uptime` command](commands.md#uptime).
 
 #### `minecraft.command.gamemode.(GameMode)`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-`/gamemode (GameMode) (Player)` 명령어 사용을 허용합니다.
+Allows the use of the `/gamemode (GameMode) (Player)` command.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adding `.other` after the permission name allows it to be used by other players.
 
 #### `paper.antixray.bypass`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우,
-권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
+If [X-Ray blocking](../expert/xray.md) is enabled,
+players with the registered permission will not obfuscate blocks for X-Ray blocking.
 
-이렇게 하면 양 측 모두 성능 향상을 경험할 수 있습니다.
+This improves performance for both sides.
 
-> X-Ray 설정 방법에 대해 알아보려면 아래 페이지를 참고하세요.
+> Refer to the page below for information on X-Ray configuration.
 
 {% content-ref url="../expert/xray.md" %}
 [xray.md](../expert/xray.md)
@@ -202,215 +202,215 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 #### `plazma.bypass-moved-to-quickly-check`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
 {% hint style="warning" %}
 
-해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
+This permission will be changed to `plazma.bypass.watchdog` in 1.20.5.
 
 {% endhint %}
 
 #### `purpur.anvil.color`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-모루에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Allows the use of color codes on anvils.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**Only works if `anvil > allow-colors` is enabled in [Purpur world settings](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.anvil.format`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)을 사용할 수 있도록 허용합니다.
+Allows the use of styling codes on anvils.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**Only works if `anvil > allow-colors` is enabled in [Purpur world settings](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-모루에 [MiniMessage 태그](https://docs.advntr.dev/minimessage/format.html)를 사용할 수 있도록 허용합니다.
+Allows the use of MiniMessage tags on anvils.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
+**Only works if `anvil > allow-minimessages` is enabled in [Purpur world settings](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
+Allows disabling `italicize text` with the `&r` styling code on anvils.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**Only works if `anvil > allow-colors` is enabled in [Purpur world settings](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)가 적용되도록 합니다.
+Applies styling codes when players sign books.
 
 #### `purpur.bypassIdleKick`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-플레이어를 유휴 상태 추방 대상에서 제외합니다.
+Excludes players from being kicked for idle status.
 
 #### `purpur.debug.f3n`
 
-- **기본 제공**: `세계 관리자`
+- **Default**: `World Administrator`
 
-플레이어가 `F3 + N` 키로 게임 모드를 변경할 수 있도록 허용합니다.
+Allows players to change game modes with the `F3 + N` key combination.
 
-해당 게임모드에 대한 권한이 없으면 작동하지 않습니다.
+This only works if the player has permission for that game mode.
 
 #### `purpur.drop.spawners`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-구성에서 설정한 아이템으로 스포너 블록을 채굴하면 스포너 블록을 떨어뜨립니다.
+Drops spawner blocks when mining them with the configured item.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**Only works if `gameplay-mechanics > silk-touch` is enabled in [Purpur world settings](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-엔더 상자의 크기를 변경합니다.
+Changes the size of ender chests.
 
-`(NumberString)`에는 `one`, `two`, `three`, `four`, `five`, `six`를 입력할 수 있습니다.
+`(NumberString)` can be `one`, `two`, `three`, `four`, `five`, `six`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
+**Only works if `ender_chest > six-rows` and `ender_chest > use-permissions-for-rows` are enabled in [Purpur world settings](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.inventory_totem`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-불사의 토템이 인벤토리에 있어도 작동하도록 허용합니다.
+Allows the totem of undying to function even when in the inventory.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
+**Only works if `totem-of-undying-works-in-inventory` is enabled in [Purpur world settings](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.joinFullServer`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-플레이어가 접속자수 제한을 무시하도록 허용합니다.
+Allows the player to ignore the connection limit.
 
 #### `purpur.mending_shift_click`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-플레이어가 `웅크리고 상호 작용`하면 들고 있는 아이템을 수선할 수 있도록 허용합니다.
+Allows the player to repair the item they are holding by `sneak-right-clicking`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
+**You must enable `shift-right-click-repairs-mending-points` in the [Purpur world configurations](configurations/purpur/world.md) for it to work.**
 
 {% endhint %}
 
 #### `purpur.place.spawners`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-플레이어가 스포너를 설치할 수 있도록 허용합니다.
+Allows the player to place spawners.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**Only works if `gameplay-mechanics > silk-touch` is enabled in [Purpur world settings](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.portal.instant`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-플레이어가 네더 차원문을 사용했을 때 바로 순간이동 하도록 합니다.
+Allows the player to instantly teleport when using the Nether portal.
 
 #### `purpur.sign.color`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-표지판에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Allow the use of [color codes](https://minecraft.wiki/w/Formatting_codes#Color_codes) on signs.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**In the [Purpur world configurations](configurations/purpur/world.md), `sign > allow-colors` must be enabled for it to work.**
 
 {% endhint %}
 
 #### `purpur.sign.magic`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-표지판에 난독화 코드`(&o)`를 사용할 수 있도록 허용합니다.
+Allow the use of obfuscation code `(&o)` on signs.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**In the [Purpur world configurations](configurations/purpur/world.md), `sign > allow-colors` must be enabled for it to work.**
 
 {% endhint %}
 
 #### `purpur.sign.style`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)를 사용할 수 있도록 허용합니다.
+Allow the use of [styling code `(&o excluded)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) on signs.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**In the [Purpur world configurations](configurations/purpur/world.md), `sign > allow-colors` must be enabled for it to work.**
 
 {% endhint %}
 
 #### `purpur.tnt.defuse`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-플레이어가 가위로 `상호 작용`하여 TNT 폭발을 막을 수 있도록 허용합니다.
+Allow players to `interact` with shears to prevent TNT explosions.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
+**The `defuse-tnt-change` in [Purpur world configurations](configurations/purpur/world.md) must be at least `0.0` to function.**
 
 {% endhint %}
 
-### 제공 예정 권한
+### Planned permissions
 
 #### `plazma.bypass.ncr-require`
 
-- **기본 제공**: `없음`
+- **Default**: `none`
 
-플레이어가 [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) 모드가 설치되어 있지 않아도 접속할 수 있도록 허용합니다.
+Allow players to connect even if the [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) mod is not installed.
 
 {% hint style="info" %}
 
-**[Plazma 세계별 구성](configurations/plazma/world.md)에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
+**Enable `no-chat-reports > require-install` in [Plazma world configurations](configurations/plazma/world.md) for it to function.**
 
 {% endhint %}
 
@@ -418,4 +418,4 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 [^1]: Operator.
 
-[^2]: 예: `ender_dragon`
+[^2]: Example: `ender_dragon`
