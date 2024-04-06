@@ -21,8 +21,8 @@ description: Cwinywa ki woko ki Plazma.
    [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) ki ngec meyo patch mukene, en aye meyo optimization kadi modo ma en aye meyo peyo performance ducu.
 3. **Kube ki peyo game meyo**\
    Plazma ki geno ni [Purpur](https://github.com/PurpurMC/Purpur) ki ngec meyo kwede kadi kwo tic ma kwo kwede.
-4. **Kube ki peyo server meyo**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) ki ngec meyo 1.19 ma en aye Mojang[^2] me [cik ma peyo chat reporting system](#user-content-fn-3)[^3] ki peyo kwo tic ma kwo kwede, diagnostic information collector ki ngec meyo kwo tic ma kwo kwede, en aye meyo kwede meyo kwede.
+4. **Lok ma kic me pwonyo pa server**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) pe romo kwo 1.19 ka obedo [Mojang](#user-content-fn-2)[^2] me [cik me kwo chat](#user-content-fn-3)[^3] me gityeko kwo, tye ka cwalo ki diangosis me gityeko ka pe tye i pwonyo pa server me pwonyo.
 5. **Kube ki peyo update meyo**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) ki ngec meyo Plazma meyo patch ki kwo tic ma kwo kwede, Paper ki geno ni server platform meyo kwo tic ma kwo kwede.
 6. **Kube ki peyo basic configuration file**\
