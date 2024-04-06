@@ -7,11 +7,11 @@ description: Sužinokite, kaip sukurti serverį naudojant Plazma.
 Norėdami stabiliai naudoti Plazmą, sistema turi atitikti šiuos reikalavimus.
 
 |                 | Minimalūs | Rekomenduojami |
-| :-------------: | --------: | -------------: |
-|   Architektūra  |       x64 |              - |
-|       RAM       |      8 GB |          16 GB |
-| Saugojimo erdvė |      1 GB |           8 GB |
-|       JRE       |        17 |             21 |
+| :-------------: | :-------- | :------------- |
+|   Architektūra  | x64       | -              |
+|       RAM       | 8 GB      | 16 GB          |
+| Saugojimo erdvė | 1 GB      | 8 GB           |
+|       JRE       | 17        | 21             |
 
 Norint lengvai redaguoti konfigūracijos failus, gerai būtų įdiegti redaktorių, pvz., [Visual Studio Code](https://code.visualstudio.com/download).
 
