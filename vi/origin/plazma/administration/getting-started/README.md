@@ -27,7 +27,7 @@ Plazma là nền tảng máy chủ chính thức của Mojang Studios [dựa tr�
 
 Để kiểm tra xem JRE đã được cài đặt trên hệ thống hay chưa, hãy nhập [`cmd /k java --version`](#user-content-fn-4)[^4] vào cửa sổ chạy và chạy nó.
 
-Nếu xuất hiện như sau, bỏ qua [Bước 2](setup.md#id-2).
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="Đầu ra chính xác" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Nếu không xuất hiện như trên hoặc xuất hiện như sau, có nghĩa là không có JRE hoặc quá cũ, vì vậy cần thực hiện [Bước 1.2](setup.md#id-1.2).
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="JRE chưa được cài đặt" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 Cài đặt JRE
 
-Trong hướng dẫn này, chúng ta sẽ sử dụng Azul Zulu là [một trong những loại](#user-content-fn-5)[^5] của JRE.
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Sau khi cài đặt xong, hãy thực hiện lại [Bước 1.1](setup.md#id-1.1) để kiểm tra xem quá trình cài đặt đã hoàn tất đúng cách hay chưa.
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma cung cấp nhiều loại tệp thực thi khác nhau.
 
 **Thường thì sử dụng `Reobf Paperclip`.**
 
-Nội dung dưới đây dành cho những người muốn tìm hiểu về các nhà phát triển hoặc đặc điểm của từng loại.\
-Nếu bạn là người dùng thông thường, có thể bỏ qua [Bước 3](setup.md#id-3) mà không gặp vấn đề.
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -159,8 +159,7 @@ Tên tệp thực thi được xác định là `plazma-(quản lý phiên bản
 
 Để bắt đầu Plazma một cách dễ dàng và tự động khởi động lại máy chủ, bạn cần tạo [kịch bản khởi động](#user-content-fn-6)[^6].
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+Bạn có thể tạo kịch bản bắt đầu thông qua [Flags.sh](https://flags.sh) để chỉ định bộ nhớ sẽ được sử dụng trong Plazma, lệnh sẽ tự động tối ưu hóa.
 
 Bạn có thể tải kịch bản khởi động thông qua nút tải xuống ở góc dưới bên trái.\
 **Hãy chắc chắn rằng tệp kịch bản khởi động đã được tải xuống đúng phiên bản của hệ điều hành của bạn.**
@@ -191,7 +190,7 @@ EULA[^9] là hợp đồng cấp phép mà bạn phải đồng ý khi sử dụ
 
 {% hint style="warning" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+Nếu không đồng ý, bạn sẽ không thể khởi động máy chủ và có thể bị [xử lý](#user-content-fn-11)[^11] như bị tạm ngừng tài khoản vì vi phạm EULA.
 
 {% endhint %}
 
@@ -203,11 +202,11 @@ EULA[^9] là hợp đồng cấp phép mà bạn phải đồng ý khi sử dụ
 
 Hệ điều hành hiện đại mặc định chặn kết nối từ bên ngoài để ngăn chặn truy cập nguy hiểm thông qua **tường lửa** và **bộ định tuyến**.
 
-Trong trường hợp của Windows, sau khi đã cho phép ở [Bước 3](setup.md#id-3), chỉ cần cấu hình chuyển tiếp cổng.
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
 
-**Hướng dẫn này giả định rằng bạn đang sử dụng hệ điều hành Windows và [UPnP](#user-content-fn-12)[^12] trên router có sẵn.**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Nếu bộ định tuyến không hỗ trợ UPnP, từng bộ định tuyến có cấu hình khác nhau, vì vậy bạn cần tìm kiếm thông tin trực tiếp.
 
@@ -300,11 +299,11 @@ Nếu máy chủ và trò chơi chạy trên cùng một PC, bạn có thể k�
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. Phát triển
 
 Sau khi máy chủ khởi động thành công và hoạt động đúng cách, bây giờ là lúc cá nhân hóa máy chủ.
 
-Tìm hiểu cách cá nhân hóa máy chủ thông qua hướng dẫn dưới đây.
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
