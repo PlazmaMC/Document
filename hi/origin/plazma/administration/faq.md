@@ -8,7 +8,7 @@ description: 자주 묻는 질문에 대해 जानें।
 
 **क्या आप चाहते हैं कि जवाब न मिला?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) या [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) के माध्यम से समुदाय से प्रश्न पूछें!
+[공식 Discord सर्वर](https://discord.gg/MmfC52K8A8) या [GitHub चर्चाएँ](https://github.com/PlazmaMC/PlazmaBukkit/discussions) के माध्यम से समुदाय से सवाल पूछें!
 
 {% endhint %}
 
