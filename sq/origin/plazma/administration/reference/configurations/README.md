@@ -1,15 +1,15 @@
 ---
-description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법입니다.
+description: Konfigurimi është mënyra themelore për të përdorur Plazma.
 ---
 
-# 📋 구성
+# 📋 Konfigurimi
 
 ***
 
-## 🪨 속성 <a href="#id-1" id="id-1"></a>
+## 🪨 Atributet <a href="#id-1" id="id-1"></a>
 
-> 속성은 Minecraft에서 제공하는 가장 기초적인 구성 파일입니다.
-> 속성을 사용하면 게임의 기본적인 메커니즘을 변경할 수 있습니다.
+> Atributet janë skedarët bazë që ofron Minecraft.
+> Me përdorimin e atributeve, mund të ndryshoni mekanizmat bazë të lojës.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -17,10 +17,10 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🪣 Bukkit 구성 <a href="#id-2" id="id-2"></a>
+## 🪣 Konfigurimi i Bukkit <a href="#id-2" id="id-2"></a>
 
-> Bukkit 구성은 Plazma에서 제공하는 가장 기초적인 구성 파일입니다.
-> Bukkit 구성을 사용하면 Minecraft 서버의 기본적인 메커니즘을 변경할 수 있습니다.
+> Konfigurimi i Bukkit është skedari bazë që ofron Plazma.
+> Me përdorimin e konfigurimit të Bukkit, mund të ndryshoni mekanizmat bazë të serverit Minecraft.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -28,9 +28,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🚰 Spigot 구성 <a href="#id-3" id="id-3"></a>
+## 🚰 Konfigurimi i Spigot <a href="#id-3" id="id-3"></a>
 
-> Spigot 구성은 게임의 세부 메커니즘, 플레이어 처리, 명령어 등의 작동 및 메세지를 수정할 수 있게 합니다.
+> Konfigurimi i Spigot ju lejon të modifikoni detajet e lojës, trajtimin e lojtarëve, funksionimin e komandave, dhe mesazhet.
 
 {% content-ref url="spigot.md" %}
 [spigot.md](spigot.md)
@@ -38,9 +38,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🛩️ Paper 구성 <a href="#id-4" id="id-4"></a>
+## 🛩️ Konfigurimi i Paper <a href="#id-4" id="id-4"></a>
 
-> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](#user-content-fn-1)[^1]을 활성화 할 수 있게 합니다.
+> Konfigurimi i Paper ju lejon të modifikoni mekanizmat gjithëpërfshirës të Plazma, dhe të aktivizoni [diverse optimizime dhe zgjidhje të dobësive](#user-content-fn-1)[^1].
 
 {% content-ref url="paper/" %}
 [paper](paper/)
@@ -48,9 +48,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🐡 Pufferfish <a href="#id-6" id="id-6"></a>
+## 🐡 Konfigurimi i Pufferfish <a href="#id-6" id="id-6"></a>
 
-> Pufferfish 구성은 Plazma의 월드와 엔티티의 처리를 변경할 수 있게 합니다.
+> Konfigurimi i Pufferfish ju lejon të modifikoni trajtimin e botës dhe entiteteve në Plazma.
 
 {% content-ref url="pufferfish.md" %}
 [pufferfish.md](pufferfish.md)
@@ -58,9 +58,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🦑 Purpur 구성 <a href="#id-7" id="id-7"></a>
+## 🦑 Konfigurimi i Purpur <a href="#id-7" id="id-7"></a>
 
-> Purpur 속성은 게임의 전반적인 기본 데이터를 수정할 수 있게 합니다.
+> Atributet e Purpur ju lejojnë të modifikoni të dhënat bazë të lojës.
 
 {% content-ref url="purpur/" %}
 [purpur](purpur/)
@@ -68,9 +68,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## ✨ Plazma 구성 <a href="#id-8" id="id-8"></a>
+## ✨ Konfigurimi i Plazma <a href="#id-8" id="id-8"></a>
 
-> Plazma 구성은 Plazma의 기능을 사용자화 할 수 있게 합니다.
+> Konfigurimi i Plazma ju lejon të personalizoni funksionet e Plazma.
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
