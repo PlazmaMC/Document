@@ -22,7 +22,7 @@ description: Tutustu siihen, mikä Plazma-palvelin alusta on.
 3. **Muokkaa peliä haluamallasi tavalla**\
    Sisältää [Purpurin](https://github.com/PurpurMC/Purpur), joka mahdollistaa pelin yleisten ominaisuuksien muokkaamisen.
 4. **Turvallinen pelipalvelin**\
-   Sisältää [Ei Chat Ilmoituksia](https://github.com/Aizistral-Studios/No-Chat-Reports), jonka avulla voit poistaa käytöstä Mojangin[^2] 1.19:stä lähtien lisätyn [chat-ilmoitusjärjestelmän](#user-content-fn-3)[^3] ja poistaa täysin diagnostiikkatietojen keräämisen, jotta voit pelata turvallisesti jäljittämättömällä palvelimella.
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) sisältyy, joten voit poistaa käytöstä [Mojang](#user-content-fn-2)[^2] lisäämän [keskustelun raportointijärjestelmän](#user-content-fn-3)[^3] versiosta 1.19 alkaen ja pelata täysin jäljittämätöntä turvallista palvelinta.
 5. **Nopeimmat päivitykset**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) pitää Plazman mukana olevat patchit aina ajan tasalla, tarjoten nopeimmat päivitykset Paper-pohjaisista palvelin-alustoista.
 6. **Perusmääritystiedoston optimointi**\
