@@ -59,7 +59,7 @@ description: Plazma'nın hangi tür bir sunucu platformu olduğunu öğrenin.
   Birçok yayıncı tarafından izleyici katılımı için seçilen bir kova olarak kullanılmaktadır.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Gerçek Zamanlı Plazma Kullanıcı Eğilimi">
 </a>
 
 ## ⬇️ İndir
