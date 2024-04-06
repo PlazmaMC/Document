@@ -159,8 +159,8 @@ Nama file eksekusi adalah `plazma-(manajer versi)-1.20.4-R0.1-SNAPSHOT-(jenis pe
 
 Untuk memulai Plazma dengan mudah dan merestart server secara otomatis, Anda perlu membuat [skrip mulai](#user-content-fn-6)[^6].
 
-Anda dapat membuat skrip mulai melalui [Flags.sh](https://flags.sh).\
-Hanya dengan memasukkan [memori yang akan digunakan oleh Plazma](#user-content-fn-8)[^8], perintah akan dioptimalkan secara otomatis.
+Anda dapat membuat skrip awal melalui [Flags.sh](https://flags.sh) untuk [membuat](#user-content-fn-7)[^7].\
+Hanya dengan memasukkan jumlah memori yang ingin Anda gunakan di Plazma, perintah akan dioptimalkan secara otomatis.
 
 Anda dapat mengunduh skrip mulai melalui tombol unduh di pojok kiri bawah.\
 **Pastikan skrip mulai yang diunduh sesuai dengan sistem operasi Anda.**
@@ -189,7 +189,11 @@ Setelah menjalankan skrip mulai sekali, file `eula.txt` akan dibuat di folder te
 
 EULA[^9] adalah perjanjian lisensi yang harus disetujui dengan menggunakan layanan [Mojang Studios](#user-content-fn-10)[^10].
 
-Jika tidak menyetujui EULA, Anda tidak dapat memulai server dan mungkin menerima sanksi seperti akun ditangguhkan [seperti yang dijelaskan di sini](#user-content-fn-11)[^11].
+{% hint style="warning" %}
+
+Jika Anda tidak menyetujui, Anda tidak dapat memulai server dan dapat dikenakan [sanksi](#user-content-fn-11)[^11], seperti suspensi akun karena melanggar EULA.
+
+{% endhint %}
 
 Untuk menyetujui EULA, ubah `eula=false` menjadi `eula=true` dalam file `eula.txt` dan simpan perubahan.
 
@@ -296,7 +300,7 @@ Jika server dan game dijalankan pada PC yang sama, Anda dapat terhubung melalui 
 {% endtab %}
 {% endtabs %}
 
-## 7. Tahap Pengembangan
+## 7. Growing
 
 Setelah berhasil memulai server dan server berfungsi dengan baik, saatnya untuk menyesuaikan server.
 
