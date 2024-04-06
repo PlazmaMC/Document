@@ -24,6 +24,8 @@ Ako ste programer i trebate drugačiji oblik datoteke, pogledajte donju stranicu
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
@@ -64,3 +66,5 @@ Ako ste programer i trebate drugačiji oblik datoteke, pogledajte donju stranicu
         </tr>
     </tbody>
 </table>
+
+***
