@@ -4,7 +4,8 @@ description: Zistite viac o počiatočných argumentoch a systémových vlastnos
 
 # 🎛️ Argumenty a vlastnosti
 
-Počiatočné argumenty a systémové vlastnosti sú hodnoty pridávané k [príkazom používaným pri spustení Plazmy](#user-content-fn-1)[^1], ktoré umožňujú zmeniť hodnoty, ktoré nemožno zmeniť po spustení Plazmy.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [Pozícia pridania príkazu](#user-content-fn-2)[^2] rozdeľuje **štartový argument** a **vlastnosti systému**.
 
@@ -26,8 +27,8 @@ Ak neviete presne, akú úlohu zohráva každá vlastnosť systému, **určite j
 
 Systémová vlastnosť sa zadáva ako Java argument medzi `java` a `-jar`.
 
-Napríklad, ak chcete použiť systémovú vlastnosť `Plazma.dummyProperty`,
-zadajte ju nasledovne a hodnota `37` bude pridaná do Plazmy po inicializácii.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -186,7 +187,7 @@ Všetky problémy spôsobené týmto opatrením sú plne zodpovednosťou použí
 - **Typ**: `Integer`
 - **Predvolená hodnota**: `64`
 
-Nastavuje obmedzenie na názvy kanálov [zásuvných modulov](#user-content-fn-5)[^5].
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
