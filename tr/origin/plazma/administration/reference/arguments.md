@@ -7,7 +7,7 @@ description: Başlangıç argümanları ve sistem özelliklerini öğrenin.
 Başlangıç değişkenleri ve sistem özellikleri, Plazma çalıştırması için [kullanılan komutlara](#user-content-fn-1)[^1] eklenen değerlerdir ve\
 Plazma başlatıldıktan sonra değiştirilemeyen değerleri değiştirmenize olanak tanır.
 
-[Komuta eklenen konuma](#user-content-fn-2)[^2] bağlı olarak **başlangıç argümanları** ve **sistem özellikleri** olarak ayrılır.
+[명령어에 덧붙이는 위치](#user-content-fn-2)[^2]e göre **başlangıç argümanı** ve **sistem özellikleri** olarak ayrılır.
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D`, bu argümanın JVM'e yerleşik olmadığını ve Plazma'ya eklenen özel bir argüman olduğunu belirtir ve
 
-değer girilmediğinde değer [`true` olarak sabitlenir.](#user-content-fn-3)[^3]
+Özelliklere herhangi bir değer girilmezse değer [`true` olarak sabitlenir](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Paperweight serisi sunucu platformu, her platform için sistem özelliklerini ayırt etmek için özellik adlarında `.` işaretini içermektedir.**
 
-Windows Powershell ve benzeri bazı terminal programlarında, bu tür argümanlara izin verilmeyebilir, bu nedenle argümanın her iki ucuna da `"` işaretini [eklemelisiniz.](#user-content-fn-4)[^4]
+Windows Powershell gibi bazı terminalde, bu tür argümanlara izin verilmeyebilir, bu nedenle argümanın her iki ucuna da `"` [eklemelisiniz](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -134,7 +134,7 @@ Bu, tüm hatalı kafatası bloklarını konumlarıyla birlikte günlüğe kayded
 - **Biçimi**: `Boolean`
 - **Varsayılan Değer**: `False`
 
-Oyuncu başına uygulanan 128 adet eklenti kanalının sınırını devre dışı bırakır.
+Her bir oyuncuya uygulanan 128 tane eklenti [kanalı](#user-content-fn-5)[^5] sayısı sınırını devre dışı bırakır.
 
 #### `Paper.disableClassPrioritization`
 
@@ -188,7 +188,7 @@ Bu nedenle yaşanan tüm sorunlar sizin sorumluluğunuzdadır ve Plamza bunun i�
 - **Biçimi**: `Integer`
 - **Varsayılan Değer**: `64`
 
-Eklenti kanalı adının sınırını belirler.
+Eklenti [kanalı](#user-content-fn-5)[^5] adı sınırını ayarlar.
 
 #### `Paper.maxSignLength`
 
@@ -220,7 +220,7 @@ YAML dosyalarındaki yorumların işlenmesini etkinleştirir.
 
 Oyuncudan belirli bir süre (saniye cinsinden) hiçbir veri alınmazsa, oyuncuyu atar.
 
-Genellikle, oyun[^7] sürekli olarak sunucuya [kalp atış sinyali](#user-content-fn-8)[^8] gönderdiğinden, [atılmazlar ancak,](#user-content-fn-9)[^9] oyun yanıt vermezse çakışma olduğunu düşünür ve artık sunucuda oyuncuyu işlemez ve atar.
+Genellikle, [oyun](#user-content-fn-7)[^7] sürekli olarak sunucuya [kalp atış sinyali](#user-content-fn-8)[^8] gönderir, bu nedenle [atılmaz ancak,](#user-content-fn-9)[^9] oyun yanıt vermezse çakışmış olarak kabul edilir ve sunucu artık oyuncuyu işlemez ve atar.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -293,7 +293,7 @@ Aktifleştirildiğinde sunucu daha hızlı ve güvenli hale gelir, ancak bazı h
 - **Biçimi**: `Boolean`
 - **Varsayılan Değer**: `false`
 
-Plazma'nın başlatılması sırasında görüntülenen uyarıyı bastırır.
+Plazma başlatıldığında görünen [uyarı metnini](#user-content-fn-11)[^11] bastırır.
 
 ### Kullanımdan kaldırılan özellik <a href="#id-1.3" id="id-1.3"></a>
 
