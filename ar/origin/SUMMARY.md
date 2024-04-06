@@ -19,7 +19,7 @@
     - [🖥️ الأوامر](plazma/administration/reference/commands.md)
     - [🛡️ الأذونات](plazma/administration/reference/permissions.md)
     - [🎛️ الوسائط والخصائص](plazma/administration/reference/arguments.md)
-    - [📋 구성](plazma/administration/reference/configurations/README.md)
+    - [📋 الهيكل](plazma/administration/reference/configurations/README.md)
       - [🪨 الخصائص](plazma/administration/reference/configurations/property.md)
       - [🪣 بوكيت](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 سبيجوت](plazma/administration/reference/configurations/spigot.md)
