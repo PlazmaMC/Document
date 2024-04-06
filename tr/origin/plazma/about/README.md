@@ -21,8 +21,8 @@ description: Plazma'nın hangi tür bir sunucu platformu olduğunu öğrenin.
    [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)'in tüm yamaları dahil edilmiş olup, bazı yerel optimize ve modlarla en iyi performansı sunmaktadır.
 3. **İstediğiniz gibi özelleştirebileceğiniz oyun**\
    Plazma'ya dahil edilen [Purpur](https://github.com/PurpurMC/Purpur), oyunun genel özelliklerini değiştirmenize olanak tanır.
-4. **Güvenli oyun sunucusu**\
-   [Chat Raporları Yok](https://github.com/Aizistral-Studios/No-Chat-Reports) dahil edilmiş olup, Mojang'ın 1.19'dan itibaren eklenen [sohbet raporlama sistemi](#user-content-fn-3)[^3]'ni devre dışı bırakabilir ve teşhis bilgi toplayıcısı tamamen kaldırılarak izlenmeyen güvenli bir sunucuda oyun oynayabilirsiniz.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 [Mojang](#user-content-fn-2)[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며, 진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **En hızlı güncellemeler**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate), Plazma'nın dahil ettiği yamaların her zaman en güncel kalmasını sağlayarak, Paper tabanlı sunucu platformları arasında en hızlı güncellemeleri sunmaktadır.
 6. **Varsayılan yapılandırma dosyaları optimize edilmiş**\
