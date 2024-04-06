@@ -27,7 +27,7 @@ Plazma ni ki Mojang Studios ki [bedo ma pe iye](#user-content-fn-2)[^2], Plazma 
 
 JRE ki dong i pe ki tye kwede, [kwanyo pe iye](#user-content-fn-3)[^3] ki gin [`cmd /k java --version`](#user-content-fn-4)[^4] ki tye kwede.
 
-Tye kwede iye kwede ki gitye [2 ngom](setup.md#id-2) woko.
+Cwiny me [2 dong
 
 {% code title="Kicel ma kicel" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Kwon ma pe ki tye kwede, kadi ma iye kwanyo pe ki tye kwede, tye kwede iye, kadi [1.2 ngom](setup.md#id-1.2) ki tye kwede.
+Kede cwiny me, dok cwiny me, JRE pe romo ducu kun kare, dong mukene [1.2 dong
 
 {% code title="JRE pe iye i pwonyo" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 JRE moko
 
-Kwon gang ma JRE [miyo ni](#user-content-fn-5)[^5] Azul Zulu ki tye kwede.
+Pa dok cobbe ma JRE, Azul Zulu pe romo ducu.
 
-Kwede ki tye, [1.1 dong](setup.md#id-1.1) kadi kwede ki tye kwede i kom put me kwede ni iye moko.
+Ngom cwiny me, dong mukene [1.1 dong
 
 {% tabs %}
 
@@ -126,7 +126,7 @@ Plazma ki nyutu ma kwo poto me doki me tye kwede.
 
 **Cik ma kicel iye `Reobf Paperclip` tye ka dong.**
 
-Kwo iyi kacel ma onongo ki iyi, [3 dong](setup.md#id-3) ki tye kwede ki tye kwede ki iye moko.
+Cik ma kicoyo ki developer weng, obed ki [3 dong
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ EULA ki kwede, `eula=false` me cwalo ki `eula=true` ki i kom ma cwalo.
 
 Lok ma tye, lok me yom me cwiny me cwalo, **kare me cwalo** pe **router** ki tye kwede ki dong kwede.
 
-Windows tye, kare me cwalo ki [3 dong](setup.md#id-3) ki tye kwede, polo me fowadi ki tye kwede.
+Windows ma pe, firewall cwiny ki [3 dong
 
 {% hint style="info" %}
 
-**Dwogi ki kwo ma kicel ki Windows me [UPnP](#user-content-fn-12)[^12] ki i pwonyo router.**
+**Dok cobbe ma Windows OS ki [UPnP](#user-content-fn-12)[^12] kicoyo ki router pe romo ducu.**
 
 Router ki UPnP pe tye kwede, router ki yom ma pe tye, ngolo ma cwalo ki kwede.
 
@@ -303,7 +303,7 @@ Server me game pa PC mamegi, 'localhost' ma kikwero.
 
 Server ki kwo kikwero, ki kwo kikwero me server ki dano.
 
-Cwalo me Java Runtime Environment, Java Runtime.
+Kwo ikit ma pe waco server.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
