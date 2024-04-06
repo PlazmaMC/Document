@@ -7,7 +7,7 @@ description: Ketahui tentang argumen permulaan dan sifat sistem.
 Argumen permulaan dan sifat sistem adalah nilai yang ditambahkan ke [perintah yang digunakan](#user-content-fn-1)[^1] dalam pelaksanaan Plazma,\
 membolehkan nilai yang tidak boleh diubah selepas Plazma dilaksanakan untuk diubah.
 
-Berdasarkan [lokasi nilai yang ditambahkan ke perintah](#user-content-fn-2)[^2], ia dibahagikan kepada **argumen permulaan** dan **sifat sistem**.
+[Posisi yang dilampirkan pada arahan](#user-content-fn-2)[^2] akan dibahagikan kepada **Argumen Permulaan** dan **Sifat Sistem**.
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` menandakan argumen tersebut adalah tambahan khas untuk Plazma dan tidak disertakan dalam JVM,
 
-Jika tidak ada nilai yang dimasukkan, nilai akan tetap [`true`.](#user-content-fn-3)[^3]
+Jika tidak ada nilai yang dimasukkan ke dalam sifat, nilai akan tetap [`benar`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Platform pelayan siri Paperweight membezakan sifat sistem untuk setiap platform dengan menyertakan `.` dalam nama sifat.**
 
-Di sesetengah terminal seperti Windows Powershell, ia mungkin tidak menerima argumen ini, oleh itu, `"` perlu ditambah di kedua hujung argumen. [^4]
+Di beberapa terminal seperti Windows Powershell, argumen ini mungkin tidak dibenarkan, oleh itu, `"` perlu ditambahkan di kedua hujung argumen [seperti ini](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -134,7 +134,7 @@ Log ini mencatat semua blok kepala yang salah dalam dunia bersama dengan lokasin
 - **Jenis**: `Boolean`
 - **Nilai Lalai**: `False`
 
-Matikan had jumlah saluran plugin (128 saluran setiap pemain) yang dikenakan kepada setiap pemain.
+Menyahaktifkan had 128 saluran [plugin](#user-content-fn-5)[^5] yang digunakan bagi setiap pemain.
 
 #### `Paper.disableClassPrioritization`
 
@@ -188,7 +188,7 @@ Semua masalah yang timbul daripada penggunaan ini adalah tanggungjawab pengguna 
 - **Jenis**: `Integer`
 - **Nilai Lalai**: `64`
 
-Tetapkan had nama saluran plugin.
+Menetapkan had pada nama saluran [plugin](#user-content-fn-5)[^5].
 
 #### `Paper.maxSignLength`
 
@@ -220,7 +220,7 @@ Aktifkan pemprosesan komen YAML secara lalai.
 
 Pemain akan dikeluarkan jika tiada data diterima daripada mereka selama tempoh yang ditetapkan (dalam saat).
 
-Biasanya, permainan[^7] akan terus menghantar [isyarat jantung](#user-content-fn-8)[^8] ke pelayan, [mengelakkan pembanjiran,](#user-content-fn-9)[^9] tetapi jika permainan tidak memberi respons, pelayan menganggap permainan telah mengalami kegagalan dan mengeluarkan pemain tanpa lebih lanjut memproses mereka.
+Biasanya, [permainan](#user-content-fn-7)[^7] akan terus menghantar [isyarat denyut jantung](#user-content-fn-8)[^8] ke pelayan, jika tidak ada respons dari permainan, pelayan akan menganggap permainan telah bertembung dan akan menghentikan pemprosesan pemain di pelayan serta mengeluarkannya.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -293,7 +293,7 @@ Apabila diaktifkan, server akan menjadi lebih cepat dan selamat, tetapi boleh me
 - **Jenis**: `Boolean`
 - **Nilai Lalai**: `false`
 
-Menekan mesej amaran[^11] yang dipaparkan semasa Plazma diinisialisasi.
+Menyekat [mesej amaran](#user-content-fn-11)[^11] yang dipaparkan semasa Plazma diinisialisasi.
 
 ### Harta tanah yang telah dihentikan penggunaannya <a href="#id-1.3" id="id-1.3"></a>
 
