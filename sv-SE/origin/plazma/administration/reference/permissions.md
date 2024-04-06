@@ -4,9 +4,11 @@ description: Ta reda på behörigheterna för Plazma.
 
 # 🛡️ Behörighet
 
-권한은 서버 내 플레이어가 상호 작용 할 수 있는 범위를 설정하는 간단한 보안 도구입니다.
+Behörigheter är en enkel säkerhetsåtgärd som ställer in omfånget där spelare på servern kan interagera med varandra.
 
-권한을 제대로 활용하고 쉽게 수정하려면 [LuckPerms](https://luckperms.net) 등의 플러그인을 사용해야 합니다.
+För att använda och enkelt redigera behörigheter bör du använda tillägg som [LuckPerms](https://luckperms.net).
+
+***
 
 ## 기본 권한 체계 이해하기 <a href="#id-1" id="id-1"></a>
 
@@ -27,9 +29,15 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
    서버 관리를 포함한 모든 명령어를 사용할 수 있습니다.\
    콘솔 및 운영자에게 기본 적용되는 권한 그룹입니다.
 
+***
+
 ## 권한 설정하기 <a href="#id-2" id="id-2"></a>
 
+***
+
 ## 전체 권한 <a href="#id-3" id="id-3"></a>
+
+***
 
 #### `allow.ride.(Namespaced Key)`
 
