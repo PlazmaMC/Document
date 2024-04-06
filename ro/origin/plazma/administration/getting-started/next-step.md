@@ -2,7 +2,7 @@
 description: Aflați cum să personalizați serverul.
 ---
 
-# 📶 Etapa de dezvoltare
+# 📶 발전하기
 
 Motivul pentru care se utilizează o platformă de server modificată precum Plazma în locul platformei oficiale furnizate de Mojang Studios este capacitatea puternică de **personalizare** pe care o oferă.
 
