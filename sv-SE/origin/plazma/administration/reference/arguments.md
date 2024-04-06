@@ -6,7 +6,7 @@ description: Lär dig om startargument och systemegenskaper.
 
 Startvariabler och systemegenskaper är värden som läggs till [kommandon som används](#user-content-fn-1)[^1] för att ändra värden som inte kan ändras efter att Plazma har startats.
 
-Beroende på [var kommandot läggs till](#user-content-fn-2)[^2] delas det upp i **startargument** och **systemegenskaper**.
+[Plats för tillägg till kommandon](#user-content-fn-2)[^2] kommer att delas upp i **startargument** och **systemegenskaper** enligt detta.
 
 ***
 
@@ -35,13 +35,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` indikerar att det är ett dedikerat argument för Plazma och inte en inbyggd JVM-argument,
 
-Om ingen värde anges kommer det att vara [`true` som standard.](#user-content-fn-3)[^3]
+Om inga värden anges för egenskaperna kommer de att vara [`true` som standardvärde](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야 합니다.](#user-content-fn-4)[^4]
+I vissa terminaler som Windows Powershell kan dessa argument inte vara tillåtna, så du måste lägga till `"` i början och slutet av argumenten [för att undvika](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -132,7 +132,7 @@ Detta loggar alla felaktiga huvuden i världen med deras positioner.
 - **Typ**: `Boolean`
 - **Standardvärde**: `False`
 
-Inaktiverar begränsningen av 128 pluginkanaler per spelare.
+Inaktivera begränsningen av antalet kanaler för 128 plugin per [spelare](#user-content-fn-5)[^5].
 
 #### `Paper.disableClassPrioritization`
 
@@ -186,7 +186,7 @@ Alla problem som uppstår efter detta är användarens ansvar och Plazma ger ing
 - **Typ**: `Integer`
 - **Standardvärde**: `64`
 
-Ställer in begränsningen för kanalnamn för pluginer.
+Ställ in begränsningen för namnen på plugin [kanaler](#user-content-fn-5)[^5].
 
 #### `Paper.maxSignLength`
 
@@ -218,7 +218,7 @@ Aktiverar hantering av YAML-filkommentarer som standard.
 
 Spelaren kastas ut om ingen data har mottagits inom den angivna tiden (i sekunder).
 
-Vanligtvis skickar spelet[^7] kontinuerligt [hjärtslagssignaler](#user-content-fn-8)[^8] till servern, så spelaren kastas inte ut. Om spelet inte svarar anses det ha kraschat och spelaren kastas ut.
+Vanligtvis fortsätter [spelet](#user-content-fn-7)[^7] att skicka [hjärtslagsignaler](#user-content-fn-8)[^8] till servern, så om spelet inte svarar betraktas det som kraschat och spelaren kommer att bli utkastad utan att vara [bannad](#user-content-fn-9)[^9].
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -291,7 +291,7 @@ När du aktiverar det blir servern snabbare och säkrare, men det kan blockera v
 - **Typ**: `Boolean`
 - **Standardvärde**: `false`
 
-Undertrycker varningsmeddelandet[^11] som visas när Plazma initialiseras.
+Hämmar varningsmeddelandet som visas när Plazma [initialiseras](#user-content-fn-11)[^11].
 
 ### Avbruten egenskap <a href="#id-1.3" id="id-1.3"></a>
 
