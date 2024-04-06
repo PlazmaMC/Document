@@ -1,5 +1,5 @@
 ---
-description: Om du har frågor, vänligen fråga via Discord eller GitHub Issues.
+description: Om du har frågor, vänligen fråga via Discord eller GitHub-diskussioner.
 ---
 
 # 🏠 Välkommen till Docs Portal
