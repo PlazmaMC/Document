@@ -8,7 +8,7 @@ description: Tìm hiểu về các câu hỏi thường gặp.
 
 **Không tìm thấy câu trả lời bạn muốn?**
 
-[Máy chủ Discord chính thức](https://discord.gg/MmfC52K8A8) hoặc [Vấn đề GitHub](https://github.com/PlazmaMC/PlazmaBukkit/issues) để đặt câu hỏi trong cộng đồng!
+[Máy chủ Discord chính thức](https://discord.gg/MmfC52K8A8) hoặc [Thảo luận trên GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) để đặt câu hỏi trong cộng đồng!
 
 {% endhint %}
 
