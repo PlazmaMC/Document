@@ -15,14 +15,19 @@ description: Descubre qué es Plazma como plataforma de servidor.
 
 ## ⚙️ Características principales <a href="#id-2" id="id-2"></a>
 
-1. **Ecosistema de plugins potente**\
-   Basado en [Paper](https://github.com/PaperMC/Paper), la mayoría de los [plugins recientes disponibles en Internet](#user-content-fn-1)[^1] funcionan correctamente.
+1. **Un ecosistema de complementos potente**\
+   Basado en [Paper](https://github.com/PaperMC/Paper),
+   la mayoría de los [complementos más recientes](#user-content-fn-1)[^1] disponibles para descargar en Internet funcionan correctamente.
 2. **Optimización sin necesidad de configuración**\
-   Incluye todos los parches de [Pufferfish](https://github.com/pufferfish-gg/Pufferfish), con algunas optimizaciones internas y mods integrados para ofrecer el mejor rendimiento.
-3. **Juego personalizable a tu gusto**\
-   [Purpur](https://github.com/PurpurMC/Purpur) incluido en Plazma te permite modificar las propiedades generales del juego.
-4. **Servidor seguro para jugar**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) está incluido, lo que permite desactivar el [sistema de reporte de chat](#user-content-fn-3)[^3] de [Mojang](#user-content-fn-2)[^2] añadido desde la versión 1.19, eliminando por completo el recolector de información de diagnóstico para poder jugar en un servidor seguro sin rastreo.
+   Incluye todos los parches de [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) y
+   ofrece un rendimiento óptimo con algunas optimizaciones internas y modos integrados.
+3. **Personalización del juego a tu gusto**\
+   [Purpur](https://github.com/PurpurMC/Purpur) incluido en Plazma
+   permite modificar las propiedades generales del juego a tu gusto.
+4. **Servidor que juega de forma segura**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) incluido desde la versión 1.19
+   de [Mojang](#user-content-fn-2)[^2] que permite deshabilitar el [sistema de informes de chat](#user-content-fn-3)[^3],\
+   permitiendo jugar en un servidor seguro sin seguimiento al eliminar por completo el recolector de información de diagnóstico.
 5. **Actualizaciones más rápidas**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) mantiene los parches incluidos en Plazma siempre actualizados, ofreciendo las actualizaciones más rápidas entre las plataformas de servidor basadas en Paper.
 6. **Optimización de archivos de configuración predeterminados**\
@@ -40,14 +45,18 @@ description: Descubre qué es Plazma como plataforma de servidor.
 
 ## ✨ Casos de uso <a href="#id-3" id="id-3"></a>
 
-- **Plataforma que maneja correctamente incluso los plugins complejos**\
-  Plazma se utiliza en el servidor del desarrollador [IPECTER](https://github.com/IPECTER). A pesar de tener plugins personalizados que funcionan con NMS y reflexión, y una gran cantidad de paquetes de datos complejos, puede manejar más de 100 jugadores sin disminución de rendimiento.
+- **Plataforma que maneja incluso los complejos complementos correctamente**\
+  Utilizado en el servidor del desarrollador [IPECTER](https://github.com/IPECTER) con Plazma.\
+  A pesar de la gran cantidad de paquetes de datos complejos y extensos plugins propios que funcionan con NMS y reflexión,\
+  puede admitir más de 100 jugadores sin caídas de rendimiento.
 - **Plataforma que mantiene un rendimiento rápido incluso en servidores de RPG**\
-  Ha mantenido de manera estable a 100 jugadores en un solo clúster sin caída de TPS, y 250 jugadores en total en 4 clústeres pueden jugar cómodamente.
+  Ha mantenido de forma estable a 100 jugadores en un único clúster sin caídas de TPS,\
+  y hasta 250 jugadores en 4 clústeres pudieron jugar sin problemas.
 - **Plataforma que muestra luz en los chunks/entidades**\
-  Al cambiar de Purpur a Plazma en el servidor de supervivencia, donde había retrasos en el manejo de chunks y entidades, se pudo reducir la mayoría de los retrasos.
+  Al cambiar de Purpur a Plazma en el servidor de supervivencia donde se producían retrasos en el procesamiento de chunks y entidades,\
+  se pudo reducir la mayoría de los retrasos.
 - **Plataforma elegida por muchos streamers**\
-  Utilizada como servidor de visualización por muchos streamers de Twitch.
+  Utilizado como el servidor preferido por muchos espectadores de streamers.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
