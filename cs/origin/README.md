@@ -1,5 +1,5 @@
 ---
-description: Pokud máte nějaké dotazy, obraťte se prosím na Discord nebo prostřednictvím GitHub Issues.
+description: Pokud máte otázky, obraťte se na nás prostřednictvím Discordu nebo diskuzí na GitHubu.
 ---
 
 # 🏠 Vítejte na portálu dokumentace
