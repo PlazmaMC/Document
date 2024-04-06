@@ -8,7 +8,7 @@ description: Zistite odpovede na často kladené otázky.
 
 **Nenašli ste požadovanú odpoveď?**
 
-Skúste sa obrátiť na komunitu cez [Oficiálny Discord server](https://discord.gg/MmfC52K8A8) alebo [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Oficiálny Discord server](https://discord.gg/MmfC52K8A8) alebo sa obráťte na komunitu cez [GitHub Diskusie](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
