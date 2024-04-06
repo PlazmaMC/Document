@@ -8,7 +8,7 @@ description: تعرف على الأسئلة المتكررة.
 
 **هل لم تجد الإجابة التي تبحث عنها؟**
 
-!تواصل مع المجتمع عبر [خادم Discord الرسمي](https://discord.gg/MmfC52K8A8) أو [مشاكل GitHub](https://github.com/PlazmaMC/PlazmaBukkit/issues)
+[الخادم الرسمي لديسكورد](https://discord.gg/MmfC52K8A8) أو من خلال [مناقشات GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions)، جرب أن تسأل المجتمع!
 
 {% endhint %}
 
