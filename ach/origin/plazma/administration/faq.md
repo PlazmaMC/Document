@@ -8,7 +8,7 @@ description: Kicwoko ki kicwinyo ni kicwinyo ki cungu.
 
 **Pe olara i kwo me tye i cwiny matino?**
 
-[Cwiny me Discord mekit me](https://discord.gg/MmfC52K8A8) dokumenti me [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) ki tye ki kwo mekerani ma cwinywa i cwinywa!
+[Acholi translation not available]
 
 {% endhint %}
 
