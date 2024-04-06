@@ -1,5 +1,5 @@
 ---
-description: Sorularınız varsa lütfen Discord veya GitHub Issues üzerinden sorun.
+description: Sorularınız varsa, lütfen Discord veya GitHub Tartışmaları üzerinden sorun.
 ---
 
 # 🏠 Docs Portal'a Hoş Geldiniz
