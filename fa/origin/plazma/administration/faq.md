@@ -8,7 +8,7 @@ description: درباره سوالات متداول بازدید کنید.
 
 **آیا نمی‌توانید پاسخ دلخواه خود را پیدا کنید؟**
 
-[سرور رسمی Discord](https://discord.gg/MmfC52K8A8) یا [مشکلات GitHub](https://github.com/PlazmaMC/PlazmaBukkit/issues) را برای پرسش‌های خود به جامعه ارسال کنید!
+[سرور رسمی دیسکورد](https://discord.gg/MmfC52K8A8) یا [بحث‌های GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) را برای پرسش‌های خود به جامعه مطرح کنید!
 
 {% endhint %}
 
