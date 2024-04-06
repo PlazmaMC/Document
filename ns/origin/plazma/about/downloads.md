@@ -24,6 +24,8 @@ description: 지금 Plazma를 다운로드하여 직접 사용해보세요.
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
@@ -64,3 +66,5 @@ description: 지금 Plazma를 다운로드하여 직접 사용해보세요.
         </tr>
     </tbody>
 </table>
+
+***
