@@ -116,7 +116,7 @@ kështu që është e rëndësishme të kryeni testimet e mjaftueshme para se t�
 
 **Pas komandës së fillimit të serverit, mund të shtypni `safeMode` për të çaktivizuar të gjitha pakot e të dhënave dhe pastaj të rifillonit serverin.**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
+[Për më shumë informacion, shikoni `Referencat > Argumentet dhe Pronat`.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -126,11 +126,9 @@ Pakot e aplikuar mund të verifikohen duke përdorur komandën `/datapack list`.
 
 ## Optimizimi <a href="#id-4" id="id-4"></a>
 
-Plazma ka shumë rregulla të optimizimit të aplikuar. 또한, Plazma가 처음으로 시작되면 자동으로
-구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
+Plazma ka shumë rregulla të optimizimit të aplikuar. Gjithashtu, kur Plazma fillon për herë të parë, optimizon konfigurimin automatikisht, kështu që nëse ndiqni udhëzuesin për [Fillimi](./README.md) nuk ka nevojë për veprime shtesë për optimizim.
 
-하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
-아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
+Megjithatë, nëse ka shumë lojtarë që lidhen ose madhësia e botës është e gjerë, mund të bëni veprime shtesë për optimizim duke u bazuar në udhëzuesin më poshtë.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
