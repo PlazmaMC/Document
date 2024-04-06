@@ -50,11 +50,9 @@ description: .morfniatalf레브서무인플 란머피레브서 란머피레브�
 - **uɹɐɯǝu sɹǝʇɹᴉɯǝɹɐɯ ɐılɐɹʇsnɐɹɐ**\
   ɯɐuǝu sɹǝʇɹᴉɯǝɹ ɟılǝɥɔɐu ɯǝuǝɹ ɹǝɥ ɹǝʌoɹɐɯǝu
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Real-time Plazma User Trend</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma user trend">
+</a>
 
 ## ⬇️ Download
 
