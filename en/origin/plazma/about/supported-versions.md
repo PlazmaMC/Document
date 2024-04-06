@@ -19,7 +19,7 @@ If you are looking for platforms below 1.19.4, please use [Fusion (`1.19.2 ~ 1.1
 
 ![Waiting for release][wtr]![In development](https://badge.plazmamc.org/1/In%20development)![Supported](https://badge.plazmamc.org/2/Supported)![Function support discontinued](https://badge.plazmamc.org/6/Function%20support%20discontinued)![Support ended](https://badge.plazmamc.org/4/Support%20ended)
 
-|                                         버전                                        | Stability    and    Feature Support |                                              Build Status                                             |
+|                                      Version                                      | Stability    and    Feature Support |                                              Build Status                                             |
 | :-------------------------------------------------------------------------------: | :---------------------------------: | :---------------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |       ![Release Pending][wtr]       |                                        ![Release Pending][wtr]                                        |
 | [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |    ![Very good][vgd]![100%][100]    | [![Build Status](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
