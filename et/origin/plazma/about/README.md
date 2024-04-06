@@ -58,11 +58,9 @@ description: Uurige, milline platvorm Plazma on.
 - **Paljude voogude valitud platvorm**\
   Paljud voogedastajad on valinud kasutada seda ämbrina oma vaatajate jaoks.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Reaalajas Plazma kasutajate suundumused</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Plazma kasutajate reaalajas suundumus">
+</a>
 
 ## ⬇️ Lae alla
 
