@@ -6,7 +6,7 @@ description: Înțelegeți argumentele de pornire și proprietățile sistemului
 
 Argumentele de pornire și proprietățile sistemului sunt valori adăugate la [comenzile utilizate](#user-content-fn-1)[^1] pentru execuția Plazma, permițând modificarea unei valori care nu poate fi schimbată după ce Plazma a fost inițializat.
 
-În funcție de [locul unde sunt adăugate la comandă](#user-content-fn-2)[^2], acestea sunt împărțite în **argumente de pornire** și **proprietăți de sistem**.
+[Locația adăugată comenzii](#user-content-fn-2)[^2] va fi împărțită în **Argumentul de pornire** și **Proprietățile sistemului** conform.
 
 ***
 
@@ -34,13 +34,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` indică faptul că argumentul respectiv nu este încorporat în JVM, ci este un argument dedicat adăugat la Plazma,
 
-dacă nu se introduce nicio valoare, aceasta va fi fixată ca [`true`.](#user-content-fn-3)[^3]
+Dacă nu se introduce nici o valoare pentru proprietate, valoarea va fi fixată la [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Platforma serverului din seria Paperweight include un punct (`.`) în numele proprietății pentru a distinge proprietățile sistemului pentru fiecare platformă.**
 
-În unele terminale precum Windows Powershell, aceste argumente ar putea să nu fie acceptate, așa că trebuie să adăugați `"` la capetele argumentelor. [^4]
+În unele terminale cum ar fi Windows Powershell, aceste argumente pot să nu fie acceptate, așa că trebuie să adăugați `"` la capetele argumentelor [conform](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -131,7 +131,7 @@ Aceasta va înregistra toate blocurile de cap incorecte din lume, împreună cu 
 - **Tip**: `Boolean`
 - **Valoare implicită**: `False`
 
-Dezactivează limita de 128 de canale de pluginuri pe jucător[^5].
+Dezactivează limita de 128 de canale de pluginuri [aplicate fiecărui jucător](#user-content-fn-5)[^5].
 
 #### `Paper.disableClassPrioritization`
 
@@ -185,7 +185,7 @@ Orice problemă cauzată de acest lucru este responsabilitatea dumneavoastră, P
 - **Tip**: `Integer`
 - **Valoare implicită**: `64`
 
-Setează limita numelui canalului de pluginuri[^6].
+Setează limita numelui [canalului](#user-content-fn-5)[^5] de plugin.
 
 #### `Paper.maxSignLength`
 
@@ -217,7 +217,7 @@ Activează procesarea comentariilor YAML din fișiere.
 
 Dacă un jucător nu trimite nicio dată pentru o perioadă specificată (în secunde), este deconectat.
 
-De obicei, jocul[^7] trimite în mod regulat semnale de [heartbeat](#user-content-fn-8)[^8] către server, astfel că nu este deconectat,
+În mod obișnuit, [jocul](#user-content-fn-7)[^7] trimite în continuu semnalul de [bătaie al inimii](#user-content-fn-8)[^8] către server, astfel că nu vei fi [dat afară,](#user-content-fn-9)[^9] dar dacă jocul nu răspunde, se consideră că a intrat în conflict și nu mai procesează jucătorul pe server, ci îl dă afară.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -290,7 +290,7 @@ Activarea va face serverul să funcționeze mai rapid și mai sigur, dar poate b
 - **Tip**: `Boolean`
 - **Valoare implicită**: `false`
 
-Suprimă avertismentul care apare la inițializarea Plazmei.
+Suprimă [avertismentul](#user-content-fn-11)[^11] afișat la inițializarea Plazmei.
 
 ### Proprietatea întreruptă <a href="#id-1.3" id="id-1.3"></a>
 
