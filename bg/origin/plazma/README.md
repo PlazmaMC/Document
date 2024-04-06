@@ -12,7 +12,7 @@ description: "Plazma е отворена платформа за сървъри 
 
 **Не можете ли да решите проблема чрез инструкциите?**
 
-Попитайте общността чрез [официалния Discord сървър](https://discord.gg/MmfC52K8A8) или [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Официален сървър на Discord](https://discord.gg/MmfC52K8A8) или задайте въпроси на общността чрез [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ description: "Plazma е отворена платформа за сървъри 
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
