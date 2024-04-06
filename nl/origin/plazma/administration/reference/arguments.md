@@ -4,7 +4,8 @@ description: Leer over de startargumenten en systeemeigenschappen.
 
 # 🎛️ Argumenten en eigenschappen
 
-Startvariabelen en systeemeigenschappen zijn waarden die worden toegevoegd aan de [opdrachten](#user-content-fn-1)[^1] die worden gebruikt bij het uitvoeren van Plazma, waardoor het mogelijk is om waarden te wijzigen die niet kunnen worden gewijzigd nadat Plazma is gestart.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [De argumenten](#user-content-fn-2)[^2] worden verdeeld in **startparameters** en **systeemeigenschappen** volgens de toegevoegde positie van de opdracht.
 
@@ -26,7 +27,8 @@ Als je niet zeker weet welke rol elke systeemeigenschap speelt, **gebruik het da
 
 Systeemeigenschappen worden ingevoerd als Java-opdrachtargumenten tussen `java` en `-jar`.
 
-Bijvoorbeeld, als u de systeemeigenschap `Plazma.dummyProperty` wilt toepassen, wordt de volgende eigenschap als `37` ingevoerd en wordt Plazma geïnitialiseerd.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -185,7 +187,7 @@ Alle problemen die voortvloeien uit het gebruik hiervan zijn de verantwoordelijk
 - **Type**: `Integer`
 - **Standaardwaarde**: `64`
 
-Stelt de beperking in voor de naam van het plug-in [kanaal](#user-content-fn-5)[^5].
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
