@@ -15,14 +15,19 @@ description: Uurige, milline platvorm Plazma on.
 
 ## ⚙️ Peamised funktsioonid <a href="#id-2" id="id-2"></a>
 
-1. **Võimas pistikprogrammide ökosüsteem**\
-   Põhineb [Paper](https://github.com/PaperMC/Paper) platvormil, mis võimaldab enamiku [uusimatest pistikprogrammidest](#user-content-fn-1)[^1] internetist alla laadida ja korralikult toimida.
-2. **Optimeerimist ei nõua**\
-   Sisaldab kõiki [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) parandusi ja mõningaid sisseehitatud optimeerimisi ja mooduleid, et pakkuda parimat jõudlust.
-3. **Mäng, mida saate kohandada**\
-   Kaasasolev [Purpur](https://github.com/PurpurMC/Purpur) võimaldab teil muuta mängu üldisi omadusi.
-4. **Turvaline mänguserver**\
-   [Chati aruannete puudumine](https://github.com/Aizistral-Studios/No-Chat-Reports) on lisatud alates 1.19-st [Mojangi](#user-content-fn-2)[^2] poolt ja võimaldab [vestluse teatamise süsteemi](#user-content-fn-3)[^3] keelata ning diagnoosimisinfo koguja on täielikult eemaldatud, võimaldades mängida jälgimata turvalisel serveril.
+1. **Tugev plugin-ökosüsteem**\
+   [Paber](https://github.com/PaperMC/Paper) põhineb,
+   seega enamikul internetist allalaaditavatest [uusimatest plugin-dest](#user-content-fn-1)[^1] on normaalne toimimine.
+2. **Optimeerimist pole vaja seadistada**\
+   Kõik [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) parandused on kaasas,
+   mõned sisemised optimeerimised ja moodulid tagavad parima jõudluse.
+3. **Mäng, mida saate kohandada soovitud viisil**\
+   Plazmas sisalduv [Purpur](https://github.com/PurpurMC/Purpur) võimaldab teil muuta
+   mängu üldisi omadusi vastavalt soovile.
+4. **Turvaline serverimängimine**\
+   Sisaldab [Mingi jutu raporteid](https://github.com/Aizistral-Studios/No-Chat-Reports) alates 1.19-st,
+   [Mojangi](#user-content-fn-2)[^2] [vestluse raporteerimise süsteem](#user-content-fn-3)[^3] saab keelata,\
+   diagnostikaandur on täielikult eemaldatud, võimaldades mängida jälgimata turvalisel serveril.
 5. **Kõige kiiremad uuendused**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) hoiab Plazma kaasas olevad parandused alati ajakohasena, pakkudes kõige kiiremaid uuendusi Paperil põhinevate serveri platvormide hulgas.
 6. **Vaikimisi konfiguratsioonifaili optimeerimine**\
@@ -40,14 +45,18 @@ description: Uurige, milline platvorm Plazma on.
 
 ## ✨ Kasutusjuhud <a href="#id-3" id="id-3"></a>
 
-- **Platvorm, mis suudab korralikult töödelda keerulisi pistikprogramme**\
-  Plazmat kasutatakse arendaja [IPECTER](https://github.com/IPECTER) serveris. NMS ja peegeldusega töötav oma pistikprogramm, mis sisaldab palju keerukaid ja mahukaid andmepakette, suudab vastu võtta üle 100 mängija ilma jõudluseta.
-- **RPG serveris säilitab kiire jõudluse platvorm**\
-  Ühe klasterina suutis säilitada 100 mängijat ilma TPS-i languseta ning 4 klasteris kokku 250 mängijat said mängida sujuvalt.
-- **Chunk/Entity valgust näitav platvorm**\
-  Purpurist Plazmaks muutudes suutsime vähendada enamiku viivitusi, mis tulenesid varasemast Survival serveri platvormist chunkide ja entityde töötlemisel.
-- **Paljude voogedastajate valitud platvorm**\
-  Paljud populaarsed voogedastajad kasutavad Plazmat oma vaatajaskonna jaoks.
+- **Iseseisvalt töötav platvorm, mis suudab korralikult töödelda keerulisi plugin-e**\
+  Plazmat kasutatakse arendaja [IPECTER](https://github.com/IPECTER) serveris.\
+  NMS ja peegeldusel põhinevad enda pluginad, keerulised ja mahukad andmepakid on laialdaselt rakendatud,\
+  ning see võtab vastu üle 100 mängija ilma jõudluseta.
+- **RPG-serveris säilitatakse kiire jõudlus**\
+  Ühe klasteriga hoiti 100 mängijat stabiilselt ilma TPS-i languseta ning\
+  4 klasteriga sai kokku 250 mängijat mängida sujuvalt.
+- **Platvorm, mis näitab valgust tükkides/üksustes**\
+  Muutes varasemalt ellujäämisserveris esinevat viivitust tükkide ja üksuste töötlemisel
+  Purpuri asemel Plazmaks, suudeti vähendada enamikku viivitusi.
+- **Paljude voogude valitud platvorm**\
+  Paljud voogedastajad on valinud kasutada seda ämbrina oma vaatajate jaoks.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
