@@ -21,8 +21,8 @@ description: Ismerje meg, hogy mi is pontosan a Plazma szerver platform.
    Minden [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) patch benne van, és néhány saját optimalizálást és módosítást tartalmaz, így kiváló teljesítményt nyújt.
 3. **A játékot saját igényei szerint testreszabó platform**\
    A Plazmában található [Purpur](https://github.com/PurpurMC/Purpur) lehetővé teszi a játék általános tulajdonságainak módosítását.
-4. **Biztonságos szerverjáték**\
-   Tartalmazza a [Nincs Csevegési Jelentés](https://github.com/Aizistral-Studios/No-Chat-Reports) funkciót, amely lehetővé teszi a Mojang[^2] 1.19-tól bevezetett [csevegési jelentési rendszer](#user-content-fn-3)[^3] kikapcsolását, valamint teljesen eltávolítja a diagnosztikai adatgyűjtőt, így nyomkövetés nélküli biztonságos szerveren játszhat.
+4. **Biztonságosan játszó szerver**\
+   A [Chat Reports nélkül](https://github.com/Aizistral-Studios/No-Chat-Reports) lehetővé teszi a [Mojang](#user-content-fn-2)[^2] által 1.19-től hozzáadott [csevegés jelentés rendszer](#user-content-fn-3)[^3] letiltását, és teljesen eltávolítja a diagnosztikai adatgyűjtőt, így nyom nélküli biztonságos szerveren játszhatsz.
 5. **Leggyorsabb frissítések**\
    [A Mindig Naprakész](https://github.com/PlazmaMC/AlwaysUpToDate) lehetővé teszi, hogy a Plazma beépített patch-ei mindig naprakészek legyenek, így a Paper alapú szerver platformok közül a leggyorsabb frissítéseket nyújtja.
 6. **Alapvető konfigurációs fájl optimalizálás**\
