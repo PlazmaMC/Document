@@ -7,7 +7,7 @@ description: Tutustu käynnistysparametreihin ja järjestelmäominaisuuksiin.
 Käynnistysmuuttujat ja järjestelmäominaisuudet ovat arvoja, jotka lisätään [käytettäviin komentoihin](#user-content-fn-1)[^1] Plazman suorituksen aikana,\
 ja ne mahdollistavat arvojen lisäämisen, jotka eivät ole muutettavissa Plazman suorituksen jälkeen.
 
-Niiden mukaisesti **käynnistysparametrit** ja **järjestelmäominaisuudet** jaetaan **komentoon liitettävän sijainnin mukaan**.
+[Käynnistysparametrit](#user-content-fn-2)[^2] ja **järjestelmäominaisuudet** jaetaan **käynnistysparametreihin** ja **järjestelmäominaisuuksiin**.
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` ilmaisee, että kyseinen parametri ei ole JVM:ssä sisäänrakennettu vaan lisätty Plazmalle erityinen parametri,
 
-jos arvoa ei anneta, arvo on [`true` oletusarvoisesti.](#user-content-fn-3)[^3]
+Jos arvoa ei anneta, arvoksi asetetaan [`true`](#user-content-fn-3)[^3].
 
 {% vinkki tyyli="info" %}
 
 **Paperweight-sarjan palvelualustat sisältävät pisteen ominaisuuden nimen erottamiseksi kullakin alustalla.**
 
-Joissakin terminaaleissa, kuten Windows Powershellissä, nämä parametrit eivät ehkä ole sallittuja, joten parametrien molempiin päihin on [lisättävä `"`.](#user-content-fn-4)[^4]
+Joissakin terminaaleissa, kuten Windows Powershellissä, nämä parametrit eivät ehkä ole sallittuja, joten parametrien molempiin päihin on lisättävä `"`[.](#user-content-fn-4)[^4]
 
 {% endhint %}
 
@@ -133,7 +133,7 @@ Tämä kirjaa kaikki virheelliset päälohkot sijainteineen maailmassa.
 - **Tyyppi**: `Boolean`
 - **Oletusarvo**: `False`
 
-Poistaa käytöstä rajoituksen, joka asettaa 128 lisäosakanavaa pelaajaa kohti.[^5]
+Poistaa rajoituksen, joka koskee yhden pelaajan 128 [lisäosakanavaa](#user-content-fn-5)[^5].
 
 #### `Paper.disableClassPrioritization`
 
@@ -187,7 +187,7 @@ Kaikki tämän käytön aiheuttamat ongelmat ovat käyttäjän vastuulla, eikä 
 - **Tyyppi**: `Integer`
 - **Oletusarvo**: `64`
 
-Asettaa lisäosakanavan[^6] nimen enimmäisrajan.
+Asettaa rajoituksen [lisäosakanavan](#user-content-fn-5)[^5] nimen pituudelle.
 
 #### `Paper.maxSignLength`
 
@@ -219,7 +219,7 @@ Aktivoi YAML-tiedostojen kommenttien käsittelyn.
 
 Kun pelaaja ei ole lähettänyt mitään tietoa annetun ajan (sekunteina), pelaaja poistetaan palvelimelta.
 
-Yleensä peli[^7] lähettää jatkuvasti [sydämenlyöntisignaalia](#user-content-fn-8)[^8] palvelimelle, [joten pelaajaa ei poisteta,](#user-content-fn-9)[^9] mutta jos peli ei vastaa, se katsotaan kaatuneeksi ja pelaaja poistetaan palvelimelta.
+Yleensä [peli](#user-content-fn-7)[^7] lähettää jatkuvasti [sydämenlyöntisignaalia](#user-content-fn-8)[^8] palvelimelle, joten sitä ei [karkoteta,](#user-content-fn-9)[^9] mutta jos peli ei vastaa, se katsotaan kaatuneeksi ja se ei enää käsittele pelaajia palvelimella vaan karkottaa heidät.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -292,7 +292,7 @@ Kun aktivoidaan, palvelin nopeutuu ja turvallisuus paranee, mutta se voi estää
 - **Tyyppi**: `Boolean`
 - **Oletusarvo**: `false`
 
-Estää varoituksen[^11], joka ilmestyy Plazman alustuksen yhteydessä.
+Estää [varoitusviestin](#user-content-fn-11)[^11], joka ilmestyy Plazman alustuksen yhteydessä.
 
 ### Käytöstä poistettu ominaisuus <a href="#id-1.3" id="id-1.3"></a>
 
