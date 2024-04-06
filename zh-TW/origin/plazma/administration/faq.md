@@ -8,7 +8,7 @@ description: 瞭解常見問題。
 
 **找不到您想要的答案嗎？**
 
-[官方 Discord 伺服器](https://discord.gg/MmfC52K8A8) 或 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) 向社區提問！
+[官方 Discord 伺服器](https://discord.gg/MmfC52K8A8) 或者透過 [GitHub 討論區](https://github.com/PlazmaMC/PlazmaBukkit/discussions) 向社群提問！
 
 {% endhint %}
 
