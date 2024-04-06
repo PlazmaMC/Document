@@ -403,3 +403,8 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 **[Plazma 세계별 구성](configurations/plazma/world.md)에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 
 {% endhint %}
+
+***
+
+[^1]: Operator.
+[^2]: 예: `ender_dragon`
