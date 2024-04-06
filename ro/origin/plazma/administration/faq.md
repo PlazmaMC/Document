@@ -8,7 +8,7 @@ description: Aflați mai multe despre întrebările frecvente.
 
 **Nu găsiți răspunsul dorit?**
 
-Întrebați comunitatea prin intermediul [serverului oficial de Discord](https://discord.gg/MmfC52K8A8) sau al [problemelor de pe GitHub](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Server Discord oficial](https://discord.gg/MmfC52K8A8) sau [Discuții GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) pentru a pune întrebări comunității!
 
 {% endhint %}
 
