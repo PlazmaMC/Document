@@ -27,7 +27,7 @@ Poiché Plazma si basa sulla piattaforma ufficiale dei server di Mojang Studios 
 
 Per verificare se JRE è installato nel sistema, digitare [`cmd /k java --version`](#user-content-fn-4) nella finestra di esecuzione e premere Invio.
 
-다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+Se visualizzato come segue, passa al [Passaggio 2](#id-2).
 
 {% code title="Output corretto" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+Se non visualizzato come sopra, o se visualizzato come sotto, significa che JRE non è presente o è troppo vecchio, quindi è necessario eseguire il [Passaggio 1.2](#id-1.2).
 
 {% code title="JRE non installato" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Errore: Si è verificata un'eccezione fatale. Il programma verrà chiuso.
 
 ### 1.2 Installazione di JRE
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+In questo manuale, utilizziamo Azul Zulu come una delle [tipologie di JRE](#user-content-fn-5)[^5].
 
-설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+Dopo aver completato l'installazione, ripeti il [Passaggio 1.1](#id-1.1) per verificare che l'installazione sia stata completata correttamente.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma offre vari file eseguibili tra cui scegliere.
 
 **Nella maggior parte dei casi si utilizza `Reobf Paperclip`.**
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+Il seguente contenuto è destinato agli sviluppatori o a coloro che sono interessati alle varie caratteristiche.\
+Se sei un utente normale, puoi saltare al [Passaggio 3](#id-3) senza problemi.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ Per accettare l'EULA, modifica `eula=false` in `eula=true` nel file `eula.txt` e
 
 I moderni sistemi operativi bloccano gli accessi esterni per motivi di sicurezza tramite il **firewall** e il **router** di default.
 
-Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+Per quanto riguarda Windows, poiché il firewall è stato consentito nel [Passaggio 3](#id-3), è sufficiente eseguire il port forwarding.
 
 {% hint style="info" %}
 
-**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Questo manuale è stato redatto considerando l'utilizzo di Windows come sistema operativo e un router che supporta [UPnP](#user-content-fn-12)[^12].**
 
 Se il tuo router non supporta UPnP, dovrai cercare informazioni specifiche poiché i pannelli dei router possono variare.
 
@@ -303,7 +303,7 @@ Se il server e il gioco sono eseguiti sullo stesso PC, è possibile connettersi 
 
 Se il server è stato avviato con successo e funziona correttamente, è ora il momento di personalizzarlo.
 
-아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+Scopri come personalizzare il server seguendo le istruzioni di seguito.
 
 {% content-ref url="prossimo-passo.md" %}
 [prossimo-passo.md](prossimo-passo.md)
