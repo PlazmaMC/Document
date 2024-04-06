@@ -1,5 +1,5 @@
 ---
-description: 문제가 발생했을 때 대처하는 방법을 알아보세요.
+description: Vaadake, kuidas probleemide tekkimisel reageerida.
 ---
 
-# 🩺 진단
+# 🩺 Diagnoos
