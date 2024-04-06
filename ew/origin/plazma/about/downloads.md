@@ -24,6 +24,8 @@ If you are a developer and need a different type of file, please refer to the pa
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
@@ -64,3 +66,5 @@ If you are a developer and need a different type of file, please refer to the pa
         </tr>
     </tbody>
 </table>
+
+***
