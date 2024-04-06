@@ -2,7 +2,7 @@
 description: Ketahui cara menggunaan semula pelayan.
 ---
 
-# 📶 Tahap Pembangunan
+# 📶 발전하기
 
 Alasan mengapa menggunakan platform server yang telah diubah seperti Plazma daripada platform server rasmi yang disediakan oleh Mojang Studios adalah kerana ia membolehkan **penyesuaian pengguna** yang kuat.
 
