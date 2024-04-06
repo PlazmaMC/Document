@@ -8,7 +8,7 @@ description: Descubra as perguntas frequentes.
 
 **Não consegue encontrar a resposta que procura?**
 
-Faça perguntas à comunidade através do [servidor Discord oficial](https://discord.gg/MmfC52K8A8) ou [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Servidor Discord oficial](https://discord.gg/MmfC52K8A8) ou [Discussões no GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) para fazer perguntas à comunidade!
 
 {% endhint %}
 
