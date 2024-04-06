@@ -7,11 +7,11 @@ description: Selvitä, miten luodaan palvelin Plazma-sovelluksella.
 Plazman vakaa käyttö vaatii, että järjestelmä täyttää seuraavat vaatimukset.
 
 |               | Vähimmäisvaatimukset | Suositellut |
-| :-----------: | -------------------: | ----------: |
-| Arkkitehtuuri |                  x64 |           - |
-|   RAM-muisti  |                  8GB |        16GB |
-| Tallennustila |                  1GB |         8GB |
-|      JRE      |                   17 |          21 |
+| :-----------: | :------------------- | :---------- |
+| Arkkitehtuuri | x64                  | -           |
+|   RAM-muisti  | 8GB                  | 16GB        |
+| Tallennustila | 1GB                  | 8GB         |
+|      JRE      | 17                   | 21          |
 
 Sujuvan asetustiedoston muokkauksen varmistamiseksi on hyvä asentaa muokkausohjelma, kuten [Visual Studio Code](https://code.visualstudio.com/download).
 
