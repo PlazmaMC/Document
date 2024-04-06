@@ -6,7 +6,7 @@ description: Scopri gli argomenti di avvio e le proprietà di sistema.
 
 Gli argomenti di avvio e le proprietà di sistema sono valori aggiunti ai [comandi utilizzati](#user-content-fn-1)[^1] nell'esecuzione di Plazma, che consentono di modificare valori che non possono essere cambiati dopo l'esecuzione di Plazma.
 
-In base alla [posizione in cui vengono aggiunti ai comandi](#user-content-fn-2)[^2], si distinguono tra **argomenti di avvio** e **proprietà di sistema**.
+In base alla posizione a cui si aggiungono i comandi (fn-2), verranno divisi in **argomento iniziale** e **attributi di sistema**.
 
 ***
 
@@ -34,13 +34,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 Il prefisso `-D` indica che l'argomento non è integrato nella JVM ma è un argomento specifico aggiunto a Plazma,
 
-Se non viene fornito alcun valore, il valore sarà [`true` per impostazione predefinita.](#user-content-fn-3)[^3]
+Se non si inserisce alcun valore negli attributi, il valore sarà fissato a [`true`](fn-3).
 
 {% hint style="info" %}
 
 **La piattaforma server della serie Paperweight include il carattere `.` nei nomi delle proprietà per distinguere le proprietà tra le varie piattaforme.**
 
-In alcuni terminali come Windows Powershell, potrebbe non essere consentito l'utilizzo di questi argomenti, quindi è necessario aggiungere `"` all'inizio e alla fine degli argomenti. [^4]
+In alcuni terminali come Windows Powershell potrebbe non essere consentito l'uso di questi argomenti, quindi è necessario aggiungere `"` ai bordi degli argomenti (fn-4).
 
 {% endhint %}
 
@@ -131,7 +131,7 @@ Questo logga tutte le teste non valide nella mappa del mondo insieme alla loro p
 - **Tipo**: `Boolean`
 - **Valore predefinito**: `False`
 
-Disattiva il limite di 128 canali di plugin per giocatore.[^5]
+Disabilita il limite di 128 canali di plugin applicabili per giocatore (fn-5).
 
 #### `Paper.disableClassPrioritization`
 
@@ -185,7 +185,7 @@ Tutti i problemi derivanti dall'uso di questa opzione sono responsabilità dell'
 - **Tipo**: `Integer`
 - **Valore predefinito**: `64`
 
-Imposta il limite del nome del canale del plugin.[^6]
+Imposta il limite dei nomi dei canali dei plugin (fn-5).
 
 #### `Paper.maxSignLength`
 
@@ -217,7 +217,7 @@ Attiva il parsing dei commenti YAML di default.
 
 Espelle il giocatore se non riceve alcun dato per il tempo specificato (in secondi).
 
-Di solito, il gioco[^7] invia costantemente un [segnale di battito cardiaco](#user-content-fn-8)[^8] al server, quindi non viene espulso; tuttavia, se il gioco non risponde, viene considerato in crash e il server disconnette il giocatore.
+Di solito, il [gioco](fn-7) invia continuamente un [segnale di battito cardiaco](fn-8) al server, quindi non verrai [espulso,](fn-9) ma se il gioco non risponde, verrai considerato in conflitto e verrai espulso dal server senza ulteriori elaborazioni del giocatore.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -290,7 +290,7 @@ Attivando questo, il server diventerà più veloce e sicuro, ma potrebbe bloccar
 - **Tipo**: `Boolean`
 - **Valore predefinito**: `false`
 
-Sopprime il messaggio di avvertimento[^11] visualizzato durante l'inizializzazione di Plazma.
+Sopprime il [messaggio di avvertimento](fn-11) visualizzato durante l'inizializzazione di Plazma.
 
 ### Attributo obsoleto <a href="#id-1.3" id="id-1.3"></a>
 
