@@ -2,4 +2,4 @@
 description: Temukan apa yang setiap node dalam purpur.yml berarti.
 ---
 
-# 🦑 Purpur (komposisi dunia)
+# 🦑 Purpur (세계별 구성)
