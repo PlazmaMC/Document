@@ -1,5 +1,5 @@
 ---
-description: Ako imate pitanja, slobodno pitajte putem Discorda ili GitHub Issues.
+description: Ako imate pitanja, slobodno postavite pitanje putem Discorda ili GitHub rasprava.
 ---
 
 # 🏠 Dobrodošli na portal za dokumentaciju
