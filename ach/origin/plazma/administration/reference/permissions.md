@@ -10,191 +10,191 @@ Lok ma kwo ne pi kwede, kicoyo kicoyo ka [LuckPerms](https://luckperms.net) ki d
 
 ***
 
-## 기본 권한 체계 이해하기 <a href="#id-1" id="id-1"></a>
+## Kwede iye kwede Acelo <a href="#id-1" id="id-1"></a>
 
-Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니다.
+Minecraft ma kwo ne pi kwede iye kwede ma pwonye i kwo tic.
 
-[운영자](#user-content-fn-1)[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
+[Lok me iye](#user-content-fn-1)[^1] ki dong i kwo tic ma lok me [server](configurations/property.md) ma iye kwede.
 
-0. **플레이어**\
-   일반적으로 모든 플레이어어게 주어지는 권한 그룹입니다.
-1. **중재자**\
-   스폰 보호를 무시할 수 있습니다.
-2. **세계 관리자**\
-   세계 관리와 관련된 모든 명령어와 명령 블록을 사용할 수 있습니다.\
-   데이터팩 및 명령 블록에 기본 적용되는 권한 그룹입니다.
-3. **관리자**\
-   플레이어 관리와 관련된 모든 명령어를 사용할 수 있습니다.
-4. **총관리자**\
-   서버 관리를 포함한 모든 명령어를 사용할 수 있습니다.\
-   콘솔 및 운영자에게 기본 적용되는 권한 그룹입니다.
-
-***
-
-## 권한 설정하기 <a href="#id-2" id="id-2"></a>
+0. **Player**\
+   Kicoyo pa player me cok i kwo tic.
+1. **Mediator**\
+   Kicoyo pa kwo di gang me opwonyo.
+2. **Lok me iye**\
+   Kicoyo pa iye me kwo tic ma iye me [command block](configurations/property.md) ki dong i kwo tic.\
+   Kicoyo pa data pack ma command block iye kwede me kwede i kwo tic.
+3. **Admin**\
+   Kicoyo pa player me cok ma iye me [command](configurations/property.md) ki dong i kwo tic.
+4. **Admin mukene**\
+   Kicoyo pa lok me server ki dong i kwo tic ma iye me [command](configurations/property.md) ki dong i kwo tic.\
+   Kicoyo pa console mukene opwonyo me kwo tic.
 
 ***
 
-## 전체 권한 <a href="#id-3" id="id-3"></a>
+## Kwo tic iye kwede <a href="#id-2" id="id-2"></a>
+
+***
+
+## Kwede iye kwede <a href="#id-3" id="id-3"></a>
 
 ***
 
 #### `allow.ride.(Namespaced Key)`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-플레이어가 엔티티에 `웅크리고 상호 작용`하여 엔티티를 탑승할 수 있도록 허용합니다.
+Player mukene i entiti me `kwo coko` ki dong ma i entiti me kwo tic me iye me kwo tic.
 
-엔티티를 탑승하면 `이동 키`로 엔티티의 이동을 조작할 수 있으며, `점프 키`로 점프하거나 날 수 있습니다.
+Entiti me kwo coko, player mukene `kwo kwo` ki entiti me kwo coko ma, `kwo jump` ki dong ma iye kwo tic.
 
-`(Namespaced Key)`에는 엔티티의 [Namespaced ID](#user-content-fn-2)[^2]가 입력됩니다.
+`(Namespaced Key)` ma entiti me [Namespaced ID](#user-content-fn-2)[^2] ki waco.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**[Purpur kwede iye](configurations/purpur/world.md) me `(Entity) > ridable` ki gengo ma cok i kwo tic.**
 
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-플레이어가 엔티티를 탑승하고 있을 때, 엔티티의 특수 기술을 사용할 수 있도록 허용합니다.
+Player mukene entiti me kwo coko, entiti me kwo tic me kwo tic ki dong i kwo tic.
 
-모든 엔티티의 특수 기능이 사용 가능한 것은 아닙니다. 사용 가능한 전체 특수 기술은 아래를 참고하세요.
+Entiti me kwo coko mape kwo tic ki dong. Kwede iye kwede entiti me kwo tic ki gengo i kom.
 
 {% hint style="info" %}
 
-**특수 기술에 대한 좋은 아이디어가 있나요?**
+**Kwo tic ki gengo i kom meywe pe?**
 
-[Plazma Discord](https://plazmamc.org/discord) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)에 아이디어를 게시해 주세요!
+[Plazma Discord](https://plazmamc.org/discord) wacel [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions) ki dong i kwo tic!
 
 {% endhint %}
 
 <details>
 
-<summary>현재 사용 가능한 특수 기술 보기</summary>
+<summary>Cel ma iye i kwo tic ki gengo</summary>
 
 - **`crepper`**\
-  `점프 키`를 누르면 폭발합니다.\
-  플레이어가 `allow.powered.creeper` 권한을 가지고 있으면, `점프 키`를 꾹 눌러 충전할 수 있습니다.
+  `kwo jump` ki dong ma kwo coko.\
+  Player mukene `allow.powered.creeper` kwede i kwo tic, `kwo jump` ki dong ma kwo tic.
 - **`dolphin`**\
-  `점프 키`를 누르면 돌진합니다.
+  `kwo jump` ki dong ma kwo coko.
 - **`phantom`**\
-  `점프 키`를 누르면 화염을 발사합니다.
+  `kwo jump` ki dong ma kwo coko.
 - **`wither`**\
-  `상호 작용`하면 위더 머리를 발사합니다.
+  `kwo coko` ma wither head ki dong ma kwo coko.
 
 </details>
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**[Purpur kwede iye](configurations/purpur/world.md) me `(Entity) > ridable` ki gengo ma cok i kwo tic.**
 
 {% endhint %}
 
 #### `bukkit.command.compass`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-[`/compass` 명령어](commands.md#compass) 사용을 허용합니다.
+[`/compass` command](commands.md#compass) ki dong i kwo tic.
 
 #### `bukkit.command.credits`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-[`/credits (Player)` 명령어](commands.md#credits) 사용을 허용합니다.
+[`/credits (Player)` command](commands.md#credits) ki dong i kwo tic.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Kwede iye kwede `.other` wacel pe kwo tic iye kwede player mukene ki dong i kwo tic.
 
 #### `bukkit.command.demo`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-[`/demo (Player)` 명령어](commands.md#demo) 사용을 허용합니다.
+[`/demo (Player)` command](commands.md#demo) ki dong i kwo tic.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Kwede iye kwede `.other` wacel pe kwo tic iye kwede player mukene ki dong i kwo tic.
 
 #### `bukkit.command.ping`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-[`/ping (Player)` 명령어](commands.md#ping) 사용을 허용합니다.
+[`/ping (Player)` command](commands.md#ping) ki dong i kwo tic.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Kwede iye kwede `.other` wacel pe kwo tic iye kwede player mukene ki dong i kwo tic.
 
 #### `bukkit.command.ram`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-[`/ram` 명령어](commands.md#ram) 사용을 허용합니다.
+[`/ram` command](commands.md#ram) ki dong i kwo tic.
 
 #### `bukkit.command.rambar`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-[`/rambar (Player)` 명령어](commands.md#rambar) 사용을 허용합니다.
+[`/rambar (Player)` command](commands.md#rambar) ki dong i kwo tic.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Kwede iye kwede `.other` wacel pe kwo tic iye kwede player mukene ki dong i kwo tic.
 
 #### `bukkit.command.restart`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-[`/restart` 명령어](commands.md#restart) 사용을 허용합니다.
+[`/restart` command](commands.md#restart) ki dong i kwo tic.
 
 #### `bukkit.command.tps`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-[`/tps` 명령어](commands.md#tps) 사용을 허용합니다.
+[`/tps` command](commands.md#tps) ki dong i kwo tic.
 
 #### `bukkit.command.tpsbar`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-[`/tpsbar (Player)` 명령어](commands.md#tpsbar) 사용을 허용합니다.
+[`/tpsbar (Player)` command](commands.md#tpsbar) ki dong i kwo tic.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Kwede iye kwede `.other` wacel pe kwo tic iye kwede player mukene ki dong i kwo tic.
 
 #### `bukkit.command.timings`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-[`/timings` 명령어](commands.md#timings) 사용을 허용합니다.
+[`/timings` command](commands.md#timings) ki dong i kwo tic.
 
 {% hint style="warning" %}
 
-**해당 명령어는 사용이 중단되었습니다.**
+**Lok me iye mukene kwede i kwo tic.**
 
-비슷한 기능을 가지는 명령어에 대해 알아보려면 [Spark](https://spark.lucko.me/docs/Command-Usage)를 확인하세요.
+Kwede iye ki dong ma kwo tic ki gengo, wacel [Spark](https://spark.lucko.me/docs/Command-Usage) ki dong i kwo tic.
 
 {% endhint %}
 
 #### `bukkit.command.uptime`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-[`/uptime` 명령어](commands.md#uptime) 사용을 허용합니다.
+[`/uptime` command](commands.md#uptime) ki dong i kwo tic.
 
 #### `minecraft.command.gamemode.(GameMode)`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-`/gamemode (GameMode) (Player)` 명령어 사용을 허용합니다.
+`/gamemode (GameMode) (Player)` command ki dong i kwo tic.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Kwede iye kwede `.other` wacel pe kwo tic iye kwede player mukene ki dong i kwo tic.
 
 #### `paper.antixray.bypass`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우,
-권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
+[X-Ray pek](../expert/xray.md) ki mukene, wacel
+kwo tic mukene player me pek i kwo tic, X-Ray pek ki dong ma kwo tic.
 
-이렇게 하면 양 측 모두 성능 향상을 경험할 수 있습니다.
+Kwo tic ma iye me kwo tic iye kwede i kwo tic.
 
-> X-Ray 설정 방법에 대해 알아보려면 아래 페이지를 참고하세요.
+> X-Ray kwede iye ki dong ma iye mukene, wacel i kom pek ki dong i kwo tic.
 
 {% content-ref url="../expert/xray.md" %}
 [xray.md](../expert/xray.md)
@@ -202,159 +202,159 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 #### `plazma.bypass-moved-to-quickly-check`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
 {% hint style="warning" %}
 
-해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
+Kwo tic mukene 1.20.5 me `plazma.bypass.watchdog` wacel pek i kwo tic.
 
 {% endhint %}
 
 #### `purpur.anvil.color`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-모루에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Moru ma [color code](https://minecraft.wiki/w/Formatting_codes#Color_codes) ki mukene.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur kwede iye](configurations/purpur/world.md) me `anvil > allow-colors` wacel pek i kwo tic.**
 
 {% endhint %}
 
 #### `purpur.anvil.format`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)을 사용할 수 있도록 허용합니다.
+Moru ma [styling code](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) ki mukene.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur kwede iye](configurations/purpur/world.md) me `anvil > allow-colors` wacel pek i kwo tic.**
 
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-모루에 [MiniMessage 태그](https://docs.advntr.dev/minimessage/format.html)를 사용할 수 있도록 허용합니다.
+Moru ma [MiniMessage tag](https://docs.advntr.dev/minimessage/format.html) ki mukene.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
+**[Purpur kwede iye](configurations/purpur/world.md) me `anvil > allow-minimessages` wacel pek i kwo tic.**
 
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
+Moru ma [`&r` styling code](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) ki mukene `italic` ki dong ma kwo tic.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur kwede iye](configurations/purpur/world.md) me `anvil > allow-colors` wacel pek i kwo tic.**
 
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)가 적용되도록 합니다.
+Player mukene buk me cok, [styling code](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) ki dong ma kwo tic.
 
 #### `purpur.bypassIdleKick`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-플레이어를 유휴 상태 추방 대상에서 제외합니다.
+Player mukene kwo tic ki dong i kwo tic.
 
 #### `purpur.debug.f3n`
 
-- **기본 제공**: `세계 관리자`
+- **Lok me iye**: `Lok me iye mukene`
 
-플레이어가 `F3 + N` 키로 게임 모드를 변경할 수 있도록 허용합니다.
+Player mukene `F3 + N` key ki dong ma kwo tic.
 
-해당 게임모드에 대한 권한이 없으면 작동하지 않습니다.
+Kwo tic mukene kwede iye ki dong ma kwo tic.
 
 #### `purpur.drop.spawners`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-구성에서 설정한 아이템으로 스포너 블록을 채굴하면 스포너 블록을 떨어뜨립니다.
+Gengo wacel waco item ma iye kwo coko, item ma iye kwo tic ki dong i kwo tic.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**[Purpur kwede iye](configurations/purpur/world.md) me `gameplay-mechanics > silk-touch` wacel pek i kwo tic.**
 
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-엔더 상자의 크기를 변경합니다.
+Ender chest me cok iye kwo tic ki dong.
 
-`(NumberString)`에는 `one`, `two`, `three`, `four`, `five`, `six`를 입력할 수 있습니다.
+`(NumberString)` wacel `one`, `two`, `three`, `four`, `five`, `six` ki waco.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
+**[Purpur kwede iye](configurations/purpur/world.md) me `ender_chest > six-rows` wacel `ender_chest > use-permissions-for-rows` wacel pek i kwo tic.**
 
 {% endhint %}
 
 #### `purpur.inventory_totem`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-불사의 토템이 인벤토리에 있어도 작동하도록 허용합니다.
+Totem me kwo tic ma iye me kwo tic ki dong i kwo tic.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
+**[Purpur kwede iye](configurations/purpur/world.md) me `totem-of-undying-works-in-inventory` wacel pek i kwo tic.**
 
 {% endhint %}
 
 #### `purpur.joinFullServer`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-플레이어가 접속자수 제한을 무시하도록 허용합니다.
+Kica me kwanyo kwede kacel ma kicel i kare ma en aye.
 
 #### `purpur.mending_shift_click`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-플레이어가 `웅크리고 상호 작용`하면 들고 있는 아이템을 수선할 수 있도록 허용합니다.
+Kica me kwanyo kwede 'kwo cwek i cwek' ki kare ma en aye i kare ma en aye.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
+**[Purpur kacel ma en aye](configurations/purpur/world.md) ki 'shift-right-click-repairs-mending-points' obedo i gengo.**
 
 {% endhint %}
 
 #### `purpur.place.spawners`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-플레이어가 스포너를 설치할 수 있도록 허용합니다.
+Kica me kwanyo kwede kwo gengo ma kwo i kare ma en aye.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**[Purpur kwede iye](configurations/purpur/world.md) me `gameplay-mechanics > silk-touch` wacel pek i kwo tic.**
 
 {% endhint %}
 
 #### `purpur.portal.instant`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
-플레이어가 네더 차원문을 사용했을 때 바로 순간이동 하도록 합니다.
+Kica me kwanyo kwede kwo nedi Nether ma kwede kwo kwede i kwede.
 
 #### `purpur.sign.color`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
 표지판에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
 
@@ -366,7 +366,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 #### `purpur.sign.magic`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
 표지판에 난독화 코드`(&o)`를 사용할 수 있도록 허용합니다.
 
@@ -378,7 +378,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 #### `purpur.sign.style`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
 표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)를 사용할 수 있도록 허용합니다.
 
@@ -390,7 +390,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 #### `purpur.tnt.defuse`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
 플레이어가 가위로 `상호 작용`하여 TNT 폭발을 막을 수 있도록 허용합니다.
 
@@ -404,7 +404,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 #### `plazma.bypass.ncr-require`
 
-- **기본 제공**: `없음`
+- **Lok me iye**: `pek`
 
 플레이어가 [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) 모드가 설치되어 있지 않아도 접속할 수 있도록 허용합니다.
 
