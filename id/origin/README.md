@@ -1,5 +1,5 @@
 ---
-description: Jika Anda memiliki pertanyaan, silakan bertanya melalui Discord atau GitHub Issues.
+description: Jika Anda memiliki pertanyaan, silakan bertanya melalui Discord atau Diskusi GitHub.
 ---
 
 # 🏠 Selamat datang di Portal Dokumentasi
