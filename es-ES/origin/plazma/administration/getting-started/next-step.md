@@ -104,7 +104,7 @@ Especialmente si un paquete de datos se daña por completo, es importante realiz
 
 **Después de ingresar `safeMode` detrás del comando de inicio del servidor, puede desactivar todos los paquetes de datos y reiniciar el servidor.**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
+[Consulte `Referencia > Argumentos y Propiedades` para obtener más información.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -114,11 +114,9 @@ Puede verificar los paquetes de datos aplicados con el comando `/datapack list`.
 
 ## Optimización <a href="#id-4" id="id-4"></a>
 
-Plazma tiene muchas correcciones de optimización aplicadas. 또한, Plazma가 처음으로 시작되면 자동으로
-구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
+Plazma tiene muchas correcciones de optimización aplicadas. Además, cuando Plazma se inicia por primera vez, optimiza automáticamente la configuración, por lo que no es necesario realizar trabajos de optimización adicionales si sigue las instrucciones en [Comenzar](./README.md).
 
-하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
-아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
+Sin embargo, si hay muchos jugadores conectados o si el tamaño del mundo es grande, puede realizar trabajos de optimización adicionales siguiendo las instrucciones a continuación.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
