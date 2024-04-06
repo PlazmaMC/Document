@@ -4,7 +4,7 @@ description: Zistite viac o počiatočných argumentoch a systémových vlastnos
 
 # 🎛️ Argumenty a vlastnosti
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Začiatočné argumenty a vlastnosti systému predstavujú hodnoty, ktoré sa pridávajú k [príkazom používaným na spustenie Plazmy](#user-content-fn-1)[^1], čo celkovo ovplyvňuje fungovanie Plazmy.
 
 [Pozícia pridania príkazu](#user-content-fn-2)[^2] rozdeľuje **štartový argument** a **vlastnosti systému**.
 
