@@ -1,12 +1,12 @@
 ---
-description: Plazma에서 기본 제공하는 사용자화 방법을 알아보세요.
+description: 在Plazma中了解基本提供的用戶化方法。
 ---
 
-# ⏬ 리퍼런스
+# ⏬ 參考資料
 
-Plazma에서는 여러 가지 사용자화 방법을 제공하고 있습니다.
+Plazma提供了多種用戶化方法。
 
-그 중, 아래 4가지 방법은 추가적인 작업 없이 바로 사용할 수 있는 사용자화 방법입니다.
+其中，以下4種方法是可以直接使用的用戶化方法，無需進行額外操作。
 
 {% hint style="info" %}
 
@@ -18,9 +18,9 @@ Plazma에서는 여러 가지 사용자화 방법을 제공하고 있습니다.
 
 ***
 
-## 🖥️ 명령어 <a href="#id-1" id="id-1"></a>
+## 🖥️ 指令 <a href="#id-1" id="id-1"></a>
 
-> 명령어는 게임 내에서 정보를 수집하거나 플레이 환경을 사용자화 할 수 있게 합니다.
+> 指令可讓玩家在遊戲中收集信息或自定義遊戲環境。
 
 {% content-ref url="commands.md" %}
 [commands.md](commands.md)
@@ -28,9 +28,9 @@ Plazma에서는 여러 가지 사용자화 방법을 제공하고 있습니다.
 
 ***
 
-## 🛡️ 권한 <a href="#id-2" id="id-2"></a>
+## 🛡️ 權限 <a href="#id-2" id="id-2"></a>
 
-> 권한은 플레이어가 상호 작용할 수 있는 범위를 지정합니다.
+> 權限指定玩家可以互動的範圍。
 
 {% content-ref url="permissions.md" %}
 [permissions.md](permissions.md)
@@ -38,9 +38,9 @@ Plazma에서는 여러 가지 사용자화 방법을 제공하고 있습니다.
 
 ***
 
-## 🎛️ 인수와 속성 <a href="#id-3" id="id-3"></a>
+## 🎛️ 參數和屬性 <a href="#id-3" id="id-3"></a>
 
-> 인수와 속성은 Plazma의 작동에 전반적인 영향을 줍니다.
+> 參數和屬性對Plazma的運作產生全面影響。
 
 {% content-ref url="arguments.md" %}
 [arguments.md](arguments.md)
@@ -48,9 +48,9 @@ Plazma에서는 여러 가지 사용자화 방법을 제공하고 있습니다.
 
 ***
 
-## 📋 구성 <a href="#id-4" id="id-4"></a>
+## 📋 組態 <a href="#id-4" id="id-4"></a>
 
-> 구성은 Plazma를 사용자화 하는 가장 기초적인 방법입니다.
+> 組態是用戶化Plazma的最基本方法。
 
 {% content-ref url="configurations/" %}
 [configurations](configurations/)
