@@ -26,3 +26,5 @@ description: 요세보 알수없는 :Java Edition 버전을 알아보세요.
 | [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) | !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001] | [![ɯɯǝɯɯs ɐɯɯɹɯ](https://ɯɯɯɯ.plazmamc.org/1.20.2)](https://ɯɯɯɯ.plazmamc.org/1.20.2?ɯɯɯɯɯɯ=true) |
 | [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) | !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001] |                                       !\[ɯɯɐɯɯ ǝɯɯoɥ]\[nku]                                       |
 | [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) | !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001] |                                       !\[ɯɯɐɯɯ ǝɯɯoɥ]\[nku]                                       |
+
+***
