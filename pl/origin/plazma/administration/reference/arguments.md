@@ -4,7 +4,8 @@ description: Dowiedz się o początkowych argumentach i właściwościach system
 
 # 🎛️ Argumenty i właściwości
 
-Początkowe zmienne i właściwości systemowe to wartości dodawane do [polecenia używanego do uruchomienia Plazmy](#user-content-fn-1)[^1], które umożliwiają zmianę wartości, które nie mogą być zmienione po uruchomieniu Plazmy.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 Zgodnie z **parametrem lokalizacji** dodanym do [polecenia](#user-content-fn-2)[^2], zostanie podzielony na **argumenty początkowe** i **właściwości systemowe**.
 
@@ -26,8 +27,8 @@ Jeśli nie jesteś pewien, jaką rolę pełnią poszczególne właściwości sys
 
 Właściwości systemowe są wprowadzane jako argumenty Java między `java` a `-jar`.
 
-Na przykład, jeśli chcesz zastosować właściwość systemową `Plazma.dummyProperty`,\
-wprowadzając ją w ten sposób, wartość `37` zostanie przypisana do tej właściwości podczas inicjalizacji Plazmy.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -186,7 +187,7 @@ Wszelkie problemy wynikające z tego są twoją odpowiedzialnością, a Plazma n
 - **Typ**: `Integer`
 - **Domyślnie**: `64`
 
-Ustawia limit nazw kanałów [wtyczek](#user-content-fn-5)[^5].
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
