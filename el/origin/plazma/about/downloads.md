@@ -29,8 +29,8 @@ description: Κατεβάστε τώρα το Plazma και δοκιμάστε �
 <table data-view="cards">
     <thead>
         <tr>
-            <th>버전</th>
-            <th>다운로드</th>
+            <th>Έκδοση</th>
+            <th>Λήψη</th>
         </tr>
     </thead>
     <tbody>
@@ -43,25 +43,25 @@ description: Κατεβάστε τώρα το Plazma και δοκιμάστε �
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Λήψη" alt="Λήψη">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Λήψη" alt="Λήψη">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Λήψη" alt="Λήψη">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Λήψη" alt="Λήψη">
             </a></td>
         </tr>
     </tbody>
