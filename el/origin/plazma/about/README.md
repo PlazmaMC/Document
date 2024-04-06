@@ -54,11 +54,9 @@ description: Μάθετε τι είναι το Plazma ως πλατφόρμα ε
 - **Πλατφόρμα που επιλέγεται από πολλούς streamers**\
   Χρησιμοποιείται ως το καλύτερο εργαλείο για τους θεατές από πολλούς streamers.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Πραγματικός χρήστης της Plazma σε πραγματικό χρόνο τάση</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ Λήψη
 
