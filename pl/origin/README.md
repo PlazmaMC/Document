@@ -1,5 +1,5 @@
 ---
-description: Jeśli masz pytania, zadaj je na Discordzie lub za pośrednictwem GitHub Issues.
+description: Jeśli masz pytania, zadaj je za pośrednictwem Discorda lub dyskusji na GitHubie.
 ---
 
 # 🏠 Witaj w portalu dokumentacyjnym
