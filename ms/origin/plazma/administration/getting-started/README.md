@@ -159,8 +159,7 @@ Nama fail eksekusi adalah `plazma-(pengurus versi)-1.20.4-R0.1-SNAPSHOT-(jenis p
 
 Untuk memulakan Plazma dengan mudah dan membolehkan pelayan secara automatik mulakan semula, anda perlu membuat [skrip mula](#user-content-fn-6)[^6].
 
-Anda boleh membuat skrip mula melalui [Flags.sh](https://flags.sh).\
-Hanya masukkan [jumlah memori yang hendak digunakan oleh Plazma](#user-content-fn-8)[^8] dan perintah akan dioptimumkan secara automatik.
+Anda boleh membuat skrip permulaan melalui [Flags.sh](https://flags.sh) untuk [mencipta](#user-content-fn-7)[^7]. Hanya masukkan jumlah memori yang ingin anda gunakan di Plazma, dan perintah akan dioptimumkan secara automatik.
 
 Anda boleh muat turun skrip mula melalui butang muat turun di bahagian kiri bawah.\
 **Pastikan skrip mula yang dimuat turun sepadan dengan sistem operasi anda.**
@@ -189,7 +188,11 @@ Apabila anda menjalankan skrip mula, fail `eula.txt` akan dicipta dalam folder.
 
 EULA[^9] adalah perjanjian lesen yang perlu anda setujui untuk menggunakan perkhidmatan [Mojang Studios](#user-content-fn-10)[^10].
 
-Jika anda tidak bersetuju dengan EULA, anda tidak boleh memulakan pelayan dan mungkin akan dikenakan [sanksi jika melanggar EULA.](#user-content-fn-11)[^11]
+{% hint style="warning" %}
+
+Jika anda tidak bersetuju, anda tidak akan dapat memulakan pelayan dan mungkin akan dikenakan [sanksi](#user-content-fn-11)[^11] seperti penangguhan akaun kerana melanggar EULA.
+
+{% endhint %}
 
 Untuk bersetuju dengan EULA, ubah `eula=false` kepada `eula=true` dalam fail `eula.txt` dan simpan.
 
@@ -296,7 +299,7 @@ Jika pelayan dan permainan dijalankan pada PC yang sama, anda boleh menyambung m
 {% endtab %}
 {% endtabs %}
 
-## 7. Tahap Pembangunan
+## 7. Maju
 
 Setelah berjaya memulakan pelayan dan pelayan berfungsi dengan betul, kini tiba masanya untuk menyesuaikan pelayan.
 
