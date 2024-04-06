@@ -15,14 +15,19 @@ description: Descobreix què és Plazma com a plataforma de servidor.
 
 ## ⚙️ Característiques principals <a href="#id-2" id="id-2"></a>
 
-1. **Ecosistema de plugins potent**\
-   Basat en [Paper](https://github.com/PaperMC/Paper), la majoria dels [plugins recents](#user-content-fn-1)[^1] disponibles a Internet funcionen correctament.
+1. **Un ecosistema de plugins potent**\
+   [Paper](https://github.com/PaperMC/Paper) es basa en,
+   la majoria dels [plugins més recents](#user-content-fn-1)[^1] disponibles a internet funcionen correctament.
 2. **Optimització sense necessitat de configuració**\
-   Inclou totes les correccions de [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) i ofereix un rendiment òptim amb algunes optimitzacions internes i mods inclosos.
-3. **Personalització del joc com vulguis**\
-   [Purpur](https://github.com/PurpurMC/Purpur) inclòs a Plazma permet modificar els aspectes generals del joc.
-4. **Servidor que es juga de manera segura**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) està inclòs des de la versió 1.19 per desactivar el [sistema de denúncies de xat](#user-content-fn-3)[^3] de [Mojang](#user-content-fn-2)[^2] i eliminar completament el col·lector d'informació de diagnosi per poder jugar en un servidor segur sense seguiment.
+   Totes les correccions de [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) estan incloses,
+   amb algunes optimitzacions internes i modes integrats per oferir el millor rendiment.
+3. **Personalitza el joc com vulguis**\
+   [Purpur](https://github.com/PurpurMC/Purpur) inclòs a Plazma permet modificar
+   els atributs generals del joc a la teva manera.
+4. **Servidor que juga de manera segura**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) està inclòs des de la versió 1.19
+   de [Mojang](#user-content-fn-2)[^2] per desactivar el [sistema de denúncia de xat](#user-content-fn-3)[^3],\
+   i eliminar completament el recopilador d'informació de diagnosi per poder jugar en un servidor segur sense rastreig.
 5. **Actualitzacions més ràpides**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) manté sempre actualitzades les correccions incloses a Plazma, oferint les actualitzacions més ràpides entre les plataformes de servidor basades en Paper.
 6. **Optimització dels fitxers de configuració bàsics**\
@@ -40,14 +45,18 @@ description: Descobreix què és Plazma com a plataforma de servidor.
 
 ## ✨ Casos d'ús <a href="#id-3" id="id-3"></a>
 
-- **Plataforma que gestiona correctament fins i tot els plugins complexes**\
-  Plazma s'utilitza als servidors del desenvolupador [IPECTER](https://github.com/IPECTER). Amb plugins propis que funcionen amb NMS i reflexió, i amb una gran quantitat de paquets de dades complexos, és capaç de gestionar més de 100 jugadors sense cap pèrdua de rendiment.
-- **Plataforma amb un rendiment ràpid també en servidors RPG**\
-  Ha mantingut 100 jugadors en un sol clúster sense cap pèrdua de TPS i ha permès que un total de 250 jugadors juguin còmodament en 4 clústers diferents.
-- **Plataforma que redueix els retards en els chunks/entitats**\
-  Canviant de Purpur a Plazma en servidors de supervivència on hi havia retards en el tractament de chunks i entitats, s'ha aconseguit reduir significativament aquests retards.
-- **Plataforma escollida per molts 'streamers'**\
-  És utilitzada com a servidor de visualització per molts 'streamers' populars.
+- **Plataforma que gestiona fins i tot els plugins més complexos de manera adequada**\
+  El servidor de l'IPECTER utilitza Plazma.\
+  Amb plugins propis que funcionen amb NMS i reflexió, i una gran quantitat de paquets de dades complexos aplicats,\
+  és capaç de suportar més de 100 jugadors sense cap descens de rendiment.
+- **Plataforma que manté un rendiment ràpid fins i tot en servidors RPG**\
+  Ha mantingut 100 jugadors en un sol clúster sense cap descens de TPS de manera estable,\
+  i ha permès a 250 jugadors jugar còmodament en 4 clústers.
+- **Plataforma que mostra llum des dels chunks/entitats**\
+  Canviant de Purpur a Plazma en el servidor de supervivència on hi havia retard en el processament de chunks i entitats,
+  ha pogut reduir la majoria dels retards.
+- **Plataforma escollida per molts streamers**\
+  És utilitzada com a servidor per molts espectadors de molts streamers.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
