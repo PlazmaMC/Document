@@ -16,13 +16,18 @@ description: Ismerje meg, hogy mi is pontosan a Plazma szerver platform.
 ## ⚙️ Főbb jellemzők <a href="#id-2" id="id-2"></a>
 
 1. **Erős bővítmény ökoszisztéma**\
-   A [Paper](https://github.com/PaperMC/Paper) alapján működik, így az internetről letölthető legtöbb [legújabb bővítmény](#user-content-fn-1)[^1] normálisan működik.
+   [Paper](https://github.com/PaperMC/Paper) alapú, így
+   az internetről letölthető legtöbb [legfrissebb bővítmény](#user-content-fn-1)[^1] megfelelően működik.
 2. **Beállítás nélküli optimalizálás**\
-   Minden [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) patch benne van, és néhány saját optimalizálást és módosítást tartalmaz, így kiváló teljesítményt nyújt.
-3. **A játékot saját igényei szerint testreszabó platform**\
-   A Plazmában található [Purpur](https://github.com/PurpurMC/Purpur) lehetővé teszi a játék általános tulajdonságainak módosítását.
+   Az összes [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) patch benne van,
+   néhány saját optimalizálással és beépített módokkal a legjobb teljesítményt nyújtja.
+3. **A játék személyre szabása az Ön igényeinek megfelelően**\
+   A [Purpur](https://github.com/PurpurMC/Purpur) a Plazma részeként lehetővé teszi a játék
+   általános tulajdonságainak módosítását.
 4. **Biztonságosan játszó szerver**\
-   A [Chat Reports nélkül](https://github.com/Aizistral-Studios/No-Chat-Reports) lehetővé teszi a [Mojang](#user-content-fn-2)[^2] által 1.19-től hozzáadott [csevegés jelentés rendszer](#user-content-fn-3)[^3] letiltását, és teljesen eltávolítja a diagnosztikai adatgyűjtőt, így nyom nélküli biztonságos szerveren játszhatsz.
+   [A chat jelentések nélkül](https://github.com/Aizistral-Studios/No-Chat-Reports) a 1.19-től hozzáadott
+   [Mojang](#user-content-fn-2)[^2] [chat jelentés rendszerének](#user-content-fn-3)[^3] letiltásával,\
+   a diagnosztikai adatgyűjtő teljesen eltávolításával lehetőség van nyomonkövetés nélküli biztonságos szerveren játszani.
 5. **Leggyorsabb frissítések**\
    [A Mindig Naprakész](https://github.com/PlazmaMC/AlwaysUpToDate) lehetővé teszi, hogy a Plazma beépített patch-ei mindig naprakészek legyenek, így a Paper alapú szerver platformok közül a leggyorsabb frissítéseket nyújtja.
 6. **Alapvető konfigurációs fájl optimalizálás**\
@@ -40,14 +45,17 @@ description: Ismerje meg, hogy mi is pontosan a Plazma szerver platform.
 
 ## ✨ Használati esetek <a href="#id-3" id="id-3"></a>
 
-- **Még a bonyolult bővítményeket is helyesen kezelő platform**\
-  Az [IPECTER](https://github.com/IPECTER) fejlesztő a szerverén használja a Plazmát. Saját bővítmények, amelyek NMS és reflexióval működnek, valamint bonyolult és nagyméretű adatcsomagokat alkalmaznak, mégis képesek több mint 100 játékost fogadni anélkül, hogy a teljesítmény csökkenne.
-- **RPG szervereken is fenntartott gyors teljesítményű platform**\
-  Egyetlen klaszteren belül több mint 100 játékost képes stabilan fenntartani TPS csökkenés nélkül, és 4 klaszteren összesen 250 játékos kényelmesen játszhat.
-- **Fényt mutató platform a chunkokban/entitásokban**\
-  A Purpurról a Plazmára történő áttéréssel jelentősen csökkenthetők a késések a túlélő szervereknél, amelyek a chunkokat és entitásokat kezelték.
+- **Az összetett bővítményeket is megfelelően kezelő platform**\
+  [IPECTER fejlesztő](https://github.com/IPECTER) szerverén a Plazma van használva.\
+  Saját bővítmény, amely NMS és reflexióval működik, valamint bonyolult és nagy adatcsomagokat alkalmaz,\
+  100 főnél több játékost is fogad anélkül, hogy a teljesítmény csökkenne.
+- **Az RPG szerveren is gyors teljesítményt biztosító platform**\
+  Egyetlen klaszterben 100 játékost sikerült stabilan fenntartani TPS csökkenés nélkül,\
+  4 klaszterben összesen 250 játékos kellemesen játszhatott.
+- **Fényt mutató chunk/entity platform**\
+  A túlélő szerveren a chunkok és entitások kezelésekor korábban késések jelentkeztek, de a Plazmáról a Purpurra történő váltással sikerült csökkenteni a késéseket.
 - **Sok streamer által választott platform**\
-  Sok népszerű streamer a Plazmát választotta a nézői számára, mint a Buckets.
+  Sok streamer nézőinek körében népszerű Bucketként használják.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
