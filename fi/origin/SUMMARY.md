@@ -19,7 +19,7 @@
     - [🖥️ Komennot](plazma/administration/reference/commands.md)
     - [🛡️ Käyttöoikeudet](plazma/administration/reference/permissions.md)
     - [🎛️ Argumentit ja ominaisuudet](plazma/administration/reference/arguments.md)
-    - [📋 구성](plazma/administration/reference/configurations/README.md)
+    - [📋 Asetukset](plazma/hallinta/viite/asetukset/LUEMINUT.md)
       - [🪨 Ominaisuus](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
