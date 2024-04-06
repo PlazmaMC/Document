@@ -4,8 +4,7 @@ description: Pelajari tentang argumen awal dan properti sistem.
 
 # 🎛️ Argumen dan Properti
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
 
 [Posisi yang ditambahkan ke perintah](#user-content-fn-2)[^2] akan dibagi menjadi **Argumen Awal** dan **Properti Sistem** sesuai dengan posisi tersebut.
 
@@ -27,8 +26,8 @@ Jika Anda tidak yakin apa peran setiap properti sistem, **jangan pernah mengguna
 
 Properti sistem dimasukkan sebagai argumen perintah Java antara `java` dan `-jar`.
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+Sebagai contoh, jika Anda mencoba menerapkan properti sistem `Plazma.dummyProperty`,
+masukkan nilai `37` seperti berikut untuk menginisialisasi Plazma dengan nilai tersebut.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -188,7 +187,7 @@ Semua masalah yang timbul dari penggunaan ini menjadi tanggung jawab pengguna, d
 - **Tipe**: `Integer`
 - **Default**: `64`
 
-플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
+Mengatur batasan nama [saluran](#user-content-fn-6)[^6] plugin.
 
 #### `Paper.maxSignLength`
 
