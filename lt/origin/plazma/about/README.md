@@ -15,14 +15,17 @@ description: Sužinokite, kas yra Plazma serverio platforma.
 
 ## ⚙️ Svarbiausios funkcijos <a href="#id-2" id="id-2"></a>
 
-1. **Galinga įskiepių ekosistema**\
-   Remiantis [Paper](https://github.com/PaperMC/Paper), dauguma [naujausių įskiepių](#user-content-fn-1)[^1], kuriuos galima atsisiųsti iš interneto, veikia sklandžiai.
-2. **Nereikalingų nustatymų optimizavimas**\
-   Visi [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) patobulinimai yra įtraukti, o kai kurie patys optimizavimai ir modifikacijos užtikrina geriausią veikimą.
-3. **Žaidimą galite pritaikyti pagal savo poreikius**\
-   [Purpur](https://github.com/PurpurMC/Purpur), įtrauktas į Plazmą, leidžia redaguoti žaidimo bendruosius požymius.
-4. **Saugus žaidimas serveriuose**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) yra įtrauktas, pradedant nuo 1.19, galite išjungti [Mojang](#user-content-fn-2)[^2] pridėtą [pranešimų apie pokalbius sistemą](#user-content-fn-3)[^3], ir visiškai pašalinti diagnostikos informacijos rinkiklį, leidžiantį žaisti saugiai be sekimo serveriuose.
+1. **Galingas įskiepių ekosistema**\
+   [Paper](https://github.com/PaperMC/Paper) pagrįstas,
+   Dauguma [naujausių įskiepių](#user-content-fn-1)[^1] internete yra veikiantys.
+2. **Nereikia jokių nustatymų, optimizavimas**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) visi patobulinimai yra įtraukti,
+   Yra keletas vidinių optimizavimų ir modulių, kurie užtikrina geriausią veikimą.
+3. **Žaidimas, kurį galite pritaikyti pagal savo norus**\
+   [Purpur](https://github.com/PurpurMC/Purpur) Plazmoje leidžia koreguoti žaidimo bendruosius nustatymus.
+4. **Saugus serveris žaidimui**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) yra įtrauktas, leidžiantis išjungti [Mojang](#user-content-fn-2)[^2] pridėtą [pranešimų apie pokalbius sistemą](#user-content-fn-3)[^3] nuo 1.19 versijos,
+   Pašalinamas diagnostikos informacijos rinkiklis, todėl galite saugiai žaisti serveryje be stebėjimo.
 5. **Greitieji atnaujinimai**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) užtikrina, kad Plazmos įtraukti patobulinimai visada būtų naujausi, siūlantys greičiausius atnaujinimus iš visų ant Paper pagrįstų serverių platformų.
 6. **Numatyti konfigūracijos failai**\
@@ -41,13 +44,16 @@ description: Sužinokite, kas yra Plazma serverio platforma.
 ## ✨ Panaudojimo atvejai <a href="#id-3" id="id-3"></a>
 
 - **Platforma, kuri tinkamai tvarko sudėtingus įskiepius**\
-  Plazma naudojama plėtojant programuotojo [IPECTER](https://github.com/IPECTER) serverius. Nors yra patys kurti įskiepiai, veikiantys su NMS ir refleksija, taip pat yra gausūs ir dideli duomenų rinkiniai, serveris gali priimti daugiau nei 100 žaidėjų be jokio veikimo sulėtėjimo.
-- **RPG serveris su puikiu veikimu**\
-  100 žaidėjų viename klasterio be TPS kritimo ir stabiliai veikiantis, taip pat 4 klasteriai, kuriuose iš viso 250 žaidėjų gali žaisti patogiai.
-- **Platforma, kuri rodo šviesą iš chunk/entitetai**\
-  Pakeitus serverio platformą nuo Purpur iki Plazma, buvo sumažintas didžioji dalis delsimo, kuris buvo susijęs su chunk ir entitetai tvarkymu serveryje.
+  Plazma naudojama kūrėjo [IPECTER](https://github.com/IPECTER) serveryje.
+  Naudodama NMS ir refleksiją veikiantys vidiniai įskiepiai, sudėtingi ir dideli duomenų paketai yra labai dažni,
+  Ir vis tiek gali priimti daugiau nei 100 žaidėjų be veikimo mažėjimo.
+- **Greitai veikianti platforma net RPG serveriuose**\
+  Vienoje klasterio vietoje stabiliai išlaikė 100 žaidėjų be TPS mažėjimo, o
+  4 klasteriuose iš viso 250 žaidėjų galėjo žaisti patogiai.
+- **Platforma, kuri leidžia matyti šviesą iš chunk/entiteto**\
+  Keičiant iš Purpur į Plazma, buvo sumažintas didžioji dalis vėlavimų, kurie atsirado tvarkant chunk'us ir entitetus ant iki šiol buvusio vėlavimų turinčio išlikimo serverio platformos.
 - **Daugelio transliuotojų pasirinkta platforma**\
-  Daugelis žinomų transliuotojų naudoja Plazmą savo žiūrovams skirtuose bucket serveriuose.
+  Daugelis transliuotojų ir jų žiūrovų buvo pasirinkę naudoti šį kibirą.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
