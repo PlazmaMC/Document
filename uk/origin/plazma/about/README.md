@@ -21,8 +21,8 @@ description: Дізнайтеся, що таке Plazma серверна пла�
    Усі патчі [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) вже включені, а також деякі внутрішні оптимізації та моди, що забезпечують найкращу продуктивність.
 3. **Гра, яку можна налаштовувати за власним бажанням**\
    [Purpur](https://github.com/PurpurMC/Purpur), включений у Plazma, дозволяє змінювати загальні властивості гри.
-4. **안전하게 플레이하는 서버**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 [Mojang](#user-content-fn-2)[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며, 진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
+4. **Безпечний сервер для гри**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) міститься в [Mojang](#user-content-fn-2)[^2] з версії 1.19, що дозволяє вимкнути [систему скарг на чат](#user-content-fn-3)[^3] і повністю видалити збірник діагностичної інформації, щоб грати на безпечному сервері без відстеження.
 5. **Найшвидші оновлення**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) забезпечує, що патчі Plazma завжди залишаються актуальними, надаючи найшвидші оновлення серед серверних платформ на базі Paper.
 6. **Оптимізація базових конфігураційних файлів**\
