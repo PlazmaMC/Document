@@ -1,5 +1,5 @@
 ---
-description: Nëse keni pyetje, lutemi pyetni nëpërmjet Discord ose GitHub Issues.
+description: Nëse keni pyetje, ju lutemi pyetni nëpërmjet Discord ose bisedimeve në GitHub.
 ---
 
 # 🏠 Mirësevini në Portalin e Dokumentacionit
