@@ -24,6 +24,8 @@ Nëse jeni zhvillues dhe keni nevojë për një formë tjetër skedari, ju lutem
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
@@ -64,3 +66,5 @@ Nëse jeni zhvillues dhe keni nevojë për një formë tjetër skedari, ju lutem
         </tr>
     </tbody>
 </table>
+
+***
