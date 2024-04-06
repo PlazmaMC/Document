@@ -16,13 +16,17 @@ description: Lær mere om, hvad Plazma serverplatformen er.
 ## ⚙️ Vigtigste funktioner <a href="#id-2" id="id-2"></a>
 
 1. **Stærkt plugin-økosystem**\
-   Da det er baseret på [Paper](https://github.com/PaperMC/Paper), fungerer de fleste [nyeste plugins](#user-content-fn-1)[^1] fra internettet korrekt.
-2. **Optimering uden behov for konfiguration**\
-   Alle patches fra [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) er inkluderet, og med intern optimering og indbyggede mods tilbyder den den bedste ydeevne.
-3. **Spil, som du vil**\
-   [Purpur](https://github.com/PurpurMC/Purpur) inkluderet i Plazma giver mulighed for at ændre spillets overordnede egenskaber.
-4. **Sikker spilserver**\
-   [Ingen chatrapporter](https://github.com/Aizistral-Studios/No-Chat-Reports) er inkluderet, så fra 1.19 kan du deaktivere [Mojang](#user-content-fn-2)[^2]'s [chatrapportsystem](#user-content-fn-3)[^3] og fjerne diagnostikopsamleren helt for at spille på en sikker server uden sporbarhed.
+   [Paper](https://github.com/PaperMC/Paper) er baseret på,
+   så de fleste [nyeste plugins](#user-content-fn-1)[^1] tilgængelige på internettet fungerer korrekt.
+2. **Ingen konfigurationsoptimering påkrævet**\
+   Alle patches fra [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) er inkluderet,
+   med nogle interne optimeringer og indbyggede tilstande, der giver den bedste ydeevne.
+3. **Tilpas spillet efter dine ønsker**\
+   [Purpur](https://github.com/PurpurMC/Purpur) inkluderet i Plazma giver mulighed for at ændre
+   spillets overordnede egenskaber efter behov.
+4. **En server der spiller sikkert**\
+   [Ingen Chat Rapporter](https://github.com/Aizistral-Studios/No-Chat-Reports) er inkluderet fra 1.19, som deaktiverer [Mojang](#user-content-fn-2)[^2]'s [chatrapporteringssystem](#user-content-fn-3)[^3],\
+   og fjerner fuldstændigt diagnostisk dataværktøj, så du kan spille på en sporløs sikker server.
 5. **Hurtigste opdateringer**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) sikrer, at Plazmas inkluderede patches altid er opdaterede, hvilket giver de hurtigste opdateringer blandt Paper-baserede serverplatforme.
 6. **Optimerede standardkonfigurationsfiler**\
@@ -40,14 +44,18 @@ description: Lær mere om, hvad Plazma serverplatformen er.
 
 ## ✨ Anvendelseseksempler <a href="#id-3" id="id-3"></a>
 
-- **En platform, der korrekt håndterer komplekse plugins**\
-  Plazma bruges på udvikleren [IPECTER](https://github.com/IPECTER)'s server. Selv med egne plugins, der fungerer med NMS og refleksion, samt komplekse og store datapakker, håndterer den over 100 spillere uden ydeevneforringelse.
-- **En platform, der opretholder hurtig ydeevne på RPG-servere**\
-  Den har holdt 100 spillere på en enkelt klynge stabilt uden TPS-fald og tillod 250 spillere på 4 klynger at spille behageligt.
-- **En platform, der lyser i chunk/entity-behandling**\
-  Ved at skifte fra Purpur til Plazma på en overlevelsesserver, hvor der tidligere var forsinkelser i chunk- og entity-behandling, kunne de fleste forsinkelser reduceres.
-- **Valgt af mange streamere**\
-  Det bruges som en bucket til mange populære streamers seertal.
+- **En platform der korrekt håndterer komplekse plugins**\
+  På udvikleren [IPECTER](https://github.com/IPECTER)'s server bruges Plazma.\
+  Selv med egne plugins der fungerer med NMS og refleksion, samt store komplekse datapakker,\
+  kan den modtage over 100 spillere uden ydeevneproblemer.
+- **En platform der opretholder hurtig ydeevne selv på RPG-servere**\
+  Det lykkedes at holde 100 spillere stabilt uden TPS-fald på en enkelt klynge,\
+  og 250 spillere på 4 klynger kunne spille behageligt.
+- **En platform der viser lys i chunk/entity**\
+  Ved at skifte fra Purpur til Plazma på en overlevelsesserver, hvor der tidligere var forsinkelser i behandlingen af chunks og entities,\
+  kunne de fleste forsinkelser reduceres markant.
+- **En platform valgt af mange streamere**\
+  Bruges som en bucket til seerengagement af mange streamere.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
