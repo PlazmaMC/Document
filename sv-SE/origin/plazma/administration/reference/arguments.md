@@ -4,7 +4,7 @@ description: Lär dig om startargument och systemegenskaper.
 
 # 🎛️ Argument och egenskaper
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Startargument och systemegenskaper är värden som läggs till [kommandon som används](#user-content-fn-1)[^1] för att köra Plazma, vilket i sin tur påverkar Plazmas funktion.
 
 [Plats för tillägg till kommandon](#user-content-fn-2)[^2] kommer att delas upp i **startargument** och **systemegenskaper** enligt detta.
 
