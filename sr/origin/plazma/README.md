@@ -12,7 +12,7 @@ description: "Plazma је отворена сервер платформа за 
 
 **Да ли не можете решити проблем преко упутства?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
+[Званични Дискорд сервер](https://discord.gg/MmfC52K8A8) или питајте заједницу преко [GitHub Дискусија](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
