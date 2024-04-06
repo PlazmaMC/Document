@@ -27,7 +27,7 @@ Karena Plazma didasarkan pada platform server resmi Mojang Studios[^2], untuk me
 
 Untuk memeriksa apakah JRE telah terinstal di sistem, masukkan [`cmd /k java --version`](#user-content-fn-4)[^4] di jendela jalankan dan jalankan perintah tersebut.
 
-Jika outputnya sama seperti di atas, lanjutkan ke [Langkah 2](setup.md#id-2).
+Jika ditampilkan seperti berikut, lompat ke [Tahap 2](#id-2).
 
 {% code title="Output yang Benar" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Jika output tidak sama seperti di atas atau jika outputnya menunjukkan bahwa JRE tidak ada atau terlalu lama, maka Anda perlu melakukan [Langkah 1.2](setup.md#id-1.2).
+Jika tidak ditampilkan seperti di atas, atau ditampilkan seperti di bawah, itu berarti JRE tidak ada atau terlalu usang, sehingga Anda harus melakukan [Tahap 1.2](#id-1.2).
 
 {% code title="JRE Tidak Terinstal" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 Instalasi JRE
 
-Dalam panduan ini, kami akan menggunakan Azul Zulu sebagai [salah satu jenis](#user-content-fn-5)[^5] dari JRE.
+Dalam panduan ini, kami menggunakan Azul Zulu sebagai salah satu [jenis JRE](#user-content-fn-5)[^5].
 
-Setelah instalasi selesai, lakukan kembali langkah [1.1](setup.md#id-1.1) untuk memastikan instalasi telah selesai dengan benar.
+Setelah instalasi selesai, lakukan [Tahap 1.1](#id-1.1) lagi untuk memastikan bahwa instalasi telah selesai dengan benar.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma menyediakan berbagai jenis file eksekusi.
 
 **Sebagian besar kasus menggunakan `Reobf Paperclip`.**
 
-Informasi di bawah ini ditujukan untuk pengembang atau mereka yang ingin mengetahui lebih lanjut tentang masing-masing jenis.\
-Jika Anda pengguna umum, tidak masalah untuk melompat ke [langkah 3](setup.md#id-3).
+Konten di bawah ini ditujukan untuk para pengembang atau mereka yang ingin tahu tentang berbagai fitur.\
+Jika Anda pengguna biasa, Anda dapat melompat ke [Tahap 3](#id-3) tanpa masalah.
 
 {% endhint %}
 
@@ -203,11 +203,11 @@ Untuk menyetujui EULA, ubah `eula=false` menjadi `eula=true` dalam file `eula.tx
 
 Sistem operasi modern secara default memblokir akses eksternal untuk melindungi dari akses berbahaya dari luar dengan menggunakan **firewall** dan **router**.
 
-Untuk Windows, karena sudah mengizinkan pada [langkah 3](setup.md#id-3), Anda hanya perlu melakukan port forwarding.
+Untuk Windows, karena firewall diizinkan pada [Tahap 3](#id-3), Anda hanya perlu melakukan port forwarding.
 
 {% hint style="info" %}
 
-**Panduan ini diasumsikan untuk sistem operasi Windows dan router yang mendukung [UPnP](#user-content-fn-12)[^12].**
+**Panduan ini diasumsikan ditulis untuk sistem operasi Windows dan router yang mendukung [UPnP](#user-content-fn-12)[^12].**
 
 Jika router tidak mendukung UPnP, Anda perlu mencari informasi spesifik berdasarkan router masing-masing.
 
