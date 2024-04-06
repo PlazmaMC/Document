@@ -2,7 +2,7 @@
 description: Dowiedz się, jak dostosować serwer do użytku.
 ---
 
-# 📶 Poziom rozwoju
+# 📶 발전하기
 
 Dlaczego korzystamy z dostosowanej platformy serwerowej, takiej jak Plazma, zamiast oficjalnej platformy serwerowej dostarczanej przez Mojang Studios? Największym powodem jest możliwość **personalizacji**.
 
