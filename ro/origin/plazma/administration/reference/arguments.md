@@ -4,7 +4,8 @@ description: Înțelegeți argumentele de pornire și proprietățile sistemului
 
 # 🎛️ Argumente și proprietăți
 
-Argumentele de pornire și proprietățile sistemului sunt valori adăugate la [comenzile utilizate](#user-content-fn-1)[^1] pentru execuția Plazma, permițând modificarea unei valori care nu poate fi schimbată după ce Plazma a fost inițializat.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [Locația adăugată comenzii](#user-content-fn-2)[^2] va fi împărțită în **Argumentul de pornire** și **Proprietățile sistemului** conform.
 
@@ -26,7 +27,8 @@ Dacă nu înțelegeți cu certitudine rolul fiecărei proprietăți de sistem, *
 
 Proprietățile sistemului sunt introduse ca argumente Java între `java` și `-jar`.
 
-De exemplu, pentru a aplica proprietatea de sistem `Plazma.dummyProperty`, introducând `37` ca valoare, Plazma se va inițializa cu această proprietate.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -185,7 +187,7 @@ Orice problemă cauzată de acest lucru este responsabilitatea dumneavoastră, P
 - **Tip**: `Integer`
 - **Valoare implicită**: `64`
 
-Setează limita numelui [canalului](#user-content-fn-5)[^5] de plugin.
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
