@@ -6,7 +6,7 @@ description: Découvrez les arguments de démarrage et les propriétés du syst�
 
 Les variables de démarrage et les propriétés du système sont des valeurs ajoutées aux [commandes utilisées](#user-content-fn-1)[^1] pour l'exécution de Plazma, permettant de modifier des valeurs qui ne peuvent être modifiées après l'exécution de Plazma.
 
-Selon l'**emplacement des ajouts aux commandes**,[^2] ils sont divisés en **arguments de démarrage** et **propriétés du système**.
+Selon la **argument de démarrage** et les **propriétés système** ajoutés à l'emplacement de la commande[^2], ils seront divisés.
 
 ***
 
@@ -34,13 +34,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` indique que cet argument n'est pas intégré à la JVM mais est un argument personnalisé pour Plazma,
 
-et si aucune valeur n'est spécifiée, la valeur est fixée à [`true`.](#user-content-fn-3)[^3]
+Si aucune valeur n'est saisie pour les propriétés, la valeur sera fixée à [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **La plateforme serveur de la série Paperweight utilise un point (`.`) dans le nom des propriétés pour distinguer les propriétés de chaque plateforme.**
 
-Dans certains terminaux tels que Windows Powershell, ces arguments peuvent ne pas être autorisés, donc vous devriez ajouter `"` aux extrémités des arguments. [^4]
+Dans certains terminaux tels que Windows Powershell, ces arguments peuvent ne pas être autorisés, il est donc nécessaire d'ajouter `"` aux extrémités des arguments[^4].
 
 {% endhint %}
 
@@ -131,7 +131,7 @@ Cela enregistre tous les blocs de crâne incorrects dans le monde avec leur posi
 - **Type**: `Boolean`
 - **Valeur par défaut**: `False`
 
-Désactive la limite de 128 canaux de plugin par joueur[^5].
+Désactive la limite de 128 canaux de plugin appliqués par joueur[^5].
 
 #### `Paper.disableClassPrioritization`
 
@@ -185,7 +185,7 @@ Tout problème résultant de cette action est de la responsabilité de l'utilisa
 - **Type**: `Integer`
 - **Valeur par défaut**: `64`
 
-Définit la limite de caractères pour les noms de canaux de plugin.
+Définit la limite du nom des canaux de plugin[^5].
 
 #### `Paper.maxSignLength`
 
@@ -217,7 +217,7 @@ Active le traitement des commentaires YAML.
 
 Expulse un joueur s'il n'a reçu aucune donnée pendant le temps spécifié (en secondes).
 
-Normalement, le jeu[^7] envoie continuellement des [signaux de battement](#user-content-fn-8)[^8] au serveur, donc le joueur n'est pas expulsé, mais s'il ne reçoit aucune réponse du jeu, il est considéré comme planté et est expulsé.
+En général, le [jeu](#user-content-fn-7)[^7] continue d'envoyer un [signal de battement de cœur](#user-content-fn-8)[^8] au serveur, donc en cas de non-réponse du jeu, il est considéré comme en conflit et le joueur est expulsé sans être banni, mais le serveur cesse de traiter le joueur.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -290,7 +290,7 @@ L'activation rend le serveur plus rapide et plus sûr, mais peut bloquer certain
 - **Type**: `Boolean`
 - **Valeur par défaut**: `false`
 
-Supprime l'avertissement[^11] affiché lors de l'initialisation de Plazma.
+Supprime le [message d'avertissement](#user-content-fn-11)[^11] affiché lors de l'initialisation de Plazma.
 
 ### Propriété obsolète <a href="#id-1.3" id="id-1.3"></a>
 
