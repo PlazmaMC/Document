@@ -27,7 +27,7 @@ Plazma, Mojang Studios'un resmi sunucu platformuna [dayandığı için](#user-co
 
 Sistemde JRE'nin kurulu olup olmadığını kontrol etmek için, [Çalıştır](#user-content-fn-3)[^3] penceresine [`cmd /k java --version`](#user-content-fn-4)[^4] yazıp çalıştırın.
 
-Aşağıdaki gibi bir çıktı alıyorsanız, [2. adıma](setup.md#id-2) geçebilirsiniz.
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="Doğru çıktı" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Yukarıdaki gibi bir çıktı alamazsanız veya aşağıdaki gibi bir çıktı alırsanız, JRE yüklü değil demektir veya çok eski olduğu için [1.2 adımı](setup.md#id-1.2) tamamlamanız gerekmektedir.
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="JRE yüklü değil" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 JRE Kurulumu
 
-Bu kılavuzda JRE'nin [türlerinden biri](#user-content-fn-5)[^5] olan Azul Zulu'yu kullanacağız.
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Kurulumu tamamladıktan sonra, kurulumun doğru bir şekilde yapıldığını kontrol etmek için [1.1 adımını](setup.md#id-1.1) tekrarlayın.
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma, çeşitli şekillerdeki yürütülebilir dosyaları sunmaktadır.
 
 **Genellikle `Reobf Paperclip` kullanılır.**
 
-Geliştiriciler veya farklı şekiller hakkında meraklı olanlar için aşağıdaki bilgiler vardır.\
-Normal kullanıcılar için [3. adımı](setup.md#id-3) atlayabilirsiniz.
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -159,8 +159,7 @@ Yürütülebilir dosyanın adı `plazma-(version manager)-1.20.4-R0.1-SNAPSHOT-(
 
 Plazma'yı hızlıca başlatmak ve sunucuyu otomatik olarak yeniden başlatmak için, [Başlangıç Komut Dosyası](#user-content-fn-6)[^6] oluşturmanız gerekmektedir.
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+[Flags.sh](https://flags.sh) adresinden başlangıç betiğini oluşturabilirsiniz. Plazma için kullanılacak bellek miktarını girdiğinizde komut otomatik olarak en uygun hale getirilir.
 
 Sol alt köşedeki indirme düğmesi ile başlangıç komut dosyasını indirebilirsiniz.\
 **İndirdiğiniz başlangıç komut dosyasının işletim sisteminizle uyumlu olduğundan emin olun.**
@@ -191,7 +190,7 @@ EULA[^9], [Mojang Studios](#user-content-fn-10)[^10]'un hizmetlerini kullanmak i
 
 {% hint style="warning" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+Eğer kabul etmezseniz, sunucuyu başlatamazsınız ve EULA'yı ihlal ederseniz hesabınız askıya alınabilir veya [cezalandırma](#user-content-fn-11)[^11] alabilirsiniz.
 
 {% endhint %}
 
@@ -203,11 +202,11 @@ EULA'yı kabul etmek için `eula.txt` dosyasındaki `eula=false`'ı `eula=true` 
 
 Modern işletim sistemleri, dışarıdan gelen tehlikeli erişimleri engellemek için varsayılan olarak **güvenlik duvarı** ve **yönlendirici** ile dış erişimi engeller.
 
-Windows için, güvenlik duvarını [3. adımda](setup.md#id-3) onayladığınızdan, sadece port yönlendirmesi yapmanız gerekmektedir.
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
 
-**Bu kılavuzda Windows işletim sistemi ve [UPnP](#user-content-fn-12)[^12] özelliğine sahip bir yönlendiriciye sahip olduğunuz varsayılmıştır.**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Eğer yönlendiriciniz UPnP'yi desteklemiyorsa, yönlendiriciler farklı panel yapısına sahip olduğundan doğrudan araştırma yapmanız gerekmektedir.
 
@@ -300,11 +299,11 @@ Sunucu ve oyun aynı PC'de çalışıyorsa, `localhost` ile bağlanabilirsiniz.
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. Gelişmek
 
 Sunucuyu başarıyla başlattıysanız ve sunucunun düzgün çalıştığından eminseniz, şimdi sunucuyu özelleştirme zamanı.
 
-Sunucuyu nasıl özelleştireceğinizi öğrenmek için aşağıdaki kılavuza göz atın.
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% content-ref url="sonraki-adim.md" %}
 [sonraki-adım.md](sonraki-adım.md)
