@@ -1,5 +1,5 @@
 ---
-description: ¿ɹǝʇɟnᴉu ɯᴉsɥʇun ᴉɯ ˙sǝǝɥsᴉɐu ɓᴉuɹǝɯᴉɹɔ ǝᴉɥɔǝɹ sᴉɥ┴
+description: 요세뚜 주 해 질문해 를 시코허츠노 suohcseugiD 트로hCsiD 에서 또는 Discord 또는 GitHub Discussions를 통해 질문해 주세요.
 ---
 
 # ʞɔǝɹǝɯɐ ʇo puǝpɐɔ sᴉ sᴉɥ┴
