@@ -1,5 +1,5 @@
 ---
-description: Kui teil on küsimusi, siis palun esitage need Discordi või GitHubi küsimuste kaudu.
+description: Kui teil on küsimusi, siis palun esitage need Discordi või GitHubi arutelude kaudu.
 ---
 
 # 🏠 Tere tulemast dokumentide portaali
