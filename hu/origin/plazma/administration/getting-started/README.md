@@ -159,8 +159,8 @@ A futtatható fájl neve `plazma-(verzió kezelő)-1.20.4-R0.1-SNAPSHOT-(leképe
 
 A Plazmát egyszerűen elindíthatod és a szerver automatikusan újraindul, ha egy [indító szkriptet](#user-content-fn-6)[^6] hozol létre.
 
-[Flags.sh](https://flags.sh) segítségével létrehozhatsz egy [indító szkriptet.](#user-content-fn-7)[^7]\
-Csak add meg a Plazmához [használni kívánt memóriát](#user-content-fn-8)[^8], és a parancs automatikusan optimalizálódik.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 A bal alsó sarokban lévő Letöltés gombbal töltheted le az indító szkriptet.\
 **Ellenőrizd, hogy a letöltött indító szkript megegyezik-e az operációs rendszereddel.**
@@ -189,7 +189,11 @@ Miután egyszer futtattad az indító szkriptet, a mappában létrejön az `eula
 
 Az EULA[^9] egy olyan felhasználási szerződés, amelyet elfogadnod kell a [Mojang Studios](#user-content-fn-10)[^10] szolgáltatásainak használata során.
 
-Ha nem fogadod el az EULA-t, nem tudod elindítani a szervert, és az EULA megsértése esetén a fiókod felfüggeszthetik vagy más [súlyos következményekkel járhat.](#user-content-fn-11)[^11]
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Az EULA elfogadásához módosítsd az `eula.txt` fájlban az `eula=false`-t `eula=true`-ra, majd mentsd el a változtatásokat.
 
@@ -296,7 +300,7 @@ Ha a szerver és a játék ugyanazon a PC-n fut, akkor a `localhost`-on kereszt�
 {% endtab %}
 {% endtabs %}
 
-## 7. Fejlesztési szint
+## 7. 발전하기
 
 Ha sikeresen elindította a szervert, és a szerver megfelelően működik, most a szerver testreszabásának ideje van.
 
