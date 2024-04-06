@@ -1,5 +1,5 @@
 ---
-description: Bei Fragen kontaktieren Sie uns bitte über Discord oder GitHub Issues.
+description: Bei Fragen wenden Sie sich bitte über Discord oder GitHub-Diskussionen an uns.
 ---
 
 # 🏠 Willkommen beim Docs-Portal
