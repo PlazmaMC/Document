@@ -58,11 +58,9 @@ description: Pelajari lebih lanjut tentang platform server Plazma.
 - **Platform yang Dipilih Banyak Streamer**\
   Digunakan sebagai Bucket penonton banyak streamer.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Tren Pengguna Plazma Real-time</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Tren Pengguna Plazma Real-Time">
+</a>
 
 ## ⬇️ Unduh
 
