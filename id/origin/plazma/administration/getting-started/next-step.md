@@ -2,7 +2,7 @@
 description: Pelajari cara menyesuaikan server.
 ---
 
-# 📶 발전하기
+# 📶 Berkembang
 
 Alasan menggunakan platform server yang dimodifikasi seperti Plazma tanpa menggunakan platform resmi yang disediakan oleh Mojang Studios adalah kemampuan **penyesuaian pengguna** yang kuat.
 
@@ -104,7 +104,7 @@ Khususnya, jika Data Pack rusak, server dapat mengalami crash, oleh karena itu, 
 
 **Setelah perintah memulai server, masukkan `safeMode` untuk menonaktifkan semua Data Pack dan kemudian mulai server.**
 
-[Untuk informasi lebih lanjut, lihat `Referensi > Argumen dan Properti`](../reference/arguments.md#safeMode)
+[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -114,9 +114,11 @@ Data Pack yang telah diterapkan dapat dikonfirmasi melalui perintah `/datapack l
 
 ## Optimasi <a href="#id-4" id="id-4"></a>
 
-Plazma telah menerapkan banyak patch optimasi. Selain itu, ketika Plazma pertama kali dimulai, konfigurasinya akan dioptimalkan secara otomatis sehingga jika mengikuti panduan [Mulai](./README.md), tidak perlu melakukan tindakan optimasi tambahan.
+Plazma telah menerapkan banyak patch optimasi. 또한, Plazma가 처음으로 시작되면 자동으로
+구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
 
-Namun, jika banyak pemain yang masuk atau ukuran dunia sangat besar, Anda dapat melakukan tindakan optimasi tambahan melalui panduan di bawah ini.
+하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
+아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
