@@ -27,7 +27,7 @@ Pasiguria Plazma bazohet në platformën zyrtare të serverit të Mojang Studios
 
 Për të verifikuar nëse JRE është i instaluar në sistemin tuaj, shkruani dhe ekzekutoni [`cmd /k java --version`](#user-content-fn-4)[^4] në dritaren e ekzekutimit.
 
-Nëse shfaqet si më poshtë, kaloni në [2 hapat e ardhshëm](setup.md#id-2).
+Nëse shfaqet si më poshtë, kalohet në [Hapi 2](#id-2).
 
 {% code title="Shfaqja e saktë" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Nëse nuk shfaqet si më poshtë ose si më poshtë, atëherë JRE nuk ekziston ose është shumë i vjetër, kështu që duhet të vazhdoni me [1.2 hapin](setup.md#id-1.2).
+Nëse nuk shfaqet si më lart ose shfaqet si më poshtë, ka mungesë e JRE ose është shumë i vjetër, duhet të kryeni [Hapin 1.2](#id-1.2).
 
 {% code title="JRE nuk është i instaluar" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 JRE instalimi
 
-Në këtë udhëzues përdorim Azul Zulu si një [nga llojet](#user-content-fn-5)[^5] e JRE.
+Në këtë udhëzues përdoret një nga [llojet e JRE](#user-content-fn-5)[^5] për Azul Zulu.
 
-Pas instalimit, rishikoni hapin [1.1](setup.md#id-1.1) për të siguruar që instalimi është kryer me sukses.
+Pas përfundimit të instalimit, rishikoni [Hapin 1.1](#id-1.1) për të verifikuar se instalimi është kryer saktësisht.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma ofron një gamë të gjerë skedarësh ekzekutues.
 
 **Në shumicën e rasteve përdorni `Reobf Paperclip`.**
 
-Për ata që janë të interesuar për zhvilluesit ose për veçoritë e çdo lloji, informacioni më poshtë është për ta.\
-Përdoruesit e zakonshëm mund të kalojnë në [hapat 3](setup.md#id-3) pa probleme.
+Për personat që janë të interesuar për zhvilluesin ose për tiparet e ndryshme.\
+Nëse jeni një përdorues i zakonshëm, mund të kaloni në [Hapin 3](#id-3) pa problem.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ Për të pranuar EULA-n, ndryshoni `eula=false` në `eula=true` në skedarin `eu
 
 Sistemet moderne operative bllokojnë hyrjet e rrezikshme nga jashtë duke përdorur në mënyrë parazgjedhëse **firewall** dhe **ruter**.
 
-Për Windows, pasi që keni lejuar në [hapat 3](setup.md#id-3), duhet të bëni vetëm forwardimin e portit.
+Për Windows, firewall-i është lejuar në [Hapin 3](#id-3), kështu që duhet të bëni vetëm port forwarding.
 
 {% hint style="info" %}
 
-**Kjo udhëzim është shkruar duke presupozuar sistemin operativ Windows dhe [UPnP](#user-content-fn-12)[^12] dhe një router që mund të përdorë UPnP.**
+**Ky udhëzues është shkruar duke supozuar se përdoret sistemi operativ Windows dhe një ruter që mund të përdorë [UPnP](#user-content-fn-12)[^12].**
 
 Nëse ruteri nuk e mbështet UPnP-në, për çdo ruter ka një panel të ndryshëm, kështu që duhet të kërkoni informata vetë.
 
@@ -303,7 +303,7 @@ Nëse serveri dhe loja po ekzekutohen në të njëjtin PC, mund të lidheni me `
 
 Pas fillimit të suksesshëm të serverit dhe funksionimit të duhur të tij, tani është koha për të personalizuar serverin.
 
-Zbuloni se si të personalizoni serverin duke ndjekur udhëzimet më poshtë.
+Mësoni se si të personalizoni serverin duke lexuar udhëzimet më poshtë.
 
 {% content-ref url="hapi-hapi.md" %}
 [hapi-hapi.md](hapi-hapi.md)
