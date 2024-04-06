@@ -12,7 +12,7 @@ description: "פלזמה היא פלטפורמת שרת קוד פתוח ל-Minec
 
 **האם אי אפשר לפתור את הבעיה דרך המדריך?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
+[שרת Discord רשמי](https://discord.gg/MmfC52K8A8) או [דיונים ב-GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) - נסה לשאול שאלות בקהילה דרך זה!
 
 {% endhint %}
 
