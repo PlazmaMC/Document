@@ -27,7 +27,7 @@ Siden Plazma er basert på Mojang Studios' offisielle serverplattform[^2], må d
 
 For å sjekke om JRE er installert på systemet, skriv inn [`cmd /k java --version`](#user-content-fn-4)[^4] i Kjør-vinduet og kjør det.
 
-다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+Hvis det vises som følger, hopper du til [trinn 2](#id-2).
 
 {% code title="Riktig utskrift" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+Hvis det ikke vises som beskrevet ovenfor, eller hvis det vises som beskrevet nedenfor, må du utføre [trinn 1.2](#id-1.2) fordi JRE enten mangler eller er for gammel.
 
 {% code title="JRE er ikke installert" lineNumbers="true" %}
 
@@ -61,9 +61,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 Installer JRE
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+I denne veiledningen bruker vi Azul Zulu som en av JRE [typene](#user-content-fn-5)[^5].
 
-설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+Etter at installasjonen er fullført, gjenta [trinn 1.1](#id-1.1) for å bekrefte at installasjonen ble fullført riktig.
 
 {% tabs %}
 
@@ -125,8 +125,8 @@ Plazma tilbyr forskjellige typer kjørbare filer.
 
 **I de fleste tilfeller bruker du `Reobf Paperclip`.**
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+Følgende informasjon er for de som er nysgjerrige på utviklere eller egenskapene til ulike former.\
+Hvis du er en vanlig bruker, kan du hoppe over til [trinn 3](#id-3) uten problemer.
 
 {% endhint %}
 
@@ -201,11 +201,11 @@ Hvis du godtar EULA-en, endre `eula=false` til `eula=true` i `eula.txt`-filen og
 
 Moderne operativsystemer blokkerer som standard ekstern tilgang for å forhindre farlige tilnærminger via brannmur og rutere.
 
-Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+For Windows-brukere, siden brannmuren er tillatt i [trinn 3](#id-3), trenger du bare å konfigurere portvideresending.
 
 {% hint style="info" %}
 
-**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Denne veiledningen er skrevet med tanke på Windows-operativsystemet og en ruter som kan bruke [UPnP](#user-content-fn-12)[^12].**
 
 Hvis ruteren ikke støtter UPnP, må du søke etter informasjon om konfigurering for ulike rutere.
 
@@ -302,7 +302,7 @@ Hvis serveren og spillet kjører på samme PC, kan du koble til med `localhost`.
 
 Når serveren er startet vellykket og fungerer som den skal, er det på tide å tilpasse serveren.
 
-아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+Se gjennom følgende veiledning for å lære hvordan du tilpasser serveren.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
