@@ -159,7 +159,7 @@ Emri i skedarit ekzekutues është `plazma-(menaxheri i versionit)-1.20.4-R0.1-S
 
 Për të filluar Plazmën lehtësisht dhe për të ristartuar serverin automatikisht, duhet të krijoni një [skript fillimi](#user-content-fn-6)[^6].
 
-Mund të krijoni skriptin fillimi përmes [Flags.sh](https://flags.sh). Nëse jepni vetëm [memorien që do të përdoret](#user-content-fn-8)[^8] në Plazma, komanda do të optimizohet automatikisht.
+[Flags.sh](https://flags.sh) mund të krijoni skriptin e fillimit në [Plazma](#user-content-fn-7)[^7]. Thjesht vendosni [memorien e përdorur](#user-content-fn-8)[^8] në Plazma dhe komandat do të optimizohen automatikisht.
 
 Mund të shkarkoni skriptin fillimi duke klikuar në butonin e shkarkimit në pjesën e poshtme të majtë.\
 **Verifikoni se skripti i shkarkuar përputhet me sistemin tuaj operativ.**
@@ -188,7 +188,11 @@ Pas ekzekutimit të skriptit fillimtar, do të krijohet një `eula.txt` në dosj
 
 EULA[^9] është një marrëveshje licensimi që duhet të pranohet duke përdorur shërbimet e [Mojang Studios](#user-content-fn-10)[^10].
 
-Nëse nuk pranoni EULA-n, nuk mund të filloni serverin dhe nëse shkelni EULA-n, mund të ndëshkoheni me pezullim të llogarisë etj. [sanksione.](#user-content-fn-11)[^11]
+{% hint style="warning" %}
+
+Nëse nuk pranoni, nuk mund të filloni serverin dhe nëse shkelni EULA-n, mund të merrni [sanksione](#user-content-fn-11)[^11] si pezullimi i llogarisë.
+
+{% endhint %}
 
 Për të pranuar EULA-n, ndryshoni `eula=false` në `eula=true` në skedarin `eula.txt` dhe ruani ndryshimet.
 
@@ -295,7 +299,7 @@ Nëse serveri dhe loja po ekzekutohen në të njëjtin PC, mund të lidheni me `
 {% endtab %}
 {% endtabs %}
 
-## 7. Faza e zhvillimit
+## 7. Të zhvillohemi
 
 Pas fillimit të suksesshëm të serverit dhe funksionimit të duhur të tij, tani është koha për të personalizuar serverin.
 
