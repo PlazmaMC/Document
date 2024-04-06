@@ -24,11 +24,13 @@ Als u een ontwikkelaar bent en een ander type bestand nodig heeft, raadpleeg dan
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
-            <th>Versie</th>
-            <th>Download</th>
+            <th>버전</th>
+            <th>다운로드</th>
         </tr>
     </thead>
     <tbody>
@@ -64,3 +66,5 @@ Als u een ontwikkelaar bent en een ander type bestand nodig heeft, raadpleeg dan
         </tr>
     </tbody>
 </table>
+
+***
