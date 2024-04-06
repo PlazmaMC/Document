@@ -117,7 +117,7 @@ cho nên việc thử nghiệm kỹ lưỡng trước khi cập nhật máy ch�
 
 **Sau lệnh khởi động máy chủ, nhập `safeMode` để tắt tất cả Data Pack và khởi động máy chủ.**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
+[Vui lòng tham khảo `Tham chiếu > Đối số và Thuộc tính` để biết thông tin chi tiết.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -127,11 +127,9 @@ Data Pack đã áp dụng có thể được kiểm tra thông qua lệnh `/data
 
 ## Tối ưu hóa <a href="#id-4" id="id-4"></a>
 
-Plazma đã áp dụng nhiều bản vá tối ưu hóa. 또한, Plazma가 처음으로 시작되면 자동으로
-구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
+Plazma đã áp dụng nhiều bản vá tối ưu hóa. Ngoài ra, khi Plazma được khởi đầu lần đầu, tự động tối ưu hóa cấu hình nên không cần thêm bất kỳ công việc tối ưu hóa nào nếu bạn đã tuân theo hướng dẫn trong [Bắt đầu](./README.md).
 
-하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
-아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
+Tuy nhiên, nếu có nhiều người chơi tham gia hoặc kích thước thế giới lớn, bạn có thể thực hiện công việc tối ưu hóa bổ sung theo hướng dẫn dưới đây.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
