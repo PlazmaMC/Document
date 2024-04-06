@@ -6,7 +6,7 @@ description: Få kendskab til startargumenter og systemegenskaber.
 
 Startvariabler og systemegenskaber er værdier, der tilføjes til [kommandoer](#user-content-fn-1)[^1] brugt til at køre Plazma, hvilket gør det muligt at ændre uændringsbare værdier efter Plazma er kørt.
 
-Afhængigt af hvor de tilføjes til kommandoen, opdeles de i **startargumenter** og **systemegenskaber**.
+I henhold til **startargumenter** og **systemegenskaber** opdelt efter placeringen, der tilføjes til kommandoen (se [fn-2](#user-content-fn-2)).
 
 ***
 
@@ -34,13 +34,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` angiver, at argumentet ikke er indbygget i JVM, men er et dedikeret argument til Plazma og
 
-hvis der ikke angives nogen værdi, vil værdien være [`true` som standard.](#user-content-fn-3)[^3]
+Hvis der ikke angives nogen værdi for egenskaben, vil værdien være fastsat til `true` (se [fn-3](#user-content-fn-3)).
 
 {% hint style="info" %}
 
 **Paperweight-serverplatformen af hver type har punktum i egenskabsnavnet for at adskille systemegenskaberne fra hinanden.**
 
-I nogle terminaler som f.eks. Windows Powershell, kan disse argumenter muligvis ikke accepteres, så du skal tilføje `"` i begge ender af argumentet [se her](#user-content-fn-4)[^4].
+Nogle terminaler som f.eks. Windows Powershell tillader muligvis ikke disse argumenter, så det kan være nødvendigt at tilføje `"` i begge ender af argumentet (se [fn-4](#user-content-fn-4)).
 
 {% endhint %}
 
@@ -131,7 +131,7 @@ Dette logger placeringen af alle ugyldige kranieblokke i verden.
 - **Type**: `Boolesk`
 - **Standardværdi**: `Falsk`
 
-Deaktiverer begrænsningen på 128 pluginkanaler pr. spiller.[^5]
+Deaktiver begrænsningen på antallet af 128 plugin-kanaler, der gælder for hver spiller (se [fn-5](#user-content-fn-5)).
 
 #### `Paper.disableClassPrioritization`
 
@@ -185,7 +185,7 @@ Enhver skade forårsaget af dette er dit eget ansvar, og Plamza yder ingen suppo
 - **Type**: `Heltal`
 - **Standardværdi**: `64`
 
-Indstiller begrænsningen for kanalnavne til plugins.[^6]
+Indstil begrænsningen for navnene på plugin-kanaler (se [fn-5](#user-content-fn-5)).
 
 #### `Paper.maxSignLength`
 
@@ -217,7 +217,7 @@ Aktiverer behandlingen af YAML-filkommentarer som standard.
 
 Spilleren bliver kicket, hvis der ikke modtages nogen data i det angivne antal sekunder.
 
-Normalt sender spillet[^7] konstant [hjerteslagssignaler](#user-content-fn-8)[^8] til serveren, så spilleren ikke bliver kicket, men hvis spillet ikke svarer, betragtes det som en kollision og spilleren bliver kicket.
+Normalt sender spillet fortsat et hjerteslagssignal til serveren, så spilleren ikke bliver udvist, men hvis spillet ikke svarer, betragtes det som en kollision, og serveren vil ikke længere behandle spilleren og vil udvise dem (se [fn-7](#user-content-fn-7), [fn-8](#user-content-fn-8), [fn-9](#user-content-fn-9)).
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -290,7 +290,7 @@ Når aktiveret, vil serveren blive hurtigere og mere sikker, men det kan blokere
 - **Type**: `Boolesk`
 - **Standardværdi**: `false`
 
-Undertrykker advarslen[^11], der vises under initialisering af Plazma.
+Undertryk advarslen, der vises, når Plazma initialiseres (se [fn-11](#user-content-fn-11)).
 
 ### Afbrydende egenskab <a href="#id-1.3" id="id-1.3"></a>
 
