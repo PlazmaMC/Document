@@ -6,10 +6,10 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🪨 속성 <a href="#id-1" id="id-1"></a>
+## 🪨 특성 <a href="#id-1" id="id-1"></a>
 
-> 속성은 Minecraft에서 제공하는 가장 기초적인 구성 파일입니다.
-> 속성을 사용하면 게임의 기본적인 메커니즘을 변경할 수 있습니다.
+> 특성은 Minecraft에서 제공하는 가장 기초적인 구성 파일입니다.
+> 특성을 사용하면 게임의 기본적인 메커니즘을 변경할 수 있습니다.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -60,7 +60,7 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ## 🦑 Purpur 구성 <a href="#id-7" id="id-7"></a>
 
-> Purpur 속성은 게임의 전반적인 기본 데이터를 수정할 수 있게 합니다.
+> Purpur 특성은 게임의 전반적인 기본 데이터를 수정할 수 있게 합니다.
 
 {% content-ref url="purpur/" %}
 [purpur](purpur/)
