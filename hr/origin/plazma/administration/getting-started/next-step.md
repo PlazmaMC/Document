@@ -2,7 +2,7 @@
 description: Saznajte kako prilagoditi poslužitelj.
 ---
 
-# 📶 발전하기
+# 📶 Razvijati se
 
 Razlog za korištenje modificirane serverske platforme poput Plazme umjesto službene serverske platforme koju pruža Mojang Studios je što omogućuje snažnu **prilagodbu**.
 
@@ -116,7 +116,7 @@ stoga je važno dobro testirati prije nadogradnje poslužitelja.
 
 **Nakon pokretanja naredbe za pokretanje poslužitelja, možete unijeti `safeMode` iza naredbe kako biste onemogućili sve pakete podataka i zatim pokrenuli poslužitelj.**
 
-Za više informacija pogledajte `Reference > Argumenti i svojstva`.](../reference/arguments.md#safeMode)
+[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -126,9 +126,11 @@ Primijenjeni paketi podataka mogu se provjeriti pomoću naredbe `/datapack list`
 
 ## Optimizacija <a href="#id-4" id="id-4"></a>
 
-Plazma ima mnogo optimizacijskih zakrpa. Također, kada se Plazma prvi put pokrene, automatski optimizira konfiguraciju pa nije potrebno dodatno optimiziranje ako slijedite [Upute za početak](./README.md).
+Plazma ima mnogo optimizacijskih zakrpa. 또한, Plazma가 처음으로 시작되면 자동으로
+구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
 
-Međutim, ako se na server poveže puno igrača ili ako je veličina svijeta ogromna, možete izvršiti dodatne optimizacije prema uputama u nastavku.
+하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
+아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
