@@ -57,11 +57,9 @@ description: Lær mere om, hvad Plazma serverplatformen er.
 - **En platform valgt af mange streamere**\
   Bruges som en bucket til seerengagement af mange streamere.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Real-time Plasma brugertendens</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ Download
 
