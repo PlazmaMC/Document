@@ -27,7 +27,7 @@ Ponieważ Plazma opiera się na oficjalnej platformie serwerowej Mojang Studios 
 
 Aby sprawdzić, czy JRE jest zainstalowane na systemie, wpisz w oknie uruchamiania [`cmd /k java --version`](#user-content-fn-4)[^4] i uruchom.
 
-Jeśli otrzymasz odpowiedź pokazaną poniżej, przejdź do [kroku 2](setup.md#id-2).
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="Poprawne wyjście" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Jeśli nie otrzymasz odpowiedzi jak powyżej, lub otrzymasz odpowiedź jak poniżej, oznacza to brak JRE lub zbyt stare oprogramowanie, w takim przypadku należy wykonać [krok 1.2](setup.md#id-1.2).
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="Brak zainstalowanego JRE" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 Instalacja JRE
 
-W tym przewodniku używamy jednej z wersji JRE, Azul Zulu.
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Po zakończeniu instalacji, ponownie wykonaj [krok 1.1](setup.md#id-1.1), aby sprawdzić, czy instalacja przebiegła pomyślnie.
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma oferuje różne rodzaje plików wykonywalnych.
 
 **W większości przypadków używany jest `Reobf Paperclip`.**
 
-Poniższe informacje są dla deweloperów lub osób zainteresowanych szczegółami poszczególnych rodzajów.\
-Jeśli jesteś zwykłym użytkownikiem, możesz przejść od razu do [kroku 3](setup.md#id-3).
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -159,8 +159,7 @@ Nazwa pliku wykonywalnego to `plazma-(menedżer wersji)-1.20.4-R0.1-SNAPSHOT-(ty
 
 Aby łatwo uruchamiać Plazma i automatycznie restartować serwer, musisz stworzyć [skrypt startowy](#user-content-fn-6)[^6].
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+Za pomocą [Flags.sh](https://flags.sh) można generować skrypty startowe. Wystarczy podać ilość pamięci do użycia w Plazmie, a polecenie zostanie zoptymalizowane automatycznie.
 
 Możesz pobrać skrypt startowy klikając na przycisk pobierania w lewym dolnym rogu.\
 **Upewnij się, że pobrany skrypt startowy jest zgodny z twoim systemem operacyjnym.**
@@ -191,7 +190,7 @@ EULA[^9] to umowa licencyjna, którą trzeba zaakceptować korzystając z usług
 
 {% hint style="warning" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+Jeśli nie wyrazisz zgody, nie będzie możliwe uruchomienie serwera, a w przypadku naruszenia EULA mogą zostać nałożone sankcje, takie jak zawieszenie konta.
 
 {% endhint %}
 
@@ -203,11 +202,11 @@ Aby zaakceptować EULA, zmień `eula=false` na `eula=true` w pliku `eula.txt` i 
 
 Nowoczesne systemy operacyjne domyślnie blokują niebezpieczne połączenia z zewnątrz za pomocą **zapory** i **routera**.
 
-W przypadku Windowsa, ponieważ zezwolenie na zapory zostało udzielone w [kroku 3](setup.md#id-3), wystarczy skonfigurować przekierowanie portów.
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
 
-**Ten poradnik zakłada, że korzystasz z systemu Windows oraz masz router obsługujący [UPnP](#user-content-fn-12)[^12].**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Jeśli router nie obsługuje UPnP, należy sprawdzić instrukcje dla konkretnego modelu routera.
 
@@ -300,11 +299,11 @@ Jeśli serwer i gra działają na tym samym komputerze, można użyć `localhost
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. Rozwijaj się
 
 Jeśli serwer został pomyślnie uruchomiony i działa poprawnie, teraz nadszedł czas na dostosowanie serwera.
 
-Dowiedz się, jak dostosować serwer, korzystając z poniższego przewodnika.
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% content-ref url="następny-krok.md" %}
 [następny-krok.md](następny-krok.md)
