@@ -159,8 +159,7 @@ Vykdomojo failo pavadinimas yra `plazma-(versijos tvarkyklė)-1.20.4-R0.1-SNAPSH
 
 Norėdami lengvai paleisti Plazmą ir automatiškai perkrauti serverį, turite sukurti [paleidimo scenarijų](#user-content-fn-6)[^6].
 
-Per [Flags.sh](https://flags.sh) galite [sukurti paleidimo scenarijų](#user-content-fn-7)[^7].\
-Įvedus tik norimą atmintį Plazmoje, komanda automatiškai optimizuojama.
+[Flags.sh](https://flags.sh)galite [sukurti](#user-content-fn-7)[^7]pradinį scenarijų. Įvedę tik [naudojamą atmintį](#user-content-fn-8)[^8]Plazmoje, komandos automatiškai optimizuojamos.
 
 Galite atsisiųsti paleidimo scenarijų spustelėdami apačioje esantį mygtuką.\
 **Patikrinkite, ar atsisiųstas paleidimo scenarijus atitinka jūsų operacinę sistemą.**
@@ -189,7 +188,11 @@ Paleidus scenarijų, aplankyme bus sukurtas `eula.txt` failas.
 
 EULA[^9] yra sutartis, su kuria privalote sutikti naudodamiesi [Mojang Studios](#user-content-fn-10)[^10] paslaugomis.
 
-Nesutikus su EULA, negalėsite paleisti serverio, o pažeidus EULA gali būti taikomos [sankcijos](#user-content-fn-11)[^11], pvz., paskyros sustabdymas.
+{% hint style="įspėjimas" %}
+
+Jei nesutinkate, negalėsite paleisti serverio ir galite patirti [sankcijas](#user-content-fn-11)[^11], įskaitant paskyros sustabdymą už EULA pažeidimą.
+
+{% endhint %}
 
 Norėdami sutikti su EULA, `eula=false` faile pakeiskite į `eula=true` ir išsaugokite.
 
@@ -296,7 +299,7 @@ Jei serveris ir žaidimas vyksta toje pačioje PC, galite prisijungti naudodami 
 {% endtab %}
 {% endtabs %}
 
-## 7. Evoliucijos etapas
+## 7. Tobulėkite
 
 Kai serveris sėkmingai paleistas ir veikia teisingai, dabar laikas pritaikyti serverį pagal savo poreikius.
 
