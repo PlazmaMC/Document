@@ -7,11 +7,11 @@ description: Leer hoe je een server maakt met Plazma.
 Om Plazma stabiel te gebruiken, moet het systeem aan de volgende vereisten voldoen.
 
 |              | Minimum | Aanbevolen |
-| :----------: | ------: | ---------: |
-| Architectuur |     x64 |          - |
-|      RAM     |     8GB |       16GB |
-| Opslagruimte |     1GB |        8GB |
-|      JRE     |      17 |         21 |
+| :----------: | :------ | :--------- |
+| Architectuur | x64     | -          |
+|      RAM     | 8GB     | 16GB       |
+| Opslagruimte | 1GB     | 8GB        |
+|      JRE     | 17      | 21         |
 
 Voor soepel bestandsbewerkingen, is het ook goed om een editor zoals [Visual Studio Code](https://code.visualstudio.com/download) te installeren.
 
