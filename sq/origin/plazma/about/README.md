@@ -56,10 +56,9 @@ description: Mësoni më shumë për platformën e serverit Plazma.
 - **Platforma e zgjedhur nga shumë streamerë**\
   Është zgjedhur si një ndihmë për shikuesit e shumtë të streamerëve.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Plazma përdoruesit e shërbimit të drejtpërdrejtë</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Tendencë e përdoruesve të Plazma në kohë reale">
+</a>
 
 ## ⬇️ Shkarko
 
