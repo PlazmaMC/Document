@@ -4,7 +4,8 @@ description: Sužinokite apie pradinį argumentą ir sistemos savybes.
 
 # 🎛️ Argumentas ir savybės
 
-Pradinis kintamasis ir sistemos savybės yra reikšmės, pridedamos prie [komandos naudojamos Plazma](#user-content-fn-1)[^1] vykdymo, leidžiančios pakeisti nekeičiamą reikšmę po Plazmos vykdymo.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 \[Pagal **pradinius parametrus** ir **sistemos savybes** bus suskirstyta pagal [komandos papildymo vietą](#user-content-fn-2)[^2].
 
@@ -26,8 +27,8 @@ Jei nežinote, kokia yra kiekvienos sistemos savybės funkcija, **nenaudokite jo
 
 Sistemos savybės įvedamos kaip Java komandos argumentas tarp `java` ir `-jar`.
 
-Pavyzdžiui, norint pritaikyti `Plazma.dummyProperty` sistemos savybę,\
-įvedus taip, į kitą savybę įrašomas `37`, ir Plazma inicijuojamas.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -186,7 +187,7 @@ Visos su tuo susijusios problemos yra jūsų atsakomybė, o Plamza nepateiks jok
 - **Formatas**: `Sveikas skaičius`
 - **Numatytasis**: `64`
 
-Nustato įskiepių [kanalų](#user-content-fn-5)[^5] pavadinimo apribojimą.
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
