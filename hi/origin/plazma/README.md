@@ -12,7 +12,7 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 
 **क्या आप विवरण पुस्तिका के माध्यम से समस्या को हल नहीं कर सकते?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) या [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) के माध्यम से समुदाय से प्रश्न पूछें!
+[공식 Discord सर्वर](https://discord.gg/MmfC52K8A8) या [GitHub चर्चाएँ](https://github.com/PlazmaMC/PlazmaBukkit/discussions) के माध्यम से समुदाय से सवाल पूछें!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ Plazma 사용 설명서에 방문하신 것을 환영합니다!
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
