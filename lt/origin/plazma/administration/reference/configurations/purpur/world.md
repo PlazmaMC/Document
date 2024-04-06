@@ -2,4 +2,4 @@
 description: Sužinokite, ką reiškia kiekvienas purpur.yml mazgas.
 ---
 
-# 🦑 Purpuras (pasaulio struktūra)
+# 🦑 Purpur (세계별 구성)
