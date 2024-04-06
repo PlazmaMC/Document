@@ -2,7 +2,7 @@
 description: Tìm hiểu cách tùy chỉnh máy chủ.
 ---
 
-# 📶 Các bước phát triển
+# 📶 발전하기
 
 Lý do sử dụng nền tảng máy chủ được sửa đổi như Plazma thay vì sử dụng nền tảng chính thức do Mojang Studios cung cấp là khả năng **tùy chỉnh** mạnh mẽ nhất.
 
