@@ -8,7 +8,7 @@ description: Learn about the frequently asked questions, ye scallywag.
 
 **Arrr ye not be findin' th' answer ye be lookin' fer?**
 
-[Official Discord Server](https://discord.gg/MmfC52K8A8) or [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) be where ye can ask the community!
+[Official Discord ship](https://discord.gg/MmfC52K8A8) or [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions) be askin' questions to the crew through the community!
 
 {% endhint %}
 
