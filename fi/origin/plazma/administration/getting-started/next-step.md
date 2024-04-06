@@ -2,7 +2,7 @@
 description: Opi muokkaamaan palvelinta käyttäjän tarpeiden mukaan.
 ---
 
-# 📶 Kehitysvaihe
+# 📶 발전하기
 
 Käyttäessäsi muokattua palvelin-alustaa kuten Plazmaa, et käytä Mojang Studiosin virallista palvelin-alustaa. Tämä johtuu siitä, että voit tehdä erittäin vahvaa **käyttäjäkohtaistamista**.
 
