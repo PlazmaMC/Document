@@ -8,7 +8,7 @@ description: Sužinokite dažniausiai užduodamus klausimus.
 
 **Negalite rasti norimo atsakymo?**
 
-Užduokite klausimą bendruomenei naudodami [oficialų Discord serverį](https://discord.gg/MmfC52K8A8) arba [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Oficialus „Discord“ serveris](https://discord.gg/MmfC52K8A8) arba [„GitHub“ diskusijos](https://github.com/PlazmaMC/PlazmaBukkit/discussions) - užduokite bendruomenei klausimą!
 
 {% endhint %}
 
