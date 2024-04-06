@@ -58,11 +58,9 @@ description: Plazma haz 어떤 서버 플랫폼인지 알아보세요.
 - **PREFERRED PLATFORM OF MANY STREAMERZ**\
   CHOSEN AS VIEWER-FRIENDLY BUCKET BY MANY STREAMERZ.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>실시간 Plazma 사용자 추이</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ 다운로드
 
