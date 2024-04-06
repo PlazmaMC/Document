@@ -50,7 +50,7 @@ description: Finn ut hva Plazma serverplattformen er.
   Brukes av mange streamers seerfellesskap som en foretrukket bøtte.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma brukertrender">
 </a>
 
 ## ⬇️ Nedlasting
