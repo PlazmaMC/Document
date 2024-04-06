@@ -6,12 +6,12 @@ description: 了解如何使用Plazma创建服务器。
 
 为了稳定地使用Plazma，系统必须满足以下要求。
 
-|      |  最低 |   建议 |
-| :--: | --: | ---: |
-|  架构  | x64 |    - |
+|      | 最低  | 建议   |
+| :--: | :-- | :--- |
+|  架构  | x64 | -    |
 |  RAM | 8GB | 16GB |
-| 存储空间 | 1GB |  8GB |
-|  JRE |  17 |   21 |
+| 存储空间 | 1GB | 8GB  |
+|  JRE | 17  | 21   |
 
 为了顺利修改配置文件，建议安装像[Visual Studio Code](https://code.visualstudio.com/download)这样的编辑器。
 
