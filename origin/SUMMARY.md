@@ -16,10 +16,10 @@
   * [👟 시작하기](plazma/administration/getting-started/README.md)
     * [📶 발전하기](plazma/administration/getting-started/next-step.md)
   * [📜 리퍼런스](plazma/administration/reference/README.md)
-    * [🎛️ 인수와 속성](plazma/administration/reference/arguments.md)
     * [🖥️ 명령어](plazma/administration/reference/commands.md)
     * [🛡️ 권한](plazma/administration/reference/permissions.md)
-    * [🎨 구성 파일](plazma/administration/reference/configurations/README.md)
+    * [🎛️ 인수와 속성](plazma/administration/reference/arguments.md)
+    * [📋 구성](plazma/administration/reference/configurations/README.md)
       * [🪨 속성](plazma/administration/reference/configurations/property.md)
       * [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       * [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
@@ -54,6 +54,7 @@
 
 * [⚡ Volt Development Guide](volt/README.md)
 
+## Miscellaneous
 
 * [🧾 Miscellaneous](miscellaneous/README.md)
   * [⬇️ 다운로드 전체보기](plazma/about/downloads-all.md)
