@@ -15,14 +15,19 @@ description: Cwinywa ki woko ki Plazma.
 
 ## ⚙️ Kube ki kwo tic <a href="#id-2" id="id-2"></a>
 
-1. **Kube ki peyo plugin**\
-   [Paper](https://github.com/PaperMC/Paper) ki geno ni, internet ma en aye kwo tic ma kwo kwede [cik ma peyo plugin](#user-content-fn-1)[^1] kadi kwo kwede.
-2. **Gwok ma peyo setting**\
-   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) ki ngec meyo patch mukene, en aye meyo optimization kadi modo ma en aye meyo peyo performance ducu.
-3. **Kube ki peyo game meyo**\
-   Plazma ki geno ni [Purpur](https://github.com/PurpurMC/Purpur) ki ngec meyo kwede kadi kwo tic ma kwo kwede.
-4. **Lok ma kic me pwonyo pa server**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) pe romo kwo 1.19 ka obedo [Mojang](#user-content-fn-2)[^2] me [cik me kwo chat](#user-content-fn-3)[^3] me gityeko kwo, tye ka cwalo ki diangosis me gityeko ka pe tye i pwonyo pa server me pwonyo.
+1. **Purugat giketo ki pwonyo**\
+   [Paper](https://github.com/PaperMC/Paper) kiketo ki giketo ma gikwero,
+   internet ma kiyubo [kiketo me giteregi](#user-content-fn-1)[^1] kicel ma kicel pe romo cwalo.
+2. **Kwanyo pe i pwonyo me pwonyo**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) giketo ki kiketo me kiketo,
+   kiketo me kiketo ma pe kicel ma kicel i pwonyo ma kicel pe kicel kicwalo.
+3. **Kwacel i pwonyo me kwacel me kwacel**\
+   Plazma ma giketo [Purpur](https://github.com/PurpurMC/Purpur) giketo ki kwacel ma
+   kicwalo i pwonyo ma pe kwacel.
+4. **Lok me pwonyo ki server**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) giketo ki kiketo 1.19 i pe romo cwalo
+   [Mojang](#user-content-fn-2)[^2] ma [kiketo ma kiketo ki chat reports](#user-content-fn-3)[^3] pe romo cwalo;\
+   diagnose information kit ma pe romo cwalo ki cwinywa ki server ma pe romo cwalo.
 5. **Kube ki peyo update meyo**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) ki ngec meyo Plazma meyo patch ki kwo tic ma kwo kwede, Paper ki geno ni server platform meyo kwo tic ma kwo kwede.
 6. **Kube ki peyo basic configuration file**\
@@ -40,16 +45,18 @@ description: Cwinywa ki woko ki Plazma.
 
 ## ✨ Kube ki kwo tic <a href="#id-3" id="id-3"></a>
 
-- **Kube ki peyo complicated plugin meyo**\
-  Developer [IPECTER](https://github.com/IPECTER) ki geno ni server meyo Plazma ki ngec meyo. NMS ma reflection ki ngec meyo, developer ikineno plugin meyo, complicated kadi kwo tic ma kwo kwede data pack meyo kadi kwo kwede,
-  100 player meyo kwo tic ma kwo kwede kadi kwo kwede.
-- **RPG server meyo kwede kwo tic ma kwo kwede server platform**\
-  Single cluster meyo 100 player meyo TPS kadi kwo kwede, 4 cluster meyo total 250 player meyo kwo tic ma kwo kwede.
-- **Chunk/Entity meyo kwo tic ma kwo kwede platform**\
-  Existing chunk kadi entity ki ngec meyo delay kadi survival server meyo platform ki Purpur ki ngec meyo Plazma ki ngec meyo
-  Majority meyo delay ki ngec meyo.
-- **Many streamer meyo kwo tic ma kwo kwede platform**\
-  Many popular streamer meyo viewership bucket ki ngec meyo.
+- **Pwonyo me giteregi ma pe kicel**\
+  Developer [IPECTER](https://github.com/IPECTER) giketo ki server ma Plazma ki giketo.\
+  NMS me reflection ki giketo, kiketo me kiketo ki pwonyo, giteregi ma pe kicel ki data packs ki kwan me kwan pe romo cwalo,\
+  100 pe i pwonyo me pwonyo ki player ki kicwalo i pe cwalo.
+- **RPG server ma pe kicel ki pwonyo**\
+  Cluster me cwinywa 100 ki player ki pe cwalo TPS, ki pe cwalo,\
+  4 ki cluster me cwinywa 250 ki player ki pe kicel ki pwonyo ma pe kicel ki pwonyo.
+- **Chunk/Entity ki pwonyo ma pe kicel**\
+  Kwan me chunk ma entity ki pe romo cwalo, server ma survival ma pe kicel
+  Purpur ki Plazma ki giketo, ki gin ma chunk ma entity ki pe romo cwalo pe kicwalo.
+- **Wek i pwonyo me pwonyo ki server**\
+  Kwan me wek ki streamer ki pe kicel ki bucket ma pe kicel ki gin ma wek i cwalo.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
