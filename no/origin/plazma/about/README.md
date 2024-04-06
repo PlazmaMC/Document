@@ -16,13 +16,13 @@ description: Finn ut hva Plazma serverplattformen er.
 ## ⚙️ Viktige funksjoner <a href="#id-2" id="id-2"></a>
 
 1. **Kraftig plugin-økosystem**\
-   Basert på [Paper](https://github.com/PaperMC/Paper), slik at de fleste [nyeste pluginene](#user-content-fn-1)[^1] som er tilgjengelige på internett, fungerer som de skal.
-2. **Ingen konfigurasjonsoptimalisering nødvendig**\
-   Inneholder alle patchene fra [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) og har noen interne optimaliseringer og modder for å gi den beste ytelsen.
+   [Basert på](https://github.com/PaperMC/Paper) Paper, så fungerer de fleste [nyeste plugins](#user-content-fn-1)[^1] tilgjengelig for nedlasting på internett som de skal.
+2. **Ingen behov for konfigurasjonsoptimalisering**\
+   Inneholder alle patcher fra [Pufferfish](https://github.com/pufferfish-gg/Pufferfish), med noen interne optimaliseringer og moduler som gir optimal ytelse.
 3. **Tilpass spillet slik du vil**\
-   [Purpur](https://github.com/PurpurMC/Purpur) som er inkludert i Plazma, lar deg endre spillets generelle egenskaper.
-4. **Sikre servere for trygg spilling**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) er inkludert, slik at du fra 1.19 kan deaktivere [Mojang](#user-content-fn-2)[^2]s [chat rapporteringssystem](#user-content-fn-3)[^3], og fullstendig fjerne diagnoseverktøyet for å spille på en sporløs og sikker server.
+   [Purpur](https://github.com/PurpurMC/Purpur) inkludert i Plazma lar deg endre spillens generelle egenskaper.
+4. **Spill sikkert på serveren**\
+   Inneholder [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) som lar deg deaktivere [Mojang](#user-content-fn-2)[^2]s [chat-rapporteringssystem](#user-content-fn-3)[^3] som ble lagt til fra 1.19. Diagnostiske informasjonssamlere er fullstendig fjernet, slik at du kan spille på en server uten spor og trygt.
 5. **Raskeste oppdateringer**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) sørger for at Plazmas inkluderte patcher alltid er oppdatert, og tilbyr dermed de raskeste oppdateringene blant serverplattformene basert på Paper.
 6. **Optimaliserte standardkonfigurasjonsfiler**\
@@ -40,14 +40,14 @@ description: Finn ut hva Plazma serverplattformen er.
 
 ## ✨ Brukstilfeller <a href="#id-3" id="id-3"></a>
 
-- **En plattform som håndterer selv komplekse plugins riktig**\
-  Plazma brukes på serveren til utvikleren [IPECTER](https://github.com/IPECTER). Med egne plugins som fungerer med NMS og refleksjon, og en stor mengde datapakker, kan den håndtere over 100 spillere uten ytelsesproblemer.
-- **En plattform med rask ytelse selv på RPG-servere**\
-  Har holdt 100 spillere på en enkelt klynge stabil uten TPS-fall, og på 4 klynger kunne 250 spillere spille jevnt.
-- **En plattform som lyser i chunk/entity-behandling**\
-  Ved å bytte fra Purpur til Plazma på en overlevelsesserver som tidligere hadde forsinkelser i chunk- og entity-behandling, kunne de redusere de fleste forsinkelsene.
+- **Behandler selv komplekse plugins riktig**\
+  Plazma brukes på servere av utvikleren [IPECTER](https://github.com/IPECTER). Selv med egne plugins som fungerer med NMS og refleksjon, samt en stor mengde komplekse datapakker, kan den håndtere over 100 spillere uten ytelsesfall.
+- **Opprettholder rask ytelse selv på RPG-servere**\
+  Klarte å opprettholde 100 spillere på en enkelt kluster uten TPS-fall, og totalt 250 spillere på 4 klustre kunne spille komfortabelt uten problemer.
+- **Plattformen som viser lys i chunk/entity**\
+  Ved å bytte fra Purpur til Plazma på en overlevelsesserver der det oppsto forsinkelser i behandlingen av chunk og entity, kunne de redusere de fleste forsinkelsene.
 - **Valgt av mange streamere**\
-  Brukes av mange populære streamere som deres foretrukne serverbucket.
+  Brukes av mange streamers seerfellesskap som en foretrukket bøtte.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
