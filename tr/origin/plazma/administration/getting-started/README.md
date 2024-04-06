@@ -159,8 +159,8 @@ Yürütülebilir dosyanın adı `plazma-(version manager)-1.20.4-R0.1-SNAPSHOT-(
 
 Plazma'yı hızlıca başlatmak ve sunucuyu otomatik olarak yeniden başlatmak için, [Başlangıç Komut Dosyası](#user-content-fn-6)[^6] oluşturmanız gerekmektedir.
 
-[Flags.sh](https://flags.sh) üzerinden başlangıç komut dosyasını [oluşturabilirsiniz.](#user-content-fn-7)[^7]\
-Plazma için [kullanılacak belleği](#user-content-fn-8)[^8] girdikten sonra komut otomatik olarak optimize edilir.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Sol alt köşedeki indirme düğmesi ile başlangıç komut dosyasını indirebilirsiniz.\
 **İndirdiğiniz başlangıç komut dosyasının işletim sisteminizle uyumlu olduğundan emin olun.**
@@ -189,7 +189,11 @@ Başlangıç komut dosyasını bir kez çalıştırdıktan sonra, klasöre `eula
 
 EULA[^9], [Mojang Studios](#user-content-fn-10)[^10]'un hizmetlerini kullanmak için kabul etmeniz gereken bir lisans sözleşmesidir.
 
-EULA'yı kabul etmezseniz sunucuyu başlatamaz ve EULA'yı ihlal ederseniz hesabınız askıya alınabilir veya [cezalandırılabilirsiniz.](#user-content-fn-11)[^11]
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 EULA'yı kabul etmek için `eula.txt` dosyasındaki `eula=false`'ı `eula=true` olarak değiştirin ve kaydedin.
 
@@ -296,7 +300,7 @@ Sunucu ve oyun aynı PC'de çalışıyorsa, `localhost` ile bağlanabilirsiniz.
 {% endtab %}
 {% endtabs %}
 
-## 7. Gelişim Aşaması
+## 7. 발전하기
 
 Sunucuyu başarıyla başlattıysanız ve sunucunun düzgün çalıştığından eminseniz, şimdi sunucuyu özelleştirme zamanı.
 
