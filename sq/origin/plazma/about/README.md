@@ -22,7 +22,7 @@ description: Mësoni më shumë për platformën e serverit Plazma.
 3. **Loja që personalizohet sipas dëshirës**\
    [Purpur](https://github.com/PurpurMC/Purpur) i përfshirë në Plazma ju lejon të modifikoni atributet kryesore të lojës.
 4. **Serveri që luajnë në mënyrë të sigurt**\
-   [Përmban Raporte të Chatit](https://github.com/Aizistral-Studios/No-Chat-Reports) lejon bllokimin e sistemit të ri të raportimit të bisedave të shtuar nga Mojang pas versionit 1.19, duke hequr plotësisht mbledhjen e informacionit diagnostik dhe duke ofruar një server të sigurt pa gjurmë.
+   [No Raporte Chat](https://github.com/Aizistral-Studios/No-Chat-Reports) përfshihet që nga 1.19 [Mojang](#user-content-fn-2)[^2] ka shtuar [sistemin e raportimit të bisedave](#user-content-fn-3)[^3] që mund të çaktivizohet dhe mjeti i mbledhjes së të dhënave diagnostike është plotësisht larguar, duke ju lejuar të luani në një server të sigurt pa ndjekje.
 5. **Përditësimi më i shpejtë**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) siguron që patch-et e përfshira në Plazma gjithmonë mbeten të përditësuara, duke ofruar një nga përditësimet më të shpejta në platformën e serverit të bazuar në Paper.
 6. **Optimizimi i konfigurimit fillestar**\
