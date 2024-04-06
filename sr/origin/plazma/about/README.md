@@ -50,7 +50,7 @@ description: Сазнајте шта је Plazma сервер платформа
   Користи се као преферирани бакет за гледаоце многих стримера.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Стање коришћења Plazma у реалном времену">
 </a>
 
 ## ⬇️ Преузми
