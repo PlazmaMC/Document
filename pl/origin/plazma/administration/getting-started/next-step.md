@@ -2,7 +2,7 @@
 description: Dowiedz się, jak dostosować serwer do użytku.
 ---
 
-# 📶 발전하기
+# 📶 Rozwijaj się
 
 Dlaczego korzystamy z dostosowanej platformy serwerowej, takiej jak Plazma, zamiast oficjalnej platformy serwerowej dostarczanej przez Mojang Studios? Największym powodem jest możliwość **personalizacji**.
 
@@ -111,7 +111,7 @@ przed aktualizacją serwera ważne jest przeprowadzenie odpowiednich testów.
 
 **Po wpisaniu `safeMode` po poleceniu uruchamiającym serwer, można dezaktywować wszystkie pakiety danych i uruchomić serwer.**
 
-[Aby uzyskać więcej informacji, zapoznaj się z sekcją `Referencje > Argumenty i atrybuty`](../reference/arguments.md#safeMode)
+[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -121,9 +121,11 @@ Zastosowane pakiety danych można sprawdzić za pomocą polecenia `/datapack lis
 
 ## Optymalizacja <a href="#id-4" id="id-4"></a>
 
-W Plazmie zastosowano wiele łatek optymalizacyjnych. Ponadto, gdy Plazma zostanie uruchomiona po raz pierwszy, automatycznie optymalizuje konfigurację, dlatego nie ma potrzeby dodatkowych działań optymalizacyjnych, jeśli postępujesz zgodnie z instrukcjami w przewodniku [Rozpocznij](./README.md).
+W Plazmie zastosowano wiele łatek optymalizacyjnych. 또한, Plazma가 처음으로 시작되면 자동으로
+구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
 
-Jednakże w przypadku dużej liczby graczy lub gdy rozmiar świata jest znaczny, można przeprowadzić dodatkowe działania optymalizacyjne, korzystając z przewodnika poniżej.
+하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
+아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
