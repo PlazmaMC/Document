@@ -2,7 +2,7 @@
 description: Sužinokite, kaip pritaikyti serverį vartotojui.
 ---
 
-# 📶 Plėtros etapas
+# 📶 발전하기
 
 Naudojant patobulintą serverio platformą, tokia kaip Plazma, o ne oficialią Mojang Studios teikiamą serverio platformą, pagrindinė priežastis yra galimybė labai stipriai **pritaikyti**.
 
