@@ -4,7 +4,7 @@ description: Saznajte o početnim argumentima i svojstvima sustava.
 
 # 🎛️ Argumenti i svojstva
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Početna vrijednost i svojstva sustava su vrijednosti koje se dodaju [naredbi koja se koristi](#user-content-fn-1)[^1] za izvođenje Plazma, što ima opći utjecaj na rad Plazme.
 
 [명령어에 덧붙이는 위치](#user-content-fn-2)[^2]에 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
 
