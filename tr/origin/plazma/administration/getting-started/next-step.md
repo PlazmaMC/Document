@@ -2,7 +2,7 @@
 description: Sunucuyu özelleştirmenin yollarını öğrenin.
 ---
 
-# 📶 Gelişim Aşaması
+# 📶 발전하기
 
 Mojang Studios tarafından sağlanan resmi sunucu platformunu kullanmadan
 Plazma ve benzeri özelleştirilmiş sunucu platformunu kullanmanın nedeni, güçlü
