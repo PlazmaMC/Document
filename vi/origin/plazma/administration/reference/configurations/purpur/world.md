@@ -2,4 +2,4 @@
 description: Tìm hiểu ý nghĩa của từng nút trong purpur.yml.
 ---
 
-# 🦑 Purpur (cấu trúc theo thế giới)
+# 🦑 Purpur (세계별 구성)
