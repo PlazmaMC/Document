@@ -7,11 +7,11 @@ description: Saznajte kako stvoriti poslužitelj s Plazmom.
 Da biste pouzdano koristili Plazmu, sustav mora zadovoljiti sljedeće zahtjeve.
 
 |                     | Minimalno | Preporučeno |
-| :-----------------: | --------: | ----------: |
-|     Arhitektura     |       x64 |           - |
-|         RAM         |       8GB |        16GB |
-| Prostorni kapacitet |       1GB |         8GB |
-|         JRE         |        17 |          21 |
+| :-----------------: | :-------- | :---------- |
+|     Arhitektura     | x64       | -           |
+|         RAM         | 8GB       | 16GB        |
+| Prostorni kapacitet | 1GB       | 8GB         |
+|         JRE         | 17        | 21          |
 
 Za glatku izmjenu konfiguracijskih datoteka, preporučuje se instalacija uređivača poput [Visual Studio Code](https://code.visualstudio.com/download).
 
