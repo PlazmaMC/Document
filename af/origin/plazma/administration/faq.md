@@ -8,7 +8,7 @@ description: Lees meer oor gereelde vrae.
 
 **Kan jy nie die antwoord vind wat jy soek nie?**
 
-Raadpleeg die [amptelike Discord-bedienaar](https://discord.gg/MmfC52K8A8) of [GitHub-kwessies](https://github.com/PlazmaMC/PlazmaBukkit/issues) om vrae aan die gemeenskap te vra!
+[Amptelike Discord-bediener](https://discord.gg/MmfC52K8A8) of [GitHub-besprekings](https://github.com/PlazmaMC/PlazmaBukkit/discussions) vir gemeenskapsvrae!
 
 {% endhint %}
 
