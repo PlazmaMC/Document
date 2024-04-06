@@ -8,7 +8,7 @@ description: ¿sǝɹɹnɯ ǝɥʇ ǝɹoɯǝu ǝɥʇ ǝɥʇ
 
 **?oyan sɹǝʇuɐɹʇ uoǝlɹǝu ǝpɐuǝɹ uoǝuᴉlɐɯ ǝu**
 
-!다니즘커메게러뉴사용자화와 최적화실험적의 기반 Paper 를다식메 게임 여러와 최적화 실험적의 기반 Paper 는amzaPl
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
 
 {% endhint %}
 
