@@ -2,7 +2,7 @@
 description: Ta reda på hur du anpassar servern för användare.
 ---
 
-# 📶 Utvecklingssteg
+# 📶 발전하기
 
 Anledningen till att man använder en modifierad serverplattform som Plazma istället för den officiella serverplattformen från Mojang Studios är att den ger möjlighet till kraftfull **anpassning**.
 
