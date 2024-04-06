@@ -188,7 +188,7 @@ Java 버전 확인을 비활성화 합니다.
 * **형태**: `Integer`
 * **기본값**: `64`
 
-플러그인 [채널](#user-content-fn-5)[^5] 이름의 제한을 설정합니다.
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
