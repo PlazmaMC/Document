@@ -27,7 +27,7 @@ Siden Plazma er basert på Mojang Studios' offisielle serverplattform[^2], må d
 
 For å sjekke om JRE er installert på systemet, skriv inn [`cmd /k java --version`](#user-content-fn-4)[^4] i Kjør-vinduet og kjør det.
 
-Hvis du ser følgende utdata, hopp til [trinn 2](setup.md#id-2).
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="Riktig utskrift" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Hvis du ikke ser det ovennevnte, eller ser noe som nedenfor, betyr det at JRE ikke er installert eller er for gammel, og du må utføre [trinn 1.2](setup.md#id-1.2).
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="JRE er ikke installert" lineNumbers="true" %}
 
@@ -61,9 +61,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 Installer JRE
 
-I denne veiledningen bruker vi Azul Zulu som en av JRE-variantene[^5].
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Etter at du har installert det, utfør [trinn 1.1](setup.md#id-1.1) på nytt for å bekrefte at installasjonen var vellykket.
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -125,8 +125,8 @@ Plazma tilbyr forskjellige typer kjørbare filer.
 
 **I de fleste tilfeller bruker du `Reobf Paperclip`.**
 
-Nedenfor informasjonen er for utviklere eller de som er interessert i egenskapene til hver type.\
-Hvis du er en vanlig bruker, kan du hoppe til [trinn 3](setup.md#id-3) uten problemer.
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -158,8 +158,7 @@ Navnet på kjørefilen er `plazma-(versjonsbehandler)-1.20.4-R0.1-SNAPSHOT-(mapp
 
 For enkel oppstart og automatisert omstart av serveren med Plazma, må du lage et [startskript](#user-content-fn-6)[^6].
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+Du kan lage startskript via [Flags.sh](https://flags.sh) for å [generere](#user-content-fn-7)[^7]. Når du bare angir minnet som skal brukes i Plazma, vil kommandoen optimaliseres automatisk.
 
 Du kan laste ned startskriptet ved å klikke på nedlastingsknappen nederst til venstre.\
 **Sjekk om det nedlastede startskriptet samsvarer med operativsystemet ditt.**
@@ -190,7 +189,7 @@ EULA[^9] er en lisensavtale du må godta for å bruke tjenestene til [Mojang Stu
 
 {% hint style="warning" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+Hvis du ikke samtykker, kan du ikke starte serveren, og hvis du bryter EULA, kan kontoen din bli [straffet](#user-content-fn-11)[^11].
 
 {% endhint %}
 
@@ -202,11 +201,11 @@ Hvis du godtar EULA-en, endre `eula=false` til `eula=true` i `eula.txt`-filen og
 
 Moderne operativsystemer blokkerer som standard ekstern tilgang for å forhindre farlige tilnærminger via brannmur og rutere.
 
-For Windows, siden du har tillatt det i [trinn 3](setup.md#id-3), trenger du bare å konfigurere portvideresending.
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
 
-**Denne veiledningen antar at du bruker Windows-operativsystemet og en ruter som støtter [UPnP](#user-content-fn-12)[^12].**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Hvis ruteren ikke støtter UPnP, må du søke etter informasjon om konfigurering for ulike rutere.
 
@@ -299,11 +298,11 @@ Hvis serveren og spillet kjører på samme PC, kan du koble til med `localhost`.
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. Utvikle seg
 
 Når serveren er startet vellykket og fungerer som den skal, er det på tide å tilpasse serveren.
 
-Lær hvordan du tilpasser serveren ved å følge guiden nedenfor.
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
