@@ -158,8 +158,8 @@ Plazma提供多种形式的可执行文件。
 
 要简单启动Plazma并自动重新启动服务器，需要创建[启动脚本](#user-content-fn-6)。
 
-您可以通过[Flags.sh](https://flags.sh)创建启动脚本。\
-只需输入要用于Plazma的[内存](#user-content-fn-8)，命令将自动优化。
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 通过底部的下载按钮下载启动脚本。\
 **请确保下载的启动脚本与您的操作系统相匹配。**
@@ -188,7 +188,11 @@ Plazma提供多种形式的可执行文件。
 
 EULA[^9]是使用[Mojang Studios](#user-content-fn-10)的服务时必须同意的许可协议。
 
-如果不同意EULA，则无法启动服务器，并且违反EULA可能受到处罚，例如暂停帐户等[制裁](#user-content-fn-11)。
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 要同意EULA，请将`eula.txt`文件中的`eula=false`修改为`eula=true`并保存。
 
@@ -295,7 +299,7 @@ Windows IP配置
 {% endtab %}
 {% endtabs %}
 
-## 7。 发展阶段
+## 7。 발전하기
 
 如果服务器成功启动并正常运行，则现在是个性化服务器的时候了。
 
