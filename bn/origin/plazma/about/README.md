@@ -56,11 +56,9 @@ description: Plazma কী ধরনের সার্ভার প্ল্য
 - **অনেক স্ট্রিমারের নির্বাচিত প্ল্যাটফর্ম**\
   অনেক স্ট্রিমার বন্ধুদের দর্শকদের জন্য বাকেট হিসাবে নির্বাচিত এবং ব্যবহৃত হচ্ছে।
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>প্লাজমা ব্যবহারকারীদের জীবিত পরিস্থিতি</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="প্লাজমা ব্যবহারকারীর প্রবৃদ্ধির জীবনকোণ">
+</a>
 
 ## ⬇️ ডাউনলোড
 
