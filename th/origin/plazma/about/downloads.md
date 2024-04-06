@@ -24,6 +24,8 @@ description: ดาวน์โหลด Plazma ทันทีเพื่อ�
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
@@ -64,3 +66,5 @@ description: ดาวน์โหลด Plazma ทันทีเพื่อ�
         </tr>
     </tbody>
 </table>
+
+***
