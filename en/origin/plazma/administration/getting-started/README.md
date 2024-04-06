@@ -7,11 +7,11 @@ description: Learn how to create a server with Plazma.
 To use Plazma reliably, the system must meet the following requirements.
 
 |               | Minimum | Recommended |
-| :-----------: | ------: | ----------: |
-|  Architecture |     x64 |           - |
-|      RAM      |     8GB |        16GB |
-| Storage space |     1GB |         8GB |
-|      JRE      |      17 |          21 |
+| :-----------: | :------ | :---------- |
+|  Architecture | x64     | -           |
+|      RAM      | 8GB     | 16GB        |
+| Storage space | 1GB     | 8GB         |
+|      JRE      | 17      | 21          |
 
 For smooth configuration file editing, it is also recommended to install an editor such as [Visual Studio Code](https://code.visualstudio.com/download).
 
