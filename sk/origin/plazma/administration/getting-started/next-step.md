@@ -2,7 +2,7 @@
 description: Zistite, ako prispôsobiť server používateľským preferenciám.
 ---
 
-# 📶 발전하기
+# 📶 Posunúť sa ďalej
 
 Dôvodom, prečo používame upravenú serverovú platformu ako Plazma namiesto oficiálnej serverovej platformy poskytovanej spoločnosťou Mojang Studios, je možnosť veľmi silnej **personalizácie**.
 
@@ -107,7 +107,7 @@ Najmä ak je Datapack úplne poškodený, môže spôsobiť pád servera, preto 
 
 **Po spustení servera s príkazom `safeMode` za serverom môžete vypnúť všetky Datapacky a znova spustiť server.**
 
-[Pre viac informácií pozrite `Referencie > Argumenty a vlastnosti`](../reference/arguments.md#safeMode)
+[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -117,9 +117,11 @@ Nainštalované Datapacky môžete overiť príkazom `/datapack list`.
 
 ## Optimalizácia <a href="#id-4" id="id-4"></a>
 
-V Plazme bolo aplikovaných veľa optimalizačných záplat. Okrem toho, keď sa Plazma prvýkrát spustí, automaticky optimalizuje konfiguráciu, takže ak postupujete podľa sprievodcu [Začiatok](./README.md), nie je potrebné vykonávať ďalšie optimalizačné úlohy.
+V Plazme bolo aplikovaných veľa optimalizačných záplat. 또한, Plazma가 처음으로 시작되면 자동으로
+구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
 
-Avšak ak sa pripojí veľa hráčov alebo je veľkosť sveta veľká, môžete vykonať ďalšie optimalizačné úlohy podľa nasledujúceho sprievodcu.
+하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
+아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
