@@ -29,39 +29,39 @@ Dacă sunteți dezvoltator și aveți nevoie de un alt tip de fișier, consulta�
 <table data-view="cards">
     <thead>
         <tr>
-            <th>버전</th>
-            <th>다운로드</th>
+            <th>versiune</th>
+            <th>descărcare</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>1.20.5</td>
             <td><a href="">
-                <img src="https://badge.plazmamc.org/0/릴리스%20대기중" alt="릴리스 대기중">
+                <img src="https://badge.plazmamc.org/0/În%20așteptarea%20eliberării" alt="În așteptarea eliberării">
             </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Descărcare" alt="Descărcare">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Descărcare" alt="Descărcare">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Descărcare" alt="Descărcare">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/1/Descărcare" alt="Descărcare">
             </a></td>
         </tr>
     </tbody>
