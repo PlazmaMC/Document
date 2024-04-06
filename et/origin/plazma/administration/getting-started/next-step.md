@@ -2,7 +2,7 @@
 description: Uurige, kuidas kohandada serverit kasutaja vajadustele vastavaks.
 ---
 
-# 📶 Arenguetapp
+# 📶 발전하기
 
 Plazmat kasutatakse ametliku serveriplatvormi asemel Mojang Studios'i ametliku serveriplatvormi asemel kasutamiseks, kuna see võimaldab tugevat **kasutaja kohandamist**.
 
