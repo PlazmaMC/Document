@@ -8,7 +8,7 @@ description: Check out frequently asked questions.
 
 **Can't find the answer you're looking for?**
 
-Ask the community through the [Official Discord Server](https://discord.gg/MmfC52K8A8) or [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+Ask the community questions through the [official Discord server](https://discord.gg/MmfC52K8A8) or [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
