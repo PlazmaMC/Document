@@ -158,8 +158,8 @@ El nombre del archivo ejecutable se establece como `plazma-(administrador de ver
 
 Para iniciar Plazma fácilmente y reiniciar el servidor automáticamente, es necesario crear un [script de inicio](#user-content-fn-6)[^6].
 
-Puede generar el script de inicio a través de [Flags.sh](https://flags.sh).\
-Simplemente ingrese la cantidad de memoria que desea asignar a Plazma y el comando se optimizará automáticamente.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Puede descargar el script de inicio haciendo clic en el botón de descarga en la esquina inferior izquierda.\
 **Asegúrese de que el script descargado sea compatible con su sistema operativo.**
@@ -188,7 +188,11 @@ Una vez que ejecute el script de inicio, se creará un archivo `eula.txt` en la 
 
 El EULA[^9] es un acuerdo de licencia que debe aceptar para utilizar los servicios de [Mojang Studios](#user-content-fn-10)[^10].
 
-Si no acepta el EULA, no podrá iniciar el servidor y podría recibir sanciones, como la suspensión de la cuenta, por infringir el EULA[^11].
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Para aceptar el EULA, cambie `eula=false` a `eula=true` en el archivo `eula.txt` y guárdelo.
 
@@ -295,7 +299,7 @@ Si el servidor y el juego se ejecutan en la misma PC, puede conectarse utilizand
 {% endtab %}
 {% endtabs %}
 
-## 7. Etapa de desarrollo
+## 7. 발전하기
 
 Una vez que el servidor se ha iniciado con éxito y está funcionando correctamente, es hora de personalizar el servidor.
 
