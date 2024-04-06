@@ -4,7 +4,7 @@ description: Başlangıç argümanları ve sistem özelliklerini öğrenin.
 
 # 🎛️ Argümanlar ve Özellikler
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Başlangıç ​​parametreleri ve sistem özellikleri, Plazma'nın çalışmasına eklenen bir değer olarak [kullanılan komutlar](#user-content-fn-1)[^1] ile ilgilidir ve Plazma'nın genel işleyişine etki eder.
 
 [명령어에 덧붙이는 위치](#user-content-fn-2)[^2]e göre **başlangıç argümanı** ve **sistem özellikleri** olarak ayrılır.
 
