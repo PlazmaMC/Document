@@ -12,7 +12,7 @@ Dobrodošli u Plazma Upute za Korištenje!
 
 **Možete li riješiti problem putem uputa?**
 
-Pitajte zajednicu putem [Službenog Discord poslužitelja](https://discord.gg/MmfC52K8A8) ili [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Službeni Discord poslužitelj](https://discord.gg/MmfC52K8A8) ili pitajte zajednicu putem [GitHub rasprava](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ Pitajte zajednicu putem [Službenog Discord poslužitelja](https://discord.gg/Mm
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
