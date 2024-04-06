@@ -6,7 +6,7 @@ description: Mësoni për argumentet fillestare dhe përkatësitë e sistemit.
 
 Argumentet fillestare dhe përkatësitë e sistemit janë vlera shtesë që shtohen në [komandën e përdorur për ekzekutimin e Plazma-së](#user-content-fn-1)[^1], duke lejuar ndryshimin e vlerave të pa ndryshueshme pas ekzekutimit të Plazma-së.
 
-Sipas [vendit të shtimit të komandës](#user-content-fn-2)[^2], ato ndahen në **argumentet fillestare** dhe **përkatësitë e sistemit**.
+[Pozicioni i shtimit të komandës](#user-content-fn-2)[^2] ndahet në **argumentin fillestar** dhe **tiparet e sistemit** sipas pozicionit të shtimit të komandës.
 
 ***
 
@@ -35,13 +35,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` tregon se ky argument nuk është i brendshëm në JVM, por është argument i shtuar ekskluzivisht për Plazma-n.
 
-Nëse nuk vendosni asnjë vlerë për përkatësi, vlera do të mbetet [`true`.](#user-content-fn-3)[^3]
+Nëse nuk jepni asnjë vlerë për tipare, vlera do të mbetet [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Platforma e serverit e serisë Paperweight përfshin një `.` në emrin e atributit për të dalluar atributet e sistemit për çdo platformë individuale.**
 
-Në disa terminalë si Windows Powershell, mund të mos pranohen këto argumente, kështu që duhet të shtoni `"` në fillim dhe në fund të argumentit. [^4]
+Në disa terminalë si Windows Powershell, mund të mos lejohen këto argumente, kështu që duhet të shtoni `"` në fund të argumentit për të [shtuar](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -132,7 +132,7 @@ Ky veprim regjistron të gjitha kokrat e pavlefshme në botë me pozicionin e ty
 - **Forma**: `Boolean`
 - **Vlera parazgjedhëse**: `False`
 
-Çaktivizon kufirin e numrit të kanaleve të shtojcës për çdo lojtar[^5].
+Çaktivizon kufirin e numrit të kanaleve të plugin-it, 128 për çdo lojtar.
 
 #### `Paper.disableClassPrioritization`
 
@@ -186,7 +186,7 @@ Kjo mund të shkaktojë dëmtim të përhershëm të skedarëve të botës dhe s
 - **Forma**: `Integer`
 - **Vlera parazgjedhëse**: `64`
 
-Cakton kufirin e emrit të kanalit të shtojcës[^6].
+Vendos kufirin e emrit të [kanalit të plugin-it](#user-content-fn-5)[^5].
 
 #### `Paper.maxSignLength`
 
@@ -218,7 +218,7 @@ Aktivizon trajtimin e komenteve YAML-së.
 
 Kur nuk pranohet asnjë të dhënë nga një lojtar për një periudhë të caktuar (sekonda), lojtari do të dërgohet larg.
 
-Në raste normale, lojëra[^7] vazhdojnë të dërgojnë [sinjalet e zemrës](#user-content-fn-8)[^8] në server, kështu që nuk do të dërgohen larg, por nëse lojëra nuk reagon, serveri do të mendojë se ka ndodhur një konflikt në lojë dhe do të ndalojë trajtimin e lojtarëve.
+Në rastet normale, [loja](#user-content-fn-7)[^7] vazhdon të dërgojë [sinjalet e zemrës](#user-content-fn-8)[^8] në server, kështu që nuk do të jetë i [dëbuar,](#user-content-fn-9)[^9] por nëse loja nuk përgjigjet, konsiderohet se ka ndodhur një konflikt dhe nuk do të trajtojë më lojtarët në server dhe do t'i dëbojë ata.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -291,7 +291,7 @@ Nëse aktivizohet, serveri bëhet më i shpejtë dhe më i sigurt, por mund të 
 - **Forma**: `Boolean`
 - **Vlera parazgjedhëse**: `false`
 
-Parandalon shfaqjen e njoftimeve[^11] gjatë inicimit të Plazmës.
+Parandalon [sinjalin e paralajmërimit](#user-content-fn-11)[^11] që shfaqet kur Plazma inicializohet.
 
 ### Atribute i ndaluar në përdorim <a href="#id-1.3" id="id-1.3"></a>
 
