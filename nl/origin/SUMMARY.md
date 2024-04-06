@@ -19,7 +19,7 @@
     - [🖥️ Opdrachten](plazma/administration/reference/commands.md)
     - [🛡️ Rechten](plazma/administration/reference/permissions.md)
     - [🎛️ Argumenten en eigenschappen](plazma/administration/reference/arguments.md)
-    - [📋 구성](plazma/administration/reference/configurations/README.md)
+    - [📋 Configuratie](plazma/administration/reference/configurations/README.md)
       - [🪨 Eigenschap](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
