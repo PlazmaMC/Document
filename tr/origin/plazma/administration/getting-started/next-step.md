@@ -114,7 +114,7 @@ sunucuyu güncellemeden önce yeterli test yapmak önemlidir.
 
 **Sunucu başlatma komutunun arkasına `safeMode` yazarak tüm veri paketlerini devre dışı bırakabilir ve sunucuyu başlatabilirsiniz.**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
+[Daha fazla bilgi için `Referans > Argümanlar ve Özellikler` bölümüne bakın.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -124,11 +124,10 @@ Uygulanan veri paketlerini `/datapack list` komutuyla kontrol edebilirsiniz.
 
 ## Optimizasyon <a href="#id-4" id="id-4"></a>
 
-Plazma'ya birçok optimizasyon yaması uygulanmıştır. 또한, Plazma가 처음으로 시작되면 자동으로
-구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
+Plazma'ya birçok optimizasyon yaması uygulanmıştır. Ayrıca, Plazma ilk kez başlatıldığında otomatik olarak yapılandırmayı optimize eder, bu nedenle [Başlarken](./README.md) belgesinde belirtilen adımları takip ettiyseniz ekstra bir optimizasyon işlemine gerek yoktur.
 
-하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
-아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
+Ancak, birçok oyuncunun bağlandığı veya dünyanın büyük olduğu durumlarda,
+Aşağıdaki belgede ekstra optimizasyon işlemlerini yapabilirsiniz.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
