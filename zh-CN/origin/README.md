@@ -1,5 +1,5 @@
 ---
-description: 如有问题，请通过Discord或GitHub Issues提出。
+description: 如有任何问题，请通过Discord或GitHub讨论区提出。
 ---
 
 # 🏠 欢迎来到文档门户
