@@ -21,8 +21,8 @@ description: تعرف على منصة الخادم Plazma.
    تحتوي على جميع تصحيحات [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) وتوفر أداءً ممتازًا بفضل بعض التحسينات الداخلية والوضع الافتراضي للوضع.
 3. **لعب حر حسب الرغبة**\
    [Purpur](https://github.com/PurpurMC/Purpur) المضمن في Plazma يتيح تعديل الخصائص العامة للعبة.
-4. **خوادم آمنة للعب**\
-   يتضمن [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)، مما يتيح تعطيل نظام الإبلاغ عن الدردشة الذي تمت إضافته بدءًا من 1.19 من Mojang[^2]، ويزيل جميع مجموعات جمع المعلومات لتوفير خوادم آمنة بدون تتبع.
+4. **الخادم الذي يلعب بأمان**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) يتضمن تعطيل [نظام الإبلاغ عن الدردشة](#user-content-fn-3) الذي تمت إضافته اعتبارًا من 1.19 من [Mojang](#user-content-fn-2)[^2]، ويمكن تعطيل جمع معلومات التشخيص بالكامل للعب بأمان بدون تتبع.
 5. **أسرع تحديث**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) يضمن أن التصحيحات المضمنة في Plazma تبقى دائمًا محدثة، مما يوفر أسرع تحديث بين منصات خوادم الورق.
 6. **تكوين ملفات الأساسيات بشكل مثالي**\
