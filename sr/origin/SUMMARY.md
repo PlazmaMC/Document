@@ -19,7 +19,7 @@
     - [🖥️ Команде](plazma/administration/reference/commands.md)
     - [🛡️ Дозволе](plazma/administration/reference/permissions.md)
     - [🎛️ Аргументи и својства](plazma/administration/reference/arguments.md)
-    - [📋 구성](plazma/administration/reference/configurations/README.md)
+    - [📋 Подешавања](plazma/administration/reference/configurations/README.md)
       - [🪨 Својства](plazma/administration/reference/configurations/property.md)
       - [🪣 Букит](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Спигот](plazma/administration/reference/configurations/spigot.md)
