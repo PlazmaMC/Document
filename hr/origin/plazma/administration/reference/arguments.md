@@ -6,7 +6,7 @@ description: Saznajte o početnim argumentima i svojstvima sustava.
 
 Početni argumenti i svojstva sustava su vrijednosti dodane naredbi koja se koristi za izvođenje Plazme, koje omogućuju promjenu vrijednosti koje se ne mogu promijeniti nakon što se Plazma pokrene.
 
-Ovisno o [mjestu dodavanja naredbi](#user-content-fn-2)[^2], početni argumenti i svojstva sustava se dijele na **početne argumente** i **svojstva sustava**.
+[명령어에 덧붙이는 위치](#user-content-fn-2)[^2]에 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
 
 ***
 
@@ -35,13 +35,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` označava da taj argument nije ugrađen u JVM već je dodan Plazmi kao poseban argument,
 
-ako ne unesete nikakvu vrijednost, vrijednost će biti [`true` po zadanom.](#user-content-fn-3)[^3]
+속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정](#user-content-fn-3)[^3]됩니다.
 
 {% hint style="info" %}
 
 **Platforma Paperweight obitelji servera koristi `.` u nazivima svojstava kako bi razlikovala svojstva za svaku platformu.**
 
-U nekim terminalima poput Windows Powershell-a, ovi argumenti možda nisu podržani, stoga morate dodati `"` na krajeve argumenata. [^4]
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야](#user-content-fn-4)[^4] 합니다.
 
 {% endhint %}
 
@@ -132,7 +132,7 @@ Ovo logira sve nevaljane glave blokova u svijetu zajedno s njihovim položajem.
 - **Vrsta**: `Boolean`
 - **Zadano**: `False`
 
-Onemogućuje ograničenje od 128 plugin kanala po igraču.[^5]
+플레이어당 적용되는 128개의 플러그인 [채널](#user-content-fn-5)[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -186,7 +186,7 @@ Svi problemi koji proizlaze iz toga isključivo su vaša odgovornost, a Plazma n
 - **Vrsta**: `Integer`
 - **Zadano**: `64`
 
-Postavlja ograničenje imena kanala pluginova.[^6]
+플러그인 [채널](#user-content-fn-5)[^5] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
@@ -218,7 +218,7 @@ Omogućuje obradu komentara u YAML datotekama.
 
 Igrač će biti izbačen ako ne primi nikakve podatke od igrača u određenom vremenskom razdoblju (u sekundama).
 
-Obično, igra[^7] kontinuirano šalje [srca signala](#user-content-fn-8)[^8] poslužitelju, pa neće biti izbačen, ali ako igra prestane odgovarati, smatrat će se da je igra srušena i više neće obrađivati igrača na poslužitelju, te će ga izbaciti.
+일반적인 경우, [게임](#user-content-fn-7)[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -291,7 +291,7 @@ Aktivacijom će poslužitelj postati brži i sigurniji, ali može blokirati neke
 - **Vrsta**: `Boolean`
 - **Zadano**: `false`
 
-Poništava upozorenje[^11] koje se pojavljuje prilikom inicijalizacije Plazme.
+Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을 억제합니다.
 
 ### 사용 중단된 svojstvo <a href="#id-1.3" id="id-1.3"></a>
 
