@@ -158,8 +158,8 @@ Poto me doki me kwede iyi `plazma-(kare me bedo)-1.20.4-R0.1-SNAPSHOT-(maping ka
 
 Plazma ki yom ma kwo, server ki cwalo me cwiny ma kwo, [lok ma cwalo ki gengo](#user-content-fn-6)[^6] ki tye kwede.
 
-[Flags.sh](https://flags.sh) ki tye kwede ki [yom ma kwo](#user-content-fn-7)[^7]\
-Plazma ma [tito me memory](#user-content-fn-8)[^8] i kom kom iye kwo mukene iyi mukene.
+[Flags.sh](https://flags.sh) ki kwo poto atir me [cwal](#user-content-fn-7)[^7].\
+Ocako ma [tye iye](#user-content-fn-8)[^8] ki Plazma, obedo kwede i kompyuta me yub ma kicoyo iye.
 
 Lok me tye kare dongo download ki gengo lok ma cwalo ki gengo.\
 **Dongo download ki gengo tye kwede kare ma i kom yom me kare me bedo pe JRE ki tye kwede.**
@@ -188,7 +188,11 @@ Lok ma cwalo ki gengo, folder ki `eula.txt` ki tye kwede.
 
 EULA[^9] ni [Mojang Studios](#user-content-fn-10)[^10] ki lok me dong ma pe tye kwede ki iye moko.
 
-EULA ki tye kwede, server ki tye ki tye kwede. EULA ki yom me dong ma pe tye kwede, EULA ki kwede mukene pe i kom iye moko [tito me dong](#user-content-fn-11)[^11].
+{% hint style="warning" %}
+
+Gin ma en odwogo, server ki kwo cako, kadi, EULA tye ka ki ngec ki dong iye, i mito ki dong iye ki [kwoyo](#user-content-fn-11)[^11] ma en odwogo.
+
+{% endhint %}
 
 EULA ki kwede, `eula=false` me cwalo ki `eula=true` ki i kom ma cwalo.
 
@@ -295,7 +299,7 @@ Server me game pa PC mamegi, 'localhost' ma kikwero.
 {% endtab %}
 {% endtabs %}
 
-## 7. Lok ma itye
+## 7. Keto kwede
 
 Server ki kwo kikwero, ki kwo kikwero me server ki dano.
 
