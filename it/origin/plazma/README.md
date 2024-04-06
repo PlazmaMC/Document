@@ -12,7 +12,7 @@ Benvenuti alla guida per l'uso di Plazma!
 
 **Non è possibile risolvere il problema attraverso il manuale?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
+[Server Discord ufficiale](https://discord.gg/MmfC52K8A8) o [Discussioni su GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) per fare domande alla community!
 
 {% endhint %}
 
