@@ -7,11 +7,11 @@ description: Leer hoe om 'n bediener met Plazma te skep.
 Om Plazma stabiel te gebruik, moet jou stelsel aan die volgende vereistes voldoen.
 
 |             | Minimum | Aanbeveel |
-| :---------: | ------: | --------: |
-| Argitektuur |     x64 |         - |
-|     RAM     |     8GB |      16GB |
-|  Stoorplek  |     1GB |       8GB |
-|     JRE     |      17 |        21 |
+| :---------: | :------ | :-------- |
+| Argitektuur | x64     | -         |
+|     RAM     | 8GB     | 16GB      |
+|  Stoorplek  | 1GB     | 8GB       |
+|     JRE     | 17      | 21        |
 
 Om die konfigurasie lêer aanpassing vlot te doen, is dit ook goed om 'n redigeerder soos [Visual Studio Code](https://code.visualstudio.com/download) te installeer.
 
