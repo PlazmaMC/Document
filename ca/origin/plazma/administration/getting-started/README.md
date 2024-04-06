@@ -27,7 +27,7 @@ Com que Plazma està basat en la plataforma oficial de servidors de Mojang Studi
 
 Per verificar si JRE està instal·lat al sistema, introduïu [`cmd /k java --version`](#user-content-fn-4)[^4] a la finestra d'execució i executeu-la.
 
-Si es mostra el següent, salteu al [pas 2](setup.md#id-2).
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="Sortida correcta" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK Màquina virtual de servidor de 64 bits Zulu21.32+17-CA (compilació 21.
 
 {% endcode %}
 
-Si no es mostra així, o es mostra com a continuació, vol dir que JRE no està instal·lat o és massa antic, per tant, heu de seguir el [pas 1.2](setup.md#id-1.2).
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="JRE no està instal·lat" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: Ha succeït una excepció fatal. El programa sortirà.
 
 ### 1.2 Instal·lar JRE
 
-En aquesta guia, farem servir Azul Zulu com una de les opcions de JRE[^5].
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Un cop instal·lat, torneu a fer el [pas 1.1](setup.md#id-1.1) per comprovar que la instal·lació s'ha completat correctament.
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma ofereix diversos tipus de fitxers executables.
 
 **En la majoria dels casos, feu servir `Reobf Paperclip`.**
 
-El següent és per a desenvolupadors o aquells interessats en les característiques de cada tipus.\
-Si ets un usuari comú, no hi ha cap problema en saltar al [pas 3](setup.md#id-3).
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -159,8 +159,7 @@ El nom del fitxer executable és `plazma-(gestor de versions)-1.20.4-R0.1-SNAPSH
 
 Per iniciar Plazma de manera senzilla i reiniciar el servidor automàticament, heu de crear un [script d'inici](#user-content-fn-6)[^6].
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+A través de [Flags.sh](https://flags.sh) podeu generar scripts d'inici a [Plazma](#user-content-fn-7)[^7] simplement introduint només la quantitat de memòria a utilitzar, les comandes s'optimitzen automàticament.
 
 Podeu descarregar l'script d'inici fent clic al botó de descàrrega a la part inferior esquerra.\
 **Assegureu-vos que l'script d'inici descarregat és compatible amb el vostre sistema operatiu.**
@@ -191,7 +190,7 @@ L'EULA[^9] és un acord de llicència que has d'acceptar per utilitzar els serve
 
 {% hint style="warning" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+En cas de no estar d'acord, no es podrà iniciar el servidor i, en cas de violar l'EULA, es poden rebre sancions com la suspensió del compte, entre altres [sancions](#user-content-fn-11)[^11].
 
 {% endhint %}
 
@@ -203,11 +202,11 @@ Per acceptar l'EULA, canvieu `eula=false` a `eula=true` al fitxer `eula.txt` i d
 
 Els sistemes operatius moderns bloquegen els accessos externs per seguretat mitjançant el **firewall** i el **encaminador**.
 
-En el cas de Windows, com ja heu permès en el [pas 3](setup.md#id-3), només cal fer el reenviament de ports.
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
 
-**Aquesta guia està redactada assumint que feu servir el sistema operatiu Windows i teniu un router que permet [UPnP](#user-content-fn-12)[^12].**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Si l'encaminador no suporta UPnP, heu de cercar informació específica per a cada encaminador, ja que cada panell és diferent.
 
@@ -300,11 +299,11 @@ Si el servidor i el joc s'estan executant al mateix PC, podeu connectar-vos util
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. Crecer
 
 Si heu iniciat el servidor amb èxit i aquest funciona correctament, ara és moment de personalitzar-lo.
 
-Consulteu la guia següent per aprendre com personalitzar el servidor.
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
