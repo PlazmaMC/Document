@@ -24,6 +24,8 @@ Kui olete arendaja ja vajate muid failivorminguid, vaadake allolevat lehekülge.
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
@@ -64,3 +66,5 @@ Kui olete arendaja ja vajate muid failivorminguid, vaadake allolevat lehekülge.
         </tr>
     </tbody>
 </table>
+
+***
