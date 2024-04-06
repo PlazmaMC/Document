@@ -12,7 +12,7 @@ Tere tulemast Plazma kasutusjuhenditesse!
 
 **Kas probleemi ei saa lahendada juhendist?**
 
-Küsige kogukonna käest küsimusi [ametlikus Discordi serveris](https://discord.gg/MmfC52K8A8) või [GitHubi küsimustes](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Ametlik Discordi server](https://discord.gg/MmfC52K8A8) või küsige kogukonnalt küsimusi [GitHubi arutelud](https://github.com/PlazmaMC/PlazmaBukkit/discussions) kaudu!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ Küsige kogukonna käest küsimusi [ametlikus Discordi serveris](https://discord
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
