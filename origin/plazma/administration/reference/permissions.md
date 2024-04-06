@@ -53,9 +53,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 플레이어가 엔티티를 탑승하고 있을 때, 엔티티의 특수 기술을 사용할 수 있도록 허용합니다.
 
-<details>
-
-<summary>현재 사용 가능한 특수 기술 보기</summary>
+모든 엔티티의 특수 기능이 사용 가능한 것은 아닙니다. 사용 가능한 전체 특수 기술은 아래를 참고하세요.
 
 {% hint style="info" %}
 
@@ -64,6 +62,10 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 [Plazma Discord](https://plazmamc.org/discord) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)에 아이디어를 게시해 주세요!
 
 {% endhint %}
+
+<details>
+
+<summary>현재 사용 가능한 특수 기술 보기</summary>
 
 - **`crepper`**\
     `점프 키`를 누르면 폭발합니다.\
