@@ -19,7 +19,7 @@
     - [🖥️ Opdragte](plazma/administration/reference/commands.md)
     - [🛡️ Regte](plazma/administration/reference/permissions.md)
     - [🎛️ Argumente en Eienskappe](plazma/administration/reference/arguments.md)
-    - [📋 구성](plazma/administration/reference/configurations/README.md)
+    - [📋 Samestelling](plazma/administration/reference/configurations/README.md)
       - [🪨 Eienskap](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
