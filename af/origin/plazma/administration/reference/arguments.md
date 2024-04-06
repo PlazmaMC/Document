@@ -4,7 +4,7 @@ description: Leer meer oor beginargumente en stelsel eienskappe.
 
 # 🎛️ Argumente en eienskappe
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Die beginwaarde en stelselkenmerke is waardes wat by die uitvoering van Plazma [gebruik word](#user-content-fn-1)[^1], wat 'n algemene invloed op die werking van Plazma het.
 
 [Posisie wat by die opdrag gevoeg word](#user-content-fn-2)[^2] sal verdeel word in **beginargument** en **sisteemeienskappe** volgens die.
 
