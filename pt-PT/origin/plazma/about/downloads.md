@@ -29,8 +29,8 @@ Se você é um desenvolvedor e precisa de outro tipo de arquivo, consulte a pág
 <table data-view="cards">
     <thead>
         <tr>
-            <th>버전</th>
-            <th>다운로드</th>
+            <th>Versão</th>
+            <th>Baixar</th>
         </tr>
     </thead>
     <tbody>
