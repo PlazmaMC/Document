@@ -8,7 +8,7 @@ description: Selvitä usein kysytyt kysymykset.
 
 **Etkö löydä haluamaasi vastausta?**
 
-Kysy yhteisöltä [virallisella Discord-palvelimella](https://discord.gg/MmfC52K8A8) tai [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) -sivustolla!
+[Virallinen Discord-palvelin](https://discord.gg/MmfC52K8A8) tai [GitHub-keskustelut](https://github.com/PlazmaMC/PlazmaBukkit/discussions) voivat auttaa yhteisön kysymyksissä!
 
 {% endhint %}
 
