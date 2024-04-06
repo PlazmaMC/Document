@@ -27,7 +27,7 @@ Da Plazma er baseret på Mojang Studios' officielle serverplatform[^2], skal du 
 
 For at kontrollere om JRE er installeret på dit system, skal du indtaste [`cmd /k java --version`](#user-content-fn-4)[^4] i en **Kør**-dialog og udføre kommandoen.
 
-Hvis du får følgende output, skal du fortsætte til [trin 2](setup.md#id-2).
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="Korrekt output" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Hvis du ikke får det rigtige output, eller hvis du får følgende output, betyder det at JRE enten ikke er installeret eller er for gammel, og du skal udføre [trin 1.2](setup.md#id-1.2).
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="JRE er ikke installeret" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Fejl: Der opstod en fatal undtagelse. Programmet afsluttes.
 
 ### 1.2 JRE Installation
 
-I denne guide bruger vi Azul Zulu som en af JRE-typerne[^5].
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Når installationen er færdig, skal du køre [trin 1.1](setup.md#id-1.1) igen for at kontrollere om installationen er korrekt.
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma tilbyder forskellige former for eksekverbare filer.
 
 **I de fleste tilfælde bruges `Reobf Paperclip`.**
 
-Følgende information er for udviklere eller dem der er interesseret i de forskellige formater.\
-Hvis du er en almindelig bruger, kan du springe til [trin 3](setup.md#id-3) uden problemer.
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -159,8 +159,7 @@ Navnet på eksekverbar fil er `plazma-(version manager)-1.20.4-R0.1-SNAPSHOT-(ma
 
 For at starte Plazma nemt og få serveren til automatisk at genstarte, skal du oprette et [start script](#user-content-fn-6)[^6].
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+Du kan oprette en startskript via [Flags.sh](https://flags.sh) for at [generere](#user-content-fn-7)[^7]. Når du angiver det hukommelse, du vil bruge i Plazma, vil kommandoen automatisk blive optimeret.
 
 Du kan downloade startscriptet ved at klikke på download-knappen nederst til venstre.\
 **Sørg for at startscriptet er kompatibelt med dit operativsystem.**
@@ -191,7 +190,7 @@ EULA[^9] er en licensaftale, som du skal acceptere for at bruge tjenester fra [M
 
 {% hint style="warning" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+Hvis du ikke accepterer det, kan du ikke starte serveren, og hvis du overtræder EULA, kan du blive pålagt sanktioner, herunder suspension af kontoen.
 
 {% endhint %}
 
@@ -203,11 +202,11 @@ For at acceptere EULA, skal du ændre `eula=false` til `eula=true` i `eula.txt`-
 
 Moderne operativsystemer blokerer som standard ekstern adgang fra firewall og router for at forhindre farlige tilgange udefra.
 
-Da du allerede har tilladt det i [trin 3](setup.md#id-3) for Windows, behøver du kun at viderestille portene.
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
 
-**Denne vejledning antager, at du bruger Windows-operativsystemet og en router, der understøtter [UPnP](#user-content-fn-12)[^12].**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Hvis din router ikke understøtter UPnP, skal du søge information om hvordan du gør det, da panelet varierer fra router til router.
 
@@ -300,11 +299,11 @@ Hvis serveren og spillet kører på samme PC, kan du oprette forbindelse ved at 
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. Udvikle sig
 
 Når serveren er startet succesfuldt og kører korrekt, er det nu tid til at tilpasse serveren.
 
-Lær hvordan du tilpasser serveren ved at følge denne vejledning.
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% content-ref url="næste-trin.md" %}
 [næste-trin.md](næste-trin.md)
