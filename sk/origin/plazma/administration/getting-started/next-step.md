@@ -2,7 +2,7 @@
 description: Zistite, ako prispôsobiť server používateľským preferenciám.
 ---
 
-# 📶 Vývojová fáza
+# 📶 발전하기
 
 Dôvodom, prečo používame upravenú serverovú platformu ako Plazma namiesto oficiálnej serverovej platformy poskytovanej spoločnosťou Mojang Studios, je možnosť veľmi silnej **personalizácie**.
 
