@@ -27,7 +27,7 @@ Plazma là nền tảng máy chủ chính thức của Mojang Studios [dựa tr�
 
 Để kiểm tra xem JRE đã được cài đặt trên hệ thống hay chưa, hãy nhập [`cmd /k java --version`](#user-content-fn-4)[^4] vào cửa sổ chạy và chạy nó.
 
-다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+Nếu xuất hiện như sau, hãy bước qua [Bước 2](#id-2).
 
 {% code title="Đầu ra chính xác" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+Nếu không xuất hiện như trên hoặc xuất hiện như dưới đây, có nghĩa là không có hoặc phiên bản JRE quá cũ, bạn cần thực hiện [Bước 1.2](#id-1.2).
 
 {% code title="JRE chưa được cài đặt" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 Cài đặt JRE
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+Trong hướng dẫn này, chúng tôi sử dụng Azul Zulu là một trong [các loại JRE](#user-content-fn-5)[^5].
 
-설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+Sau khi cài đặt xong, hãy thực hiện lại [Bước 1.1](#id-1.1) để kiểm tra xem cài đặt đã hoàn tất đúng cách hay chưa.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma cung cấp nhiều loại tệp thực thi khác nhau.
 
 **Thường thì sử dụng `Reobf Paperclip`.**
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+Nội dung dưới đây dành cho những người muốn biết về nhà phát triển hoặc các đặc điểm của từng loại.\
+Nếu bạn là người dùng thông thường, bạn có thể bỏ qua và chuyển sang [Bước 3](#id-3) mà không gặp vấn đề gì.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ Nếu không đồng ý, bạn sẽ không thể khởi động máy chủ và c
 
 Hệ điều hành hiện đại mặc định chặn kết nối từ bên ngoài để ngăn chặn truy cập nguy hiểm thông qua **tường lửa** và **bộ định tuyến**.
 
-Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+Đối với Windows, do tường lửa đã được phê duyệt ở [Bước 3](#id-3), bạn chỉ cần chuyển tiếp cổng.
 
 {% hint style="info" %}
 
-**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Hướng dẫn này được giả định là hệ điều hành Windows và có router hỗ trợ [UPnP](#user-content-fn-12)[^12].**
 
 Nếu bộ định tuyến không hỗ trợ UPnP, từng bộ định tuyến có cấu hình khác nhau, vì vậy bạn cần tìm kiếm thông tin trực tiếp.
 
@@ -303,7 +303,7 @@ Nếu máy chủ và trò chơi chạy trên cùng một PC, bạn có thể k�
 
 Sau khi máy chủ khởi động thành công và hoạt động đúng cách, bây giờ là lúc cá nhân hóa máy chủ.
 
-아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+Hãy tìm hiểu cách cá nhân hóa máy chủ thông qua hướng dẫn dưới đây.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
