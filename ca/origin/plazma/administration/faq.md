@@ -8,7 +8,7 @@ description: Descobreix més sobre les preguntes freqüents.
 
 **No trobeu la resposta que busqueu?**
 
-Feu preguntes a la comunitat a través del [servidor Discord oficial](https://discord.gg/MmfC52K8A8) o [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Servidor Discord oficial](https://discord.gg/MmfC52K8A8) o [Debats de GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) per preguntar a la comunitat!
 
 {% endhint %}
 
