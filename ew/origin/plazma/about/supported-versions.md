@@ -26,3 +26,5 @@ If you are looking for platforms below 1.19.4, please use [Fusion (`1.19.2 ~ 1.1
 | [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) | ![Very good][vgd]![100%][100] | [![Build status](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
 | [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) | ![Very good][vgd]![100%][100] |                                         ![No information][ukn]                                        |
 | [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) | ![Very good][vgd]![100%][100] |                                         ![No information][ukn]                                        |
+
+***
