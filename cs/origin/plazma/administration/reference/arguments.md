@@ -7,7 +7,7 @@ description: Zjistěte více o počátečních argumentech a vlastnostech systé
 Počáteční proměnné a vlastnosti systému jsou hodnoty připojené k [příkazům používaným k spuštění Plazmy](#user-content-fn-1)[^1],\
 co umožňuje změnit hodnotu, která nemůže být změněna po spuštění Plazmy.
 
-V závislosti na [místě, kde jsou připojeny k příkazu](#user-content-fn-2)[^2], se rozdělují na **počáteční argumenty** a **vlastnosti systému**.
+[Při přidání do pozice příkazu](#user-content-fn-2)[^2] se rozdělí na **vstupní argumenty** a **systémové vlastnosti**.
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` označuje, že tento argument není vestavěný v JVM, ale je přidaný pouze pro Plazmu,
 
-Pokud nezadáte žádnou hodnotu, hodnota se [nastaví na `true`.](#user-content-fn-3)[^3]
+Pokud nezadáte žádnou hodnotu do vlastnosti, bude hodnota nastavena na [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Serverová platforma řady Paperweight obsahuje tečku v názvu vlastnosti k oddělení systémových vlastností pro každou platformu.**
 
-V některých terminálech jako Windows Powershell mohou tyto argumenty neumožňovat, takže na obou koncích argumentu musí být přidána `"` [viz.](#user-content-fn-4)[^4]
+V některých terminálech, jako je Windows Powershell, nemusí být tyto argumenty povoleny, takže je třeba na obou koncích argumentu přidat `"` [doplněk](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -133,7 +133,7 @@ Toto zaznamenává všechny neplatné lebky v světě s jejich polohou.
 - **Typ**: `Boolean`
 - **Výchozí hodnota**: `False`
 
-Deaktivuje omezení počtu 128 kanálů pluginů na hráče.[^5]
+Deaktivuje omezení na 128 pluginů [kanálu](#user-content-fn-5)[^5] aplikovaných na hráče.
 
 #### `Paper.disableClassPrioritization`
 
@@ -187,7 +187,7 @@ Všechny problémy způsobené tímto jsou vaší zodpovědností a Plazma nepos
 - **Typ**: `Integer`
 - **Výchozí hodnota**: `64`
 
-Nastavuje omezení názvu kanálu pluginu.[^6]
+Nastavuje omezení na jméno pluginu [kanálu](#user-content-fn-5)[^5].
 
 #### `Paper.maxSignLength`
 
@@ -219,7 +219,7 @@ Aktivuje zpracování komentářů v YAML souborech.
 
 Pokud hráč nepošle žádná data po dobu nastavenou v sekundách, hráč je vyhozen.
 
-Obvykle hra[^7] pravidelně posílá [heartbeat signály](#user-content-fn-8)[^8] na server, takže [není vyhozen,](#user-content-fn-9)[^9] ale pokud hra neodpoví, je považována za havarovanou a hráč je vyhozen.
+Obvykle [hra](#user-content-fn-7)[^7] pravidelně posílá [srdeční signál](#user-content-fn-8)[^8] na server, takže není [vyhozena,](#user-content-fn-9)[^9] ale pokud hra nereaguje, považuje se to za kolizi a hráče již server nezpracovává a vyhazuje.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -292,7 +292,7 @@ Aktivací se server stane rychlejším a bezpečnějším, ale může blokovat n
 - **Typ**: `Boolean`
 - **Výchozí hodnota**: `false`
 
-Potlačuje varování[^11], které se objeví při inicializaci Plazmy.
+Potlačuje [varování](#user-content-fn-11)[^11], které se zobrazuje při inicializaci Plazmy.
 
 ### Zastaralý atribut <a href="#id-1.3" id="id-1.3"></a>
 
