@@ -24,11 +24,13 @@ Se você é um desenvolvedor e precisa de outro tipo de arquivo, consulte a pág
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
-            <th>Versão</th>
-            <th>Baixar</th>
+            <th>버전</th>
+            <th>다운로드</th>
         </tr>
     </thead>
     <tbody>
@@ -64,3 +66,5 @@ Se você é um desenvolvedor e precisa de outro tipo de arquivo, consulte a pág
         </tr>
     </tbody>
 </table>
+
+***
