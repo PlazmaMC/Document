@@ -22,7 +22,7 @@ description: Plazmaがどのようなサーバープラットフォームかを�
 3. **自由にカスタマイズするゲーム**\
    Plazmaに含まれる[Purpur](https://github.com/PurpurMC/Purpur)はゲームの全般的な属性を変更できるようにします。
 4. **安全にプレイするサーバー**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)が含まれており、1.19から追加されたMojang[^2]の[チャットレポートシステム](#user-content-fn-3)[^3]を無効化でき、診断情報収集機が完全に削除され、追跡のない安全なサーバーをプレイできます。
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)が含まれており、1.19から追加された[Mojang](#user-content-fn-2)[^2]の[チャット通報システム](#user-content-fn-3)[^3]を非アクティブ化することができ、診断情報収集機が完全に削除され、追跡のない安全なサーバーをプレイすることができます。
 5. **最速のアップデート**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate)はPlazmaの含まれるパッチが常に最新に保たれるようにして、Paperベースのサーバープラットフォームの中で最速のアップデートを提供しています。
 6. **基本構成ファイルの最適化**\
