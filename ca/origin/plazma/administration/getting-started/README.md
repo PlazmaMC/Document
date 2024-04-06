@@ -27,7 +27,7 @@ Com que Plazma està basat en la plataforma oficial de servidors de Mojang Studi
 
 Per verificar si JRE està instal·lat al sistema, introduïu [`cmd /k java --version`](#user-content-fn-4)[^4] a la finestra d'execució i executeu-la.
 
-다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+Si es mostra com a continuació, salteu al [pas 2](#id-2).
 
 {% code title="Sortida correcta" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK Màquina virtual de servidor de 64 bits Zulu21.32+17-CA (compilació 21.
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+Si no es mostra com a dalt o com a continuació, significa que no teniu JRE o que és massa antic, per tant, heu de realitzar el [pas 1.2](#id-1.2).
 
 {% code title="JRE no està instal·lat" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: Ha succeït una excepció fatal. El programa sortirà.
 
 ### 1.2 Instal·lar JRE
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+En aquest manual, utilitzem Azul Zulu com a [un dels tipus](#user-content-fn-5)[^5] de JRE.
 
-설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+Després d'instal·lar-ho, torneu a realitzar el [pas 1.1](#id-1.1) per comprovar si la instal·lació s'ha completat correctament.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma ofereix diversos tipus de fitxers executables.
 
 **En la majoria dels casos, feu servir `Reobf Paperclip`.**
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+La següent informació és per a desenvolupadors o aquells interessats en les característiques de cada forma.\
+Si sou un usuari comú, podeu saltar al [pas 3](#id-3) sense problemes.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ Per acceptar l'EULA, canvieu `eula=false` a `eula=true` al fitxer `eula.txt` i d
 
 Els sistemes operatius moderns bloquegen els accessos externs per seguretat mitjançant el **firewall** i el **encaminador**.
 
-Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+En el cas de Windows, com que el firewall s'ha permès al [pas 3](#id-3), només cal fer reenviament de ports.
 
 {% hint style="info" %}
 
-**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Aquest manual assumeix que feu servir el sistema operatiu Windows i teniu un encaminador que pot utilitzar [UPnP](#user-content-fn-12)[^12].**
 
 Si l'encaminador no suporta UPnP, heu de cercar informació específica per a cada encaminador, ja que cada panell és diferent.
 
@@ -303,7 +303,7 @@ Si el servidor i el joc s'estan executant al mateix PC, podeu connectar-vos util
 
 Si heu iniciat el servidor amb èxit i aquest funciona correctament, ara és moment de personalitzar-lo.
 
-아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+Descobriu com personalitzar el servidor seguint les instruccions següents.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
