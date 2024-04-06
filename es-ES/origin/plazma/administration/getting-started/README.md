@@ -27,7 +27,7 @@ Dado que Plazma se basa en la plataforma oficial de servidores de Mojang Studios
 
 Para verificar si JRE está instalado en el sistema, escriba y ejecute [`cmd /k java --version`](#user-content-fn-4)[^4] en la ventana de ejecución.
 
-다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+Si se muestra como se indica a continuación, salta al [Paso 2](#id-2).
 
 {% code title="Salida correcta" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ Servidor VM de 64 bits de OpenJDK Zulu21.32+17-CA (compilación 21.0.2+13-LTS, m
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+Si no se muestra como se indica arriba, o se muestra como se indica a continuación, significa que no tiene JRE o que es demasiado antiguo, por lo que debe realizar el [Paso 1.2](#id-1.2).
 
 {% code title="JRE no está instalado" lineNumbers="true" %}
 
@@ -61,9 +61,9 @@ Error: Se ha producido una excepción fatal. El programa se cerrará.
 
 ### 1.2 Instalación de JRE
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+En este manual, se utiliza Azul Zulu como [uno de los tipos](#user-content-fn-5)[^5] de JRE.
 
-설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+Después de completar la instalación, vuelva a realizar el [Paso 1.1](#id-1.1) para verificar si la instalación se completó correctamente.
 
 {% tabs %}
 
@@ -125,8 +125,8 @@ Plazma ofrece varios archivos ejecutables.
 
 **En la mayoría de los casos, se utiliza `Reobf Paperclip`.**
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+El siguiente contenido está dirigido a desarrolladores o personas interesadas en las características de cada forma.\
+Si es un usuario común, no hay problema en saltar al [Paso 3](#id-3).
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ Para aceptar el EULA, cambie `eula=false` a `eula=true` en el archivo `eula.txt`
 
 Los sistemas operativos modernos bloquean el acceso externo por defecto con el fin de prevenir accesos no autorizados mediante el **firewall** y el **enrutador**.
 
-Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+En el caso de Windows, como el firewall se ha permitido en el [Paso 3](#id-3), solo es necesario realizar el reenvío de puertos.
 
 {% hint style="info" %}
 
-**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Este manual asume que se está utilizando el sistema operativo Windows y un enrutador que puede utilizar [UPnP](#user-content-fn-12)[^12].**
 
 Si el enrutador no admite UPnP, las instrucciones pueden variar según el modelo del enrutador y se recomienda buscar información específica.
 
@@ -303,7 +303,7 @@ Si el servidor y el juego se ejecutan en la misma PC, puede conectarse utilizand
 
 Una vez que el servidor se ha iniciado con éxito y está funcionando correctamente, es hora de personalizar el servidor.
 
-아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+Explore a través de este manual cómo personalizar el servidor.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
