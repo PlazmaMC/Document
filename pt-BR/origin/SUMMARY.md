@@ -19,7 +19,7 @@
     - [🖥️ Comandos](plazma/administration/reference/commands.md)
     - [🛡️ Permissões](plazma/administration/reference/permissions.md)
     - [🎛️ Argumentos e Propriedades](plazma/administration/reference/arguments.md)
-    - [📋 구성](plazma/administration/reference/configurations/README.md)
+    - [📋 Configuração](plazma/administration/reference/configurations/README.md)
       - [🪨 Propriedade](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
