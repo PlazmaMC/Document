@@ -49,11 +49,9 @@ description: Ontdek wat Plazma voor een serverplatform is.
 - **Platform gekozen door veel streamers**\
   Het wordt gebruikt als de emmer voor kijkers van veel streamers.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Real-time Plazma gebruikers trend</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ Download
 
