@@ -1,15 +1,15 @@
 ---
-description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법입니다.
+description: Die Konfiguration ist der grundlegendste Weg, Plazma anzupassen.
 ---
 
-# 📋 구성
+# 📋 Konfiguration
 
 ***
 
-## 🪨 속성 <a href="#id-1" id="id-1"></a>
+## 🪨 Eigenschaften <a href="#id-1" id="id-1"></a>
 
-> 속성은 Minecraft에서 제공하는 가장 기초적인 구성 파일입니다.
-> 속성을 사용하면 게임의 기본적인 메커니즘을 변경할 수 있습니다.
+> Eigenschaften sind die grundlegendste Konfigurationsdatei, die von Minecraft bereitgestellt wird.
+> Durch die Verwendung von Eigenschaften können grundlegende Mechanismen des Spiels geändert werden.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -17,10 +17,10 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🪣 Bukkit 구성 <a href="#id-2" id="id-2"></a>
+## 🪣 Bukkit-Konfiguration <a href="#id-2" id="id-2"></a>
 
-> Bukkit 구성은 Plazma에서 제공하는 가장 기초적인 구성 파일입니다.
-> Bukkit 구성을 사용하면 Minecraft 서버의 기본적인 메커니즘을 변경할 수 있습니다.
+> Die Bukkit-Konfiguration ist die grundlegendste Konfigurationsdatei, die von Plazma bereitgestellt wird.
+> Durch die Verwendung der Bukkit-Konfiguration können grundlegende Mechanismen des Minecraft-Servers geändert werden.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -28,9 +28,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🚰 Spigot 구성 <a href="#id-3" id="id-3"></a>
+## 🚰 Spigot-Konfiguration <a href="#id-3" id="id-3"></a>
 
-> Spigot 구성은 게임의 세부 메커니즘, 플레이어 처리, 명령어 등의 작동 및 메세지를 수정할 수 있게 합니다.
+> Die Spigot-Konfiguration ermöglicht es, die detaillierten Mechanismen des Spiels, die Spielerinteraktionen, Befehle usw. zu ändern und Nachrichten anzupassen.
 
 {% content-ref url="spigot.md" %}
 [spigot.md](spigot.md)
@@ -38,9 +38,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🛩️ Paper 구성 <a href="#id-4" id="id-4"></a>
+## 🛩️ Paper-Konfiguration <a href="#id-4" id="id-4"></a>
 
-> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](#user-content-fn-1)[^1]을 활성화 할 수 있게 합니다.
+> Die Paper-Konfiguration ermöglicht es, die umfassenden Mechanismen von Plazma zu ändern und verschiedene Optimierungen und Schwachstellenbehebungen zu aktivieren.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
@@ -48,9 +48,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🐡 Pufferfish <a href="#id-6" id="id-6"></a>
+## 🐡 Pufferfisch <a href="#id-6" id="id-6"></a>
 
-> Pufferfish 구성은 Plazma의 월드와 엔티티의 처리를 변경할 수 있게 합니다.
+> Die Pufferfisch-Konfiguration ermöglicht es, die Verarbeitung von Welten und Entitäten in Plazma zu ändern.
 
 {% content-ref url="pufferfish.md" %}
 [pufferfish.md](pufferfish.md)
@@ -58,9 +58,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🦑 Purpur 구성 <a href="#id-7" id="id-7"></a>
+## 🦑 Purpur-Konfiguration <a href="#id-7" id="id-7"></a>
 
-> Purpur 속성은 게임의 전반적인 기본 데이터를 수정할 수 있게 합니다.
+> Die Purpur-Eigenschaften ermöglichen es, die grundlegenden Spielsdaten zu ändern.
 
 {% content-ref url="purpur/" %}
 [purpur](purpur/)
@@ -68,9 +68,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## ✨ Plazma 구성 <a href="#id-8" id="id-8"></a>
+## ✨ Plazma-Konfiguration <a href="#id-8" id="id-8"></a>
 
-> Plazma 구성은 Plazma의 기능을 사용자화 할 수 있게 합니다.
+> Die Plazma-Konfiguration ermöglicht es, die Funktionen von Plazma anzupassen.
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
