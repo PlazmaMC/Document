@@ -4,7 +4,7 @@ description: Dowiedz się o początkowych argumentach i właściwościach system
 
 # 🎛️ Argumenty i właściwości
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Zmienne początkowe i właściwości systemowe są wartościami dodawanymi do [polecenia używanego do uruchomienia Plazmy](#user-content-fn-1)[^1], które mają ogólny wpływ na działanie Plazmy.
 
 Zgodnie z **parametrem lokalizacji** dodanym do [polecenia](#user-content-fn-2)[^2], zostanie podzielony na **argumenty początkowe** i **właściwości systemowe**.
 
