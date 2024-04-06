@@ -4,7 +4,8 @@ description: Lär dig om startargument och systemegenskaper.
 
 # 🎛️ Argument och egenskaper
 
-Startvariabler och systemegenskaper är värden som läggs till [kommandon som används](#user-content-fn-1)[^1] för att ändra värden som inte kan ändras efter att Plazma har startats.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [Plats för tillägg till kommandon](#user-content-fn-2)[^2] kommer att delas upp i **startargument** och **systemegenskaper** enligt detta.
 
@@ -26,8 +27,8 @@ Systemegenskaper är värden som behandlas av JVM innan Plazma initialiseras och
 
 Systemegenskaper anges som Java-kommandon mellan `java` och `-jar`.
 
-Om du till exempel vill använda systemegenskapen `Plazma.dummyProperty`,
-då initieras Plazma med värdet `37` efter att du har angett det som följande.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -186,7 +187,7 @@ Alla problem som uppstår efter detta är användarens ansvar och Plazma ger ing
 - **Typ**: `Integer`
 - **Standardvärde**: `64`
 
-Ställ in begränsningen för namnen på plugin [kanaler](#user-content-fn-5)[^5].
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
