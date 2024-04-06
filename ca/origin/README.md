@@ -1,5 +1,5 @@
 ---
-description: Si tens alguna pregunta, si us plau, pregunta a través de Discord o GitHub Issues.
+description: Si tens alguna pregunta, si us plau, fes-la a través de Discord o de les Discussió de GitHub.
 ---
 
 # 🏠 Benvingut al Portal de Docs
