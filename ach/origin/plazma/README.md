@@ -12,7 +12,7 @@ Dokumenti me Plazma kicwinywa ki woko!
 
 **Gin ma en aye kiketo ni i pwonyo ki ngom?**
 
-[Cwiny me Discord mekit me](https://discord.gg/MmfC52K8A8) dokumenti me [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) ki tye ki kwo mekerani ma cwinywa i cwinywa!
+[Acholi translation not available]
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ Dokumenti me Plazma kicwinywa ki woko!
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
