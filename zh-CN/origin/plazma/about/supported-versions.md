@@ -19,10 +19,12 @@ description: "了解Plazma支持的Minecraft: Java Edition版本。"
 
 ![릴리스 대기중][wtr]![开发中](https://badge.plazmamc.org/1/개발중)![支持中](https://badge.plazmamc.org/2/지원중)![功能支持中断](https://badge.plazmamc.org/6/기능%20지원%20중단)![支持结束](https://badge.plazmamc.org/4/지원%20종료)
 
-|                                         版本                                        |     稳定性    和    功能支持    |                                              构建状态                                             |
+|                                         버전                                        |     稳定性    和    功能支持    |                                              构建状态                                             |
 | :-------------------------------------------------------------------------------: | :---------------------: | :-------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |       ![等待发布][wtr]      |                                          ![等待发布][wtr]                                         |
 | [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) | ![非常好][vgd]![100%][100] | [![构建状态](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
 | [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) | ![非常好][vgd]![100%][100] | [![构建状态](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
 | [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) | ![非常好][vgd]![100%][100] |                                          ![没有信息][ukn]                                         |
 | [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) | ![非常好][vgd]![100%][100] |                                          ![没有信息][ukn]                                         |
+
+***
