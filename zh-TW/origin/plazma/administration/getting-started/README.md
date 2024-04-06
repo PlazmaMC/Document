@@ -27,7 +27,7 @@ description: 請了解如何使用Plazma創建服務器。
 
 要檢查系統是否已安裝JRE，請在\[執行]視窗中輸入[`cmd /k java --version`](#user-content-fn-4)[^4]並運行。
 
-다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+如果输出如下，则跳转到[第2步](#id-2)。
 
 {% code title="正確的輸出" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+如果输出不符合上述条件，或者输出如下，则说明JRE不存在或太旧，必须执行[1.2步](#id-1.2)。
 
 {% code title="未安裝JRE" lineNumbers="true" %}
 
@@ -61,9 +61,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 安裝JRE
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+本说明书将使用Azul Zulu作为JRE的[其中一种](#user-content-fn-5)[^5]。
 
-설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+安装完成后，请重新执行[1.1步](#id-1.1)以确认安装是否正确完成。
 
 {% tabs %}
 
@@ -125,8 +125,8 @@ Plazma提供多種形式的執行文件。
 
 **在大多數情況下，使用`Reobf Paperclip`。**
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+以下内容是为对开发人员或对各种特性感兴趣的人而准备的。\
+如果是普通用户，则可以跳过到[第3步](#id-3)而不会有问题。
 
 {% endhint %}
 
@@ -201,11 +201,11 @@ EULA[^9]是使用Mojang Studios的服務時必須同意的使用權協議。
 
 現代操作系統通常會阻止外部訪問以防止危險訪問。
 
-Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+对于Windows，防火墙已在[第3步](#id-3)中允许，只需进行端口转发即可。
 
 {% hint style="info" %}
 
-**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**本说明书假定您正在使用Windows操作系统和可使用[UPnP](#user-content-fn-12)[^12]的路由器。**
 
 如果路由器不支持UPnP，則由於每個路由器的面板不同，您需要自行查找信息。
 
@@ -302,7 +302,7 @@ Windows IP配置
 
 如果伺服器成功啟動並正常運行，現在輪到您自定義伺服器了。
 
-아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+请查看以下说明书以了解如何个性化服务器。
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
