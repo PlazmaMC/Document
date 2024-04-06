@@ -27,7 +27,7 @@ Aangesien Plazma op die amptelike bedienerplatform van Mojang Studios gebaseer i
 
 Om te sien of JRE op jou stelsel geïnstalleer is, voer `cmd /k java --version` in die [uitvoeringsvenster](#user-content-fn-3)[^3] in en voer dit uit.
 
-As dit soos volg vertoon, spring na [Stap 2](setup.md#id-2).
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="Korrek afdruk" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-biet Bediener-VM Zulu21.32+17-CA (bou 21.0.2+13-LTS, gemengde modus, 
 
 {% endcode %}
 
-Indien dit nie so vertoon nie, of as dit soos hieronder vertoon, beteken dit dat JRE nie beskikbaar is of te oud is, en die [1.2-stap](setup.md#id-1.2) moet uitgevoer word.
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="JRE is nie geïnstalleer nie" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Fout: 'n fatale uitsondering het plaasgevind. Program sal afsluit.
 
 ### 1.2 Installeer JRE
 
-In hierdie gids word Azul Zulu as een van die [tipes JRE](#user-content-fn-5)[^5] gebruik.
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Na installasie, voer [Stap 1.1](setup.md#id-1.1) weer uit om te bevestig dat die installasie korrek voltooi is.
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma bied verskeie uitvoerbaarleêrformate aan.
 
 **Meeste gevalle gebruik `Reobf Paperclip`.**
 
-Die volgende inligting is vir ontwikkelaars of diegene wat belangstel in die eienskappe van elke tipe.\
-As jy 'n gewone gebruiker is, kan jy gerus [Stap 3](setup.md#id-3) oorslaan sonder probleme.
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -159,8 +159,7 @@ Die uitvoerbaarleër se naam word bepaal as `plazma-(weergawe-bestuurder)-1.20.4
 
 Om Plazma maklik te begin en die bediener outomaties te herlaai, moet jy 'n [begin skripsie](#user-content-fn-6)[^6] skep.
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+[Vlae.sh](https://flags.sh) kan 'n begin skrip genereer deur net die geheue wat vir Plazma gebruik moet word in te voer. Die bevel word outomaties geoptimaliseer.
 
 Jy kan die begin skripsie deur die onderste regterkant aflaai-knoppie aflaai.\
 **Maak seker dat die afgelaaide begin skripsie ooreenstem met jou bedryfstelsel.**
@@ -191,7 +190,7 @@ EULA[^9] is 'n gebruikerslisensie-ooreenkoms waarmee jy moet instem om van die d
 
 {% hint style="warning" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+Indien daar nie saamgestem word nie, kan die bediener nie begin nie, en as die EULA oortree word, kan daar sanksies soos rekeningopskorting weens oortredings wees.
 
 {% endhint %}
 
@@ -203,11 +202,11 @@ Om met die EULA saam te stem, verander `eula=false` na `eula=true` in die `eula.
 
 Moderne bedryfstelsels blok standaard eksterne toegang om gevaarlike toegang te voorkom deur die **firewall** en **router**.
 
-Vir Windows, aangesien jy in [Stap 3](setup.md#id-3) die firewall toegelaat het, hoef jy net port forwarding te doen.
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
 
-**Hierdie gids is geskryf met die aanname dat Windows-bedryfstelsels en [UPnP](#user-content-fn-12)[^12] ondersteunende roeterys gebruik kan word.**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 As jou router nie UPnP ondersteun nie, moet jy na die spesifieke paneel van jou router soek, aangesien dit vir elke router verskil.
 
@@ -300,11 +299,11 @@ Indien die bediener en die spel op dieselfde rekenaar hardloop, kan jy met `loca
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. Groei
 
 As die bediener suksesvol begin het en behoorlik funksioneer, is dit nou tyd om die bediener aan te pas.
 
-Leer hoe om die bediener aan te pas deur die volgende gids te volg.
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% inhoudsverwysing url="next-step.md" %}
 [next-step.md](next-step.md)
