@@ -1,5 +1,5 @@
 ---
-description: Oyee, coko ki i kom Discord to GitHub Issues ki coko matino.
+description: Ocoko ma en aye ka i kom Discord ki i GitHub Discussions ki i kare ma en aye.
 ---
 
 # 🏠 Pe iyi Dokumenti Portal
