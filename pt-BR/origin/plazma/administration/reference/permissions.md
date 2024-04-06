@@ -10,191 +10,188 @@ Para usar e editar permissões corretamente, você deve usar plugins como [LuckP
 
 ***
 
-## 기본 권한 체계 이해하기 <a href="#id-1" id="id-1"></a>
+## Entendendo o sistema de permissões básicas <a href="#id-1" id="id-1"></a>
 
-Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니다.
+No Minecraft, existem grupos de permissões de gerenciamento básicos fornecidos.
 
-[운영자](#user-content-fn-1)[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
+Você pode definir permissões para operadores e blocos de comando, e podem ser modificadas em [configurações do servidor](configurations/property.md).
 
-0. **플레이어**\
-   일반적으로 모든 플레이어어게 주어지는 권한 그룹입니다.
-1. **중재자**\
-   스폰 보호를 무시할 수 있습니다.
-2. **세계 관리자**\
-   세계 관리와 관련된 모든 명령어와 명령 블록을 사용할 수 있습니다.\
-   데이터팩 및 명령 블록에 기본 적용되는 권한 그룹입니다.
-3. **관리자**\
-   플레이어 관리와 관련된 모든 명령어를 사용할 수 있습니다.
-4. **총관리자**\
-   서버 관리를 포함한 모든 명령어를 사용할 수 있습니다.\
-   콘솔 및 운영자에게 기본 적용되는 권한 그룹입니다.
+0. **Jogador**\
+   É o grupo de permissões concedido a todos os jogadores em geral.
+1. **Moderador**\
+   Pode ignorar a proteção de spawn.
+2. **Administrador de Mundo**\
+   Pode usar todos os comandos e blocos de comando relacionados à gestão do mundo. É o grupo de permissões padrão para datapacks e blocos de comando.
+3. **Administrador**\
+   Pode usar todos os comandos relacionados à gestão de jogadores.
+4. **Super Administrador**\
+   Pode usar todos os comandos, incluindo os de gestão do servidor. É o grupo de permissões padrão para o console e operadores.
 
 ***
 
-## 권한 설정하기 <a href="#id-2" id="id-2"></a>
+## Configurando Permissões <a href="#id-2" id="id-2"></a>
 
 ***
 
-## 전체 권한 <a href="#id-3" id="id-3"></a>
+## Permissões Totais <a href="#id-3" id="id-3"></a>
 
 ***
 
-#### `allow.ride.(Namespaced Key)`
+#### `allow.ride.(Chave de Namespace)`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-플레이어가 엔티티에 `웅크리고 상호 작용`하여 엔티티를 탑승할 수 있도록 허용합니다.
+Permite que os jogadores montem em entidades ao se agacharem e interagirem com elas.
 
-엔티티를 탑승하면 `이동 키`로 엔티티의 이동을 조작할 수 있으며, `점프 키`로 점프하거나 날 수 있습니다.
+Ao montar em uma entidade, os jogadores podem controlar o movimento da entidade com as teclas de movimento e pular ou voar com a tecla de pulo.
 
-`(Namespaced Key)`에는 엔티티의 [Namespaced ID](#user-content-fn-2)[^2]가 입력됩니다.
+A `(Chave de Namespace)` é o [ID de Namespace](#user-content-fn-2) da entidade.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**Somente funciona se `(Entidade) > montável` estiver ativado na [configuração do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
-#### `allow.special.(Namespaced Key)`
+#### `allow.special.(Chave de Namespace)`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-플레이어가 엔티티를 탑승하고 있을 때, 엔티티의 특수 기술을 사용할 수 있도록 허용합니다.
+Permite que os jogadores usem habilidades especiais das entidades enquanto montadas nelas.
 
-모든 엔티티의 특수 기능이 사용 가능한 것은 아닙니다. 사용 가능한 전체 특수 기술은 아래를 참고하세요.
+Nem todas as entidades possuem habilidades especiais disponíveis. Consulte abaixo para ver todas as habilidades especiais disponíveis.
 
 {% hint style="info" %}
 
-**특수 기술에 대한 좋은 아이디어가 있나요?**
+Tem uma ideia para uma habilidade especial?
 
-[Plazma Discord](https://plazmamc.org/discord) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)에 아이디어를 게시해 주세요!
+Compartilhe suas ideias no [Plazma Discord](https://plazmamc.org/discord) ou [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
 <details>
 
-<summary>현재 사용 가능한 특수 기술 보기</summary>
+<summary>Ver Habilidades Especiais Disponíveis Atualmente</summary>
 
-- **`crepper`**\
-  `점프 키`를 누르면 폭발합니다.\
-  플레이어가 `allow.powered.creeper` 권한을 가지고 있으면, `점프 키`를 꾹 눌러 충전할 수 있습니다.
+- **`creeper`**\
+  Explode ao pressionar a tecla de pulo. Se o jogador tiver a permissão `allow.powered.creeper`, pode segurar a tecla de pulo para carregar a explosão.
 - **`dolphin`**\
-  `점프 키`를 누르면 돌진합니다.
+  Avança ao pressionar a tecla de pulo.
 - **`phantom`**\
-  `점프 키`를 누르면 화염을 발사합니다.
+  Dispara chamas ao pressionar a tecla de pulo.
 - **`wither`**\
-  `상호 작용`하면 위더 머리를 발사합니다.
+  Dispara cabeças de Wither ao interagir.
 
 </details>
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**Somente funciona se `(Entidade) > montável` estiver ativado na [configuração do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `bukkit.command.compass`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-[`/compass` 명령어](commands.md#compass) 사용을 허용합니다.
+Permite o uso do comando [`/compass`](commands.md#compass).
 
 #### `bukkit.command.credits`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-[`/credits (Player)` 명령어](commands.md#credits) 사용을 허용합니다.
+Permite o uso do comando [`/credits (Jogador)`](commands.md#credits).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adiciona a extensão `.other` ao nome da permissão para permitir que outros jogadores a usem.
 
 #### `bukkit.command.demo`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-[`/demo (Player)` 명령어](commands.md#demo) 사용을 허용합니다.
+Permite o uso do comando [`/demo (Jogador)`](commands.md#demo).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adiciona a extensão `.other` ao nome da permissão para permitir que outros jogadores a usem.
 
 #### `bukkit.command.ping`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-[`/ping (Player)` 명령어](commands.md#ping) 사용을 허용합니다.
+Permite o uso do comando [`/ping (Jogador)`](commands.md#ping).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adiciona a extensão `.other` ao nome da permissão para permitir que outros jogadores a usem.
 
 #### `bukkit.command.ram`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-[`/ram` 명령어](commands.md#ram) 사용을 허용합니다.
+Permite o uso do comando [`/ram`](commands.md#ram).
 
 #### `bukkit.command.rambar`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-[`/rambar (Player)` 명령어](commands.md#rambar) 사용을 허용합니다.
+Permite o uso do comando [`/rambar (Jogador)`](commands.md#rambar).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adiciona a extensão `.other` ao nome da permissão para permitir que outros jogadores a usem.
 
 #### `bukkit.command.restart`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-[`/restart` 명령어](commands.md#restart) 사용을 허용합니다.
+Permite o uso do comando [`/restart`](commands.md#restart).
 
 #### `bukkit.command.tps`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-[`/tps` 명령어](commands.md#tps) 사용을 허용합니다.
+Permite o uso do comando [`/tps`](commands.md#tps).
 
 #### `bukkit.command.tpsbar`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-[`/tpsbar (Player)` 명령어](commands.md#tpsbar) 사용을 허용합니다.
+Permite o uso do comando [`/tpsbar (Jogador)`](commands.md#tpsbar).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adiciona a extensão `.other` ao nome da permissão para permitir que outros jogadores a usem.
 
 #### `bukkit.command.timings`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-[`/timings` 명령어](commands.md#timings) 사용을 허용합니다.
+Permite o uso do comando [`/timings`](commands.md#timings).
 
 {% hint style="warning" %}
 
-**해당 명령어는 사용이 중단되었습니다.**
+**Este comando foi descontinuado.**
 
-비슷한 기능을 가지는 명령어에 대해 알아보려면 [Spark](https://spark.lucko.me/docs/Command-Usage)를 확인하세요.
+Para funcionalidades similares, consulte [Spark](https://spark.lucko.me/docs/Command-Usage).
 
 {% endhint %}
 
 #### `bukkit.command.uptime`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-[`/uptime` 명령어](commands.md#uptime) 사용을 허용합니다.
+Permite o uso do comando [`/uptime`](commands.md#uptime).
 
-#### `minecraft.command.gamemode.(GameMode)`
+#### `minecraft.command.gamemode.(Modo de Jogo)`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-`/gamemode (GameMode) (Player)` 명령어 사용을 허용합니다.
+Permite o uso do comando [`/gamemode (Modo de Jogo) (Jogador)`](commands.md#gamemode).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Adiciona a extensão `.other` ao nome da permissão para permitir que outros jogadores a usem.
 
 #### `paper.antixray.bypass`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우,
-권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
+Quando a [Prevenção de X-Ray](../expert/xray.md) está ativada,
+os jogadores com essa permissão não terão os blocos protegidos pelo embaralhamento de blocos X-Ray.
 
-이렇게 하면 양 측 모두 성능 향상을 경험할 수 있습니다.
+Isso melhora o desempenho para ambos os lados.
 
-> X-Ray 설정 방법에 대해 알아보려면 아래 페이지를 참고하세요.
+> Para saber mais sobre as configurações de X-Ray, consulte a página abaixo.
 
 {% content-ref url="../expert/xray.md" %}
 [xray.md](../expert/xray.md)
@@ -202,220 +199,220 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 #### `plazma.bypass-moved-to-quickly-check`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
 {% hint style="warning" %}
 
-해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
+Essa permissão será alterada para `plazma.bypass.watchdog` na versão 1.20.5.
 
 {% endhint %}
 
 #### `purpur.anvil.color`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-모루에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Permite o uso de [códigos de cores](https://minecraft.wiki/w/Formatting_codes#Color_codes) em bigornas.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**Funciona apenas se `(Bigorna) > permitir-cores` estiver ativado na [configuração do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.anvil.format`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)을 사용할 수 있도록 허용합니다.
+Permite o uso de [códigos de estilo](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) em bigornas.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**Funciona apenas se `(Bigorna) > permitir-cores` estiver ativado na [configuração do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-모루에 [MiniMessage 태그](https://docs.advntr.dev/minimessage/format.html)를 사용할 수 있도록 허용합니다.
+Permite o uso de [tags MiniMessage](https://docs.advntr.dev/minimessage/format.html) em bigornas.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
+**Funciona apenas se `(Bigorna) > permitir-minimessages` estiver ativado na [configuração do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
+Permite desativar a `inclinacão do texto` com o código de estilo `&r` em bigornas.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**Funciona apenas se `(Bigorna) > permitir-cores` estiver ativado na [configuração do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)가 적용되도록 합니다.
+Aplica [códigos de estilo](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) quando um jogador assina um livro.
 
 #### `purpur.bypassIdleKick`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-플레이어를 유휴 상태 추방 대상에서 제외합니다.
+Exclui jogadores da lista de expulsão por inatividade.
 
 #### `purpur.debug.f3n`
 
-- **기본 제공**: `세계 관리자`
+- **Padrão**: `Administrador de Mundo`
 
-플레이어가 `F3 + N` 키로 게임 모드를 변경할 수 있도록 허용합니다.
+Permite que os jogadores alterem o modo de jogo pressionando `F3 + N`.
 
-해당 게임모드에 대한 권한이 없으면 작동하지 않습니다.
+Isso só funciona se o jogador tiver permissão para esse modo de jogo.
 
 #### `purpur.drop.spawners`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-구성에서 설정한 아이템으로 스포너 블록을 채굴하면 스포너 블록을 떨어뜨립니다.
+Ao minerar um bloco de spawner com o item configurado, o bloco de spawner será derrubado.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**Funciona apenas se `(mecânicas de jogabilidade) > toque-seda` estiver ativado na [configuração do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
-#### `purpur.enderchest.rows.(NumberString)`
+#### `purpur.enderchest.rows.(NúmeroString)`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-엔더 상자의 크기를 변경합니다.
+Altera o tamanho do baú de ender.
 
-`(NumberString)`에는 `one`, `two`, `three`, `four`, `five`, `six`를 입력할 수 있습니다.
+Você pode inserir `one`, `two`, `three`, `four`, `five`, `six` em `(NúmeroString)`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
+**Funciona apenas se `ender_chest > six-rows` e `ender_chest > use-permissions-for-rows` estiverem ativados na [configuração do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.inventory_totem`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-불사의 토템이 인벤토리에 있어도 작동하도록 허용합니다.
+Permite que o totem da imortalidade funcione mesmo quando está no inventário.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
+**Funciona apenas se `totem-of-undying-works-in-inventory` estiver ativado na [configuração do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.joinFullServer`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-플레이어가 접속자수 제한을 무시하도록 허용합니다.
+Permite que o jogador ignore o limite de jogadores conectados.
 
 #### `purpur.mending_shift_click`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-플레이어가 `웅크리고 상호 작용`하면 들고 있는 아이템을 수선할 수 있도록 허용합니다.
+Permite que o jogador repare o item que está segurando ao `agachar e interagir`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
+\*\*Para que funcione, ative `shift-right-click-repairs-mending-points` nas \*\*[configurações do mundo Purpur](configurations/purpur/world.md).
 
 {% endhint %}
 
 #### `purpur.place.spawners`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-플레이어가 스포너를 설치할 수 있도록 허용합니다.
+Permite que o jogador instale spawners.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**Funciona apenas se `(mecânicas de jogabilidade) > toque-seda` estiver ativado na [configuração do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.portal.instant`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-플레이어가 네더 차원문을 사용했을 때 바로 순간이동 하도록 합니다.
+Permite que o jogador seja teleportado imediatamente ao usar o portal do Nether.
 
 #### `purpur.sign.color`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-표지판에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Permite o uso de [códigos de cores](https://minecraft.wiki/w/Formatting_codes#Color_codes) em placas.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**Para que funcione, ative `sign > allow-colors` nas [configurações do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.sign.magic`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-표지판에 난독화 코드`(&o)`를 사용할 수 있도록 허용합니다.
+Permite o uso do código de obfuscação `(&o)` em placas.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**Para que funcione, ative `sign > allow-colors` nas [configurações do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.sign.style`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)를 사용할 수 있도록 허용합니다.
+Permite o uso de [códigos de formatação `(&o excluso)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) em placas.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+**Para que funcione, ative `sign > allow-colors` nas [configurações do mundo Purpur](configurations/purpur/world.md).**
 
 {% endhint %}
 
 #### `purpur.tnt.defuse`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-플레이어가 가위로 `상호 작용`하여 TNT 폭발을 막을 수 있도록 허용합니다.
+Permite que os jogadores evitem a explosão do TNT interagindo com ele usando uma tesoura.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
+**Em [Configurações do Mundo Purpur](configurations/purpur/world.md), `defuse-tnt-change` deve ser igual ou superior a `0.0` para funcionar.**
 
 {% endhint %}
 
-### 제공 예정 권한
+### Permissões previstas
 
 #### `plazma.bypass.ncr-require`
 
-- **기본 제공**: `없음`
+- **Padrão**: `Nenhum`
 
-플레이어가 [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) 모드가 설치되어 있지 않아도 접속할 수 있도록 허용합니다.
+Permite que os jogadores entrem mesmo sem ter o mod [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) instalado.
 
 {% hint style="info" %}
 
-**[Plazma 세계별 구성](configurations/plazma/world.md)에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
+**Em [Configurações do Mundo Plazma](configurations/plazma/world.md), é necessário ativar `no-chat-reports > require-install` para funcionar.**
 
 {% endhint %}
 
 ***
 
-[^1]: Operator.
+[^1]: Operador.
 
-[^2]: 예: `ender_dragon`
+[^2]: Exemplo: `ender_dragon`
