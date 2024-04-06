@@ -59,7 +59,7 @@ description: Dowiedz się, czym jest Plazma jako platforma serwerowa.
   Jest wybierana przez wielu widzów streamerów jako ich preferowana platforma.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Rzeczywisty trend użytkowania Plazmy">
 </a>
 
 ## ⬇️ Pobierz
