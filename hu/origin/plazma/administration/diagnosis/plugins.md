@@ -1,5 +1,5 @@
 ---
-description: 플러그인이 정상 작동하지 않을 때 해결하는 방법에 대해 알아보세요.
+description: Tudj meg többet arról, hogyan lehet megoldani, ha a bővítmény nem működik megfelelően.
 ---
 
-# ⏬ 플러그인
+# ⏬ Bővítmény
