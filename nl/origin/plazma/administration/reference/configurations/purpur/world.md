@@ -2,4 +2,4 @@
 description: Ontdek wat elke knoop in purpur.yml betekent.
 ---
 
-# 🦑 Purper (samenstelling per wereld)
+# 🦑 Purpur (세계별 구성)
