@@ -1,5 +1,5 @@
 ---
-description: Nếu có câu hỏi, vui lòng đặt câu hỏi thông qua Discord hoặc GitHub Issues.
+description: Nếu có câu hỏi, vui lòng đặt câu hỏi qua Discord hoặc Thảo luận trên GitHub.
 ---
 
 # 🏠 Chào mừng đến với Cổng Tài liệu
