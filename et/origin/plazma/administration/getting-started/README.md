@@ -159,8 +159,7 @@ Käivitatava faili nimi on `plazma-(versioonihaldur)-1.20.4-R0.1-SNAPSHOT-(kaard
 
 Plazma lihtsaks käivitamiseks ja serveri automaatseks taaskäivitamiseks peate looma [käivitusskripti](#user-content-fn-6).
 
-[Flags.sh](https://flags.sh) abil saate luua käivitusskripti.\
-Kui sisestate ainult [mälu, mida kasutada](#user-content-fn-8), optimeeritakse käsk automaatselt.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [loodud](#user-content-fn-7)[^7] saab [määrata](#user-content-fn-8)[^8] ainult mälu, mida kasutatakse Plazma puhul, ja käskude optimeerimine toimub automaatselt.
 
 Käivitusskripti saate alla laadida all vasakus allnurgas oleva nupu abil.\
 **Veenduge, et allalaaditud käivitusskript vastab teie operatsioonisüsteemile.**
@@ -189,7 +188,11 @@ Kui käivitate käivitusskripti, luuakse kausta `eula.txt` fail.
 
 EULA on [Mojang Studios](#user-content-fn-10) teenuste kasutamiseks vajalik litsentsileping, millega tuleb nõustuda.
 
-Kui te ei nõustu EULA-ga, ei saa serverit käivitada ja EULA rikkumise korral võidakse rakendada [karistusi](#user-content-fn-11).
+{% hint style="warning" %}
+
+Kui te ei nõustu, ei saa serverit käivitada ning EULA rikkumise korral võidakse rakendada [karistusi](#user-content-fn-11)[^11], nagu konto peatamine.
+
+{% endhint %}
 
 EULA nõustumiseks muutke `eula=false` failis `eula=true` ja salvestage see.
 
@@ -296,7 +299,7 @@ Kui server ja mäng töötavad samal arvutil, saate ühenduda aadressil `localho
 {% endtab %}
 {% endtabs %}
 
-## 7. Edasimineku etapp
+## 7. Edasi areneda
 
 Kui server on edukalt käivitatud ja töötab korralikult, on aeg seda kasutajapõhiseks muuta.
 
