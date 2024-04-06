@@ -15,19 +15,17 @@ description: 了解 Plazma 是什么样的服务器平台。
 
 ## ⚙️ 主要特点 <a href="#id-2" id="id-2"></a>
 
-1. **강력한 플러그인 생태계**\
-   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어,
-   인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
-2. **설정이 필요 없는 최적화**\
-   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며,
-   일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
-3. **원하는 대로 사용자화하는 게임**\
-   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을
-   수정할 수 있게 해줍니다.
-4. **안전하게 플레이하는 서버**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된
-   [Mojang](#user-content-fn-2)[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며,\
-   진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
+1. **强大的插件生态系统**\
+   基于[Paper](https://github.com/PaperMC/Paper)，
+   可下载的大多数[最新插件](#user-content-fn-1)[^1]在互联网上都能正常运行。
+2. **无需设置的优化**\
+   包含[Pufferfish](https://github.com/pufferfish-gg/Pufferfish)的所有补丁，
+   包含一些内置优化和模式，提供最佳性能。
+3. **按需定制的游戏**\
+   包含[Purpur](https://github.com/PurpurMC/Purpur)，可以修改游戏的整体属性。
+4. **安全游戏服务器**\
+   包含[No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)，可在1.19版本后禁用[Mojang](#user-content-fn-2)[^2]的[聊天举报系统](#user-content-fn-3)[^3]，\
+   完全删除诊断信息收集器，可以玩到无追踪的安全服务器。
 5. **最快的更新**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate)确保Plazma的内置补丁始终保持最新，为基于Paper的服务器平台提供最快的更新速度。
 6. **优化默认配置文件**\
@@ -45,24 +43,20 @@ description: 了解 Plazma 是什么样的服务器平台。
 
 ## ✨ 应用案例 <a href="#id-3" id="id-3"></a>
 
-- **복잡한 플러그인도 올바르게 처리하는 플랫폼**\
-  개발자 [IPECTER](https://github.com/IPECTER)의 서버에서 Plazma가 사용되고 있습니다.\
-  NMS와 리플렉션으로 작동하는 자체 플러그인, 복잡하고 방대한 크기의 데이터팩이 굉장히 많이 적용되어 있음에도,\
-  100명대 이상의 플레이어를 성능 하락 없이 받아들이고 있습니다.
-- **RPG 서버에서도 빠른 성능을 유지한 플랫폼**\
-  단일 클러스터에서 100명의 플레이어를 TPS 하락 없이 안정적으로 유지하였으며,\
-  4개의 클러스터에서 총 250명의 플레이어가 쾌적하게 플레이 할 수 있었습니다.
-- **청크/엔티티에서 빛을 보이는 플랫폼**\
-  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을
-  Purpur에서 Plazma로 변경하며 대부분의 지연을 줄일 수 있었습니다.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 첨여용 버킷으로 선택받아 사용되고 있습니다.
+- **能正确处理复杂插件的平台**\
+  由开发者[IPECTER](https://github.com/IPECTER)的服务器使用Plazma。\
+  使用NMS和反射运行的自制插件，应用了复杂和庞大的数据包，即使有100多名玩家，也能保持性能稳定。
+- **在RPG服务器上保持快速性能的平台**\
+  在单个集群中，保持100名玩家的TPS稳定，
+  在4个集群中，总共250名玩家可以愉快地游玩。
+- **在区块/实体上显示光芒的平台**\
+  将Survival服务器的平台从Purpur更改为Plazma，减少了大部分延迟，用于处理区块和实体。
+- **许多流媒体选择的平台**\
+  被许多流媒体观众所选择，用作观看的桶。
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>实时Plazma用户趋势</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ 下载
 
