@@ -15,14 +15,18 @@ description: Erfahren Sie mehr über Plazma als Serverplattform.
 
 ## ⚙️ Hauptmerkmale <a href="#id-2" id="id-2"></a>
 
-1. **Starke Plugin-Ökologie**\
-   Dank der Basis von [Paper](https://github.com/PaperMC/Paper) funktionieren die meisten im Internet verfügbaren [aktuellen Plugins](#user-content-fn-1)[^1] einwandfrei.
-2. **Optimierte Konfiguration ohne Setup**\
-   Alle Patches von [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) sind enthalten und bieten optimale Leistung durch interne Optimierungen und integrierte Mods.
-3. **Anpassbares Spiel nach Ihren Wünschen**\
-   [Purpur](https://github.com/PurpurMC/Purpur) in Plazma ermöglicht die Änderung der allgemeinen Spielattribute.
+1. **Starke Plugin-Ökosystem**\
+   [Basiert auf Paper](https://github.com/PaperMC/Paper),
+   sodass die meisten [aktuellen Plugins](#user-content-fn-1)[^1] aus dem Internet ordnungsgemäß funktionieren.
+2. **Keine Konfiguration erforderlich**\
+   [Alle Pufferfish-Patches](https://github.com/pufferfish-gg/Pufferfish) sind enthalten,
+   mit einigen internen Optimierungen und Modifikationen für beste Leistung.
+3. **Spiel nach Belieben anpassen**\
+   [Purpur in Plazma enthalten](https://github.com/PurpurMC/Purpur), ermöglicht die Anpassung
+   der allgemeinen Eigenschaften des Spiels.
 4. **Sicherer Spielserver**\
-   [Keine Chat-Berichte](https://github.com/Aizistral-Studios/No-Chat-Reports) sind enthalten, sodass ab 1.19 das hinzugefügte [Mojang](#user-content-fn-2)[^2] [Chat-Meldesystem](#user-content-fn-3)[^3] deaktiviert werden kann und der Diagnose-Informationssammler vollständig entfernt wird, um auf einem sicheren Server ohne Verfolgung spielen zu können.
+   [Keine Chat-Berichte](https://github.com/Aizistral-Studios/No-Chat-Reports) sind ab Version 1.19 enthalten, um das [Chat-Meldesystem](#user-content-fn-3)[^3] von [Mojang](#user-content-fn-2)[^2] zu deaktivieren,\
+   damit der Diagnoseinformationscollector vollständig entfernt wird und Sie auf einem sicheren Server ohne Verfolgung spielen können.
 5. **Schnellste Updates**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) sorgt dafür, dass die enthaltenen Patches von Plazma immer auf dem neuesten Stand gehalten werden und somit die schnellsten Updates unter den auf Paper basierenden Serverplattformen bietet.
 6. **Optimierte Standardkonfigurationsdateien**\
@@ -41,13 +45,16 @@ description: Erfahren Sie mehr über Plazma als Serverplattform.
 ## ✨ Anwendungsfälle <a href="#id-3" id="id-3"></a>
 
 - **Plattform, die auch komplexe Plugins richtig verarbeitet**\
-  Plazma wird auf dem Server des Entwicklers [IPECTER](https://github.com/IPECTER) verwendet. Mit eigenen Plugins, die mit NMS und Reflexion arbeiten, und einer Vielzahl komplexer Datapacks kann die Plattform problemlos mehr als 100 Spieler ohne Leistungsabfall bewältigen.
-- **Plattform mit schneller Leistung auch in RPG-Servern**\
-  In einem einzigen Cluster konnten 100 Spieler ohne TPS-Verlust stabil gehalten werden, und auf 4 Clustern konnten insgesamt 250 Spieler angenehm spielen.
-- **Plattform, die im Chunk/Entity-Bereich leuchtet**\
-  Durch den Wechsel von Purpur zu Plazma auf einem Survival-Server, bei dem es zu Verzögerungen bei der Verarbeitung von Chunks und Entities kam, konnten die meisten Verzögerungen reduziert werden.
-- **Von vielen Streamern gewählte Plattform**\
-  Die Plattform wird von vielen bekannten Streamern als Bucket für ihre Zuschauer verwendet.
+  Wird auf dem Server des Entwicklers [IPECTER](https://github.com/IPECTER) verwendet.\
+  Eigenes Plugin, das mit NMS und Reflexion funktioniert, mit umfangreichen und komplexen Datapacks,\
+  um mehr als 100 Spieler ohne Leistungsabfall zu bewältigen.
+- **Plattform, die auch auf RPG-Servern eine schnelle Leistung beibehält**\
+  Es konnte die Stabilität von 100 Spielern in einem einzelnen Cluster ohne TPS-Abfall aufrechterhalten werden,\
+  und insgesamt 250 Spieler konnten auf 4 Clustern angenehm spielen.
+- **Plattform, die Licht in Chunk/Entity zeigt**\
+  Durch den Wechsel von Purpur zu Plazma für den Server eines Survival-Servers, der zuvor Verzögerungen beim Verarbeiten von Chunks und Entities hatte, konnten die meisten Verzögerungen reduziert werden.
+- **Plattform, die von vielen Streamern gewählt wird**\
+  Wird als bevorzugter Eimer für die Zuschauer vieler Streamer ausgewählt und verwendet.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
