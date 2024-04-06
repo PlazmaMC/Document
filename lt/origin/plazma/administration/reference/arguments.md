@@ -6,7 +6,7 @@ description: Sužinokite apie pradinį argumentą ir sistemos savybes.
 
 Pradinis kintamasis ir sistemos savybės yra reikšmės, pridedamos prie [komandos naudojamos Plazma](#user-content-fn-1)[^1] vykdymo, leidžiančios pakeisti nekeičiamą reikšmę po Plazmos vykdymo.
 
-Priklausomai nuo [pridėjimo vietos prie komandos](#user-content-fn-2)[^2], jie suskirstomi į **pradinį argumentą** ir **sistemos savybes**.
+\[Pagal **pradinius parametrus** ir **sistemos savybes** bus suskirstyta pagal [komandos papildymo vietą](#user-content-fn-2)[^2].
 
 ***
 
@@ -35,13 +35,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` nurodo, kad ši reikšmė yra specialus argumentas, pridėtas prie Plazmos, o
 
-jei neįvedate jokios reikšmės, ji bus fiksuota kaip [`true`.](#user-content-fn-3)[^3]
+Jei į savybes neįvedate jokios vertės, vertė bus nustatyta kaip [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Paperweight serijos serverių platforma, norėdama atskirti kiekvienos platformos sistemos savybes, į savybės pavadinimą įtraukia `.`**
 
-Kai kuriuose terminaluose, pvz., Windows Powershell, gali būti, kad šie argumentai nebus priimami, todėl argumentų gale reikia pridėti `"` [žr. pridėjimo instrukcijas.](#user-content-fn-4)[^4]
+Kai kuriose terminalo programose, pvz., Windows PowerShell, šie parametrai gali būti neleidžiami, todėl parametrų galuose reikia pridėti `"` [prieš](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -132,7 +132,7 @@ Tai įrašo visus neteisingus kaukių blokus žemėlapyje kartu su jų vietomis.
 - **Formatas**: `Logiškas`
 - **Numatytasis**: `Neteisinga`
 
-Išjungia 128 įskiepių kanalų ribojimą vienam žaidėjui.
+Išjungia 128 įskaitomųjų įskiepių [kanalų](#user-content-fn-5)[^5] skaičiaus apribojimą vienam žaidėjui.
 
 #### `Paper.disableClassPrioritization`
 
@@ -186,7 +186,7 @@ Visos su tuo susijusios problemos yra jūsų atsakomybė, o Plamza nepateiks jok
 - **Formatas**: `Sveikas skaičius`
 - **Numatytasis**: `64`
 
-Nustato įskiepių kanalų pavadinimo ribą.
+Nustato įskiepių [kanalų](#user-content-fn-5)[^5] pavadinimo apribojimą.
 
 #### `Paper.maxSignLength`
 
@@ -218,7 +218,7 @@ Tai naudinga tik tais atvejais, kai reikia atnaujinti didžiulius kiekvieno ruo�
 
 Jei žaidėjas neperduoda jokių duomenų per nustatytą laiką (sekundėmis), jis bus išmestas iš žaidimo.
 
-Paprastai žaidimas[^7] tęsia siųsti [širdies plakimo signalą](#user-content-fn-8)[^8] į serverį, todėl [neišmestas,](#user-content-fn-9)[^9] bet jei žaidimas neatsako, jis laikomas susidūrus ir serveris daugiau nebeapdoroja žaidėjo ir išmeta jį.
+Įprastai, [žaidimas](#user-content-fn-7)[^7] nuolat siunčia [širdies plakimo signalus](#user-content-fn-8)[^8] į serverį, todėl, jei žaidimas neatsako, jis laikomas susidūrusiu ir toliau nebeapdoroja žaidėjų serverio pusėje, bet juos išmeta.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -291,7 +291,7 @@ Aktyvavus, serveris tampa greitesnis ir saugesnis, tačiau gali būti užblokuot
 - **Formatas**: `Logiškas`
 - **Numatytasis**: `false`
 
-Slopina įspėjimą[^11], rodomą, kai inicijuojamas Plazma atkūrimas.
+Slopina pranešimą, kuris rodomas, kai Plazma inicijuojama [įspėjimas](#user-content-fn-11)[^11].
 
 ### Nebenaudojamas atributas <a href="#id-1.3" id="id-1.3"></a>
 
