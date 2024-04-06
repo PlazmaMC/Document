@@ -19,7 +19,7 @@ Als je een platform onder 1.19.4 zoekt, gebruik dan [Fusion (`1.19.2 ~ 1.19.3`)]
 
 ![릴리스 대기중][wtr]![개발중](https://badge.plazmamc.org/1/개발중)![지원중](https://badge.plazmamc.org/2/지원중)![기능 지원 중단](https://badge.plazmamc.org/6/기능%20지원%20중단)![지원 종료](https://badge.plazmamc.org/4/지원%20종료)
 
-|                                         버전                                        | Stabiliteit en functionaliteit ondersteuning |                                             Buildstatus                                             |
+|                                       Versie                                      | Stabiliteit en functionaliteit ondersteuning |                                             Buildstatus                                             |
 | :-------------------------------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |         ![Release in afwachting][wtr]        |                                    ![Release in afwachting][wtr]                                    |
 | [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |         ![Heel goed][vgd]![100%][100]        | [![Bouwstatus](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
