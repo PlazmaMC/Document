@@ -27,7 +27,7 @@ Plazma adalah platform server rasmi Mojang Studios yang [berasaskan](#user-conte
 
 Untuk memeriksa sama ada JRE dipasang dalam sistem, masukkan [`cmd /k java --version`](#user-content-fn-4)[^4] dalam [tetingkap run](#user-content-fn-3)[^3] dan jalankan.
 
-Jika output adalah seperti berikut, langkau ke [langkah 2](setup.md#id-2).
+Apabila dipaparkan seperti berikut, melompat ke [Langkah 2](#id-2).
 
 {% code title="Output yang betul" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Jika output tidak seperti di atas, atau seperti di bawah, bermakna tiada JRE atau terlalu lama; oleh itu, lakukan [langkah 1.2](setup.md#id-1.2).
+Jika tidak dipaparkan seperti di atas, atau dipaparkan seperti di bawah, JRE tidak ada atau terlalu lama, oleh itu, anda perlu melakukan [Langkah 1.2](#id-1.2).
 
 {% code title="JRE tidak dipasang" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 Pemasangan JRE
 
-Dalam panduan ini, kami akan menggunakan Azul Zulu sebagai [satu dari jenis](#user-content-fn-5)[^5] JRE.
+Dalam dokumen ini, Azul Zulu digunakan sebagai [salah satu jenis](#user-content-fn-5)[^5] JRE.
 
-Selepas pemasangan, sila jalankan semula [Langkah 1.1](setup.md#id-1.1) untuk memastikan pemasangan telah berjaya.
+Selepas pemasangan selesai, periksa semula dengan melakukan [Langkah 1.1](#id-1.1) untuk memastikan pemasangan berjaya dilakukan.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma menyediakan pelbagai jenis fail eksekusi.
 
 **Kebanyakan kes menggunakan `Reobf Paperclip`.**
 
-Kandungan di bawah adalah untuk mereka yang ingin mengetahui tentang pembangun atau ciri-ciri setiap jenis.\
-Jika anda pengguna biasa, anda boleh terus ke [Langkah 3](setup.md#id-3) tanpa sebarang masalah.
+Kandungan di bawah adalah untuk mereka yang ingin mengetahui tentang pembangun atau ciri-ciri setiap bentuk.\
+Jika anda pengguna biasa, anda boleh melangkau ke [Langkah 3](#id-3) tanpa masalah.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ Untuk bersetuju dengan EULA, ubah `eula=false` kepada `eula=true` dalam fail `eu
 
 Sistem operasi moden secara asasnya menghalang akses luaran melalui **firewall** dan **router** untuk melindungi daripada akses berbahaya.
 
-Untuk Windows, kerana anda telah membenarkan dalam [Langkah 3](setup.md#id-3), anda hanya perlu melakukan penerusan port.
+Untuk Windows, firewall telah dibenarkan pada [Langkah 3](#id-3), jadi anda hanya perlu meneruskan port.
 
 {% hint style="info" %}
 
-**Panduan ini diasaskan pada sistem operasi Windows dan [UPnP](#user-content-fn-12)[^12] serta router yang boleh digunakan.**
+**Dokumen ini diasaskan atas asumsi penggunaan sistem operasi Windows dan router yang boleh menggunakan [UPnP](#user-content-fn-12)[^12].**
 
 Jika router anda tidak menyokong UPnP, anda perlu mencari maklumat mengikut panel router yang berbeza.
 
@@ -303,7 +303,7 @@ Jika pelayan dan permainan dijalankan pada PC yang sama, anda boleh menyambung m
 
 Setelah berjaya memulakan pelayan dan pelayan berfungsi dengan betul, kini tiba masanya untuk menyesuaikan pelayan.
 
-Ketahui cara untuk menyesuaikan pelayan melalui panduan di bawah.
+Terokai cara untuk menyesuaikan penggunaan pelayan melalui dokumen di bawah.
 
 {% content-ref url="langkah-seterusnya.md" %}
 [langkah-seterusnya.md](langkah-seterusnya.md)
