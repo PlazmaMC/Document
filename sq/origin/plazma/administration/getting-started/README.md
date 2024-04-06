@@ -7,11 +7,11 @@ description: Mësoni si të krijoni një server me Plazma.
 Për të përdorur Plazma-n në mënyrë stabile, sistemi duhet të plotësojë këto kërkesa:
 
 |                     | Minimumi | Rekomanduar |
-| :-----------------: | -------: | ----------: |
-|     Arkitektura     |      x64 |           - |
-|         RAM         |      8GB |        16GB |
-| Hapësira e ruajtjes |      1GB |         8GB |
-|         JRE         |       17 |          21 |
+| :-----------------: | :------- | :---------- |
+|     Arkitektura     | x64      | -           |
+|         RAM         | 8GB      | 16GB        |
+| Hapësira e ruajtjes | 1GB      | 8GB         |
+|         JRE         | 17       | 21          |
 
 Për të bërë ndryshime të lehta në dosjet e konfigurimit, është gjithashtu e mirë të instaloni një redaktues si [Visual Studio Code](https://code.visualstudio.com/download).
 
