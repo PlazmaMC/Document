@@ -4,7 +4,7 @@ description: Ketahui tentang argumen permulaan dan sifat sistem.
 
 # 🎛️ Argumen dan Sifat
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Permulaan dan sifat sistem adalah nilai tambahan kepada [perintah yang digunakan](#user-content-fn-1)[^1] dalam pelaksanaan Plazma, yang memberi kesan keseluruhan kepada operasi Plazma.
 
 [Posisi yang dilampirkan pada arahan](#user-content-fn-2)[^2] akan dibahagikan kepada **Argumen Permulaan** dan **Sifat Sistem**.
 
