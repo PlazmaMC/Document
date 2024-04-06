@@ -4,7 +4,7 @@ description: Scopri gli argomenti di avvio e le proprietà di sistema.
 
 # 🎛️ Argomenti di avvio e proprietà
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Gli argomenti di avvio e le proprietà di sistema sono valori aggiunti al comando utilizzato per l'esecuzione di Plazma, che influenzano globalmente il funzionamento di Plazma.
 
 In base alla posizione a cui si aggiungono i comandi (fn-2), verranno divisi in **argomento iniziale** e **attributi di sistema**.
 
