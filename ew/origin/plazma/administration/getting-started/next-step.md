@@ -2,7 +2,7 @@
 description: Learn how to customize the server.
 ---
 
-# 📶 발전하기
+# 📶 Developing
 
 The reason for using a modified server platform like Plazma instead of the official server platform provided by Mojang Studios is that it allows for powerful **customization**.
 
@@ -115,7 +115,7 @@ so it is important to thoroughly test before updating the server.
 
 **After the server start command, you can enter `safeMode` to disable all datapacks and start the server.**
 
-Refer to `Reference > Arguments and Properties` for more details.
+[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -125,9 +125,11 @@ You can check the applied datapacks using the `/datapack list` command.
 
 ## Optimization <a href="#id-4" id="id-4"></a>
 
-Plazma has many optimization patches applied. Also, when Plazma starts for the first time, it automatically optimizes the configuration, so if you follow the [Getting Started](./README.md) guide, there is no need for additional optimization work.
+Plazma has many optimization patches applied. 또한, Plazma가 처음으로 시작되면 자동으로
+구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
 
-However, if many players connect or the size of the world is vast, additional optimization work can be done following the guide below.
+하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
+아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
