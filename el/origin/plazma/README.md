@@ -12,7 +12,7 @@ description: "Το Plazma είναι μια πλατφόρμα εξυπηρέτ�
 
 **Δεν μπορείτε να λύσετε το πρόβλημα μέσω του εγχειριδίου;**
 
-Ρωτήστε την κοινότητα μέσω του [επίσημου διακομιστή Discord](https://discord.gg/MmfC52K8A8) ή των [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ description: "Το Plazma είναι μια πλατφόρμα εξυπηρέτ�
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
