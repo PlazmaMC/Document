@@ -8,7 +8,7 @@ description: ¿sǝɹɹnɯ ǝɥʇ ǝɹoɯǝu ǝɥʇ ǝɥʇ
 
 **?oyan sɹǝʇuɐɹʇ uoǝlɹǝu ǝpɐuǝɹ uoǝuᴉlɐɯ ǝu**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
+!¡ǝlʇᴉɐɥɔ ǝɹɹɐp ɹǝʇɐɹǝɥɔ](https://discord.gg/MmfC52K8A8) ɹǝɥʇɐɯ ǝɥʇ ɹǝʇɐɹǝɥɔ](https://github.com/PlazmaMC/PlazmaBukkit/discussions)ǝ ʇnqǝɹ ǝɹɐɯǝɹ!
 
 {% endhint %}
 
