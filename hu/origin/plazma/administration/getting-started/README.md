@@ -27,7 +27,7 @@ Mivel a Plazma a Mojang Studios hivatalos szerverplatformján [alapul](#user-con
 
 Ha meg szeretnéd győződni arról, hogy a rendszeren telepítve van-e a JRE, írd be a Futtatás mezőbe a [`cmd /k java --version`](#user-content-fn-4)[^4] parancsot, majd nyomd meg az Enter billentyűt.
 
-Ha az alábbiakhoz hasonló eredményt kapsz, ugorj a [2. lépésre](setup.md#id-2).
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="Helyes kimenet" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-bites Szerver VM Zulu21.32+17-CA (verzió: 21.0.2+13-LTS, vegyes mód
 
 {% endcode %}
 
-Ha nem ez jelenik meg, vagy az alábbihoz hasonló, akkor nincs telepítve a JRE, vagy túl régi verzió van, tehát a [1.2. lépést](setup.md#id-1.2) kell végrehajtani.
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="JRE nincs telepítve" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Hiba: Végzetes kivétel történt. A program leáll.
 
 ### 1.2 JRE telepítése
 
-Ebben a kézikönyvben az Azul Zulu-t használjuk az JRE egyik [fajtájaként](#user-content-fn-5)[^5].
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Telepítés után ellenőrizd újra a [1.1. lépést](setup.md#id-1.1), hogy meggyőződj róla, hogy a telepítés sikeresen megtörtént.
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ A Plazma többféle futtatható fájlt kínál.
 
 **Általában a `Reobf Paperclip`-et használják.**
 
-Az alábbiak a fejlesztőknek vagy az egyes formák jellemzőivel kapcsolatos érdeklődőknek szólnak.\
-Átlagos felhasználók számára nem probléma kihagyni a [3. lépést](setup.md#id-3).
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -159,8 +159,8 @@ A futtatható fájl neve `plazma-(verzió kezelő)-1.20.4-R0.1-SNAPSHOT-(leképe
 
 A Plazmát egyszerűen elindíthatod és a szerver automatikusan újraindul, ha egy [indító szkriptet](#user-content-fn-6)[^6] hozol létre.
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+[Flags.sh](https://flags.sh) segítségével indító scriptet [hozhat létre](#user-content-fn-7)[^7].\
+Csak annyi [memóriát használjon](#user-content-fn-8)[^8] a Plazma-hoz, amennyit megad, és a parancs automatikusan optimalizálódik.
 
 A bal alsó sarokban lévő Letöltés gombbal töltheted le az indító szkriptet.\
 **Ellenőrizd, hogy a letöltött indító szkript megegyezik-e az operációs rendszereddel.**
@@ -191,7 +191,7 @@ Az EULA[^9] egy olyan felhasználási szerződés, amelyet elfogadnod kell a [Mo
 
 {% hint style="warning" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+Ha nem ért egyet, nem indíthatja el a szerverét, és megsértve az EULA-t, büntetéseket, például fiók felfüggesztést is kaphat.
 
 {% endhint %}
 
@@ -203,11 +203,11 @@ Az EULA elfogadásához módosítsd az `eula.txt` fájlban az `eula=false`-t `eu
 
 A modern operációs rendszerek alapértelmezetten blokkolják a külső hozzáférést a tűzfal és a router által, hogy megvédjenek a veszélyes hozzáférésektől.
 
-Windows esetén a tűzfalat már a [3. lépésben](setup.md#id-3) engedélyezted, tehát csak port forwardingra van szükség.
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
 
-**Ez a útmutató a Windows operációs rendszerre és az [UPnP](#user-content-fn-12)[^12]-támogatott routerekre vonatkozik.**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Ha a router nem támogatja az UPnP-t, vagy a router típusától függően eltérő lehet a panel, akkor magadnak kell keresned információkat.
 
@@ -300,11 +300,11 @@ Ha a szerver és a játék ugyanazon a PC-n fut, akkor a `localhost`-on kereszt�
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. Fejlődni
 
 Ha sikeresen elindította a szervert, és a szerver megfelelően működik, most a szerver testreszabásának ideje van.
 
-Ismerje meg, hogyan testresztheti a szervert az alábbi útmutató segítségével.
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% content-ref url="kovetkezo-lepes.md" %}
 [kovetkezo-lepes.md](kovetkezo-lepes.md)
