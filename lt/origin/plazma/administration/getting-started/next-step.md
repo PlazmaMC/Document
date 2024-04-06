@@ -114,7 +114,7 @@ todėl prieš atnaujinant serverį svarbu atlikti pakankamai testavimo.
 
 **Paleidus serverį, galima įvesti `safeMode` po serverio paleidimo komandos, kad išjungtumėte visus duomenų paketus ir tada paleisti serverį.**
 
-[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
+[Norėdami gauti išsamesnę informaciją, žr. `Nuorodos > Argumentai ir savybės`.](../reference/arguments.md#safemode)
 
 {% endhint %}
 
@@ -124,11 +124,9 @@ Pritaikytus duomenų paketus galima patikrinti naudojant komandą `/datapack lis
 
 ## Optimizavimas <a href="#id-4" id="id-4"></a>
 
-Plazmoje taikyta daug optimizavimo patobulinimų. 또한, Plazma가 처음으로 시작되면 자동으로
-구성을 최적화 하므로 [시작하기](./README.md) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
+Plazmoje taikyta daug optimizavimo patobulinimų. Be to, kai Plazma paleidžiamas pirmą kartą, jis automatiškai optimizuoja konfigūraciją, todėl jei laikotės [pradžios instrukcijų](./README.md), papildomo optimizavimo veiksmų atlikti nereikia.
 
-하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우,
-아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
+Tačiau jei prisijungia daug žaidėjų arba pasaulis yra labai didelis, galite atlikti papildomus optimizavimo veiksmus, vadovaudamiesi žemiau pateiktais instrukcijais.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
