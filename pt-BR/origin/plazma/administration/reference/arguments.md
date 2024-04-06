@@ -4,7 +4,8 @@ description: Descubra sobre os argumentos iniciais e as propriedades do sistema.
 
 # 🎛️ Argumentos e Propriedades
 
-Os argumentos iniciais e as propriedades do sistema são valores adicionados aos comandos usados na execução do Plazma, permitindo alterar valores que não podem ser modificados após a execução do Plazma.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [Posição anexada ao comando](#user-content-fn-2)[^2] irá dividir-se em **Argumento Inicial** e **Propriedades do Sistema**.
 
@@ -26,7 +27,8 @@ Se você não tem certeza sobre qual papel cada propriedade do sistema desempenh
 
 As propriedades do sistema são inseridas como argumentos Java entre `java` e `-jar`.
 
-Por exemplo, ao aplicar a propriedade do sistema `Plazma.dummyProperty`, ao inserir o valor `37`, o Plazma será inicializado com esse valor.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -185,7 +187,7 @@ Quaisquer problemas resultantes do uso dessa configuração são de responsabili
 - **Tipo**: `Integer`
 - **Valor Padrão**: `64`
 
-Define o limite de nomes de canais de plugin.
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
