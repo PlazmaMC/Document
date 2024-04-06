@@ -55,11 +55,9 @@ description: Zjistěte, o jakou serverovou platformu se jedná.
 - **Platforma vybraná mnoha streamery**\
   Je používána jako hlavní nástroj pro streamování mnoha streamery a jejich diváky.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Plazma uživatelů v reálném čase Trend</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ Stáhnout
 
