@@ -159,8 +159,8 @@ Namnet på den körbara filen är `plazma-(versionshanterare)-1.20.4-R0.1-SNAPSH
 
 För att enkelt starta Plazma och låta servern starta om automatiskt behöver du skapa ett [startskript](#user-content-fn-6)[^6].
 
-Du kan skapa startskriptet via [Flags.sh](https://flags.sh).\
-För Plazma, ange endast [minnesanvändning](#user-content-fn-8)[^8] och kommandot optimeras automatiskt.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Ladda ner startskriptet genom att klicka på nedladdningsknappen längst ner till vänster.\
 **Kontrollera att det nedladdade startskriptet matchar ditt operativsystem.**
@@ -189,7 +189,11 @@ När du har kört startskriptet en gång skapas en `eula.txt`-fil i mappen.
 
 EULA[^9] är ett användaravtal som måste godkännas för att använda [Mojang Studios](#user-content-fn-10)[^10] tjänster.
 
-Om du inte godkänner EULA kan du inte starta servern och om du bryter mot EULA kan du bli avstängd eller straffad på andra sätt [se här](#user-content-fn-11)[^11].
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 För att godkänna EULA, ändra `eula=false` till `eula=true` i `eula.txt` och spara ändringarna.
 
@@ -296,7 +300,7 @@ Om servern och spelet körs på samma dator kan du ansluta via `localhost`.
 {% endtab %}
 {% endtabs %}
 
-## 7. Utvecklingsfas
+## 7. 발전하기
 
 Om servern har startats framgångsrikt och fungerar korrekt, är det dags att anpassa servern efter dina behov.
 
