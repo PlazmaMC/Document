@@ -57,7 +57,7 @@ description: Erfahren Sie mehr über Plazma als Serverplattform.
   Wird als bevorzugter Eimer für die Zuschauer vieler Streamer ausgewählt und verwendet.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Echtzeit-Plazma-Benutzerentwicklung">
 </a>
 
 ## ⬇️ Download
