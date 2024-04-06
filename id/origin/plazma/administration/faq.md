@@ -8,7 +8,7 @@ description: Pelajari pertanyaan yang sering diajukan.
 
 **Tidak dapat menemukan jawaban yang Anda cari?**
 
-[Server Discord resmi](https://discord.gg/MmfC52K8A8) atau [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) untuk bertanya kepada komunitas!
+[Server Discord resmi](https://discord.gg/MmfC52K8A8) atau bertanya kepada komunitas melalui [Diskusi GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
