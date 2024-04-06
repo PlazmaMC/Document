@@ -6,7 +6,7 @@ description: Learn about startup arguments and system properties.
 
 Startup variables and system properties are values appended to the [commands used](#user-content-fn-1)[^1] in Plazma execution, allowing the values that cannot be changed after Plazma is executed to be changed.
 
-Depending on the [location where appended to the command](#user-content-fn-2)[^2], they are divided into **startup arguments** and **system properties**.
+According to the **start argument** and **system properties** divided by the position added to the command (#user-content-fn-2)[^2].
 
 ***
 
@@ -34,13 +34,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` indicates that the argument is an exclusive argument added to Plazma, not embedded in the JVM,
 
-and if no value is entered for the property, the value is fixed to [`true.`](#user-content-fn-3)[^3]
+If no value is entered for the property, the value is fixed to [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **The Paperweight server platform includes a `.` in the property name to distinguish system properties for each platform.**
 
-In some terminals like Windows Powershell, these arguments may not be allowed, so you should add `"` at both ends of the argument. [^4]
+In some terminals such as Windows Powershell, these arguments may not be allowed, so `"` should be added to both ends of the argument (#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -131,7 +131,7 @@ Logs all invalid skull blocks in the world with their locations.
 - **Type**: `Boolean`
 - **Default**: `False`
 
-Disables the limit of 128 plugin channels per player.
+Disable the limit of 128 plugin [channels](#user-content-fn-5)[^5] applied per player.
 
 #### `Paper.disableClassPrioritization`
 
@@ -185,7 +185,7 @@ Any issues caused by this are the user's responsibility, and Plamza does not pro
 - **Type**: `Integer`
 - **Default**: `64`
 
-Sets the limit for plugin channel names.
+Set the restriction on plugin [channel](#user-content-fn-5)[^5] names.
 
 #### `Paper.maxSignLength`
 
@@ -217,7 +217,7 @@ Enables processing of comments in YAML files.
 
 Kicks players if no data is received from them for the entered value (in seconds).
 
-Normally, the game[^7] continuously sends [heartbeat signals](#user-content-fn-8)[^8] to the server, so players are not kicked,
+In general, the [game](#user-content-fn-7)[^7] continues to send [heartbeat signals](#user-content-fn-8)[^8] to the server, so players are not [kicked,](#user-content-fn-9)[^9] but if the game does not respond, it is considered a crash and the server will no longer process the player and kick them.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -290,7 +290,7 @@ Activating it makes the server faster and safer, but it may block some gimmicks 
 - **Type**: `Boolean`
 - **Default**: `false`
 
-Suppresses the warning[^11] displayed when Plazma is initialized.
+Suppress the warning message displayed when Plazma is initialized (#user-content-fn-11)[^11].
 
 ### Obsolete attribute <a href="#id-1.3" id="id-1.3"></a>
 
