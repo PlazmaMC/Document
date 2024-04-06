@@ -8,7 +8,7 @@ description: Leer meer over veelgestelde vragen.
 
 **Kunt u het gewenste antwoord niet vinden?**
 
-Stel uw vragen aan de community via de [officiële Discord-server](https://discord.gg/MmfC52K8A8) of [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+Stel je vragen aan de community via de [officiële Discord-server](https://discord.gg/MmfC52K8A8) of [GitHub-discussies](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
