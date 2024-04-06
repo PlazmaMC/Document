@@ -55,7 +55,7 @@ description: Aflați mai multe despre platforma de servere Plazma.
   Este folosit ca un bucket preferat pentru vizionarea de către mulți spectatori ai streamerilor.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="Tendința utilizatorilor Plazma în timp real">
 </a>
 
 ## ⬇️ Descărcare
