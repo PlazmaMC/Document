@@ -19,7 +19,7 @@ Se estiver procurando por plataformas abaixo da versão 1.19.4, utilize [Fusion 
 
 ![릴리스 대기중][wtr]![개발중](https://badge.plazmamc.org/1/개발중)![지원중](https://badge.plazmamc.org/2/지원중)![기능 지원 중단](https://badge.plazmamc.org/6/기능%20지원%20중단)![지원 종료](https://badge.plazmamc.org/4/지원%20종료)
 
-|                                         버전                                        | Estabilidade    e    suporte de funcionalidades |                                              Estado de compilação                                             |
+|                                       Versão                                      | Estabilidade    e    suporte de funcionalidades |                                              Estado de compilação                                             |
 | :-------------------------------------------------------------------------------: | :---------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
 |                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |          ![Aguardando lançamento][wtr]          |                                         ![Aguardando lançamento][wtr]                                         |
 | [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |          ![Muito bom][vgd]![100%][100]          | [![Estado de construção](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
