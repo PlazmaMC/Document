@@ -159,7 +159,8 @@ Il nome del file eseguibile è `plazma-(versione manager)-1.20.4-R0.1-SNAPSHOT-(
 
 Per avviare rapidamente Plazma e riavviare automaticamente il server, è necessario creare uno [script di avvio](#user-content-fn-6).
 
-Puoi generare lo script di avvio tramite [Flags.sh](https://flags.sh). Inserisci solo la [memoria da utilizzare](#user-content-fn-8) per Plazma e il comando verrà ottimizzato automaticamente.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Puoi scaricare lo script di avvio facendo clic sul pulsante di download in basso a sinistra.\
 **Assicurati che lo script di avvio scaricato sia compatibile con il tuo sistema operativo.**
@@ -188,7 +189,11 @@ Dopo aver eseguito lo script di avvio una volta, verrà creato un file `eula.txt
 
 L'EULA[^9] è un accordo di licenza che devi accettare per utilizzare i servizi di [Mojang Studios](#user-content-fn-10).
 
-Se non accetti l'EULA, non potrai avviare il server e potresti subire sanzioni come la sospensione dell'account in caso di violazione \[^(#user-content-fn-11)].
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Per accettare l'EULA, modifica `eula=false` in `eula=true` nel file `eula.txt` e salva le modifiche.
 
@@ -295,7 +300,7 @@ Se il server e il gioco sono eseguiti sullo stesso PC, è possibile connettersi 
 {% endtab %}
 {% endtabs %}
 
-## 7. Fase successiva
+## 7. 발전하기
 
 Se il server è stato avviato con successo e funziona correttamente, è ora il momento di personalizzarlo.
 
