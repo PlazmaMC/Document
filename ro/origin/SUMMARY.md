@@ -19,7 +19,7 @@
     - [🖥️ Comenzi](plazma/administration/reference/commands.md)
     - [🛡️ Permisiuni](plazma/administration/reference/permissions.md)
     - [🎛️ Argumente și Atribute](plazma/administration/reference/arguments.md)
-    - [📋 구성](plazma/administration/reference/configurations/README.md)
+    - [📋 Configurație](plazma/administration/reference/configurations/README.md)
       - [🪨 Proprietate](plazma/administration/reference/configurations/property.md)
       - [🪣 Bukkit](plazma/administration/reference/configurations/bukkit.md)
       - [🚰 Spigot](plazma/administration/reference/configurations/spigot.md)
