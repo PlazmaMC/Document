@@ -4,7 +4,8 @@ description: Mësoni për argumentet fillestare dhe përkatësitë e sistemit.
 
 # 🎛️ Argumentet dhe përkatësitë
 
-Argumentet fillestare dhe përkatësitë e sistemit janë vlera shtesë që shtohen në [komandën e përdorur për ekzekutimin e Plazma-së](#user-content-fn-1)[^1], duke lejuar ndryshimin e vlerave të pa ndryshueshme pas ekzekutimit të Plazma-së.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [Pozicioni i shtimit të komandës](#user-content-fn-2)[^2] ndahet në **argumentin fillestar** dhe **tiparet e sistemit** sipas pozicionit të shtimit të komandës.
 
@@ -26,8 +27,8 @@ Nëse nuk e dini qartë se çfarë rol luajnë atributet e çdo sistemi, **mos i
 
 Përkatësitë e sistemit vendosen si argumente Java midis `java` dhe `-jar`.
 
-Për shembull, nëse dëshironi të aplikoni përkatësinë e sistemit `Plazma.dummyProperty`,\
-duke e vendosur si më poshtë, vlera `37` do të vendoset si përkatësi tjetër dhe Plazma do të inicializohet me këtë vlerë.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -186,7 +187,7 @@ Kjo mund të shkaktojë dëmtim të përhershëm të skedarëve të botës dhe s
 - **Forma**: `Integer`
 - **Vlera parazgjedhëse**: `64`
 
-Vendos kufirin e emrit të [kanalit të plugin-it](#user-content-fn-5)[^5].
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
