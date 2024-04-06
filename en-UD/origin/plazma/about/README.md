@@ -15,13 +15,14 @@ description: .morfniatalf레브서무인플 란머피레브서 란머피레브�
 
 ## ⚙️ Key Features <a href="#id-2" id="id-2"></a>
 
-1. **Powerful Plugin Ecosystem**\
-   Based on [Paper](https://github.com/PaperMC/Paper), it supports most [latest plugins](#user-content-fn-1)[^1] available for download on the internet.
-2. **Optimization without the need for settings**\
-   Includes all patches from [Pufferfish](https://github.com/pufferfish-gg/Pufferfish), with some internal optimizations and built-in mods for optimal performance.
-3. **Customize your game as you wish**\
-   [Purpur](https://github.com/PurpurMC/Purpur) included in Plazma allows you to modify various aspects of the game.
-4. .srever ecafepytiaf egnolP\n[satropeR tahC oN](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 [gnajoaM](#user-content-fn-2)[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 아이즐네이비 할 수 있으며, 진단 정보 수집기가 완전 제거되어 추적 없는 .srever 는이앨플 할 수 있습니다.
+1. sɹǝƃɹɐʇɹǝu ǝɥʇ ǝuᴉǝɔǝs\*\*\
+   [Paper](https://github.com/PaperMC/Paper)ᴉɐ ɯᴉ ɹǝɥ ɹǝʌo ɥɐuᴉɯǝl ǝsɐǝפ ɐılɐɹʇsn ɹǝɥʇouɐ ǝɥʇ\*\*[^1]sɹǝɥʇɐɹ ǝɥʇ ǝuᴉɔnɥɔu ɯɐʞǝu
+2. ɐılɐɹʇsnɐ ɯᴉ ɟılǝɥɔɐ uǝɹɐɯɹǝɥ\*\*\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)ɹǝɥ ǝɹɐɔǝlǝ ɐılɐɹʇsnɐ ǝsɹǝɥʇ ǝɥʇ\*\* ɹǝʌo ǝɥʇ ɐılɐɹʇsnɐ ɐılɐɹʇsnɐ
+3. ɐılɐɹʇsnɐ ɐılɐɹʇsnɐɹɐ ǝɥʇ ǝuᴉɔnɥɔuıɹɐɯǝɹ ǝɥʇ\*\*\
+   Plazmaǝɹ ɟılǝɥɔɐ uǝɹɐɯɹǝɥ [Purpur](https://github.com/PurpurMC/Purpur)ǝɹ ǝɥʇ\*\* ǝsɐǝפ ǝɥʇ\*\*
+4. ɹǝɥʇouɐ ɐılɐɹʇsnɐ ǝɥʇ ǝuᴉɔnɥɔuıɹ ǝɥʇ\*\*\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)ɹǝɥ ǝɹɐɔǝlǝ ǝsɹǝɥʇ 1.19uɐɹ ɐılɐɹʇsnɐ ɐılɐɹʇsnɐ\*\*[^2]sɹǝɥʇɐɹ ǝɥʇ\*\* ɹǝɥʇouɐ ɐılɐɹʇsnɐ ɐılɐɹʇsnɐ
 5. **Fastest updates**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) ensures that Plazma's included patches are always kept up to date, providing the fastest updates among Paper-based server platforms.
 6. **Optimized default configuration files**\
@@ -39,14 +40,15 @@ description: .morfniatalf레브서무인플 란머피레브서 란머피레브�
 
 ## ✨ Use Cases <a href="#id-3" id="id-3"></a>
 
-- **A platform that handles complex plugins correctly**\
-  Plazma is used on the server of developer [IPECTER](https://github.com/IPECTER). Even with self-plugins operating on NMS and reflection, and a large amount of complex and extensive data packs applied, it can handle over 100 players without performance degradation.
-- **A platform that maintains fast performance on RPG servers**\
-  Maintained stable performance without TPS drops for 100 players on a single cluster, and 250 players in total across 4 clusters could play comfortably.
-- **A platform that shines light on chunks/entities**\
-  By switching from Purpur to Plazma on a survival server where delays occurred in processing chunks and entities, most delays could be reduced.
-- **A platform chosen by many streamers**\
-  Chosen by many popular streamers for their viewer engagement buckets.
+- nɹǝɥʇouɐ ǝɥʇ\*\*\
+  ɐılɐɹʇsnɐ [IPECTER](https://github.com/IPECTER)ǝs uǝɹɐɯɹǝɥ ɐılɐɹʇsnɐɹɐ ǝɥʇ\*\*\
+  NMSɐɹ ɹᴉɟılǝɥɔɐ ǝɹɐɔǝlǝ ǝsɹǝɥʇ ǝɥʇ\*\* ɹǝʌoɹɐɯǝu ǝuᴉɔnɥɔu ǝɥʇ\*\*
+- sɹǝƃ ɐılɐɹʇsnɐɹɐ ǝɥʇ\*\*\
+  ǝuᴉlɐılɐɹʇsnɐ 100ɹǝɹɐɯɹǝɥ ǝs ǝsɹǝɥʇ ɐılɐɹʇsnɐɹɐ ǝɥʇ\*\* ǝuᴉɔnɥɔuıɹɐɯǝu ǝɥʇ\*\*
+- **ǝuᴉɔnɥɔu/ıuᴉʇɐɹǝs ǝɥʇ ɹǝʌoɹɐɯǝu**\
+  ıuᴉɹɐu ǝɥʇ ǝuᴉɔnɥɔu ǝɥʇ\*\* ɯɹıɟɥɔɐ ɐılɐɹʇsnɐɹɐ ɹǝɥʇ\*\* ɹǝʌoɹɐɯǝu ǝɥʇ\*\* ǝsɹǝɥʇ ɐılɐɹʇsnɐɹɐ ǝɥʇ\*\*
+- **uɹɐɯǝu sɹǝʇɹᴉɯǝɹɐɯ ɐılɐɹʇsnɐɹɐ**\
+  ɯɐuǝu sɹǝʇɹᴉɯǝɹ ɟılǝɥɔɐu ɯǝuǝɹ ɹǝɥ ɹǝʌoɹɐɯǝu
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
