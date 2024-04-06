@@ -1,15 +1,15 @@
 ---
-description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법입니다.
+description: A konfiguráció a Plazma leg alapvetőbb testreszabási módja.
 ---
 
-# 📋 구성
+# 📋 Összetétel
 
 ***
 
-## 🪨 속성 <a href="#id-1" id="id-1"></a>
+## 🪨 Tulajdonság <a href="#id-1" id="id-1"></a>
 
-> 속성은 Minecraft에서 제공하는 가장 기초적인 구성 파일입니다.
-> 속성을 사용하면 게임의 기본적인 메커니즘을 변경할 수 있습니다.
+> A tulajdonság a Minecraft által biztosított alapvető összetételi fájl.
+> A tulajdonság segítségével megváltoztathatja a játék alapvető mechanizmusait.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -17,10 +17,10 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🪣 Bukkit 구성 <a href="#id-2" id="id-2"></a>
+## 🪣 Bukkit összetétel <a href="#id-2" id="id-2"></a>
 
-> Bukkit 구성은 Plazma에서 제공하는 가장 기초적인 구성 파일입니다.
-> Bukkit 구성을 사용하면 Minecraft 서버의 기본적인 메커니즘을 변경할 수 있습니다.
+> A Bukkit összetétel a Plazma által biztosított alapvető összetételi fájl.
+> A Bukkit összetétel segítségével megváltoztathatja a Minecraft szerver alapvető mechanizmusait.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -28,9 +28,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🚰 Spigot 구성 <a href="#id-3" id="id-3"></a>
+## 🚰 Spigot összetétel <a href="#id-3" id="id-3"></a>
 
-> Spigot 구성은 게임의 세부 메커니즘, 플레이어 처리, 명령어 등의 작동 및 메세지를 수정할 수 있게 합니다.
+> A Spigot összetétel lehetővé teszi a játék részletes mechanizmusainak, játékoskezelésének, parancsok módosítását és üzenetek módosítását.
 
 {% content-ref url="spigot.md" %}
 [spigot.md](spigot.md)
@@ -38,9 +38,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🛩️ Paper 구성 <a href="#id-4" id="id-4"></a>
+## 🛩️ Paper összetétel <a href="#id-4" id="id-4"></a>
 
-> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](#user-content-fn-1)[^1]을 활성화 할 수 있게 합니다.
+> A Paper összetétel lehetővé teszi a Plazma általános mechanizmusának módosítását és a különféle optimalizálások és sebezhetőségek kezelésének aktiválását.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
@@ -50,7 +50,7 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ## 🐡 Pufferfish <a href="#id-6" id="id-6"></a>
 
-> Pufferfish 구성은 Plazma의 월드와 엔티티의 처리를 변경할 수 있게 합니다.
+> A Pufferfish összetétel lehetővé teszi a Plazma világának és entitásainak kezelésének módosítását.
 
 {% content-ref url="pufferfish.md" %}
 [pufferfish.md](pufferfish.md)
@@ -58,9 +58,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## 🦑 Purpur 구성 <a href="#id-7" id="id-7"></a>
+## 🦑 Purpur összetétel <a href="#id-7" id="id-7"></a>
 
-> Purpur 속성은 게임의 전반적인 기본 데이터를 수정할 수 있게 합니다.
+> A Purpur tulajdonság lehetővé teszi a játék általános alapadatainak módosítását.
 
 {% content-ref url="purpur/" %}
 [purpur](purpur/)
@@ -68,9 +68,9 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ***
 
-## ✨ Plazma 구성 <a href="#id-8" id="id-8"></a>
+## ✨ Plazma összetétel <a href="#id-8" id="id-8"></a>
 
-> Plazma 구성은 Plazma의 기능을 사용자화 할 수 있게 합니다.
+> A Plazma összetétel lehetővé teszi a Plazma funkcióinak testreszabását.
 
 {% content-ref url="plazma/" %}
 [plazma](plazma/)
