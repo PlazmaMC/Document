@@ -2,4 +2,4 @@
 description: Zistite, čo znamená každý uzol v purpur.yml.
 ---
 
-# 🦑 Purpurová (svetová zložka)
+# 🦑 Purpur (세계별 구성)
