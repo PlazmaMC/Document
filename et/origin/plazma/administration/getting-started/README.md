@@ -27,7 +27,7 @@ Kuna Plazma põhineb Mojang Studiosi ametlikul serveriplatvormil [^2], tuleb Pla
 
 JRE olemasolu süsteemis saab kontrollida, sisestades ja käivitades [käsuaknas](#user-content-fn-3) [`cmd /k java --version`](#user-content-fn-4).
 
-Kui järgmine tulemus ilmub, liikuge [2. etappi](setup.md#id-2).
+Kui see kuvatakse järgmiselt, hüpatakse [2. etappi](#id-2) juurde.
 
 {% code title="Õige väljund" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Kui sellist tulemust ei kuvata või kuvatakse järgmine, siis JRE puudub või see on liiga vana ning tuleb järgida [1.2 etappi](setup.md#id-1.2).
+Kui seda ei kuvata ülalnimetatud viisil või kui kuvatakse allpool toodud viisil, puudub JRE või see on liiga vana ning tuleb teha [1.2 etapp](#id-1.2).
 
 {% code title="JRE pole installitud" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 JRE install
 
-Selles juhendis kasutatakse Azul Zulu JRE ühte tüüpi.
+Selles juhendis kasutatakse Azul Zulu'd JRE [ühe tüübina](#user-content-fn-5)[^5].
 
-Pärast installimist kontrollige uuesti [1.1 samm](setup.md#id-1.1), et veenduda, kas installimine õnnestus.
+Pärast installimist kontrollige, kas paigaldamine on lõpule viidud, tehes uuesti [1.1 etapp](#id-1.1).
 
 {% tabs %}
 
@@ -127,7 +127,7 @@ Plazma pakub mitmesuguseid käivitatavaid faile.
 **Enamikul juhtudel kasutatakse `Reobf Paperclip`-i.**
 
 Allpool olev teave on mõeldud arendajatele või neile, kes on huvitatud erinevate vormide omadustest.\
-Tavaline kasutaja võib [3. sammu](setup.md#id-3) vahele jätta ilma probleemideta.
+Tavalise kasutajana võite [3. etappi](#id-3) vahele jätta ilma probleemideta.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ EULA nõustumiseks muutke `eula=false` failis `eula=true` ja salvestage see.
 
 Kaasaegsed operatsioonisüsteemid blokeerivad vaikimisi välise juurdepääsu tulemüüri ja ruuteriga.
 
-Windowsi korral, kuna tulemüür on lubatud [3. etapis](setup.md#id-3), piisab ainult portide edastamisest.
+Windowsi puhul, kuna tulemüür on lubatud [3. etapis](#id-3), piisab ainult pordi edastamisest.
 
 {% hint style="info" %}
 
-**Käesolevas juhendis eeldatakse, et kasutatakse Windowsi operatsioonisüsteemi ja [UPnP](#user-content-fn-12)[^12]-ga ühilduvat ruuterit.**
+**See juhend on kirjutatud eeldusel, et kasutatakse Windowsi opsüsteemi ja ruuterit, mis toetab [UPnP](#user-content-fn-12)[^12].**
 
 Kui ruuter ei toeta UPnP-d, siis iga ruuteri paneel on erinev ja peate ise otsima teavet.
 
@@ -303,7 +303,7 @@ Kui server ja mäng töötavad samal arvutil, saate ühenduda aadressil `localho
 
 Kui server on edukalt käivitatud ja töötab korralikult, on aeg seda kasutajapõhiseks muuta.
 
-Tutvuge alloleva juhendiga, kuidas serverit kohandada.
+Tutvuge allpool oleva juhendiga, kuidas kohandada serverit.
 
 {% content-ref url="järgmine-samm.md" %}
 [järgmine-samm.md](järgmine-samm.md)
