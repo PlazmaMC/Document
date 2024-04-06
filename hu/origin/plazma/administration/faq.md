@@ -8,7 +8,7 @@ description: Ismerje meg a gyakran ismételt kérdéseket.
 
 **Nem találja a kívánt választ?**
 
-[Hivatalos Discord szerver](https://discord.gg/MmfC52K8A8) vagy [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) oldalon tegye fel kérdését a közösségnek!
+[Hivatalos Discord szerver](https://discord.gg/MmfC52K8A8) vagy a [GitHub Beszélgetések](https://github.com/PlazmaMC/PlazmaBukkit/discussions) segítségével kérdezz a közösségtől!
 
 {% endhint %}
 
