@@ -58,11 +58,9 @@ description: Scopri di più su cosa sia Plazma come piattaforma server.
 - **Piattaforma scelta da molti streamer**\
   Utilizzata come server Bucket preferito da molti spettatori degli streamer.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Tendenza degli utenti Plazma in tempo reale</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ Scarica
 
