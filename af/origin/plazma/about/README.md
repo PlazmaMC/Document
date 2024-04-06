@@ -21,8 +21,8 @@ description: Leer meer oor wat Plazma se bedienerplatform behels.
    Alle patches van [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) is ingesluit en dit bied die beste prestasie met 'n paar eie optimalisering en mods.
 3. **Pas die spel aan soos jy wil**\
    [Purpur](https://github.com/PurpurMC/Purpur) wat ingesluit is by Plazma, laat jou toe om die algehele eienskappe van die spel te wysig.
-4. **Speel veilig op die bediener**\
-   Met [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) ingesluit, kan jy die chat rapportering stelsel van Mojang[^2] wat bygevoeg is vanaf 1.19 deaktiveer en die diagnostiese inligting versamelaar word heeltemal verwyder om 'n veilige bediener sonder sporing te speel.
+4. **Veilige speelbediener**\
+   [Geen Chat Rapporten](https://github.com/Aizistral-Studios/No-Chat-Reports) is ingesluit en vanaf 1.19 kan [Mojang](#user-content-fn-2)[^2] se [Klets Rapportering Stelsel](#user-content-fn-3)[^3] gedeaktiveer word, en die diagnostiese inligtingversamelaar is heeltemal verwyder sodat jy op 'n spelerbediener sonder sporing veilig kan speel.
 5. **Die vinnigste opdaterings**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) sorg dat die patches van Plazma altyd op datum gehou word, wat die vinnigste opdaterings onder die Paper-gebaseerde bediener platforms bied.
 6. **Geoptimaliseerde standaard konfigurasie lêers**\
