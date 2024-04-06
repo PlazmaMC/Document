@@ -4,8 +4,8 @@ description: Ismerje meg a kezdő paramétereket és rendszer tulajdonságait.
 
 # 🎛️ Paraméterek és tulajdonságok
 
-A kezdő változók és rendszer tulajdonságok olyan értékek, amelyeket a Plazma futtatásához használt parancsokhoz fűznek,\
-és lehetővé teszik, hogy olyan értékeket módosítsanak, amelyeket a Plazma futása után nem lehet megváltoztatni.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [A **kezdeti argumentumokra** és a **rendszer tulajdonságokra** oszlik az **utasításokhoz hozzáadott helyzet** alapján](#user-content-fn-2)[^2].
 
@@ -27,8 +27,8 @@ Ha nem biztos abban, hogy az egyes rendszer tulajdonságok milyen szerepet tölt
 
 A rendszer tulajdonságok a `java` és a `-jar` közötti Java parancsparaméterként kerülnek megadásra.
 
-Például, ha alkalmazni kívánja a `Plazma.dummyProperty` rendszer tulajdonságot,\
-a következő módon adja meg, és a következő tulajdonságban `37` kerül be a Plazma inicializálásához.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -188,7 +188,7 @@ Minden ebből eredő problémáért Ön a felelős, és a Plamza nem nyújt tám
 - **Forma**: `Integer`
 - **Alapértelmezett**: `64`
 
-Beállítja a plugin [csatorna](#user-content-fn-5)[^5] nevének korlátait.
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
