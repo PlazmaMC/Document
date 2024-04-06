@@ -7,7 +7,7 @@ description: 了解启动参数和系统属性。
 启动变量和系统属性是附加到Plazma执行中使用的命令[^1]的值，\
 允许更改无法在Plazma执行后更改的值。
 
-根据[添加到命令的位置](#user-content-fn-2)[^2]，将分为**启动参数**和**系统属性**。
+[명령어에 덧붙이는 위치](#user-content-fn-2)[^2]에 따라 **시작 인수**와 **시스템 속성**으로 나뉘게 됩니다.
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D`表示该参数不是JVM内置的，而是添加到Plazma的专用参数，
 
-如果没有输入任何值，则该值将固定为[`true`。](#user-content-fn-3)[^3]
+속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정](#user-content-fn-3)[^3]됩니다.
 
 {% hint style="info" %}
 
 **Paperweight 系列伺服器平台為了區分每個平台的系統屬性，在屬性名稱中包含`.`。**
 
-由於某些終端機（如 Windows Powershell）可能不接受這些參數，因此在參數的兩端應該[添加`"`](#user-content-fn-4)[^4]
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야](#user-content-fn-4)[^4] 합니다.
 
 {% endhint %}
 
@@ -133,7 +133,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **类型**: `布尔值`
 - **默认值**: `False`
 
-禁用每个玩家的应用于128个插件频道[^5]的限制数。
+플레이어당 적용되는 128개의 플러그인 [채널](#user-content-fn-5)[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -187,7 +187,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **类型**: `整数`
 - **默认值**: `64`
 
-设置插件频道[^6]名称的限制。
+플러그인 [채널](#user-content-fn-5)[^5] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
@@ -219,7 +219,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 当玩家在输入值（秒）后未收到任何数据时，将踢出玩家。
 
-通常，游戏[^7]会继续向服务器发送[心跳信号](#user-content-fn-8)[^8]，因此[不会被踢出，](#user-content-fn-9)[^9]但如果游戏不响应，则被视为游戏崩溃并不再处理玩家并将其踢出。
+일반적인 경우, [게임](#user-content-fn-7)[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -292,7 +292,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **类型**: `布尔值`
 - **默认值**: `false`
 
-抑制在Plazma初始化時顯示的警告[^11]。
+Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을 억제합니다.
 
 ### 已停用屬性 <a href="#id-1.3" id="id-1.3"></a>
 
