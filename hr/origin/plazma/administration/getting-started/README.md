@@ -159,8 +159,8 @@ Naziv izvršne datoteke je `plazma-(verzija upravitelja)-1.20.4-R0.1-SNAPSHOT-(o
 
 Da biste jednostavno pokrenuli Plazmu i omogućili automatsko ponovno pokretanje poslužitelja, morate napraviti [skriptu za pokretanje](#user-content-fn-6)[^6].
 
-Možete generirati skriptu za pokretanje putem [Flags.sh](https://flags.sh).\
-Samo unesite količinu memorije koju želite koristiti za Plazmu i naredba će se automatski optimizirati.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [stvaranje](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [korištena memorija](#user-content-fn-8)[^8]samo unesite i naredba će se automatski optimizirati.
 
 Možete preuzeti skriptu za pokretanje klikom na donji desni gumb za preuzimanje.\
 **Provjerite je li preuzeta skripta za pokretanje kompatibilna s vašim operativnim sustavom.**
@@ -189,7 +189,11 @@ Nakon što jednom pokrenete skriptu za pokretanje, u mapi će se stvoriti `eula.
 
 EULA[^9] je ugovor o licenciranju koji morate prihvatiti koristeći usluge [Mojang Studios](#user-content-fn-10)[^10].
 
-Ako ne prihvatite EULA-u, nećete moći pokrenuti poslužitelj, a kršenje EULA-e može rezultirati sankcijama poput suspenzije računa i sličnoj [kazni.](#user-content-fn-11)[^11]
+{% hint style="warning" %}
+
+U slučaju da ne pristanete, nećete moći pokrenuti poslužitelj i možete biti podvrgnuti [sankcijama](#user-content-fn-11)[^11], kao što je suspenzija računa zbog kršenja EULA-e.
+
+{% endhint %}
 
 Za prihvaćanje EULA-e, promijenite `eula=false` u `eula=true` u datoteci `eula.txt` i spremite promjene.
 
@@ -296,7 +300,7 @@ Ako se server i igra izvršavaju na istom PC-ju, možete se povezati putem `loca
 {% endtab %}
 {% endtabs %}
 
-## 7. Stadij razvoja
+## 7. Rast
 
 Ako je server uspješno pokrenut i ispravno funkcionira, sada je vrijeme da prilagodite server prema svojim potrebama.
 
