@@ -26,3 +26,5 @@ description: "Plazma से समर्थित Minecraft: Java Edition सं
 | [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) |       ![महान][vgd]![100%][100]      | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
 | [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |       ![महान][vgd]![100%][100]      |                                           ![जानकारी नहीं][ukn]                                          |
 | [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |       ![महान][vgd]![100%][100]      |                                           ![जानकारी नहीं][ukn]                                          |
+
+***
