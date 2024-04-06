@@ -21,8 +21,8 @@ description: Aflați mai multe despre platforma de servere Plazma.
    Toate patch-urile de la [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) sunt incluse, iar unele optimizări interne și moduri sunt integrate pentru a oferi cea mai bună performanță.
 3. **Personalizarea jocului după bunul plac**\
    [Purpur](https://github.com/PurpurMC/Purpur) inclus în Plazma permite modificarea atributelor generale ale jocului.
-4. **Servere sigure pentru joc**\
-   Include [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) care dezactivează sistemul de raportare a chat-ului introdus de Mojang începând cu versiunea 1.19, eliminând complet colectorul de informații de diagnosticare pentru a oferi un mediu de joc sigur și fără urmărire.
+4. **Server care joacă în condiții de siguranță**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) este inclus pentru a dezactiva [Sistemul de raportare a chat-ului](#user-content-fn-3)[^3] adăugat începând cu versiunea 1.19 de la [Mojang](#user-content-fn-2)[^2], iar colectorul de informații de diagnosticare este complet eliminat pentru a juca pe un server sigur fără urmărire.
 5. **Cele mai rapide actualizări**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) asigură că patch-urile incluse în Plazma sunt întotdeauna actualizate, oferind cele mai rapide actualizări printre platformele de server bazate pe Paper.
 6. **Optimizarea fișierelor de configurare implicite**\
