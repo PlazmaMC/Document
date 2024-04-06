@@ -27,7 +27,7 @@ description: 請了解如何使用Plazma創建服務器。
 
 要檢查系統是否已安裝JRE，請在\[執行]視窗中輸入[`cmd /k java --version`](#user-content-fn-4)[^4]並運行。
 
-如果輸出如下，請跳至[第2步](setup.md#id-2)。
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="正確的輸出" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-如果輸出不符合上述要求，或者如下所示，則表示JRE不存在或者太舊，需要執行[1.2步驟](setup.md#id-1.2)。
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="未安裝JRE" lineNumbers="true" %}
 
@@ -61,9 +61,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 安裝JRE
 
-本指南將使用Azul Zulu作為JRE的一種[類型](#user-content-fn-5)[^5]。
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-安裝完成後，請重新執行[1.1步驟](setup.md#id-1.1)以確認安裝是否成功。
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -125,8 +125,8 @@ Plazma提供多種形式的執行文件。
 
 **在大多數情況下，使用`Reobf Paperclip`。**
 
-以下內容供開發人員或對各種形式感興趣的人參考。\
-如果是一般用戶，可以跳過到[第3步](setup.md#id-3)。
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -158,8 +158,7 @@ Plazma提供多種形式的執行文件。
 
 要簡單啟動Plazma並自動重新啟動服務器，需要創建[啟動腳本](#user-content-fn-6)[^6]。
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+透過[Flags.sh](https://flags.sh)可以使用指令自動優化生成[起始腳本](#user-content-fn-7)[^7]。只需輸入要在Plazma中使用的[記憶體](#user-content-fn-8)[^8]，指令將自動優化。
 
 通過左下角的下載按鈕下載啟動腳本。\
 **請確認下載的啟動腳本與您的操作系統相符。**
@@ -190,7 +189,7 @@ EULA[^9]是使用Mojang Studios的服務時必須同意的使用權協議。
 
 {% hint style="warning" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+如果不同意，將無法啟動伺服器，並可能受到[制裁](#user-content-fn-11)[^11]，例如暫停帳戶以違反EULA。
 
 {% endhint %}
 
@@ -202,11 +201,11 @@ EULA[^9]是使用Mojang Studios的服務時必須同意的使用權協議。
 
 現代操作系統通常會阻止外部訪問以防止危險訪問。
 
-對於Windows，由於在[第3步](setup.md#id-3)中已經允許防火牆，因此僅需進行端口轉發。
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
 
-**本指南假設您使用Windows操作系統和可以使用UPnP的路由器。**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 如果路由器不支持UPnP，則由於每個路由器的面板不同，您需要自行查找信息。
 
@@ -299,11 +298,11 @@ Windows IP配置
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. 發展
 
 如果伺服器成功啟動並正常運行，現在輪到您自定義伺服器了。
 
-通過以下指南了解如何自定義伺服器。
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
