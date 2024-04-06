@@ -159,8 +159,8 @@ Název spustitelného souboru je stanoven jako `plazma-(správce verzí)-1.20.4-
 
 Pro snadné spuštění Plazmy a automatické restartování serveru je nutné vytvořit [startovací skript](#user-content-fn-6)[^6].
 
-Pomocí [Flags.sh](https://flags.sh) lze vytvořit [startovací skript.](#user-content-fn-7)[^7]\
-Pro Plazmu stačí zadat [paměť k použití](#user-content-fn-8)[^8], příkaz se automaticky optimalizuje.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Startovací skript lze stáhnout pomocí tlačítka pro stažení v levém dolním rohu.\
 **Zkontrolujte, zda stažený startovací skript odpovídá vašemu operačnímu systému.**
@@ -189,7 +189,11 @@ Po jednom spuštění startovacího skriptu se vytvoří soubor `eula.txt` ve sl
 
 EULA[^9] je smlouva o licenci, kterou musíte přijmout k využívání služeb [Mojang Studios](#user-content-fn-10)[^10].
 
-Pokud nesouhlasíte s EULOU, nemůžete spustit server a porušení EULY může mít za následek sankce, jako je pozastavení účtu, atd. [může to být trestáno.](#user-content-fn-11)[^11]
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Pro souhlas s EULOU upravte a uložte soubor `eula.txt` z `eula=false` na `eula=true`.
 
@@ -296,7 +300,7 @@ Pokud server a hra běží na stejném počítači, můžete se připojit pomoc�
 {% endtab %}
 {% endtabs %}
 
-## 7. Fáze rozvoje
+## 7. 발전하기
 
 Pokud se server úspěšně spustil a správně funguje, je čas na jeho přizpůsobení.
 
