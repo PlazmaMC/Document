@@ -7,7 +7,7 @@ description: Lær om startargumenter og systemegenskaper.
 Startvariabler og systemegenskaper er verdier som legges til kommandoer som brukes til å kjøre Plazma,\
 og lar deg endre verdier som ikke kan endres etter at Plazma er kjørt.
 
-Avhengig av [hvor de legges til kommandoen,](#user-content-fn-1)\[^1] deles de inn i **startargumenter** og **systemegenskaper**.
+[Plassering av tilleggskommandoer](#user-content-fn-2)[^2] vil dele dem inn i **startargumenter** og **systemegenskaper** i henhold til.
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` indikerer at dette argumentet ikke er innebygd i JVM, men er et tilpasset argument for Plazma,
 
-Hvis ingen verdi er angitt, blir verdien [`true` som standard.](#user-content-fn-3)[^3]
+Hvis ingen verdier er angitt for egenskapene, vil verdiene være [`true` som standard](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Paperweight-serien serverplattformer har punktum i egenskapsnavnene for å skille systemegenskapene for hver plattform.**
 
-Noen terminaler som Windows Powershell kan ikke godta disse argumentene, så du må legge til `"` i endene av argumentene. [^4]
+I noen terminaler som Windows Powershell kan disse argumentene ikke godtas, så du må legge til `"` på [begge sider](#user-content-fn-4)[^4] av argumentene.
 
 {% endhint %}
 
@@ -134,7 +134,7 @@ Logger alle feilaktige hodeskalleblokker i verden med posisjon.
 - **Type**: `Boolsk`
 - **Standardverdi**: `False`
 
-Deaktiverer grensen på 128 pluginkanaler per spiller[^5].
+Deaktiver begrensningen på antall 128 plugin-[kanaler](#user-content-fn-5)[^5] per spiller.
 
 #### `Paper.disableClassPrioritization`
 
@@ -188,7 +188,7 @@ Enhver skade forårsaket av dette er brukerens ansvar, og Plamza gir ingen støt
 - **Type**: `Heltall`
 - **Standardverdi**: `64`
 
-Setter begrensningen for navn på plugin-kanaler[^6].
+Sett en begrensning for navnene på plugin-[kanaler](#user-content-fn-5)[^5].
 
 #### `Paper.maxSignLength`
 
@@ -220,8 +220,7 @@ Aktiverer behandling av kommentarer i YAML-filer som standard.
 
 Kaster ut spillere som ikke sender data innen angitt tid (i sekunder).
 
-Vanligvis sender spillet[^7] kontinuerlig [hjerteslagssignaler](#user-content-fn-8)[^8] til serveren, så spillere blir ikke kastet ut,\
-men hvis spillet ikke svarer, antas det å ha krasjet og spilleren kastes ut.
+Vanligvis sender [spillet](#user-content-fn-7)[^7] kontinuerlig [hjerteslagssignaler](#user-content-fn-8)[^8] til serveren, så hvis spillet ikke svarer, anses det som en krasj og spilleren blir kastet ut uten å bli [kastet ut,](#user-content-fn-9)[^9] og serveren slutter å behandle spilleren.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -294,7 +293,7 @@ Når aktivert, vil serveren bli raskere og sikrere, men det kan blokkere noen fu
 - **Type**: `Boolsk`
 - **Standardverdi**: `false`
 
-Undertrykker advarsler[^11] som vises når Plazma initialiseres.
+Undertrykk advarsler som vises når Plazma initialiseres.
 
 ### Egenskapen er ikke lenger i bruk <a href="#id-1.3" id="id-1.3"></a>
 
