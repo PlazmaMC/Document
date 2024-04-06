@@ -8,7 +8,7 @@ description: Μάθετε σχετικά με συχνές ερωτήσεις.
 
 **Δεν μπορείτε να βρείτε την απάντηση που ψάχνετε;**
 
-Ρωτήστε την κοινότητα μέσω του [επίσημου διακομιστή Discord](https://discord.gg/MmfC52K8A8) ή των [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Επίσημος Διακομιστής Discord](https://discord.gg/MmfC52K8A8) ή συζητήσεις στο [GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) για να ρωτήσετε την κοινότητα!
 
 {% endhint %}
 
