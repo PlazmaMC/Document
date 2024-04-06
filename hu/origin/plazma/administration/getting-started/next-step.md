@@ -2,7 +2,7 @@
 description: Ismerd meg, hogyan személyre szabhatod a szerveredet.
 ---
 
-# 📶 Fejlesztési szakasz
+# 📶 발전하기
 
 Azért használják a módosított szerverplatformot, például a Plazmát, és nem a Mojang Studios által biztosított hivatalos szerverplatformot, mert a legnagyobb előnye az erős felhasználói **testreszabhatóság** lehetősége.
 
