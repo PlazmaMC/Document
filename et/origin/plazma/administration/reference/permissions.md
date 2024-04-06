@@ -10,191 +10,190 @@ description: Uurige Plazma õigusi.
 
 ***
 
-## 기본 권한 체계 이해하기 <a href="#id-1" id="id-1"></a>
+## Mõistke vaikimisi õiguste süsteemi <a href="#id-1" id="id-1"></a>
 
-Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니다.
+Minecraftis on vaikimisi haldusõiguste gruppe.
 
-[운영자](#user-content-fn-1)[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
+Saate määrata õigused [administraatorile](#user-content-fn-1)[^1] ja käsu plokkidele ning neid muuta [serveri atribuutides](configurations/property.md).
 
-0. **플레이어**\
-   일반적으로 모든 플레이어어게 주어지는 권한 그룹입니다.
-1. **중재자**\
-   스폰 보호를 무시할 수 있습니다.
-2. **세계 관리자**\
-   세계 관리와 관련된 모든 명령어와 명령 블록을 사용할 수 있습니다.\
-   데이터팩 및 명령 블록에 기본 적용되는 권한 그룹입니다.
-3. **관리자**\
-   플레이어 관리와 관련된 모든 명령어를 사용할 수 있습니다.
-4. **총관리자**\
-   서버 관리를 포함한 모든 명령어를 사용할 수 있습니다.\
-   콘솔 및 운영자에게 기본 적용되는 권한 그룹입니다.
-
-***
-
-## 권한 설정하기 <a href="#id-2" id="id-2"></a>
+0. **Mängija**\
+   Tavaline õiguste grupp, mis antakse tavaliselt kõigile mängijatele.
+1. **Vahendaja**\
+   Võib ignoreerida spawnpunktide kaitset.
+2. **Maailma administraator**\
+   Saab kasutada kõiki maailma haldamise ja sellega seotud käsklusi ning käsu plokke.\
+   See on vaikimisi rakendatav õiguste grupp andmepakettidele ja käsu plokkidele.
+3. **Administraator**\
+   Saab kasutada kõiki mängijate haldamise ja sellega seotud käsklusi.
+4. **Peakasutaja**\
+   Saab kasutada kõiki serveri haldamise ja sellega seotud käsklusi.\
+   See on vaikimisi rakendatav õiguste grupp konsoolile ja administraatoritele.
 
 ***
 
-## 전체 권한 <a href="#id-3" id="id-3"></a>
+## Määrake õigused <a href="#id-2" id="id-2"></a>
+
+***
+
+## Kogu õigus <a href="#id-3" id="id-3"></a>
 
 ***
 
 #### `allow.ride.(Namespaced Key)`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-플레이어가 엔티티에 `웅크리고 상호 작용`하여 엔티티를 탑승할 수 있도록 허용합니다.
+Lubab mängijal kummarduda ja suhelda üksustega, et neile peale istuda.
 
-엔티티를 탑승하면 `이동 키`로 엔티티의 이동을 조작할 수 있으며, `점프 키`로 점프하거나 날 수 있습니다.
+Üksust peale istudes saate kasutada `liikumisklahve` selle liigutamiseks ja hüppamiseks või lendamiseks `hüppeklahviga`.
 
-`(Namespaced Key)`에는 엔티티의 [Namespaced ID](#user-content-fn-2)[^2]가 입력됩니다.
+`(Namespaced Key)` tähistab üksuse [Namespaced ID](#user-content-fn-2)[^2].
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**[Purpur maailma seadistustes](configurations/purpur/world.md) töötab see ainult siis, kui `(Entity) > ridable` on lubatud.**
 
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-플레이어가 엔티티를 탑승하고 있을 때, 엔티티의 특수 기술을 사용할 수 있도록 허용합니다.
+Lubab mängijal kasutada üksuse erilisi võimeid, kui ta sõidab üksusel.
 
-모든 엔티티의 특수 기능이 사용 가능한 것은 아닙니다. 사용 가능한 전체 특수 기술은 아래를 참고하세요.
+Kõikide üksuste erivõimed ei pruugi olla saadaval. Vaadake kõikide saadaolevate erivõimete kohta allpool.
 
 {% hint style="info" %}
 
-**특수 기술에 대한 좋은 아이디어가 있나요?**
+**Kas teil on hea idee erivõimete kohta?**
 
-[Plazma Discord](https://plazmamc.org/discord) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)에 아이디어를 게시해 주세요!
+Avaldage oma ideed [Plazma Discordis](https://plazmamc.org/discord) või [GitHubi aruteludes](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
 
 {% endhint %}
 
 <details>
 
-<summary>현재 사용 가능한 특수 기술 보기</summary>
+<summary>Vaadake praegu saadaolevaid erivõimeid</summary>
 
-- **`crepper`**\
-  `점프 키`를 누르면 폭발합니다.\
-  플레이어가 `allow.powered.creeper` 권한을 가지고 있으면, `점프 키`를 꾹 눌러 충전할 수 있습니다.
-- **`dolphin`**\
-  `점프 키`를 누르면 돌진합니다.
+- **`creeper`**\
+  Vajutades `hüppeklahvi` plahvatab.\
+  Kui mängijal on lubatud `allow.powered.creeper` õigus, saab ta plahvatuse laadimiseks hoida `hüppeklahvi` all.
+- **`delfiin`**\
+  Vajutades `hüppeklahvi` teeb hüppe edasi.
 - **`phantom`**\
-  `점프 키`를 누르면 화염을 발사합니다.
+  Vajutades `hüppeklahvi` tulistab tulekahju.
 - **`wither`**\
-  `상호 작용`하면 위더 머리를 발사합니다.
+  `Suhtlemisel` tulistab wither pea.
 
 </details>
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+**[Purpur maailma seadistustes](configurations/purpur/world.md) töötab see ainult siis, kui `(Entity) > ridable` on lubatud.**
 
 {% endhint %}
 
 #### `bukkit.command.compass`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-[`/compass` 명령어](commands.md#compass) 사용을 허용합니다.
+Lubab kasutada [`/compass` käsku](commands.md#compass).
 
 #### `bukkit.command.credits`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-[`/credits (Player)` 명령어](commands.md#credits) 사용을 허용합니다.
+Lubab kasutada [`/credits (Mängija)` käsku](commands.md#credits).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Lisades õigusele nimele `.other`, võimaldab see seda kasutada teistel mängijatel.
 
 #### `bukkit.command.demo`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-[`/demo (Player)` 명령어](commands.md#demo) 사용을 허용합니다.
+Lubab kasutada [`/demo (Mängija)` käsku](commands.md#demo).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Lisades õigusele nimele `.other`, võimaldab see seda kasutada teistel mängijatel.
 
 #### `bukkit.command.ping`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-[`/ping (Player)` 명령어](commands.md#ping) 사용을 허용합니다.
+Lubab kasutada [`/ping (Mängija)` käsku](commands.md#ping).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Lisades õigusele nimele `.other`, võimaldab see seda kasutada teistel mängijatel.
 
 #### `bukkit.command.ram`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-[`/ram` 명령어](commands.md#ram) 사용을 허용합니다.
+Lubab kasutada [`/ram` käsku](commands.md#ram).
 
 #### `bukkit.command.rambar`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-[`/rambar (Player)` 명령어](commands.md#rambar) 사용을 허용합니다.
+Lubab kasutada [`/rambar (Mängija)` käsku](commands.md#rambar).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Lisades õigusele nimele `.other`, võimaldab see seda kasutada teistel mängijatel.
 
 #### `bukkit.command.restart`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-[`/restart` 명령어](commands.md#restart) 사용을 허용합니다.
+Lubab kasutada [`/restart` käsku](commands.md#restart).
 
 #### `bukkit.command.tps`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-[`/tps` 명령어](commands.md#tps) 사용을 허용합니다.
+Lubab kasutada [`/tps` käsku](commands.md#tps).
 
 #### `bukkit.command.tpsbar`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-[`/tpsbar (Player)` 명령어](commands.md#tpsbar) 사용을 허용합니다.
+Lubab kasutada [`/tpsbar (Mängija)` käsku](commands.md#tpsbar).
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Lisades õigusele nimele `.other`, võimaldab see seda kasutada teistel mängijatel.
 
 #### `bukkit.command.timings`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-[`/timings` 명령어](commands.md#timings) 사용을 허용합니다.
+Lubab kasutada [`/timings` käsku](commands.md#timings).
 
 {% hint style="warning" %}
 
-**해당 명령어는 사용이 중단되었습니다.**
+**See käsk on lõpetatud.**
 
-비슷한 기능을 가지는 명령어에 대해 알아보려면 [Spark](https://spark.lucko.me/docs/Command-Usage)를 확인하세요.
+Vaadake sarnaseid käsklusi [Sparki](https://spark.lucko.me/docs/Command-Usage) lehelt.
 
 {% endhint %}
 
 #### `bukkit.command.uptime`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-[`/uptime` 명령어](commands.md#uptime) 사용을 허용합니다.
+Lubab kasutada [`/uptime` käsku](commands.md#uptime).
 
-#### `minecraft.command.gamemode.(GameMode)`
+#### `minecraft.command.gamemode.(Mängurežiim)`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-`/gamemode (GameMode) (Player)` 명령어 사용을 허용합니다.
+Lubab kasutada [`/gamemode (Mängurežiim) (Mängija)` käsku.
 
-권한명 뒤에 `.other` 를 입력하면 다른 플레이어에게 사용할 수 있도록 허용합니다.
+Lisades õigusele nimele `.other`, võimaldab see seda kasutada teistel mängijatel.
 
 #### `paper.antixray.bypass`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우,
-권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
+Kui [X-Ray blokeerimine](../expert/xray.md) on aktiveeritud, ei rakenda see blokeerimiseks mõeldud plokknähtamatust õigustega mängijatele.
 
-이렇게 하면 양 측 모두 성능 향상을 경험할 수 있습니다.
+See võimaldab mõlemal poolel paremat jõudlust kogeda.
 
-> X-Ray 설정 방법에 대해 알아보려면 아래 페이지를 참고하세요.
+> X-Ray seadistamiseks vaadake allpool olevat lehekülge.
 
 {% content-ref url="../expert/xray.md" %}
 [xray.md](../expert/xray.md)
@@ -202,220 +201,220 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 #### `plazma.bypass-moved-to-quickly-check`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
 {% hint style="warning" %}
 
-해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
+See õigus muudetakse 1.20.5 versioonis ümber `plazma.bypass.watchdog`-iks.
 
 {% endhint %}
 
 #### `purpur.anvil.color`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-모루에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Võimaldab kasutada sepikutel [värvikoode](https://minecraft.wiki/w/Formatting_codes#Color_codes).
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur maailma seadistustes](configurations/purpur/world.md) töötab see ainult siis, kui `anvil > allow-colors` on lubatud.**
 
 {% endhint %}
 
 #### `purpur.anvil.format`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)을 사용할 수 있도록 허용합니다.
+Võimaldab kasutada sepikutel [stiilikoode](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur maailma seadistustes](configurations/purpur/world.md) töötab see ainult siis, kui `anvil > allow-colors` on lubatud.**
 
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-모루에 [MiniMessage 태그](https://docs.advntr.dev/minimessage/format.html)를 사용할 수 있도록 허용합니다.
+Võimaldab kasutada sepikutel [MiniMessage sildid](https://docs.advntr.dev/minimessage/format.html).
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
+**[Purpur maailma seadistustes](configurations/purpur/world.md) töötab see ainult siis, kui `anvil > allow-minimessages` on lubatud.**
 
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
+Võimaldab sepikutel [`&r` stiilikoode](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) keelata `kaldkirjas`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+**[Purpur maailma seadistustes](configurations/purpur/world.md) töötab see ainult siis, kui `anvil > allow-colors` on lubatud.**
 
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)가 적용되도록 합니다.
+Kui mängija allkirjastab raamatu, rakendatakse [stiilikoode](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
 
 #### `purpur.bypassIdleKick`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-플레이어를 유휴 상태 추방 대상에서 제외합니다.
+Võimaldab mängijal jääda passiivse väljaviskamise sihtrühmast välja.
 
 #### `purpur.debug.f3n`
 
-- **기본 제공**: `세계 관리자`
+- **Vaikimisi**: `Maailma administraator`
 
-플레이어가 `F3 + N` 키로 게임 모드를 변경할 수 있도록 허용합니다.
+Võimaldab mängijal kasutada mängurežiimi muutmiseks klahvikombinatsiooni `F3 + N`.
 
-해당 게임모드에 대한 권한이 없으면 작동하지 않습니다.
+See ei tööta, kui puudub vastav mängurežiimi õigus.
 
 #### `purpur.drop.spawners`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-구성에서 설정한 아이템으로 스포너 블록을 채굴하면 스포너 블록을 떨어뜨립니다.
+Kui kaevate konfigureeritud esemega spawneriploki, siis see kukub maha.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**[Purpur maailma seadistustes](configurations/purpur/world.md) töötab see ainult siis, kui `gameplay-mechanics > silk-touch` on lubatud.**
 
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-엔더 상자의 크기를 변경합니다.
+Muudab Enderi kirstu suurust.
 
-`(NumberString)`에는 `one`, `two`, `three`, `four`, `five`, `six`를 입력할 수 있습니다.
+`(NumberString)` võib olla `one`, `two`, `three`, `four`, `five`, `six`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
+**[Purpur maailma seadistustes](configurations/purpur/world.md) töötab see ainult siis, kui `ender_chest > six-rows` ja `ender_chest > use-permissions-for-rows` on lubatud.**
 
 {% endhint %}
 
 #### `purpur.inventory_totem`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-불사의 토템이 인벤토리에 있어도 작동하도록 허용합니다.
+Võimaldab toimida surematu käsna inventaris.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
+**[Purpur maailma seadistustes](configurations/purpur/world.md) töötab see ainult siis, kui `totem-of-undying-works-in-inventory` on lubatud.**
 
 {% endhint %}
 
 #### `purpur.joinFullServer`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-플레이어가 접속자수 제한을 무시하도록 허용합니다.
+Mängijale lubatakse ignoreerida ühenduse piirangut.
 
 #### `purpur.mending_shift_click`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-플레이어가 `웅크리고 상호 작용`하면 들고 있는 아이템을 수선할 수 있도록 허용합니다.
+Mängijale lubatakse eseme remontimise võimaldamiseks `kummargil olles koostööd teha`.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
+**[Purpuri maailma konfiguratsioonides](configurations/purpur/world.md) tuleb `shift-right-click-repairs-mending-points` aktiveerida, et see toimiks.**
 
 {% endhint %}
 
 #### `purpur.place.spawners`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-플레이어가 스포너를 설치할 수 있도록 허용합니다.
+Mängijale lubatakse paigaldada spawnereid.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+**[Purpur maailma seadistustes](configurations/purpur/world.md) töötab see ainult siis, kui `gameplay-mechanics > silk-touch` on lubatud.**
 
 {% endhint %}
 
 #### `purpur.portal.instant`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-플레이어가 네더 차원문을 사용했을 때 바로 순간이동 하도록 합니다.
+Mängijale lubatakse kohe pärast Netheri portaali kasutamist kohe teleporteeruda.
 
 #### `purpur.sign.color`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-표지판에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+Luba kasutada [värvikoode](https://minecraft.wiki/w/Formatting_codes#Color_codes) märkidel.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+\*\*`sign > allow-colors` tuleb aktiveerida **[Purpur maailma seadistustes](configurations/purpur/world.md), et see toimiks.**
 
 {% endhint %}
 
 #### `purpur.sign.magic`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-표지판에 난독화 코드`(&o)`를 사용할 수 있도록 허용합니다.
+Luba kasutada märkide kodeerimist `(&o)` märkidele.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+\*\*`sign > allow-colors` tuleb aktiveerida **[Purpur maailma seadistustes](configurations/purpur/world.md), et see toimiks.**
 
 {% endhint %}
 
 #### `purpur.sign.style`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)를 사용할 수 있도록 허용합니다.
+Luba kasutada [stiilimärkide kodeerimist `(&o välja arvatud)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) märkidele.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+\*\*`sign > allow-colors` tuleb aktiveerida **[Purpur maailma seadistustes](configurations/purpur/world.md), et see toimiks.**
 
 {% endhint %}
 
 #### `purpur.tnt.defuse`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-플레이어가 가위로 `상호 작용`하여 TNT 폭발을 막을 수 있도록 허용합니다.
+Luba mängijal takistada TNT plahvatust `vastastikuse tegevusega` kääride abil.
 
 {% hint style="info" %}
 
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
+**[Purpur maailma konfiguratsioonides](configurations/purpur/world.md) peab `defuse-tnt-change` olema vähemalt `0.0`, et see toimiks.**
 
 {% endhint %}
 
-### 제공 예정 권한
+### Antud õigus tuleb.
 
 #### `plazma.bypass.ncr-require`
 
-- **기본 제공**: `없음`
+- **Vaikimisi**: `Puudub`
 
-플레이어가 [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) 모드가 설치되어 있지 않아도 접속할 수 있도록 허용합니다.
+Luba mängijal ühenduda isegi kui pole paigaldatud [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) moodulit.
 
 {% hint style="info" %}
 
-**[Plazma 세계별 구성](configurations/plazma/world.md)에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
+**[Plazma maailma konfiguratsioonides](configurations/plazma/world.md) tuleb aktiveerida `no-chat-reports > require-install`, et see toimiks.**
 
 {% endhint %}
 
 ***
 
-[^1]: Operator.
+[^1]: Operaator.
 
-[^2]: 예: `ender_dragon`
+[^2]: Näide: `ender_dragon`
