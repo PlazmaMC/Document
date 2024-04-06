@@ -15,14 +15,19 @@ description: Zistite viac o platforme Plazma.
 
 ## ⚙️ Kľúčové vlastnosti <a href="#id-2" id="id-2"></a>
 
-1. **Silná ekosystém pluginov**\
-   Založené na [Paper](https://github.com/PaperMC/Paper), takmer všetky [aktuálne pluginy](#user-content-fn-1)[^1] dostupné na internete fungujú správne.
+1. **Silný ekosystém zásuvných modulov**\
+   [Paper](https://github.com/PaperMC/Paper) je založený na,
+   takmer všetky [najnovšie zásuvné moduly](#user-content-fn-1)[^1] dostupné na internete správne fungujú.
 2. **Optimalizácia bez potreby nastavenia**\
-   Všetky záplaty od [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) sú zahrnuté a obsahujú vlastné optimalizácie a módy, čo zabezpečuje najvyššiu úroveň výkonu.
-3. **Hra prispôsobená podľa vašich predstáv**\
-   [Purpur](https://github.com/PurpurMC/Purpur) zahrnutý v Plazme umožňuje upraviť celkové vlastnosti hry.
-4. **Bezpečný herný server**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) obsahuje možnosť deaktivovať [systém hlásení chatu](#user-content-fn-3)[^3] od [Mojangu](#user-content-fn-2)[^2], ktorý bol pridaný od verzie 1.19, a úplne odstráni diagnostický zber informácií, čo umožňuje hrať na bezpečnom serveri bez sledovania.
+   Všetky opravy [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) sú zahrnuté a
+   poskytuje vlastné optimalizácie a módy pre najlepší výkon.
+3. **Hra prispôsobiteľná podľa vašich predstáv**\
+   [Purpur](https://github.com/PurpurMC/Purpur) zahrnutý v Plazme umožňuje upravovať
+   celkové vlastnosti hry podľa vašich predstáv.
+4. **Bezpečné hranie na serveri**\
+   Obsahuje [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) až od verzie 1.19
+   kde je možné deaktivovať [systém hlásenia chatu](#user-content-fn-3)[^3] od [Mojangu](#user-content-fn-2)[^2],\
+   zbierač diagnostických informácií je úplne odstránený, takže môžete hrať na serveri bez sledovania.
 5. **Najrýchlejšie aktualizácie**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) zabezpečuje, že záplaty v Plazme sú vždy aktuálne, čo z nej robí platformu s najrýchlejšími aktualizáciami medzi serverovými platformami založenými na Paper.
 6. **Optimalizované základné konfiguračné súbory**\
@@ -40,14 +45,16 @@ description: Zistite viac o platforme Plazma.
 
 ## ✨ Príklady využitia <a href="#id-3" id="id-3"></a>
 
-- **Platforma, ktorá správne spracúva aj zložité pluginy**\
-  Plazma je používaná na serveri vývojára [IPECTER](https://github.com/IPECTER), kde sú implementované vlastné pluginy fungujúce na NMS a reflexii, ako aj veľké množstvo dátových balíčkov. Aj napriek vysokému objemu komplexných a rozsiahlych dátových balíčkov a využitiu NMS a reflexie, je schopná bez problémov obslúžiť viac ako 100 hráčov bez poklesu výkonu.
-- **Platforma s rýchlym výkonom aj na RPG serveroch**\
-  Na jednom klastri dokázala udržať 100 hráčov bez poklesu TPS a na 4 klastroch mohlo hrať pohodlne celkovo 250 hráčov.
-- **Platforma, kde sa svieti vo chvíli, keď sa spracúvajú chunky/entít**\
-  Pre server prežitia, kde dochádzalo k oneskoreniu pri spracovaní chunkov a entít, bolo možné znížiť väčšinu oneskorení zmenou z Purpur na Plazmu.
-- **Platforma, ktorú si vybrali mnohí streameri**\
-  Je používaná mnohými streamermi na svojich serveroch pre divákov.
+- **Platforma správne spracujúca aj zložité zásuvné moduly**\
+  Plazma je používaná na serveroch vývojára [IPECTER](https://github.com/IPECTER).\
+  Má vlastné zásuvné moduly fungujúce cez NMS a reflexiu, s veľkým množstvom veľkých dátových balíkov,\
+  ajak pre viac ako 100 hráčov bez poklesu výkonu.
+- **Platforma udržiavajúca rýchly výkon aj na RPG serveroch**\
+  Na jednom zhluku udržala 100 hráčov bez poklesu TPS a na 4 zhlukoch mohlo 250 hráčov hrať plynulo.
+- **Platforma, ktorá ukazuje svetlo vo fragmentoch a entitách**\
+  Zmena platformy z Purpuru na Plazmu pre prevádzku servera prežitia, kde došlo k zníženiu väčšiny meškaní pri spracovaní fragmentov a entít.
+- **Platforma vybraná mnohými streamermi**\
+  Je používaná ako základ pre pozorovateľov mnohých streamerov.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
