@@ -27,7 +27,7 @@ Plazma je oficiální serverová platforma od Mojang Studios [založená na tomt
 
 Pro ověření instalace JRE na systému zadejte do [spustitelného okna](#user-content-fn-3)[^3] příkaz [`cmd /k java --version`](#user-content-fn-4)[^4] a spusťte ho.
 
-Pokud se zobrazí následující výstup, přeskočte na [2. krok](setup.md#id-2).
+다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
 {% code title="Správný výstup" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (sestavení 21.0.2+13-LTS, smíšený r
 
 {% endcode %}
 
-Pokud se nezobrazí výstup jako výše, nebo se zobrazí následující, chybí JRE nebo je příliš zastaralý, a je třeba provést [1.2 krok](setup.md#id-1.2).
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
 {% code title="JRE není nainstalováno" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Chyba: Došlo k fatální výjimce. Program se ukončí.
 
 ### 1.2 Instalace JRE
 
-V tomto průvodci použijeme jednu z [verzí](#user-content-fn-5)[^5] JRE, konkrétně Azul Zulu.
+본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Po dokončení instalace zkontrolujte správnost instalace opakováním [1.1 kroku](setup.md#id-1.1).
+설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma nabízí různé verze spustitelných souborů.
 
 **Většinou se používá `Reobf Paperclip`.**
 
-Následující informace jsou pro vývojáře nebo zvídavé jedince ohledně jednotlivých verzí.\
-Pro běžné uživatele je možné přeskočit na [3. krok](setup.md#id-3) bez problémů.
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 
 {% endhint %}
 
@@ -159,8 +159,7 @@ Název spustitelného souboru je stanoven jako `plazma-(správce verzí)-1.20.4-
 
 Pro snadné spuštění Plazmy a automatické restartování serveru je nutné vytvořit [startovací skript](#user-content-fn-6)[^6].
 
-[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
-Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
+Pomocí [Flags.sh](https://flags.sh) můžete vytvořit spouštěcí skript [zde](#user-content-fn-7)[^7]. Stačí zadat pouze paměť, kterou chcete použít v Plazma, a příkaz se automaticky optimalizuje.
 
 Startovací skript lze stáhnout pomocí tlačítka pro stažení v levém dolním rohu.\
 **Zkontrolujte, zda stažený startovací skript odpovídá vašemu operačnímu systému.**
@@ -191,7 +190,7 @@ EULA[^9] je smlouva o licenci, kterou musíte přijmout k využívání služeb 
 
 {% hint style="warning" %}
 
-만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+Pokud nesouhlasíte, nemůžete spustit server a porušení EULA může vést k [sankcím](#user-content-fn-11)[^11], jako je pozastavení účtu.
 
 {% endhint %}
 
@@ -203,11 +202,11 @@ Pro souhlas s EULOU upravte a uložte soubor `eula.txt` z `eula=false` na `eula=
 
 Moderní operační systémy blokují externí přístup pomocí základních funkcí jako jsou **firewall** a **router**.
 
-V případě Windows, pokud jste povolili firewall v [3. kroku](setup.md#id-3), stačí provést pouze přesměrování portů.
+Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
 
-**Tento průvodce je psán za předpokladu, že používáte operační systém Windows a [UPnP](#user-content-fn-12)[^12] na směrovači.**
+**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Pokud váš router nepodporuje UPnP, každý router má jiné rozhraní, takže je třeba provést vlastní vyhledávání informací.
 
@@ -300,11 +299,11 @@ Pokud server a hra běží na stejném počítači, můžete se připojit pomoc�
 {% endtab %}
 {% endtabs %}
 
-## 7. 발전하기
+## 7. Růst
 
 Pokud se server úspěšně spustil a správně funguje, je čas na jeho přizpůsobení.
 
-Zjistěte, jak přizpůsobit server pomocí následujícího průvodce.
+아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
 
 {% content-ref url="next-step.md" %}
 [next-step.md](next-step.md)
