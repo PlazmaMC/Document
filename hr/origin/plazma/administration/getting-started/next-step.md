@@ -2,7 +2,7 @@
 description: Saznajte kako prilagoditi poslužitelj.
 ---
 
-# 📶 Razvojna faza
+# 📶 발전하기
 
 Razlog za korištenje modificirane serverske platforme poput Plazme umjesto službene serverske platforme koju pruža Mojang Studios je što omogućuje snažnu **prilagodbu**.
 
