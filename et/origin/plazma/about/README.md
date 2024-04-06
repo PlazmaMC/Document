@@ -21,8 +21,8 @@ description: Uurige, milline platvorm Plazma on.
    Sisaldab kõiki [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) parandusi ja mõningaid sisseehitatud optimeerimisi ja mooduleid, et pakkuda parimat jõudlust.
 3. **Mäng, mida saate kohandada**\
    Kaasasolev [Purpur](https://github.com/PurpurMC/Purpur) võimaldab teil muuta mängu üldisi omadusi.
-4. **Turvaline serverimäng**\
-   Sisaldab [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports), mis võimaldab teil keelata Mojangi [vestluse raporteerimise süsteemi](#user-content-fn-3)[^3] alates 1.19-st, eemaldades täielikult diagnostika koguja ja mängides jälgimata turvalisel serveril.
+4. **Turvaline mänguserver**\
+   [Chati aruannete puudumine](https://github.com/Aizistral-Studios/No-Chat-Reports) on lisatud alates 1.19-st [Mojangi](#user-content-fn-2)[^2] poolt ja võimaldab [vestluse teatamise süsteemi](#user-content-fn-3)[^3] keelata ning diagnoosimisinfo koguja on täielikult eemaldatud, võimaldades mängida jälgimata turvalisel serveril.
 5. **Kõige kiiremad uuendused**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) hoiab Plazma kaasas olevad parandused alati ajakohasena, pakkudes kõige kiiremaid uuendusi Paperil põhinevate serveri platvormide hulgas.
 6. **Vaikimisi konfiguratsioonifaili optimeerimine**\
