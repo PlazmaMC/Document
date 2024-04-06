@@ -12,7 +12,7 @@ description: "Plazma是為Minecraft: Java Edition添加了基於紙張的實驗�
 
 **無法透過說明書解決問題嗎？**
 
-[官方 Discord 伺服器](https://discord.gg/MmfC52K8A8) 或 [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues) 向社區提問！
+[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
 
 {% endhint %}
 
@@ -39,3 +39,5 @@ description: "Plazma是為Minecraft: Java Edition添加了基於紙張的實驗�
 {% content-ref url="developers.md" %}
 [developers.md](developers.md)
 {% endcontent-ref %}
+
+***
