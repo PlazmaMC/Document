@@ -7,7 +7,7 @@ description: Leer meer oor beginargumente en stelsel eienskappe.
 Beginveranderlikes en stelsel eienskappe is waardes wat by die Plazma-uitvoering gevoeg word as [opdragte wat gebruik word](#user-content-fn-1)[^1],\
 om waardes toe te laat om verander te word nadat Plazma uitgevoer is.
 
-Na gelang van die posisie waar dit by die opdrag gevoeg word, word dit verdeel in **beginargumente** en **stelsel eienskappe**.
+[Posisie wat by die opdrag gevoeg word](#user-content-fn-2)[^2] sal verdeel word in **beginargument** en **sisteemeienskappe** volgens die.
 
 ***
 
@@ -36,13 +36,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 `-D` dui aan dat die argument nie ingebou is in die JVM nie, maar 'n spesiale argument vir Plazma is,
 
-As geen waarde ingevoer word nie, word die waarde [`true` vasgestel.](#user-content-fn-3)[^3]
+As geen waarde vir eienskappe ingevoer word nie, word die waarde [`true` vasgestel](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
 
 **Die Paperweight-reeks bedienerplatform onderskei stelsel eienskappe vir elke platform deur die eienskapnaam te gebruik met `.` ingesluit.**
 
-Windows Powershell enkele terminale mag nie hierdie argumente toelaat nie, dus moet jy `"` aan die uiteindes van die argumente [toevoeg.](#user-content-fn-4)[^4]
+In Windows Powershell en sommige ander terminale mag hierdie argumente nie toegelaat word nie, dus moet jy `"` aan beide kante van die argumente [toevoeg](#user-content-fn-4)[^4].
 
 {% endhint %}
 
@@ -133,7 +133,7 @@ Dit log al die ongeldige skildblokke in die wêreld saam met hul posisies.
 - **Vorm**: `Boolean`
 - **Verstekwaarde**: `False`
 
-Deaktiveer die limiet van 128 plugin-kanale per speler[^5].
+Deaktiveer die beperking van 128 pluigin [kanale](#user-content-fn-5)[^5] per speler.
 
 #### `Paper.disableClassPrioritization`
 
@@ -187,7 +187,7 @@ Enige probleme wat deur hierdie aksie veroorsaak word, is die verantwoordelikhei
 - **Vorm**: `Integer`
 - **Verstekwaarde**: `64`
 
-Stel 'n limiet vir die naam van plugin-kanale[^6].
+Stel 'n beperking op die naam van die pluigin [kanaal](#user-content-fn-5)[^5].
 
 #### `Paper.maxSignLength`
 
@@ -219,7 +219,7 @@ Aktiveer die hantering van YAML-lêeropmerkings standaard.
 
 As geen data ontvang word van 'n speler vir die tydperk (in sekondes) wat hier ingestel is nie, word die speler gekick.
 
-Gewoonlik stuur die spel[^7] voortdurend [hartklopseine](#user-content-fn-8)[^8] na die bediener, dus word die speler nie gekick nie, maar as die spel nie reageer nie, word dit as 'n kras beskou en die speler word gekick.
+Gewoonlik stuur die [spel](#user-content-fn-7)[^7] voortdurend [hartklopsein](#user-content-fn-8)[^8] na die bediener, dus word jy nie [verbied nie,](#user-content-fn-9)[^9] maar as die spel nie reageer nie, word dit as 'n botsing beskou en word die speler nie meer deur die bediener hanteer nie en word verbied.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -292,7 +292,7 @@ As dit geaktiveer word, sal die bediener vinniger en veiliger word, maar dit kan
 - **Vorm**: `Boolean`
 - **Verstekwaarde**: `false`
 
-Onderdruk die waarskuwing[^11] wat verskyn wanneer Plazma geïnisieer word.
+Onderdruk die [waarskuwing](#user-content-fn-11)[^11] wat tydens die inisialisering van Plazma verskyn.
 
 ### Verouderde eienskap <a href="#id-1.3" id="id-1.3"></a>
 
