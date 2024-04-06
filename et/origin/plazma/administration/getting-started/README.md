@@ -7,11 +7,11 @@ description: Uurige, kuidas luua server Plazma abil.
 Plazma stabiilseks kasutamiseks peab süsteem vastama järgmistele nõuetele.
 
 |               | Miinimum | Soovitatav |
-| :-----------: | -------: | ---------: |
-|  Arhitektuur  |      x64 |          - |
-|      RAM      |      8GB |       16GB |
-| Salvestusruum |      1GB |        8GB |
-|      JRE      |       17 |         21 |
+| :-----------: | :------- | :--------- |
+|  Arhitektuur  | x64      | -          |
+|      RAM      | 8GB      | 16GB       |
+| Salvestusruum | 1GB      | 8GB        |
+|      JRE      | 17       | 21         |
 
 Sujuva konfiguratsioonifailide muutmise jaoks on soovitatav installida redaktorid nagu [Visual Studio Code](https://code.visualstudio.com/download).
 
