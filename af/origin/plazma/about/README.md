@@ -15,14 +15,17 @@ description: Leer meer oor wat Plazma se bedienerplatform behels.
 
 ## ⚙️ Belangrikste kenmerke <a href="#id-2" id="id-2"></a>
 
-1. **Kragtige plugin ekosisteem**\
-   Gebaseer op [Paper](https://github.com/PaperMC/Paper), werk die meeste nuutste plugins wat op die internet beskikbaar is normaal.
-2. **Geen instellings nodig nie, geoptimaliseer**\
-   Alle patches van [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) is ingesluit en dit bied die beste prestasie met 'n paar eie optimalisering en mods.
-3. **Pas die spel aan soos jy wil**\
-   [Purpur](https://github.com/PurpurMC/Purpur) wat ingesluit is by Plazma, laat jou toe om die algehele eienskappe van die spel te wysig.
+1. **Kragtige invoegtoepassingsekologie**\
+   [Paper](https://github.com/PaperMC/Paper) is gebaseer op,
+   en die meeste van die [nuutste invoegtoepassings](#user-content-fn-1)[^1] wat op die internet beskikbaar is, werk normaal.
+2. **Geen instellingsnodig optimisering**\
+   Al die lêers van [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) is ingesluit,
+   en dit bied die beste prestasie met sekere interne optimalisering en modusse.
+3. **Aangepaste spel soos jy wil**\
+   [Purpur](https://github.com/PurpurMC/Purpur) wat ingesluit is in Plazma, maak dit moontlik om die algemene eienskappe van die spel te wysig.
 4. **Veilige speelbediener**\
-   [Geen Chat Rapporten](https://github.com/Aizistral-Studios/No-Chat-Reports) is ingesluit en vanaf 1.19 kan [Mojang](#user-content-fn-2)[^2] se [Klets Rapportering Stelsel](#user-content-fn-3)[^3] gedeaktiveer word, en die diagnostiese inligtingversamelaar is heeltemal verwyder sodat jy op 'n spelerbediener sonder sporing veilig kan speel.
+   [Geen Chat Raporteer](https://github.com/Aizistral-Studios/No-Chat-Reports) is ingesluit vanaf 1.19 om [Mojang](#user-content-fn-2)[^2] se [kletsraporteerstelsel](#user-content-fn-3)[^3] te deaktiveer,\
+   sodat die diagnose-inligtingversamelaar heeltemal verwyder word en jy 'n speldieners kan speel sonder om gevolg te word.
 5. **Die vinnigste opdaterings**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) sorg dat die patches van Plazma altyd op datum gehou word, wat die vinnigste opdaterings onder die Paper-gebaseerde bediener platforms bied.
 6. **Geoptimaliseerde standaard konfigurasie lêers**\
@@ -40,14 +43,17 @@ description: Leer meer oor wat Plazma se bedienerplatform behels.
 
 ## ✨ Gebruik Gevalle <a href="#id-3" id="id-3"></a>
 
-- **'n Platform wat selfs ingewikkelde plugins korrek hanteer**\
-  Plazma word gebruik in die bedieners van die ontwikkelaar [IPECTER](https://github.com/IPECTER). Met eie plugins wat werk met NMS en refleksie, en 'n groot hoeveelheid data pakkies, kan dit meer as 100 spelers hanteer sonder prestasie verlies.
-- **'n Platform wat vinnige prestasie in RPG bedieners behou**\
-  Dit kon stabiel 100 spelers op 'n enkele cluster hanteer sonder TPS verlies en 250 spelers oor 4 klusters wat gemaklik kan speel.
-- **'n Platform wat lig werp op chunks/entiteite**\
-  Deur Purpur te gebruik in plaas van die ou platform op survival bedieners wat vertragings ervaar het met die hantering van chunks en entiteite, het dit die meeste van die vertragings verminder.
-- **'n Platform wat deur baie stroomers gekies word**\
-  Word gekies deur baie bekende stroomers vir hul kykers se speelvermaak gebruik.
+- **Platform wat selfs ingewikkelde invoegtoepassings behoorlik hanteer**\
+  Die Plazma word op die bediener van die ontwikkelaar [IPECTER](https://github.com/IPECTER) gebruik.\
+  Dit het 'n selfgemaakte invoegtoepassing wat met NMS en refleksie werk, en daar is 'n groot hoeveelheid komplekse en uitgebreide datapakke wat baie geïmplementeer is,\
+  sonder om prestasie te verloor, kan dit meer as 100 spelers hanteer.
+- **Platform wat vinnige prestasie in RPG-bedieners behou**\
+  Op 'n enkele groep is dit moontlik om 100 spelers sonder TPS-vermindering stabiel te hanteer, en\
+  met 4 groepe kon 'n totaal van 250 spelers gemaklik speel.
+- **Platform wat lig wys vanaf blokke/entiteite**\
+  Die bedienerplatform van 'n oorlewingbediener waar vertragings in die verwerking van blokke en entiteite voorgekom het, is verander van Purpur na Plazma en dit het die meeste vertragings verminder.
+- **Platform wat deur baie strome gekies is**\
+  Dit word gebruik as 'n bedieneremmer vir baie strome se kykers.
 
 <figure>
    <img src="https://badge.plazmamc.org/internal/bstats" alt="">
