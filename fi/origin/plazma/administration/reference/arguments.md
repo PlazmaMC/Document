@@ -4,7 +4,7 @@ description: Tutustu käynnistysparametreihin ja järjestelmäominaisuuksiin.
 
 # 🎛️ Parametrit ja ominaisuudet
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Aloitusparametrit ja järjestelmäominaisuudet ovat Plazman suorituksessa käytettäviä komentoja täydentäviä arvoja, jotka vaikuttavat Plazman toimintaan kokonaisuutena.
 
 [Käynnistysparametrit](#user-content-fn-2)[^2] ja **järjestelmäominaisuudet** jaetaan **käynnistysparametreihin** ja **järjestelmäominaisuuksiin**.
 
