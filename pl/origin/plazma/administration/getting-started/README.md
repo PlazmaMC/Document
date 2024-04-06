@@ -27,7 +27,7 @@ Ponieważ Plazma opiera się na oficjalnej platformie serwerowej Mojang Studios 
 
 Aby sprawdzić, czy JRE jest zainstalowane na systemie, wpisz w oknie uruchamiania [`cmd /k java --version`](#user-content-fn-4)[^4] i uruchom.
 
-다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
+Jeśli zostanie wyświetlony w taki sposób, przejdź do [kroku 2](#id-2).
 
 {% code title="Poprawne wyjście" lineNumbers="true" %}
 
@@ -39,7 +39,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
+Jeśli nie zostanie wyświetlony w ten sposób lub zostanie wyświetlony w ten sposób, oznacza to, że JRE nie jest zainstalowany lub jest zbyt stary, więc należy wykonać [krok 1.2](#id-1.2).
 
 {% code title="Brak zainstalowanego JRE" lineNumbers="true" %}
 
@@ -62,9 +62,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 ### 1.2 Instalacja JRE
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+W tej instrukcji używamy Azul Zulu jako [jednego z rodzajów](#user-content-fn-5)[^5] JRE.
 
-설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
+Po zakończeniu instalacji, ponownie wykonaj [krok 1.1](#id-1.1), aby sprawdzić, czy instalacja została poprawnie zakończona.
 
 {% tabs %}
 
@@ -126,8 +126,8 @@ Plazma oferuje różne rodzaje plików wykonywalnych.
 
 **W większości przypadków używany jest `Reobf Paperclip`.**
 
-아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
-일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
+Poniższe informacje są przeznaczone dla programistów lub osób zainteresowanych różnymi aspektami.\
+Jeśli jesteś użytkownikiem zwykłym, możesz pominąć [krok 3](#id-3) bez problemu.
 
 {% endhint %}
 
@@ -202,11 +202,11 @@ Aby zaakceptować EULA, zmień `eula=false` na `eula=true` w pliku `eula.txt` i 
 
 Nowoczesne systemy operacyjne domyślnie blokują niebezpieczne połączenia z zewnątrz za pomocą **zapory** i **routera**.
 
-Windows의 경우, 방화벽은 [3 단계](#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
+W przypadku systemu Windows, zapora jest ustawiona w [kroku 3](#id-3), więc wystarczy przekierować porty.
 
 {% hint style="info" %}
 
-**해당 설명서는 Windows 운영 체제 및 [UPnP](#user-content-fn-12)[^12]를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
+**Ta instrukcja zakłada, że korzystasz z systemu Windows i masz router obsługujący [UPnP](#user-content-fn-12)[^12].**
 
 Jeśli router nie obsługuje UPnP, należy sprawdzić instrukcje dla konkretnego modelu routera.
 
@@ -303,7 +303,7 @@ Jeśli serwer i gra działają na tym samym komputerze, można użyć `localhost
 
 Jeśli serwer został pomyślnie uruchomiony i działa poprawnie, teraz nadszedł czas na dostosowanie serwera.
 
-아래 설명서를 통해 서버를 사용자화 하는 방법에 대해 알아보세요.
+Zapoznaj się z poniższą instrukcją, aby dowiedzieć się, jak dostosować serwer.
 
 {% content-ref url="następny-krok.md" %}
 [następny-krok.md](następny-krok.md)
