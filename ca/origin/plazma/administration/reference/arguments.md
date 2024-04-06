@@ -4,7 +4,7 @@ description: Aprengui sobre els arguments d'inici i les propietats del sistema.
 
 # 🎛️ Arguments d'inici i propietats
 
-시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
+Els arguments d'inici i les propietats del sistema són valors afegits a l'[ordre utilitzada per executar Plazma](#user-content-fn-1)[^1], i tenen un impacte general en el funcionament de Plazma.
 
 [Posició afegida a la comanda](#user-content-fn-2)[^2] que es divideix en **paràmetres d'inici** i **proprietats del sistema**.
 
