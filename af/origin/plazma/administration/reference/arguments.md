@@ -4,8 +4,8 @@ description: Leer meer oor beginargumente en stelsel eienskappe.
 
 # 🎛️ Argumente en eienskappe
 
-Beginveranderlikes en stelsel eienskappe is waardes wat by die Plazma-uitvoering gevoeg word as [opdragte wat gebruik word](#user-content-fn-1)[^1],\
-om waardes toe te laat om verander te word nadat Plazma uitgevoer is.
+시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
+Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
 
 [Posisie wat by die opdrag gevoeg word](#user-content-fn-2)[^2] sal verdeel word in **beginargument** en **sisteemeienskappe** volgens die.
 
@@ -27,8 +27,8 @@ As jy nie seker is oor die rol van elke stelsel eienskap nie, **moet jy dit besl
 
 Stelsel eienskappe word tussen `java` en `-jar` as Java-opdragargumente ingevoer.
 
-Byvoorbeeld, as jy die `Plazma.dummyProperty` stelsel eienskap wil toepas,\
-word die volgende ingevoer waar die waarde `37` na die eienskap toegevoeg word en Plazma geïnisialiseer word.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
+다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -187,7 +187,7 @@ Enige probleme wat deur hierdie aksie veroorsaak word, is die verantwoordelikhei
 - **Vorm**: `Integer`
 - **Verstekwaarde**: `64`
 
-Stel 'n beperking op die naam van die pluigin [kanaal](#user-content-fn-5)[^5].
+플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
