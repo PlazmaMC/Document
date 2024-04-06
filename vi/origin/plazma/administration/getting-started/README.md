@@ -159,8 +159,8 @@ Tên tệp thực thi được xác định là `plazma-(quản lý phiên bản
 
 Để bắt đầu Plazma một cách dễ dàng và tự động khởi động lại máy chủ, bạn cần tạo [kịch bản khởi động](#user-content-fn-6)[^6].
 
-Bạn có thể tạo kịch bản khởi động thông qua [Flags.sh](https://flags.sh).\
-Chỉ cần nhập [số lượng bộ nhớ sẽ sử dụng cho Plazma](#user-content-fn-8)[^8], lệnh sẽ tự động tối ưu hóa.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 [생성](#user-content-fn-7)[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Bạn có thể tải kịch bản khởi động thông qua nút tải xuống ở góc dưới bên trái.\
 **Hãy chắc chắn rằng tệp kịch bản khởi động đã được tải xuống đúng phiên bản của hệ điều hành của bạn.**
@@ -189,7 +189,11 @@ Sau khi chạy kịch bản khởi động một lần, tệp `eula.txt` sẽ đ
 
 EULA[^9] là hợp đồng cấp phép mà bạn phải đồng ý khi sử dụng dịch vụ của [Mojang Studios](#user-content-fn-10)[^10].
 
-Nếu không đồng ý với EULA, bạn sẽ không thể khởi động máy chủ và có thể bị xử phạt nếu vi phạm EULA, chẳng hạn như bị đình chỉ tài khoản.
+{% hint style="warning" %}
+
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 [제재](#user-content-fn-11)[^11]를 받을 수 있습니다.
+
+{% endhint %}
 
 Để đồng ý với EULA, chỉnh sửa `eula=false` trong tệp `eula.txt` thành `eula=true` và lưu lại.
 
@@ -296,7 +300,7 @@ Nếu máy chủ và trò chơi chạy trên cùng một PC, bạn có thể k�
 {% endtab %}
 {% endtabs %}
 
-## 7. Bước Phát triển
+## 7. 발전하기
 
 Sau khi máy chủ khởi động thành công và hoạt động đúng cách, bây giờ là lúc cá nhân hóa máy chủ.
 
