@@ -4,8 +4,7 @@ description: Tutustu käynnistysparametreihin ja järjestelmäominaisuuksiin.
 
 # 🎛️ Parametrit ja ominaisuudet
 
-시작 변수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로,
-Plazma가 실행된 이후 변경할 수 없는 값을 변경할 수 있게 해줍니다.
+시작 인수와 시스템 속성은 Plazma 실행에 [사용되는 명령어](#user-content-fn-1)[^1]에 덧붙이는 값으로, Plazma의 작동에 전반적인 영향을 줍니다.
 
 [Käynnistysparametrit](#user-content-fn-2)[^2] ja **järjestelmäominaisuudet** jaetaan **käynnistysparametreihin** ja **järjestelmäominaisuuksiin**.
 
@@ -27,8 +26,8 @@ Jos et tiedä tarkalleen, mitä kukin järjestelmäominaisuus tekee, **älä kä
 
 Järjestelmäominaisuudet syötetään Java-käskyparametreina `java` ja `-jar` välissä.
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+Esimerkiksi jos haluat soveltaa `Plazma.dummyProperty`-järjestelmäominaisuutta,
+kirjoita seuraavasti, jolloin seuraavaan ominaisuuteen syötetään `37` ja Plazma alustetaan.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -187,7 +186,7 @@ Kaikki tämän käytön aiheuttamat ongelmat ovat käyttäjän vastuulla, eikä 
 - **Tyyppi**: `Integer`
 - **Oletusarvo**: `64`
 
-플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
+Rajoita pluginin [kanavan](#user-content-fn-6)[^6] nimi.
 
 #### `Paper.maxSignLength`
 
