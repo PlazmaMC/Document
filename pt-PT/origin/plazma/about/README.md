@@ -21,8 +21,8 @@ description: Descubra o que é o Plazma como plataforma de servidor.
    Com todos os patches do [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) incluídos, e algumas otimizações internas e modos integrados, oferece o melhor desempenho.
 3. **Jogo personalizável conforme desejado**\
    O [Purpur](https://github.com/PurpurMC/Purpur) incluído no Plazma permite a modificação de atributos gerais do jogo.
-4. **Servidor seguro para jogar**\
-   Com o [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) incluído, é possível desativar o sistema de [relatórios de chat](#user-content-fn-3)[^3] adicionado pela Mojang a partir da versão 1.19, e o coletor de informações de diagnóstico é completamente removido para jogar em um servidor seguro e sem rastreamento.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 [Mojang](#user-content-fn-2)[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며, 진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **Atualizações mais rápidas**\
    O [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) garante que os patches incluídos no Plazma sejam sempre mantidos atualizados, oferecendo as atualizações mais rápidas entre as plataformas de servidor baseadas em Paper.
 6. **Otimização dos arquivos de configuração padrão**\
