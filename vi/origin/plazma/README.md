@@ -12,7 +12,7 @@ Chào mừng bạn đến với Tài liệu Sử dụng Plazma!
 
 **Không thể giải quyết vấn đề qua hướng dẫn?**
 
-[공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
+[Máy chủ Discord chính thức](https://discord.gg/MmfC52K8A8) hoặc [Thảo luận trên GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) để đặt câu hỏi trong cộng đồng!
 
 {% endhint %}
 
