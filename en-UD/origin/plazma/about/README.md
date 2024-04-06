@@ -21,8 +21,7 @@ description: .morfniatalf레브서무인플 란머피레브서 란머피레브�
    Includes all patches from [Pufferfish](https://github.com/pufferfish-gg/Pufferfish), with some internal optimizations and built-in mods for optimal performance.
 3. **Customize your game as you wish**\
    [Purpur](https://github.com/PurpurMC/Purpur) included in Plazma allows you to modify various aspects of the game.
-4. **Play on a server safely**\
-   Includes [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) to disable Mojang's [chat reporting system](#user-content-fn-3)[^3] added from 1.19, and completely removes the diagnostic information collector for playing on a traceless safe server.
+4. .srever ecafepytiaf egnolP\n[satropeR tahC oN](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 [gnajoaM](#user-content-fn-2)[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 아이즐네이비 할 수 있으며, 진단 정보 수집기가 완전 제거되어 추적 없는 .srever 는이앨플 할 수 있습니다.
 5. **Fastest updates**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) ensures that Plazma's included patches are always kept up to date, providing the fastest updates among Paper-based server platforms.
 6. **Optimized default configuration files**\
