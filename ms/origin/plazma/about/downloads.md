@@ -24,6 +24,8 @@ Jika anda seorang pembangun dan memerlukan jenis fail yang lain, sila rujuk kepa
 [downloads-all.md](downloads-all.md)
 {% endcontent-ref %}
 
+***
+
 <table data-view="cards">
     <thead>
         <tr>
@@ -64,3 +66,5 @@ Jika anda seorang pembangun dan memerlukan jenis fail yang lain, sila rujuk kepa
         </tr>
     </tbody>
 </table>
+
+***
