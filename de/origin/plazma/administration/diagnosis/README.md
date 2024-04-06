@@ -1,5 +1,5 @@
 ---
-description: 문제가 발생했을 때 대처하는 방법을 알아보세요.
+description: Erfahren Sie, wie Sie mit Problemen umgehen, wenn sie auftreten.
 ---
 
-# 🩺 진단
+# 🩺 Diagnose
