@@ -7,11 +7,11 @@ description: Tìm hiểu cách tạo máy chủ bằng Plazma.
 Để sử dụng Plazma một cách ổn định, hệ thống cần đáp ứng các yêu cầu sau.
 
 |                    | Tối thiểu | Đề nghị |
-| :----------------: | --------: | ------: |
-|      Kiến trúc     |       x64 |       - |
-|         RAM        |       8GB |    16GB |
-| Dung lượng lưu trữ |       1GB |     8GB |
-|         JRE        |        17 |      21 |
+| :----------------: | :-------- | :------ |
+|      Kiến trúc     | x64       | -       |
+|         RAM        | 8GB       | 16GB    |
+| Dung lượng lưu trữ | 1GB       | 8GB     |
+|         JRE        | 17        | 21      |
 
 Để dễ dàng chỉnh sửa tệp cấu hình, cài đặt trình soạn thảo như [Visual Studio Code](https://code.visualstudio.com/download) cũng là một ý tưởng tốt.
 
