@@ -56,11 +56,9 @@ description: Erfahren Sie mehr über Plazma als Serverplattform.
 - **Plattform, die von vielen Streamern gewählt wird**\
   Wird als bevorzugter Eimer für die Zuschauer vieler Streamer ausgewählt und verwendet.
 
-<figure>
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="">
-   
-   <figcaption><p>Realtime Plasma User Trend</p></figcaption>
-</figure>
+<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
+   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
+</a>
 
 ## ⬇️ Download
 
