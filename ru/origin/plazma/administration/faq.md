@@ -8,7 +8,7 @@ description: Узнайте ответы на часто задаваемые в
 
 **Не можете найти нужный ответ?**
 
-Задайте вопрос сообществу через [официальный сервер Discord](https://discord.gg/MmfC52K8A8) или [GitHub Issues](https://github.com/PlazmaMC/PlazmaBukkit/issues)!
+[Официальный сервер Discord](https://discord.gg/MmfC52K8A8) или [Обсуждения на GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) - задайте вопросы сообществу!
 
 {% endhint %}
 
