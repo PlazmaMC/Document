@@ -21,9 +21,9 @@ description: Плазма извршна датотека преузми цел�
 
 ![릴리스 대기중][wtr]![Развој у току](https://badge.plazmamc.org/1/Развој%20у%20току)![Подршка активна](https://badge.plazmamc.org/2/Подршка%20активна)![Прекин подршке за функције](https://badge.plazmamc.org/6/Прекин%20подршке%20за%20функције)![Крај подршке](https://badge.plazmamc.org/4/Крај%20подршке)
 
-|                                      верзија                                      |                             [RP](#user-content-fn-1)[^1]                             |                             [MP](#user-content-fn-2)[^2]                             |                             [RB](#user-content-fn-3)[^3]                             |                             [MB](#user-content-fn-4)[^4]                             |
+|                                      верзија                                      |                             [MP](#user-content-fn-1)[^1]                             |                             [RP](#user-content-fn-2)[^2]                             |                             [MB](#user-content-fn-3)[^3]                             |                             [RB](#user-content-fn-4)[^4]                             |
 | :-------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
-|                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |                               ![Чекање на издање][wtr]                               |                               ![Чекање на издање][wtr]                               |                               ![Чекање на издање][wtr]                               |                               ![Чекање на издање][wtr]                               |
+| [![1.20.6](https://badge.plazmamc.org/1/1.20.6)](https://git.plazmamc.org/1.20.6) |    [![다운로드](https://badge.plazmamc.org/1/다운로드)](https://dl.plazmamc.org/1.20.6/0)    |    [![다운로드](https://badge.plazmamc.org/1/다운로드)](https://dl.plazmamc.org/1.20.6/1)    |    [![다운로드](https://badge.plazmamc.org/1/다운로드)](https://dl.plazmamc.org/1.20.6/2)    |    [![다운로드](https://badge.plazmamc.org/1/다운로드)](https://dl.plazmamc.org/1.20.6/3)    |
 | [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.4/0) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.4/1) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.4/2) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.4/3) |
 | [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.2/0) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.2/1) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.2/2) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.2/3) |
 | [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.1/0) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.1/1) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.1/2) | [![Преузми](https://badge.plazmamc.org/1/Преузми)](https://dl.plazmamc.org/1.20.1/3) |
@@ -31,10 +31,10 @@ description: Плазма извршна датотека преузми цел�
 
 ***
 
-[^1]: Реобф Паперклип. [Сазнајте више](../administration/getting-started#id-2)
+[^1]: Мојмап Паперклип. [Сазнајте више](../administration/getting-started#id-2)
 
-[^2]: Мојмап Паперклип. [Сазнајте више](../administration/getting-started#id-2)
+[^2]: Реобф Паперклип. [Сазнајте више](../administration/getting-started#id-2)
 
-[^3]: Реобф Паперклип. [Сазнајте више](../administration/getting-started#id-2)
+[^3]: Мојмап Паперклип. [Сазнајте више](../administration/getting-started#id-2)
 
-[^4]: Мојмап Бандлер. [Сазнајте више](../administration/getting-started#id-2)
+[^4]: Reobf Bundler. [Сазнајте више](../administration/getting-started#id-2)
