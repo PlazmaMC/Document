@@ -42,25 +42,25 @@ description: Завантажте Plazma прямо зараз та випроб
         </tr>
         <tr>
             <td>1.20.4</td>
-            <td><a href="https://dl.plazmamc.org/1.20.4/">
+            <td><a href="https://dl.plazmamc.org/1.20.4/1">
                 <img src="https://badge.plazmamc.org/2/Завантажити" alt="Завантажити">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
-            <td><a href="https://dl.plazmamc.org/1.20.2/">
+            <td><a href="https://dl.plazmamc.org/1.20.2/1">
                 <img src="https://badge.plazmamc.org/6/Завантажити" alt="Завантажити">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
-            <td><a href="https://dl.plazmamc.org/1.20.1/">
+            <td><a href="https://dl.plazmamc.org/1.20.1/1">
                 <img src="https://badge.plazmamc.org/4/Завантажити" alt="Завантажити">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
-            <td><a href="https://dl.plazmamc.org/1.19.4/">
+            <td><a href="https://dl.plazmamc.org/1.19.4/1">
                 <img src="https://badge.plazmamc.org/4/Завантажити" alt="Завантажити">
             </a></td>
         </tr>
