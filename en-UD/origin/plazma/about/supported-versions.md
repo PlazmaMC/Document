@@ -13,18 +13,23 @@ description: 요세보 알수없는 :Java Edition 버전을 알아보세요.
 {% endhint %}
 
 [wtr]: https://badge.plazmamc.org/0/pending%20release
+[idv]: https://badge.plazmamc.org/1/under%20development
+[atv]: https://badge.plazmamc.org/2/supporting
+[fse]: https://badge.plazmamc.org/6/feature%20support%20discontinued
+[eol]: https://badge.plazmamc.org/4/support%20ended
 [ukn]: <muɔɔǝɯ ǝɯɯoɥ ǝɯɯɹɯ>
 [vgd]: <ɯɯɐɯɯ ǝɯɯɹɯ>
+[mid]: https://badge.plazmamc.org/6/normal
 [100]: 001/ɯɯɹɯ
 
-![Waiting for release][wtr]![In development](https://badge.plazmamc.org/1/In%20development)![Supporting](https://badge.plazmamc.org/2/Supporting)![Function support discontinued](https://badge.plazmamc.org/6/Function%20support%20discontinued)![Support ended](https://badge.plazmamc.org/4/Support%20ended)
+![Waiting for release][wtr] ![Under development][idv] ![Supporting][atv] ![Feature support discontinued][fse] ![Support ended][eol]
 
-|                                         버전                                        |       uɯɯɐɯs ɐɯɯ ɯɯǝɯɯɹ ǝuɯoɯ       |                                               빌드 상태                                               |
-| :-------------------------------------------------------------------------------: | :---------------------------------: | :-----------------------------------------------------------------------------------------------: |
-|                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |           ![릴리스 대기중][wtr]           |                                          ![릴리스 대기중][wtr]                                          |
-| [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) | !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001] | [![ɯɯǝɯɯs ɐɯɯɹɯ](https://ɯɯɯɯ.plazmamc.org/1.20.4)](https://ɯɯɯɯ.plazmamc.org/1.20.4?ɯɯɯɯɯɯ=true) |
-| [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) | !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001] | [![ɯɯǝɯɯs ɐɯɯɹɯ](https://ɯɯɯɯ.plazmamc.org/1.20.2)](https://ɯɯɯɯ.plazmamc.org/1.20.2?ɯɯɯɯɯɯ=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) | !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001] |                                       !\[ɯɯɐɯɯ ǝɯɯoɥ]\[nku]                                       |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) | !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001] |                                       !\[ɯɯɐɯɯ ǝɯɯoɥ]\[nku]                                       |
+|                                         버전                                        |                   uɯɯɐɯs ɐɯɯ ɯɯǝɯɯɹ ǝuɯoɯ                   |                                                 빌드 상태                                                 |
+| :-------------------------------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: |
+|                   ![1.20.6](https://badge.plazmamc.org/1/1.20.6)                  | ![Normal][vgd]![70%](https://badge.plazmamc.org/percent/70) | [![Build status](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |             !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]             |   [![ɯɯǝɯɯs ɐɯɯɹɯ](https://ɯɯɯɯ.plazmamc.org/1.20.4)](https://ɯɯɯɯ.plazmamc.org/1.20.4?ɯɯɯɯɯɯ=true)   |
+| [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) |             !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]             |   [![ɯɯǝɯɯs ɐɯɯɹɯ](https://ɯɯɯɯ.plazmamc.org/1.20.2)](https://ɯɯɯɯ.plazmamc.org/1.20.2?ɯɯɯɯɯɯ=true)   |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |             !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]             |                                         !\[ɯɯɐɯɯ ǝɯɯoɥ]\[nku]                                         |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |             !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]             |                                         !\[ɯɯɐɯɯ ǝɯɯoɥ]\[nku]                                         |
 
 ***
