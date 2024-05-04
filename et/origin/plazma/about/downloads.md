@@ -42,26 +42,26 @@ Kui olete arendaja ja vajate muid failivorminguid, vaadake allolevat lehekülge.
         </tr>
         <tr>
             <td>1.20.4</td>
-            <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/2/lae alla" alt="lae alla">
+            <td><a href="https://dl.plazmamc.org/1.20.4/1">
+                <img src="https://badge.plazmamc.org/2/Allalaadimine" alt="Allalaadimine">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
-            <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/6/lae alla" alt="lae alla">
+            <td><a href="https://dl.plazmamc.org/1.20.2/1">
+                <img src="https://badge.plazmamc.org/6/Allalaadimine" alt="Allalaadimine">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
-            <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/4/lae alla" alt="lae alla">
+            <td><a href="https://dl.plazmamc.org/1.20.1/1">
+                <img src="https://badge.plazmamc.org/4/Allalaadimine" alt="Allalaadimine">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
-            <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/4/lae alla" alt="lae alla">
+            <td><a href="https://dl.plazmamc.org/1.19.4/1">
+                <img src="https://badge.plazmamc.org/4/Allalaadimine" alt="Allalaadimine">
             </a></td>
         </tr>
     </tbody>
