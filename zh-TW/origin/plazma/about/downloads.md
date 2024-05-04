@@ -42,25 +42,25 @@ description: 立即下載 Plazma 並立即使用。
         </tr>
         <tr>
             <td>1.20.4</td>
-            <td><a href="https://dl.plazmamc.org/1.20.4/">
+            <td><a href="https://dl.plazmamc.org/1.20.4/1">
                 <img src="https://badge.plazmamc.org/2/下載" alt="下載">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
-            <td><a href="https://dl.plazmamc.org/1.20.2/">
+            <td><a href="https://dl.plazmamc.org/1.20.2/1">
                 <img src="https://badge.plazmamc.org/6/下載" alt="下載">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
-            <td><a href="https://dl.plazmamc.org/1.20.1/">
+            <td><a href="https://dl.plazmamc.org/1.20.1/1">
                 <img src="https://badge.plazmamc.org/4/下載" alt="下載">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
-            <td><a href="https://dl.plazmamc.org/1.19.4/">
+            <td><a href="https://dl.plazmamc.org/1.19.4/1">
                 <img src="https://badge.plazmamc.org/4/下載" alt="下載">
             </a></td>
         </tr>
