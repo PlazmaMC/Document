@@ -21,9 +21,9 @@ descargue desde la página a continuación.
 
 ![Esperando lanzamiento][wtr]![En desarrollo](https://badge.plazmamc.org/1/En%20desarrollo)![En soporte](https://badge.plazmamc.org/2/En%20soporte)![Fin de soporte de funciones](https://badge.plazmamc.org/6/Fin%20de%20soporte%20de%20funciones)![Fin de soporte](https://badge.plazmamc.org/4/Fin%20de%20soporte)
 
-|                                      Versión                                      |                               [RP](#user-content-fn-1)[^1]                               |                               [MP](#user-content-fn-2)[^2]                               |                               [RB](#user-content-fn-3)[^3]                               |                               [MB](#user-content-fn-4)[^4]                               |
+|                                      Versión                                      |                               [MP](#user-content-fn-1)[^1]                               |                               [RP](#user-content-fn-2)[^2]                               |                               [MB](#user-content-fn-3)[^3]                               |                               [RB](#user-content-fn-4)[^4]                               |
 | :-------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
-|                   ![1.20.5](https://badge.plazmamc.org/0/1.20.5)                  |                               ![Esperando lanzamiento][wtr]                              |                               ![Esperando lanzamiento][wtr]                              |                               ![Esperando lanzamiento][wtr]                              |                               ![Esperando lanzamiento][wtr]                              |
+| [![1.20.6](https://badge.plazmamc.org/1/1.20.6)](https://git.plazmamc.org/1.20.6) |      [![다운로드](https://badge.plazmamc.org/1/다운로드)](https://dl.plazmamc.org/1.20.6/0)      |      [![다운로드](https://badge.plazmamc.org/1/다운로드)](https://dl.plazmamc.org/1.20.6/1)      |      [![다운로드](https://badge.plazmamc.org/1/다운로드)](https://dl.plazmamc.org/1.20.6/2)      |      [![다운로드](https://badge.plazmamc.org/1/다운로드)](https://dl.plazmamc.org/1.20.6/3)      |
 | [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.4/0) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.4/1) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.4/2) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.4/3) |
 | [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.2/0) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.2/1) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.2/2) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.2/3) |
 | [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.1/0) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.1/1) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.1/2) | [![Descargar](https://badge.plazmamc.org/1/Descargar)](https://dl.plazmamc.org/1.20.1/3) |
@@ -31,10 +31,10 @@ descargue desde la página a continuación.
 
 ***
 
-[^1]: Reobf Paperclip. [Más información](../administration/getting-started#id-2)
+[^1]: Mojmap Paperclip. [Más información](../administration/getting-started#id-2)
 
-[^2]: Mojmap Paperclip. [Más información](../administration/getting-started#id-2)
+[^2]: Reobf Paperclip. [Más información](../administration/getting-started#id-2)
 
-[^3]: Reobf Paperclip. [Más información](../administration/getting-started#id-2)
+[^3]: Mojmap Paperclip. [Más información](../administration/getting-started#id-2)
 
-[^4]: Mojmap Bundler. [Más información](../administration/getting-started#id-2)
+[^4]: Reobf Bundler. [Más información](../administration/getting-started#id-2)
