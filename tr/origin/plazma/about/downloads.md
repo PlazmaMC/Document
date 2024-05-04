@@ -35,34 +35,34 @@ Geliştiricisiniz ve farklı bir dosya türüne ihtiyacınız varsa, lütfen aş
     </thead>
     <tbody>
         <tr>
-            <td>1.20.5</td>
-            <td><a href="">
-                <img src="https://badge.plazmamc.org/0/Beklemede" alt="Beklemede">
-            </a></td>
+            <td>1.20.6</td>
+            <td><a href="https://dl.plazmamc.org/1.20.6/">
+ <img src="https://badge.plazmamc.org/1/İndir" alt="İndir">
+ </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/İndir" alt="İndir">
-            </a></td>
+ <img src="https://badge.plazmamc.org/2/İndir" alt="İndir">
+ </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/İndir" alt="İndir">
-            </a></td>
+ <img src="https://badge.plazmamc.org/6/İndir" alt="İndir">
+ </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/İndir" alt="İndir">
-            </a></td>
+ <img src="https://badge.plazmamc.org/4/İndir" alt="İndir">
+ </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/İndir" alt="İndir">
-            </a></td>
+ <img src="https://badge.plazmamc.org/4/İndir" alt="İndir">
+ </a></td>
         </tr>
     </tbody>
 </table>
