@@ -42,25 +42,25 @@ If you are a developer and need a different type of file, please refer to the pa
         </tr>
         <tr>
             <td>1.20.4</td>
-            <td><a href="https://dl.plazmamc.org/1.20.4/">
+            <td><a href="https://dl.plazmamc.org/1.20.4/1">
                 <img src="https://badge.plazmamc.org/2/Download" alt="Download">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
-            <td><a href="https://dl.plazmamc.org/1.20.2/">
+            <td><a href="https://dl.plazmamc.org/1.20.2/1">
                 <img src="https://badge.plazmamc.org/6/Download" alt="Download">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
-            <td><a href="https://dl.plazmamc.org/1.20.1/">
+            <td><a href="https://dl.plazmamc.org/1.20.1/1">
                 <img src="https://badge.plazmamc.org/4/Download" alt="Download">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
-            <td><a href="https://dl.plazmamc.org/1.19.4/">
+            <td><a href="https://dl.plazmamc.org/1.19.4/1">
                 <img src="https://badge.plazmamc.org/4/Download" alt="Download">
             </a></td>
         </tr>
