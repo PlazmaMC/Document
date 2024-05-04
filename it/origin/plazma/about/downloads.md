@@ -35,33 +35,33 @@ Se sei uno sviluppatore e hai bisogno di un'altra forma di file, consulta la pag
     </thead>
     <tbody>
         <tr>
-            <td>1.20.5</td>
-            <td><a href="">
-                <img src="https://badge.plazmamc.org/0/In%20attesa%20di%20rilascio" alt="In attesa di rilascio">
+            <td>1.20.6</td>
+            <td><a href="https://dl.plazmamc.org/1.20.6/">
+                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/Scarica" alt="Scarica">
+                <img src="https://badge.plazmamc.org/2/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/Scarica" alt="Scarica">
+                <img src="https://badge.plazmamc.org/6/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/Scarica" alt="Scarica">
+                <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/Scarica" alt="Scarica">
+                <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
             </a></td>
         </tr>
     </tbody>
