@@ -42,26 +42,26 @@ description: ¡ɘɿɒɘ ɯoɹɒl ɐʇɹo Plazma ɿɒɿɒʇnɘɿɒɿɘ ɿɒɘɿɒ
         </tr>
         <tr>
             <td>4.02.1</td>
-            <td><a href="https://dl.plazmamc.org/6.02.4/">
-                <img src="https://badge.plazmamc.org/2/다운로드" alt="다운로드">
+            <td><a href="https://dl.plazmamc.org/1.20.4/1">
+                <img src="https://badge.plazmamc.org/2/다운로드" alt="다운로다">
             </a></td>
         </tr>
         <tr>
             <td>2.02.1</td>
-            <td><a href="https://dl.plazmamc.org/6.02.6/">
-                <img src="https://badge.plazmamc.org/6/다운로드" alt="다운로드">
+            <td><a href="https://dl.plazmamc.org/1.20.2/1">
+                <img src="https://badge.plazmamc.org/6/다운로다" alt="다운로다">
             </a></td>
         </tr>
         <tr>
             <td>1.02.1</td>
-            <td><a href="https://dl.plazmamc.org/6.02.1/">
-                <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
+            <td><a href="https://dl.plazmamc.org/1.20.1/1">
+                <img src="https://badge.plazmamc.org/4/다운로다" alt="다운로다">
             </a></td>
         </tr>
         <tr>
             <td>4.91.1</td>
-            <td><a href="https://dl.plazmamc.org/4.91.1/">
-                <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
+            <td><a href="https://dl.plazmamc.org/1.19.4/1">
+                <img src="https://badge.plazmamc.org/4/다운로다" alt="다운로다">
             </a></td>
         </tr>
     </tbody>
