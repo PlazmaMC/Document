@@ -42,27 +42,27 @@ description: 立即下载Plazma并自行使用。
         </tr>
         <tr>
             <td>1.20.4</td>
-            <td><a href="https://dl.plazmamc.org/1.20.4/">
- <img src="https://badge.plazmamc.org/2/下载" alt="下载">
- </a></td>
+            <td><a href="https://dl.plazmamc.org/1.20.4/1">
+                <img src="https://badge.plazmamc.org/2/下载" alt="下载">
+            </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
-            <td><a href="https://dl.plazmamc.org/1.20.2/">
- <img src="https://badge.plazmamc.org/6/下载" alt="下载">
- </a></td>
+            <td><a href="https://dl.plazmamc.org/1.20.2/1">
+                <img src="https://badge.plazmamc.org/6/下载" alt="下载">
+            </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
-            <td><a href="https://dl.plazmamc.org/1.20.1/">
- <img src="https://badge.plazmamc.org/4/下载" alt="下载">
- </a></td>
+            <td><a href="https://dl.plazmamc.org/1.20.1/1">
+                <img src="https://badge.plazmamc.org/4/下载" alt="下载">
+            </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
-            <td><a href="https://dl.plazmamc.org/1.19.4/">
- <img src="https://badge.plazmamc.org/4/下载" alt="下载">
- </a></td>
+            <td><a href="https://dl.plazmamc.org/1.19.4/1">
+                <img src="https://badge.plazmamc.org/4/下载" alt="下载">
+            </a></td>
         </tr>
     </tbody>
 </table>
