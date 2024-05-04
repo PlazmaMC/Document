@@ -35,33 +35,33 @@ Jika Anda seorang pengembang dan memerlukan jenis file lain, silakan lihat halam
     </thead>
     <tbody>
         <tr>
-            <td>1.20.5</td>
-            <td><a href="">
-                <img src="https://badge.plazmamc.org/0/Menunggu%20Rilis" alt="Menunggu Rilis">
+            <td>1.20.6</td>
+            <td><a href="https://dl.plazmamc.org/1.20.6/">
+                <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
             <td>1.20.4</td>
             <td><a href="https://dl.plazmamc.org/1.20.4/">
-                <img src="https://badge.plazmamc.org/1/Unduh" alt="Unduh">
+                <img src="https://badge.plazmamc.org/2/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/">
-                <img src="https://badge.plazmamc.org/1/Unduh" alt="Unduh">
+                <img src="https://badge.plazmamc.org/6/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
             <td><a href="https://dl.plazmamc.org/1.20.1/">
-                <img src="https://badge.plazmamc.org/1/Unduh" alt="Unduh">
+                <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
             <td><a href="https://dl.plazmamc.org/1.19.4/">
-                <img src="https://badge.plazmamc.org/1/Unduh" alt="Unduh">
+                <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
             </a></td>
         </tr>
     </tbody>
