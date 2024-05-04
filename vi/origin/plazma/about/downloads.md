@@ -42,27 +42,27 @@ Nếu bạn là một nhà phát triển và cần một loại tệp khác, vui
         </tr>
         <tr>
             <td>1.20.4</td>
-            <td><a href="https://dl.plazmamc.org/1.20.4/">
- <img src="https://badge.plazmamc.org/2/Tải xuống" alt="Tải xuống">
- </a></td>
+            <td><a href="https://dl.plazmamc.org/1.20.4/1">
+                <img src="https://badge.plazmamc.org/2/Tải_xuống" alt="Tải_xuống">
+            </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
-            <td><a href="https://dl.plazmamc.org/1.20.2/">
- <img src="https://badge.plazmamc.org/6/Tải xuống" alt="Tải xuống">
- </a></td>
+            <td><a href="https://dl.plazmamc.org/1.20.2/1">
+                <img src="https://badge.plazmamc.org/6/Tải_xuống" alt="Tải_xuống">
+            </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
-            <td><a href="https://dl.plazmamc.org/1.20.1/">
- <img src="https://badge.plazmamc.org/4/Tải xuống" alt="Tải xuống">
- </a></td>
+            <td><a href="https://dl.plazmamc.org/1.20.1/1">
+                <img src="https://badge.plazmamc.org/4/Tải_xuống" alt="Tải_xuống">
+            </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
-            <td><a href="https://dl.plazmamc.org/1.19.4/">
- <img src="https://badge.plazmamc.org/4/Tải xuống" alt="Tải xuống">
- </a></td>
+            <td><a href="https://dl.plazmamc.org/1.19.4/1">
+                <img src="https://badge.plazmamc.org/4/Tải_xuống" alt="Tải_xuống">
+            </a></td>
         </tr>
     </tbody>
 </table>
