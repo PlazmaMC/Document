@@ -42,25 +42,25 @@ description: Nao downloadz Plazma rite meow n try it out fur yourself.
         </tr>
         <tr>
             <td>1.20.4</td>
-            <td><a href="https://dl.plazmamc.org/1.20.4/">
+            <td><a href="https://dl.plazmamc.org/1.20.4/1">
                 <img src="https://badge.plazmamc.org/2/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
             <td>1.20.2</td>
-            <td><a href="https://dl.plazmamc.org/1.20.2/">
+            <td><a href="https://dl.plazmamc.org/1.20.2/1">
                 <img src="https://badge.plazmamc.org/6/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
-            <td><a href="https://dl.plazmamc.org/1.20.1/">
+            <td><a href="https://dl.plazmamc.org/1.20.1/1">
                 <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
             <td>1.19.4</td>
-            <td><a href="https://dl.plazmamc.org/1.19.4/">
+            <td><a href="https://dl.plazmamc.org/1.19.4/1">
                 <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
             </a></td>
         </tr>
