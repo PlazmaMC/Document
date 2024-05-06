@@ -49,8 +49,8 @@ Se sei uno sviluppatore e hai bisogno di un'altra forma di file, consulta la pag
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/1">
- <img src="https://badge.plazmamc.org/6/Scarica" alt="Scarica">
- </a></td>
+                <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
+            </a></td>
         </tr>
         <tr>
             <td>1.20.1</td>
