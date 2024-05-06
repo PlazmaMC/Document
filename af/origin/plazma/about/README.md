@@ -52,8 +52,8 @@ description: Leer meer oor wat Plazma se bedienerplatform behels.
   met 4 groepe kon 'n totaal van 250 spelers gemaklik speel.
 - **Platform wat lig wys vanaf blokke/entiteite**\
   Die bedienerplatform van 'n oorlewingbediener waar vertragings in die verwerking van blokke en entiteite voorgekom het, is verander van Purpur na Plazma en dit het die meeste vertragings verminder.
-- **Platform wat deur baie strome gekies is**\
-  Dit word gebruik as 'n bedieneremmer vir baie strome se kykers.
+- **Baie stroomers se gekose platform**\
+  Word deur baie stroomers se kykers gebruik as 'n emmer vir deelname.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma gebruikers tendens">
