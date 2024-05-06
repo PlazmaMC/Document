@@ -53,8 +53,8 @@ description: Mësoni më shumë për platformën e serverit Plazma.
 - **Platforma që shfaq dritë në chunk/entity**\
   Duke ndryshuar nga Purpur në Plazma në serverin e shërbyesit të mbijetuarve ku ka pasur vonesa në trajtimin e chunk-ve dhe entiteteve,\
   kemi mundur të zvogëlojmë shumicën e vonesave.
-- **Platforma e zgjedhur nga shumë streamerë**\
-  Është zgjedhur si një ndihmë për shikuesit e shumtë të streamerëve.
+- **많은 스트리머가 선택한 플랫폼**\
+  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Tendencë e përdoruesve të Plazma në kohë reale">
