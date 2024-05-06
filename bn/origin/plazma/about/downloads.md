@@ -49,7 +49,7 @@ description: এখনই Plazma ডাউনলোড করুন এবং �
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/1">
-                <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/4/ডাউনলোড" alt="ডাউনলোড">
             </a></td>
         </tr>
         <tr>
