@@ -55,8 +55,8 @@ description: Plazma haz 어떤 서버 플랫폼인지 알아보세요.
 - **SHININ LIGHT ON CHUNK/ENTITY**\
   SWITCH FROM Purpur TO Plazma ON SURVIVAL SERVER WITH DELAYS IN CHUNK AND ENTITY PROCESSIN,
   REDUCED MOST DELAYS.
-- **PREFERRED PLATFORM OF MANY STREAMERZ**\
-  CHOSEN AS VIEWER-FRIENDLY BUCKET BY MANY STREAMERZ.
+- **많은 스트리머가 선택한 플랫폼**\
+  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
