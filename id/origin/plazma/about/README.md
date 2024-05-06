@@ -55,8 +55,8 @@ description: Pelajari lebih lanjut tentang platform server Plazma.
 - **Platform yang Menampilkan Cahaya dari Chunks/Entities**\
   Mengubah platform server survival yang sebelumnya mengalami keterlambatan dalam pemrosesan chunk dan entity
   dari Purpur ke Plazma berhasil mengurangi sebagian besar keterlambatan.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
+- **Platform yang Dipilih Banyak Streamer**\
+  Digunakan sebagai ember partisipasi penonton banyak streamer.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Tren Pengguna Plazma Real-Time">
