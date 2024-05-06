@@ -54,8 +54,8 @@ description: Learn about what Plazma server platform is.
 - **Platform Revealing Light in Chunks/Entities**\
   By switching from Purpur to Plazma on a survival server where delays occurred in processing chunks and entities,
   most delays could be reduced.
-- **Platform Chosen by Many Streamers**\
-  Being chosen as the bucket for many streamers' viewer participation.
+- **Platform chosen by many streamers**\
+  Chosen as the bucket for viewer participation by many streamers.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma user trend">
