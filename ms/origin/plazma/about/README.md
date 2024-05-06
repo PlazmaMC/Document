@@ -52,8 +52,8 @@ description: Pelajari apa itu platform server Plazma.
   Menjaga 100 pemain dalam kluster tunggal tanpa penurunan TPS, dan membolehkan 250 pemain bermain dengan lancar dalam 4 kluster.
 - **Platform yang Menunjukkan Cahaya dari Chunk/Entity**\
   Dengan menukar dari Purpur ke Plazma, platform server survival yang mengalami kelewatan dalam memproses chunk dan entity dapat mengurangkan kelewatan secara keseluruhan.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
+- **Platform yang dipilih oleh banyak streamer**\
+  Digunakan sebagai bekas penonton untuk banyak streamer yang dipilih.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
