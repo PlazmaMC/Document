@@ -53,8 +53,8 @@ description: Zistite viac o platforme Plazma.
   Na jednom zhluku udržala 100 hráčov bez poklesu TPS a na 4 zhlukoch mohlo 250 hráčov hrať plynulo.
 - **Platforma, ktorá ukazuje svetlo vo fragmentoch a entitách**\
   Zmena platformy z Purpuru na Plazmu pre prevádzku servera prežitia, kde došlo k zníženiu väčšiny meškaní pri spracovaní fragmentov a entít.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
+- **Mnoho streamerov vybralo platformu**\
+  Je to vybrané ako kôš pre divácku účasť mnohých streamerov.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma user trend">
