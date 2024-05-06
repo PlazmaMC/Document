@@ -50,8 +50,8 @@ description: Découvrez ce qu'est Plazma en tant que plateforme de serveur.
   Il a maintenu 100 joueurs sur un seul cluster sans baisse de TPS, et jusqu'à 250 joueurs sur 4 clusters peuvent jouer confortablement sans problème.
 - **Une plateforme qui brille dans les chunks/entités**\
   En remplaçant Purpur par Plazma sur un serveur de survie où des retards se produisaient lors du traitement des chunks et des entités, la plupart des retards ont été réduits.
-- **Une plateforme choisie par de nombreux streamers**\
-  Utilisé comme serveur de visionnage par de nombreux spectateurs de streamers populaires.
+- **La plateforme choisie par de nombreux streamers**\
+  Utilisée comme un seau pour l'engagement des spectateurs de nombreux streamers.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Tendance des utilisateurs en temps réel de Plazma">
