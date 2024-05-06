@@ -56,7 +56,7 @@ description: Descobreix què és Plazma com a plataforma de servidor.
   Canviant de Purpur a Plazma en el servidor de supervivència on hi havia retard en el processament de chunks i entitats,
   ha pogut reduir la majoria dels retards.
 - **Plataforma escollida per molts streamers**\
-  És utilitzada com a servidor per molts espectadors de molts streamers.
+  És utilitzada com a cub per a la participació dels espectadors de molts streamers.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Tendència d'ús en temps real de Plazma">
