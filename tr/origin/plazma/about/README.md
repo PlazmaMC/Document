@@ -55,8 +55,8 @@ description: Plazma'nın hangi tür bir sunucu platformu olduğunu öğrenin.
 - **Chunk/entity'lere ışık tutan platform**\
   Önceki sürümde survival sunucularında chunk ve entity işleme gecikmeleri yaşandı, Plazma'ya geçiş yaparak
   Purpur'dan Plazma'ya büyük ölçüde gecikmeleri azaltmayı başardık.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
+- **Çok sayıda yayıncının tercih ettiği platform**\
+  Birçok yayıncının izleyici katılımı için tercih ettiği platform olarak kullanılmaktadır.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Gerçek Zamanlı Plazma Kullanıcı Eğilimi">
