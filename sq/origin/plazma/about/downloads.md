@@ -49,7 +49,7 @@ Nëse jeni zhvillues dhe keni nevojë për një formë tjetër skedari, ju lutem
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/1">
-                <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/4/shkarko" alt="shkarko">
             </a></td>
         </tr>
         <tr>
