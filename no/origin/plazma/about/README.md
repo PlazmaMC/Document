@@ -46,8 +46,8 @@ description: Finn ut hva Plazma serverplattformen er.
   Klarte å opprettholde 100 spillere på en enkelt kluster uten TPS-fall, og totalt 250 spillere på 4 klustre kunne spille komfortabelt uten problemer.
 - **Plattformen som viser lys i chunk/entity**\
   Ved å bytte fra Purpur til Plazma på en overlevelsesserver der det oppsto forsinkelser i behandlingen av chunk og entity, kunne de redusere de fleste forsinkelsene.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
+- **Mange strømmere har valgt plattformen**\
+  Mange strømmere bruker den som en bøtte for seerengasjement.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma brukertrender">
