@@ -51,8 +51,8 @@ description: 了解 Plazma 是什么样的服务器平台。
   在4个集群中，总共250名玩家可以愉快地游玩。
 - **在区块/实体上显示光芒的平台**\
   将Survival服务器的平台从Purpur更改为Plazma，减少了大部分延迟，用于处理区块和实体。
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
+- **许多主播选择的平台**\
+  被许多主播的观众用作参与的桶。
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="实时 Plazma 用户趋势">
