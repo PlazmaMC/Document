@@ -52,8 +52,8 @@ description: Tutustu siihen, mikä Plazma-palvelin alusta on.
 - **Valoa näyttävä alusta palasissa/olioissa**\
   Purpurin sijaan Plazmaan vaihtamalla voitiin vähentää suurinta osaa viivästyksistä
   joita aiheutui selviytymispalvelimen palasien ja olioiden käsittelystä.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
+- **Monet suoratoistolähetyksiä tekevät ovat valinneet alustan**\
+  Monet suoratoistolähetyksiä tekevät ovat valinneet ja käyttävät sitä katsojien osallistumiskorina.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Tilastotietoja Plazma-käyttäjistä reaaliajassa">
