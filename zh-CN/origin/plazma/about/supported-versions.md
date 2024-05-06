@@ -28,7 +28,7 @@ description: "了解Plazma支持的Minecraft: Java Edition版本。"
 | :-------------------------------------------------------------------------------: | :-----------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
 |                   ![1.20.6](https://badge.plazmamc.org/1/1.20.6)                  | ![普通][vgd]![70%](https://badge.plazmamc.org/percent/70) | [![构建状态](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
 | [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |                 ![非常好][vgd]![100%][100]                 | [![构建状态](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/6/1.20.2)](https://git.plazmamc.org/1.20.2) |                 ![非常好][vgd]![100%][100]                 | [![构建状态](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                 ![非常好][vgd]![100%][100]                 | [![构建状态](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
 | [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                 ![非常好][vgd]![100%][100]                 |                                          ![没有信息][ukn]                                         |
 | [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                 ![非常好][vgd]![100%][100]                 |                                          ![没有信息][ukn]                                         |
 
