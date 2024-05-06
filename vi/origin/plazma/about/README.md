@@ -55,8 +55,8 @@ description: Tìm hiểu về Plazma là gì.
 - **Nền tảng hiển thị ánh sáng từ chunk/entity**\
   Thay đổi từ Purpur sang Plazma trên máy chủ sinh tồn trước đây gặp độ trễ khi xử lý chunk và entity,
   giúp giảm đáng kể độ trễ.
-- **Nền tảng được nhiều streamer lựa chọn**\
-  Được sử dụng như một phần của bucket được lựa chọn bởi nhiều người xem của nhiều streamer.
+- **많은 스트리머가 선택한 플랫폼**\
+  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Trend người dùng Plazma trực tiếp">
