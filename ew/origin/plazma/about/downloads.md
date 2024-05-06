@@ -49,7 +49,7 @@ If you are a developer and need a different type of file, please refer to the pa
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/1">
-                <img src="https://badge.plazmamc.org/6/Download" alt="Download">
+                <img src="https://badge.plazmamc.org/4/download" alt="Download">
             </a></td>
         </tr>
         <tr>
