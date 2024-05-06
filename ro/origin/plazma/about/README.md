@@ -52,7 +52,7 @@ description: Aflați mai multe despre platforma de servere Plazma.
 - **Platforma care arată lumina din chunk-uri/entități**\
   Schimbarea platformei de la Purpur la Plazma pe serverul de supraviețuire, care avea întârzieri la procesarea chunk-urilor și entităților, a permis reducerea majorității întârzierilor.
 - **Platforma aleasă de mulți streameri**\
-  Este folosit ca un bucket preferat pentru vizionarea de către mulți spectatori ai streamerilor.
+  Este aleasă ca un recipient pentru implicarea spectatorilor multor streameri.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Tendința utilizatorilor Plazma în timp real">
