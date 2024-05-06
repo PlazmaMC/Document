@@ -55,8 +55,8 @@ description: Dowiedz się, czym jest Plazma jako platforma serwerowa.
 - **Platforma oświetlająca chunki/entitety**\
   Zmiana platformy z Purpur na Plazma dla serwera survival, gdzie występowały opóźnienia w przetwarzaniu chunków i entitetów,
   pozwoliła na znaczną redukcję opóźnień.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
+- **Platforma wybrana przez wielu streamerów**\
+  Jest używana jako wiadro dla uczestnictwa widzów wielu streamerów.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Rzeczywisty trend użytkowania Plazmy">
