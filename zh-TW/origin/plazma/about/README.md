@@ -54,8 +54,8 @@ description: 了解 Plazma 是什麼服務器平台。
 - **在區塊/實體中顯示光芒的平台**\
   將原本在處理區塊和實體時導致延遲的生存伺服器平台
   從Purpur更改為Plazma後，能夠減少大部分延遲。
-- **許多串流者選擇的平台**\
-  被許多串流者的觀眾選為使用的存儲桶。
+- **많은 스트리머가 선택한 플랫폼**\
+  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="實時 Plazma 使用者趨勢">
