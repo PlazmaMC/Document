@@ -54,8 +54,8 @@ description: Lær mere om, hvad Plazma serverplatformen er.
 - **En platform der viser lys i chunk/entity**\
   Ved at skifte fra Purpur til Plazma på en overlevelsesserver, hvor der tidligere var forsinkelser i behandlingen af chunks og entities,\
   kunne de fleste forsinkelser reduceres markant.
-- **En platform valgt af mange streamere**\
-  Bruges som en bucket til seerengagement af mange streamere.
+- **많은 스트리머가 선택한 플랫폼**\
+  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma bruger tendens">
