@@ -49,7 +49,7 @@ Wenn Sie ein Entwickler sind und eine andere Art von Datei benötigen, sehen Sie
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/1">
-                <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
+                <img src="https://badge.plazmamc.org/4/Herunterladen" alt="Herunterladen">
             </a></td>
         </tr>
         <tr>
