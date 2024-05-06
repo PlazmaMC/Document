@@ -52,8 +52,8 @@ description: Find out what kind o' server platform Plazma be.
   Stably maintainin' 100 players on a single cluster without TPS drops, an' allowin' a pleasant play experience fer 250 players on 4 clusters.
 - **Platform showin' light on chunks/entities**\
   Switchin' from Purpur t' Plazma on a survival server where delays occurred in handlin' chunks an' entities helped reduce most o' th' delays.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
+- **Many streamers be choosin' th' platform**\
+  Many streamers' viewers be choosin' it as a bucket fer participation.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma user trend">
