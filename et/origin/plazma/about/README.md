@@ -55,8 +55,8 @@ description: Uurige, milline platvorm Plazma on.
 - **Platvorm, mis näitab valgust tükkides/üksustes**\
   Muutes varasemalt ellujäämisserveris esinevat viivitust tükkide ja üksuste töötlemisel
   Purpuri asemel Plazmaks, suudeti vähendada enamikku viivitusi.
-- **Paljude voogude valitud platvorm**\
-  Paljud voogedastajad on valinud kasutada seda ämbrina oma vaatajate jaoks.
+- **많은 스트리머가 선택한 플랫폼**\
+  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Plazma kasutajate reaalajas suundumus">
