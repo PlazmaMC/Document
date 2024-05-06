@@ -52,8 +52,8 @@ description: Sužinokite, kas yra Plazma serverio platforma.
   4 klasteriuose iš viso 250 žaidėjų galėjo žaisti patogiai.
 - **Platforma, kuri leidžia matyti šviesą iš chunk/entiteto**\
   Keičiant iš Purpur į Plazma, buvo sumažintas didžioji dalis vėlavimų, kurie atsirado tvarkant chunk'us ir entitetus ant iki šiol buvusio vėlavimų turinčio išlikimo serverio platformos.
-- **Daugelio transliuotojų pasirinkta platforma**\
-  Daugelis transliuotojų ir jų žiūrovų buvo pasirinkę naudoti šį kibirą.
+- **많은 스트리머가 선택한 플랫폼**\
+  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Realtime Plazma vartotojų tendencija">
