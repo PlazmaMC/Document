@@ -46,8 +46,8 @@ description: Ontdek wat Plazma voor een serverplatform is.
   Op een enkel cluster konden 100 spelers stabiel blijven zonder TPS-verlaging, en op 4 clusters konden in totaal 250 spelers comfortabel spelen.
 - **Platform dat licht werpt op chunks/entities**\
   Door over te schakelen van Purpur naar Plazma voor de server van een overlevingsserver waar vertragingen optraden bij het verwerken van chunks en entities, kon het merendeel van de vertragingen worden verminderd.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
+- **Veel gekozen platform door veel streamers**\
+  Wordt gebruikt als een emmer voor kijkersparticipatie van veel streamers.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Realtime Plazma gebruikerstrend">
