@@ -49,7 +49,7 @@ Jeigu esate kūrėjas ir reikia kitos formos failo, žiūrėkite žemiau pateikt
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/1">
-                <img src="https://badge.plazmamc.org/6/Atsisiųsti" alt="Atsisiųsti">
+                <img src="https://badge.plazmamc.org/4/다운로드" alt="다운로드">
             </a></td>
         </tr>
         <tr>
