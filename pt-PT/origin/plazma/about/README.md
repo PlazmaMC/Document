@@ -54,8 +54,8 @@ description: Descubra o que é o Plazma como plataforma de servidor.
   250 jogadores no total em 4 clusters puderam jogar confortavelmente.
 - **Plataforma que ilumina em chunks/entidades**\
   Ao trocar do Purpur para o Plazma, foi possível reduzir a maioria dos atrasos em servidores de sobrevivência onde ocorriam atrasos no processamento de chunks e entidades.
-- **많은 스트리머가 선택한 플랫폼**\
-  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
+- **Plataforma escolhida por muitos streamers**\
+  É escolhida como o balde de participação dos espectadores de muitos streamers.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma tendência de usuários">
