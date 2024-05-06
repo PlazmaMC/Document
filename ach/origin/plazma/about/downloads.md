@@ -49,7 +49,7 @@ Developer ni, pwonyo kwede ma ber kwede ni, i kilo pa loyo kicel mako ki gengo.
         <tr>
             <td>1.20.2</td>
             <td><a href="https://dl.plazmamc.org/1.20.2/1">
-                <img src="https://badge.plazmamc.org/6/Pe-nyo">
+                <img src="https://badge.plazmamc.org/4/PIRA" alt="PIRA">
             </a></td>
         </tr>
         <tr>
