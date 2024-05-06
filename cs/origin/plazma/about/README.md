@@ -52,8 +52,8 @@ description: Zjistěte, o jakou serverovou platformu se jedná.
   Na jednom clusteru bylo udržováno stabilní prostředí pro 100 hráčů bez poklesu TPS a na 4 clusterech bylo možné pohodlně hrát až 250 hráčů.
 - **Platforma, která zlepšuje výkon v oblasti chunků a entit**\
   Přechodem ze serverové platformy Purpur na Plazma došlo k výraznému snížení zpoždění při zpracování chunků a entit na serveru survival.
-- **Platforma vybraná mnoha streamery**\
-  Je používána jako hlavní nástroj pro streamování mnoha streamery a jejich diváky.
+- **Mnoho streamerů vybralo platformu**\
+  Mnoho streamerů ji používá jako nádoby pro účast diváků.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Aktuální trendy uživatelů Plazma">
