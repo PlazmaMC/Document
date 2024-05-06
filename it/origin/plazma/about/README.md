@@ -55,8 +55,8 @@ description: Scopri di più su cosa sia Plazma come piattaforma server.
 - **Piattaforma che mostra luce nei chunk/entità**\
   Cambiando da Purpur a Plazma su un server di sopravvivenza dove c'erano ritardi nel trattare i chunk e le entità,\
   é stato possibile ridurre la maggior parte dei ritardi.
-- **Piattaforma scelta da molti streamer**\
-  Utilizzata come server Bucket preferito da molti spettatori degli streamer.
+- **많은 스트리머가 선택한 플랫폼**\
+  많은 스트리머 분들의 시청자 참여용 버킷으로 선택받아 사용되고 있습니다.
 
 <a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
    <img src="https://badge.plazmamc.org/internal/bstats" alt="Tendenza degli utenti Plazma in tempo reale">
