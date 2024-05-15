@@ -275,16 +275,21 @@ Pokud používáte výchozí spustitelný soubor, aplikuje pouze patch, ale neza
 
 - **Typ**: `Boolean`
 - **Výchozí hodnota**: `false`
+- **Konflikt**: `Plazma.disableConfigOptimization`
 
-{% hint style="warning" %}
+Zesiluje počáteční konfiguraci.
 
-**Tato vlastnost bude přesunuta jako startovací argument po verzi 1.20.5.**
+Aktivací se server stane rychlejším a bezpečnějším, ale může mít velký vliv na hraní her.
 
-{% endhint %}
+#### `Plazma.disableConfigOptimization`
 
-Při prvním spuštění se přísněji uplatní optimalizace konfigurace.
+- **Typ**: `Boolean`
+- **Výchozí hodnota**: `false`
+- **Konflikt**: `Plazma.aggressiveOptimize`
 
-Aktivací se server stane rychlejším a bezpečnějším, ale může blokovat některé funkce nebo výrazně ovlivnit hraní hry.
+Neprovádí optimalizaci počáteční konfigurace.
+
+Tím se použije výchozí konfigurace Paper.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -292,6 +297,58 @@ Aktivací se server stane rychlejším a bezpečnějším, ale může blokovat n
 - **Výchozí hodnota**: `false`
 
 Potlačuje [varování](#user-content-fn-11)[^11], které se zobrazuje při inicializaci Plazmy.
+
+#### `Plazma.useVanillaFavicon`
+
+- **Typ**: `Boolean`
+- **Výchozí hodnota**: `false`
+
+Deaktivuje Plazma značení a nastaví použití základního faviconu serveru.
+
+#### `Plazma.useVanillaConfiguration`
+
+- **Typ**: `Boolean`
+- **Výchozí hodnota**: `false`
+- **Konflikt**: `Plazma.disableConfigOptimization`
+
+{% hint style="info" %}
+
+**Tato vlastnost je stále ve vývoji.**
+
+{% endhint %}
+
+{% hint style="danger" %}
+
+**Tato vlastnost vrátí všechny opravy záplatovaných zranitelností!**
+
+Může to mít velký vliv na bezpečnost a výkon serveru.
+
+Problémy způsobené touto vlastností jsou zodpovědností správce serveru.
+
+{% endhint %}
+
+Nastaví počáteční konfiguraci na výchozí hodnoty poskytované Mojangem.
+
+Následkem je deaktivace všech záplatovaných zranitelností prováděných v Paperu.
+
+Záplatované zranitelnosti mohou být znovu aktivovány v konfiguraci Paper nebo Plazmy.
+
+#### `Plazma.vanillaize`
+
+- **Typ**: `Boolean`
+- **Výchozí hodnota**: `true`
+- **Konflikt**: `Plazma.aggressiveOptimize`
+
+{% hint style="info" %}
+
+**Tato vlastnost je stále ve vývoji.**
+
+{% endhint %}
+
+Nastaví počáteční konfiguraci blízko k základu.
+
+Převádí konfiguraci co nejvíce k prostředí bez vlivu na výkon serveru či bezpečnost,
+když je vlastnost `Plazma.disableConfigOptimization` použita, nastavuje se výchozí hodnota pro konfiguraci základního stavu.
 
 ### Zastaralý atribut <a href="#id-1.3" id="id-1.3"></a>
 
