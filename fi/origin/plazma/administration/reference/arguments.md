@@ -275,21 +275,21 @@ Käytettäessä oletustiedostoa, sovellus käynnistetään vain patchia levittä
 
 - **Tyyppi**: `Boolean`
 - **Oletusarvo**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Yhteentörmäys**: `Plazma.disableConfigOptimization`
 
-초기 구성을 더 강하게 최적화 합니다.
+Vahvistaa alkuperäisen kokoonpanon optimointia.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
+Sen ollessa käytössä palvelin nopeutuu ja turvallisuus lisääntyy, mutta se voi vaikuttaa merkittävästi pelikokemukseen.
 
 #### `Plazma.disableConfigOptimization`
 
 - **Tyyppi**: `Boolean`
 - **Oletusarvo**: `false`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Yhteentörmäys**: `Plazma.aggressiveOptimize`
 
-초기 구성을 최적화하지 않습니다.
+Ei optimoi alkuperäistä kokoonpanoa.
 
-이는 Paper의 기본 구성을 사용하도록 합니다.
+Tämä asettaa käyttöön Paperin oletuskokoonpanon.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -303,52 +303,52 @@ Estää [varoitusviestin](#user-content-fn-11)[^11], joka ilmestyy Plazman alust
 - **Tyyppi**: `Boolean`
 - **Oletusarvo**: `false`
 
-Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사용하도록 합니다.
+Poistaa Plazman brändäyksen käytöstä ja asettaa käytettäväksi vanillan peruspalvelimen faviconin.
 
 #### `Plazma.useVanillaConfiguration`
 
 - **Tyyppi**: `Boolean`
 - **Oletusarvo**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Yhteentörmäys**: `Plazma.disableConfigOptimization`
 
 {% vinkki tyyli="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Tämä ominaisuus on vielä kehitysvaiheessa.**
 
 {% endhint %}
 
 {% hint style="danger" %}
 
-**해당 속성은 패치된 모든 취약점을 되돌립니다!**
+**Tämä ominaisuus palauttaa kaikki liittyvät haavoittuvuudet!**
 
-이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
+Tällä voi olla merkittävä vaikutus palvelimen turvallisuuteen ja suorituskykyyn.
 
-해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
+Kaikki tämän ominaisuuden aiheuttamat ongelmat ovat palvelimen ylläpitäjän vastuulla.
 
 {% endhint %}
 
-초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
+Tuottaa alkuperäisen kokoonpanon Mojangin tarjoamilla oletusarvoilla.
 
-이는 Paper에서 적용한 모든 취약점 패치를 비활성화 합니다.
+Tämä poistaa käytöstä kaikki Paperissa sovelletut haavoittuvuuden korjaukset.
 
-취약점 패치는 Paper 구성 또는 Plazma 구성에서 다시 활성화 할 수 있습니다.
+Haavoittuvuuden korjaukset voidaan aktivoida uudelleen Paperin tai Plazman asetuksissa.
 
 #### `Plazma.vanillaize`
 
 - **Tyyppi**: `Boolean`
-- **기본값**: `true`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Oletusarvo**: `true`
+- **Yhteentörmäys**: `Plazma.aggressiveOptimize`
 
 {% vinkki tyyli="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Tämä ominaisuus on vielä kehitysvaiheessa.**
 
 {% endhint %}
 
-초기 구성을 바닐라에 가깝게 설정합니다.
+Asettaa alkuperäisen kokoonpanon lähemmäksi vaniljaa.
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+Tämä soveltuu pääasiassa palvelimen suorituskyvyn ja turvallisuuden kannalta niin, ettei vaikuta merkittävästi,
+kun käytetään `Plazma.disableConfigOptimization` ominaisuutta, konfiguroidaan käyttämään vanilan oletusarvoja.
 
 ### Käytöstä poistettu ominaisuus <a href="#id-1.3" id="id-1.3"></a>
 
