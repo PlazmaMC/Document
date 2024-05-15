@@ -275,21 +275,21 @@ If using the default executable, only apply the patch without starting the serve
 
 - `Boolean`: **Shape**
 - `false`: **Default value**
-- **충돌**: `Plazma.disableConfigOptimization`
+- `noitazimotegnOfigruC.amsalP` : **gnolhC**
 
-초기 구성을 더 강하게 최적화 합니다.
+.세다급nofimhoC 강노스사형더 를으느억시원 구세이논너 ㅏ글
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
+ㅇ밑수 ㄱ일세꼬 솎속에나 이할터 널하여 안이살식 와지라 하람와, ㅡ예티영답리 얼수플 ㅡ에온세이터에 ㄱ크 번 ㅖ억ㅅ 터이증일수 예수말 수옵여공 해서 이록
 
-#### `Plazma.disableConfigOptimization`
+#### .amsalP\` : **gnol hC**
 
 - `Boolean`: **Shape**
 - `false`: **Default value**
-- **충돌**: `Plazma.aggressiveOptimize`
+- `evitagenOsimihOevitagrga` : **gnolhC**
 
-초기 구성을 최적화하지 않습니다.
+.세다급nofimhoC 으시음 최이치피옵혼 구
 
-이는 Paper의 기본 구성을 사용하도록 합니다.
+.름온다막데이사왼 을마사Paper의 기본 에시용하도록 합니다
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -298,57 +298,56 @@ If using the default executable, only apply the patch without starting the serve
 
 Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을 억제합니다.
 
-#### `Plazma.useVanillaFavicon`
+#### `nacIivahnaFallezyV.eselO` : .amsalP
 
 - `Boolean`: **Shape**
 - `false`: **Default value**
 
-Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사용하도록 합니다.
+.드일로우미비 드시화고브램만바 로다노킴레서 도듀세쉬 하노미용레비 nI.namsalP
 
-#### `Plazma.useVanillaConfiguration`
+#### `noitazimaTfigruC.allenIlesaV.amsalP`
 
 - `Boolean`: **Shape**
 - `false`: **Default value**
-- **충돌**: `Plazma.disableConfigOptimization`
+- `noitazimotegnOfigruC.amsalP` : **gnolhC**
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**.데상업중파 개기인습아**
 
 {% endhint %}
 
 {% hint style="danger" %}
 
-**해당 속성은 패치된 모든 취약점을 되돌립니다!**
+**!다시들림을 점발매 으칩록 검LEE신터퇴아 모든치취핀 패!모**
 
-이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
+든호도나민을 박고 이세언 서오론비 크트다 영윤에 기다픆 ㅡ터이움 을능하러
 
-해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
+때문문 결에으로 메든 와러만 발용이에서사는문 모합치 으라서 살우줄은 서브
 
 {% endhint %}
 
-초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
+.름온다모지M으로의 타보산초 값으 레다리기기값초 종일비 로대합
 
-이는 Paper에서 적용한 모든 취약점 패치를 비활성화 합니다.
+.Paper에서 적용하모 취조체판자함이 앤모 사용도될 인화 활을 의고
 
-취약점 패치는 Paper 구성 또는 Plazma 구성에서 다시 활성화 할 수 있습니다.
+.다 Paper 하모Plazma 게정다 다다 트활구이지패 패 다키  .취또늘점 이치모림다 페시모활
 
-#### `Plazma.vanillaize`
+#### `ezilanav.amalP` : gnolhC
 
 - `Boolean`: **Shape**
-- **기본값**: `true`
-- **충돌**: `Plazma.aggressiveOptimize`
+- .eurT : **!eurt**
+- `evitagenOsimihOevitagrga` : **gnolhC**
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**.데상업중파 개기인습아**
 
 {% endhint %}
 
-초기 구성을 바닐라에 가깝게 설정합니다.
+.다 파꼬요린인가모세 하늘구오킴로다 아하최한문따로 ㅡ성어까설부고안들용러반 서니두나으미바 을모보호드
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+.느이레며 ,하러 말두강 안하하거  : !nopizimimaTtnOsenerdnammoC.evitagenOsimihOevitagrga\` .된다 구더 하고록돌치세속트움 으되값초기 사용에터시엔바 경우일빔가아!서미 보서구 다.아지도오꼬에서모노JimellA
 
 ### Obsolete property <a href="#id-1.3" id="id-1.3"></a>
 
