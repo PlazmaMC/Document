@@ -276,17 +276,17 @@ Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성�
 
 - **형태**: `Boolean`
 - **기본값**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **긴림**: `Plazma.disableConfigOptimization`
 
-초기 구성을 더 강하게 최적화 합니다.
+초기 구성을 더 강하게 최적화합니다.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
+활성화하면 서버가 더 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
 
 #### `Plazma.disableConfigOptimization`
 
 - **형태**: `Boolean`
 - **기본값**: `false`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **긴림**: `Plazma.aggressiveOptimize`
 
 초기 구성을 최적화하지 않습니다.
 
@@ -310,7 +310,7 @@ Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사
 
 - **형태**: `Boolean`
 - **기본값**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **긴림**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
 
@@ -338,7 +338,7 @@ Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사
 
 - **형태**: `Boolean`
 - **기본값**: `true`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **긴림**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
 
