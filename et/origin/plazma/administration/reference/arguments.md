@@ -274,21 +274,21 @@ Kui kasutatakse vaikimisi käivitusfaili, rakendatakse ainult paigaldus ilma ser
 
 - **Tüüp**: `Boolean`
 - **Vaikimisi väärtus**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Kokkupõrge**: `Plazma.disableConfigOptimization`
 
-초기 구성을 더 강하게 최적화 합니다.
+Optimeerib algseadistust tugevamini.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
+Aktiveerimisel muutub server kiiremaks ja turvalisemaks, kuid võib mõjutada tugevalt mängimiskogemust.
 
 #### `Plazma.disableConfigOptimization`
 
 - **Tüüp**: `Boolean`
 - **Vaikimisi väärtus**: `false`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Kokkupõrge**: `Plazma.aggressiveOptimize`
 
-초기 구성을 최적화하지 않습니다.
+Ei optimeeri algseadistust agressiivselt.
 
-이는 Paper의 기본 구성을 사용하도록 합니다.
+See kasutab Paberi vaikimisi seadistust.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -302,52 +302,52 @@ Pärsib Plazma alglaadimisel kuvatava [hoiatuse](#user-content-fn-11)[^11].
 - **Tüüp**: `Boolean`
 - **Vaikimisi väärtus**: `false`
 
-Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사용하도록 합니다.
+Keelab Plazma brändi ja kasutab vaikimisi serveri veebilogi.
 
 #### `Plazma.useVanillaConfiguration`
 
 - **Tüüp**: `Boolean`
 - **Vaikimisi väärtus**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Kokkupõrge**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**See omadus on endiselt arendamisel.**
 
 {% endhint %}
 
 {% hint style="danger" %}
 
-**해당 속성은 패치된 모든 취약점을 되돌립니다!**
+**See omadus tühistab kõik paigadatud haavatavused!**
 
-이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
+See võib oluliselt mõjutada serveri turvalisust ja jõudlust.
 
-해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
+Kõik selle omadusest tulenevad probleemid on serveri administraatori vastutusel.
 
 {% endhint %}
 
-초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
+Optimeerib algseadistust Mojangi poolt pakutud vaikeseadistusega.
 
-이는 Paper에서 적용한 모든 취약점 패치를 비활성화 합니다.
+See deaktiveerib kõik paberist rakendatud haavatavuste parandused.
 
-취약점 패치는 Paper 구성 또는 Plazma 구성에서 다시 활성화 할 수 있습니다.
+Haavatavuste parandusi saab uuesti lubada Paberi või Plazma seadistustes.
 
 #### `Plazma.vanillaize`
 
 - **Tüüp**: `Boolean`
-- **기본값**: `true`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Vaikimisi väärtus**: `true`
+- **Kokkupõrge**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**See omadus on endiselt arendamisel.**
 
 {% endhint %}
 
-초기 구성을 바닐라에 가깝게 설정합니다.
+Optimeerib algseadistust lähemale vanillale.
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+See rakendub üldiselt ainult serveri jõudlust ja turvalisust piisavalt mõjutamata ning
+kasutab konfigureerimisel vaikeseadistust olukorras, kus `Plazma.disableConfigOptimization`omadust kasutatakse.
 
 ### Kasutatud omadus <a href="#id-1.3" id="id-1.3"></a> on lõpetatud
 
