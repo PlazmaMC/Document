@@ -275,16 +275,21 @@ As jy die standaard uitvoerlêer gebruik, pas slegs die patch toe sonder om die 
 
 - **Vorm**: `Boolean`
 - **Verstekwaarde**: `false`
+- **Botsing**: `Plazma.disableConfigOptimization`
 
-{% hint style="warning" %}
+Verhoog die aanvanklike konfigurasie kragtiger.
 
-**Hierdie eienskap sal na beginargumente skuif vanaf 1.20.5.**
+Die aktivering sal die bediener vinniger en veiliger maak, maar kan 'n groot invloed hê op die speel van die spel.
 
-{% endhint %}
+#### `Plazma.disableConfigOptimization`
 
-Pas strenger konfigurasie-optimalisering toe by die aanvang van die spel.
+- **Vorm**: `Boolean`
+- **Verstekwaarde**: `false`
+- **Botsing**: `Plazma.aggressiveOptimize`
 
-As dit geaktiveer word, sal die bediener vinniger en veiliger word, maar dit kan sekere meganismes blokkeer of 'n groot invloed op spel speel hê.
+Optimeer nie die aanvanklike konfigurasie nie.
+
+Hierdie stel die standaard konfigurasie van Paper in.
 
 #### `Plazma.iWeetWatEkDoen`
 
@@ -292,6 +297,57 @@ As dit geaktiveer word, sal die bediener vinniger en veiliger word, maar dit kan
 - **Verstekwaarde**: `false`
 
 Onderdruk die [waarskuwing](#user-content-fn-11)[^11] wat tydens die inisialisering van Plazma verskyn.
+
+#### `Plazma.useVanillaFavicon`
+
+- **Vorm**: `Boolean`
+- **Verstekwaarde**: `false`
+
+Deaktiveer Plazma branding en gebruik die vanilla bediener favicon.
+
+#### `Plazma.useVanillaConfiguration`
+
+- **Vorm**: `Boolean`
+- **Verstekwaarde**: `false`
+- **Botsing**: `Plazma.disableConfigOptimization`
+
+{% hint style="info" %}
+
+**Hierdie eienskap is nog in ontwikkeling.**
+
+{% endhint %}
+
+{% hint style="danger" %}
+
+**Hierdie eienskap keer alle gepatchte kwesbaarhede terug!**
+
+Dit kan 'n groot impak hê op bediener veiligheid en prestasie.
+
+Enige probleme wat deur hierdie eienskap veroorsaak word, is die verantwoordelikheid van die bedieneradministrateur.
+
+{% endhint %}
+
+Stel die aanvanklike konfigurasie in op die standaardwaardes wat Mojang verskaf.
+
+Dit deaktiveer enige kwesbaarheidspats wat deur Paper geïmplementeer is.
+
+Kwesbaarheidspats kan weer geaktiveer word in die Paper- of Plazma-konfigurasie.
+
+#### `Plazma.vanillaize`
+
+- **Vorm**: `Boolean`
+- **Verstek**: `true`
+- **Botsing**: `Plazma.aggressiveOptimize`
+
+{% hint style="info" %}
+
+**Hierdie eienskap is nog in ontwikkeling.**
+
+{% endhint %}
+
+Stel die aanvanklike konfigurasie nader aan vanilla in.
+
+Dit word hoofsaaklik aangepas om die bedienerprestasie en -veiligheid nie te beïnvloed nie, en as die `Plazma.disableConfigOptimization` eienskap gebruik word, is die konfigurasie ingestel om die vanilla verstekwaardes te gebruik.
 
 ### Verouderde eienskap <a href="#id-1.3" id="id-1.3"></a>
 
