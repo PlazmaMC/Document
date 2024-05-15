@@ -274,21 +274,21 @@ Wendet nur Patches an, ohne den Server zu starten, wenn das Standardausführungs
 
 - **Typ**: `Boolean`
 - **Standardwert**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Konflikt**: `Plazma.disableConfigOptimization`
 
-초기 구성을 더 강하게 최적화 합니다.
+Stärkere Optimierung der anfänglichen Konfiguration.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
+Wenn aktiviert, wird der Server schneller und sicherer, kann jedoch das Gameplay stark beeinflussen.
 
 #### `Plazma.disableConfigOptimization`
 
 - **Typ**: `Boolean`
 - **Standardwert**: `false`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Konflikt**: `Plazma.aggressiveOptimize`
 
-초기 구성을 최적화하지 않습니다.
+Keine Optimierung der anfänglichen Konfiguration.
 
-이는 Paper의 기본 구성을 사용하도록 합니다.
+Führt zur Verwendung der Standardkonfiguration von Paper.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -302,52 +302,51 @@ Unterdrückt die Warnung, die beim Initialisieren von Plazma angezeigt wird, [au
 - **Typ**: `Boolean`
 - **Standardwert**: `false`
 
-Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사용하도록 합니다.
+Deaktiviert das Plazma-Branding und verwendet das standardmäßige Server-Favicon von Vanille.
 
 #### `Plazma.useVanillaConfiguration`
 
 - **Typ**: `Boolean`
 - **Standardwert**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Konflikt**: `Plazma.disableConfigOptimization`
 
 {% Hinweis-Stil="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Diese Eigenschaft befindet sich noch in der Entwicklung.**
 
 {% endhint %}
 
 {% hint style="danger" %}
 
-**해당 속성은 패치된 모든 취약점을 되돌립니다!**
+**Diese Eigenschaft setzt alle gepatchten Sicherheitslücken zurück!**
 
-이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
+Dies kann die Server-Sicherheit und Leistung erheblich beeinträchtigen.
 
-해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
+Alle Probleme, die durch diese Eigenschaft entstehen, liegen in der Verantwortung des Serveradministrators.
 
 {% endhint %}
 
-초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
+Bietet die anfängliche Konfiguration mit den Standardwerten von Mojang an.
 
-이는 Paper에서 적용한 모든 취약점 패치를 비활성화 합니다.
+Hebt alle von Paper durchgeführten Sicherheitslückenpatches auf.
 
-취약점 패치는 Paper 구성 또는 Plazma 구성에서 다시 활성화 할 수 있습니다.
+Sicherheitslückenpatches können in der Paper- oder Plazma-Konfiguration wieder aktiviert werden.
 
 #### `Plazma.vanillaize`
 
 - **Typ**: `Boolean`
-- **기본값**: `true`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Standardwert**: `true`
+- **Konflikt**: `Plazma.aggressiveOptimize`
 
 {% Hinweis-Stil="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Diese Eigenschaft befindet sich noch in der Entwicklung.**
 
 {% endhint %}
 
-초기 구성을 바닐라에 가깝게 설정합니다.
+Stellt die anfängliche Konfiguration näher an Vanille an.
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+Dies wird im Wesentlichen so konfiguriert, dass es die Serverleistung und -sicherheit nur in dem Maße beeinflusst, dass, wenn die Eigenschaft `Plazma.disableConfigOptimization` verwendet wird, die Standardwerte von Vanille konfiguriert werden.
 
 ### Das <a href="#id-1.3" id="id-1.3"></a> Eigenschaft wurde eingestellt
 
