@@ -274,16 +274,21 @@ Aplica només el patch sense iniciar el servidor quan s'utilitza l'executable pr
 
 - **Tipus**: `Boolean`
 - **Valor per defecte**: `fals`
+- **Conflicte**: `Plazma.disableConfigOptimization`
 
-{% hint style="warning" %}
+Optimitza la configuració inicial de forma més agressiva.
 
-**Aquesta propietat es traslladarà com a argument d'inici des de la versió 1.20.5 en endavant.**
+Activar això farà que el servidor sigui més ràpid i segur, però pot tenir un gran impacte en el joc.
 
-{% endhint %}
+#### `Plazma.disableConfigOptimization`
 
-Aplica una optimització de configuració més estricta en l'inici inicial.
+- **Tipus**: `Boolean`
+- **Valor per defecte**: `fals`
+- **Conflicte**: `Plazma.aggressiveOptimize`
 
-En activar-ho, el servidor es torna més ràpid i segur, però pot bloquejar algunes mecàniques o tenir un gran impacte en el joc.
+No optimitza la configuració inicial.
+
+Això fa servir la configuració bàsica de Paper.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -291,6 +296,57 @@ En activar-ho, el servidor es torna més ràpid i segur, però pot bloquejar alg
 - **Valor per defecte**: `fals`
 
 Inhibeix els [avisos](#user-content-fn-11)[^11] que es mostren quan s'inicialitza Plazma.
+
+#### `Plazma.useVanillaFavicon`
+
+- **Tipus**: `Boolean`
+- **Valor per defecte**: `fals`
+
+Desactiva la marca Plazma i fa servir el favicon del servidor com a valor predeterminat de la vainilla.
+
+#### `Plazma.useVanillaConfiguration`
+
+- **Tipus**: `Boolean`
+- **Valor per defecte**: `fals`
+- **Conflicte**: `Plazma.disableConfigOptimization`
+
+{% hint style="info" %}
+
+**Aquesta propietat encara està en desenvolupament.**
+
+{% endhint %}
+
+{% hint style="danger" %}
+
+**Aquesta propietat desfà totes les vulnerabilitats corregides en el patch!**
+
+Això pot tenir un gran impacte en la seguretat i el rendiment del servidor.
+
+Totes les qüestions que es produeixin amb aquesta propietat són responsabilitat de l'administrador del servidor.
+
+{% endhint %}
+
+Fornir la configuració inicial amb els valors predeterminats de Mojang.
+
+Això desactiva totes les correccions de vulnerabilitats aplicades a Paper.
+
+Les correccions de vulnerabilitats es poden tornar a activar en la configuració de Paper o Plazma.
+
+#### `Plazma.vanillaize`
+
+- **Tipus**: `Boolean`
+- **Valor predeterminat**: `true`
+- **Conflicte**: `Plazma.aggressiveOptimize`
+
+{% hint style="info" %}
+
+**Aquesta propietat encara està en desenvolupament.**
+
+{% endhint %}
+
+Configura la configuració inicial per ser més semblant a la vainilla.
+
+Això s'aplica només fins a un punt en què no afecta en gran mesura el rendiment i la seguretat del servidor, i si s'utilitza la propietat `Plazma.disableConfigOptimization`, s'estableix la configuració predeterminada de vainilla.
 
 ### Propietat obsoleta <a href="#id-1.3" id="id-1.3"></a>
 
