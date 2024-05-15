@@ -274,21 +274,21 @@ Jeśli używasz domyślnego pliku wykonywalnego, aplikuje tylko łatkę bez uruc
 
 - **Typ**: `Boolean`
 - **Domyślnie**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Kolizja**: `Plazma.disableConfigOptimization`
 
-초기 구성을 더 강하게 최적화 합니다.
+Wprowadza bardziej agresywne optymalizacje początkowej konfiguracji.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
+Ze włączeniem tego opcji serwer staje się szybszy i bezpieczniejszy, ale może wpłynąć znacząco na rozgrywkę.
 
 #### `Plazma.disableConfigOptimization`
 
 - **Typ**: `Boolean`
 - **Domyślnie**: `false`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Kolizja**: `Plazma.aggressiveOptimize`
 
-초기 구성을 최적화하지 않습니다.
+Nie optymalizuje początkowej konfiguracji.
 
-이는 Paper의 기본 구성을 사용하도록 합니다.
+Ustawia domyślną konfigurację Paper.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -302,52 +302,52 @@ Zapobiega wyświetlaniu [ostrzeżeń](#user-content-fn-11)[^11] podczas inicjowa
 - **Typ**: `Boolean`
 - **Domyślnie**: `false`
 
-Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사용하도록 합니다.
+Wyłącza markę Plazma i używa domyślnego serwerowego faviconu w stylu Vanilla.
 
 #### `Plazma.useVanillaConfiguration`
 
 - **Typ**: `Boolean`
 - **Domyślnie**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Kolizja**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Ta właściwość jest nadal w fazie rozwoju.**
 
 {% endhint %}
 
 {% hint style="danger" %}
 
-**해당 속성은 패치된 모든 취약점을 되돌립니다!**
+**Ta właściwość cofa wszystkie załatane wady!**
 
-이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
+Może to znacząco wpłynąć na bezpieczeństwo i wydajność serwera.
 
-해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
+Wszelkie problemy związane z tym parametrem są odpowiedzialnością administratora serwera.
 
 {% endhint %}
 
-초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
+Ustawia początkową konfigurację na domyślne wartości dostarczane przez Mojang.
 
-이는 Paper에서 적용한 모든 취약점 패치를 비활성화 합니다.
+Wyłącza wszystkie załatane wady zastosowane przez Paper.
 
-취약점 패치는 Paper 구성 또는 Plazma 구성에서 다시 활성화 할 수 있습니다.
+Wady mogą zostać ponownie włączone w konfiguracji Paper lub Plazma.
 
 #### `Plazma.vanillaize`
 
 - **Typ**: `Boolean`
-- **기본값**: `true`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Wartość domyślna**: `true`
+- **Kolizja**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Ta właściwość jest nadal w fazie rozwoju.**
 
 {% endhint %}
 
-초기 구성을 바닐라에 가깝게 설정합니다.
+Ustawia początkową konfigurację bliżej stylu Vanilla.
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+To podobnie jak domyślnie, nie wpływa znacząco na wydajność ani bezpieczeństwo serwera, natomiast
+po ustawieniu parametru `Plazma.disableConfigOptimization` konfiguruje według domyślnych wartości stylu Vanilla.
 
 ### Używane atrybuty <a href="#id-1.3" id="id-1.3"></a> zostały zakończone
 
