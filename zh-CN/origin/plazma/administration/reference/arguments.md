@@ -276,21 +276,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 - **类型**: `布尔值`
 - **默认值**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **冲突**: `Plazma.disableConfigOptimization`
 
-초기 구성을 더 강하게 최적화 합니다.
+加强初始化配置优化。
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
+启用后，服务器将更快更安全，但可能会对游戏玩法产生重大影响。
 
 #### `Plazma.disableConfigOptimization`
 
 - **类型**: `布尔值`
 - **默认值**: `false`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **冲突**: `Plazma.aggressiveOptimize`
 
-초기 구성을 최적화하지 않습니다.
+不优化初始配置。
 
-이는 Paper의 기본 구성을 사용하도록 합니다.
+将使用Paper的默认配置。
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -304,52 +304,52 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **类型**: `布尔值`
 - **默认值**: `false`
 
-Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사용하도록 합니다.
+禁用Plazma品牌，并使用原始服务器默认favicon。
 
 #### `Plazma.useVanillaConfiguration`
 
 - **类型**: `布尔值`
 - **默认值**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **冲突**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**此属性仍在开发中。**
 
 {% endhint %}
 
 {% hint style="danger" %}
 
-**해당 속성은 패치된 모든 취약점을 되돌립니다!**
+**此属性将恢复已经修补的所有漏洞！**
 
-이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
+这可能严重影响服务器的安全性和性能。
 
-해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
+出现任何问题都由服务器管理员负责。
 
 {% endhint %}
 
-초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
+将初始配置设置为由Mojang提供的默认值。
 
-이는 Paper에서 적용한 모든 취약점 패치를 비활성화 합니다.
+将禁用Paper上应用的所有漏洞修补。
 
-취약점 패치는 Paper 구성 또는 Plazma 구성에서 다시 활성화 할 수 있습니다.
+可以在Paper配置或Plazma配置中重新启用漏洞修补。
 
 #### `Plazma.vanillaize`
 
 - **类型**: `布尔值`
-- **기본값**: `true`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **默认值**: `true`
+- **冲突**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**此属性仍在开发中。**
 
 {% endhint %}
 
-초기 구성을 바닐라에 가깝게 설정합니다.
+将初始配置设置为接近原始。
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+通常只对服务器性能和安全性产生轻微影响，
+当使用`Plazma.disableConfigOptimization`属性时，将配置为使用原始默认值。
 
 ### 已停用的属性 <a href="#id-1.3" id="id-1.3"></a>
 
