@@ -274,16 +274,21 @@ Dacă se folosește fișierul de executare implicit, aplică doar patch-ul făr�
 
 - **Tip**: `Boolean`
 - **Valoare implicită**: `false`
+- **Conflict**: `Plazma.disableConfigOptimization`
 
-{% hint style="warning" %}
+Optimize the initial configuration more strongly.
 
-**Această proprietate va fi mutată ca argument de pornire după versiunea 1.20.5.**
+Activating this will make the server faster and safer, but can have a major impact on gameplay.
 
-{% endhint %}
+#### `Plazma.disableConfigOptimization`
 
-Aplică optimizări mai stricte la configurarea inițială la prima pornire.
+- **Tip**: `Boolean`
+- **Valoare implicită**: `false`
+- **Conflict**: `Plazma.aggressiveOptimize`
 
-Activarea va face serverul să funcționeze mai rapid și mai sigur, dar poate bloca unele mecanisme sau putea afecta în mod semnificativ jocul.
+Do not optimize the initial configuration.
+
+This forces the use of the default configuration of Paper.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -291,6 +296,58 @@ Activarea va face serverul să funcționeze mai rapid și mai sigur, dar poate b
 - **Valoare implicită**: `false`
 
 Suprimă [avertismentul](#user-content-fn-11)[^11] afișat la inițializarea Plazmei.
+
+#### `Plazma.useVanillaFavicon`
+
+- **Tip**: `Boolean`
+- **Valoare implicită**: `false`
+
+Disables Plazma branding and uses the vanilla default server favicon.
+
+#### `Plazma.useVanillaConfiguration`
+
+- **Tip**: `Boolean`
+- **Valoare implicită**: `false`
+- **Conflict**: `Plazma.disableConfigOptimization`
+
+{% hint style="info" %}
+
+**This property is still under development.**
+
+{% endhint %}
+
+{% hint style="danger" %}
+
+**This property reverts all patched vulnerabilities!**
+
+This can significantly impact server security and performance.
+
+Any issues arising from using this property are the responsibility of the server administrator.
+
+{% endhint %}
+
+Provides the initial configuration with the default values provided by Mojang.
+
+This disables all vulnerability patches applied in Paper.
+
+Vulnerability patches can be re-enabled in Paper configuration or Plazma configuration.
+
+#### `Plazma.vanillaize`
+
+- **Tip**: `Boolean`
+- **Default**: `true`
+- **Conflict**: `Plazma.aggressiveOptimize`
+
+{% hint style="info" %}
+
+**This property is still under development.**
+
+{% endhint %}
+
+Sets the initial configuration closer to vanilla.
+
+This is applied only to the extent that it does not adversely affect server performance and safety,
+and configures to use vanilla defaults when using the `Plazma.disableConfigOptimization` property.
 
 ### Proprietatea întreruptă <a href="#id-1.3" id="id-1.3"></a>
 
