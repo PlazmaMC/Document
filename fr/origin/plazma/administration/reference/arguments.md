@@ -274,16 +274,21 @@ Applique uniquement les correctifs sans démarrer le serveur lorsque vous utilis
 
 - **Type**: `Boolean`
 - **Valeur par défaut**: `false`
+- **Collision**: `Plazma.disableConfigOptimization`
 
-{% hint style="warning" %}
+Optimisez la configuration initiale de manière plus forte.
 
-**Cette propriété sera déplacée vers les arguments de démarrage après la version 1.20.5.**
+L'activation rendra le serveur plus rapide et plus sécurisé, mais peut avoir un impact majeur sur le gameplay.
 
-{% endhint %}
+#### `Plazma.disableConfigOptimization`
 
-Applique une optimisation de configuration plus stricte au démarrage initial.
+- **Type**: `Boolean`
+- **Valeur par défaut**: `false`
+- **Collision**: `Plazma.aggressiveOptimize`
 
-L'activation rend le serveur plus rapide et plus sûr, mais peut bloquer certaines fonctionnalités ou avoir un impact majeur sur le jeu.
+Ne pas optimiser la configuration initiale.
+
+Cela utilisera la configuration de base de Paper.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -291,6 +296,57 @@ L'activation rend le serveur plus rapide et plus sûr, mais peut bloquer certain
 - **Valeur par défaut**: `false`
 
 Supprime le [message d'avertissement](#user-content-fn-11)[^11] affiché lors de l'initialisation de Plazma.
+
+#### `Plazma.useVanillaFavicon`
+
+- **Type**: `Boolean`
+- **Valeur par défaut**: `false`
+
+Désactivez le branding Plazma et utilisez la favicon de serveur par défaut en mode basic.
+
+#### `Plazma.useVanillaConfiguration`
+
+- **Type**: `Boolean`
+- **Valeur par défaut**: `false`
+- **Collision**: `Plazma.disableConfigOptimization`
+
+{% hint style="info" %}
+
+**Cette propriété est encore en cours de développement.**
+
+{% endhint %}
+
+{% hint style="danger" %}
+
+**Cette propriété annule tous les patchs de vulnérabilité appliqués !**
+
+Cela peut avoir un impact significatif sur la sécurité et les performances du serveur.
+
+Tous les problèmes découlant de l'utilisation de cette propriété relèvent de la responsabilité de l'administrateur du serveur.
+
+{% endhint %}
+
+Fournit la configuration initiale avec les valeurs par défaut fournies par Mojang.
+
+Cela désactive tous les correctifs de vulnérabilité appliqués par Paper.
+
+Les correctifs de vulnérabilité peuvent être réactivés dans la configuration Paper ou Plazma.
+
+#### `Plazma.vanillaize`
+
+- **Type**: `Boolean`
+- **Valeur par défaut**: `true`
+- **Collision**: `Plazma.aggressiveOptimize`
+
+{% hint style="info" %}
+
+**Cette propriété est encore en cours de développement.**
+
+{% endhint %}
+
+Configure la configuration initiale pour être plus proche du mode basic.
+
+Ceci est appliqué de manière à n'affecter que légèrement les performances et la sécurité du serveur par défaut, et si la propriété `Plazma.disableConfigOptimization` est utilisée, elle configure les valeurs par défaut du mode basic.
 
 ### Propriété obsolète <a href="#id-1.3" id="id-1.3"></a>
 
