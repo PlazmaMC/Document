@@ -274,21 +274,21 @@ Se si utilizza il file eseguibile predefinito, applica solo il patch senza avvia
 
 - **Tipo**: `Boolean`
 - **Valore predefinito**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Collisione**: `Plazma.disableConfigOptimization`
 
-초기 구성을 더 강하게 최적화 합니다.
+Ottimizza in modo più aggressivo la configurazione iniziale.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
+Attivando questa opzione, il server diventerà più veloce e sicuro, ma potrebbe influenzare notevolmente il gameplay.
 
 #### `Plazma.disableConfigOptimization`
 
 - **Tipo**: `Boolean`
 - **Valore predefinito**: `false`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Collisione**: `Plazma.aggressiveOptimize`
 
-초기 구성을 최적화하지 않습니다.
+Non ottimizza la configurazione iniziale in modo aggressivo.
 
-이는 Paper의 기본 구성을 사용하도록 합니다.
+Questo imposta l'uso della configurazione di base di Paper.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -302,52 +302,52 @@ Sopprime il [messaggio di avvertimento](fn-11) visualizzato durante l'inizializz
 - **Tipo**: `Boolean`
 - **Valore predefinito**: `false`
 
-Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사용하도록 합니다.
+Disabilita il marchio Plazma e utilizza l'icona del server di base della vaniglia.
 
 #### `Plazma.useVanillaConfiguration`
 
 - **Tipo**: `Boolean`
 - **Valore predefinito**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Collisione**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Questo attributo è ancora in fase di sviluppo.**
 
 {% endhint %}
 
 {% hint style="danger" %}
 
-**해당 속성은 패치된 모든 취약점을 되돌립니다!**
+**Questo attributo annulla tutte le patch alle vulnerabilità applicate!**
 
-이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
+Questo potrebbe influenzare notevolmente la sicurezza e le prestazioni del server.
 
-해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
+Tutti i problemi derivanti dall'uso di questo attributo sono di responsabilità dell'amministratore del server.
 
 {% endhint %}
 
-초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
+Imposta la configurazione iniziale ai valori predefiniti forniti da Mojang.
 
-이는 Paper에서 적용한 모든 취약점 패치를 비활성화 합니다.
+Disabilita tutte le patch alle vulnerabilità applicate da Paper.
 
-취약점 패치는 Paper 구성 또는 Plazma 구성에서 다시 활성화 할 수 있습니다.
+Le patch alle vulnerabilità possono essere riattivate nella configurazione di Paper o Plazma.
 
 #### `Plazma.vanillaize`
 
 - **Tipo**: `Boolean`
-- **기본값**: `true`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Valore predefinito**: `true`
+- **Collisione**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Questo attributo è ancora in fase di sviluppo.**
 
 {% endhint %}
 
-초기 구성을 바닐라에 가깝게 설정합니다.
+Configura la configurazione iniziale per essere più vicina alla vaniglia.
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+Questo viene applicato solo fino a un punto che non influisce significativamente sulle prestazioni e la sicurezza del server,
+quando utilizzato insieme all'attributo `Plazma.disableConfigOptimization`, configura i valori di base della vaniglia.
 
 ### Attributo obsoleto <a href="#id-1.3" id="id-1.3"></a>
 
