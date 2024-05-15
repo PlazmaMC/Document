@@ -275,21 +275,21 @@ Ak sa používa predvolený spustiteľný súbor, aplikuje sa iba záplatovanie 
 
 - **Typ**: `Boolean`
 - **Predvolená hodnota**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Konflikt**: `Plazma.disableConfigOptimization`
 
-초기 구성을 더 강하게 최적화 합니다.
+Posilňuje optimalizáciu počiatočnej konfigurácie.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
+Jeho aktivácia spôsobuje, že server sa stáva rýchlejším a bezpečnejším, no môže mať výrazný vplyv na hrateľnosť hry.
 
 #### `Plazma.disableConfigOptimization`
 
 - **Typ**: `Boolean`
 - **Predvolená hodnota**: `false`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Konflikt**: `Plazma.aggressiveOptimize`
 
-초기 구성을 최적화하지 않습니다.
+Neoptimalizuje počiatočnú konfiguráciu.
 
-이는 Paper의 기본 구성을 사용하도록 합니다.
+Toto nastavenie používa predvolenú konfiguráciu Paperu.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -303,52 +303,51 @@ Potláča varovanie, ktoré sa zobrazuje pri inicializácii Plazmy [upozornenia]
 - **Typ**: `Boolean`
 - **Predvolená hodnota**: `false`
 
-Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사용하도록 합니다.
+Deaktivuje značenie Plazma a používa základný serverový ikonu.
 
 #### `Plazma.useVanillaConfiguration`
 
 - **Typ**: `Boolean`
 - **Predvolená hodnota**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Konflikt**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Tento vlastnosť je stále vo vývoji.**
 
 {% endhint %}
 
 {% hint style="danger" %}
 
-**해당 속성은 패치된 모든 취약점을 되돌립니다!**
+**Tento vlastnosť vráti všetky opravené chyby v patchoch!**
 
-이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
+Toto môže mať veľký vplyv na bezpečnosť a výkon servera.
 
-해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
+Všetky problémy, ktoré spôsobí použitie tejto vlastnosti sú zodpovednosťou správcu servera.
 
 {% endhint %}
 
-초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
+Poskytuje počiatočnú konfiguráciu s predvolenými hodnotami od Mojangu.
 
-이는 Paper에서 적용한 모든 취약점 패치를 비활성화 합니다.
+Toto deaktivuje všetky záplaty na chyby, ktoré boli aplikované v Paperi.
 
-취약점 패치는 Paper 구성 또는 Plazma 구성에서 다시 활성화 할 수 있습니다.
+Chybové opravy môžu byť opäť aktivované v Paper konfigurácii alebo Plazma konfigurácii.
 
 #### `Plazma.vanillaize`
 
 - **Typ**: `Boolean`
-- **기본값**: `true`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Predvolené nastavenie**: `true`
+- **Konflikt**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Tento vlastnosť je stále vo vývoji.**
 
 {% endhint %}
 
-초기 구성을 바닐라에 가깝게 설정합니다.
+Nastavuje počiatočnú konfiguráciu približne k základným hodnotám.
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+Toto sa zvyčajne uplatňuje len v miere, ktorá nemá vplyv na výkon a bezpečnosť servera a keď je použitá vlastnosť `Plazma.disableConfigOptimization`, konfiguruje sa na základné hodnoty z vanilla.
 
 ### Použitá zastaraná vlastnosť <a href="#id-1.3" id="id-1.3"></a>
 
