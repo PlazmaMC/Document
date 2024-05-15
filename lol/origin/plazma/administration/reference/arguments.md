@@ -275,21 +275,21 @@ If usin' default provided executin' file, only apply patch without startin' serv
 
 - **Type**: `Boolean`
 - **Default**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **CRASH**: `Plazma.disableConfigOptimization`
 
-초기 구성을 더 강하게 최적화 합니다.
+initial config gets optimirezd stronker
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
+wen activated, server gets faster n' safur but can haz big impact on game play
 
 #### `Plazma.disableConfigOptimization`
 
 - **Type**: `Boolean`
 - **Default**: `false`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **CRASH**: `Plazma.aggressiveOptimize`
 
-초기 구성을 최적화하지 않습니다.
+does not optimirez initial config
 
-이는 Paper의 기본 구성을 사용하도록 합니다.
+dis uses Paper's default config
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -303,52 +303,51 @@ Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을
 - **Type**: `Boolean`
 - **Default**: `false`
 
-Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사용하도록 합니다.
+disables Plazma brandin n uses vanilla base server favicon
 
 #### `Plazma.useVanillaConfiguration`
 
 - **Type**: `Boolean`
 - **Default**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **CRASH**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**dis attribute still bein developed.**
 
 {% endhint %}
 
 {% hint style="danger" %}
 
-**해당 속성은 패치된 모든 취약점을 되돌립니다!**
+**dis attribute reverts all patched vulnerabilities!**
 
-이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
+can haz big impact on server safur n performance
 
-해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
+any issues caused by using dis attribute is on server admin
 
 {% endhint %}
 
-초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
+provides initial config wit default values provided by Mojang
 
-이는 Paper에서 적용한 모든 취약점 패치를 비활성화 합니다.
+disables all vulnerability patches applied by Paper
 
-취약점 패치는 Paper 구성 또는 Plazma 구성에서 다시 활성화 할 수 있습니다.
+vulnerability patches can be re-enabled in Paper config or Plazma config
 
 #### `Plazma.vanillaize`
 
 - **Type**: `Boolean`
-- **기본값**: `true`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **default**: `true`
+- **CRASH**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**dis attribute still bein developed.**
 
 {% endhint %}
 
-초기 구성을 바닐라에 가깝게 설정합니다.
+sets initial config closer to vanilla
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+generally applies only to server perf n safur to a reasonable extent; dis also configs to vanilla default if `Plazma.disableConfigOptimization` attribute is used
 
 ### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
 
