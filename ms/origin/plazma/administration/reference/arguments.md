@@ -276,21 +276,21 @@ Jika menggunakan fail eksekusi yang disediakan secara lalai, hanya lakukan penge
 
 - **Jenis**: `Boolean`
 - **Nilai Lalai**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Konflik**: `Plazma.disableConfigOptimization`
 
-초기 구성을 더 강하게 최적화 합니다.
+Optimum konfigurasi awal yang lebih kuat.
 
-활성화 하면 서버가 더욱 빨라지고 안전해지지만, 게임 플레이에 큰 영향을 줄 수 있습니다.
+Mengaktifkan ini akan membuat server lebih cepat dan lebih selamat, tetapi boleh memberi impak besar kepada permainan.
 
 #### `Plazma.disableConfigOptimization`
 
 - **Jenis**: `Boolean`
 - **Nilai Lalai**: `false`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Konflik**: `Plazma.aggressiveOptimize`
 
-초기 구성을 최적화하지 않습니다.
+Tidak mengoptimumkan konfigurasi awal.
 
-이는 Paper의 기본 구성을 사용하도록 합니다.
+Ini akan menggunakan konfigurasi asas Kertas.
 
 #### `Plazma.iKnowWhatIAmDoing`
 
@@ -304,52 +304,52 @@ Menyekat [mesej amaran](#user-content-fn-11)[^11] yang dipaparkan semasa Plazma 
 - **Jenis**: `Boolean`
 - **Nilai Lalai**: `false`
 
-Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사용하도록 합니다.
+Melumpuhkan jenama Plazma dan menggunakan favicon asas vanila untuk server.
 
 #### `Plazma.useVanillaConfiguration`
 
 - **Jenis**: `Boolean`
 - **Nilai Lalai**: `false`
-- **충돌**: `Plazma.disableConfigOptimization`
+- **Konflik**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Ciri ini masih dalam pembangunan.**
 
 {% endhint %}
 
 {% hint style="danger" %}
 
-**해당 속성은 패치된 모든 취약점을 되돌립니다!**
+**Ciri ini akan mengundurkan setiap kelemahan yang dipasang!**
 
-이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
+Ini boleh memberi kesan besar kepada keselamatan dan prestasi server.
 
-해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
+Sebarang masalah yang timbul dari penggunaan ciri ini adalah tanggungjawab pentadbir server.
 
 {% endhint %}
 
-초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
+Menggunakan nilai asas yang disediakan oleh Mojang untuk konfigurasi awal.
 
-이는 Paper에서 적용한 모든 취약점 패치를 비활성화 합니다.
+Ini mematikan semua penambalan kelemahan yang digunakan dalam Paper.
 
-취약점 패치는 Paper 구성 또는 Plazma 구성에서 다시 활성화 할 수 있습니다.
+Penambalan kelemahan boleh diaktifkan semula dalam konfigurasi Paper atau Plazma.
 
 #### `Plazma.vanillaize`
 
 - **Jenis**: `Boolean`
-- **기본값**: `true`
-- **충돌**: `Plazma.aggressiveOptimize`
+- **Nilai Lalai**: `true`
+- **Konflik**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
 
-**해당 속성은 아직 개발중입니다.**
+**Ciri ini masih dalam pembangunan.**
 
 {% endhint %}
 
-초기 구성을 바닐라에 가깝게 설정합니다.
+Menetapkan konfigurasi awal kepada sesuatu yang lebih hampir kepada vanila.
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+Ia secara asasnya hanya memberi kesan yang tidak signifikan kepada prestasi dan keselamatan server,
+Jika ciri `Plazma.disableConfigOptimization` digunakan, ia akan menetapkan konfigurasi asas vanila.
 
 ### Harta tanah yang telah dihentikan penggunaannya <a href="#id-1.3" id="id-1.3"></a>
 
