@@ -10,7 +10,7 @@ description: Jei turite klausimų, prašome juos užduoti per Discord arba GitHu
 
 [![Vertimo būsena](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) Įtraukite dokumentacijos vertimą iš [https://translate.plazmamc.org/](https://translate.plazmamc.org/) kaip pagrindą ir pagerinkite dokumentą.
+Dalyvaukite vertimų gerinimo procese mėgindami išversti dokumentą iš korejų kalbos į lietuvių kalbą [https://translate.plazmamc.org/](https://translate.plazmamc.org/).
 
 {% endhint %}
 
