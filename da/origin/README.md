@@ -10,7 +10,7 @@ description: Hvis du har spørgsmål, bedes du spørge via Discord eller GitHub-
 
 [![Oversættelsesstatus](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참여하여 문서를 개선해 보세요.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) Forbedre dokumentationen ved at deltage i dokumentoversættelse på [https://translate.plazmamc.org/](https://translate.plazmamc.org/).
 
 {% endhint %}
 
