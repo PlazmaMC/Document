@@ -10,7 +10,7 @@ description: אם יש לך שאלות, אנא שאל ב-Discord או בדיונ
 
 [![מצב תרגום](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) בבקשה השתמשו בתרגום המצוין באתר זה על מנת לשפר את המסמך.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) בעזרת התרגום שלי השתתפו בתרגום המסמך כדי לשפר את המסמך.
 
 {% endhint %}
 
