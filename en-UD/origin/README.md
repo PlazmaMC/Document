@@ -10,7 +10,7 @@ description: 요세뚜 주 해 질문해 를 시코허츠노 suohcseugiD 트로h
 
 [![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) .뷺sᄉㅥog  ɛɿ(øɈźʞn · ̚ nɿoɯ sɘsoxɘʞː ɘíčɿɘx ɯoɈ čn ɘɈpoɯǝsp ɯɘc.
 
 {% endhint %}
 
