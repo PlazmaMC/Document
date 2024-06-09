@@ -10,7 +10,7 @@ description: Ako imate pitanja, slobodno postavite pitanje putem Discorda ili Gi
 
 [![Status prijevoda](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+Uključite se u prevođenje dokumenata na [https://translate.plazmamc.org/](https://translate.plazmamc.org/) i poboljšajte dokumente.
 
 {% endhint %}
 
