@@ -10,7 +10,7 @@ description: Ak máte otázky, prosím, položte ich cez Discord alebo GitHub Di
 
 [![Stav prekladu](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) na preklad dokumentov a vylepšite dokument.
+Zúčastnite sa prekladu dokumentov na [https://translate.plazmamc.org/](https://translate.plazmamc.org/) a pomôžte vylepšiť dokumenty.
 
 {% endhint %}
 
