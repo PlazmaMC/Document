@@ -10,7 +10,7 @@ description: Kui teil on küsimusi, siis palun esitage need Discordi või GitHub
 
 [![Tõlke olek](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) said dokumendi tõlkimisel kasutage viidet ja parandage dokumendit.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) said dokumentide t6LKedoks osaledes parandage dokumenti.
 
 {% endhint %}
 
