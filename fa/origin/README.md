@@ -10,7 +10,7 @@ description: اگر سوالی دارید، لطفاً از طریق Discord ی�
 
 [![وضعیت ترجمه](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) را برای مراجعه به ترجمه مستندات استفاده کنید و مستندات را بهبود بخشید.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) برای شرکت در ترجمه اسناد و بهبود اسناد مشارکت کنید.
 
 {% endhint %}
 
