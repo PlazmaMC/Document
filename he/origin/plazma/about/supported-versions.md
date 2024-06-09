@@ -24,12 +24,13 @@ description: "גלה את הגרסה של Minecraft: Java Edition שתומך ב-
 
 ![ממתין לשחרור][wtr] ![בפיתוח][idv] ![תמיכה][atv] ![תמיכה בפונקציות מופסקת][fse] ![סיום תמיכה][eol]
 
-|                                        גרסה                                       |                 איכות ותמיכה בפונקציונליות                |                                              מצב בנייה                                             |
-| :-------------------------------------------------------------------------------: | :-------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
-|                   ![1.20.6](https://badge.plazmamc.org/1/1.20.6)                  | ![רגיל][vgd]![70%](https://badge.plazmamc.org/percent/70) | [![מצב בנייה](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |                ![טוב מאוד][vgd]![100%][100]               | [![מצב בנייה](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                ![טוב מאוד][vgd]![100%][100]               | [![מצב בנייה](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                ![טוב מאוד][vgd]![100%][100]               |                                          ![אין מידע][ukn]                                          |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                ![טוב מאוד][vgd]![100%][100]               |                                          ![אין מידע][ukn]                                          |
+|                                        גרסה                                       |                   איכות ותמיכה בפונקציונליות                  |                                              מצב בנייה                                             |
+| :-------------------------------------------------------------------------------: | :-----------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
+|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                      ![המתה שוחררת][wtr]                      |                                           ![לא ידוע](ukn)                                          |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![טוב מאוד][vgd]![97%](https://badge.plazmamc.org/percent/97) | [![מצב בנייה](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                  ![טוב מאוד][vgd]![100%][100]                 | [![מצב בנייה](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                  ![טוב מאוד][vgd]![100%][100]                 | [![מצב בנייה](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                  ![טוב מאוד][vgd]![100%][100]                 |                                          ![אין מידע][ukn]                                          |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                  ![טוב מאוד][vgd]![100%][100]                 |                                          ![אין מידע][ukn]                                          |
 
 ***
