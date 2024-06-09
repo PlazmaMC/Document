@@ -10,7 +10,7 @@ description: Ha kérdésed van, kérlek tedd fel a Discordon vagy a GitHub Tárg
 
 [![Fordítási állapot](https://badge.plazmamc.org/internal/crowdin)](https://forditas.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참여하여 문서를 개선해 보세요.
 
 {% endhint %}
 
