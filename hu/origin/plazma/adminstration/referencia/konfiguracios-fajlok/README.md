@@ -1,0 +1,2 @@
+# 🎨 Konfigurációs Fájlok
+

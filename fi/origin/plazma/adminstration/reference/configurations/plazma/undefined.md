@@ -1,0 +1,1 @@
+# 🏳️ Maailmanlaajuinen rakenne

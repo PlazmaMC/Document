@@ -1,0 +1,2 @@
+# 🎨 Konfigurimi i Skedarëve
+
