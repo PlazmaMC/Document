@@ -24,12 +24,13 @@ description: "Да бисте проверили верзију Minecraft: Java 
 
 ![Чекање\_на\_издање][wtr] ![У\_развоју][idv] ![Подржано][atv] ![Подршка\_за\_функције\_прекинута][fse] ![Подршка\_завршена][eol]
 
-|                                      верзија                                      |               Стабилност    и    подршка функција               |                                              Статус изградње                                              |
-| :-------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
-|                   ![1.20.6](https://badge.plazmamc.org/1/1.20.6)                  | ![Уобичајено][vgd]![70%](https://badge.plazmamc.org/percent/70) | [![Статус\_изградње](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |                 ![Веома добро][vgd]![100%][100]                 |  [![Статус изградње](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                 ![Веома добро][vgd]![100%][100]                 |  [![Статус изградње](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                 ![Веома добро][vgd]![100%][100]                 |                                     ![Информације нису доступне][ukn]                                     |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                 ![Веома добро][vgd]![100%][100]                 |                                     ![Информације нису доступне][ukn]                                     |
+|                                      верзија                                      |                Стабилност    и    подршка функција               |                                              Статус изградње                                              |
+| :-------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                          ![릴리스 대기중][wtr]                         |                                          ![정보 није доступно](ukn)                                         |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![Веома добро][vgd]![97%](https://badge.plazmamc.org/percent/97) | [![Статус\_изградње](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                  ![Веома добро][vgd]![100%][100]                 |  [![Статус изградње](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                  ![Веома добро][vgd]![100%][100]                 |  [![Статус изградње](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                  ![Веома добро][vgd]![100%][100]                 |                                     ![Информације нису доступне][ukn]                                     |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                  ![Веома добро][vgd]![100%][100]                 |                                     ![Информације нису доступне][ukn]                                     |
 
 ***
