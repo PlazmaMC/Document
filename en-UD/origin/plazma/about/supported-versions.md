@@ -24,12 +24,13 @@ description: 요세보 알수없는 :Java Edition 버전을 알아보세요.
 
 ![Waiting for release][wtr] ![Under development][idv] ![Supporting][atv] ![Feature support discontinued][fse] ![Support ended][eol]
 
-|                                         버전                                        |                   uɯɯɐɯs ɐɯɯ ɯɯǝɯɯɹ ǝuɯoɯ                   |                                                 빌드 상태                                                 |
-| :-------------------------------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: |
-|                   ![1.20.6](https://badge.plazmamc.org/1/1.20.6)                  | ![Normal][vgd]![70%](https://badge.plazmamc.org/percent/70) | [![Build status](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |             !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]             |   [![ɯɯǝɯɯs ɐɯɯɹɯ](https://ɯɯɯɯ.plazmamc.org/1.20.4)](https://ɯɯɯɯ.plazmamc.org/1.20.4?ɯɯɯɯɯɯ=true)   |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |             !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]             |   [![ɯɯǝɯɯs ɐɯɯɹɯ](https://ɯɯɯɯ.plazmamc.org/1.20.2)](https://ɯɯɯɯ.plazmamc.org/1.20.2?ɯɯɯɯɯɯ=true)   |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |             !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]             |                                         !\[ɯɯɐɯɯ ǝɯɯoɥ]\[nku]                                         |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |             !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]             |                                         !\[ɯɯɐɯɯ ǝɯɯoɥ]\[nku]                                         |
+|                                         버전                                         |                     uɯɯɐɯs ɐɯɯ ɯɯǝɯɯɹ ǝuɯoɯ                    |                                                 빌드 상태                                                 |
+| :--------------------------------------------------------------------------------: | :------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: |
+|                     ![1.21](https://badge.plazmamc.org/0/1.21)                     |                   ![Waiting for release][wtr]                  |                                    ![No information available](ukn)                                   |
+|  [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![Very good][vgd]![97%](https://badge.plazmamc.org/percent/97) | [![Build status](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1ɔ02ɔ.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |               !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]              |   [![ɯɯǝɯɯs ɐɯɯɹɯ](https://ɯɯɯɯ.plazmamc.org/1.20.4)](https://ɯɯɯɯ.plazmamc.org/1.20.4?ɯɯɯɯɯɯ=true)   |
+|  [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |               !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]              |   [![ɯɯǝɯɯs ɐɯɯɹɯ](https://ɯɯɯɯ.plazmamc.org/1.20.2)](https://ɯɯɯɯ.plazmamc.org/1.20.2?ɯɯɯɯɯɯ=true)   |
+|  [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |               !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]              |                                         !\[ɯɯɐɯɯ ǝɯɯoɥ]\[nku]                                         |
+|  [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |               !\[ɯɯɐɯɯ ǝɯɯɹɯ]\[ɯɓd]!\[001%]\[001]              |                                         !\[ɯɯɐɯɯ ǝɯɯoɥ]\[nku]                                         |
 
 ***
