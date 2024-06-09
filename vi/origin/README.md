@@ -10,7 +10,7 @@ description: Nếu có câu hỏi, vui lòng đặt câu hỏi qua Discord hoặ
 
 [![Trạng thái Dịch](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) từ trang web để cải thiện tài liệu dựa trên dịch vụ tài liệu.
+Tham gia dịch tài liệu tại [https://translate.plazmamc.org/](https://translate.plazmamc.org/) để cải thiện tài liệu.
 
 {% endhint %}
 
