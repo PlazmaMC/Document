@@ -10,7 +10,7 @@ description: Jos sinulla on kysyttävää, kysy Discordissa tai GitHub-keskustel
 
 [![Käännöksen tila](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) -sivustoa käyttäen paranna asiakirjaa kääntämällä asiakirjaa.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참여하여 문서를 개선해 보세요.
 
 {% endhint %}
 
