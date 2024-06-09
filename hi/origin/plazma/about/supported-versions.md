@@ -24,12 +24,13 @@ description: "Plazma से समर्थित Minecraft: Java Edition सं
 
 ![रिलीज़ के लिए प्रतीक्षा में][wtr] ![विकास-के-दौर-में][idv] ![समर्थित][atv] ![सुविधा समर्थन बंद][fse] ![समर्थन समाप्त][eol]
 
-|                                      संस्करण                                      |              स्थिरता    और    कार्यक्षमता समर्थन             |                                              निर्माण स्थिति                                             |
-| :-------------------------------------------------------------------------------: | :----------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-|                   ![1.20.6](https://badge.plazmamc.org/1/1.20.6)                  | ![सामान्य][vgd]![70%](https://badge.plazmamc.org/percent/70) | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |                   ![महान][vgd]![100%][100]                   | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                   ![महान][vgd]![100%][100]                   | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                   ![महान][vgd]![100%][100]                   |                                           ![जानकारी नहीं][ukn]                                          |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                   ![महान][vgd]![100%][100]                   |                                           ![जानकारी नहीं][ukn]                                          |
+|                                      संस्करण                                      |                 स्थिरता    और    कार्यक्षमता समर्थन                |                                              निर्माण स्थिति                                             |
+| :-------------------------------------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                      ![रिलीज़ इन वेटिंग][wtr]                      |                                         ![कोई जानकारी नहीं](ukn)                                        |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![अत्यधिक अच्छा][vgd]![97%](https://badge.plazmamc.org/percent/97) | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                      ![महान][vgd]![100%][100]                      | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                      ![महान][vgd]![100%][100]                      | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                      ![महान][vgd]![100%][100]                      |                                           ![जानकारी नहीं][ukn]                                          |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                      ![महान][vgd]![100%][100]                      |                                           ![जानकारी नहीं][ukn]                                          |
 
 ***
