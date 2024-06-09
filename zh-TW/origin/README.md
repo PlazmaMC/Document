@@ -10,7 +10,7 @@ description: 如有問題，請通過Discord或GitHub討論發問。
 
 [![翻譯狀態](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 在進行文件翻譯時參考並改進文件。
+在 [https://translate.plazmamc.org/](https://translate.plazmamc.org/) 參與文件翻譯，助您改善文件。
 
 {% endhint %}
 
