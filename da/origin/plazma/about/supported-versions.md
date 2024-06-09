@@ -24,12 +24,13 @@ Hvis du leder efter platforme under 1.19.4, brug venligst [Fusion (`1.19.2 ~ 1.1
 
 ![venter på udgivelse][wtr] ![under udvikling][idv] ![i support][atv] ![funktion support suspenderet][fse] ![support slut][eol]
 
-|                                      Version                                      |          Stabilitet    og    funktionalitetsstøtte          |                                               Byggestatus                                               |
-| :-------------------------------------------------------------------------------: | :---------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-|                   ![1.20.6](https://badge.plazmamc.org/1/1.20.6)                  | ![normal][vgd]![70%](https://badge.plazmamc.org/percent/70) |  [![bygge status](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)  |
-| [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |                ![Meget god][vgd]![100%][100]                | [![Bygningsstatus](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                ![Meget god][vgd]![100%][100]                | [![Bygningsstatus](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                ![Meget god][vgd]![100%][100]                |                                        ![Ingen information][ukn]                                        |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                ![Meget god][vgd]![100%][100]                |                                        ![Ingen information][ukn]                                        |
+|                                      Version                                      |            Stabilitet    og    funktionalitetsstøtte           |                                               Byggestatus                                               |
+| :-------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                   ![Afventer udgivelse][wtr]                   |                                        ![Ingen oplysninger](ukn)                                        |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![Meget god][vgd]![97%](https://badge.plazmamc.org/percent/97) |  [![bygge status](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)  |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                  ![Meget god][vgd]![100%][100]                 | [![Bygningsstatus](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                  ![Meget god][vgd]![100%][100]                 | [![Bygningsstatus](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                  ![Meget god][vgd]![100%][100]                 |                                        ![Ingen information][ukn]                                        |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                  ![Meget god][vgd]![100%][100]                 |                                        ![Ingen information][ukn]                                        |
 
 ***
