@@ -10,7 +10,7 @@ description: หากมีคำถามโปรดถามผ่านท�
 
 [![สถานะการแปล](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) โปรดอ้างอิงจากการแปลเอกสารที่ [https://translate.plazmamc.org/](https://translate.plazmamc.org/) เพื่อปรับปรุงเอกสาร
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) ร่วมสมทบในการแปลเอกสารที่ [https://translate.plazmamc.org/](https://translate.plazmamc.org/) เพื่อปรับปรุงเอกสาร
 
 {% endhint %}
 
