@@ -10,7 +10,7 @@ description: 質問がある場合は、DiscordまたはGitHub Discussionsを通
 
 [![翻訳ステータス](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) で文書翻訳を参照して文書を改善してください。
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) で文書翻訳に参加して文書を改善してください。
 
 {% endhint %}
 
