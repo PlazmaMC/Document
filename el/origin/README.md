@@ -10,7 +10,7 @@ description: Αν έχετε ερωτήσεις, παρακαλούμε να τ�
 
 [![Κατάσταση Μετάφρασης](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참여하여 문서를 개선해 보세요.
+Συμμετέχετε στη μετάφραση τεκμηρίωσης στο [https://translate.plazmamc.org/](https://translate.plazmamc.org/) για να βελτιώσετε τα έγγραφα.
 
 {% endhint %}
 
