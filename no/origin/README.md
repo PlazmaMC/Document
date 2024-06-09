@@ -10,7 +10,7 @@ description: Hvis du har spørsmål, vennligst spør på Discord eller GitHub-di
 
 [![Oversettelsesstatus](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) på nettstedet for oversettelse, referer til dokumentasjonen for å forbedre dokumentasjonen.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) på nettstedet for utvikling av dokumentoversettelse og forbedre dokumentene.
 
 {% endhint %}
 
