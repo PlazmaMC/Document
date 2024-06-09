@@ -10,7 +10,7 @@ description: Якщо у вас є питання, будь ласка, зада
 
 [![Статус перекладу](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) належить до документації, використовуйте його для покращення документації.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) зацікавлених у вдосконаленні документації можуть приєднатися до перекладу на [https://translate.plazmamc.org/](https://translate.plazmamc.org/) і покращити документацію.
 
 {% кінець нагадування %}
 
