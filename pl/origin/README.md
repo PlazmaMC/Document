@@ -10,7 +10,7 @@ description: Jeśli masz pytania, zadaj je za pośrednictwem Discorda lub dyskus
 
 [![Stan tłumaczenia](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) na stronie, aby poprawić dokumentację, korzystając z tłumaczenia dokumentów.
+Przejdź do [https://translate.plazmamc.org/](https://translate.plazmamc.org/) i uczestnicz w tłumaczeniu dokumentacji, aby ją ulepszyć.
 
 {% endhint %}
 
