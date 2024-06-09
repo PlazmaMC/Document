@@ -24,12 +24,13 @@ Ak hľadáte platformu nižšiu ako 1.19.4, použite [Fusion (`1.19.2 ~ 1.19.3`)
 
 ![čaká na uvoľnenie][wtr] ![vo vývoji][idv] ![podporovaný][atv] ![podpora funkcií zastavená][fse] ![podpora ukončená][eol]
 
-|                                       Verzia                                      |                Stabilita    a    podpora funkcií                |                                              Stav zostavenia                                             |
-| :-------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
-|                   ![1.20.6](https://badge.plazmamc.org/1/1.20.6)                  | ![štandardný][vgd]![70%](https://badge.plazmamc.org/percent/70) | [![stav zostavenia](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/2/1.20.4)](https://git.plazmamc.org/1.20.4) |                 ![Veľmi dobré][vgd]![100%][100]                 | [![Stav zostavenia](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                 ![Veľmi dobré][vgd]![100%][100]                 | [![Stav zostavenia](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                 ![Veľmi dobré][vgd]![100%][100]                 |                                         ![Žiadne informácie][ukn]                                        |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                 ![Veľmi dobré][vgd]![100%][100]                 |                                         ![Žiadne informácie][ukn]                                        |
+|                                       Verzia                                      |                 Stabilita    a    podpora funkcií                |                                              Stav zostavenia                                             |
+| :-------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
+|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                    ![Čaká sa na vydanie][wtr]                    |                                         ![Žiadne informácie](ukn)                                        |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![Veľmi dobrý][vgd]![97%](https://badge.plazmamc.org/percent/97) | [![stav zostavenia](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                  ![Veľmi dobré][vgd]![100%][100]                 | [![Stav zostavenia](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                  ![Veľmi dobré][vgd]![100%][100]                 | [![Stav zostavenia](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                  ![Veľmi dobré][vgd]![100%][100]                 |                                         ![Žiadne informácie][ukn]                                        |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                  ![Veľmi dobré][vgd]![100%][100]                 |                                         ![Žiadne informácie][ukn]                                        |
 
 ***
