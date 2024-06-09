@@ -10,7 +10,7 @@ description: Nëse keni pyetje, ju lutemi pyetni nëpërmjet Discord ose bisedim
 
 [![Statusi i Përkthimit](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-Referohuni në [https://translate.plazmamc.org/](https://translate.plazmamc.org/) për të përmirësuar dokumentin duke u bazuar në përkthimin e dokumentit.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) duke pjesëmarrë në përkthimin e dokumentave në [https://translate.plazmamc.org/](https://translate.plazmamc.org/) për të përmirësuar dokumentin.
 
 {% endhint %}
 
