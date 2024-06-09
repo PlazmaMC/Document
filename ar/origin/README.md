@@ -10,7 +10,7 @@ description: إذا كان لديك أي أسئلة، يرجى طرحها عبر
 
 [![حالة الترجمة](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참여하여 문서를 개선해 보세요.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) في مشاركة ترجمة المستندات لتحسين المستندات.
 
 {% endhint %}
 
