@@ -10,7 +10,7 @@ description: Jika Anda memiliki pertanyaan, silakan bertanya melalui Discord ata
 
 [![Status Terjemahan](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) di mana Anda dapat mengacu pada terjemahan dokumen untuk meningkatkan dokumen.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) di sini untuk berpartisipasi dalam terjemahan dokumen dan meningkatkan dokumen.
 
 {% endhint %}
 
