@@ -10,7 +10,7 @@ description: Si tienes alguna pregunta, por favor hazla a través de Discord o G
 
 [![Estado de traducción](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참여하여 문서를 개선해 보세요.
+Participe en la traducción de documentos en [https://translate.plazmamc.org/](https://translate.plazmamc.org/) para mejorar los documentos.
 
 {% endhint %}
 
