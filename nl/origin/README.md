@@ -10,7 +10,7 @@ description: Als u vragen heeft, stel ze dan via Discord of GitHub Discussies.
 
 [![Vertalingsstatus](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) op basis van de documentvertaling verbeteren op [https://translate.plazmamc.org/](https://translate.plazmamc.org/) .
+Doe mee aan de documentvertaling op [https://translate.plazmamc.org/](https://translate.plazmamc.org/) en help bij het verbeteren van de documenten.
 
 {% endhint %}
 
