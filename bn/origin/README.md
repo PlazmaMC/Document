@@ -10,7 +10,7 @@ description: যদি কোন প্রশ্ন থাকে তাহলে
 
 [![অনুবাদ অবস্থা](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) এ দলীয় অনুবাদ করার জন্য দলীয় ডকুমেন্ট দেখুন এবং ডকুমেন্টগুলি উন্নত করুন।
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) থেকে ডকুমেন্ট অনুবাদে অংশগ্রহণ করে দকুমেন্টগুলি উন্নত করুন।
 
 {% endhint %}
 
