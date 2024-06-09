@@ -10,7 +10,7 @@ description: Ако имате въпроси, моля, ги задайте ч�
 
 [![Статус на превода](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참여하여 문서를 개선해 보세요.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) тук може да се включите в превода на документи и да помогнете за подобряването на документацията.
 
 {% endhint %}
 
