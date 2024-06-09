@@ -10,7 +10,7 @@ description: Ocoko ma en aye ka i kom Discord ki i GitHub Discussions ki i kare 
 
 [![Translation Status](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참고하여 문서를 개선해 보세요.
+Kiyeko kubinnyabufuzi kwa [https://translate.plazmamc.org/](https://translate.plazmamc.org/) kacel kipokorwo iyi ukibinnyabufuzi.
 
 {% endhint %}
 
