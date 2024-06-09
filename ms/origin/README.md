@@ -10,7 +10,7 @@ description: Jika anda mempunyai sebarang pertanyaan, sila tanyakan melalui Disc
 
 [![Keadaan Terjemahan](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) di sini untuk merujuk semasa menerjemahkan dokumen dan memperbaiki dokumen.
+Sertai penyertaan anda dalam menterjemahkan dokumen di [https://translate.plazmamc.org/](https://translate.plazmamc.org/) untuk meningkatkan dokumen tersebut.
 
 {% endhint %}
 
