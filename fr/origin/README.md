@@ -10,7 +10,7 @@ description: Si vous avez des questions, veuillez les poser sur Discord ou GitHu
 
 [![Statut de traduction](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) 에서 문서 번역에 참여하여 문서를 개선해 보세요.
+Participez à la traduction des documents sur [https://translate.plazmamc.org/](https://translate.plazmamc.org/) pour améliorer les documents.
 
 {% endhint %}
 
