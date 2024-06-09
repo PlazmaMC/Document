@@ -10,7 +10,7 @@ description: Sorularınız varsa, lütfen Discord veya GitHub Tartışmaları ü
 
 [![Çeviri Durumu](https://badge.plazmamc.org/internal/crowdin)](https://translate.plazmamc.org/)
 
-[https://translate.plazmamc.org/](https://translate.plazmamc.org/) adresinde belge çevirilerini referans alarak belgeyi geliştirin.
+[https://translate.plazmamc.org/](https://translate.plazmamc.org/) adresinde belge çevirilerine katılarak belgeleri geliştirin.
 
 {% endhint %}
 
