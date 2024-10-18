@@ -8,7 +8,7 @@ description: "Дізнайтеся, які версії підтримує Minec
 
 **Plazma розробляється з версії 1.19.4 і вище, версії нижче 1.19.4 не розробляються.**
 
-Якщо ви шукаєте платформу до версії 1.19.4, будь ласка, скористайтеся [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion) або [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine).
+1.19.4 미만의 플랫폼을 찾고 있다면, [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine) 또는 [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion)을 사용해 주시기 바랍니다.
 
 {% кінець нагадування %}
 
@@ -24,13 +24,13 @@ description: "Дізнайтеся, які версії підтримує Minec
 
 ![очікується випуск][wtr] ![в розробці][idv] ![підтримується][atv] ![припинення підтримки функції][fse] ![підтримка завершена][eol]
 
-|                                       Версія                                      |             Стабільність    та    підтримка функцій             |                                               Стан збірки                                              |
-| :-------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
-|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                         ![릴리스 대기중][wtr]                         |                                       ![інформація відсутня](ukn)                                      |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![дуже добре][vgd]![97%](https://badge.plazmamc.org/percent/97) |  [![стан збірки](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)  |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                  ![дуже добре][vgd]![100%][100]                 | [![стан збирання](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                  ![дуже добре][vgd]![100%][100]                 | [![стан збирання](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                  ![дуже добре][vgd]![100%][100]                 |                                        ![немає інформації][ukn]                                        |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                  ![дуже добре][vgd]![100%][100]                 |                                        ![немає інформації][ukn]                                        |
+|                                       Версія                                      | Стабільність    та    підтримка функцій |                                               Стан збірки                                              |
+| :-------------------------------------------------------------------------------: | :-------------------------------------: | :----------------------------------------------------------------------------------------------------: |
+|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |               ![개발중][idv]               |                                        ![немає інформації][ukn]                                        |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |      ![дуже добре][vgd]![100%][100]     |  [![стан збірки](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)  |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |      ![дуже добре][vgd]![100%][100]     | [![стан збирання](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |      ![дуже добре][vgd]![100%][100]     | [![стан збирання](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |      ![дуже добре][vgd]![100%][100]     |                                        ![немає інформації][ukn]                                        |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |      ![дуже добре][vgd]![100%][100]     |                                        ![немає інформації][ukn]                                        |
 
 ***
