@@ -8,7 +8,7 @@ description: "Descoperiți versiunea Minecraft: Java Edition suportată de Plazm
 
 **Plazma a fost dezvoltat începând cu versiunea 1.19.4 și versiunile sub 1.19.4 nu mai sunt dezvoltate.**
 
-Dacă căutați platforme sub 1.19.4, vă rugăm să utilizați [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion) sau [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine).
+1.19.4 미만의 플랫폼을 찾고 있다면, [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine) 또는 [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion)을 사용해 주시기 바랍니다.
 
 {% endhint %}
 
@@ -24,13 +24,13 @@ Dacă căutați platforme sub 1.19.4, vă rugăm să utilizați [Fusion (`1.19.2
 
 ![În așteptarea lansării][wtr] ![În dezvoltare][idv] ![În curs de sprijin][atv] ![Suport pentru funcționalitate întrerupt][fse] ![Sfârșitul suportului][eol]
 
-|                                      versiune                                     |              Stabilitate    și    suport funcțional             |                                              Stare de construcție                                             |
-| :-------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
-|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                 ![Asteptare pentru lansare][wtr]                |                                            ![Fara informatii](ukn)                                            |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![Foarte bun][vgd]![97%](https://badge.plazmamc.org/percent/97) |  [![Starea construirii](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)  |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                  ![Foarte bun][vgd]![100%][100]                 | [![Stare de construcție](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                  ![Foarte bun][vgd]![100%][100]                 | [![Stare de construcție](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                  ![Foarte bun][vgd]![100%][100]                 |                                             ![No information][ukn]                                            |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                  ![Foarte bun][vgd]![100%][100]                 |                                             ![No information][ukn]                                            |
+|                                      versiune                                     | Stabilitate    și    suport funcțional |                                              Stare de construcție                                             |
+| :-------------------------------------------------------------------------------: | :------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
+|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |               ![개발중][idv]              |                                             ![No information][ukn]                                            |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |     ![Foarte bun][vgd]![100%][100]     |  [![Starea construirii](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)  |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |     ![Foarte bun][vgd]![100%][100]     | [![Stare de construcție](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |     ![Foarte bun][vgd]![100%][100]     | [![Stare de construcție](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |     ![Foarte bun][vgd]![100%][100]     |                                             ![No information][ukn]                                            |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |     ![Foarte bun][vgd]![100%][100]     |                                             ![No information][ukn]                                            |
 
 ***
