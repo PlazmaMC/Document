@@ -8,7 +8,7 @@ description: "Ontdek welke versie van Minecraft: Java Edition wordt ondersteund 
 
 **Plazma wordt ontwikkeld vanaf 1.19.4 en versies onder 1.19.4 worden niet meer ondersteund.**
 
-Als je een platform onder 1.19.4 zoekt, gebruik dan [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion) of [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine).
+1.19.4 미만의 플랫폼을 찾고 있다면, [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine) 또는 [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion)을 사용해 주시기 바랍니다.
 
 {% endhint %}
 
@@ -24,13 +24,13 @@ Als je een platform onder 1.19.4 zoekt, gebruik dan [Fusion (`1.19.2 ~ 1.19.3`)]
 
 ![Wachten op release][wtr] ![In ontwikkeling][idv] ![Ondersteund][atv] ![Ondersteuning van functies gestopt][fse] ![Ondersteuning beëindigd][eol]
 
-|                                       Versie                                      |          Stabiliteit en functionaliteit ondersteuning          |                                             Buildstatus                                             |
-| :-------------------------------------------------------------------------------: | :------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
-|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                   ![Wachten op release][wtr]                   |                                 ![Geen informatie beschikbaar](ukn)                                 |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![Zeer goed][vgd]![97%](https://badge.plazmamc.org/percent/97) | [![Bouwstatus](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                  ![Heel goed][vgd]![100%][100]                 | [![Bouwstatus](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                  ![Heel goed][vgd]![100%][100]                 | [![Bouwstatus](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                  ![Heel goed][vgd]![100%][100]                 |                                       ![Geen informatie][ukn]                                       |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                  ![Heel goed][vgd]![100%][100]                 |                                       ![Geen informatie][ukn]                                       |
+|                                       Versie                                      | Stabiliteit en functionaliteit ondersteuning |                                             Buildstatus                                             |
+| :-------------------------------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
+|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |                  ![개발중][idv]                 |                                       ![Geen informatie][ukn]                                       |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |         ![Heel goed][vgd]![100%][100]        | [![Bouwstatus](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |         ![Heel goed][vgd]![100%][100]        | [![Bouwstatus](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |         ![Heel goed][vgd]![100%][100]        | [![Bouwstatus](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |         ![Heel goed][vgd]![100%][100]        |                                       ![Geen informatie][ukn]                                       |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |         ![Heel goed][vgd]![100%][100]        |                                       ![Geen informatie][ukn]                                       |
 
 ***
