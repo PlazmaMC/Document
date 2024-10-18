@@ -8,7 +8,7 @@ description: "Tutustu Plazman tukemaan Minecraft: Java Edition -versioon."
 
 **Plazma on kehitetty versiosta 1.19.4 alkaen, versiota 1.19.4 vanhempia versioita ei enää kehitetä.**
 
-Jos etsit alustaa, joka on vanhempi kuin 1.19.4, käytä [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion) tai [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine).
+1.19.4 미만의 플랫폼을 찾고 있다면, [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine) 또는 [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion)을 사용해 주시기 바랍니다.
 
 {% endhint %}
 
@@ -24,13 +24,13 @@ Jos etsit alustaa, joka on vanhempi kuin 1.19.4, käytä [Fusion (`1.19.2 ~ 1.19
 
 ![odottaa julkaisua][wtr] ![kehityksessä][idv] ![tuetaan][atv] ![toiminnan tuki pysäytetty][fse] ![tuki päättyi][eol]
 
-|                                       Versio                                      |               Vakaus    ja    toiminnallisuuden tuki               |                                                Rakennustila                                               |
-| :-------------------------------------------------------------------------------: | :----------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
-|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                      ![Odottaa julkaisua][wtr]                     |                                             ![Ei tietoa](ukn)                                             |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![Erittäin hyvä][vgd]![97%](https://badge.plazmamc.org/percent/97) | [![rakennuksen tila](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                  ![Erittäin hyvä][vgd]![100%][100]                 |   [![Rakennustila](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true)   |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                  ![Erittäin hyvä][vgd]![100%][100]                 |   [![Rakennustila](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true)   |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                  ![Erittäin hyvä][vgd]![100%][100]                 |                                           ![Tietoja ei ole][ukn]                                          |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                  ![Erittäin hyvä][vgd]![100%][100]                 |                                           ![Tietoja ei ole][ukn]                                          |
+|                                       Versio                                      | Vakaus    ja    toiminnallisuuden tuki |                                                Rakennustila                                               |
+| :-------------------------------------------------------------------------------: | :------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |               ![개발중][idv]              |                                           ![Tietoja ei ole][ukn]                                          |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |    ![Erittäin hyvä][vgd]![100%][100]   | [![rakennuksen tila](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |    ![Erittäin hyvä][vgd]![100%][100]   |   [![Rakennustila](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true)   |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |    ![Erittäin hyvä][vgd]![100%][100]   |   [![Rakennustila](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true)   |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |    ![Erittäin hyvä][vgd]![100%][100]   |                                           ![Tietoja ei ole][ukn]                                          |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |    ![Erittäin hyvä][vgd]![100%][100]   |                                           ![Tietoja ei ole][ukn]                                          |
 
 ***
