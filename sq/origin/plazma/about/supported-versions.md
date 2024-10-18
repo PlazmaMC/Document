@@ -8,7 +8,7 @@ description: "Zbuloni versionin e Minecraft: Java Edition që mbështetet në Pl
 
 **Plazma është zhvilluar nga versioni 1.19.4 dhe më pas, versionet më të vjetra se 1.19.4 nuk janë të zhvilluara.**
 
-Nëse kërkoni platforma më të ulëta se 1.19.4, ju lutemi përdorni [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion) ose [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine).
+1.19.4 미만의 플랫폼을 찾고 있다면, [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine) 또는 [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion)을 사용해 주시기 바랍니다.
 
 {% endhint %}
 
@@ -24,13 +24,13 @@ Nëse kërkoni platforma më të ulëta se 1.19.4, ju lutemi përdorni [Fusion (
 
 ![në pritje të lëshimit][wtr] ![në zhvillim][idv] ![në mbështetje][atv] ![ndërprerja e mbështetjes së funksioneve][fse] ![përfundimi i mbështetjes][eol]
 
-|                                      Versioni                                     |           Stabiliteti    dhe    mbështetja e funksioneve          |                                              Statusi i ndërtimit                                             |
-| :-------------------------------------------------------------------------------: | :---------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
-|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                    ![Prishtinë në pritje][wtr]                    |                                         ![Informata e panjohur](ukn)                                         |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![Shumë i mirë][vgd]![97%](https://badge.plazmamc.org/percent/97) | [![statusi i ndërtimit](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                   ![Çudit mirë][vgd]![100%][100]                  | [![Gjendja e ndërtimit](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                   ![Çudit mirë][vgd]![100%][100]                  | [![Gjendja e ndërtimit](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                   ![Çudit mirë][vgd]![100%][100]                  |                                                ![No info][ukn]                                               |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                   ![Çudit mirë][vgd]![100%][100]                  |                                                ![No info][ukn]                                               |
+|                                      Versioni                                     | Stabiliteti    dhe    mbështetja e funksioneve |                                              Statusi i ndërtimit                                             |
+| :-------------------------------------------------------------------------------: | :--------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
+|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |                   ![개발중][idv]                  |                                                ![No info][ukn]                                               |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |         ![Çudit mirë][vgd]![100%][100]         | [![statusi i ndërtimit](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |         ![Çudit mirë][vgd]![100%][100]         | [![Gjendja e ndërtimit](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |         ![Çudit mirë][vgd]![100%][100]         | [![Gjendja e ndërtimit](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |         ![Çudit mirë][vgd]![100%][100]         |                                                ![No info][ukn]                                               |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |         ![Çudit mirë][vgd]![100%][100]         |                                                ![No info][ukn]                                               |
 
 ***
