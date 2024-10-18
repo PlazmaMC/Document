@@ -8,7 +8,7 @@ description: "Ketahui versi Minecraft: Edisi Java yang disokong oleh Plazma."
 
 **Plazma telah dibangunkan selepas 1.19.4, versi di bawah 1.19.4 tidak lagi dibangunkan.**
 
-Jika mencari platform di bawah 1.19.4, sila gunakan [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion) atau [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine).
+1.19.4 미만의 플랫폼을 찾고 있다면, [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine) 또는 [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion)을 사용해 주시기 바랍니다.
 
 {% endhint %}
 
@@ -24,13 +24,13 @@ Jika mencari platform di bawah 1.19.4, sila gunakan [Fusion (`1.19.2 ~ 1.19.3`)]
 
 ![waiting for release][wtr] ![under development][idv] ![supporting][atv] ![support discontinued][fse] ![support ended][eol]
 
-|                                       Versi                                       |            Kebolehpercayaan    dan    Sokongan Fungsi            |                                                Status Bina                                                |
-| :-------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
-|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                    ![Menunggu Pelepasan][wtr]                    |                                           ![Tiada Maklumat](ukn)                                          |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![Sangat Baik][vgd]![97%](https://badge.plazmamc.org/percent/97) |   [![build status](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)   |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                  ![Sangat Baik][vgd]![100%][100]                 | [![Status Pembinaan](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                  ![Sangat Baik][vgd]![100%][100]                 | [![Status Pembinaan](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                  ![Sangat Baik][vgd]![100%][100]                 |                                     ![Informasi Tidak Disediakan][ukn]                                    |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                  ![Sangat Baik][vgd]![100%][100]                 |                                     ![Informasi Tidak Disediakan][ukn]                                    |
+|                                       Versi                                       | Kebolehpercayaan    dan    Sokongan Fungsi |                                                Status Bina                                                |
+| :-------------------------------------------------------------------------------: | :----------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |                 ![개발중][idv]                |                                     ![Informasi Tidak Disediakan][ukn]                                    |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |       ![Sangat Baik][vgd]![100%][100]      |   [![build status](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)   |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |       ![Sangat Baik][vgd]![100%][100]      | [![Status Pembinaan](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |       ![Sangat Baik][vgd]![100%][100]      | [![Status Pembinaan](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |       ![Sangat Baik][vgd]![100%][100]      |                                     ![Informasi Tidak Disediakan][ukn]                                    |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |       ![Sangat Baik][vgd]![100%][100]      |                                     ![Informasi Tidak Disediakan][ukn]                                    |
 
 ***
