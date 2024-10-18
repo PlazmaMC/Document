@@ -1,0 +1,1 @@
+# 🏳️ Världsomfattande konfiguration

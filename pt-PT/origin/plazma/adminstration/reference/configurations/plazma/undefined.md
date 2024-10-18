@@ -1,0 +1,1 @@
+# 🏳️ Configuração por país
