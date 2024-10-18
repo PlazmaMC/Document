@@ -8,7 +8,7 @@ description: "Plazma'da desteklenen Minecraft: Java Edition sürümlerini keşfe
 
 **Plazma, 1.19.4'ten sonra geliştirilmekte olup, 1.19.4'ten düşük sürümler geliştirilmemektedir.**
 
-1.19.4'ten düşük bir platform arıyorsanız, [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion) veya [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine) kullanın.
+1.19.4 미만의 플랫폼을 찾고 있다면, [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine) 또는 [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion)을 사용해 주시기 바랍니다.
 
 {% endhint %}
 
@@ -24,13 +24,13 @@ description: "Plazma'da desteklenen Minecraft: Java Edition sürümlerini keşfe
 
 ![Waiting for release][wtr] ![Development][idv] ![Support][atv] ![Feature support discontinued][fse] ![Support ended][eol]
 
-|                                       Sürüm                                       |                  Stabilite ve işlev desteği                  |                                              Derleme Durumu                                             |
-| :-------------------------------------------------------------------------------: | :----------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                   ![Yayın bekleniyor][wtr]                   |                                            ![Bilgi yok](ukn)                                            |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![Çok iyi][vgd]![97%](https://badge.plazmamc.org/percent/97) |  [![Build status](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)  |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                  ![Çok iyi][vgd]![100%][100]                 | [![Derleme Durumu](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                  ![Çok iyi][vgd]![100%][100]                 | [![Derleme Durumu](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                  ![Çok iyi][vgd]![100%][100]                 |                                            ![Bilgi yok][ukn]                                            |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                  ![Çok iyi][vgd]![100%][100]                 |                                            ![Bilgi yok][ukn]                                            |
+|                                       Sürüm                                       |  Stabilite ve işlev desteği |                                              Derleme Durumu                                             |
+| :-------------------------------------------------------------------------------: | :-------------------------: | :-----------------------------------------------------------------------------------------------------: |
+|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |         ![개발중][idv]         |                                            ![Bilgi yok][ukn]                                            |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![Çok iyi][vgd]![100%][100] |  [![Build status](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)  |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) | ![Çok iyi][vgd]![100%][100] | [![Derleme Durumu](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) | ![Çok iyi][vgd]![100%][100] | [![Derleme Durumu](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) | ![Çok iyi][vgd]![100%][100] |                                            ![Bilgi yok][ukn]                                            |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) | ![Çok iyi][vgd]![100%][100] |                                            ![Bilgi yok][ukn]                                            |
 
 ***
