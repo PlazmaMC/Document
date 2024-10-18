@@ -8,7 +8,7 @@ description: "Plazma से समर्थित Minecraft: Java Edition सं
 
 **Plazma 1.19.4 के बाद से विकसित किया गया है, 1.19.4 से कम के संस्करण विकसित नहीं किए गए हैं।**
 
-1.19.4 से कम प्लेटफ़ॉर्म खोज रहे हैं, तो कृपया [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion) या [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine) का उपयोग करें।
+1.19.4 미만의 플랫폼을 찾고 있다면, [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine) 또는 [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion)을 사용해 주시기 바랍니다.
 
 {% endhint %}
 
@@ -24,13 +24,13 @@ description: "Plazma से समर्थित Minecraft: Java Edition सं
 
 ![रिलीज़ के लिए प्रतीक्षा में][wtr] ![विकास-के-दौर-में][idv] ![समर्थित][atv] ![सुविधा समर्थन बंद][fse] ![समर्थन समाप्त][eol]
 
-|                                      संस्करण                                      |                 स्थिरता    और    कार्यक्षमता समर्थन                |                                              निर्माण स्थिति                                             |
-| :-------------------------------------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                      ![रिलीज़ इन वेटिंग][wtr]                      |                                         ![कोई जानकारी नहीं](ukn)                                        |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![अत्यधिक अच्छा][vgd]![97%](https://badge.plazmamc.org/percent/97) | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                      ![महान][vgd]![100%][100]                      | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                      ![महान][vgd]![100%][100]                      | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                      ![महान][vgd]![100%][100]                      |                                           ![जानकारी नहीं][ukn]                                          |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                      ![महान][vgd]![100%][100]                      |                                           ![जानकारी नहीं][ukn]                                          |
+|                                      संस्करण                                      | स्थिरता    और    कार्यक्षमता समर्थन |                                              निर्माण स्थिति                                             |
+| :-------------------------------------------------------------------------------: | :---------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |             ![개발중][idv]             |                                           ![जानकारी नहीं][ukn]                                          |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |       ![महान][vgd]![100%][100]      | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |       ![महान][vgd]![100%][100]      | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |       ![महान][vgd]![100%][100]      | [![निर्माण स्थिति](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |       ![महान][vgd]![100%][100]      |                                           ![जानकारी नहीं][ukn]                                          |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |       ![महान][vgd]![100%][100]      |                                           ![जानकारी नहीं][ukn]                                          |
 
 ***
