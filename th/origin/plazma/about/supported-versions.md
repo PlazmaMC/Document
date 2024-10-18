@@ -8,7 +8,7 @@ description: "ดูรายละเอียดเวอร์ชัน Minec
 
 **Plazma พัฒนาตั้งแต่เวอร์ชัน 1.19.4 ขึ้นไป และไม่ได้พัฒนาเวอร์ชันที่ต่ำกว่า 1.19.4**
 
-หากต้องการใช้งานแพลตฟอร์มที่ต่ำกว่า 1.19.4 โปรดใช้ [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion) หรือ [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine)
+1.19.4 미만의 플랫폼을 찾고 있다면, [Prismarine (`1.18.1 ~ 1.19.2`)](https://github.com/PrismarineTeam/Prismarine) 또는 [Fusion (`1.19.2 ~ 1.19.3`)](https://github.com/RuinedTechnologyUnify/Fusion)을 사용해 주시기 바랍니다.
 
 {% endhint %}
 
@@ -24,13 +24,13 @@ description: "ดูรายละเอียดเวอร์ชัน Minec
 
 ![รอลิสต์รอ][wtr] ![กำลังพัฒนา][idv] ![รองรับ][atv] ![หยุดการสนับสนุนฟีเจอร์][fse] ![สิ้นสุดการสนับสนุน][eol]
 
-|                                      เวอร์ชัน                                     |               ความเสถียรภาพและการสนับสนุนฟังก์ชัน              |                                              สถานะการสร้าง                                             |
-| :-------------------------------------------------------------------------------: | :------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
-|                     ![1.21](https://badge.plazmamc.org/0/1.21)                    |                   !\[อยู่ระหว่างการรอลง[Wtr]                   |                                           ![ไม่มีข้อมูล](ukn)                                          |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | !\[ดีมากมาย\[Wgd]![97%](https://badge.plazmamc.org/percent/97) | [![สถานะการสร้าง](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                    ![ดีมาก][vgd]![100%][100]                   | [![สถานะการสร้าง](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                    ![ดีมาก][vgd]![100%][100]                   | [![สถานะการสร้าง](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                    ![ดีมาก][vgd]![100%][100]                   |                                           ![ไม่มีข้อมูล][ukn]                                          |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                    ![ดีมาก][vgd]![100%][100]                   |                                           ![ไม่มีข้อมูล][ukn]                                          |
+|                                      เวอร์ชัน                                     | ความเสถียรภาพและการสนับสนุนฟังก์ชัน |                                              สถานะการสร้าง                                             |
+| :-------------------------------------------------------------------------------: | :---------------------------------: | :----------------------------------------------------------------------------------------------------: |
+|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |             ![개발중][idv]             |                                           ![ไม่มีข้อมูล][ukn]                                          |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |      ![ดีมาก][vgd]![100%][100]      | [![สถานะการสร้าง](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |      ![ดีมาก][vgd]![100%][100]      | [![สถานะการสร้าง](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |      ![ดีมาก][vgd]![100%][100]      | [![สถานะการสร้าง](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |      ![ดีมาก][vgd]![100%][100]      |                                           ![ไม่มีข้อมูล][ukn]                                          |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |      ![ดีมาก][vgd]![100%][100]      |                                           ![ไม่มีข้อมูล][ukn]                                          |
 
 ***
