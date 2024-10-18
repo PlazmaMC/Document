@@ -32,7 +32,7 @@ description: .morfniatalf레브서무인플 란머피레브서 란머피레브�
 8. **Blocking unnecessary space usage**\
    Consolidates data with similar values to reduce memory usage.
 
-#### ¿Want to learn more about Plazma? <ɐ ɥǝʇ-1 ɓuᴉɹɐɥ="ɯɐu-1" ɥǝ="ɐ">\</ɐ>
+#### ¿Want to learn more about Plazma? <ɐ ɥǝʇ-1 ɓuᴉɹɐɥ="ɯɐu-1" ɥǝ="ɐ"></ɐ>
 
 {% content-ref url="patches-list.md" %}
 [patches-list.md](patches-list.md)
