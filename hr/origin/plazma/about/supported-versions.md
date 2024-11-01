@@ -24,13 +24,15 @@ description: "Saznajte koje verzije Minecraft: Java Edition podržava Plazma."
 
 ![릴리스 대기중][wtr] ![개발중][idv] ![지원중][atv] ![기능 지원 중단][fse] ![지원 종료][eol]
 
-|                                      Verzija                                      | Stabilnost    i    podrška funkcionalnosti |                                              Status izgradnje                                             |
-| :-------------------------------------------------------------------------------: | :----------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
-|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |                 ![개발중][idv]                |                                               ![정보 없음][ukn]                                               |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |          ![매우 좋음][vgd]![100%][100]         |       [![빌드 상태](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)      |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |          ![매우 좋음][vgd]![100%][100]         | [![Status izgradnje](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |          ![매우 좋음][vgd]![100%][100]         | [![Status izgradnje](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |          ![매우 좋음][vgd]![100%][100]         |                                               ![정보 없음][ukn]                                               |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |          ![매우 좋음][vgd]![100%][100]         |                                               ![정보 없음][ukn]                                               |
+|                                      Verzija                                      |        Stabilnost    i    podrška funkcionalnosti        |                                              Status izgradnje                                             |
+| :-------------------------------------------------------------------------------: | :------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+|                   ![1.21.4](https://badge.plazmamc.org/0/1.21.4)                  |                        ![개발중][idv]                       |                                               ![빌드 상태][ukn]                                               |
+|                   ![1.21.3](https://badge.plazmamc.org/1/1.21.3)                  | ![개발중][idv]![70%](https://badge.plazmamc.org/percent/70) |       [![빌드 상태](https://build.plazmamc.org/1.21.3)](https://build.plazmamc.org/1.21.3?redirect=true)      |
+|                   ![1.21.1](https://badge.plazmamc.org/1/1.21.1)                  | ![개발중][idv]![60%](https://badge.plazmamc.org/percent/60) |       [![빌드 상태](https://build.plazmamc.org/1.21.1)](https://build.plazmamc.org/1.21.1?redirect=true)      |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |                 ![매우 좋음][vgd]![100%][100]                |       [![빌드 상태](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true)      |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                 ![매우 좋음][vgd]![100%][100]                | [![Status izgradnje](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                 ![매우 좋음][vgd]![100%][100]                | [![Status izgradnje](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |                 ![매우 좋음][vgd]![100%][100]                |                                               ![빌드 상태][ukn]                                               |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |                 ![매우 좋음][vgd]![100%][100]                |                                               ![빌드 상태][ukn]                                               |
 
 ***
