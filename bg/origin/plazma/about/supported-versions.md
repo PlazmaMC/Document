@@ -24,13 +24,15 @@ description: "Научете се за версията на Minecraft: Java Edi
 
 ![릴리스 대기중][wtr] ![в процес на разработка][idv] ![поддръжка][atv] ![прекратена поддръжка на функции][fse] ![поддръжката е прекратена][eol]
 
-|                                       Версия                                      | Стабилност и поддръжка на функциите |                                             Състояние на сглобяване                                            |
-| :-------------------------------------------------------------------------------: | :---------------------------------: | :------------------------------------------------------------------------------------------------------------: |
-|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |             ![개발중][idv]             |                                             ![Няма информация][ukn]                                            |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |   ![Много добро][vgd]![100%][100]   | [![състояние на сградата](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |   ![Много добро][vgd]![100%][100]   | [![Състояние на сградата](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |   ![Много добро][vgd]![100%][100]   | [![Състояние на сградата](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |   ![Много добро][vgd]![100%][100]   |                                             ![Няма информация][ukn]                                            |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |   ![Много добро][vgd]![100%][100]   |                                             ![Няма информация][ukn]                                            |
+|                                       Версия                                      |            Стабилност и поддръжка на функциите           |                                             Състояние на сглобяване                                            |
+| :-------------------------------------------------------------------------------: | :------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
+|                   ![1.21.4](https://badge.plazmamc.org/0/1.21.4)                  |                        ![개발중][idv]                       |                                                  ![빌드 상태][ukn]                                                 |
+|                   ![1.21.3](https://badge.plazmamc.org/1/1.21.3)                  | ![개발중][idv]![70%](https://badge.plazmamc.org/percent/70) |         [![빌드 상태](https://build.plazmamc.org/1.21.3)](https://build.plazmamc.org/1.21.3?redirect=true)         |
+|                   ![1.21.1](https://badge.plazmamc.org/1/1.21.1)                  | ![개발중][idv]![60%](https://badge.plazmamc.org/percent/60) |         [![빌드 상태](https://build.plazmamc.org/1.21.1)](https://build.plazmamc.org/1.21.1?redirect=true)         |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |              ![Много добро][vgd]![100%][100]             | [![състояние на сградата](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |              ![Много добро][vgd]![100%][100]             | [![Състояние на сградата](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |              ![Много добро][vgd]![100%][100]             | [![Състояние на сградата](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |              ![Много добро][vgd]![100%][100]             |                                                  ![빌드 상태][ukn]                                                 |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |              ![Много добро][vgd]![100%][100]             |                                                  ![빌드 상태][ukn]                                                 |
 
 ***
