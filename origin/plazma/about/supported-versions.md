@@ -19,7 +19,7 @@ description: 'Plazma에서 지원하는 Minecraft: Java Edition 버전을 알아
 [eol]: https://badge.plazmamc.org/4/지원%20종료
 
 [ukn]: https://badge.plazmamc.org/0/정보%20없음
-[vgd]: https://badge.plazmamc.org/1/매우%20좋음
+[vgd]: https://badge.plazmamc.org/2/매우%20좋음
 [mid]: https://badge.plazmamc.org/6/보통
 
 [100]: https://badge.plazmamc.org/percent/100
@@ -28,7 +28,7 @@ description: 'Plazma에서 지원하는 Minecraft: Java Edition 버전을 알아
 
 |     버전                                                                           |    안정성    및    기능 지원    |     빌드 상태     |
 | :-------------------------------------------------------------------------------: | :-------------------------: | :------------: |
-|  ![1.21.4](https://badge.plazmamc.org/0/1.21.4)                                   | ![개발중][idv]                | ![빌드 상태][ukn] |
+|  ![1.21.4](https://badge.plazmamc.org/0/1.21.4)                                   | ![릴리스 대기중][wtr]          | ![빌드 상태][ukn] |
 |  ![1.21.3](https://badge.plazmamc.org/1/1.21.3)                                   | ![개발중][idv]![70%](https://badge.plazmamc.org/percent/70) | [![빌드 상태](https://build.plazmamc.org/1.21.3)](https://build.plazmamc.org/1.21.3?redirect=true) |
 |  ![1.21.1](https://badge.plazmamc.org/1/1.21.1)                                   | ![개발중][idv]![60%](https://badge.plazmamc.org/percent/60) | [![빌드 상태](https://build.plazmamc.org/1.21.1)](https://build.plazmamc.org/1.21.1?redirect=true) |
 | [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) | ![매우 좋음][vgd]![100%][100] | [![빌드 상태](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
