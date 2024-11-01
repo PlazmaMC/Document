@@ -24,13 +24,15 @@ description: "Finn ut hvilken Minecraft: Java Edition-versjon som støttes av Pl
 
 ![Venter på utgivelse][wtr] ![Under utvikling][idv] ![Pågående støtte][atv] ![Funksjonalitet støtte stoppet][fse] ![Støtte avsluttet][eol]
 
-|                                      Versjon                                      | Stabilitet    og    funksjonalitetsstøtte |                                              Byggstatus                                              |
-| :-------------------------------------------------------------------------------: | :---------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-|                    ![1.21.1](https://badge.plazmamc.org/0/1.21)                   |                ![개발중][idv]                |                                       ![ingen informasjon][ukn]                                      |
-| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |       ![meget god][vgd]![100%][100]       | [![Byggestatus](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
-| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |       ![meget god][vgd]![100%][100]       | [![byggestatus](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
-| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |       ![meget god][vgd]![100%][100]       | [![byggestatus](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
-| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |       ![meget god][vgd]![100%][100]       |                                       ![ingen informasjon][ukn]                                      |
-| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |       ![meget god][vgd]![100%][100]       |                                       ![ingen informasjon][ukn]                                      |
+|                                      Versjon                                      |         Stabilitet    og    funksjonalitetsstøtte        |                                              Byggstatus                                              |
+| :-------------------------------------------------------------------------------: | :------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
+|                   ![1.21.4](https://badge.plazmamc.org/0/1.21.4)                  |                        ![개발중][idv]                       |                                             ![빌드 상태][ukn]                                            |
+|                   ![1.21.3](https://badge.plazmamc.org/1/1.21.3)                  | ![개발중][idv]![70%](https://badge.plazmamc.org/percent/70) |    [![빌드 상태](https://build.plazmamc.org/1.21.3)](https://build.plazmamc.org/1.21.3?redirect=true)    |
+|                   ![1.21.1](https://badge.plazmamc.org/1/1.21.1)                  | ![개발중][idv]![60%](https://badge.plazmamc.org/percent/60) |    [![빌드 상태](https://build.plazmamc.org/1.21.1)](https://build.plazmamc.org/1.21.1?redirect=true)    |
+| [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |               ![meget god][vgd]![100%][100]              | [![Byggestatus](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
+| [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |               ![meget god][vgd]![100%][100]              | [![byggestatus](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
+| [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |               ![meget god][vgd]![100%][100]              | [![byggestatus](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
+| [![1.20.1](https://badge.plazmamc.org/4/1.20.1)](https://git.plazmamc.org/1.20.1) |               ![meget god][vgd]![100%][100]              |                                             ![빌드 상태][ukn]                                            |
+| [![1.19.4](https://badge.plazmamc.org/4/1.19.4)](https://git.plazmamc.org/1.19.4) |               ![meget god][vgd]![100%][100]              |                                             ![빌드 상태][ukn]                                            |
 
 ***
