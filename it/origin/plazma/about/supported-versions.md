@@ -18,7 +18,7 @@ description: "Scopri le versioni supportate da Plazma per Minecraft: Java Editio
 [fse]: https://badge.plazmamc.org/6/Supporto%20funzionalità%20interrotto
 [eol]: https://badge.plazmamc.org/4/Supporto%20terminato
 [ukn]: https://badge.plazmamc.org/0/Nessuna%20informazione
-[vgd]: https://badge.plazmamc.org/1/Ottimo
+[vgd]: https://badge.plazmamc.org/2/매우%20좋음
 [mid]: https://badge.plazmamc.org/6/Standard
 [100]: https://badge.plazmamc.org/percent/100
 
@@ -26,9 +26,9 @@ description: "Scopri le versioni supportate da Plazma per Minecraft: Java Editio
 
 |                                      Versione                                     |           Stabilità    e    supporto funzionale          |                                           Stato della build                                          |
 | :-------------------------------------------------------------------------------: | :------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-|                   ![1.21.4](https://badge.plazmamc.org/0/1.21.4)                  |                        ![개발중][idv]                       |                                             ![빌드 상태][ukn]                                            |
+|                   ![1.21.4](https://badge.plazmamc.org/0/1.21.4)                  |                      ![릴리스 대기중][wtr]                     |                                             ![빌드 상태][ukn]                                            |
 |                   ![1.21.3](https://badge.plazmamc.org/1/1.21.3)                  | ![개발중][idv]![70%](https://badge.plazmamc.org/percent/70) |    [![빌드 상태](https://build.plazmamc.org/1.21.3)](https://build.plazmamc.org/1.21.3?redirect=true)    |
-|                   ![1.21.1](https://badge.plazmamc.org/1/1.21.1)                  | ![개발중][idv]![60%](https://badge.plazmamc.org/percent/60) |    [![빌드 상태](https://build.plazmamc.org/1.21.1)](https://build.plazmamc.org/1.21.1?redirect=true)    |
+|                   ![1.21.1](https://badge.plazmamc.org/6/1.21.1)                  | ![개발중][idv]![60%](https://badge.plazmamc.org/percent/60) |    [![빌드 상태](https://build.plazmamc.org/1.21.1)](https://build.plazmamc.org/1.21.1?redirect=true)    |
 | [![1.20.6](https://badge.plazmamc.org/2/1.20.6)](https://git.plazmamc.org/1.20.6) |                ![Ottimo][vgd]![100%][100]                | [![Stato build](https://build.plazmamc.org/1.20.6)](https://build.plazmamc.org/1.20.6?redirect=true) |
 | [![1.20.4](https://badge.plazmamc.org/6/1.20.4)](https://git.plazmamc.org/1.20.4) |                ![Ottimo][vgd]![100%][100]                | [![Stato build](https://build.plazmamc.org/1.20.4)](https://build.plazmamc.org/1.20.4?redirect=true) |
 | [![1.20.2](https://badge.plazmamc.org/4/1.20.2)](https://git.plazmamc.org/1.20.2) |                ![Ottimo][vgd]![100%][100]                | [![Stato build](https://build.plazmamc.org/1.20.2)](https://build.plazmamc.org/1.20.2?redirect=true) |
