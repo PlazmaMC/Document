@@ -15,18 +15,16 @@ De startparameters en systeemeigenschappen zijn waarden die worden toegevoegd aa
 Systeemeigenschappen worden voorafgaand aan de initialisatie van Plazma verwerkt in de JVM vóór `-jar`.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**Het wijzigen van systeemeigenschappen kan de werking van Plazma en JVM veranderen en kan een grote invloed hebben op het spel!**
-
-Als je niet zeker weet welke rol elke systeemeigenschap speelt, **gebruik het dan absoluut niet!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Gebruik <a href="#id-1.1" id="id-1.1"></a>
 
 Systeemeigenschappen worden ingevoerd als Java-opdrachtargumenten tussen `java` en `-jar`.
 
-Bijvoorbeeld, als je de systeemeigenschap `Plazma.dummyProperty` wilt toepassen, wordt de volgende eigenschap ingesteld op `37` bij invoer, waardoor Plazma wordt geïnitialiseerd.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -37,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 Als er geen waarden voor eigenschappen worden ingevoerd, wordt de waarde standaard ingesteld op [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**De Paperweight-serie serverplatforms gebruikt puntjes in de eigenschapsnamen om eigenschappen voor elk platform te onderscheiden.**
-
-In sommige terminals zoals Windows Powershell kan het zijn dat deze argumenten niet worden geaccepteerd, dus moet je aan beide kanten van de argumenten `"` [toevoegen](#user-content-fn-4)[^4].
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Alle systeemeigenschappen <a href="#id-1.2" id="id-1.2"></a>
@@ -82,11 +78,9 @@ Schakelt het Watchdog-waarschuwingssysteem van Spigot uit.
 Schakelt de bevestigingsberichten voor de `/reload`-opdracht uit.
 
 {% hint style="danger" %}
-
-**Het gebruik van het `/reload` commando is zeer instabiel, dus alle problemen die zich voordoen na het gebruik van `/reload` zijn de verantwoordelijkheid van de gebruiker.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Als u een plug-inontwikkelaar bent en uw plug-ins moet bijwerken, gebruik dan hotswapping in plaats van `/reload`.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -131,7 +125,7 @@ Logt alle ongeldige hoofdblokken in de wereld samen met hun locatie.
 - **Type**: `Boolean`
 - **Standaardwaarde**: `False`
 
-Schakelt de limiet van 128 kanalen voor plug-ins die van toepassing zijn op elke speler [uit](#user-content-fn-5)[^5].
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -151,14 +145,14 @@ Schakelt Netty flush consolidation uit.
 
 #### `Paper.excessiveTELimit`
 
-- **Type**: `Integer`
+- **형태**: `Integer`
 - **Standaardwaarde**: `750`
 
 Verdeelt entiteiten in meerdere pakketten als er meer zijn dan de ingestelde limiet.
 
 #### `Paper.filterThreshold`
 
-- **Type**: `Integer`
+- **형태**: `Integer`
 - **Standaardwaarde**: `8192`
 
 Stelt de maximale grootte van pakketten in die de server tegelijk kan ontvangen.
@@ -171,32 +165,30 @@ Stelt de maximale grootte van pakketten in die de server tegelijk kan ontvangen.
 Schakelt Java-versiecontrole uit.
 
 {% hint style="danger" %}
-
-**Op deze manier kan JVM proberen toegang te krijgen tot niet-bestaande code!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 Dit kan leiden tot permanente schade aan de wereld en andere bestanden, en kan de werking van het spel volledig verstoren.
 
 Alle problemen die voortvloeien uit het gebruik hiervan zijn de verantwoordelijkheid van de gebruiker en Plamza biedt geen ondersteuning hiervoor.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Type**: `Integer`
+- **형태**: `Integer`
 - **Standaardwaarde**: `64`
 
-Stelt de beperking in voor de naam van de plug-in [kanaal](#user-content-fn-6)[^6].
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Type**: `Integer`
+- **형태**: `Integer`
 - **Standaardwaarde**: `80`
 
 Stelt de maximale lengte in van tekst op een regel van een bord.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Type**: `Integer`
+- **형태**: `Integer`
 - **Standaardwaarde**: `(wereldversie) + 1`
 
 Stelt de versie in van de wereldupdate-informatie die vooraf moet worden geïnitialiseerd.
@@ -212,12 +204,12 @@ Activeert het verwerken van opmerkingen in YAML-bestanden standaard.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Type**: `Integer`
+- **형태**: `Integer`
 - **Standaardwaarde**: `30`
 
 Als er gedurende de opgegeven tijd (in seconden) geen gegevens van de speler worden ontvangen, wordt de speler verwijderd.
 
-In de meeste gevallen blijft het [spel](#user-content-fn-7)[^7] voortdurend [hartslag signalen](#user-content-fn-8)[^8] naar de server sturen. Als het spel niet reageert, wordt het beschouwd als een crash en zal het de speler niet langer verwerken en zal de speler worden verbannen.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -295,7 +287,7 @@ Gebruik de standaardconfiguratie van Paper.
 - **Type**: `Boolean`
 - **Standaardwaarde**: `false`
 
-Onderdrukt waarschuwingen die worden weergegeven bij het initialiseren van Plazma [uit](#user-content-fn-11)[^11].
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -311,19 +303,15 @@ Schakel de Plazma branding uit en gebruik de standaard server favicon van Vanill
 - **Conflict**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**Deze eigenschap is nog in ontwikkeling.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**Deze eigenschap draait alle gepatchte kwetsbaarheden terug!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 Dit kan aanzienlijke invloed hebben op de veiligheid en prestaties van de server.
 
 Alle problemen die ontstaan door het gebruik van deze eigenschap zijn de verantwoordelijkheid van de serverbeheerder.
-
 {% endhint %}
 
 Voorzie de initiële configuratie van standaardwaarden verstrekt door Mojang.
@@ -339,14 +327,12 @@ Kwetsbaarheidspatches kunnen opnieuw worden geactiveerd in Paper-configuratie of
 - **Conflict**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**Deze eigenschap is nog in ontwikkeling.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 Configureer de initiële configuratie om dichter bij Vanilla te zijn.
 
-Dit wordt standaard toegepast op een niveau dat geen significante invloed heeft op de serverprestaties en veiligheid. Als de eigenschap `Plazma.disableConfigOptimization` wordt gebruikt, wordt de configuratie naar de Vanilla standaardwaarden geconfigureerd.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Gebruikte eigenschap <a href="#id-1.3" id="id-1.3"></a> is stopgezet
 
@@ -386,21 +372,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Alias**: `b`
 - **Standaardwaarde**: `bukkit.yml`
 
-Stelt de naam en locatie van het [Bukkit configuratiebestand](../reference/configurations/bukkit.md) in.
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Alias**: `c`
 - **Standaardwaarde**: `commands.yml`
 
-Stelt de naam en locatie van het [Bukkit commando configuratiebestand](../reference/configurations/bukkit.md) in.
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Alias**: `c`
 - **Standaardwaarde**: `server.properties`
 
-Stelt de naam en locatie van het [servereigenschappen](../reference/configurations/property.md) bestand in.
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -412,7 +398,7 @@ Verwijdert overgebleven cachebestanden na een wereldupgrade.
 
 #### `forceUpgrade`
 
-Forceert een [upgrade](#user-content-fn-12)[^12] van de wereld, ongeacht de versie.
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -433,7 +419,7 @@ Activeert JFR-profilering.
 - **Alias**: `s`, `size`
 - **Standaardwaarde**: `(servereigenschap)`
 
-Stelt het maximale aantal [spelers](#user-content-fn-14)[^14] in dat is toegestaan.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -450,7 +436,7 @@ Schakelt JLine uit en gebruikt de standaardconsole.
 
 Kiest of spelers moeten worden geverifieerd via de Mojang-verificatieserver.
 
-**Als u geen Velocity of andere proxy gebruikt, kunt u worden gestraft voor het schenden van de [EULA](../getting-started/README.md#id-5).**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -458,9 +444,7 @@ Kiest of spelers moeten worden geverifieerd via de Mojang-verificatieserver.
 - **Standaardwaarde**: `paper.yml`
 
 {% hint style="warning" %}
-
-**Dit argument is niet meer in gebruik na versie 1.19.4**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 Stelt de locatie in van het stopgezette PaperSpigot configuratiebestand.
@@ -472,13 +456,13 @@ Dit wordt gebruikt om oude configuratie naar een nieuw bestand te migreren en wo
 - **Alias**: `paper-dir`
 - **Standaardwaarde**: `config`
 
-Stelt de naam en locatie in van de map waarin [Paper configuratiebestanden](../reference/configurations/paper/README.md) zich bevinden.
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **Alias**: `plazma-dir`
 
-Stelt de naam en locatie in van de map waarin [Plazma configuratiebestanden](../reference/configurations/plazma/README.md) zich bevinden.
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -492,14 +476,14 @@ Stelt de locatie van de plug-inmap in.
 - **Alias**: `pufferfish`
 - **Standaardwaarde**: `pufferfish.yml`
 
-Stelt de naam en locatie in van het [Pufferfish configuratiebestand](../reference/configurations/pufferfish.md).
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **Alias**: `purpur`
 - **Standaardwaarde**: `purpur.yml`
 
-Stelt de naam en locatie in van het [Purpur configuratiebestand](../reference/configurations/purpur/README.md).
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -510,7 +494,7 @@ Start de server in de veilige modus, in een volledig standaardstatus.
 - **Alias**: `h`, `host`
 - **Standaardwaarde**: `(servereigenschap)`
 
-Stelt de hostnaam van de server of het [Internet Protocol](#user-content-fn-13)[^13] adres in.
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -530,7 +514,7 @@ Stelt de naam van de server in.
 - **Alias**: `S`
 - **Standaardwaarde**: `spigot.yml`
 
-Stelt de naam en locatie in van het [Spigot configuratiebestand](../reference/configurations/spigot.md).
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -578,6 +562,6 @@ Stelt de naam van het wereldbestand in.
 
 [^12]: In het spel werkt 'wereldoptimalisatie' op dezelfde manier.
 
-[^13]: Internet Protocol, IP.
+[^13]: Beheerders van niveau 2 en hoger zijn uitgesloten.
 
-[^14]: Beheerders van niveau 2 en hoger zijn uitgesloten.
+[^14]: Internet Protocol, IP.
