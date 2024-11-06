@@ -2,14 +2,13 @@
 description: 構成はPlazmaをカスタマイズする最も基本的な方法です。
 ---
 
-# 📋 構成
+# 🧾 구성
 
 ***
 
 ## 🪨 属性 <a href="#id-1" id="id-1"></a>
 
-> 属性はMinecraftで提供される基本的な構成ファイルです。
-> 属性を使用すると、ゲームの基本的なメカニズムを変更できます。
+> 属性はMinecraftで提供される基本的な構成ファイルです。 属性を使用すると、ゲームの基本的なメカニズムを変更できます。
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: 構成はPlazmaをカスタマイズする最も基本的な方法�
 
 ## 🪣 Bukkit 構成 <a href="#id-2" id="id-2"></a>
 
-> Bukkit構成はPlazmaで提供される基本的な構成ファイルです。
-> Bukkit構成を使用すると、Minecraftサーバーの基本的なメカニズムを変更できます。
+> Bukkit構成はPlazmaで提供される基本的な構成ファイルです。 Bukkit構成を使用すると、Minecraftサーバーの基本的なメカニズムを変更できます。
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: 構成はPlazmaをカスタマイズする最も基本的な方法�
 
 ## 🛩️ Paper 構成 <a href="#id-4" id="id-4"></a>
 
-> Paper構成はPlazmaの全体的なメカニズムを変更し、[さまざまな最適化と脆弱性の解決](#user-content-fn-1)[^1]を有効にします。
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
