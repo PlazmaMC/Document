@@ -2,4 +2,4 @@
 description: Find ud af, hvad hver node i purpur.yml betyder.
 ---
 
-# 🦑 Purpur (global sammensætning)
+# 🌏 전역 구성
