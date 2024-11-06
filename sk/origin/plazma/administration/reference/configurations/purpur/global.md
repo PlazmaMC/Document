@@ -2,4 +2,4 @@
 description: Zistite, čo znamená každý uzol v purpur.yml.
 ---
 
-# 🦑 Purpurová (globálna štruktúra)
+# 🌏 전역 구성
