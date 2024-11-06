@@ -7,27 +7,27 @@ description: Lær hvordan du opretter en server med Plazma.
 For at bruge Plazma på en stabil måde, skal dit system opfylde følgende krav:
 
 |            | Minimum | Anbefalet |
-| :--------: | :------ | :-------- |
+| :--------: | ------- | --------- |
 | Arkitektur | x64     | -         |
 |     RAM    | 8GB     | 16GB      |
 | Lagerplads | 1GB     | 8GB       |
-|     JRE    | 17      | 21        |
+|     JDK    | 17      | 21        |
 
 For nem redigering af konfigurationsfiler, er det også en god ide at installere en editor som [Visual Studio Code](https://code.visualstudio.com/download).
 
 ***
 
-## 1. JRE Installation
+## 1. JDK 설치
 
-Som navnet antyder, kræver Minecraft: **"Java"** Edition JRE[^1] for at køre, da det er udviklet i Java.
+이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JDK[^1]를 필요로 합니다.
 
-Da Plazma er baseret på Mojang Studios' officielle serverplatform[^2], skal du også installere JRE for at bruge Plazma.
+Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JDK를 설치해야 합니다.
 
-### 1.1 Kontrollering af JRE
+### 1.1 JDK 설치 유무 확인
 
-For at kontrollere om JRE er installeret på dit system, skal du indtaste [`cmd /k java --version`](#user-content-fn-4)[^4] i en **Kør**-dialog og udføre kommandoen.
+JDK가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
 
-Når det vises som følgende, spring til [trin 2](#id-2).
+다음과 같이 출력되면 [2 단계](./#id-2)로 건너뜁니다.
 
 {% code title="Korrekt output" lineNumbers="true" %}
 
@@ -39,9 +39,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-Hvis det ikke vises som ovenfor, eller hvis det vises som nedenfor, betyder det, at JRE enten ikke er til stede eller er for gammel, så du skal udføre [trin 1.2](#id-1.2).
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JDK가 없거나 너무 오래되었으므로, [1.2 단계](./#id-1.2)를 수행해야 합니다.
 
-{% code title="JRE er ikke installeret" lineNumbers="true" %}
+{% code title="JDK가 설치되어 있지 않음" lineNumbers="true" %}
 
 ```log
 'java' er ikke et internt eller eksternt kommando, et kørbart program eller en
@@ -50,7 +50,7 @@ batchfil.
 
 {% endcode %}
 
-{% code title="JRE er for gammel" lineNumbers="true" %}
+{% code title="JDK가 너무 오래됨" lineNumbers="true" %}
 
 ```log
 Ukendt mulighed: --version
@@ -60,32 +60,27 @@ Fejl: Der opstod en fatal undtagelse. Programmet afsluttes.
 
 {% endcode %}
 
-### 1.2 JRE Installation
+### 1.2 JDK 설치
 
-I denne vejledning bruger vi Azul Zulu som en af typerne af JRE.
+본 설명서에서는 JDK의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Efter installationen, gentag [trin 1.1](#id-1.1) for at sikre, at installationen er korrekt fuldført.
+설치를 완료한 후, [1.1 단계](./#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
-
 {% tab title="Windows" %}
 
 1. Først skal du downloade **JDK 21** i `.msi`-format fra [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Kør den downloadede installationsguide og klik på `Næste`.
 3. Aktivér `Set JAVA_HOME variable` fra menuen i midten af vinduet og klik derefter på `Næste`.
 4. Afslut installationen ved at klikke på `Installer` for at installere JRE.
-
-{% endtab %}
+   {% endtab %}
 
 {% tab title="macOS" %}
-
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) download **JDK 21** som en `.dmg` fil fra installationsguiden og kør den for at installere JRE.
-
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
-
-Først skal du køre følgende kommando i terminalen for at tilføje Azul Zulu repository til APT.
+먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
 
 ```bash
 sudo apt install gnupg ca-certificates curl --no-install-recommends --no-install-suggests -y
@@ -104,8 +99,7 @@ sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-
 {% endtab %}
 
 {% tab title="Fedora/RHEL" %}
-
-Du kan installere JRE ved at indtaste følgende kommando.
+다음 명령어를 입력하여 JDK를 설치할 수 있습니다.
 
 ```bash
 sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
@@ -123,12 +117,10 @@ sudo dnf install -y zulu21-ca-jre-headless
 Plazma tilbyder forskellige former for eksekverbare filer.
 
 {% hint style="warning" %}
+**대부분의 경우에는 `Mojang-mapped Paperclip`을 사용합니다.**
 
-**I de fleste tilfælde bruges `Reobf Paperclip`.**
-
-Følgende information er for udviklere eller dem, der er nysgerrige på forskellige former.\
-Hvis du er en almindelig bruger, kan du springe til [trin 3](#id-3) uden problemer.
-
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](./#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 {% endhint %}
 
 <details>
@@ -140,10 +132,10 @@ Navnet på eksekverbar fil er `plazma-(version manager)-1.20.4-R0.1-SNAPSHOT-(ma
 - **Mapping Form**\
   Mapping er en slags kortlægning mellem Minecrafts faktiske kode og obfuskeringen af koden.
   - **Reobf**\
-    Reobfuscated (genfortyndet), også kendt som Spigot-mapping, bruges i de fleste NMS-plugins.\
-    Forventes at blive udfaset fra version 1.20.5 og fremefter.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.6부터 지원이 종료되었습니다.
   - **Mojmap**\
-    Mojang-mapped, er vanilla Minecraft-mapping.
+    Mojang-mapped, er vanilla Minecraft-mapping. 1.20.6 이후의 모던 플러그인에서 사용합니다.
 - **Version Manager**\
   Version Manager er en slags launcher, der er nødvendig for at køre serveren og patche serverfilerne.
   - **Paperclip**\
@@ -159,7 +151,8 @@ Navnet på eksekverbar fil er `plazma-(version manager)-1.20.4-R0.1-SNAPSHOT-(ma
 
 For at starte Plazma nemt og få serveren til automatisk at genstarte, skal du oprette et [start script](#user-content-fn-6)[^6].
 
-Du kan oprette en startskript via [Flags.sh](https://flags.sh) for at [generere](#user-content-fn-7)[^7]. Når du angiver det hukommelse, du vil bruge i Plazma, vil kommandoen automatisk blive optimeret.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 생성[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Du kan downloade startscriptet ved at klikke på download-knappen nederst til venstre.\
 **Sørg for at startscriptet er kompatibelt med dit operativsystem.**
@@ -171,14 +164,12 @@ Du kan downloade startscriptet ved at klikke på download-knappen nederst til ve
 Flyt det downloadede startscript og Plazma til en ny mappe.
 
 {% hint style="warning" %}
+**폴더 명칭은 반드시 띄어 쓰기와 특수 문자가 없고, 영어로 설정되어야 합니다.**
 
-**Mappenavnet skal være uden mellemrum og skal være på engelsk.**
-
-Ellers kan Plazma eller JRE muligvis ikke fungere korrekt.
-
+그렇지 않으면 Plazma 또는 JDK가 올바르게 작동하지 않을 수 있습니다.
 {% endhint %}
 
-Kør startscriptet nu. For Windows, <mark style="background-color:orange;">i firewall tilladelsesvinduet skal du vælge **Tillad**</mark>.
+Kør startscriptet nu. Windows의 경우, <mark style="background-color:orange;">방화벽 허용 선택 창에서, 반드시</mark> <mark style="background-color:orange;"></mark><mark style="background-color:orange;">**허용**</mark><mark style="background-color:orange;">을 선택</mark>해야 합니다.
 
 ***
 
@@ -189,9 +180,7 @@ Når du har kørt startscriptet en gang, vil der blive oprettet en `eula.txt`-fi
 EULA[^9] er en licensaftale, som du skal acceptere for at bruge tjenester fra [Mojang Studios](#user-content-fn-10)[^10].
 
 {% hint style="warning" %}
-
-Hvis du ikke accepterer det, kan du ikke starte serveren, og hvis du overtræder EULA, kan du blive pålagt sanktioner, herunder suspension af kontoen.
-
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 제재[^11]를 받을 수 있습니다.
 {% endhint %}
 
 For at acceptere EULA, skal du ændre `eula=false` til `eula=true` i `eula.txt`-filen og gemme ændringerne.
@@ -202,11 +191,10 @@ For at acceptere EULA, skal du ændre `eula=false` til `eula=true` i `eula.txt`-
 
 Moderne operativsystemer blokerer som standard ekstern adgang fra firewall og router for at forhindre farlige tilgange udefra.
 
-For Windows-brugere, da firewallen er tilladt i [trin 3](#id-3), behøver du kun at foretage portviderestilling.
+Windows의 경우, 방화벽은 [3 단계](./#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
-
-**Denne vejledning antager, at du bruger Windows-operativsystemet og en router, der kan bruge UPnP.**
+**해당 설명서는 Windows 운영 체제 및** [**UPnP**](#user-content-fn-12)[^12]**를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Hvis din router ikke understøtter UPnP, skal du søge information om hvordan du gør det, da panelet varierer fra router til router.
 
@@ -214,9 +202,7 @@ Alternativt kan du bruge [Ngrok](https://ngrok.com/) til at oprette en midlertid
 {% endhint %}
 
 {% hint style="warning" %}
-
-**For Linux eller macOS og andre (næsten) UNIX-baserede operativsystemer, da opsætningsmetoden for firewalltjenester varierer, skal du søge efter oplysninger selv.**
-
+**Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.**
 {% endhint %}
 
 ### 6.1 Kontrol af Nødvendighed for Portvideresendelse
@@ -232,18 +218,14 @@ Hvis outputtet viser `True`, behøver du ikke gøre mere, men hvis det viser `Fa
 ### 6.2 Forbindelse til Serveren
 
 {% tabs %}
-
-{% tab title="Ekstern adgang" %}
-
-Hvis port forwarding ikke er nødvendigt, eller hvis du allerede har konfigureret port forwarding korrekt, kan du nu oprette forbindelse til serveren.
+{% tab title="외부에서 접속" %}
+포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
 
 Du kan finde den adresse, der bruges til at oprette forbindelse til serveren, [her](https://ip.pe.kr/).
-
 {% endtab %}
 
-{% tab title="Prøv at bruge UPnP til port forwarding" %}
-
-I servermappen, aktiver `network.upnp-port-forwarding` til `true` i `purpur.yml`.
+{% tab title="UPnP로 포트포워딩 시도" %}
+서버 폴더의 `purpur.yml`에서, `network.upnp-port-forwarding`을 `true`로 활성화합니다.
 
 Derefter, når serveren genstartes, vil Plazma automatisk forsøge at videresende porten.
 
@@ -257,12 +239,10 @@ Nedenfor er resultatet af UPnP ifølge meddelelsen, som vises i konsollen som '[
 | 'Tjenesten er utilgængelig'                              | Routeren understøtter ikke UPnP.                       |
 
 Når serveren lukkes ned, lukker Plazma automatisk porten.
-
 {% endtab %}
 
-{% tab title="Opret midlertidig adresse med Ngrok" %}
-
-Metoden med Ngrok er nyttig til midlertidige tests, samarbejde eller spil med venner.
+{% tab title="Ngrok으로 임시 주소 생성" %}
+Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들과 함께 플레이하기에 유용합니다.
 
 1. Download ZIP-filen til 'Windows (64-bit)' fra [Ngrok's hjemmeside](https://ngrok.com/download).
 2. Placer den downloadede Ngrok i servermappen.
@@ -271,12 +251,10 @@ Metoden med Ngrok er nyttig til midlertidige tests, samarbejde eller spil med ve
 5. Tilføj 'start /b ngrok tcp --region jp 25565' øverst i kørselsskriptet og 'taskkill /f /t /im ngrok.exe' nederst.
 6. Fra 'Forwarding tcp://0.tcp.jp.ngrok.io:12345 -> localhost:25565' i konsollen vil '0.tcp.jp.ngrok.io:12345' være serverens adresse.
 7. Nu kan du oprette forbindelse eksternt via denne adresse.
+   {% endtab %}
 
-{% endtab %}
-
-{% tab title="Forbindelse fra lokalt" %}
-
-Hvis du vil oprette forbindelse til serveren lokalt, kan du bruge `cmd /k ipconfig` i kommandoprompten for at finde din `IPv4-adresse` og oprette forbindelse til den.
+{% tab title="로컬에서 접속" %}
+로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 `cmd /k ipconfig`를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
 
 For eksempel, hvis følgende vises efter at kommandoen er kørt,
 
@@ -295,7 +273,6 @@ Ethernet-adapter Ethernet:
 Kan du forsøge at oprette forbindelse til serveren lokalt ved at bruge '192.168.3.7', der vises som IPv4-adressen her.
 
 Hvis serveren og spillet kører på samme PC, kan du oprette forbindelse ved at bruge 'localhost'.
-
 {% endtab %}
 {% endtabs %}
 
@@ -311,7 +288,7 @@ Lær, hvordan du tilpasser serveren ved at følge nedenstående vejledning.
 
 ***
 
-[^1]: Java Runtime Environment, Java Runtime Environment.
+[^1]: Java Development Kit (Java 개발 환경), Java Runtime Environment (JRE, Java 실행 환경) 을 포함하고 있으며, Plazma 에서는 JDK 에서만 제공되는 일부 기능을 이용하고 있으므로 JDK 설치를 필요로 합니다.
 
 [^2]: Plazma's baseret på Paper, som er baseret på Spigot, der igen er baseret på den officielle serverplatform.
 
