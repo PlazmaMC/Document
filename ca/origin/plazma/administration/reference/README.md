@@ -2,18 +2,16 @@
 description: Descobreix com personalitzar de forma bàsica a Plazma.
 ---
 
-# ⏬ Referència
+# 📜 리퍼런스
 
 A Plazma ofereix diverses formes de personalització.
 
 D'aquestes, quatre formes poden ser utilitzades sense cap tasca addicional.
 
 {% hint style="info" %}
-
-**No podeu resoldre el problema a través del manual?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Servidor Discord oficial](https://discord.gg/MmfC52K8A8) o [Debats de GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) per preguntar a la comunitat!
-
 {% endhint %}
 
 ***
