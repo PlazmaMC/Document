@@ -2,14 +2,13 @@
 description: 방법입니다 기초적인 가장 하는 사용자화 Plazma를 구성은.
 ---
 
-# 📋 ㄴᴉɯsᴉlǝ
+# 🧾 구성
 
 ***
 
 ## 🪨 ǝɹᴉɐɹ <a href="#id-1" id="id-1"></a>
 
-> ǝɹᴉɐɹǝs ǝuɹoɯɐuᴉ ɐᴉʇǝɹsᴉuɐɹ sᴉ ǝɹɐʇsᴉuǝɹ ɹɐᴉlɐɯǝs
-> ǝɹᴉɐɹǝs ǝsɹǝɥɔɐuɹ ǝɹɐʇsᴉuǝɹ ǝɹǝɹɐɯᴉu ɯǝs ɐᴉlɐɯǝs
+> ǝɹᴉɐɹǝs ǝuɹoɯɐuᴉ ɐᴉʇǝɹsᴉuɐɹ sᴉ ǝɹɐʇsᴉuǝɹ ɹɐᴉlɐɯǝs ǝɹᴉɐɹǝs ǝsɹǝɥɔɐuɹ ǝɹɐʇsᴉuǝɹ ǝɹǝɹɐɯᴉu ɯǝs ɐᴉlɐɯǝs
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: 방법입니다 기초적인 가장 하는 사용자화 Plazma를 �
 
 ## 🪣 ƃuᴉʞǝ ǝɹᴉɐɹ <a href="#id-2" id="id-2"></a>
 
-> ƃuᴉʞǝ ǝɹᴉɐɹǝs ƃuɯᴉʞǝsᴉuɐɹ sᴉ ǝɹɐʇsᴉuǝɹ ɹɐᴉlɐɯǝs
-> ƃuᴉʞǝ ǝɹᴉɐɹǝs ƃuɯᴉʞǝsᴉuɐɹ ǝɹɐʇsᴉuǝɹ ǝɹǝɹɐɯᴉu ɯǝs ɐᴉlɐɯǝs
+> ƃuᴉʞǝ ǝɹᴉɐɹǝs ƃuɯᴉʞǝsᴉuɐɹ sᴉ ǝɹɐʇsᴉuǝɹ ɹɐᴉlɐɯǝs ƃuᴉʞǝ ǝɹᴉɐɹǝs ƃuɯᴉʞǝsᴉuɐɹ ǝɹɐʇsᴉuǝɹ ǝɹǝɹɐɯᴉu ɯǝs ɐᴉlɐɯǝs
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: 방법입니다 기초적인 가장 하는 사용자화 Plazma를 �
 
 ## 🛩️ ɹɐpuɹ ǝɹᴉɐɹ <a href="#id-4" id="id-4"></a>
 
-> ɹɐpuɹ ǝɹᴉɐɹǝs ƃuɯᴉʞǝsᴉuɐɹ ɐᴉlɐɯǝs, [ɐʞɯɐɹ ɔᴉɯǝɹɐɯɯɐ ɐuɐɹǝɥɔ](#user-content-fn-1)[^1]ǝɹ ɥɐlɐsᴉuɐ ɥɐl ɐɹǝlᴉsɐɯ ɥɐl ɯǝsᴉu ɐl sᴉ
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
