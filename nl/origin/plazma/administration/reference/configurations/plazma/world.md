@@ -2,4 +2,4 @@
 description: Ontdek wat elke knoop in plazma-world.yml betekent.
 ---
 
-# ✨ Plazma (samenstelling van werelden)
+# 🏳️ 세계별 구성
