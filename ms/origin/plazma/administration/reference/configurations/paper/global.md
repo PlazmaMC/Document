@@ -2,4 +2,4 @@
 description: Ketahui apa yang setiap nod dalam paper-global.yml bermaksud.
 ---
 
-# 🛩️ Kertas (Global Configuration)
+# 🌏 전역 구성
