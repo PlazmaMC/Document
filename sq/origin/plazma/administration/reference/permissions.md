@@ -14,18 +14,18 @@ Për të përdorur lejet në mënyrë efektive dhe për t'i modifikuar lehtë, d
 
 Në Minecraft, ka grupe themelore të lejeve të menaxhimit të disponueshme.
 
-Mund të caktoni lejet për [administratorë](#user-content-fn-1)[^1] dhe bllokuj komandash, dhe mund t'i modifikoni në [konfigurimet e serverit](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Lojtar**\
+1. **Lojtar**\
    Një grup i lejeve që jepet në përgjithësi për të gjithë lojtarët.
-1. **Arbitër**\
+2. **Arbitër**\
    Mund të injorosh mbrojtjen e lindjes.
-2. **Menaxheri i botës**\
+3. **Menaxheri i botës**\
    Mund të përdorë të gjitha komandat dhe blloqet e komandave që kanë të bëjnë me menaxhimin e botës.\
    Ky është grupi i bazë i lejeve që aplikohet në paketat e të dhënave dhe blloqet e komandave.
-3. **Administrator**\
+4. **Administrator**\
    Mund të përdorë të gjitha komandat që kanë të bëjnë me menaxhimin e lojtarëve.
-4. **Administratori i përgjithshëm**\
+5. **Administratori i përgjithshëm**\
    Mund të përdorë të gjitha komandat që kanë të bëjnë me menaxhimin e serverit.\
    Ky është grupi i bazë i lejeve që aplikohet në konzolën dhe administratorët.
 
@@ -50,9 +50,7 @@ Kur ulesh në një entitet, mund të përdorësh tastin e `lëvizjes` për të d
 Në `(Çelësi i Hapesiruar)` vendoset [ID-ja e Hapesiruar](#user-content-fn-2)[^2] e entitetit.
 
 {% hint style="info" %}
-
-**[Konfigurimet e botës Purpur](configurations/purpur/world.md) duhet të aktivizojnë `(Entiteti) > e udhëtueshme` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `lejo.speciale.(Çelësi i Hapesiruar)`
@@ -64,11 +62,9 @@ Lejon lojtarët të përdorin aftësitë speciale të entitetit kur janë duke u
 Nuk janë të gjitha aftësitë speciale të disponueshme për të gjitha entitetet. Për një listë të plotë të aftësive speciale të disponueshme, shihni më poshtë.
 
 {% hint style="info" %}
-
-**Keni ndonjë ide të mirë për një aftësi speciale?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Publikoni idetë tuaja në [Plazma Discord](https://plazmamc.org/discord) ose [Bisedat e GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Publikoni idetë tuaja në [Plazma Discord](https://plazmamc.org/discord) ose [B
 </details>
 
 {% hint style="info" %}
-
-**[Konfigurimet e botës Purpur](configurations/purpur/world.md) duhet të aktivizojnë `(Entiteti) > e udhëtueshme` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.kompas`
@@ -164,11 +158,9 @@ Nëse shtohet `.tjetër` pas emrit të lejes, lejon përdorimin nga lojtarët e 
 Lejon përdorimin e komandës [`/timings`](commands.md#timings).
 
 {% hint style="warning" %}
-
-**Kjo komandë është ndaluar për përdorim.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Për të mësuar më shumë për komandat e ngjashme, shihni [Spark](https://spark.lucko.me/docs/Command-Usage).
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,7 +181,7 @@ Nëse shtohet `.tjetër` pas emrit të lejes, lejon përdorimin nga lojtarët e 
 
 - \*\*Ofrohet nga: `Asnjë`
 
-Nëse është aktivizuar bllokim X-Ray, lojtarët me leje nuk do të përballen me zhbërjen e bllokave X-Ray.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Kjo do të sjellë përfitime në performancë për të dyja palët.
 
@@ -204,33 +196,27 @@ Kjo do të sjellë përfitime në performancë për të dyja palët.
 - \*\*Ofrohet nga: `Asnjë`
 
 {% hint style="warning" %}
-
-Kjo leje do të ndryshohet në 1.20.5 në `plazma.bypass.watchdog`.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - \*\*Ofrohet nga: `Asnjë`
 
-Lejon përdorimin e [kodit të ngjyrave](https://minecraft.wiki/w/Formatting_codes#Color_codes) në mocë.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Në [Konfigurimet e botës Purpur](configurations/purpur/world.md) duhet të aktivizohet `anvil > allow-colors` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - \*\*Ofrohet nga: `Asnjë`
 
-Lejon përdorimin e [kodit të stilizimit](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) në mocë.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Në [Konfigurimet e botës Purpur](configurations/purpur/world.md) duhet të aktivizohet `anvil > allow-colors` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -240,28 +226,24 @@ Lejon përdorimin e [kodit të stilizimit](https://minecraft.wiki/w/Formatting_c
 Lejon përdorimin e etiketave [MiniMessage](https://docs.advntr.dev/minimessage/format.html) në mocë.
 
 {% hint style="info" %}
-
-**Në [Konfigurimet e botës Purpur](configurations/purpur/world.md) duhet të aktivizohet `anvil > allow-minimessages` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - \*\*Ofrohet nga: `Asnjë`
 
-Lejon përdorimin e kodit të stilizimit [`&r`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) për të çaktivizuar `përkuljen e shkronjave` në mocë.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Në [Konfigurimet e botës Purpur](configurations/purpur/world.md) duhet të aktivizohet `anvil > allow-colors` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - \*\*Ofrohet nga: `Asnjë`
 
-Kur një lojtar nënshkruan një libër, aplikohen [kodet e stilizimit](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -284,9 +266,7 @@ Nëse nuk ka leje për këtë mënyrë loje, nuk do të funksionojë.
 Kur minon blloqet e spawnerit me armë me prekje të butë, ato do të bien poshtë si blloqe spawneri.
 
 {% hint style="info" %}
-
-**Në [Konfigurimet e botës Purpur](configurations/purpur/world.md) duhet të aktivizohet `gameplay-mechanics > silk-touch` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumërNëNjëri)`
@@ -298,9 +278,7 @@ Ndryshon madhësinë e kofshës së endër.
 Në `(NumërNëNjëri)` mund të jepni `një`, `dy`, `tre`, `katër`, `pesë`, `gjashtë`.
 
 {% hint style="info" %}
-
-**Në [Konfigurimet e botës Purpur](configurations/purpur/world.md) duhet të aktivizohet `ender_chest > six-rows` dhe `ender_chest > use-permissions-for-rows` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -310,9 +288,7 @@ Në `(NumërNëNjëri)` mund të jepni `një`, `dy`, `tre`, `katër`, `pesë`, `
 Lejon funksionimin e totemit të pafajshëm edhe kur është në inventar.
 
 {% hint style="info" %}
-
-**Në [Konfigurimet e botës Purpur](configurations/purpur/world.md) duhet të aktivizohet `totem-of-undying-works-in-inventory` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -328,9 +304,7 @@ Lejon lojtarin të injorojë kufirin e numrit të hyrës.
 Lejon lojtarin të riparojë sendin që mban duke `u shtrirë dhe duke ndikuar njëri-tjetrin`.
 
 {% hint style="info" %}
-
-**[Konfigurimet e botëve Purpur](configurations/purpur/world.md) duhet të aktivizohen `shift-right-click-repairs-mending-points` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -340,9 +314,7 @@ Lejon lojtarin të riparojë sendin që mban duke `u shtrirë dhe duke ndikuar n
 Lejon lojtarin të vendosë spawner-in.
 
 {% hint style="info" %}
-
-**Në [Konfigurimet e botës Purpur](configurations/purpur/world.md) duhet të aktivizohet `gameplay-mechanics > silk-touch` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -355,12 +327,10 @@ Lejon lojtarin të teleportohet menjëherë kur përdor portën e Netherit.
 
 - \*\*Ofrohet nga: `Asnjë`
 
-Lejohen përdorimi i [kodit të ngjyrave](https://minecraft.wiki/w/Formatting_codes#Color_codes) në tabelat e sinjaleve.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-\*\*Duhet të aktivizoni `sign > allow-colors` në \*\*[konfigurimet e botës Purpur](configurations/purpur/world.md) **për të vepruar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -370,21 +340,17 @@ Lejohen përdorimi i [kodit të ngjyrave](https://minecraft.wiki/w/Formatting_co
 Lejohet përdorimi i kodit të zbehjes `(&o)` në tabelat e sinjalizimit.
 
 {% hint style="info" %}
-
-\*\*Duhet të aktivizoni `sign > allow-colors` në \*\*[konfigurimet e botës Purpur](configurations/purpur/world.md) **për të vepruar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - \*\*Ofrohet nga: `Asnjë`
 
-Lejohet përdorimi i [kodit të stilizimit `(&o përjashtuar)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) në tabelat e sinjalizimit.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-\*\*Duhet të aktivizoni `sign > allow-colors` në \*\*[konfigurimet e botës Purpur](configurations/purpur/world.md) **për të vepruar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -394,9 +360,7 @@ Lejohet përdorimi i [kodit të stilizimit `(&o përjashtuar)`](https://minecraf
 Lejohet lojtari të parandalojë shpërthimin e TNT-së duke `bashkëvepruar` me thikën.
 
 {% hint style="info" %}
-
-**[Konfigurimet e botës Purpur](configurations/purpur/world.md) duhet të ketë `defuse-tnt-change` më shumë se `0.0` për të funksionuar.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Lejet e parashikuara
@@ -408,9 +372,7 @@ Lejohet lojtari të parandalojë shpërthimin e TNT-së duke `bashkëvepruar` me
 Lejohet lojtari të hyjë pa pasur instaluar modulin [`NoChatReports`](https://modrinth.com/mod/no-chat-reports).
 
 {% hint style="info" %}
-
-**Në [Konfigurimet e botës Plazma](configurations/plazma/world.md) duhet të aktivizohet `no-chat-reports > require-install` për të funksionuar.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
