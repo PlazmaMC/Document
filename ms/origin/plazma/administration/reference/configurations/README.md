@@ -2,14 +2,13 @@
 description: Konfigurasi merupakan cara asas untuk mengguna Plazma.
 ---
 
-# 📋 Konfigurasi
+# 🧾 구성
 
 ***
 
 ## 🪨 Atribut <a href="#id-1" id="id-1"></a>
 
-> Atribut adalah fail konfigurasi yang paling asas yang disediakan dalam Minecraft.
-> Dengan menggunakan atribut, anda boleh menukar mekanisme asas permainan.
+> Atribut adalah fail konfigurasi yang paling asas yang disediakan dalam Minecraft. Dengan menggunakan atribut, anda boleh menukar mekanisme asas permainan.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Konfigurasi merupakan cara asas untuk mengguna Plazma.
 
 ## 🪣 Konfigurasi Bukkit <a href="#id-2" id="id-2"></a>
 
-> Konfigurasi Bukkit adalah fail konfigurasi yang paling asas yang disediakan dalam Plazma.
-> Dengan menggunakan konfigurasi Bukkit, anda boleh menukar mekanisme asas pelayan Minecraft.
+> Konfigurasi Bukkit adalah fail konfigurasi yang paling asas yang disediakan dalam Plazma. Dengan menggunakan konfigurasi Bukkit, anda boleh menukar mekanisme asas pelayan Minecraft.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Konfigurasi merupakan cara asas untuk mengguna Plazma.
 
 ## 🛩️ Konfigurasi Kertas <a href="#id-4" id="id-4"></a>
 
-> Konfigurasi Kertas membolehkan anda mengubah mekanisme keseluruhan Plazma, mengaktifkan [pelbagai pengoptimuman dan penyelesaian kelemahan](#user-content-fn-1)[^1].
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
