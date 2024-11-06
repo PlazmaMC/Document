@@ -14,18 +14,18 @@ Per utilitzar i modificar els permisos de manera eficaç, cal utilitzar compleme
 
 A Minecraft es proporcionen grups de permisos de gestió bàsics.
 
-Es poden establir permisos per a **operadors**[^1] i blocs de comandes, i es poden modificar a les [proprietats del servidor](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Jugador**\
+1. **Jugador**\
    És el grup de permisos que es dóna normalment a tots els jugadors.
-1. **Àrbitre**\
+2. **Àrbitre**\
    Pot ignorar la protecció de spawn.
-2. **Administrador del món**\
+3. **Administrador del món**\
    Pot utilitzar totes les ordres i blocs de comandes relacionats amb la gestió del món.\
    És el grup de permisos per defecte aplicat als datapacks i blocs de comandes.
-3. **Administrador**\
+4. **Administrador**\
    Pot utilitzar totes les ordres relacionades amb la gestió dels jugadors.
-4. **Superadministrador**\
+5. **Superadministrador**\
    Pot utilitzar totes les ordres relacionades amb la gestió del servidor, inclosa la consola.\
    És el grup de permisos per defecte aplicat a la consola i als operadors.
 
@@ -50,9 +50,7 @@ En pujar a l'entitat, es pot controlar el seu moviment amb les tecles de **movim
 A la **clau amb espai de noms** s'hi introdueix la [ID amb espai de noms](#user-content-fn-2)[^2] de l'entitat.
 
 {% hint style="info" %}
-
-**En el [configuracions del món Purpur](configurations/purpur/world.md), només funciona si se activa `(Entity) > montable`.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Clau amb espai de noms)`
@@ -64,11 +62,9 @@ Permet al jugador utilitzar les habilitats especials de l'entitat en què està 
 No totes les entitats tenen habilitats especials disponibles. Consulteu les habilitats especials disponibles a continuació.
 
 {% hint style="info" %}
-
-**Teniu alguna idea per a una habilitat especial?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Si teniu una idea, feu-la saber al [Discord de Plazma](https://plazmamc.org/discord) o a les [Discussions de GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Si teniu una idea, feu-la saber al [Discord de Plazma](https://plazmamc.org/disc
 </details>
 
 {% hint style="info" %}
-
-**En el [configuracions del món Purpur](configurations/purpur/world.md), només funciona si se activa `(Entity) > montable`.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Introduir `.altre` al final del permís permet que altres jugadors l'utilitzin.
 Permet l'ús de la comanda [`/timings`](commands.md#timings).
 
 {% hint style="warning" %}
-
-**Aquesta comanda ha estat desactivada.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Per obtenir informació sobre comandes similars, consulteu [Spark](https://spark.lucko.me/docs/Command-Usage).
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,7 +181,7 @@ Introduir `.altre` al final del permís permet que altres jugadors l'utilitzin.
 
 - **Per defecte**: `Cap`
 
-Si està activat el bloqueig de X-Ray, els jugadors amb aquest permís no rebran la protecció de blocs X-Ray.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Això millora el rendiment per a tots dos.
 
@@ -204,33 +196,27 @@ Això millora el rendiment per a tots dos.
 - **Per defecte**: `Cap`
 
 {% hint style="warning" %}
-
-Aquest permís es canviarà a `plazma.bypass.watchdog` a la versió 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Per defecte**: `Cap`
 
-Permet l'ús de codis de color en l'enclusa. Consulteu [codis de color](https://minecraft.wiki/w/Formatting_codes#Color_codes).
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**En el [configuracions del món Purpur](configurations/purpur/world.md), només funciona si s'activa `anvil > permet-colors`.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Per defecte**: `Cap`
 
-Permet l'ús de codis d'estil en l'enclusa. Consulteu [codis d'estil](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**En el [configuracions del món Purpur](configurations/purpur/world.md), només funciona si s'activa `anvil > permet-colors`.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -240,28 +226,24 @@ Permet l'ús de codis d'estil en l'enclusa. Consulteu [codis d'estil](https://mi
 Permet l'ús de etiquetes MiniMessage a l'enclusa. Consulteu [MiniMessage Tags](https://docs.advntr.dev/minimessage/format.html).
 
 {% hint style="info" %}
-
-**En el [configuracions del món Purpur](configurations/purpur/world.md), només funciona si s'activa `anvil > permet-minimessages`.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Per defecte**: `Cap`
 
-Permet desactivar la `cursiva` en l'enclusa amb el codi d'estil `&r`. Consulteu [codis d'estil](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**En el [configuracions del món Purpur](configurations/purpur/world.md), només funciona si s'activa `anvil > permet-colors`.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Per defecte**: `Cap`
 
-Aplica codis d'estil quan un jugador signa un llibre. Consulteu [codis d'estil](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -284,9 +266,7 @@ Només funciona si tenen el permís per a aquest mode de joc.
 Quan es mina un bloc de spawner amb l'objecte configurat, el bloc de spawner cau.
 
 {% hint style="info" %}
-
-**En el [configuracions del món Purpur](configurations/purpur/world.md), només funciona si s'activa `gameplay-mechanics > silk-touch`.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(Número de fila)`
@@ -298,9 +278,7 @@ Canvia la mida de l'endrinyera.
 Es pot introduir `one`, `two`, `three`, `four`, `five`, `six` a `(Número de fila)`.
 
 {% hint style="info" %}
-
-**En el [configuracions del món Purpur](configurations/purpur/world.md), només funciona si s'activa `ender_chest > six-rows` i `ender_chest > use-permissions-for-rows`.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -310,9 +288,7 @@ Es pot introduir `one`, `two`, `three`, `four`, `five`, `six` a `(Número de fil
 Permet que el totem d'immortalitat funcioni quan es troba a l'inventari.
 
 {% hint style="info" %}
-
-**Cal activar `totem-of-undying-works-in-inventory` a la **[configuracions del món de Purpur](configurations/purpur/world.md)** perquè funcioni.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -328,9 +304,7 @@ Permet al jugador ignorar el límit de jugadors connectats.
 Permet al jugador reparar l'objecte que té a les mans quan fa `agatxat i interactua`.
 
 {% hint style="info" %}
-
-**Cal activar `shift-right-click-repairs-mending-points` a la **[configuracions del món de Purpur](configurations/purpur/world.md)** perquè funcioni.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -340,9 +314,7 @@ Permet al jugador reparar l'objecte que té a les mans quan fa `agatxat i intera
 Permet al jugador instal·lar spawners.
 
 {% hint style="info" %}
-
-**En el [configuracions del món Purpur](configurations/purpur/world.md), només funciona si s'activa `gameplay-mechanics > silk-touch`.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -355,12 +327,10 @@ Permet al jugador teleportar-se immediatament quan utilitza un portal al Nether.
 
 - **Per defecte**: `Cap`
 
-Permet utilitzar codis de **color** en els rètols. (https://minecraft.wiki/w/Formatting_codes#Color_codes)
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Cal activar `sign > allow-colors` a la **[configuracions del món de Purpur](configurations/purpur/world.md)** perquè funcioni.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -370,21 +340,17 @@ Permet utilitzar codis de **color** en els rètols. (https://minecraft.wiki/w/Fo
 Permet utilitzar el codi d'encriptació `(&o)` als rètols.
 
 {% hint style="info" %}
-
-**Cal activar `sign > allow-colors` a la **[configuracions del món de Purpur](configurations/purpur/world.md)** perquè funcioni.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Per defecte**: `Cap`
 
-Permet utilitzar codis d'estil en els rètols, excepte `(&o)`. (https://minecraft.wiki/w/Formatting_codes#Formatting_codes)
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Cal activar `sign > allow-colors` a la **[configuracions del món de Purpur](configurations/purpur/world.md)** perquè funcioni.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -394,9 +360,7 @@ Permet utilitzar codis d'estil en els rètols, excepte `(&o)`. (https://minecraf
 Permet al jugador evitar l'explosió de TNT interaccionant amb ella amb les tisores.
 
 {% hint style="info" %}
-
-**Cal que `defuse-tnt-change` a la **[configuracions del món de Purpur](configurations/purpur/world.md)** sigui de `0.0` o superior perquè funcioni.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Permisos previstos
@@ -408,9 +372,7 @@ Permet al jugador evitar l'explosió de TNT interaccionant amb ella amb les tiso
 Permet al jugador connectar-se sense tenir instal·lat el mod [`NoChatReports`](https://modrinth.com/mod/no-chat-reports).
 
 {% hint style="info" %}
-
-**Cal activar `no-chat-reports > require-install` a la **[configuracions del món de Plazma](configurations/plazma/world.md)** perquè funcioni.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
