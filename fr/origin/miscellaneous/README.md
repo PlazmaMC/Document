@@ -1,1 +1,5 @@
-# 🧾 Divers
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
