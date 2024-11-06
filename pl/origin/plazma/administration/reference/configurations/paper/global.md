@@ -2,4 +2,4 @@
 description: Sprawdź, co oznacza każdy węzeł w paper-global.yml.
 ---
 
-# 🛩️ Paper (konfiguracja globalna)
+# 🌏 전역 구성
