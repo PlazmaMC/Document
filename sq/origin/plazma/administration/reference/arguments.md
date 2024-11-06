@@ -15,18 +15,16 @@ Fillimi i blerjes dhe atributet e sistemit janë vlera shtesë për ekzekutimin 
 Përkatësitë e sistemit vendosen para `-jar` përpara se Plazma të inicializohet në JVM.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**Nëse ndryshoni atributet e sistemit, Plazma dhe mënyra se si vepron JVM mund të ndryshojnë, dhe kjo mund të ketë ndikim të madh në lojë!**
-
-Nëse nuk e dini qartë se çfarë rol luajnë atributet e çdo sistemi, **mos i përdorni kurrë ato!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Mënyra e përdorimit <a href="#id-1.1" id="id-1.1"></a>
 
 Përkatësitë e sistemit vendosen si argumente Java midis `java` dhe `-jar`.
 
-Për shembull, nëse dëshironi të aplikoni atributin e sistemit `Plazma.dummyProperty`, duke futur si më poshtë, vlera `37` do të futet në atributin tjetër dhe Plazma do të inicjalizohet.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -37,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 Nëse nuk jepni asnjë vlerë për tipare, vlera do të mbetet [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**Platforma e serverit e serisë Paperweight përfshin një `.` në emrin e atributit për të dalluar atributet e sistemit për çdo platformë individuale.**
-
-Në disa terminalë si Windows Powershell, mund të mos lejohen këto argumente, kështu që duhet të shtoni `"` në fund të argumentit për të [shtuar](#user-content-fn-4)[^4].
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Përkatësitë e tërësisë së sistemit <a href="#id-1.2" id="id-1.2"></a>
@@ -82,11 +78,9 @@ Aktivizon regjistrimet e debugimit të informacioneve të entitetit.
 Çaktivizon mesazhin e rikonfirmimit të komandës `/reload`.
 
 {% hint style="danger" %}
-
-**Komanda `/reload` është shumë e paqëndrueshme, kështu që çdo problem që ndodh në server pas përdorimit të `/reload` është përgjegjësi e vetë përdoruesit.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Nëse jeni zhvillues shtojcësh dhe duhet të përditësoni shtojcën, përdorni hotswap në vend të `/reload`.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -131,7 +125,7 @@ Ky veprim regjistron të gjitha kokrat e pavlefshme në botë me pozicionin e ty
 - **Forma**: `Boolean`
 - **Vlera parazgjedhëse**: `False`
 
-Çaktivizon kufirin e numrit të kanaleve të plugin-it, 128 për çdo lojtar.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -151,14 +145,14 @@ Ky veprim regjistron të gjitha kokrat e pavlefshme në botë me pozicionin e ty
 
 #### `Paper.excessiveTELimit`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Vlera parazgjedhëse**: `750`
 
 Nëse entiteti është më i madh se vlera e caktuar, ndahet në pako të ndryshme për transmetim.
 
 #### `Paper.filterThreshold`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Vlera parazgjedhëse**: `8192`
 
 Cakton madhësinë maksimale të pako të pranueshme nga serveri.
@@ -171,32 +165,30 @@ Cakton madhësinë maksimale të pako të pranueshme nga serveri.
 Çaktivizon verifikimin e versionit të Java-së.
 
 {% hint style="danger" %}
-
-**Kjo mund të tentojë qasje në kod që nuk ekziston në JVM!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 Kjo mund të shkaktojë dëmtim të përhershëm të skedarëve të botës dhe shkatërrimin e mekanikës së lojës.
 
 Çdo problem që shkaktohet nga kjo është përgjegjësia e përdoruesit dhe Plamza nuk ofron asnjë mbështetje për këtë.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Vlera parazgjedhëse**: `64`
 
-Vendos kufizimin e emrit të [kanalit](#user-content-fn-6)[^6] të shtojcës.
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Vlera parazgjedhëse**: `80`
 
 Cakton gjatësinë maksimale të shenjave në një rresht.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Vlera parazgjedhëse**: `(versioni i botës) + 1`
 
 Cakton versionin e informacionit të përditësimit fillestar për botën që do të inicializohet së pari.
@@ -212,12 +204,12 @@ Aktivizon trajtimin e komenteve YAML-së.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Vlera parazgjedhëse**: `30`
 
 Kur nuk pranohet asnjë të dhënë nga një lojtar për një periudhë të caktuar (sekonda), lojtari do të dërgohet larg.
 
-Në rastet normale, [loja](#user-content-fn-7)[^7] vazhdon të dërgojë [sinjalet e zemrës](#user-content-fn-8)[^8] në server, kështu që nuk do të jetë i [dëbuar,](#user-content-fn-9)[^9] por nëse loja nuk përgjigjet, konsiderohet se ka ndodhur një konflikt dhe nuk do të trajtojë më lojtarët në server dhe do t'i dëbojë ata.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -295,7 +287,7 @@ Kjo e përdor konfigurimin bazë të Paper.
 - **Forma**: `Boolean`
 - **Vlera parazgjedhëse**: `false`
 
-Parandalon [sinjalin e paralajmërimit](#user-content-fn-11)[^11] që shfaqet kur Plazma inicializohet.
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -311,19 +303,15 @@ Parandalon [sinjalin e paralajmërimit](#user-content-fn-11)[^11] që shfaqet ku
 - **konflikt**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**Kjo atribut është ende në zhvillim.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**Ky atribut rivendos të gjitha dobësitë e rregulluara në patch të realizuar!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 Kjo mund të ketë ndikim të madh në sigurinë dhe performancën e serverit.
 
 Çdo problem që shkaktohet duke përdorur këtë atribut është në dore të administratorit të serverit.
-
 {% endhint %}
 
 Optimizon konfigurimin fillestar me vlerat bazë të ofruara nga Mojang.
@@ -339,15 +327,12 @@ Patch-et e dobësive mund të aktivizohen përsëri në konfigurimin e Paper ose
 - **konflikt**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**Kjo atribut është ende në zhvillim.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 Optimizon konfigurimin fillestar në një mënyrë të ngjashme me vanilën.
 
-Kjo aplikohet në mënyrë që të mos ketë ndikim të madh në performancën dhe sigurinë e serverit, dhe
-kur përdoret atributi `Plazma.disableConfigOptimization`, konfigurimi sjell vlerat bazë të vanilës.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Atribute i ndaluar në përdorim <a href="#id-1.3" id="id-1.3"></a>
 
@@ -387,21 +372,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Alias**: `b`
 - **Vlera parazgjedhur**: `bukkit.yml`
 
-Cakton emrin dhe vendndodhjen e [skedarit konfigurues të Bukkit-it](../reference/configurations/bukkit.md).
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Alias**: `c`
 - **Vlera parazgjedhur**: `commands.yml`
 
-Cakton emrin dhe vendndodhjen e [skedarit konfigurues të komandave të Bukkit-it](../reference/configurations/bukkit.md).
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Alias**: `c`
 - **Vlera parazgjedhur**: `server.properties`
 
-Cakton emrin dhe vendndodhjen e [skedarit të pronave të serverit](../reference/configurations/property.md).
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -413,7 +398,7 @@ Fshin skedarët e mbetur të kešit pas përmirësimit të botës.
 
 #### `forceUpgrade`
 
-Forcon një [përmirësim](#user-content-fn-12)[^12] të botës pa marrë parasysh versionin.
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -434,7 +419,7 @@ Aktivizon profilimin JFR.
 - **Alias**: `s`, `size`
 - **Vlera parazgjedhur**: `(pronat e serverit)`
 
-Vendos numrin maksimal të [lojtarëve](#user-content-fn-14)[^14] të lejuar.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -451,7 +436,7 @@ Vendos numrin maksimal të [lojtarëve](#user-content-fn-14)[^14] të lejuar.
 
 Zgjedh nëse do të verifikohen lojtarët me serverin e autentifikimit të Mojang-ut.
 
-**Nëse nuk përdoret një [EULA](../getting-started/README.md#id-5) për shfrytëzim të proxy-së si Velocity, mund të ndëshkohet për shkelje.**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -459,9 +444,7 @@ Zgjedh nëse do të verifikohen lojtarët me serverin e autentifikimit të Mojan
 - **Vlera parazgjedhur**: `paper.yml`
 
 {% hint style="warning" %}
-
-**Ky argument është ndaluar për përdorim pas versionit 1.19.4**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 Cakton vendndodhjen e [skedarit konfigurues të PaperSpigot-it të ndaluar në përdorim](../reference/configurations/paper/README.md).
@@ -473,13 +456,13 @@ Përdoret për të transferuar konfigurimin ekzistues në një skedar të ri, dh
 - **Alias**: `paper-dir`
 - **Vlera parazgjedhur**: `config`
 
-Cakton emrin dhe vendndodhjen e dosjes ku gjenden [skedarët konfigurues të Paper-it](../reference/configurations/paper/README.md).
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **Alias**: `plazma-dir`
 
-Cakton emrin dhe vendndodhjen e dosjes ku gjenden [skedarët konfigurues të Plazma-së](../reference/configurations/plazma/README.md).
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -493,14 +476,14 @@ Cakton vendndodhjen e dosjes së shtojcave.
 - **Alias**: `pufferfish`
 - **Vlera parazgjedhur**: `pufferfish.yml`
 
-Cakton emrin dhe vendndodhjen e [skedarit konfigurues të Pufferfish-it](../reference/configurations/pufferfish.md).
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **Alias**: `purpur`
 - **Vlera parazgjedhur**: `purpur.yml`
 
-Cakton emrin dhe vendndodhjen e [skedarit konfigurues të Purpur-it](../reference/configurations/purpur/README.md).
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -511,7 +494,7 @@ Fillon serverin në një gjendje të plotë vanilje.
 - **Alias**: `h`, `host`
 - **Vlera parazgjedhur**: `(pronat e serverit)`
 
-Cakton emrin e hostit të serverit ose adresën [IP të internetit](#user-content-fn-13)[^13].
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -531,7 +514,7 @@ Cakton emrin e serverit.
 - **Alias**: `S`
 - **Vlera parazgjedhur**: `spigot.yml`
 
-Cakton emrin dhe vendndodhjen e [skedarit konfigurues të Spigot-it](../reference/configurations/spigot.md).
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -579,6 +562,6 @@ Cakton emrin e skedarit të botës.
 
 [^12]: Në lojë, `optimizimi i botës` vepron në këtë mënyrë.
 
-[^13]: Protokolli i Internetit, IP.
+[^13]: Administratorët me `nivel 2` ose më të lartë janë përjashtuar.
 
-[^14]: Administratorët me `nivel 2` ose më të lartë janë përjashtuar.
+[^14]: Protokolli i Internetit, IP.
