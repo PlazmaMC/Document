@@ -2,18 +2,16 @@
 description: Learn about the default customization methods provided by Plazma.
 ---
 
-# ⏬ Reference
+# 📜 리퍼런스
 
 Plazma offers various customization methods.
 
 Among them, the following 4 methods are customization methods that can be used immediately without additional work.
 
 {% hint style="info" %}
-
-**Can't solve the problem through the manual?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 Ask the community questions through the [official Discord server](https://discord.gg/MmfC52K8A8) or [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 ***
