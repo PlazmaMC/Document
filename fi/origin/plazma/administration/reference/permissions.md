@@ -14,18 +14,18 @@ Oikeuksien asianmukaiseen käyttöön ja helpottamiseen tarvitaan lisäosia, kut
 
 Minecraft tarjoaa perus hallintaoikeusryhmiä.
 
-[Ylläpitäjä](#user-content-fn-1)[^1] voi asettaa oikeudet ja komennot lohkot voidaan muokata [palvelimen ominaisuuksissa](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Pelaaja**\
+1. **Pelaaja**\
    Yleinen oikeusryhmä, joka annetaan kaikille pelaajille.
-1. **Välittäjä**\
+2. **Välittäjä**\
    Voi ohittaa spawn-suojauksen.
-2. **Maailmanhallitsija**\
+3. **Maailmanhallitsija**\
    Voi käyttää kaikkia maailmanhallintaan liittyviä komentoja ja komentolohkoja.\
    Oletusarvoinen oikeusryhmä datapaketeille ja komentolohkoille.
-3. **Hallinnoija**\
+4. **Hallinnoija**\
    Voi käyttää kaikkia pelaajien hallintaan liittyviä komentoja.
-4. **Ylimmäinen hallinnoija**\
+5. **Ylimmäinen hallinnoija**\
    Voi käyttää kaikkia palvelimen hallintaan liittyviä komentoja.\
    Oletusarvoinen oikeusryhmä konsolille ja ylläpitäjille.
 
@@ -49,10 +49,8 @@ Kun pelaaja nousee kyytiin, hän voi ohjata entiteetin liikettä liikkumisnäpp�
 
 `(Namespaced Key)` tarkoittaa entiteetin [Namespaced ID](#user-content-fn-2)[^2].
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md) vaativat `(Entity) > ridable` aktivoituna toimiakseen.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -63,12 +61,10 @@ Sallii pelaajan käyttää entiteetin erikoistaitoja, kun pelaaja ratsastaa enti
 
 Kaikki entiteetit eivät välttämättä voi käyttää erikoistaitoja. Kaikki käytettävissä olevat erikoistaidot löytyvät alla olevasta linkistä.
 
-{% vinkki tyyli="info" %}
-
-**Onko sinulla hyviä ideoita erikoistaitoja varten?**
+{% hint style="info" %}
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Jaa ideoitasi [Plazma Discordissa](https://plazmamc.org/discord) tai [GitHubin keskusteluissa](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -87,10 +83,8 @@ Jaa ideoitasi [Plazma Discordissa](https://plazmamc.org/discord) tai [GitHubin k
 
 </details>
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md) vaativat `(Entity) > ridable` aktivoituna toimiakseen.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Lisää `.other` käyttäjänimen perään antaa oikeuden käyttää komentoa mu
 Sallii [`/timings`-komentojen](commands.md#timings) käytön.
 
 {% hint style="warning" %}
-
-**Tämä komento on poistettu käytöstä.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Katso vastaava komento [Sparkista](https://spark.lucko.me/docs/Command-Usage).
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,8 +181,7 @@ Lisää `.other` käyttäjänimen perään antaa oikeuden käyttää komentoa mu
 
 - **Oletus**: `None`
 
-Kun [X-Ray estäminen](../expert/xray.md) on aktivoitu,
-oikeutetuille pelaajille ei suoriteta X-Ray estämiseen liittyvää lohkojen hämäystä.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Tämä mahdollistaa suorituskyvyn parantamisen molemmilla osapuolilla.
 
@@ -205,33 +196,27 @@ Tämä mahdollistaa suorituskyvyn parantamisen molemmilla osapuolilla.
 - **Oletus**: `None`
 
 {% hint style="warning" %}
-
-Tämä oikeus muutetaan versiossa 1.20.5 muotoon `plazma.bypass.watchdog`.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Oletus**: `None`
 
-Mahdollistaa värillisten koodien käytön alasimissa [värikoodien](https://minecraft.wiki/w/Formatting_codes#Color_codes) avulla.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md) vaativat `anvil > allow-colors` aktivoituna toimiakseen.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Oletus**: `None`
 
-Mahdollistaa muotoilukoodien käytön alasimissa [muotoilukoodien](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) avulla.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md) vaativat `anvil > allow-colors` aktivoituna toimiakseen.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -240,29 +225,25 @@ Mahdollistaa muotoilukoodien käytön alasimissa [muotoilukoodien](https://minec
 
 Mahdollistaa MiniMessage-tunnisteiden käytön alasimissa [MiniMessage-tageilla](https://docs.advntr.dev/minimessage/format.html).
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md) vaativat `anvil > allow-minimessages` aktivoituna toimiakseen.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Oletus**: `None`
 
-Mahdollistaa `kursiivin` poistamisen alasimissa käyttämällä [`&r` muotoilukoodia](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md) vaativat `anvil > allow-colors` aktivoituna toimiakseen.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Oletus**: `None`
 
-Kun pelaaja allekirjoittaa kirjan, sovelletaan [muotoilukoodit](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -284,10 +265,8 @@ Toimii vain, jos pelaajalla on kyseiseen pelitilaan oikeus.
 
 Kaivettaessa spawner-lohkolla käytetään asetettuja esineitä, spawner-lohko pudotetaan.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md) vaativat `gameplay-mechanics > silk-touch` aktivoituna toimiakseen.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -298,10 +277,8 @@ Muuttaa enderarkun koon.
 
 `(NumberString)` voi olla `one`, `two`, `three`, `four`, `five`, `six`.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md) vaativat `ender_chest > six-rows` ja `ender_chest > use-permissions-for-rows` aktivoituna toimiakseen.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -310,10 +287,8 @@ Muuttaa enderarkun koon.
 
 Sallii kuolemattomuuden toimivan, vaikka totemi olisi inventaariossa.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md): aktivoi `totem-of-undying-works-in-inventory` sen toimimiseksi.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -328,10 +303,8 @@ Sallii pelaajan ohittaa liittymisrajoituksen.
 
 Sallii pelaajan korjata esineitä pitämällä niitä ja kyykistymällä.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md): aktivoi `shift-right-click-repairs-mending-points` sen toimimiseksi.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -340,10 +313,8 @@ Sallii pelaajan korjata esineitä pitämällä niitä ja kyykistymällä.
 
 Sallii pelaajan asentaa kohderyhmät.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md) vaativat `gameplay-mechanics > silk-touch` aktivoituna toimiakseen.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -356,12 +327,10 @@ Sallii pelaajan siirtyä heti Nether-portaalista.
 
 - **Oletus**: `None`
 
-Sallii värillisten koodien käytön kylteissä [värikoodien](https://minecraft.wiki/w/Formatting_codes#Color_codes) avulla.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md): aktivoi `sign > allow-colors` sen toimimiseksi.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -370,22 +339,18 @@ Sallii värillisten koodien käytön kylteissä [värikoodien](https://minecraft
 
 Sallii kylteissä käsittämättömän koodin `(&o)` käytön.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md): aktivoi `sign > allow-colors` sen toimimiseksi.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Oletus**: `None`
 
-Sallii kylteissä [tyylittelykoodit `(&o pois)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) käytön.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md): aktivoi `sign > allow-colors` sen toimimiseksi.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -394,10 +359,8 @@ Sallii kylteissä [tyylittelykoodit `(&o pois)`](https://minecraft.wiki/w/Format
 
 Sallii pelaajan estää TNT:n räjähdyksen vuorovaikutteisesti saksilla.
 
-{% vinkki tyyli="info" %}
-
-**[Purpur maailman asetukset](configurations/purpur/world.md): `defuse-tnt-change` on oltava vähintään `0.0` sen toimimiseksi.**
-
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Suunnitellut oikeudet
@@ -408,10 +371,8 @@ Sallii pelaajan estää TNT:n räjähdyksen vuorovaikutteisesti saksilla.
 
 Sallii pelaajan liittyä, vaikka [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) -moduulia ei olisi asennettu.
 
-{% vinkki tyyli="info" %}
-
-**[Plazma maailman asetukset](configurations/plazma/world.md): aktivoi `no-chat-reports > require-install` sen toimimiseksi.**
-
+{% hint style="info" %}
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
