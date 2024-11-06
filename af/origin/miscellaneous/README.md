@@ -1,1 +1,5 @@
-# 🧾 Verskeie
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
