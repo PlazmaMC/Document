@@ -14,18 +14,18 @@ description: Plazma'nın izinleri hakkında bilgi edinin.
 
 Minecraft'ta temel yönetici izin grupları sağlanmaktadır.
 
-[Operator](#user-content-fn-1)[^1] ve komut bloğu izinlerini ayarlayabilir ve [sunucu özelliklerinde](configurations/property.md) değişiklik yapabilirsiniz.
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Oyuncu**\
+1. **Oyuncu**\
    Genellikle tüm oyunculara verilen bir izin grubudur.
-1. **Aracı**\
+2. **Aracı**\
    Doğma korumasını yok sayabilir.
-2. **Dünya Yöneticisi**\
+3. **Dünya Yöneticisi**\
    Tüm dünya yönetimiyle ilgili komutları ve komut bloklarını kullanabilir.\
    Veri paketlerine ve komut bloklarına varsayılan olarak uygulanan bir izin grubudur.
-3. **Yönetici**\
+4. **Yönetici**\
    Oyuncu yönetimiyle ilgili tüm komutları kullanabilir.
-4. **Baş Yönetici**\
+5. **Baş Yönetici**\
    Sunucu yönetimi de dahil olmak üzere tüm komutları kullanabilir.\
    Konsol ve operatörlere varsayılan olarak uygulanan bir izin grubudur.
 
@@ -50,9 +50,7 @@ Varlığa bindiğinizde, varlığın hareketini `hareket tuşlarıyla` kontrol e
 `(Namespaced Key)` varlığın [Namespaced ID](#user-content-fn-2)[^2] girilir.
 
 {% hint style="info" %}
-
-**[Purpur Dünya Yapılandırması](configurations/purpur/world.md)`nde `(Entity) > ridable\` etkinleştirildiğinde yalnızca çalışır.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ Oyuncu bir varlığa binerken, varlığın özel yeteneklerini kullanmasına izi
 Tüm varlıkların özel yetenekleri kullanılamayabilir. Kullanılabilir tüm özel yetenekler için aşağıya bakınız.
 
 {% hint style="info" %}
-
-**Özel yeteneklerle ilgili iyi bir fikriniz mi var?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 [Plazma Discord](https://plazmamc.org/discord) veya [GitHub Tartışmaları](https://github.com/PlazmaMC/PlazmaBukkit/discussions) üzerinde fikirlerinizi paylaşın!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Tüm varlıkların özel yetenekleri kullanılamayabilir. Kullanılabilir tüm �
 </details>
 
 {% hint style="info" %}
-
-**[Purpur Dünya Yapılandırması](configurations/purpur/world.md)`nde `(Entity) > ridable\` etkinleştirildiğinde yalnızca çalışır.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Tüm varlıkların özel yetenekleri kullanılamayabilir. Kullanılabilir tüm �
 [`/timings` komutu](commands.md#timings) kullanımına izin verir.
 
 {% hint style="warning" %}
-
-**Bu komut artık kullanımdan kaldırılmıştır.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Benzer işlevlere sahip komutları görmek için [Spark](https://spark.lucko.me/docs/Command-Usage)'e bakın.
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,8 +181,7 @@ Benzer işlevlere sahip komutları görmek için [Spark](https://spark.lucko.me/
 
 - **Varsayılan**: `None`
 
-[X-Ray Engelleme](../expert/xray.md) etkinleştirildiğinde,
-izinli oyuncuların X-Ray engelleme bloklarını karıştırmaz.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Bu, her iki tarafın da performansını artırır.
 
@@ -205,33 +196,27 @@ Bu, her iki tarafın da performansını artırır.
 - **Varsayılan**: `None`
 
 {% hint style="warning" %}
-
-Bu izin, 1.20.5'te `plazma.bypass.watchdog` olarak değiştirilecektir.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Varsayılan**: `None`
 
-Örsün [Renk Kodları](https://minecraft.wiki/w/Formatting_codes#Color_codes) kullanılmasına izin verir.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur Dünya Yapılandırması](configurations/purpur/world.md)`nde `anvil > allow-colors\` etkinleştirilmelidir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Varsayılan**: `None`
 
-Örsün [Biçimlendirme Kodları](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) kullanılmasına izin verir.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur Dünya Yapılandırması](configurations/purpur/world.md)`nde `anvil > allow-colors\` etkinleştirilmelidir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -241,28 +226,24 @@ Bu izin, 1.20.5'te `plazma.bypass.watchdog` olarak değiştirilecektir.
 Örsün [MiniMessage Etiketleri](https://docs.advntr.dev/minimessage/format.html) kullanılmasına izin verir.
 
 {% hint style="info" %}
-
-**[Purpur Dünya Yapılandırması](configurations/purpur/world.md)`nde `anvil > allow-minimessages\` etkinleştirilmelidir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Varsayılan**: `None`
 
-Örsü [`&r` Biçimlendirme Kodu](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) ile `italik yazıyı` devre dışı bırakmanıza izin verir.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur Dünya Yapılandırması](configurations/purpur/world.md)`nde `anvil > allow-colors\` etkinleştirilmelidir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Varsayılan**: `None`
 
-Oyuncu bir kitaba imza attığında [Biçimlendirme Kodları](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) uygulanmasını sağlar.
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -285,9 +266,7 @@ Bu oyun modu için izni yoksa çalışmaz.
 Yapılandırmada belirlenen öğelerle spawner bloklarını kırarsanız spawner blokları düşer.
 
 {% hint style="info" %}
-
-**[Purpur Dünya Yapılandırması](configurations/purpur/world.md)`nde `gameplay-mechanics > silk-touch\` etkinleştirilmelidir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -299,9 +278,7 @@ Ender sandığının boyutunu değiştirir.
 `(NumberString)` içine `one`, `two`, `three`, `four`, `five`, `six` girebilirsiniz.
 
 {% hint style="info" %}
-
-**[Purpur Dünya Yapılandırması](configurations/purpur/world.md)`nde `ender_chest > six-rows`ve`ender_chest > use-permissions-for-rows\` etkinleştirilmelidir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -311,9 +288,7 @@ Ender sandığının boyutunu değiştirir.
 Ölümsüzlük totemi envanterdeyken çalışmasına izin verir.
 
 {% hint style="info" %}
-
-**[Purpur Dünya Yapılandırması](configurations/purpur/world.md)`nde `totem-of-undying-works-in-inventory\` etkinleştirilmelidir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -329,9 +304,7 @@ Oyuncunun bağlantı sınırını yoksaymasına izin verir.
 Oyuncunun `eğilip etkileşime geçtiğinde` tuttuğu öğeyi tamir etmesine izin verir.
 
 {% hint style="info" %}
-
-**[Purpur Dünya Yapılandırmaları](configurations/purpur/world.md) içinde `shift-right-click-repairs-mending-points`'i etkinleştirmeniz gerekmektedir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -341,9 +314,7 @@ Oyuncunun `eğilip etkileşime geçtiğinde` tuttuğu öğeyi tamir etmesine izi
 Oyuncunun yaratıcıları yerleştirmesine izin verir.
 
 {% hint style="info" %}
-
-**[Purpur Dünya Yapılandırması](configurations/purpur/world.md)`nde `gameplay-mechanics > silk-touch\` etkinleştirilmelidir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -356,12 +327,10 @@ Oyuncunun Nether portalını kullandığında hemen teleport olmasını sağlar.
 
 - **Varsayılan**: `None`
 
-[Renk kodları](https://minecraft.wiki/w/Formatting_codes#Color_codes) kullanımına izin vermek için tabelalarda kullanılabilir.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur Configuration](configurations/purpur/world.md) içinde `sign > allow-colors` etkinleştirilmelidir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -371,21 +340,17 @@ Oyuncunun Nether portalını kullandığında hemen teleport olmasını sağlar.
 Levha üzerinde okunabilirlik kodu`(&o)` kullanılmasına izin verir.
 
 {% hint style="info" %}
-
-**[Purpur Configuration](configurations/purpur/world.md) içinde `sign > allow-colors` etkinleştirilmelidir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.levha.stili`
 
 - **Varsayılan**: `None`
 
-Levha üzerinde [Biçimlendirme kodları `(&o hariç)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) kullanılmasına izin verir.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur Configuration](configurations/purpur/world.md) içinde `sign > allow-colors` etkinleştirilmelidir.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.söndür`
@@ -395,9 +360,7 @@ Levha üzerinde [Biçimlendirme kodları `(&o hariç)`](https://minecraft.wiki/w
 Oyuncuların TNT patlamasını `etkileşim` ile engellemesine izin verir.
 
 {% hint style="info" %}
-
-**[Purpur dünya yapılandırmaları](configurations/purpur/world.md) içinde `söndür-tnt-değişikliği` `0.0` veya üzerinde olmalıdır çalışması için.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Verilen izinler
@@ -409,9 +372,7 @@ Oyuncuların TNT patlamasını `etkileşim` ile engellemesine izin verir.
 Oyuncuların [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) modu yüklü olmasa bile giriş yapmasına izin verir.
 
 {% hint style="info" %}
-
-**[Plazma dünya yapılandırmaları](configurations/plazma/world.md) içinde `no-chat-reports > yükleme-gerektir` etkinleştirilmelidir çalışması için.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
