@@ -7,27 +7,27 @@ description: Leer hoe om 'n bediener met Plazma te skep.
 Om Plazma stabiel te gebruik, moet jou stelsel aan die volgende vereistes voldoen.
 
 |             | Minimum | Aanbeveel |
-| :---------: | :------ | :-------- |
+| :---------: | ------- | --------- |
 | Argitektuur | x64     | -         |
 |     RAM     | 8GB     | 16GB      |
 |  Stoorplek  | 1GB     | 8GB       |
-|     JRE     | 17      | 21        |
+|     JDK     | 17      | 21        |
 
 Om die konfigurasie lêer aanpassing vlot te doen, is dit ook goed om 'n redigeerder soos [Visual Studio Code](https://code.visualstudio.com/download) te installeer.
 
 ***
 
-## 1. Installeer JRE
+## 1. JDK 설치
 
-Soos die naam aandui, is Minecraft: **"Java"**-uitgawe in Java ontwikkel, en vir uitvoering is JRE[^1] nodig.
+이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JDK[^1]를 필요로 합니다.
 
-Aangesien Plazma op die amptelike bedienerplatform van Mojang Studios gebaseer is, moet JRE ook geïnstalleer word om Plazma te gebruik.
+Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JDK를 설치해야 합니다.
 
-### 1.1 Kontroleer JRE beskikbaarheid
+### 1.1 JDK 설치 유무 확인
 
-Om te sien of JRE op jou stelsel geïnstalleer is, voer `cmd /k java --version` in die [uitvoeringsvenster](#user-content-fn-3)[^3] in en voer dit uit.
+JDK가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
 
-Indien dit so uitgevoer word, spring na [Stap 2](#id-2).
+다음과 같이 출력되면 [2 단계](./#id-2)로 건너뜁니다.
 
 {% code title="Korrek afdruk" lineNumbers="true" %}
 
@@ -39,9 +39,9 @@ OpenJDK 64-biet Bediener-VM Zulu21.32+17-CA (bou 21.0.2+13-LTS, gemengde modus, 
 
 {% endcode %}
 
-As dit nie so uitgevoer word nie, of as dit soos hieronder uitgevoer word, is daar geen JRE of is dit te oud, dus moet [Stap 1.2](#id-1.2) uitgevoer word.
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JDK가 없거나 너무 오래되었으므로, [1.2 단계](./#id-1.2)를 수행해야 합니다.
 
-{% code title="JRE is nie geïnstalleer nie" lineNumbers="true" %}
+{% code title="JDK가 설치되어 있지 않음" lineNumbers="true" %}
 
 ```log
 'java' is nie 'n interne of eksterne bevel, 'n uitvoerbare program, of
@@ -50,7 +50,7 @@ As dit nie so uitgevoer word nie, of as dit soos hieronder uitgevoer word, is da
 
 {% endcode %}
 
-{% code title="JRE is te oud" lineNumbers="true" %}
+{% code title="JDK가 너무 오래됨" lineNumbers="true" %}
 
 ```log
 Onherkenbare opsie: --weergawe
@@ -60,32 +60,27 @@ Fout: 'n fatale uitsondering het plaasgevind. Program sal afsluit.
 
 {% endcode %}
 
-### 1.2 Installeer JRE
+### 1.2 JDK 설치
 
-In hierdie handleiding word Azul Zulu gebruik as een van die JRE [tipes](#user-content-fn-5)[^5].
+본 설명서에서는 JDK의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Nadat die installasie voltooi is, voer [Stap 1.1](#id-1.1) weer uit om te verseker dat die installasie korrek voltooi is.
+설치를 완료한 후, [1.1 단계](./#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
-
 {% tab title="Windows" %}
 
 1. Eerstens, laai **JDK 21** in `.msi`-formaat van [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu) af.
 2. Voer die afgelaaide installasiewizard uit en klik op `Volgende`.
 3. Aktiveer `Set JAVA_HOME variable` in die middel van die venster aan die linkerkant en klik dan op `Volgende`.
 4. Druk op `Installeer` om die JRE-installasie te voltooi.
-
-{% endtab %}
+   {% endtab %}
 
 {% tab title="macOS" %}
-
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) van **JDK 21** in `.dmg` formaat aflaai en uitvoer die installasie-wizard om JRE te installeer.
-
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
-
-Voeg eers die Azul Zulu-opberging by APT deur die volgende bevel in die terminaal uit te voer.
+먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
 
 ```bash
 sudo apt installeer gnupg ca-certificates curl --geen-aanbevolen-installatie --geen-aanbevolen-suggesties -y
@@ -104,8 +99,7 @@ sudo apt installeer --geen-aanbevolen-installatie --geen-aanbevolen-suggesties -
 {% endtab %}
 
 {% tab title="Fedora/RHEL" %}
-
-JRE kan geïnstalleer word deur die volgende bevel in te voer.
+다음 명령어를 입력하여 JDK를 설치할 수 있습니다.
 
 ```bash
 sudo dnf installeer -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
@@ -123,12 +117,10 @@ sudo dnf installeer -y zulu21-ca-jre-headless
 Plazma bied verskeie uitvoerbaarleêrformate aan.
 
 {% hint style="warning" %}
+**대부분의 경우에는 `Mojang-mapped Paperclip`을 사용합니다.**
 
-**Meeste gevalle gebruik `Reobf Paperclip`.**
-
-Die volgende inhoud is vir ontwikkelaars of diegene wat belangstel in verskillende eienskappe.\
-As jy 'n gewone gebruiker is, kan jy na [Stap 3](#id-3) spring sonder enige probleme.
-
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](./#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 {% endhint %}
 
 <details>
@@ -139,11 +131,11 @@ Die uitvoerbaarleër se naam word bepaal as `plazma-(weergawe-bestuurder)-1.20.4
 
 - **Karteringsvorm**\
   Kartering is 'n soort kaart wat die werklike en die vervloeiingskode van Minecraft met mekaar verbind.
-  - **Herhers**\
-    Herherskik (재난독화), Spigot kartering genoem en word hoofsaaklik in die meeste NMS invoegtoepassings gebruik.\
-    Dit sal vanaf 1.20.5 nie meer gebruik word nie.
+  - **Reobf**\
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.6부터 지원이 종료되었습니다.
   - **Mojmap**\
-    Mojang-gekarteer, 'n vanilla Minecraft kartering.
+    Mojang-gekarteer, 'n vanilla Minecraft kartering. 1.20.6 이후의 모던 플러그인에서 사용합니다.
 - **Weergawe-bestuurder**\
   Die weergawe-bestuurder is 'n lêerbestuurder wat nodig is vir die bedryf van die bediener en wat die biblioteke en lêers op die bediener toepas.
   - **Paperclip**\
@@ -159,7 +151,8 @@ Die uitvoerbaarleër se naam word bepaal as `plazma-(weergawe-bestuurder)-1.20.4
 
 Om Plazma maklik te begin en die bediener outomaties te herlaai, moet jy 'n [begin skripsie](#user-content-fn-6)[^6] skep.
 
-[Vlae.sh](https://flags.sh) kan 'n begin skrip genereer deur net die geheue wat vir Plazma gebruik moet word in te voer. Die bevel word outomaties geoptimaliseer.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 생성[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Jy kan die begin skripsie deur die onderste regterkant aflaai-knoppie aflaai.\
 **Maak seker dat die afgelaaide begin skripsie ooreenstem met jou bedryfstelsel.**
@@ -171,14 +164,12 @@ Jy kan die begin skripsie deur die onderste regterkant aflaai-knoppie aflaai.\
 Jy moet nou die afgelaaide begin skripsie en Plazma na 'n nuwe vouer skuif.
 
 {% hint style="warning" %}
+**폴더 명칭은 반드시 띄어 쓰기와 특수 문자가 없고, 영어로 설정되어야 합니다.**
 
-**Die vouernaam moet geen spasies hê en in Engels wees nie.**
-
-Andersins kan Plazma of JRE moontlik nie korrek werk nie.
-
+그렇지 않으면 Plazma 또는 JDK가 올바르게 작동하지 않을 수 있습니다.
 {% endhint %}
 
-Voer die begin skripsie uit. Vir Windows, moet jy by die <mark style="background-color:orange;">firewall-toestemming kiesvenster, beslis **Toelaat** kies</mark>.
+Voer die begin skripsie uit. Windows의 경우, <mark style="background-color:orange;">방화벽 허용 선택 창에서, 반드시</mark> <mark style="background-color:orange;"></mark><mark style="background-color:orange;">**허용**</mark><mark style="background-color:orange;">을 선택</mark>해야 합니다.
 
 ***
 
@@ -189,9 +180,7 @@ Nadat jy die begin skripsie een keer uitgevoer het, word 'n `eula.txt`-lêer in 
 EULA[^9] is 'n gebruikerslisensie-ooreenkoms waarmee jy moet instem om van die dienste van [Mojang Studios](#user-content-fn-10)[^10] gebruik te maak.
 
 {% hint style="warning" %}
-
-Indien daar nie saamgestem word nie, kan die bediener nie begin nie, en as die EULA oortree word, kan daar sanksies soos rekeningopskorting weens oortredings wees.
-
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 제재[^11]를 받을 수 있습니다.
 {% endhint %}
 
 Om met die EULA saam te stem, verander `eula=false` na `eula=true` in die `eula.txt`-lêer en stoor dit.
@@ -202,11 +191,10 @@ Om met die EULA saam te stem, verander `eula=false` na `eula=true` in die `eula.
 
 Moderne bedryfstelsels blok standaard eksterne toegang om gevaarlike toegang te voorkom deur die **firewall** en **router**.
 
-Vir Windows, aangesien die firewall in [Stap 3](#id-3) toegelaat is, hoef net poort deurstuur te word.
+Windows의 경우, 방화벽은 [3 단계](./#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
-
-**Hierdie handleiding word geskryf met die aanname dat dit vir Windows-bedryfstelsels en routers wat [UPnP](#user-content-fn-12)[^12] kan gebruik, is.**
+**해당 설명서는 Windows 운영 체제 및** [**UPnP**](#user-content-fn-12)[^12]**를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 As jou router nie UPnP ondersteun nie, moet jy na die spesifieke paneel van jou router soek, aangesien dit vir elke router verskil.
 
@@ -214,9 +202,7 @@ Jy kan ook [Ngrok](https://ngrok.com/) gebruik om 'n tydelike adres te skep.
 {% endhint %}
 
 {% hint style="warning" %}
-
-**Vir Linux of macOS ens. (semi) UNIX-stelsels, moet jy vir elke firewalldiens afsonderlik navorsing doen aangesien die instellingsmetodes verskil.**
-
+**Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.**
 {% endhint %}
 
 ### 6.1 Kontroleer of port forwarding nodig is
@@ -232,18 +218,14 @@ As die uitset `True` is, is jy klaar, maar as dit `False` is, moet jy port forwa
 ### 6.2 Koppel aan die bediener
 
 {% tabs %}
-
-{% tab title="Eksterne toegang" %}
-
-As daar geen port forwarding nodig is nie, of as jy reeds suksesvol port forwarding gedoen het, kan jy nou met die bediener verbind.
+{% tab title="외부에서 접속" %}
+포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
 
 Die adres wat gebruik word om met die bediener te verbind, kan hier bevestig word: [hier](https://ip.pe.kr/)
-
 {% endtab %}
 
-{% tab title="UPnP vir Port Forwarding-poging" %}
-
-In die `purpur.yml` van die bediener se lêer, aktiveer `network.upnp-port-forwarding` na `true`.
+{% tab title="UPnP로 포트포워딩 시도" %}
+서버 폴더의 `purpur.yml`에서, `network.upnp-port-forwarding`을 `true`로 활성화합니다.
 
 Daarna, as jy die bediener herlaai, sal Plazma outomaties poort deurstuur probeer.
 
@@ -257,12 +239,10 @@ Hierdie is die sukses van UPnP volgens die boodskap wat op die konsole verskyn, 
 | `Diens is nie beskikbaar nie`         | Router ondersteun nie UPnP nie.          |
 
 As die bediener afgesluit word, sal Plazma outomaties die poort sluit.
-
 {% endtab %}
 
-{% tab title="Ngrok temporary address creation" %}
-
-Die metode met Ngrok is nuttig vir korttermyn toetse, deelname of speel saam met vriende.
+{% tab title="Ngrok으로 임시 주소 생성" %}
+Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들과 함께 플레이하기에 유용합니다.
 
 1. Laai die `Windows (64-bit)` ZIP lêer vanaf die [Ngrok webwerf](https://ngrok.com/download) af.
 2. Plaas die afgelaaide Ngrok in die bediener se gids.
@@ -271,12 +251,10 @@ Die metode met Ngrok is nuttig vir korttermyn toetse, deelname of speel saam met
 5. Voeg `start /b ngrok tcp --region jp 25565` by die boonste gedeelte van die uitvoeringskript en `taskkill /f /t /im ngrok.exe` by die onderste gedeelte by.
 6. Die adres van die bediener sal wees `0.tcp.jp.ngrok.io:12345` soos aangedui deur die `Forwarding tcp://0.tcp.jp.ngrok.io:12345 -> localhost:25565` boodskap op die konsole.
 7. Jy kan nou van buite die bediener bereik deur die genoemde adres.
+   {% endtab %}
 
-{% endtab %}
-
-{% tab title="Verbinding vanaf plaaslike masjien" %}
-
-As jy vanaf jou plaaslike masjien na die bediener wil verbind, kan jy die `IPv4 adres` wat uitgevoer word deur `cmd /k ipconfig` in die uitvoer venster, gebruik om te verbind.
+{% tab title="로컬에서 접속" %}
+로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 `cmd /k ipconfig`를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
 
 Byvoorbeeld, as die volgende na die uitvoering van die opdrag verskyn:
 
@@ -295,7 +273,6 @@ Ethernet-adapter Ethernet:
 Jy kan die bediener bereik deur die `192.168.3.7` adres wat in die IPv4 adres verskyn, te gebruik.
 
 Indien die bediener en die spel op dieselfde rekenaar hardloop, kan jy met `localhost` verbind.
-
 {% endtab %}
 {% endtabs %}
 
@@ -311,7 +288,7 @@ Leer hoe om die bediener aan te pas deur die volgende handleiding te volg.
 
 ***
 
-[^1]: Java Runtime Environment, Java uitvoeringsomgewing.
+[^1]: Java Development Kit (Java 개발 환경), Java Runtime Environment (JRE, Java 실행 환경) 을 포함하고 있으며, Plazma 에서는 JDK 에서만 제공되는 일부 기능을 이용하고 있으므로 JDK 설치를 필요로 합니다.
 
 [^2]: Plazma se basis Papier is gegrond op Spigot, wat op sy beurt op die amptelike bediener platform gebaseer is.
 
