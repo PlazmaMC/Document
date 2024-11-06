@@ -2,4 +2,4 @@
 description: Sužinokite, ką reiškia kiekvienas plazma-world.yml mazgas.
 ---
 
-# ✨ Pliasma (pasaulio sudėtis)
+# 🏳️ 세계별 구성
