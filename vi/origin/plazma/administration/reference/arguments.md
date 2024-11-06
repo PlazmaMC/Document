@@ -15,18 +15,16 @@ Bắt đầu và thuộc tính hệ thống là các giá trị được thêm v
 Thuộc tính hệ thống được nhập trước `-jar` và được xử lý trong JVM trước khi Plazma khởi tạo.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**Khi chỉnh sửa thuộc tính hệ thống, cách hoạt động của Plazma và JVM có thể thay đổi, ảnh hưởng lớn đến trò chơi!**
-
-Nếu không chắc chắn về vai trò của mỗi thuộc tính hệ thống, **đừng bao giờ sử dụng!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Cách sử dụng <a href="#id-1.1" id="id-1.1"></a>
 
 Thuộc tính hệ thống được nhập như một đối số lệnh Java giữa `java` và `-jar`.
 
-Ví dụ, nếu bạn muốn áp dụng thuộc tính hệ thống `Plazma.dummyProperty`, khi nhập như sau, giá trị `37` sẽ được nhập vào thuộc tính tiếp theo và Plazma sẽ được khởi tạo.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -37,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정](#user-content-fn-3)[^3]됩니다.
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**Nền tảng máy chủ dòng Paperweight sử dụng dấu `.` trong tên thuộc tính để phân biệt từng nền tảng.**
-
-Windows Powershell 등 일부 터미널에서는 이러한 매개변수를 허용하지 않을 수 있으므로, 매개변수 양 끝에 `"`를 [추가해야](#user-content-fn-4)[^4] 합니다.
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Toàn bộ thuộc tính hệ thống <a href="#id-1.2" id="id-1.2"></a>
@@ -82,11 +78,9 @@ Vô hiệu hóa hệ thống cảnh báo Watchdog của Spigot.
 Vô hiệu hóa thông báo xác nhận lệnh `/reload`.
 
 {% hint style="danger" %}
-
-**Lệnh `/reload` rất không ổn định, vì vậy, mọi vấn đề xảy ra sau khi sử dụng `/reload` là trách nhiệm của người dùng.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Nếu bạn là nhà phát triển plugin và cần phải cập nhật plugin, hãy sử dụng hotswap thay vì `/reload`.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -131,7 +125,7 @@ Nhật ký này sẽ ghi lại tất cả các hồ sơ đầu mạc không hợ
 - **Loại**: `Boolean`
 - **Giá trị mặc định**: `False`
 
-플레이어당 적용되는 128개의 플러그인 [채널](#user-content-fn-5)[^5]의 개수 제한을 비활성화 합니다.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -151,14 +145,14 @@ Vô hiệu hóa hệ thống gộp nén flush của Netty.
 
 #### `Paper.excessiveTELimit`
 
-- **Loại**: `Integer`
+- **형태**: `Integer`
 - **Giá trị mặc định**: `750`
 
 Nếu số thực thể vượt quá giá trị được đặt, chúng sẽ được chia thành các gói tin đa phần và gửi đi.
 
 #### `Paper.filterThreshold`
 
-- **Loại**: `Integer`
+- **형태**: `Integer`
 - **Giá trị mặc định**: `8192`
 
 Thiết lập kích thước tối đa của gói tin mà máy chủ có thể nhận được trong một lần.
@@ -171,32 +165,30 @@ Thiết lập kích thước tối đa của gói tin mà máy chủ có thể n
 Vô hiệu hóa kiểm tra phiên bản Java.
 
 {% hint style="danger" %}
-
-**Như vậy, JVM có thể cố gắng truy cập vào mã không tồn tại!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 Có thể dẫn đến hỏng toàn bộ tệp trong thế giới và làm hỏng cơ chế trò chơi.
 
 Mọi vấn đề phát sinh từ việc này là trách nhiệm của bạn và Plamza sẽ không hỗ trợ bất kỳ vấn đề nào liên quan.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Loại**: `Integer`
+- **형태**: `Integer`
 - **Giá trị mặc định**: `64`
 
-Thiết lập hạn chế cho tên [kênh](#user-content-fn-6)[^6] của plugin.
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Loại**: `Integer`
+- **형태**: `Integer`
 - **Giá trị mặc định**: `80`
 
 Thiết lập độ dài tối đa của mỗi dòng trên biển báo.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Loại**: `Integer`
+- **형태**: `Integer`
 - **Giá trị mặc định**: `(phiên bản thế giới) + 1`
 
 Thiết lập phiên bản thông tin cập nhật thế giới cần khởi tạo trước hết.
@@ -212,12 +204,12 @@ Kích hoạt xử lý chú thích trong tệp YAML mặc định.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Loại**: `Integer`
+- **형태**: `Integer`
 - **Giá trị mặc định**: `30`
 
 Khi không nhận được bất kỳ dữ liệu nào từ người chơi trong thời gian được chỉ định (giây), máy chủ sẽ đuổi người chơi.
 
-일반적인 경우, [게임](#user-content-fn-7)[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -295,7 +287,7 @@ Khi sử dụng tệp thực thi mặc định, chỉ áp dụng bản vá mà k
 - **Loại**: `Boolean`
 - **Giá trị mặc định**: `false`
 
-Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을 억제합니다.
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -311,19 +303,15 @@ Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사
 - **충돌**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
 **해당 속성은 아직 개발중입니다.**
-
 {% endhint %}
 
 {% hint style="danger" %}
-
 **해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
 
 해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
-
 {% endhint %}
 
 초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
@@ -339,15 +327,12 @@ Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사
 - **충돌**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
 **해당 속성은 아직 개발중입니다.**
-
 {% endhint %}
 
 초기 구성을 바닐라에 가깝게 설정합니다.
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Thuộc tính đã bị ngưng sử dụng <a href="#id-1.3" id="id-1.3"></a>
 
@@ -387,21 +372,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Bí danh**: `b`
 - **Giá trị mặc định**: `bukkit.yml`
 
-Đặt tên và vị trí của [Tệp cấu hình Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Bí danh**: `c`
 - **Giá trị mặc định**: `commands.yml`
 
-Đặt tên và vị trí của [Tệp cấu hình lệnh Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Bí danh**: `c`
 - **Giá trị mặc định**: `server.properties`
 
-Đặt tên và vị trí của tệp [Thuộc tính máy chủ](../reference/configurations/property.md).
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -413,7 +398,7 @@ Xóa tệp cache còn lại sau nâng cấp thế giới.
 
 #### `forceUpgrade`
 
-Bỏ qua phiên bản và bắt buộc nâng cấp thế giới [^12].
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -434,7 +419,7 @@ Kích hoạt hồ sơ JFR.
 - **Bí danh**: `s`, `size`
 - **Giá trị mặc định**: `(Thuộc tính máy chủ)`
 
-Thiết lập số lượng [người chơi](#user-content-fn-14)[^14] tối đa được phép.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -451,7 +436,7 @@ Vô hiệu hóa bảng điều khiển giao diện đồ họa.
 
 Mojang 인증 서버에서 플레이어를 인증할지 선택합니다.
 
-**Velocity 또는 기타 프록시를 사용하지 않는 경우 [EULA](../getting-started/README.md#id-5) 위반으로 처벌될 수 있습니다.**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -459,9 +444,7 @@ Mojang 인증 서버에서 플레이어를 인증할지 선택합니다.
 - **기본값**: `paper.yml`
 
 {% hint style="warning" %}
-
-**Đối số này đã bị ngưng sử dụng từ phiên bản 1.19.4 trở đi**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다.
@@ -473,13 +456,13 @@ Mojang 인증 서버에서 플레이어를 인증할지 선택합니다.
 - **별칭**: `paper-dir`
 - **기본값**: `config`
 
-[Paper 구성 파일](../reference/configurations/paper/README.md)이 위치하는 폴더의 이름과 위치를 설정합니다.
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **별칭**: `plazma-dir`
 
-[Plazma 구성 파일](../reference/configurations/plazma/README.md)이 위치하는 폴더의 이름과 위치를 설정합니다.
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -493,14 +476,14 @@ Mojang 인증 서버에서 플레이어를 인증할지 선택합니다.
 - **별칭**: `pufferfish`
 - **기본값**: `pufferfish.yml`
 
-[Pufferfish 구성 파일](../reference/configurations/pufferfish.md)의 이름과 위치를 설정합니다.
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **별칭**: `purpur`
 - **기본값**: `purpur.yml`
 
-[Purpur 구성 파일](../reference/configurations/purpur/README.md)의 이름과 위치를 설정합니다.
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -511,7 +494,7 @@ Mojang 인증 서버에서 플레이어를 인증할지 선택합니다.
 - **별칭**: `h`, `host`
 - **Giá trị mặc định**: `(Thuộc tính máy chủ)`
 
-서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-13)[^13] 주소를 설정합니다.
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -531,7 +514,7 @@ Mojang 인증 서버에서 플레이어를 인증할지 선택합니다.
 - **별칭**: `S`
 - **기본값**: `spigot.yml`
 
-[Spigot 구성 파일](../reference/configurations/spigot.md)의 이름과 위치를 설정합니다.
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -579,6 +562,6 @@ Plazma 버전을 표시합니다.
 
 [^12]: 게임에서 `월드 최적화`도 이와 같은 원리로 작동합니다.
 
-[^13]: 인터넷 프로토콜, IP.
+[^13]: `레벨 2` 이상의 관리자는 제외합니다.
 
-[^14]: `레벨 2` 이상의 관리자는 제외합니다.
+[^14]: 인터넷 프로토콜, IP.
