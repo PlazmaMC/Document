@@ -2,4 +2,4 @@
 description: Descubra o que cada nó em purpur.yml significa.
 ---
 
-# 🦑 Purpur (composição global)
+# 🌏 전역 구성
