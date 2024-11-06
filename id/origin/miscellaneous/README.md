@@ -1,1 +1,5 @@
-# 🧾 Beragam
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
