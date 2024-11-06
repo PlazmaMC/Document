@@ -2,18 +2,16 @@
 description: Scopri i metodi di personalizzazione di base offerti da Plazma.
 ---
 
-# ⏬ Riferimento
+# 📜 리퍼런스
 
 Plazma offre vari metodi di personalizzazione.
 
 Tra questi, ci sono 4 metodi di personalizzazione che possono essere utilizzati immediatamente senza ulteriori operazioni.
 
 {% hint style="info" %}
-
-**Non è possibile risolvere il problema attraverso il manuale?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Server Discord ufficiale](https://discord.gg/MmfC52K8A8) o [Discussioni su GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) per fare domande alla community!
-
 {% endhint %}
 
 ***
