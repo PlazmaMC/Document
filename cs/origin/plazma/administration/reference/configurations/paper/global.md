@@ -2,4 +2,4 @@
 description: Zjistěte, co znamená každý uzel v paper-global.yml.
 ---
 
-# 🛩️ Paper (globální konfigurace)
+# 🌏 전역 구성
