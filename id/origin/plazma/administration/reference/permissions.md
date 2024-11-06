@@ -14,18 +14,18 @@ Untuk memanfaatkan izin dengan baik dan mudah diubah, Anda harus menggunakan plu
 
 Minecraft menyediakan grup izin administrasi dasar.
 
-Anda dapat mengatur izin [Administrator](#user-content-fn-1)[^1] dan blok perintah, serta dapat mengubahnya di [konfigurasi server](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Pemain**\
+1. **Pemain**\
    Grup izin yang diberikan kepada semua pemain secara umum.
-1. **Mediator**\
+2. **Mediator**\
    Dapat mengabaikan perlindungan spawn.
-2. **Pengelola Dunia**\
+3. **Pengelola Dunia**\
    Dapat menggunakan semua perintah dan blok perintah terkait pengelolaan dunia.\
    Grup izin yang secara default diterapkan pada data paket dan blok perintah.
-3. **Administrator**\
+4. **Administrator**\
    Dapat menggunakan semua perintah terkait manajemen pemain.
-4. **Super Administrator**\
+5. **Super Administrator**\
    Dapat menggunakan semua perintah termasuk manajemen server.\
    Grup izin yang diterapkan secara default pada konsol dan administrator.
 
@@ -50,9 +50,7 @@ Ketika menaiki entitas, pemain dapat mengendalikan gerakan entitas dengan tombol
 `(Namespaced Key)` adalah ID Namespaced entitas yang dimasukkan.
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Purpur](configurations/purpur/world.md) hanya berfungsi jika `(Entity) > ridable` diaktifkan.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ Memungkinkan pemain menggunakan keterampilan khusus entitas saat menaiki entitas
 Tidak semua keterampilan khusus entitas dapat digunakan. Lihat di bawah untuk daftar lengkap keterampilan khusus yang tersedia.
 
 {% hint style="info" %}
-
-**Punya ide bagus untuk keterampilan khusus?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Silakan posting ide Anda di [Plazma Discord](https://plazmamc.org/discord) atau [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Silakan posting ide Anda di [Plazma Discord](https://plazmamc.org/discord) atau 
 </details>
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Purpur](configurations/purpur/world.md) hanya berfungsi jika `(Entity) > ridable` diaktifkan.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Menambahkan `.other` setelah nama izin memungkinkan penggunaan oleh pemain lain.
 Memungkinkan penggunaan perintah [`/timings`](commands.md#timings).
 
 {% hint style="warning" %}
-
-**Perintah ini telah dihentikan.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Untuk informasi tentang perintah serupa, lihat [Spark](https://spark.lucko.me/docs/Command-Usage).
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,8 +181,7 @@ Menambahkan `.other` setelah nama izin memungkinkan penggunaan oleh pemain lain.
 
 - **Bawaan**: `None`
 
-Ketika [Pemblokiran X-Ray](../expert/xray.md) diaktifkan,
-pemain yang memiliki izin tidak akan mengaburkan blok untuk melindungi dari X-Ray.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Ini akan meningkatkan kinerja untuk kedua belah pihak.
 
@@ -205,33 +196,27 @@ Ini akan meningkatkan kinerja untuk kedua belah pihak.
 - **Bawaan**: `None`
 
 {% hint style="warning" %}
-
-Izin ini akan diubah menjadi `plazma.bypass.watchdog` pada 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Bawaan**: `None`
 
-Memungkinkan penggunaan [kode warna](https://minecraft.wiki/w/Formatting_codes#Color_codes) pada landasan.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Purpur](configurations/purpur/world.md) hanya berfungsi jika `anvil > allow-colors` diaktifkan.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Bawaan**: `None`
 
-Memungkinkan penggunaan [kode gaya](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) pada landasan.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Purpur](configurations/purpur/world.md) hanya berfungsi jika `anvil > allow-colors` diaktifkan.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -241,28 +226,24 @@ Memungkinkan penggunaan [kode gaya](https://minecraft.wiki/w/Formatting_codes#Fo
 Memungkinkan penggunaan tag [MiniMessage](https://docs.advntr.dev/minimessage/format.html) pada landasan.
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Purpur](configurations/purpur/world.md) hanya berfungsi jika `anvil > allow-minimessages` diaktifkan.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Bawaan**: `None`
 
-Memungkinkan nonaktifkan `teks miring` pada landasan menggunakan kode gaya `&r`.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Purpur](configurations/purpur/world.md) hanya berfungsi jika `anvil > allow-colors` diaktifkan.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Bawaan**: `None`
 
-Memungkinkan penerapan [kode gaya](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) saat pemain menandatangani buku.
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -285,9 +266,7 @@ Akan tidak berfungsi tanpa izin untuk mode permainan tersebut.
 Jika menambang blok spawner dengan item yang dikonfigurasi, blok spawner akan jatuh.
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Purpur](configurations/purpur/world.md) hanya berfungsi jika `gameplay-mechanics > silk-touch` diaktifkan.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -299,9 +278,7 @@ Mengubah ukuran ender chest.
 Anda dapat memasukkan `one`, `two`, `three`, `four`, `five`, `six` ke dalam `(NumberString)`.
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Purpur](configurations/purpur/world.md) hanya berfungsi jika `ender_chest > six-rows` dan `ender_chest > use-permissions-for-rows` diaktifkan.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -311,9 +288,7 @@ Anda dapat memasukkan `one`, `two`, `three`, `four`, `five`, `six` ke dalam `(Nu
 Memungkinkan totem abadi berfungsi meskipun berada di inventaris.
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Purpur](configurations/purpur/world.md) hanya berfungsi jika `totem-of-undying-works-in-inventory` diaktifkan.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -329,9 +304,7 @@ Memungkinkan pemain untuk mengabaikan batasan jumlah pengguna yang terhubung.
 Memungkinkan pemain untuk memperbaiki item yang dipegang saat `menunduk dan berinteraksi`.
 
 {% hint style="info" %}
-
-**Anda harus mengaktifkan `shift-right-click-repairs-mending-points` di **[Konfigurasi Dunia Purpur](configurations/purpur/world.md)** agar ini berfungsi.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -341,9 +314,7 @@ Memungkinkan pemain untuk memperbaiki item yang dipegang saat `menunduk dan beri
 Memungkinkan pemain untuk memasang pembuat spawner.
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Purpur](configurations/purpur/world.md) hanya berfungsi jika `gameplay-mechanics > silk-touch` diaktifkan.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -356,12 +327,10 @@ Memungkinkan pemain untuk langsung teleportasi saat menggunakan portal Nether.
 
 - **Bawaan**: `None`
 
-Memungkinkan penggunaan [kode warna](https://minecraft.wiki/w/Formatting_codes#Color_codes) pada tanda.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-\*\*Untuk berfungsi, aktifkan `sign > allow-colors` di **[Konfigurasi Dunia Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -371,21 +340,17 @@ Memungkinkan penggunaan [kode warna](https://minecraft.wiki/w/Formatting_codes#C
 Memungkinkan penggunaan kode enkripsi pada papan nama`(&o)`.
 
 {% hint style="info" %}
-
-\*\*Untuk berfungsi, aktifkan `sign > allow-colors` di **[Konfigurasi Dunia Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Bawaan**: `None`
 
-Memungkinkan penggunaan [kode pemformatan `(&o excluded)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) pada papan nama.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-\*\*Untuk berfungsi, aktifkan `sign > allow-colors` di **[Konfigurasi Dunia Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -395,9 +360,7 @@ Memungkinkan penggunaan [kode pemformatan `(&o excluded)`](https://minecraft.wik
 Memungkinkan pemain untuk mencegah ledakan TNT dengan `interaksi saling` menggunakan gunting.
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Purpur](konfigurasi/purpur/dunia.md) harus memiliki `defuse-tnt-change` setidaknya `0.0` agar berfungsi.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Hak akses yang akan datang
@@ -409,9 +372,7 @@ Memungkinkan pemain untuk mencegah ledakan TNT dengan `interaksi saling` menggun
 Memungkinkan pemain untuk bergabung tanpa harus menginstal mod [`NoChatReports`](https://modrinth.com/mod/no-chat-reports).
 
 {% hint style="info" %}
-
-**[Konfigurasi Dunia Plazma](konfigurasi/plazma/dunia.md) harus mengaktifkan `no-chat-reports > require-install` agar berfungsi.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
