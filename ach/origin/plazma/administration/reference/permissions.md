@@ -14,18 +14,18 @@ Lok ma kwo ne pi kwede, kicoyo kicoyo ka [LuckPerms](https://luckperms.net) ki d
 
 Minecraft ma kwo ne pi kwede iye kwede ma pwonye i kwo tic.
 
-[Lok me iye](#user-content-fn-1)[^1] ki dong i kwo tic ma lok me [server](configurations/property.md) ma iye kwede.
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Player**\
+1. **Player**\
    Kicoyo pa player me cok i kwo tic.
-1. **Mediator**\
+2. **Mediator**\
    Kicoyo pa kwo di gang me opwonyo.
-2. **Lok me iye**\
+3. **Lok me iye**\
    Kicoyo pa iye me kwo tic ma iye me [command block](configurations/property.md) ki dong i kwo tic.\
    Kicoyo pa data pack ma command block iye kwede me kwede i kwo tic.
-3. **Admin**\
+4. **Admin**\
    Kicoyo pa player me cok ma iye me [command](configurations/property.md) ki dong i kwo tic.
-4. **Admin mukene**\
+5. **Admin mukene**\
    Kicoyo pa lok me server ki dong i kwo tic ma iye me [command](configurations/property.md) ki dong i kwo tic.\
    Kicoyo pa console mukene opwonyo me kwo tic.
 
@@ -50,9 +50,7 @@ Entiti me kwo coko, player mukene `kwo kwo` ki entiti me kwo coko ma, `kwo jump`
 `(Namespaced Key)` ma entiti me [Namespaced ID](#user-content-fn-2)[^2] ki waco.
 
 {% hint style="info" %}
-
-**[Purpur kwede iye](configurations/purpur/world.md) me `(Entity) > ridable` ki gengo ma cok i kwo tic.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ Player mukene entiti me kwo coko, entiti me kwo tic me kwo tic ki dong i kwo tic
 Entiti me kwo coko mape kwo tic ki dong. Kwede iye kwede entiti me kwo tic ki gengo i kom.
 
 {% hint style="info" %}
-
-**Kwo tic ki gengo i kom meywe pe?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 [Plazma Discord](https://plazmamc.org/discord) wacel [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions) ki dong i kwo tic!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Entiti me kwo coko mape kwo tic ki dong. Kwede iye kwede entiti me kwo tic ki ge
 </details>
 
 {% hint style="info" %}
-
-**[Purpur kwede iye](configurations/purpur/world.md) me `(Entity) > ridable` ki gengo ma cok i kwo tic.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Kwede iye kwede `.other` wacel pe kwo tic iye kwede player mukene ki dong i kwo 
 [`/timings` command](commands.md#timings) ki dong i kwo tic.
 
 {% hint style="warning" %}
-
-**Lok me iye mukene kwede i kwo tic.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Kwede iye ki dong ma kwo tic ki gengo, wacel [Spark](https://spark.lucko.me/docs/Command-Usage) ki dong i kwo tic.
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,8 +181,7 @@ Kwede iye kwede `.other` wacel pe kwo tic iye kwede player mukene ki dong i kwo 
 
 - **Lok me iye**: `pek`
 
-[X-Ray pek](../expert/xray.md) ki mukene, wacel
-kwo tic mukene player me pek i kwo tic, X-Ray pek ki dong ma kwo tic.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Kwo tic ma iye me kwo tic iye kwede i kwo tic.
 
@@ -205,33 +196,27 @@ Kwo tic ma iye me kwo tic iye kwede i kwo tic.
 - **Lok me iye**: `pek`
 
 {% hint style="warning" %}
-
-Kwo tic mukene 1.20.5 me `plazma.bypass.watchdog` wacel pek i kwo tic.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Lok me iye**: `pek`
 
-Moru ma [color code](https://minecraft.wiki/w/Formatting_codes#Color_codes) ki mukene.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur kwede iye](configurations/purpur/world.md) me `anvil > allow-colors` wacel pek i kwo tic.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Lok me iye**: `pek`
 
-Moru ma [styling code](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) ki mukene.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur kwede iye](configurations/purpur/world.md) me `anvil > allow-colors` wacel pek i kwo tic.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -241,28 +226,24 @@ Moru ma [styling code](https://minecraft.wiki/w/Formatting_codes#Formatting_code
 Moru ma [MiniMessage tag](https://docs.advntr.dev/minimessage/format.html) ki mukene.
 
 {% hint style="info" %}
-
-**[Purpur kwede iye](configurations/purpur/world.md) me `anvil > allow-minimessages` wacel pek i kwo tic.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Lok me iye**: `pek`
 
-Moru ma [`&r` styling code](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) ki mukene `italic` ki dong ma kwo tic.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur kwede iye](configurations/purpur/world.md) me `anvil > allow-colors` wacel pek i kwo tic.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Lok me iye**: `pek`
 
-Player mukene buk me cok, [styling code](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) ki dong ma kwo tic.
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -285,9 +266,7 @@ Kwo tic mukene kwede iye ki dong ma kwo tic.
 Gengo wacel waco item ma iye kwo coko, item ma iye kwo tic ki dong i kwo tic.
 
 {% hint style="info" %}
-
-**[Purpur kwede iye](configurations/purpur/world.md) me `gameplay-mechanics > silk-touch` wacel pek i kwo tic.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -299,9 +278,7 @@ Ender chest me cok iye kwo tic ki dong.
 `(NumberString)` wacel `one`, `two`, `three`, `four`, `five`, `six` ki waco.
 
 {% hint style="info" %}
-
-**[Purpur kwede iye](configurations/purpur/world.md) me `ender_chest > six-rows` wacel `ender_chest > use-permissions-for-rows` wacel pek i kwo tic.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -311,9 +288,7 @@ Ender chest me cok iye kwo tic ki dong.
 Totem me kwo tic ma iye me kwo tic ki dong i kwo tic.
 
 {% hint style="info" %}
-
-**[Purpur kwede iye](configurations/purpur/world.md) me `totem-of-undying-works-in-inventory` wacel pek i kwo tic.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -329,9 +304,7 @@ Kica me kwanyo kwede kacel ma kicel i kare ma en aye.
 Kica me kwanyo kwede 'kwo cwek i cwek' ki kare ma en aye i kare ma en aye.
 
 {% hint style="info" %}
-
-**[Purpur kacel ma en aye](configurations/purpur/world.md) ki 'shift-right-click-repairs-mending-points' obedo i gengo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -341,9 +314,7 @@ Kica me kwanyo kwede 'kwo cwek i cwek' ki kare ma en aye i kare ma en aye.
 Kica me kwanyo kwede kwo gengo ma kwo i kare ma en aye.
 
 {% hint style="info" %}
-
-**[Purpur kwede iye](configurations/purpur/world.md) me `gameplay-mechanics > silk-touch` wacel pek i kwo tic.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -356,12 +327,10 @@ Kica me kwanyo kwede kwo nedi Nether ma kwede kwo kwede i kwede.
 
 - **Lok me iye**: `pek`
 
-표지판에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -371,21 +340,17 @@ Kica me kwanyo kwede kwo nedi Nether ma kwede kwo kwede i kwede.
 표지판에 난독화 코드`(&o)`를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Lok me iye**: `pek`
 
-표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)를 사용할 수 있도록 허용합니다.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -395,9 +360,7 @@ Kica me kwanyo kwede kwo nedi Nether ma kwede kwo kwede i kwede.
 플레이어가 가위로 `상호 작용`하여 TNT 폭발을 막을 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### 제공 예정 권한
@@ -409,9 +372,7 @@ Kica me kwanyo kwede kwo nedi Nether ma kwede kwo kwede i kwede.
 플레이어가 [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) 모드가 설치되어 있지 않아도 접속할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Plazma 세계별 구성](configurations/plazma/world.md)에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
