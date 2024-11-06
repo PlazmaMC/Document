@@ -2,18 +2,16 @@
 description: Plazma'da sağlanan varsayılan kullanıcı özelleştirme yöntemlerini öğrenin.
 ---
 
-# ⏬ Referans
+# 📜 리퍼런스
 
 Plazma, çeşitli kullanıcı özelleştirme yöntemleri sunmaktadır.
 
 Bu yöntemler arasında, ek bir işlem olmadan hemen kullanılabilecek 4 farklı özelleştirme yöntemi bulunmaktadır.
 
 {% hint style="info" %}
-
-**Kılavuzla sorunu çözemiyor musunuz?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 Topluluğa sorular sormak için [Resmi Discord Sunucusu](https://discord.gg/MmfC52K8A8) veya [GitHub Tartışmaları](https://github.com/PlazmaMC/PlazmaBukkit/discussions) üzerinden iletişime geçin!
-
 {% endhint %}
 
 ***
