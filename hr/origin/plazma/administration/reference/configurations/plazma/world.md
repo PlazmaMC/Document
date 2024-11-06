@@ -2,4 +2,4 @@
 description: Pronađite što svaki čvor u plazma-world.yml znači.
 ---
 
-# ✨ Plazma (svjetska struktura)
+# 🏳️ 세계별 구성
