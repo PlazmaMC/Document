@@ -15,19 +15,16 @@ description: 開始引数とシステム属性について調べてください�
 システム属性は`-jar`の前に入力され、Plazmaが初期化される前にJVMで処理される値です。
 
 {% hint style="warning" %}
-
 **시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **絶対に使用しないでください!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### 使用方法 <a href="#id-1.1" id="id-1.1"></a>
 
 システム属性は`java`と`-jar`の間にJavaコマンド引数として入力されます。
 
-例えば、`Plazma.dummyProperty` 시스템 속성を適用しようとする場合、
-次のように入力すると次のプロパティに`37`が入力され、Plazmaが初期化されます。
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -38,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 属性に何の値も入力しない場合、値は[`true`で固定](#user-content-fn-3)[^3]されます。
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**Paperweight 계열 서버 プラットフォームは各プラットフォームごとにシステムの属性を区別するため、属性名に `.`を含んでいます。**
-
-Windows Powershellなど一部のターミナルでは、このような引数を許可しないことがあるため、引数の両端に`"`を[追加する](#user-content-fn-4)[^4]必要があります。
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### 全システム属性 <a href="#id-1.2" id="id-1.2"></a>
@@ -84,11 +79,9 @@ SpigotのWatchdog警告システムを無効化します。
 `/reload`コマンドの再確認メッセージを無効化します。
 
 {% hint style="danger" %}
-
-**`/reload` コマンドは非常に不安定なので、`/reload` 使用後に発生するサーバー内のすべての問題はユーザー自身にあります。**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 プラグイン開発者でプラグインを更新する必要がある場合は、`/reload`の代わりにホットスワップを使用してください。
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -133,7 +126,7 @@ NBTオブジェクトで欠落したキーに関するデバッグログを有�
 - **形式**: `Boolean`
 - **デフォルト値**: `False`
 
-プレイヤーごとに適用される128個のプラグイン [チャネル](#user-content-fn-5)[^5]の数制限を無効にします。
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -153,14 +146,14 @@ Nettyフラッシュ統合システムを無効にします。
 
 #### `Paper.excessiveTELimit`
 
-- **形式**: `Integer`
+- **형태**: `Integer`
 - **デフォルト値**: `750`
 
 エンティティが設定された値より多い場合は、複数パケットに分割して送信します。
 
 #### `Paper.filterThreshold`
 
-- **形式**: `Integer`
+- **형태**: `Integer`
 - **デフォルト値**: `8192`
 
 サーバーが一度に受け取ることができる最大パケットのサイズを設定します。
@@ -173,32 +166,30 @@ Nettyフラッシュ統合システムを無効にします。
 Javaバージョンの確認を無効にします。
 
 {% hint style="danger" %}
-
-**このようにすると、JVMが存在しないコードにアクセスしようとすることがあります!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 ワールドなど全体のファイルが永続的に破損する可能性があり、ゲームの全体的なメカニズムが破壊されます。
 
 これを使用して発生したすべての問題はユーザーが責任を負い、Plamzaはこれに関するいかなるサポートも提供しません。
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **形式**: `Integer`
+- **형태**: `Integer`
 - **デフォルト値**: `64`
 
-プラグイン[チャネル](#user-content-fn-6)[^6]名の制限を設定します。
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **形式**: `Integer`
+- **형태**: `Integer`
 - **デフォルト値**: `80`
 
 看板の1行に入力できる文字の最大長を設定します。
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **形式**: `Integer`
+- **형태**: `Integer`
 - **デフォルト値**: `(ワールドバージョン) + 1`
 
 最初に初期化するワールド更新情報のバージョンを設定します。
@@ -214,12 +205,12 @@ YAMLファイルのコメントの処理を有効にします。
 
 #### `Paper.playerConnection.keepAlive`
 
-- **形式**: `Integer`
+- **형태**: `Integer`
 - **デフォルト値**: `30`
 
 プレイヤーから入力された値(秒)だけデータを受信しなかった場合、プレイヤーを追放します。
 
-一般的に、[ゲーム](#user-content-fn-7)[^7]はサーバーに引き続き[ハートビート信号](#user-content-fn-8)[^8]を送信するため、[追放されないが、](#user-content-fn-9)[^9]ゲームが応答しない場合、ゲームはクラッシュしたと見なされ、サーバーでもプレイヤーを処理せずに追放します。
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -297,7 +288,7 @@ Minecraftの[デフォルトチャンク作成システム](#user-content-fn-10)
 - **形式**: `Boolean`
 - **デフォルト値**: `false`
 
-Plazmaが初期化される際に表示される[警告文](#user-content-fn-11)[^11]を抑制します。
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -313,19 +304,15 @@ Plazmaのブランディングを非アクティブ化し、バニラのデフ�
 - **衝突**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**このプロパティはまだ開発中です。**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**このプロパティはパッチされたすべての脆弱性を元に戻します！**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 これはサーバーの安全性とパフォーマンスに大きく影響を与える可能性があります。
 
 このプロパティを使用して発生するすべての問題はサーバー管理者にあります。
-
 {% endhint %}
 
 初期構成をMojangが提供するデフォルト値で提供します。
@@ -341,14 +328,12 @@ Plazmaのブランディングを非アクティブ化し、バニラのデフ�
 - **衝突**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**このプロパティはまだ開発中です。**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 初期構成をバニラに近づけます。
 
-これは基本的にサーバーパフォーマンスおよび安全に影響を与えない程度にのみ適用され、`Plazma.disableConfigOptimization` プロパティを使用する場合はバニラのデフォルト値を使用するよう構成されます。
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### 廃止された属性 <a href="#id-1.3" id="id-1.3"></a>
 
@@ -388,21 +373,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **エイリアス**: `b`
 - **デフォルト**: `bukkit.yml`
 
-[Bukkit構成ファイル](../reference/configurations/bukkit.md)の名前と位置を設定します。
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **エイリアス**: `c`
 - **デフォルト**: `commands.yml`
 
-[Bukkitコマンド構成ファイル](../reference/configurations/bukkit.md)の名前と位置を設定します。
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **エイリアス**: `c`
 - **デフォルト**: `server.properties`
 
-[サーバー属性](../reference/configurations/property.md)ファイルの名前と位置を設定します。
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -414,7 +399,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 #### `forceUpgrade`
 
-バージョンを無視してワールドを強制的に[アップグレード](#user-content-fn-12)[^12]します。
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -435,7 +420,7 @@ JFRプロファイリングを有効化します。
 - **エイリアス**: `s`, `size`
 - **デフォルト**: `(サーバー属性)`
 
-許容される最大[プレイヤー](#user-content-fn-14)[^14]数を設定します。
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -452,7 +437,7 @@ JLine을 비활성화 하고 바닐라 콘솔을使用します。
 
 Mojang 인증 서버로 플레이어를 검증할지 선택します。
 
-**Velocity 등 프록시를 사용하는 것이 아닌 경우 [EULA](../getting-started/README.md#id-5) 위반으로 제재될 수 있습니다.**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -460,9 +445,7 @@ Mojang 인증 서버로 플레이어를 검증할지 선택します。
 - **기본值**: `paper.yml`
 
 {% hint style="warning" %}
-
-**この引数は1.19.4以降の使用が中止されました**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다。
@@ -474,13 +457,13 @@ Mojang 인증 서버로 플레이어를 검증할지 선택します。
 - **별칭**: `paper-dir`
 - **기본值**: `config`
 
-[Paper 구성 파일](../reference/configurations/paper/README.md)が位置するフォルダの名前と位置を設定します。
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **별칭**: `plazma-dir`
 
-[Plazma 구성 파일](../reference/configurations/plazma/README.md)が位置するフォルダの名前と位置を設定します。
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -494,14 +477,14 @@ Mojang 인증 서버로 플레이어를 검증할지 선택します。
 - **별칭**: `pufferfish`
 - **기본值**: `pufferfish.yml`
 
-[Pufferfish 구성 파일](../reference/configurations/pufferfish.md)の名前と位置を設定します。
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **별칭**: `purpur`
 - **기본値**: `purpur.yml`
 
-[Purpur 구성 파일](../reference/configurations/purpur/README.md)の名前と位置を設定します。
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -512,7 +495,7 @@ Mojang 인증 서버로 플레이어를 검증할지 선택します。
 - **별칭**: `h`, `host`
 - **デフォルト**: `(サーバー属性)`
 
-サーバーのホスト名または[インターネットプロトコル](#user-content-fn-13)[^13]アドレスを設定します。
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -532,7 +515,7 @@ Mojang 인증 서버로 플레이어를 검증할지 선택します。
 - **별칭**: `S`
 - **基本値**: `spigot.yml`
 
-[Spigot構成ファイル](../reference/configurations/spigot.md)の名前と位置を設定します。
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -580,6 +563,6 @@ Plazmaバージョンを出力します。
 
 [^12]: ゲームで`ワールド最適化`も同じ原理で動作します。
 
-[^13]: Internet Protocol, IP。
+[^13]: `レベル 2`以上の管理者は除外します。
 
-[^14]: `レベル 2`以上の管理者は除外します。
+[^14]: Internet Protocol, IP。
