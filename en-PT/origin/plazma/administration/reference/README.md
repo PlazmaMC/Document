@@ -2,18 +2,16 @@
 description: Discover the ways to customize provided by Plazma, ye scallywag!
 ---
 
-# ⏬ Reference
+# 📜 리퍼런스
 
 Plazma be offerin' various ways to customize, me hearties.
 
 Among them, these 4 ways be ready to use without any additional work needed, arrr!
 
 {% hint style="info" %}
-
-**Can ye not solve th' problem through th' manual?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Official Discord ship](https://discord.gg/MmfC52K8A8) or [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions) be askin' questions to the crew through the community!
-
 {% endhint %}
 
 ***
