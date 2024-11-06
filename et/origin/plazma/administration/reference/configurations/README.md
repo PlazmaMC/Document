@@ -2,14 +2,13 @@
 description: Konfiguratsioon on kõige põhilisem viis Plazma kohandamiseks.
 ---
 
-# 📋 Koost
+# 🧾 구성
 
 ***
 
 ## 🪨 Omadus <a href="#id-1" id="id-1"></a>
 
-> Omadus on Minecraftis pakutav kõige põhilisem konfiguratsioonifail.
-> Omaduste abil saab muuta mängu põhilisi mehhanisme.
+> Omadus on Minecraftis pakutav kõige põhilisem konfiguratsioonifail. Omaduste abil saab muuta mängu põhilisi mehhanisme.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Konfiguratsioon on kõige põhilisem viis Plazma kohandamiseks.
 
 ## 🪣 Bukkiti konfiguratsioon <a href="#id-2" id="id-2"></a>
 
-> Bukkiti konfiguratsioon on Plazmas pakutav kõige põhilisem konfiguratsioonifail.
-> Bukkiti konfiguratsiooni abil saab muuta Minecrafti serveri põhilisi mehhanisme.
+> Bukkiti konfiguratsioon on Plazmas pakutav kõige põhilisem konfiguratsioonifail. Bukkiti konfiguratsiooni abil saab muuta Minecrafti serveri põhilisi mehhanisme.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Konfiguratsioon on kõige põhilisem viis Plazma kohandamiseks.
 
 ## 🛩️ Paperi konfiguratsioon <a href="#id-4" id="id-4"></a>
 
-> Paperi konfiguratsioon võimaldab muuta Plazma üldist mehhanismi ning aktiveerida [mitmesuguseid optimeerimisi ja haavatavuste parandusi](#user-content-fn-1)[^1].
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
