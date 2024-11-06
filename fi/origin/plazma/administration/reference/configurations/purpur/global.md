@@ -2,4 +2,4 @@
 description: Selvitä, mitä jokainen purpur.yml-tiedoston solmu tarkoittaa.
 ---
 
-# 🦑 Purpur (kokonaisuus)
+# 🌏 전역 구성
