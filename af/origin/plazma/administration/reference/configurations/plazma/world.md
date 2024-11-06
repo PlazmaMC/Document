@@ -2,4 +2,4 @@
 description: Verstaan wat elke node in plazma-world.yml beteken.
 ---
 
-# ✨ Plazma (Wêreldwye samestelling)
+# 🏳️ 세계별 구성
