@@ -2,14 +2,13 @@
 description: Configuratie is de meest fundamentele manier om Plazma aan te passen.
 ---
 
-# 📋 Configuratie
+# 🧾 구성
 
 ***
 
 ## 🪨 Eigenschap <a href="#id-1" id="id-1"></a>
 
-> Eigenschap is het meest fundamentele configuratiebestand dat Minecraft biedt.
-> Met eigenschappen kun je de basismechanismen van het spel veranderen.
+> Eigenschap is het meest fundamentele configuratiebestand dat Minecraft biedt. Met eigenschappen kun je de basismechanismen van het spel veranderen.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Configuratie is de meest fundamentele manier om Plazma aan te passe
 
 ## 🪣 Bukkit Configuratie <a href="#id-2" id="id-2"></a>
 
-> Bukkit configuratie is het meest fundamentele configuratiebestand dat Plazma biedt.
-> Met Bukkit configuratie kun je de basismechanismen van een Minecraft-server veranderen.
+> Bukkit configuratie is het meest fundamentele configuratiebestand dat Plazma biedt. Met Bukkit configuratie kun je de basismechanismen van een Minecraft-server veranderen.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Configuratie is de meest fundamentele manier om Plazma aan te passe
 
 ## 🛩️ Paper Configuratie <a href="#id-4" id="id-4"></a>
 
-> Paper configuratie stelt je in staat om de algehele mechanismen van Plazma aan te passen en verschillende optimalisaties en kwetsbaarheden op te lossen.
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
