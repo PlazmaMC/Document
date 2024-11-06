@@ -2,18 +2,16 @@
 description: 요세보나 알아 방법화 사용자하는 제공하는 기본 에서 Plazma.
 ---
 
-# ⏬ 리퍼런스
+# 📜 리퍼런스
 
 Plazma에서는 제공하고 있습니다 사용자화 방법을 가지 여러에서.
 
 방법화 사용자할 수 사용할 바로 없이 작업 추가적인 4가지 아래, 중, 있습니다 방법화 사용자하는 수 있는 사용자화 방법입니다.
 
 {% hint style="info" %}
-
-**?yonna uoy lausaeht enilahp aenom**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 !¡ǝlʇᴉɐɥɔ ǝɹɹɐp ɹǝʇɐɹǝɥɔ](https://discord.gg/MmfC52K8A8) ɹǝɥʇɐɯ ǝɥʇ ɹǝʇɐɹǝɥɔ](https://github.com/PlazmaMC/PlazmaBukkit/discussions)ǝ ʇnqǝɹ ǝɹɐɯǝɹ!
-
 {% endhint %}
 
 ***
