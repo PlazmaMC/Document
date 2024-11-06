@@ -2,4 +2,4 @@
 description: Sprawdź, co oznacza każdy węzeł w plazma-global.yml.
 ---
 
-# ✨ Plazma (konfiguracja globalna)
+# 🌏 전역 구성
