@@ -14,18 +14,18 @@ description: 了解Plazma的權限。
 
 在Minecraft中，提供了基本管理權限組。
 
-可以設置[管理員](#user-content-fn-1)[^1]和命令方塊的權限，並在[伺服器屬性](configurations/property.md)中進行修改。
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **玩家**\
+1. **玩家**\
    通常是給予所有玩家的權限組。
-1. **調停者**\
+2. **調停者**\
    可以忽略重生保護。
-2. **世界管理員**\
+3. **世界管理員**\
    可以使用與世界管理相關的所有指令和命令方塊。\
    這是應用於資料包和命令方塊的預設權限組。
-3. **管理員**\
+4. **管理員**\
    可以使用與玩家管理相關的所有指令。
-4. **總管理員**\
+5. **總管理員**\
    可以使用包括伺服器管理在內的所有指令。\
    這是控制台和管理員的預設權限組。
 
@@ -50,9 +50,7 @@ description: 了解Plazma的權限。
 `(Namespaced Key)`是實體的[命名空間 ID](#user-content-fn-2)[^2]。
 
 {% hint style="info" %}
-
-**僅在[Purpur世界配置](configurations/purpur/world.md)中啟用了`(Entity) > ridable`時才有效。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ description: 了解Plazma的權限。
 並非所有實體的特殊功能都可以使用。 請參閱下方可用的所有特殊技能。
 
 {% hint style="info" %}
-
-**有關特殊技能的好主意嗎？**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 請在[Plazma Discord](https://plazmamc.org/discord)或[GitHub討論](https://github.com/PlazmaMC/PlazmaBukkit/discussions)上發布您的想法！
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ description: 了解Plazma的權限。
 </details>
 
 {% hint style="info" %}
-
-**僅在[Purpur世界配置](configurations/purpur/world.md)中啟用了`(Entity) > ridable`時才有效。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ description: 了解Plazma的權限。
 允許使用[`/timings`指令](commands.md#timings)。
 
 {% hint style="warning" %}
-
-**該指令已停用。**
+**해당 명령어는 사용이 중단되었습니다.**
 
 要了解類似功能的指令，請查看[Spark](https://spark.lucko.me/docs/Command-Usage)。
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,8 +181,7 @@ description: 了解Plazma的權限。
 
 - **預設值**: `無`
 
-當[X射線阻擋](../expert/xray.md)功能啟用時，
-擁有權限的玩家將不會對X射線阻擋方塊進行混淆。
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 這樣雙方都可以獲得性能提升。
 
@@ -205,33 +196,27 @@ description: 了解Plazma的權限。
 - **預設值**: `無`
 
 {% hint style="warning" %}
-
-該權限將在1.20.5中更改為`plazma.bypass.watchdog`。
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **預設值**: `無`
 
-允許在鐵砧上使用[顏色代碼](https://minecraft.wiki/w/Formatting_codes#Color_codes)。
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**僅在[Purpur世界配置](configurations/purpur/world.md)中啟用了`anvil > allow-colors`時才有效。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **預設值**: `無`
 
-允許在鐵砧上使用[樣式代碼](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)。
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**僅在[Purpur世界配置](configurations/purpur/world.md)中啟用了`anvil > allow-colors`時才有效。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -241,28 +226,24 @@ description: 了解Plazma的權限。
 允許在鐵砧上使用[MiniMessage標籤](https://docs.advntr.dev/minimessage/format.html)。
 
 {% hint style="info" %}
-
-**僅在[Purpur世界配置](configurations/purpur/world.md)中啟用了`anvil > allow-minimessages`時才有效。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **預設值**: `無`
 
-允許使用[`&r`樣式代碼](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)來取消`斜體`。
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**僅在[Purpur世界配置](configurations/purpur/world.md)中啟用了`anvil > allow-colors`時才有效。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **預設值**: `無`
 
-當玩家簽署書時應用[樣式代碼](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)。
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -285,9 +266,7 @@ description: 了解Plazma的權限。
 挖掘配置中設置的物品時，將掉落創造蛋。
 
 {% hint style="info" %}
-
-**僅在[Purpur世界配置](configurations/purpur/world.md)中啟用了`gameplay-mechanics > silk-touch`時才有效。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -299,9 +278,7 @@ description: 了解Plazma的權限。
 可以輸入`one`、`two`、`three`、`four`、`five`、`six`到`(NumberString)`。
 
 {% hint style="info" %}
-
-**僅在[Purpur世界配置](configurations/purpur/world.md)中啟用了`ender_chest > six-rows`和`ender_chest > use-permissions-for-rows`時才有效。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -311,9 +288,7 @@ description: 了解Plazma的權限。
 即使擁有不死圖騰，也允許其正常運作。
 
 {% hint style="info" %}
-
-**僅在[Purpur世界配置](configurations/purpur/world.md)中啟用了`totem-of-undying-works-in-inventory`時才有效。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -329,9 +304,7 @@ description: 了解Plazma的權限。
 允許玩家進行`下蹲互動`以修復手持物品。
 
 {% hint style="info" %}
-
-**在[Purpur世界配置](configurations/purpur/world.md)中啟用`shift-right-click-repairs-mending-points`才能正常運作。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -341,9 +314,7 @@ description: 了解Plazma的權限。
 允許玩家放置生成器。
 
 {% hint style="info" %}
-
-**僅在[Purpur世界配置](configurations/purpur/world.md)中啟用了`gameplay-mechanics > silk-touch`時才有效。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -356,12 +327,10 @@ description: 了解Plazma的權限。
 
 - **預設值**: `無`
 
-표지판上可以使用[顏色代碼](https://minecraft.wiki/w/Formatting_codes#Color_codes)。
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**在[Purpur 世界配置](configurations/purpur/world.md)中啟用`sign > allow-colors`才能正常運作。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -371,21 +340,17 @@ description: 了解Plazma的權限。
 允許在標誌上使用難讀碼`(&o)`。
 
 {% hint style="info" %}
-
-**在[Purpur 世界配置](configurations/purpur/world.md)中啟用`sign > allow-colors`才能正常運作。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **預設值**: `無`
 
-允許在標誌上使用[格式代碼 `(&o 除外)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)。
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**在[Purpur 世界配置](configurations/purpur/world.md)中啟用`sign > allow-colors`才能正常運作。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -395,9 +360,7 @@ description: 了解Plazma的權限。
 允許玩家使用剪刀進行`互動`以阻止TNT爆炸。
 
 {% hint style="info" %}
-
-**[Purpur 世界配置](configurations/purpur/world.md)中`defuse-tnt-change`必須大於等於`0.0`才能正常運作。**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### 預定權限
@@ -409,9 +372,7 @@ description: 了解Plazma的權限。
 允許玩家即使未安裝[`NoChatReports`](https://modrinth.com/mod/no-chat-reports)模組也可以登入。
 
 {% hint style="info" %}
-
-**[Plazma 世界配置](configurations/plazma/world.md)必須啟用`no-chat-reports > require-install`才能正常運作。**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
