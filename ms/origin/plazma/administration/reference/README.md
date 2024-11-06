@@ -2,18 +2,16 @@
 description: Ketahui cara penggunaan asas yang disediakan oleh Plazma.
 ---
 
-# ⏬ Rujukan
+# 📜 리퍼런스
 
 Plazma menyediakan pelbagai cara penggunaan.
 
 Antara cara tersebut, terdapat 4 cara penggunaan yang boleh digunakan dengan serta-merta tanpa sebarang kerja tambahan.
 
 {% hint style="info" %}
-
-**Bolehkah anda menyelesaikan masalah melalui manual?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Server Discord rasmi](https://discord.gg/MmfC52K8A8) atau [Perbincangan GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) untuk bertanya kepada komuniti!
-
 {% endhint %}
 
 ***
