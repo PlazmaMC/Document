@@ -15,19 +15,15 @@ description: Ismerje meg, hogy mi is pontosan a Plazma szerver platform.
 
 ## ⚙️ Főbb jellemzők <a href="#id-2" id="id-2"></a>
 
-1. **Erős bővítmény ökoszisztéma**\
-   [Paper](https://github.com/PaperMC/Paper) alapú, így
-   az internetről letölthető legtöbb [legfrissebb bővítmény](#user-content-fn-1)[^1] megfelelően működik.
-2. **Beállítás nélküli optimalizálás**\
-   Az összes [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) patch benne van,
-   néhány saját optimalizálással és beépített módokkal a legjobb teljesítményt nyújtja.
-3. **A játék személyre szabása az Ön igényeinek megfelelően**\
-   A [Purpur](https://github.com/PurpurMC/Purpur) a Plazma részeként lehetővé teszi a játék
-   általános tulajdonságainak módosítását.
-4. **Biztonságosan játszó szerver**\
-   [A chat jelentések nélkül](https://github.com/Aizistral-Studios/No-Chat-Reports) a 1.19-től hozzáadott
-   [Mojang](#user-content-fn-2)[^2] [chat jelentés rendszerének](#user-content-fn-3)[^3] letiltásával,\
-   a diagnosztikai adatgyűjtő teljesen eltávolításával lehetőség van nyomonkövetés nélküli biztonságos szerveren játszani.
+1. **강력한 플러그인 생태계**\
+   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
+2. **설정이 필요 없는 최적화**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
+3. **원하는 대로 사용자화하는 게임**\
+   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며,\
+   진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **Leggyorsabb frissítések**\
    [A Mindig Naprakész](https://github.com/PlazmaMC/AlwaysUpToDate) lehetővé teszi, hogy a Plazma beépített patch-ei mindig naprakészek legyenek, így a Paper alapú szerver platformok közül a leggyorsabb frissítéseket nyújtja.
 6. **Alapvető konfigurációs fájl optimalizálás**\
@@ -36,12 +32,6 @@ description: Ismerje meg, hogy mi is pontosan a Plazma szerver platform.
    Az olyan rendszermechanizmusokat, amelyek nem kapcsolódnak a játék mechanizmusaihoz, aszinkronizáljuk, hogy optimalizáljuk a szerver teljesítményét és csökkentsük a [késleltetési időt](#user-content-fn-4)[^4].
 8. **Felesleges helyhasználat blokkolása**\
    Az azonos értékű adatokat egyesítjük, hogy csökkentsük a memóriahasználatot.
-
-#### Ha többet szeretne megtudni a Plazmáról, látogasson el a következő oldalra: <a href="#etc-1" id="etc-1"></a>
-
-{% content-ref url="patches-list.md" %}
-[patches-list.md](patches-list.md)
-{% endcontent-ref %}
 
 ## ✨ Használati esetek <a href="#id-3" id="id-3"></a>
 
@@ -52,14 +42,12 @@ description: Ismerje meg, hogy mi is pontosan a Plazma szerver platform.
 - **Az RPG szerveren is gyors teljesítményt biztosító platform**\
   Egyetlen klaszterben 100 játékost sikerült stabilan fenntartani TPS csökkenés nélkül,\
   4 klaszterben összesen 250 játékos kellemesen játszhatott.
-- **Fényt mutató chunk/entity platform**\
-  A túlélő szerveren a chunkok és entitások kezelésekor korábban késések jelentkeztek, de a Plazmáról a Purpurra történő váltással sikerült csökkenteni a késéseket.
+- **청크/엔티티에서 빛을 보이는 플랫폼**\
+  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을 Purpur에서 Plazma로 변경하며 대부분의 지연을 줄일 수 있었습니다.
 - **Sok streamer által választott platform**\
   Sok streamer nézői részvételi vödörként választotta és használja.
 
-<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="Valós idejű Plazma felhasználói trendek">
-</a>
+[![실시간 Plazma 사용자 추이](https://badge.plazmamc.org/internal/bstats)](https://bstats.org/plugin/server-implementation/Plazma/18047)
 
 ## ⬇️ Letöltés
 
