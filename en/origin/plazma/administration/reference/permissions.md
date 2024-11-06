@@ -14,18 +14,18 @@ To properly utilize and easily modify permissions, you should use plugins like [
 
 In Minecraft, basic management permission groups are provided.
 
-You can set permissions for [operators](#user-content-fn-1)[^1] and command blocks, and modify them in [server properties](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Player**\
+1. **Player**\
    This is the permission group typically given to all players.
-1. **Mediator**\
+2. **Mediator**\
    Can bypass spawn protection.
-2. **World Administrator**\
+3. **World Administrator**\
    Can use all commands and command blocks related to world management.\
    This is the permission group applied by default to datapacks and command blocks.
-3. **Administrator**\
+4. **Administrator**\
    Can use all commands related to player management.
-4. **Super Administrator**\
+5. **Super Administrator**\
    Can use all commands including server management.\
    This is the permission group applied by default to the console and operators.
 
@@ -50,9 +50,7 @@ When mounted on an entity, players can control the entity's movement with the `m
 The [Namespaced ID](#user-content-fn-2)[^2] of the entity is entered in `(Namespaced Key)`.
 
 {% hint style="info" %}
-
-**Only works if `(Entity) > ridable` is enabled in [Purpur world settings](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ Allows players to use special abilities of entities while mounted on them.
 Not all entities have available special abilities. Refer below for a list of all available special abilities.
 
 {% hint style="info" %}
-
-**Have a great idea for a special ability?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Post your ideas on [Plazma Discord](https://plazmamc.org/discord) or [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Post your ideas on [Plazma Discord](https://plazmamc.org/discord) or [GitHub Dis
 </details>
 
 {% hint style="info" %}
-
-**Only works if `(Entity) > ridable` is enabled in [Purpur world settings](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Adding `.other` after the permission name allows it to be used by other players.
 Allows the use of the [`/timings` command](commands.md#timings).
 
 {% hint style="warning" %}
-
-**This command has been discontinued.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Check [Spark](https://spark.lucko.me/docs/Command-Usage) for similar commands.
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,8 +181,7 @@ Adding `.other` after the permission name allows it to be used by other players.
 
 - **Default**: `none`
 
-If [X-Ray blocking](../expert/xray.md) is enabled,
-players with the registered permission will not obfuscate blocks for X-Ray blocking.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 This improves performance for both sides.
 
@@ -205,33 +196,27 @@ This improves performance for both sides.
 - **Default**: `none`
 
 {% hint style="warning" %}
-
-This permission will be changed to `plazma.bypass.watchdog` in 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Default**: `none`
 
-Allows the use of color codes on anvils.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Only works if `anvil > allow-colors` is enabled in [Purpur world settings](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Default**: `none`
 
-Allows the use of styling codes on anvils.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Only works if `anvil > allow-colors` is enabled in [Purpur world settings](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -241,28 +226,24 @@ Allows the use of styling codes on anvils.
 Allows the use of MiniMessage tags on anvils.
 
 {% hint style="info" %}
-
-**Only works if `anvil > allow-minimessages` is enabled in [Purpur world settings](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Default**: `none`
 
-Allows disabling `italicize text` with the `&r` styling code on anvils.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Only works if `anvil > allow-colors` is enabled in [Purpur world settings](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Default**: `none`
 
-Applies styling codes when players sign books.
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -285,9 +266,7 @@ This only works if the player has permission for that game mode.
 Drops spawner blocks when mining them with the configured item.
 
 {% hint style="info" %}
-
-**Only works if `gameplay-mechanics > silk-touch` is enabled in [Purpur world settings](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -299,9 +278,7 @@ Changes the size of ender chests.
 `(NumberString)` can be `one`, `two`, `three`, `four`, `five`, `six`.
 
 {% hint style="info" %}
-
-**Only works if `ender_chest > six-rows` and `ender_chest > use-permissions-for-rows` are enabled in [Purpur world settings](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -311,9 +288,7 @@ Changes the size of ender chests.
 Allows the totem of undying to function even when in the inventory.
 
 {% hint style="info" %}
-
-**Only works if `totem-of-undying-works-in-inventory` is enabled in [Purpur world settings](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -329,9 +304,7 @@ Allows the player to ignore the connection limit.
 Allows the player to repair the item they are holding by `sneak-right-clicking`.
 
 {% hint style="info" %}
-
-**You must enable `shift-right-click-repairs-mending-points` in the [Purpur world configurations](configurations/purpur/world.md) for it to work.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -341,9 +314,7 @@ Allows the player to repair the item they are holding by `sneak-right-clicking`.
 Allows the player to place spawners.
 
 {% hint style="info" %}
-
-**Only works if `gameplay-mechanics > silk-touch` is enabled in [Purpur world settings](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -356,12 +327,10 @@ Allows the player to instantly teleport when using the Nether portal.
 
 - **Default**: `none`
 
-Allow the use of [color codes](https://minecraft.wiki/w/Formatting_codes#Color_codes) on signs.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**In the [Purpur world configurations](configurations/purpur/world.md), `sign > allow-colors` must be enabled for it to work.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -371,21 +340,17 @@ Allow the use of [color codes](https://minecraft.wiki/w/Formatting_codes#Color_c
 Allow the use of obfuscation code `(&o)` on signs.
 
 {% hint style="info" %}
-
-**In the [Purpur world configurations](configurations/purpur/world.md), `sign > allow-colors` must be enabled for it to work.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Default**: `none`
 
-Allow the use of [styling code `(&o excluded)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) on signs.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**In the [Purpur world configurations](configurations/purpur/world.md), `sign > allow-colors` must be enabled for it to work.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -395,9 +360,7 @@ Allow the use of [styling code `(&o excluded)`](https://minecraft.wiki/w/Formatt
 Allow players to `interact` with shears to prevent TNT explosions.
 
 {% hint style="info" %}
-
-**The `defuse-tnt-change` in [Purpur world configurations](configurations/purpur/world.md) must be at least `0.0` to function.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Planned permissions
@@ -409,9 +372,7 @@ Allow players to `interact` with shears to prevent TNT explosions.
 Allow players to connect even if the [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) mod is not installed.
 
 {% hint style="info" %}
-
-**Enable `no-chat-reports > require-install` in [Plazma world configurations](configurations/plazma/world.md) for it to function.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
