@@ -2,4 +2,4 @@
 description: Zjistěte, co znamená každý uzel v purpur.yml.
 ---
 
-# 🦑 Purpura (složení světa)
+# 🏳️ 세계별 구성
