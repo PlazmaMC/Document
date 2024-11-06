@@ -2,14 +2,13 @@
 description: Cwalo ki Plazma ki dong pe romo ki iye i pwonyo ma kwo i pwonyo.
 ---
 
-# 📋 Gwok
+# 🧾 구성
 
 ***
 
 ## 🪨 Lubanga <a href="#id-1" id="id-1"></a>
 
-> Lubanga ni Minecraft ki dong kwede kwede me kit ma pe romo kubed i file me gwok.
-> Lubanga ki dong kwede kwede me gitic kwede me game.
+> Lubanga ni Minecraft ki dong kwede kwede me kit ma pe romo kubed i file me gwok. Lubanga ki dong kwede kwede me gitic kwede me game.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Cwalo ki Plazma ki dong pe romo ki iye i pwonyo ma kwo i pwonyo.
 
 ## 🪣 Bukkit Lubanga <a href="#id-2" id="id-2"></a>
 
-> Bukkit Lubanga ni Plazma ki dong kwede kwede me kit ma pe romo kubed i file me gwok.
-> Bukkit Lubanga ki dong kwede kwede me gitic kwede me Minecraft server.
+> Bukkit Lubanga ni Plazma ki dong kwede kwede me kit ma pe romo kubed i file me gwok. Bukkit Lubanga ki dong kwede kwede me gitic kwede me Minecraft server.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Cwalo ki Plazma ki dong pe romo ki iye i pwonyo ma kwo i pwonyo.
 
 ## 🛩️ Paper Lubanga <a href="#id-4" id="id-4"></a>
 
-> Paper Lubanga ni dong kwede me Plazma, kic pa lwak, [kwo ma winyo ki kwo ma tye ki](#user-content-fn-1)[^1] iye.
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
