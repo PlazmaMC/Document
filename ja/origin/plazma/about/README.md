@@ -15,19 +15,15 @@ description: Plazmaがどのようなサーバープラットフォームかを�
 
 ## ⚙️ 主な特徴 <a href="#id-2" id="id-2"></a>
 
-1. **強力なプラグインエコシステム**\
-   [Paper](https://github.com/PaperMC/Paper)をベースにしており、
-   インターネットでダウンロード可能なほとんどの[最新プラグイン](#user-content-fn-1)[^1]が正常に動作します。
-2. **設定が不要な最適化**\
-   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)のすべてのパッチが含まれており、
-   一部の独自の最適化とモードが組み込まれており、最高のパフォーマンスを提供します。
-3. **お好みに合わせてカスタマイズするゲーム**\
-   Plazmaに含まれる[Purpur](https://github.com/PurpurMC/Purpur)はゲームの全般的な属性を
-   変更できるようにしてくれます。
-4. **安全にプレイするサーバー**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)が含まれており、1.19から追加された
-   [Mojang](#user-content-fn-2)[^2]の[チャット通報システム](#user-content-fn-3)[^3]を非活性化することができ、\
-   診断情報収集機が完全に削除され、追跡のない安全なサーバーでプレイすることができます。
+1. **강력한 플러그인 생태계**\
+   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
+2. **설정이 필요 없는 최적화**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
+3. **원하는 대로 사용자화하는 게임**\
+   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며,\
+   진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **最速のアップデート**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate)はPlazmaの含まれるパッチが常に最新に保たれるようにして、Paperベースのサーバープラットフォームの中で最速のアップデートを提供しています。
 6. **基本構成ファイルの最適化**\
@@ -36,12 +32,6 @@ description: Plazmaがどのようなサーバープラットフォームかを�
    ゲームのメカニズムと関係ないシステムメカニズムを非同期化して、[遅延時間](#user-content-fn-4)[^4]を減らし、サーバーを最適化します。
 8. **不要なスペースの使用を防止**\
    似た値を持つデータをすべて1つにまとめてメモリ使用量を削減します。
-
-#### Plazmaについてもっと知りたいですか？ <a href="#etc-1" id="etc-1"></a>
-
-{% content-ref url="patches-list.md" %}
-[patches-list.md](patches-list.md)
-{% endcontent-ref %}
 
 ## ✨ 活用事例 <a href="#id-3" id="id-3"></a>
 
@@ -52,15 +42,12 @@ description: Plazmaがどのようなサーバープラットフォームかを�
 - **RPGサーバーでも高速なパフォーマンスを維持するプラットフォーム**\
   単一クラスターで100人のプレイヤーをTPS低下なしに安定的に維持し、\
   4つのクラスターで合計250人のプレイヤーが快適にプレイすることができました。
-- **チャンク/エンティティで光を放つプラットフォーム**\
-  従来のチャンクやエンティティの処理に遅延が発生していたサバイバルサーバーのプラットフォームを
-  PurpurからPlazmaに変更することで、ほとんどの遅延を軽減することができました。
+- **청크/엔티티에서 빛을 보이는 플랫폼**\
+  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을 Purpur에서 Plazma로 변경하며 대부분의 지연을 줄일 수 있었습니다.
 - **多くのストリーマーが選んだプラットフォーム**\
   多くのストリーマーの視聴者参加用バケツとして選ばれて使用されています。
 
-<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
-</a>
+[![실시간 Plazma 사용자 추이](https://badge.plazmamc.org/internal/bstats)](https://bstats.org/plugin/server-implementation/Plazma/18047)
 
 ## ⬇️ ダウンロード
 
