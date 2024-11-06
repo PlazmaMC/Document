@@ -2,14 +2,13 @@
 description: A konfiguráció a Plazma leg alapvetőbb testreszabási módja.
 ---
 
-# 📋 Összetétel
+# 🧾 구성
 
 ***
 
 ## 🪨 Tulajdonság <a href="#id-1" id="id-1"></a>
 
-> A tulajdonság a Minecraft által biztosított alapvető összetételi fájl.
-> A tulajdonság segítségével megváltoztathatja a játék alapvető mechanizmusait.
+> A tulajdonság a Minecraft által biztosított alapvető összetételi fájl. A tulajdonság segítségével megváltoztathatja a játék alapvető mechanizmusait.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: A konfiguráció a Plazma leg alapvetőbb testreszabási módja.
 
 ## 🪣 Bukkit összetétel <a href="#id-2" id="id-2"></a>
 
-> A Bukkit összetétel a Plazma által biztosított alapvető összetételi fájl.
-> A Bukkit összetétel segítségével megváltoztathatja a Minecraft szerver alapvető mechanizmusait.
+> A Bukkit összetétel a Plazma által biztosított alapvető összetételi fájl. A Bukkit összetétel segítségével megváltoztathatja a Minecraft szerver alapvető mechanizmusait.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: A konfiguráció a Plazma leg alapvetőbb testreszabási módja.
 
 ## 🛩️ Paper összetétel <a href="#id-4" id="id-4"></a>
 
-> A Paper összetétel lehetővé teszi a Plazma általános mechanizmusának módosítását és a különféle optimalizálások és sebezhetőségek kezelésének aktiválását.
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
