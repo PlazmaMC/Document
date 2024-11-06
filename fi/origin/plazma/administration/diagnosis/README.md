@@ -2,4 +2,4 @@
 description: Tutustu ongelmatilanteiden käsittelytapoihin.
 ---
 
-# 🩺 Diagnostiikka
+# 🧾 진단
