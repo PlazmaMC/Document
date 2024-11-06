@@ -2,4 +2,4 @@
 description: Find out what each node in purpur.yml means.
 ---
 
-# 🦑 Purple (Worldly Composition)
+# 🏳️ 세계별 구성
