@@ -1,1 +1,5 @@
-# 🧾 Įvairūs
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
