@@ -1,1 +1,5 @@
-# 🧾 Variat
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
