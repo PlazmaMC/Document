@@ -2,4 +2,4 @@
 description: paper-global.yml'nin her düğümünün ne anlama geldiğini öğrenin.
 ---
 
-# 🛩️ Kağıt (Global Yapı)
+# 🌏 전역 구성
