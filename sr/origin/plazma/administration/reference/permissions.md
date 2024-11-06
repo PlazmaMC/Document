@@ -14,18 +14,18 @@ description: Сазнајте више о овлашћењима Плазме.
 
 У Minecraft-у постоје основне групе дозвола за управљање.
 
-Можете поставити дозволе за [администраторе](#user-content-fn-1)[^1] и командне блокове, које можете изменити у [подешавањима сервера](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Играч**\
+1. **Играч**\
    Основна група дозвола која се обично додељује свим играчима.
-1. **Посредник**\
+2. **Посредник**\
    Може игнорисати спавање.
-2. **Администратор света**\
+3. **Администратор света**\
    Може користити све команде и командне блокове повезане са управљањем светом.\
    Основна група дозвола која се примењује на датапакете и командне блокове.
-3. **Администратор**\
+4. **Администратор**\
    Може користити све команде повезане са управљањем играчима.
-4. **Главни администратор**\
+5. **Главни администратор**\
    Може користити све команде повезане са управљањем сервером.\
    Основна група дозвола која се примењује на конзолу и администраторе.
 
@@ -50,9 +50,7 @@ description: Сазнајте више о овлашћењима Плазме.
 У `(Namespaced Key)` се уноси [Namespaced ID](#user-content-fn-2)[^2] ентитета.
 
 {% hint style="info" %}
-
-**[Пурпурна конфигурација света](configurations/purpur/world.md) функционише само ако је `(Entity) > ridable` активирано.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ description: Сазнајте више о овлашћењима Плазме.
 Сви ентитети немају доступне све специјалне способности. Погледајте које све специјалне способности су доступне испод.
 
 {% hint style="info" %}
-
-**Имате добру идеју за специјалну способност?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Објавите идеју на [Plazma Discord](https://plazmamc.org/discord) или [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ description: Сазнајте више о овлашћењима Плазме.
 </details>
 
 {% hint style="info" %}
-
-**[Пурпурна конфигурација света](configurations/purpur/world.md) функционише само ако је `(Entity) > ridable` активирано.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ description: Сазнајте више о овлашћењима Плазме.
 Омогућава коришћење [`/timings` команде](commands.md#timings).
 
 {% hint style="warning" %}
-
-**Ова команда је прекинута.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Погледајте [Spark](https://spark.lucko.me/docs/Command-Usage) за сличне функције.
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,7 +181,7 @@ description: Сазнајте више о овлашћењима Плазме.
 
 - **Подразумевано**: `Ништа`
 
-Ако је активирано [блокирање X-Ray-a](../expert/xray.md), играчима са дозволом неће бити наметнуто замагљивање блокова за спречавање X-Ray-a.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Ово омогућава обојицама да искусе побољшање перформанси.
 
@@ -204,33 +196,27 @@ description: Сазнајте више о овлашћењима Плазме.
 - **Подразумевано**: `Ништа`
 
 {% hint style="warning" %}
-
-Ова дозвола ће бити промењена у `plazma.bypass.watchdog` у верзији 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Подразумевано**: `Ништа`
 
-Омогућава коришћење [кодова боја](https://minecraft.wiki/w/Formatting_codes#Color_codes) на оруђу.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Пурпурна конфигурација света](configurations/purpur/world.md) функционише само ако је `anvil > allow-colors` активирано.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Подразумевано**: `Ништа`
 
-Омогућава коришћење [стилских кодова](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) на оруђу.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Пурпурна конфигурација света](configurations/purpur/world.md) функционише само ако је `anvil > allow-colors` активирано.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -240,28 +226,24 @@ description: Сазнајте више о овлашћењима Плазме.
 Омогућава коришћење [MiniMessage тагова](https://docs.advntr.dev/minimessage/format.html) на оруђу.
 
 {% hint style="info" %}
-
-**[Пурпурна конфигурација света](configurations/purpur/world.md) функционише само ако је `anvil > allow-minimessages` активирано.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Подразумевано**: `Ништа`
 
-Омогућава искључивање `нагиба слова` помоћу стилских кодова `&r` на оруђу.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Пурпурна конфигурација света](configurations/purpur/world.md) функционише само ако је `anvil > allow-colors` активирано.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Подразумевано**: `Ништа`
 
-Када играч потпише књигу, примењују се [стилски кодови](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -284,9 +266,7 @@ description: Сазнајте више о овлашћењима Плазме.
 Када копате спавање блокове са предметима по вашем избору, спавање блокови ће пасти.
 
 {% hint style="info" %}
-
-**[Пурпурна конфигурација света](configurations/purpur/world.md) функционише само ако је `gameplay-mechanics > silk-touch` активирано.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -298,9 +278,7 @@ description: Сазнајте више о овлашћењима Плазме.
 У `(NumberString)` можете унети `one`, `two`, `three`, `four`, `five`, `six`.
 
 {% hint style="info" %}
-
-**[Пурпурна конфигурација света](configurations/purpur/world.md) функционише само ако је `ender_chest > six-rows` и `ender_chest > use-permissions-for-rows` активирано.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -310,9 +288,7 @@ description: Сазнајте више о овлашћењима Плазме.
 Дозволи да Тотем бесмртности ради у инвентару.
 
 {% hint style="info" %}
-
-**На [Пурпурној конфигурацији света](configurations/purpur/world.md) морате активирати `totem-of-undying-works-in-inventory` да бисте омогућили рад.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -328,9 +304,7 @@ description: Сазнајте више о овлашћењима Плазме.
 Дозволи играчу да поправи предмет који држи када `припадне и интеракција`.
 
 {% hint style="info" %}
-
-**На [Пурпурној конфигурацији света](configurations/purpur/world.md) морате активирати `shift-right-click-repairs-mending-points` да бисте омогућили рад.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -340,9 +314,7 @@ description: Сазнајте више о овлашћењима Плазме.
 Дозволи играчу да постави спавер.
 
 {% hint style="info" %}
-
-**[Пурпурна конфигурација света](configurations/purpur/world.md) функционише само ако је `gameplay-mechanics > silk-touch` активирано.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -355,12 +327,10 @@ description: Сазнајте више о овлашћењима Плазме.
 
 - **Подразумевано**: `Ништа`
 
-Дозволи коришћење [бојних кодова](https://minecraft.wiki/w/Formatting_codes#Color_codes) на табли.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**На [Пурпурној конфигурацији света](configurations/purpur/world.md) морате активирати `sign > allow-colors` да бисте омогућили рад.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -370,21 +340,17 @@ description: Сазнајте више о овлашћењима Плазме.
 Дозволи коришћење кода за заштиту`(&o)` на табли.
 
 {% hint style="info" %}
-
-**На [Пурпурној конфигурацији света](configurations/purpur/world.md) морате активирати `sign > allow-colors` да бисте омогућили рад.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Подразумевано**: `Ништа`
 
-Дозволи коришћење [стилских кодова `(&o искључено)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) на табли.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**На [Пурпурној конфигурацији света](configurations/purpur/world.md) морате активирати `sign > allow-colors` да бисте омогућили рад.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -394,9 +360,7 @@ description: Сазнајте више о овлашћењима Плазме.
 Дозволи играчу да спречи TNT експлозију `интеракцијом` маказама.
 
 {% hint style="info" %}
-
-**На [Пурпурној конфигурацији света](configurations/purpur/world.md) морате имати `defuse-tnt-change` веће од `0.0` да бисте омогућили рад.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Планирана дозвола
@@ -408,9 +372,7 @@ description: Сазнајте више о овлашћењима Плазме.
 Дозволи играчу да се прикључи чак и ако нема инсталиран мод [`NoChatReports`](https://modrinth.com/mod/no-chat-reports).
 
 {% hint style="info" %}
-
-**На [Плазма конфигурацији света](configurations/plazma/world.md) морате активирати `no-chat-reports > require-install` да бисте омогућили рад.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
