@@ -15,19 +15,16 @@ A kezdő argumentumok és rendszer tulajdonságok azok az értékek, amelyeket h
 A rendszer tulajdonságok az `-jar` előtt kerülnek be azon értékek közé, amelyeket a Plazma inicializálása előtt a JVM kezel.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**A Plazma és a JVM működése módosulhat a rendszer tulajdonságainak módosításával, ami jelentős hatással lehet a játékra!**
-
-Ha nem biztos abban, hogy az egyes rendszer tulajdonságok milyen szerepet töltenek be, **soha ne használja őket!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Használati útmutató <a href="#id-1.1" id="id-1.1"></a>
 
 A rendszer tulajdonságok a `java` és a `-jar` közötti Java parancsparaméterként kerülnek megadásra.
 
-Például, ha a `Plazma.dummyProperty` rendszer tulajdonságot akarja alkalmazni,
-akkor az alábbi módon beírva a következő tulajdonságba `37` kerül, amikor a Plazma inicializálódik.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -38,11 +35,9 @@ A `-D` azt jelzi, hogy ez a paraméter nem a JVM-be van beágyazva, hanem kizár
 Ha nem ad meg értéket a tulajdonságoknál, az érték [`true`-ra lesz rögzítve](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**A Paperweight sorozatú szerver platform mindegyik platformon a tulajdonságok megkülönböztetése érdekében a tulajdonság nevébe `.`-t tartalmaz.**
-
-Néhány terminálban, például a Windows Powershell-ben, lehet, hogy nem fogadja el ezeket az argumentumokat, ezért az argumentumok mindkét végéhez hozzá kell adni a `"` jelet [^4].
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Összes rendszer tulajdonság <a href="#id-1.2" id="id-1.2"></a>
@@ -84,11 +79,9 @@ Letiltja a Spigot Watchdog figyelmeztetési rendszerét.
 Letiltja a `/reload` parancs megerősítő üzenetét.
 
 {% hint style="danger" %}
-
-**A `/reload` parancs nagyon instabil, ezért minden `/reload` használata után felmerülő probléma a felhasználó felelőssége.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Ha fejlesztő vagy és frissítened kell a bővítményedet, használj inkább hotswapot a `/reload` helyett.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -133,7 +126,7 @@ Ez minden hibás koponya blokkot a világban a helyükkel együtt naplóz.
 - **Forma**: `Boolean`
 - **Alapértelmezett**: `False`
 
-Letiltja a 128 db [csatorna](#user-content-fn-5)[^5] plugin alkalmazásának korlátozását játékosonként.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -153,14 +146,14 @@ Letiltja a Netty flush konszolidációs rendszert.
 
 #### `Paper.excessiveTELimit`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Alapértelmezett**: `750`
 
 Ha az entitások száma meghaladja ezt az értéket, több részre osztva küldi el őket.
 
 #### `Paper.filterThreshold`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Alapértelmezett**: `8192`
 
 Beállítja a szerver által egyszerre fogadható maximális csomagméretet.
@@ -173,32 +166,30 @@ Beállítja a szerver által egyszerre fogadható maximális csomagméretet.
 Letiltja a Java verzió ellenőrzést.
 
 {% hint style="danger" %}
-
-**Ezzel a módszerrel a JVM hozzáférhet olyan kódrészhez, amely nem létezik!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 Ez állandóan károsíthatja a világ és más fájlokat, és a játék teljes mechanizmusát tönkreteheti.
 
 Minden ebből eredő problémáért Ön a felelős, és a Plamza nem nyújt támogatást ezzel kapcsolatban.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Alapértelmezett**: `64`
 
-A plugin [csatorna](#user-content-fn-6)[^6] nevének korlátozását állítja be.
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Alapértelmezett**: `80`
 
 Beállítja a táblák egy sorára írható maximális karakterhosszt.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Alapértelmezett**: `(világ verzió) + 1`
 
 Beállítja az inicializálandó világfrissítési információ verzióját.
@@ -214,12 +205,12 @@ Engedélyezi a YAML fájlok kommentjeinek feldolgozását.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Forma**: `Integer`
+- **형태**: `Integer`
 - **Alapértelmezett**: `30`
 
 Ha a játékostól a megadott idő (másodperc) alatt nincs adatátvitel, akkor a játékost kirakja.
 
-Általában a [játék](#user-content-fn-7)[^7] folyamatosan küld [szívverés jeleket](#user-content-fn-8)[^8] a szerverre, így nem lesz [kikapcsolva, de](#user-content-fn-9)[^9] ha a játék nem válaszol, összeütközésnek tekinti és többé nem kezeli a játékost a szerveren, hanem kirúgja.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -297,7 +288,7 @@ Ez lehetővé teszi a Paper alapértelmezett konfigurációjának használatát.
 - **Forma**: `Boolean`
 - **Alapértelmezett**: `false`
 
-Megakadályozza a Plazma inicializálásakor megjelenő [figyelmeztetéseket](#user-content-fn-11)[^11].
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -313,19 +304,15 @@ Letiltja a Plazma márka használatát, és a vanília alapértelmezett szerver 
 - **Ütközés**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**Ez a tulajdonság még fejlesztés alatt áll.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**Ez a tulajdonság visszafordítja az összes megrepedt biztonsági részt!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 Ez jelentősen befolyásolhatja a szerver biztonságát és teljesítményét.
 
 Ez a tulajdonság használatából eredő összes problémáért a szerver adminisztrátor a felelős.
-
 {% endhint %}
 
 A kezdeti konfigurációt a Mojang által rendelt alapértékekkel szolgáltatja.
@@ -341,15 +328,12 @@ A biztonsági réseket újra aktiválhatja a Paper konfigurációban vagy a Plaz
 - **Ütközés**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**Ez a tulajdonság még fejlesztés alatt áll.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 A kezdeti konfigurációt közelebb állítja a vaníliához.
 
-Alapvetően csak annyira alkalmazza, amennyire nem befolyásolja a szerver teljesítményét és biztonságát,
-ha a `Plazma.disableConfigOptimization` tulajdonságot használja, akkor a vanília alapértékeket használja a konfigurációhoz.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Használt tulajdonság <a href="#id-1.3" id="id-1.3"></a>
 
@@ -389,21 +373,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Alias**: `b`
 - **Alapértelmezett**: `bukkit.yml`
 
-Beállítja a [Bukkit konfigurációs fájl](../reference/configurations/bukkit.md) nevét és helyét.
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Alias**: `c`
 - **Alapértelmezett**: `commands.yml`
 
-Beállítja a [Bukkit parancs konfigurációs fájl](../reference/configurations/bukkit.md) nevét és helyét.
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Alias**: `c`
 - **Alapértelmezett**: `server.properties`
 
-Beállítja a [szerver tulajdonságok](../reference/configurations/property.md) fájl nevét és helyét.
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -415,7 +399,7 @@ A világ frissítése után a megmaradt gyorsítótárazott fájlokat eltávolí
 
 #### `forceUpgrade`
 
-Figyelmen kívül hagyja a verziót és kényszerítetten [frissít](#user-content-fn-12)[^12] a világot.
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -436,7 +420,7 @@ Aktiválja a JFR profilozást.
 - **Alias**: `s`, `size`
 - **Alapértelmezett**: `(szerver tulajdonságok)`
 
-Beállítja a megengedett maximális [játékos](#user-content-fn-14)[^14] számot.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -453,7 +437,7 @@ JLine-et kikapcsolva, és a vanília konzolt használja.
 
 Mojang hitelesítő szerverrel ellenőrzi a játékosokat.
 
-**Ha nem használ Velocity vagy más proxy-t, akkor [EULA](../getting-started/README.md#id-5) megszegése miatt büntetésre kerülhet.**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-beállítások`
 
@@ -461,9 +445,7 @@ Mojang hitelesítő szerverrel ellenőrzi a játékosokat.
 - **Alapértelmezett**: `paper.yml`
 
 {% hint style="warning" %}
-
-**Ez az argumentum a 1.19.4 verziótól kezdve már nem használható!**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 A használaton kívüli PaperSpigot konfigurációs fájl helyét állítja be.
@@ -475,13 +457,13 @@ Ez az előző konfiguráció áthelyezésére szolgál egy új konfigurációs f
 - **Alias**: `paper-mappa`
 - **Alapértelmezett**: `config`
 
-A [Paper konfigurációs fájl](../reference/configurations/paper/README.md) mappájának és helyének beállítása.
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-beállítások-mappája`
 
 - **Alias**: `plazma-mappa`
 
-A [Plazma konfigurációs fájl](../reference/configurations/plazma/README.md) mappájának és helyének beállítása.
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `bővítmények`
 
@@ -495,14 +477,14 @@ A bővítmények mappájának beállítása.
 - **Alias**: `pufferfish`
 - **Alapértelmezett**: `pufferfish.yml`
 
-A [Pufferfish konfigurációs fájl](../reference/configurations/pufferfish.md) nevének és helyének beállítása.
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-beállítások`
 
 - **Alias**: `purpur`
 - **Alapértelmezett**: `purpur.yml`
 
-A [Purpur konfigurációs fájl](../reference/configurations/purpur/README.md) nevének és helyének beállítása.
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -513,7 +495,7 @@ A [Purpur konfigurációs fájl](../reference/configurations/purpur/README.md) n
 - **Alias**: `h`, `host`
 - **Alapértelmezett**: `(szerver tulajdonságok)`
 
-A szerver hosztjának nevét vagy [Internet Protocol](#user-content-fn-13)[^13] címét állítja be.
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `szerver-port`
 
@@ -533,7 +515,7 @@ A szerver nevét állítja be.
 - **Alias**: `S`
 - **Alapértelmezett**: `spigot.yml`
 
-A [Spigot konfigurációs fájl](../reference/configurations/spigot.md) nevének és helyének beállítása.
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `verzió`
 
@@ -581,6 +563,6 @@ A világ fájl nevét állítja be.
 
 [^12]: A játékban a `világ optimalizálás` is ugyanezen elven működik.
 
-[^13]: Internet Protocol, IP.
+[^13]: A `szint 2` vagy nagyobb szintű adminisztrátorokat kizárja.
 
-[^14]: A `szint 2` vagy nagyobb szintű adminisztrátorokat kizárja.
+[^14]: Internet Protocol, IP.
