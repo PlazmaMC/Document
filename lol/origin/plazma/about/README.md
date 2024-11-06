@@ -15,19 +15,15 @@ description: Plazma haz 어떤 서버 플랫폼인지 알아보세요.
 
 ## ⚙️ 주요 특징 <a href="#id-2" id="id-2"></a>
 
-1. **STRONG PLUG-IN ECOSYSTEM**\
-   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어,
-   INTERWEBZ에서 DOWNLOADEBLE 대부분의 [LATEST PLUG-INS](#user-content-fn-1)[^1]이 DOIN WELL.
-2. **NO NEED FOR SETTINGS OPTIMIZATION**\
-   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 ALL PATCHES ARE INCLUDED,
-   SOME SELF OPTIMIZATION AND MODS BUILT IN FOR BEST PERFORMANZ.
-3. **GAMEZ CUSTOMIZED AS YOU WISH**\
-   INCLUDED IN Plazma [Purpur](https://github.com/PurpurMC/Purpur) LETZ YOU MODIFY
-   VARIOUS ASPECTZ OF DA GAME.
-4. **PLAY SAFE SERVER**\
-   [NO CHAT REPORTZ](https://github.com/Aizistral-Studios/No-Chat-Reports) INCLUDED TO DISABLE
-   [Mojang](#user-content-fn-2)[^2] CHAT REPORT SYSTEM STARTIN 1.19,\
-   DIAGNOSTIC TOOLZ COMPLETELY REMOVED FOR TRACKLESS SAFE SERVER PLAY.
+1. **강력한 플러그인 생태계**\
+   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
+2. **설정이 필요 없는 최적화**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
+3. **원하는 대로 사용자화하는 게임**\
+   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며,\
+   진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **가장 빠른 업데이트**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate)는 Plazma의 포함 패치가 항상 최신으로 유지될 수 있도록 해서, Paper 기반 서버 플랫폼 중에서 가장 빠른 업데이트를 제공하고 있습니다.
 6. **기본 구성 파일 최적화**\
@@ -36,12 +32,6 @@ description: Plazma haz 어떤 서버 플랫폼인지 알아보세요.
    게임의 메커니즘과 관계 없는 시스템 메커니즘을 비동기화 하여, [지연 시간](#user-content-fn-4)[^4]을 줄여 서버를 최적화 합니다.
 8. **불필요한 공간의 사용 차단**\
    비슷한 값을 가진 데이터를 모두 하나로 합쳐 메모리 사용량을 줄입니다.
-
-#### Plazma에 대해 더 알아보고 싶다면? <a href="#etc-1" id="etc-1"></a>
-
-{% content-ref url="patches-list.md" %}
-[patches-list.md](patches-list.md)
-{% endcontent-ref %}
 
 ## ✨ 활용 사례 <a href="#id-3" id="id-3"></a>
 
@@ -52,15 +42,12 @@ description: Plazma haz 어떤 서버 플랫폼인지 알아보세요.
 - **MAINTAININ FAST PERFORMANCE ON RPG SERVERZ**\
   SUSTAINED STABLE TPS FOR 100 PLAYERZ ON SINGLE CLUSTER,\
   250 PLAYERZ PLAYIN SMOOTHLY ACROSS 4 CLUSTERZ.
-- **SHININ LIGHT ON CHUNK/ENTITY**\
-  SWITCH FROM Purpur TO Plazma ON SURVIVAL SERVER WITH DELAYS IN CHUNK AND ENTITY PROCESSIN,
-  REDUCED MOST DELAYS.
+- **청크/엔티티에서 빛을 보이는 플랫폼**\
+  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을 Purpur에서 Plazma로 변경하며 대부분의 지연을 줄일 수 있었습니다.
 - **MANY STREAMERZ HAS CHOSEN DA PLATFORM**\
   MANY STREAMERZ PEEPS R USIN' DIS AS DA BUCKET FER VIEWER PARTICIPATION.
 
-<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="실시간 Plazma 사용자 추이">
-</a>
+[![실시간 Plazma 사용자 추이](https://badge.plazmamc.org/internal/bstats)](https://bstats.org/plugin/server-implementation/Plazma/18047)
 
 ## ⬇️ 다운로드
 
