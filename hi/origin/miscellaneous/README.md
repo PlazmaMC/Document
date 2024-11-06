@@ -1,1 +1,5 @@
-# 🧾 विविध
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
