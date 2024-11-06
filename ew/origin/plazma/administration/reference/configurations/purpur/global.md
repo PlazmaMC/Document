@@ -2,4 +2,4 @@
 description: Find out what each node in purpur.yml means.
 ---
 
-# 🦑 Purple (Global Configuration)
+# 🌏 전역 구성
