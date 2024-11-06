@@ -2,9 +2,9 @@
 description: Ta reda på hur du anpassar servern för användare.
 ---
 
-# 📶 Utvecklas
+# 🎨 발전하기
 
-Anledningen till att man använder en modifierad serverplattform som Plazma istället för den officiella serverplattformen från Mojang Studios är att den ger möjlighet till kraftfull **anpassning**.
+Mojang Studios에서 제공하는 공식 서버 플랫폼을 사용하지 않고 Plazma와 같이 수정된 서버 플랫폼을 사용하는 이유는 강력한 **사용자화**가 가능하다는 점이 가장 클 것입니다.
 
 Här är olika sätt att anpassa och använda Plazma.
 
@@ -25,24 +25,19 @@ Se nedan sida för information om Plazmas konfiguration.
 ## Användning av tillägg <a href="#id-2" id="id-2"></a>
 
 {% hint style="success" %}
+**Plazma는 Paper 기반의 모든 플러그인을 정상 지원합니다.**
 
-**Plazma stöder alla pluginer baserade på Papper på ett korrekt sätt.**
-
-För Spigot-pluginer kan vissa inte fungera på grund av kartändringar från Papper från 1.20.5, men de flesta pluginer baserade på Papper, Pufferfish och Purpur fungerar även på Plazma. Om de inte fungerar korrekt är det ett fel med Plazma, så vänligen [rapportera det omedelbart.](../diagnosis/plugins.md)
-
+Spigot 플러그인의 경우 1.20.5부터 Paper의 매핑 변화로 일부 동작하지 않을 수 있지만, Paper, Pufferfish 및 Purpur 등 Paper를 기반으로 하는 대부분의 플러그인은 Plazma에서도 모두 작동하며, 만약 정상적으로 작동하지 않을 경우 Plazma의 오류이므로 즉시 [신고해주시기 바랍니다.](../diagnosis/plugins.md)
 {% endhint %}
 
-Detta är en av de främsta anledningarna till att använda Plazma och den mest kraftfulla metoden för att anpassa Plazma.
-Plazmas kraftfulla plugin-ekosystem gör det enkelt att anpassa servern.
+Detta är en av de främsta anledningarna till att använda Plazma och den mest kraftfulla metoden för att anpassa Plazma. Plazmas kraftfulla plugin-ekosystem gör det enkelt att anpassa servern.
 
-Det finns olika sätt att hitta och ladda ner pluginer. Vissa pluginer laddas upp på offentliga lagringstjänster, medan andra laddas upp på GitHub eller egna webbplatser.
+Det finns olika sätt att hitta och ladda ner pluginer. 어떤 플러그인은 공개 저장소 서비스에 플러그인을 업로드 하고, 어떤 플러그인은 GitHub 또는 자체 사이트에 업로드하기도 합니다.
 
-{% hint style="caution" %}
+{% hint style="info" %}
+**플러그인은 시스템에 직접적으로 접근할 수 있습니다!**
 
-**Pluginer kan få direkt åtkomst till systemet!**
-
-Använd VirusTotal eller liknande tjänster för att alltid kontrollera att en plugin är säker innan du använder den, eller ladda ner pluginen från en betrodd källa.
-
+VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항상 안전한지 확인하거나, 신뢰 가능한 서비스에서 플러그인을 다운로드 하세요.
 {% endhint %}
 
 Det finns olika tjänster för att ladda ner pluginer. Bland dessa, [SpigotMC Forum](https://www.spigotmc.org/resources/), [BukkitDev (CurseForge)](https://dev.bukkit.org/bukkit-plugins), [Modrinth](https://modrinth.com/plugins), [Hanger](https://hangar.papermc.io/) är tjänster där pluginer granskas innan de laddas upp, vilket säkerställer att endast säkra pluginer distribueras.
@@ -51,13 +46,11 @@ Det finns olika tjänster för att ladda ner pluginer. Bland dessa, [SpigotMC Fo
 
 När du har laddat ner en plugin är det dags att tillämpa den.
 
-1. Pluginer finns som `.jar` eller `Java Executable File`. Vissa kan vara komprimerade, och i så fall ska du extrahera dem och använda filen som innehåller `bukkit`, `spigot` eller `papper` i namnet, samt filen med `fat` om det finns.
+1. 플러그인은 `.jar` 또는 `Java Executable File` 로 되어 있습니다.\
+   일부 플러그인은 압축 파일로 압축되어 있는 경우도 있는데, 그런 경우 압축을 풀어 이름에 `bukkit`, `spigot` 또는 `paper` 가 포함되어 있고, `fat`이 포함된 파일이 함께 있는 경우 `fat` 파일을 사용하면 됩니다.
 2. Placera den nedladdade filen i mappen `plugins` i serverns katalog och starta om servern.
-3. När Plazma startar kommer det att finnas nytt innehåll i konsolen.
-   Detta indikerar att Plazma har laddat pluginen korrekt.
-4. Även om Plazma har laddat pluginen korrekt kanske pluginen inte startas.
-   Använd kommandot `/plugins` för att visa vilka pluginer som är laddade på servern.
-   Om namnet på en installerad plugin inte är <mark style="background-color:red;">rött</mark> utan <mark style="background-color:green;">grönt</mark>, har pluginen laddats korrekt.
+3. När Plazma startar kommer det att finnas nytt innehåll i konsolen. Detta indikerar att Plazma har laddat pluginen korrekt.
+4. Även om Plazma har laddat pluginen korrekt kanske pluginen inte startas. Använd kommandot `/plugins` för att visa vilka pluginer som är laddade på servern. 설치한 플러그인의 이름이 <mark style="background-color:red;">적색</mark>이 아닌 <mark style="background-color:green;">녹색</mark>이라면 플러그인이 정상적으로 로드된 것입니다.
 
 Om en plugin inte har laddats korrekt kan du hitta lösningar på problemet på följande sida.
 
@@ -69,43 +62,36 @@ Om en plugin inte har laddats korrekt kan du hitta lösningar på problemet på 
 
 ## Användning av datapaket <a href="#id-3" id="id-3"></a>
 
-Datapaket är ett sätt att anpassa Minecraft, liknande resurspaket.
+데이터팩은 Minecraft가 기본적으로 제공하는 사용자화 방법으로써, 리소스팩[^1]과 유사합니다.
 
 Med datapaket kan du lägga till nya entiteter och utmaningar i spelet.
 
-{% hint style="caution" %}
-
-**Datapaket kan skada världen!**
+{% hint style="info" %}
+**데이터팩은 월드를 손상시킬 수 있습니다!**
 
 Vissa felaktiga datapaket kan skada världen irreparabelt.
 
 Det rekommenderas att säkerhetskopiera världen innan du tillämpar datapaket.
-
 {% endhint %}
 
-Datapaket kan också laddas ner från olika tjänster som [CurseForge](https://www.curseforge.com/minecraft/search?page=1\&pageSize=50\&sortBy=relevancy\&class=data-packs), [Modrinth](https://modrinth.com/datapacks), [Planet Minecraft](https://www.planetminecraft.com/data-packs/) och andra.
+데이터팩 또한 여러 서비스에서 다운로드 할 수 있으며, [CurseForge](https://www.curseforge.com/minecraft/search?page=1\\&pageSize=50\\&sortBy=relevancy\\&class=data-packs), [Modrinth](https://modrinth.com/datapacks), [Planet Minecraft](https://www.planetminecraft.com/data-packs/) 등 여러 서비스에서 찾을 수 있습니다.
 
-När du har laddat ner datapaketet kan du placera det i mappen `datapacks` i serverns världskatalog.
-Om mappen inte finns kan du skapa den och lägga till datapaketet där.
+När du har laddat ner datapaketet kan du placera det i mappen `datapacks` i serverns världskatalog. Om mappen inte finns kan du skapa den och lägga till datapaketet där.
 
 {% hint style="warning" %}
-
-**[Vissa datapaket](#user-content-fn-2)[^2] kan inte tillämpas korrekt vid första tillämpningen.**
+[**일부 데이터팩**](#user-content-fn-2)[^2]**의 경우 처음 적용시 정상적으로 적용되지 않을 수 있습니다.**
 
 För att hantera detta rekommenderas att starta om servern **två gånger**.
-
 {% endhint %}
 
 Datapaket kan lätt skadas varje gång Minecraft uppdateras.
 
-Särskilt om datapaketet är allvarligt skadat kan det leda till serverkollisioner, så det är viktigt att testa noggrant innan du uppdaterar servern.
+특히, 데이터팩이 완전히 손상된 경우, 서버가 충돌하기 때문에, 서버를 업데이트하기 전 충분한 테스트를 거치는 것이 중요합니다.
 
 {% hint style="info" %}
+**서버 시작 명령어 뒤에 `safeMode`를 입력하여 데이터팩을 모두 비활성화 한 뒤 서버를 시작할 수 있습니다.**
 
-**Efter serverstartkommandot kan du skriva `safeMode` för att inaktivera alla datapaket och sedan starta om servern.**
-
-[För mer information, se 'Referens > Argument och egenskaper'.](../reference/arguments.md#safemode)
-
+[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
 {% endhint %}
 
 Du kan kontrollera vilka datapaket som har tillämpats med kommandot `/datapack list`.
@@ -114,9 +100,9 @@ Du kan kontrollera vilka datapaket som har tillämpats med kommandot `/datapack 
 
 ## Optimering <a href="#id-4" id="id-4"></a>
 
-Plazma har många optimeringspatchar. När Plazma startar för första gången optimeras konfigurationen automatiskt, så om du följer instruktionerna i [Kom igång](./README.md) behöver du inte göra ytterligare optimeringsåtgärder.
+Plazma har många optimeringspatchar. 또한, Plazma가 처음으로 시작되면 자동으로 구성을 최적화 하므로 [시작하기](./) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
 
-Men om många spelare ansluter sig eller om världen är stor kan du genomföra ytterligare optimeringsåtgärder enligt följande instruktioner.
+하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우, 아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
@@ -126,7 +112,7 @@ Men om många spelare ansluter sig eller om världen är stor kan du genomföra 
 
 ## Proxy <a href="#id-5" id="id-5"></a>
 
-Proxyn ansluter servrar och låter spelare flytta mellan servrar eller kommunicera med andra servrar utan extra åtgärder.
+프록시는 서버를 서로 연결하고 플레이어가 추가적인 작업 없이 서버를 이동하거나, 다른 서버와 소통할 수 있게 합니다.
 
 Se nedanstående sida för information om säker och korrekt proxykonfiguration.
 
@@ -140,16 +126,15 @@ Se nedanstående sida för information om säker och korrekt proxykonfiguration.
 
 Med Minecrafts utveckling är det lätt att hitta [sårbarhetsattacksmotorer](#user-content-fn-3)[^3] även online.
 
-Många sårbarheter som är möjliga att utnyttja i vanliga spel är [grundläggande blockerade](#user-content-fn-4)[^4],
-men att utnyttja sårbarheter med tredjepartsbelastare är inte blockerat.
+일반 게임에서도 실행 가능한 대부분의 취약점은 [기본적으로 차단되어 있지만](#user-content-fn-4)[^4], 서드파티 로더를 통해 취약점을 공격하는것은 차단되어 있지 않습니다.
 
-Därför rekommenderas att installera anti-cheat-plugins och konfigurera proxy, automatisk omstart, säkerhetskopiering etc. om servern är offentlig för att förhindra sårbarhetsutnyttjande och snabbt återhämta sig om servern går ner.
+따라서, 서버가 공개되어 있는 경우, 안티 치트 플러그인 등을 설치하여 취약점 사용을 차단하고, 프록시 및 자동 재시작, 백업 등을 구성하여 서버가 다운되어도 빠르게 복구할 수 있도록 하는 것이 권장됩니다.
 
 ### Behörighetsinställning <a href="#id-5.1" id="id-5.1"></a>
 
 Vissa administratörskommandon från vissa plugins kan ha sårbarheter om behörigheterna inte är korrekt inställda.
 
-Det rekommenderas att använda behörighetsplugins som [LuckPerms](https://luckperms.net/) för att begränsa vanliga användares behörigheter.
+[LuckPerms](https://luckperms.net/) 등의 권한 관리 플러그인을 사용하여 일반 사용자의 권한을 제한하는 조치를 하는것이 권장됩니다.
 
 ### X-Ray-blockering <a href="#id-5.2" id="id-5.2"></a>
 
@@ -165,9 +150,9 @@ Se nedanstående sida för information om X-Ray-blockering.
 
 ### Vitlista <a href="#id-5.3" id="id-5.3"></a>
 
-Om endast vissa användare ska kunna ansluta till servern är det rekommenderat att använda [Ngrok](./README.md#id-6.2) för att använda en [obfuskerad serveradress](#user-content-fn-5)[^5] eller ställa in en vitlista för att förhindra andra spelare från att ansluta.
+일부 사용자만 서버에 접속할 수 있도록 하는 경우, [Ngrok](./#id-6.2)을 사용하여 [난독화된 서버 주소를 사용](#user-content-fn-5)[^5] 하거나, 화이트리스트를 설정하여 다른 플레이어가 서버에 접속하지 못하도록 하는 것도 권장됩니다.
 
-Via serverkonsolen kan du tillåta en spelares anslutning med `/whitelist add <spelare>` eller förbjuda en spelares anslutning med `/whitelist remove <spelare>`.
+서버 콘솔에서 `/whitelist add <player>` 를 통해 플레이어의 접속을 허용하거나, `/whitelist remove <player>` 로 플레이어의 접속을 다시 금지할 수 있습니다.
 
 För att se vilka spelare som är vitlistade använd `/whitelist query`.
 
