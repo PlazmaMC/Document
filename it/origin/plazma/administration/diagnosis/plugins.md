@@ -2,4 +2,4 @@
 description: Scopri come risolvere quando il plugin non funziona correttamente.
 ---
 
-# ⏬ Plugin
+# 📜 플러그인
