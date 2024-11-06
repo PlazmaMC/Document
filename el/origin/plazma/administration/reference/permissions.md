@@ -14,18 +14,18 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 
 Στο Minecraft, υπάρχουν προεπιλεγμένες ομάδες διαχείρισης δικαιωμάτων.
 
-Μπορείτε να ορίσετε δικαιώματα για τον [διαχειριστή](#user-content-fn-1)[^1] και τα μπλοκ εντολών, τα οποία μπορούν να τροποποιηθούν στις [ιδιότητες του εξυπηρετητή](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Παίκτης**\
+1. **Παίκτης**\
    Είναι η ομάδα δικαιωμάτων που δίνεται συνήθως σε όλους τους παίκτες.
-1. **Διαιτητής**\
+2. **Διαιτητής**\
    Μπορεί να αγνοήσει την προστασία της εκκίνησης.
-2. **Διαχειριστής κόσμου**\
+3. **Διαχειριστής κόσμου**\
    Μπορεί να χρησιμοποιήσει όλες τις εντολές και τα μπλοκ εντολών που σχετίζονται με τη διαχείριση του κόσμου.\
    Είναι η προεπιλεγμένη ομάδα δικαιωμάτων που εφαρμόζονται στα δεδομένα πακέτα και στα μπλοκ εντολών.
-3. **Διαχειριστής**\
+4. **Διαχειριστής**\
    Μπορεί να χρησιμοποιήσει όλες τις εντολές που σχετίζονται με τη διαχείριση των παικτών.
-4. **Γενικός Διαχειριστής**\
+5. **Γενικός Διαχειριστής**\
    Μπορεί να χρησιμοποιήσει όλες τις εντολές που σχετίζονται με τη διαχείριση του εξυπηρετητή.\
    Είναι η προεπιλεγμένη ομάδα δικαιωμάτων που εφαρμόζεται στην κονσόλα και στους διαχειριστές.
 
@@ -50,9 +50,7 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Στο `(Namespaced Key)` εισάγεται το [Namespaced ID](#user-content-fn-2)[^2] της οντότητας.
 
 {% hint style="info" %}
-
-**Λειτουργεί μόνο εάν ενεργοποιηθεί το `(Entity) > ridable` στο [Purpur Σύνολο Κόσμου](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Δεν είναι διαθέσιμες όλες οι ειδικές λειτουργίες για όλα τα entities. Δείτε παρακάτω τις διαθέσιμες ειδικές λειτουργίες.
 
 {% hint style="info" %}
-
-**Έχετε κάποια καλή ιδέα για ειδικές λειτουργίες;**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Δημοσιεύστε την ιδέα σας στο [Plazma Discord](https://plazmamc.org/discord) ή [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 </details>
 
 {% hint style="info" %}
-
-**Λειτουργεί μόνο εάν ενεργοποιηθεί το `(Entity) > ridable` στο [Purpur Σύνολο Κόσμου](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Επιτρέπει τη χρήση της εντολής [`/timings`](commands.md#timings).
 
 {% hint style="warning" %}
-
-**Αυτή η εντολή έχει διακοπεί.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Για παρόμοιες λειτουργίες, ελέγξτε το [Spark](https://spark.lucko.me/docs/Command-Usage).
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,8 +181,7 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 
 - **Προεπιλογή**: `Κανένα`
 
-Όταν είναι ενεργοποιημένο το [Αποκλεισμός X-Ray](../expert/xray.md),
-δεν εφαρμόζει την απόκρυψη των blocks για τους παίκτες με την άδεια.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Με αυτόν τον τρόπο και οι δύο πλευρές μπορούν να βελτιώσουν την απόδοσή τους.
 
@@ -205,33 +196,27 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 - **Προεπιλογή**: `Κανένα`
 
 {% hint style="warning" %}
-
-Αυτή η άδεια θα μετονομαστεί σε `plazma.bypass.watchdog` στην έκδοση 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Προεπιλογή**: `Κανένα`
 
-Επιτρέπει τη χρήση των [κωδικών χρώματος](https://minecraft.wiki/w/Formatting_codes#Color_codes) στον μοχλό.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Λειτουργεί μόνο εάν ενεργοποιηθεί το `anvil > allow-colors` στο [Purpur Σύνολο Κόσμου](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Προεπιλογή**: `Κανένα`
 
-Επιτρέπει τη χρήση των [κωδικών μορφοποίησης](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) στον μοχλό.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Λειτουργεί μόνο εάν ενεργοποιηθεί το `anvil > allow-colors` στο [Purpur Σύνολο Κόσμου](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -241,28 +226,24 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Επιτρέπει τη χρήση των [ετικετών MiniMessage](https://docs.advntr.dev/minimessage/format.html) στον μοχλό.
 
 {% hint style="info" %}
-
-**Λειτουργεί μόνο εάν ενεργοποιηθεί το `anvil > allow-minimessages` στο [Purpur Σύνολο Κόσμου](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Προεπιλογή**: `Κανένα`
 
-Επιτρέπει την απενεργοποίηση της `κλίσης γραφής` με τον κωδικό μορφοποίησης `&r` στον μοχλό.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Λειτουργεί μόνο εάν ενεργοποιηθεί το `anvil > allow-colors` στο [Purpur Σύνολο Κόσμου](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Προεπιλογή**: `Κανένα`
 
-Εφαρμόζει τους [κωδικούς μορφοποίησης](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) όταν ο παίκτης υπογράφει ένα βιβλίο.
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -285,9 +266,7 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Όταν σπάσετε ένα spawner block με το συγκεκριμένο αντικείμενο, θα πέσει το spawner block.
 
 {% hint style="info" %}
-
-**Λειτουργεί μόνο εάν ενεργοποιηθεί το `gameplay-mechanics > silk-touch` στο [Purpur Σύνολο Κόσμου](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -299,9 +278,7 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Μπορείτε να εισάγετε `one`, `two`, `three`, `four`, `five`, `six` στο `(NumberString)`.
 
 {% hint style="info" %}
-
-**Λειτουργεί μόνο εάν ενεργοποιηθεί το `ender_chest > six-rows` και `ender_chest > use-permissions-for-rows` στο [Purpur Σύνολο Κόσμου](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -311,9 +288,7 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Επιτρέπει τη λειτουργία του τότεμ της αθανασίας ακόμα και αν βρίσκεται στο inventory.
 
 {% hint style="info" %}
-
-**Πρέπει να ενεργοποιήσετε το `totem-of-undying-works-in-inventory` στο **[Αρχείο διαμόρφωσης Purpur κόσμου](configurations/purpur/world.md)** για να λειτουργήσει.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -329,9 +304,7 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Επιτρέπει στον παίκτη να επισκευάσει το αντικείμενο που κρατάει όταν `κάνει κλικ δεξιά και ταυτόχρονα κάνει κρυφή κίνηση`.
 
 {% hint style="info" %}
-
-**Πρέπει να ενεργοποιήσετε το `shift-right-click-repairs-mending-points` στο **[Αρχείο διαμόρφωσης Purpur κόσμου](configurations/purpur/world.md)** για να λειτουργήσει.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -341,9 +314,7 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Επιτρέπει στον παίκτη να τοποθετήσει spawners.
 
 {% hint style="info" %}
-
-**Λειτουργεί μόνο εάν ενεργοποιηθεί το `gameplay-mechanics > silk-touch` στο [Purpur Σύνολο Κόσμου](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -356,12 +327,10 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 
 - **Προεπιλογή**: `Κανένα`
 
-Επιτρέπει τη χρήση [κωδικών χρώματος](https://minecraft.wiki/w/Formatting_codes#Color_codes) στις πινακίδες.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Πρέπει να ενεργοποιήσετε το `sign > allow-colors` στο **[Αρχείο διαμόρφωσης Purpur κόσμου](configurations/purpur/world.md)** για να λειτουργήσει.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -371,21 +340,17 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Επιτρέπει τη χρήση του κωδικού μαγείας `(&o)` στις πινακίδες.
 
 {% hint style="info" %}
-
-**Πρέπει να ενεργοποιήσετε το `sign > allow-colors` στο **[Αρχείο διαμόρφωσης Purpur κόσμου](configurations/purpur/world.md)** για να λειτουργήσει.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Προεπιλογή**: `Κανένα`
 
-Επιτρέπει τη χρήση [κωδικών μορφοποίησης `(&o εξαιρουμένου)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) στις πινακίδες.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Πρέπει να ενεργοποιήσετε το `sign > allow-colors` στο **[Αρχείο διαμόρφωσης Purpur κόσμου](configurations/purpur/world.md)** για να λειτουργήσει.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -395,9 +360,7 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Επιτρέπει στον παίκτη να αποτρέψει την έκρηξη TNT κάνοντας `κλικ αριστερά και κρυφή κίνηση`.
 
 {% hint style="info" %}
-
-**Πρέπει το `defuse-tnt-change` να είναι `0.0` ή περισσότερο στο **[Αρχείο διαμόρφωσης Purpur κόσμου](configurations/purpur/world.md)** για να λειτουργήσει.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Δικαιώματα που πρόκειται να δοθούν
@@ -409,9 +372,7 @@ description: Μάθετε σχετικά με τα δικαιώματα του P
 Επιτρέπει στον παίκτη να συνδεθεί ακόμα κι αν δεν έχει εγκαταστήσει το [NoChatReports](https://modrinth.com/mod/no-chat-reports) mod.
 
 {% hint style="info" %}
-
-**Πρέπει να ενεργοποιήσετε το `no-chat-reports > require-install` στο **[Αρχείο διαμόρφωσης Plazma κόσμου](configurations/plazma/world.md)** για να λειτουργήσει.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
