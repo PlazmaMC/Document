@@ -2,18 +2,16 @@
 description: Ta reda på de grundläggande sätten att anpassa Plazma som erbjuds.
 ---
 
-# ⏬ Referens
+# 📜 리퍼런스
 
 Plazma erbjuder olika sätt att anpassa sig.
 
 Av dessa är nedanstående 4 sätt sätt att anpassa sig som kan användas direkt utan extra arbete.
 
 {% hint style="info" %}
-
-**Kan du inte lösa problemet genom handboken?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Officiell Discord-server](https://discord.gg/MmfC52K8A8) eller via [GitHub-diskussioner](https://github.com/PlazmaMC/PlazmaBukkit/discussions) för att ställa frågor till gemenskapen!
-
 {% endhint %}
 
 ***
