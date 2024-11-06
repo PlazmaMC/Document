@@ -2,4 +2,4 @@
 description: Zistite, ako vyriešiť problémy s fungovaním pluginov, keď nefungujú správne.
 ---
 
-# ⏬ Plugin
+# 📜 플러그인
