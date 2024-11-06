@@ -15,18 +15,16 @@ description: 시작 인수와 시스템 속성에 대해 알아보세요.
 시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**การแก้ไขคุณสมบัติของระบบอาจเปลี่ยนวิธีการทำงานของ Plazma และ JVM และสามารถมีผลกระทบต่อเกมได้มาก!**
-
-หากคุณไม่แน่ใจว่าคุณสมบัติแต่ละอย่างมีบทบาทอย่างไร **โปรดอย่าใช้!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
 
 시스템 속성은 `java` 와 `-jar` 사이에 Java 명령 인수로써 입력됩니다.
 
-ตัวอย่างเช่น หากต้องการใช้คุณสมบัติของระบบ `Plazma.dummyProperty` ให้ป้อนค่าดังนี้ ค่า `37` จะถูกป้อนในคุณสมบัติถัดไปและ Plazma จะถูกเริ่มต้นใหม่
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -37,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 หากไม่มีการป้อนค่าใดๆ ในคุณสมบัติ ค่าจะถูกตั้งค่าเป็น [`true`](#user-content-fn-3)[^3]
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**แพลตฟอร์มเซิร์ฟเวอร์ชุด Paperweight มีจุดแตกต่างของคุณสมบัติระบบในแต่ละแพลตฟอร์มโดยมี `.` ในชื่อคุณสมบัติ**
-
-ในบางทีที่เทอร์มินัลเช่น Windows Powershell อาจไม่ยอมรับพารามิเตอร์เหล่านี้ ดังนั้น คุณต้อง [เพิ่ม](#user-content-fn-4)[^4] `"` ที่ด้านของพารามิเตอร์
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
@@ -82,12 +78,10 @@ Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
 
 `/reload` 명령어의 재확인 메세지를 비활성화 합니다.
 
-{% hint style="อันตราย" %}
-
-**คำสั่ง `/reload` มีความไม่เสถียรมาก ดังนั้นปัญหาทั้งหมดที่เกิดขึ้นหลังจากใช้ `/reload` จะอยู่ในความรับผิดของผู้ใช้เอง**
+{% hint style="danger" %}
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -132,7 +126,7 @@ NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합
 - **รูปแบบ**: `บูลีน`
 - **ค่าเริ่มต้น**: `เท็จ`
 
-ปิดการใช้งานขีดจำกัดจำนวนของช่อง [ช่อง](#user-content-fn-5)[^5] 128 ที่ใช้สำหรับแต่ละเครื่องเล่น
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -159,7 +153,7 @@ Netty flush consolidation 체계를 비활성화 합니다.
 
 #### `Paper.filterThreshold`
 
-- **รูปแบบ**: `จำนวนเต็ม`
+- **형태**: `Integer`
 - **기본값**: `8192`
 
 서버가 한 번에 받을 수 있는 최대 패킷의 크기를 설정합니다.
@@ -171,14 +165,12 @@ Netty flush consolidation 체계를 비활성화 합니다.
 
 Java 버전 확인을 비활성화 합니다.
 
-{% hint style="อันตราย" %}
-
-**การกระทำนี้อาจทำให้ JVM พยายามเข้าถึงโค้ดที่ไม่มีอยู่!**
+{% hint style="danger" %}
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
 
 이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
@@ -186,7 +178,7 @@ Java 버전 확인을 비활성화 합니다.
 - **รูปแบบ**: `จำนวนเต็ม`
 - **기본값**: `64`
 
-กำหนดขีดจำกัดชื่อช่องของปลัักอิน[^6]
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
@@ -218,7 +210,7 @@ YAML 파일의 주석의 처리를 활성화 합니다.
 
 플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
 
-โดยทั่วไป เกมจะส่ง [สัญญาณหัวใจ](#user-content-fn-8)[^8] ไปยังเซิร์ฟเวอร์อย่างต่อเนื่อง ดังนั้น หากเกมไม่ตอบสนอง จะถือว่าเกมชนกันและจะไม่ประมวลผลผู้เล่นต่อไปบนเซิร์ฟเวอร์และจะถูกเยัยออก
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -296,7 +288,7 @@ Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성�
 - **รูปแบบ**: `บูลีน`
 - **ค่าเริ่มต้น**: `เท็จ`
 
-ประสบการณ์การเริ่มต้นของพลาซม่า และป้องกันการแสดง [ข้อความเตือน](#user-content-fn-11)[^11] ที่ปรากฏขึ้น
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -312,19 +304,15 @@ Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성�
 - **การชน**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**คุณสมบัตินี้ยังอยู่ในระหว่างการพัฒนา**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
-{% hint style="อันตราย" %}
-
-**คุณสมบัตินี้ย้อนกลับถึงตราบนั้นทุกช่องว่างที่ถูกแพทซ์!**
+{% hint style="danger" %}
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 อาจส่งผลต่อความปลอดภัยและประสิทธิภาพของเซิร์ฟเวอร์อย่างมาก
 
 ปัญหาทั้งหมดที่เกิดจากคุณสมบัตินี้เป็นความรับผิดของผู้ดูแลเซิร์ฟเวอร์
-
 {% endhint %}
 
 ให้การกำหนดค่าเริ่มต้นเป็นค่าการตั้งค่าเริ่มต้นที่ Mojang มีการจัดหา
@@ -340,15 +328,12 @@ Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성�
 - **การชน**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**คุณสมบัตินี้ยังอยู่ในระหว่างการพัฒนา**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 เปลี่ยนการกำหนดค่าเริ่มต้นให้ใกล้เคียงกับ Vanilla
 
-นี้จะถูกนำมาใช้อย่างมาตรฐานบนผลปฏิบัติของเซิร์ฟเวอร์และปลอดภัยละเอียด และ
-ถ้าคุณต้องการใช้คุณสมบัติ `Plazma.disableConfigOptimization` จะตั้งค่าให้ใช้ค่าเริ่มต้นของ Vanilla
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
 
@@ -388,21 +373,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **ชื่อเล่น**: `b`
 - **ค่าเริ่มต้น**: `bukkit.yml`
 
-กำหนดชื่อและตำแหน่งของ [ไฟล์การกำหนดค่า Bukkit](../reference/configurations/bukkit.md)
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **ชื่อเล่น**: `c`
 - **ค่าเริ่มต้น**: `commands.yml`
 
-กำหนดชื่อและตำแหน่งของ [ไฟล์การกำหนดค่าคำสั่ง Bukkit](../reference/configurations/bukkit.md)
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **ชื่อเล่น**: `c`
 - **ค่าเริ่มต้น**: `server.properties`
 
-กำหนดชื่อและตำแหน่งของไฟล์ [คุณสมบัติเซิร์ฟเวอร์](../reference/configurations/property.md)
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -414,7 +399,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 #### `forceUpgrade`
 
-อัพเกรดโลกโดยไม่สนใจเวอร์ชันโดยบังคับ
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -435,7 +420,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **ชื่อเล่น**: `s`, `size`
 - **ค่าเริ่มต้น**: `(คุณสมบัติเซิร์ฟเวอร์)`
 
-กำหนดจำนวน [ผู้เล่นสูงสุด](#user-content-fn-14)
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -452,7 +437,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 เลือกว่าจะตรวจสอบผู้เล่นกับเซิร์ฟเวอร์การยืนยันของ Mojang
 
-**หมายเหตุ: หากไม่ได้ใช้ Velocity หรือโปรกซี่ อาจถูกลงโทษเนื่องจากการละเมิด [EULA](../getting-started/README.md#id-5)**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -460,9 +445,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **ค่าเริ่มต้น**: `paper.yml`
 
 {% hint style="warning" %}
-
-**อาร์กิวเมนต์นี้ได้หยุดใช้ตั้งแต่เวอร์ชัน 1.19.4**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 กำหนดตำแหน่งของไฟล์กำหนดค่า PaperSpigot ที่หยุดใช้
@@ -474,13 +457,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **ชื่อเล่น**: `paper-dir`
 - **ค่าเริ่มต้น**: `config`
 
-กำหนดชื่อและตำแหน่งของโฟลเดอร์ที่บรรจุ [ไฟล์กำหนดค่า Paper](../reference/configurations/paper/README.md)
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **ชื่อเล่น**: `plazma-dir`
 
-กำหนดชื่อและตำแหน่งของโฟลเดอร์ที่บรรจุ [ไฟล์กำหนดค่า Plazma](../reference/configurations/plazma/README.md)
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -494,14 +477,14 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **ชื่อเล่น**: `pufferfish`
 - **ค่าเริ่มต้น**: `pufferfish.yml`
 
-กำหนดชื่อและตำแหน่งของ [ไฟล์กำหนดค่า Pufferfish](../reference/configurations/pufferfish.md)
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **ชื่อเล่น**: `purpur`
 - **ค่าเริ่มต้น**: `purpur.yml`
 
-กำหนดชื่อและตำแหน่งของ [ไฟล์กำหนดค่า Purpur](../reference/configurations/purpur/README.md)
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -512,7 +495,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **ชื่อเล่น**: `h`, `host`
 - **ค่าเริ่มต้น**: `(คุณสมบัติเซิร์ฟเวอร์)`
 
-กำหนดชื่อโฮสต์ของเซิร์ฟเวอร์หรือที่อยู่ IP ของ [โพรโทคอลอินเตอร์เน็ต](#user-content-fn-13)
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -532,7 +515,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **ชื่อเล่น**: `S`
 - **ค่าเริ่มต้น**: `spigot.yml`
 
-กำหนดชื่อและตำแหน่งของ [ไฟล์กำหนดค่า Spigot](../reference/configurations/spigot.md)
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -580,6 +563,6 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 [^12]: ในเกม `การปรับปรุงโลก` ทำงานตามหลักการเดียวกันกับนี้
 
-[^13]: โปรโตคอลอินเทอร์เน็ต, IP.
+[^13]: ผู้ดูแลระดับ 2 ขึ้นไป ยกเว้น
 
-[^14]: ผู้ดูแลระดับ 2 ขึ้นไป ยกเว้น
+[^14]: โปรโตคอลอินเทอร์เน็ต, IP.
