@@ -2,18 +2,16 @@
 description: 了解Plazma提供的基本自定义方法。
 ---
 
-# ⏬ 参考
+# 📜 리퍼런스
 
 Plazma提供了多种自定义方法。
 
 其中，以下4种方法是可以直接使用而无需额外操作的自定义方法。
 
 {% hint style="info" %}
-
-**无法通过说明书解决问题吗？**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [官方 Discord 服务器](https://discord.gg/MmfC52K8A8)或通过[GitHub 讨论](https://github.com/PlazmaMC/PlazmaBukkit/discussions)向社区提问！
-
 {% endhint %}
 
 ***
