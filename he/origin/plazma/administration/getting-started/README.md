@@ -7,27 +7,27 @@ description: למדו כיצד ליצור שרת באמצעות Plazma.
 כדי להשתמש ב-Plazma באופן יציב, המערכת צריכה לעמוד בדרישות הבאות:
 
 |            | מינימום | מומלץ |
-| :--------: | :------ | :---- |
+| :--------: | ------- | ----- |
 | ארכיטקטורה | x64     | -     |
 |     RAM    | 8GB     | 16GB  |
 |  שטח אחסון | 1GB     | 8GB   |
-|     JRE    | 17      | 21    |
+|     JDK    | 17      | 21    |
 
 כדי לערוך קבצי תצורה בצורה חלקה, כדאי להתקין עורך כגון [Visual Studio Code](https://code.visualstudio.com/download).
 
 ***
 
-## 1. התקנת JRE
+## 1. JDK 설치
 
-כפי שניתן להבין מהשם, Minecraft: **"Java"** Edition פותח ב-Java, ולהריץ אותו נדרש JRE[^1].
+이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JDK[^1]를 필요로 합니다.
 
-Plazma מבוסס על פלטפורמת השרת הרשמית של Mojang Studios, ולכן על מנת להשתמש ב-Plazma יש להתקין גם JRE.
+Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JDK를 설치해야 합니다.
 
-### 1.1 בדיקת התקנת JRE
+### 1.1 JDK 설치 유무 확인
 
-כדי לוודא ש-JRE מותקן במערכת, יש להזין [`cmd /k java --version`](#user-content-fn-4) בחלון הפעולה ולהפעיל אותו.
+JDK가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
 
-כאשר הוא מוצג כך, עובר ל[שלב 2](#id-2).
+다음과 같이 출력되면 [2 단계](./#id-2)로 건너뜁니다.
 
 {% code title="הפלט הנכון" lineNumbers="true" %}
 
@@ -39,9 +39,9 @@ OpenJDK 64-Bit שרת VM Zulu21.32+17-CA (בנייה 21.0.2+13-LTS, מצב מע�
 
 {% endcode %}
 
-אם הוא לא מוצג כמו למעלה, או מוצג כך, זה אומר שאין JRE או שהוא ישן מדי, ועליך לבצע [שלב 1.2](#id-1.2).
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JDK가 없거나 너무 오래되었으므로, [1.2 단계](./#id-1.2)를 수행해야 합니다.
 
-{% code title="JRE לא מותקן" lineNumbers="true" %}
+{% code title="JDK가 설치되어 있지 않음" lineNumbers="true" %}
 
 ```log
 'java' הוא פקודה פנימית או חיצונית, תוכנית הניתנת לביצוע, או
@@ -50,7 +50,7 @@ OpenJDK 64-Bit שרת VM Zulu21.32+17-CA (בנייה 21.0.2+13-LTS, מצב מע�
 
 {% endcode %}
 
-{% code title="JRE ישן מדי" lineNumbers="true" %}
+{% code title="JDK가 너무 오래됨" lineNumbers="true" %}
 
 ```log
 אפשרות לא מוכרת: --version
@@ -60,32 +60,27 @@ OpenJDK 64-Bit שרת VM Zulu21.32+17-CA (בנייה 21.0.2+13-LTS, מצב מע�
 
 {% endcode %}
 
-### 1.2 התקנת JRE
+### 1.2 JDK 설치
 
-במדריך זה אנו משתמשים ב-Azul Zulu כאחת מ[הגרסאות](#user-content-fn-5)[^5] של JRE.
+본 설명서에서는 JDK의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-לאחר התקנה, נא לבצע שוב [שלב 1.1](#id-1.1) כדי לוודא שההתקנה הושלמה בהצלחה.
+설치를 완료한 후, [1.1 단계](./#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
-
 {% tab title="Windows" %}
 
 1. התחל על ידי הורדת **JDK 21** בפורמט `.msi` מ-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. הרץ את אשף ההתקנה שהורדת ולחץ על 'הבא'.
 3. בתפריט המוצג במרכז השמאלי של החלון, הפעל את 'Set JAVA_HOME variable' ולאחר מכן לחץ על 'הבא'.
 4. לחץ על 'התקן' כדי להשלים את התהליך של התקנת JRE.
-
-{% endtab %}
+   {% endtab %}
 
 {% tab title="macOS" %}
-
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) מורידים את **JDK 21** בפורמט `.dmg` מהקישור ומריצים את אשף ההתקנה כדי להתקין JRE.
-
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
-
-ראשית, מוסיפים את ספריית האחסון של Azul Zulu ל-APT על ידי הרצת הפקודה הבאה בטרמינל.
+먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
 
 ```bash
 sudo apt install gnupg ca-certificates curl --no-install-recommends --no-install-suggests -y
@@ -104,8 +99,7 @@ sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-
 {% endtab %}
 
 {% tab title="Fedora/RHEL" %}
-
-ניתן להתקין JRE על ידי הזנת הפקודה הבאה.
+다음 명령어를 입력하여 JDK를 설치할 수 있습니다.
 
 ```bash
 sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
@@ -123,12 +117,10 @@ sudo dnf install -y zulu21-ca-jre-headless
 Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니다.
 
 {% hint style="warning" %}
+**대부분의 경우에는 `Mojang-mapped Paperclip`을 사용합니다.**
 
-**ברוב המקרים משתמשים ב-`Reobf Paperclip`.**
-
-התוכן הבא מיועד למפתחים או לאנשים שמעוניינים בתכנים המיוחדים של כל סוג.\
-אם אתה משתמש רגיל, תוכל לדלג ל[שלב 3](#id-3) ללא בעיה.
-
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](./#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 {% endhint %}
 
 <details>
@@ -140,10 +132,10 @@ Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니�
 - **매핑 형태**\
   매핑은 Minecraft의 실제 코드와 난독화된 코드를 잇는 일종의 지도입니다.
   - **Reobf**\
-    Reobfuscated (ריאובפוסקייטד), מפוצל מחדש ונקרא גם מפת Spigot, משמש ברוב התוספים של NMS.\
-    השימוש בו יופסק מגרסה 1.20.5 והלאה.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.6부터 지원이 종료되었습니다.
   - **Mojmap**\
-    מופת Mojang, מפת Minecraft הוונילית.
+    מופת Mojang, מפת Minecraft הוונילית. 1.20.6 이후의 모던 플러그인에서 사용합니다.
 - **버전 관리자**\
   버전 관리자는 서버 구동에 필요한 라이브러리와, 서버 파일을 패치하는 서버의 런처라고 할 수 있습니다.
   - **Paperclip**\
@@ -159,8 +151,8 @@ Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니�
 
 Plazma를 간단하게 시작하고, 서버를 자동으로 재시작 하려면, [시작 스크립트](#user-content-fn-6)[^6]를 만들어야 합니다.
 
-[Flags.sh](https://flags.sh)ניתן ליצירת סקריפט התחלה דרך\
-[יצירה](#user-content-fn-7)[^7]. רק ציין את כמות הזיכרון לשימוש ב-Plazma והפקודה תתאותת אוטומטית.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 생성[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 좌측 하단 다운로드 버튼을 통해 시작 스크립트를 다운로드 할 수 있습니다.\
 **다운로드한 시작 스크립트가 자신의 운영체제와 동일한지 확인하세요.**
@@ -172,14 +164,12 @@ Plazma를 간단하게 시작하고, 서버를 자동으로 재시작 하려면,
 이제 다운로드한 시작 스크립트와 Plazma를 새 폴더에 이동합니다.
 
 {% hint style="warning" %}
+**폴더 명칭은 반드시 띄어 쓰기와 특수 문자가 없고, 영어로 설정되어야 합니다.**
 
-**שם התיקייה חייב להיות בלתי מכוון ובאנגלית.**
-
-그렇지 않으면 Plazma 또는 JRE가 올바르게 작동하지 않을 수 있습니다.
-
+그렇지 않으면 Plazma 또는 JDK가 올바르게 작동하지 않을 수 있습니다.
 {% endhint %}
 
-이제 시작 스크립트를 실행합니다. ב-Windows, <mark style="background-color:orange;">בחלון בחירת הרשאות חומת האש, יש לבחור **התר** בהחלט</mark>.
+이제 시작 스크립트를 실행합니다. Windows의 경우, <mark style="background-color:orange;">방화벽 허용 선택 창에서, 반드시</mark> <mark style="background-color:orange;"></mark><mark style="background-color:orange;">**허용**</mark><mark style="background-color:orange;">을 선택</mark>해야 합니다.
 
 ***
 
@@ -190,9 +180,7 @@ Plazma를 간단하게 시작하고, 서버를 자동으로 재시작 하려면,
 EULA[^9]는 [Mojang Studios](#user-content-fn-10)[^10]의 서비스를 이용함으로써 동의해야 하는 사용권 계약입니다.
 
 {% hint style="warning" %}
-
-אם אין הסכמה, לא ניתן להתחיל את השרת ואפשר לקבל [ענישות](#user-content-fn-11)[^11] כגון השהיית חשבון על עבירה ב-EULA.
-
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 제재[^11]를 받을 수 있습니다.
 {% endhint %}
 
 EULA에 동의하려면 `eula.txt` 파일의 `eula=false`를 `eula=true`로 수정하고 저장합니다.
@@ -203,11 +191,10 @@ EULA에 동의하려면 `eula.txt` 파일의 `eula=false`를 `eula=true`로 수�
 
 현대 운영 체제는 외부에서 위험한 접근을 차단하기 위해, 기본적으로 **방화벽**과 **라우터**가 외부 접속을 차단하고 있습니다.
 
-במקרה של Windows, הגנת הגישה (פיירוול) כבר הופעלה ב[שלב 3](#id-3), נדרש רק פורוורד של פורטים.
+Windows의 경우, 방화벽은 [3 단계](./#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
-
-**מדריך זה נכתב בהנחה שיש לך מערכת הפעלה Windows ו-[UPnP](#user-content-fn-12)[^12] זמין בנתב שלך.**
+**해당 설명서는 Windows 운영 체제 및** [**UPnP**](#user-content-fn-12)[^12]**를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 라우터가 UPnP를 지원하지 않는 경우, 라우터 별로 패널이 다르므로, 직접 자료를 검색해야 합니다.
 
@@ -215,9 +202,7 @@ EULA에 동의하려면 `eula.txt` 파일의 `eula=false`를 `eula=true`로 수�
 {% endhint %}
 
 {% hint style="warning" %}
-
-**במערכות ההפעלה של Linux או macOS וכדומה (כמעט UNIX), יש לחפש אינפורמציה על הגדרת שירותי חומת האש באופן ישיר מאחר שהם שונים.**
-
+**Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.**
 {% endhint %}
 
 ### 6.1 포트 포워딩 필요 유무 확인
@@ -233,18 +218,14 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 ### 6.2 서버에 접속
 
 {% tabs %}
-
-{% tab title="גישה מהחוץ" %}
-
-אם אין צורך בהעברת פורטים או שכבר בוצעה העברת פורטים בהצלחה, ניתן כעת להתחבר לשרת.
+{% tab title="외부에서 접속" %}
+포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
 
 서버에 접속할 때 사용되는 주소는 [여기에서](https://ip.pe.kr/) 확인할 수 있습니다.
-
 {% endtab %}
 
-{% tab title="ניסיון להפעיל פורטים עם UPnP" %}
-
-בקובץ `purpur.yml` בתיקיית השרת, הפעל את `network.upnp-port-forwarding` על `true`.
+{% tab title="UPnP로 포트포워딩 시도" %}
+서버 폴더의 `purpur.yml`에서, `network.upnp-port-forwarding`을 `true`로 활성화합니다.
 
 그런 다음, 서버를 재시작하면, Plazma가 자동으로 포트 포워딩을 시도합니다.
 
@@ -258,12 +239,10 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 | `Service is unavailable`        | 라우터가 UPnP를 지원하지 않음.  |
 
 서버가 종료되면 Plazma가 자동으로 포트를 닫습니다.
-
 {% endtab %}
 
-{% tab title="יצירת כתובת זמנית עם Ngrok" %}
-
-שימוש ב-Ngrok מתאים לבדיקות זמניות, משחקים קבוצתיים או שיתוף פעולה עם חברים.
+{% tab title="Ngrok으로 임시 주소 생성" %}
+Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들과 함께 플레이하기에 유용합니다.
 
 1. [Ngrok 홈페이지](https://ngrok.com/download)에서 `Windows (64-bit)` ZIP 파일을 다운로드 합니다.
 2. 다운로드한 Ngrok을 서버 폴더에 넣습니다.
@@ -272,12 +251,10 @@ powershell -noexit -c "((Get-NetIPConfiguration).IPv4Address).IPAddress -eq (Inv
 5. 실행 스크립트 가장 상단에 `start /b ngrok tcp --region jp 25565`, 최하단에 `taskkill /f /t /im ngrok.exe`를 추가합니다.
 6. 콘솔 최상단에 표시된 `Forwarding tcp://0.tcp.jp.ngrok.io:12345 -> localhost:25565` 에서, `0.tcp.jp.ngrok.io:12345`가 서버의 주소가 됩니다.
 7. 이제 외부에서 해당 주소를 통해 접속할 수 있습니다.
+   {% endtab %}
 
-{% endtab %}
-
-{% tab title="התחברות מקומית" %}
-
-כאשר אתה מנסה להתחבר לשרת מהמחשב המקומי, תוכל להתחבר באמצעות כתובת `IPv4` שמופיעה בתוצאות `cmd /k ipconfig` בחלון ההרצה.
+{% tab title="로컬에서 접속" %}
+로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 `cmd /k ipconfig`를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
 
 예를 들어, 명령어 실행 후 다음과 같이 출력되었을 때,
 
@@ -296,7 +273,6 @@ Windows תצורת IP
 여기에서 IPv4 주소에 표시된 `192.168.3.7`로 접속을 시도하면 로컬에서 서버에 접속할 수 있습니다.
 
 서버와 게임이 같은 PC에서 실행되는 경우, `localhost`로 접속할 수 있습니다.
-
 {% endtab %}
 {% endtabs %}
 
@@ -312,7 +288,7 @@ Windows תצורת IP
 
 ***
 
-[^1]: Java Runtime Environment, Java 실행 환경.
+[^1]: Java Development Kit (Java 개발 환경), Java Runtime Environment (JRE, Java 실행 환경) 을 포함하고 있으며, Plazma 에서는 JDK 에서만 제공되는 일부 기능을 이용하고 있으므로 JDK 설치를 필요로 합니다.
 
 [^2]: Plazma의 기반 Paper는 Spigot을 기반으로 하며, Spigot이 공식 서버 플랫폼을 기반으로 합니다.
 
