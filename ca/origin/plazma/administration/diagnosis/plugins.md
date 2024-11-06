@@ -2,4 +2,4 @@
 description: Descobreix com solucionar quan el connector no funciona correctament.
 ---
 
-# ⏬ Connector
+# 📜 플러그인
