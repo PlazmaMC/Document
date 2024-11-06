@@ -1,1 +1,5 @@
-# 🧾 Mitmesugust
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
