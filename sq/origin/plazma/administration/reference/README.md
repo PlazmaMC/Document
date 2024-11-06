@@ -2,18 +2,16 @@
 description: Mësoni mënyrat e përdorueshmërisë të ofruara nga Plazma.
 ---
 
-# ⏬ Referencë
+# 📜 리퍼런스
 
 Plazma ofron disa mënyra të përdorueshmërisë.
 
 Nga këto, 4 mënyrat e përdorueshmërisë që mund të përdoren menjëherë pa nevojë për veprime shtesë.
 
 {% hint style="info" %}
-
-**A mund të zgjidhni problemin përmes manualit?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Serveri Zyrtar i Discord-it](https://discord.gg/MmfC52K8A8) ose [Diskutimet në GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) për të pyetur komunitetin!
-
 {% endhint %}
 
 ***
