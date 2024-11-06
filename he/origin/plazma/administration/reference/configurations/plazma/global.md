@@ -2,4 +2,4 @@
 description: לְחַקֵר מַה כָּל צָמָד בְּ plazma-global.yml מַצְיַין.
 ---
 
-# ✨ Plazma (הגדרה גלובלית)
+# 🌏 전역 구성
