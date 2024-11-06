@@ -2,4 +2,4 @@
 description: purpur.yml pa lub node mapecek kwede onino kicoyo.
 ---
 
-# 🦑 Purpur (Lok ma kicel ki dano)
+# 🏳️ 세계별 구성
