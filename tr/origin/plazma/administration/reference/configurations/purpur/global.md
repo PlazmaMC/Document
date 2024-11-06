@@ -2,4 +2,4 @@
 description: purpur.yml dosyasındaki her düğümün ne anlama geldiğini öğrenin.
 ---
 
-# 🦑 Mor (global yapı)
+# 🌏 전역 구성
