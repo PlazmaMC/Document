@@ -2,4 +2,4 @@
 description: Ontdek hoe je problemen oplost wanneer de plug-in niet goed werkt.
 ---
 
-# ⏬ Plug-in
+# 📜 플러그인
