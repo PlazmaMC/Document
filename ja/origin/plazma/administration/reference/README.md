@@ -2,18 +2,16 @@
 description: Plazmaで提供されているユーザー定義方法を調べてください。
 ---
 
-# ⏬ リファレンス
+# 📜 리퍼런스
 
 Plazmaでは、さまざまなユーザー定義方法を提供しています。
 
 その中で、以下の4つの方法は追加の作業なしに直接使用できるユーザー定義方法です。
 
 {% hint style="info" %}
-
-**説明書で問題を解決できませんか？**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 コミュニティの質問は、[公式Discordサーバー](https://discord.gg/MmfC52K8A8)または[GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)でお尋ねください！
-
 {% endhint %}
 
 ***
