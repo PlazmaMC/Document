@@ -1,1 +1,5 @@
-# 🧾 Diversen
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
