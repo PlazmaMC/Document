@@ -2,4 +2,4 @@
 description: Vaadake, mida iga purpur.yml sõlm tähendab.
 ---
 
-# 🦑 Purpur (üldine koosseis)
+# 🌏 전역 구성
