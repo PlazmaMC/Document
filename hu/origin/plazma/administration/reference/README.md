@@ -2,18 +2,16 @@
 description: Tudj meg többet a Plazma által biztosított alapértelmezett felhasználói testreszabási módszerekről.
 ---
 
-# ⏬ Hivatkozás
+# 📜 리퍼런스
 
 A Plazma többféle felhasználói testreszabási módszert kínál.
 
 Ezek közül 4 módszer azonnal használható, további munka nélkül.
 
 {% hint style="info" %}
-
-**Nem tudja megoldani a problémát a kézikönyv segítségével?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Hivatalos Discord szerver](https://discord.gg/MmfC52K8A8) vagy a [GitHub Beszélgetések](https://github.com/PlazmaMC/PlazmaBukkit/discussions) segítségével kérdezz a közösségtől!
-
 {% endhint %}
 
 ***
