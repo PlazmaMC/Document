@@ -2,9 +2,9 @@
 description: Sužinokite, kaip pritaikyti serverį vartotojui.
 ---
 
-# 📶 Tobulėti
+# 🎨 발전하기
 
-Naudojant patobulintą serverio platformą, tokia kaip Plazma, o ne oficialią Mojang Studios teikiamą serverio platformą, pagrindinė priežastis yra galimybė labai stipriai **pritaikyti**.
+Mojang Studios에서 제공하는 공식 서버 플랫폼을 사용하지 않고 Plazma와 같이 수정된 서버 플랫폼을 사용하는 이유는 강력한 **사용자화**가 가능하다는 점이 가장 클 것입니다.
 
 Žemiau pateikiami keli būdai, kaip pritaikyti ir naudoti Plazmą.
 
@@ -25,29 +25,19 @@ Daugiau informacijos apie Plazmos konfigūraciją rasite žemiau pateiktame pusl
 ## Įskiepiai <a href="#id-2" id="id-2"></a>
 
 {% hint style="success" %}
+**Plazma는 Paper 기반의 모든 플러그인을 정상 지원합니다.**
 
-**Plazma palaiko visus popieriaus pagrindu veikiančius įskiepius.**
-
-Spigot įskiepiams, pradedant nuo 1.20.5, dėl Paper žemėlapio pasikeitimų kai kurie gali neveikti,
-Tačiau dauguma įskiepių, kurie yra pagrįsti Paper, Pufferfish ar Purpur, veiks Plazmoje,
-ir jei jie neveiks tinkamai, tai yra Plazmos klaida, todėl nedelsiant [praneškite apie tai.](../diagnosis/plugins.md)
-
+Spigot 플러그인의 경우 1.20.5부터 Paper의 매핑 변화로 일부 동작하지 않을 수 있지만, Paper, Pufferfish 및 Purpur 등 Paper를 기반으로 하는 대부분의 플러그인은 Plazma에서도 모두 작동하며, 만약 정상적으로 작동하지 않을 경우 Plazma의 오류이므로 즉시 [신고해주시기 바랍니다.](../diagnosis/plugins.md)
 {% endhint %}
 
-Tai svarbiausias Plazmos naudojimo motyvas ir galingiausias būdas pritaikyti Plazmą vartotojui.
-Plazmos galinga įskiepių ekosistema leidžia lengvai pritaikyti serverį vartotojui.
+Tai svarbiausias Plazmos naudojimo motyvas ir galingiausias būdas pritaikyti Plazmą vartotojui. Plazmos galinga įskiepių ekosistema leidžia lengvai pritaikyti serverį vartotojui.
 
-Yra keletas būdų rasti ir atsisiųsti įskiepius. Kai kurie įskiepiai
-yra įkelti į viešą saugyklą ir kai kurie į GitHub ar savo
-svetainę.
+Yra keletas būdų rasti ir atsisiųsti įskiepius. 어떤 플러그인은 공개 저장소 서비스에 플러그인을 업로드 하고, 어떤 플러그인은 GitHub 또는 자체 사이트에 업로드하기도 합니다.
 
-{% hint style="caution" %}
+{% hint style="info" %}
+**플러그인은 시스템에 직접적으로 접근할 수 있습니다!**
 
-**Įskiepiai gali tiesiogiai prieiti prie sistemos!**
-
-Prieš taikydami įskiepį, visada patikrinkite jo saugumą naudodami VirusTotal ar kitas paslaugas arba
-atsisiųskite įskiepį iš patikimos paslaugos.
-
+VirusTotal 등의 서비스를 이용하여 플러그인을 적용하기 전 항상 안전한지 확인하거나, 신뢰 가능한 서비스에서 플러그인을 다운로드 하세요.
 {% endhint %}
 
 Yra keletas paslaugų, skirtų įskiepiams atsisiųsti. Iš jų, [SpigotMC Forum](https://www.spigotmc.org/resources/), [BukkitDev (CurseForge)](https://dev.bukkit.org/bukkit-plugins), [Modrinth](https://modrinth.com/plugins), [Hanger](https://hangar.papermc.io/) ir kt. paslaugos įskiepius vertina prieš įkeliant ir tik saugūs įskiepiai platinami.
@@ -56,16 +46,11 @@ Yra keletas paslaugų, skirtų įskiepiams atsisiųsti. Iš jų, [SpigotMC Forum
 
 Kai įskiepis atsisiųstas, dabar laikas jį taikyti.
 
-1. Įskiepis yra `.jar` arba `Java vykdomasis failas`.\
-   Kai kurie įskiepiai gali būti suspausti, tokiu atveju
-   išpakuokite failą, kuriame yra `bukkit`, `spigot` ar `paper` pavadinime ir
-   naudokite failą, kuriame yra `fat` kartu su kitais failais.
+1. 플러그인은 `.jar` 또는 `Java Executable File` 로 되어 있습니다.\
+   일부 플러그인은 압축 파일로 압축되어 있는 경우도 있는데, 그런 경우 압축을 풀어 이름에 `bukkit`, `spigot` 또는 `paper` 가 포함되어 있고, `fat`이 포함된 파일이 함께 있는 경우 `fat` 파일을 사용하면 됩니다.
 2. Įkeltą failą įkelkite į serverio `plugins` aplanką ir paleiskite (iš naujo) serverį.
-3. Kai Plazma paleidžiama, konsolėje bus rodomas naujas turinys.
-   Tai reiškia, kad Plazma sėkmingai įkėlė įskiepį.
-4. Nors Plazma sėkmingai įkėlė įskiepį, gali būti, kad įskiepis nepradėjo veikti.
-   Naudodami komandą `/plugins`, galite pamatyti įkeltus įskiepius serveryje.
-   Jei įskiepis, kurį įkėlėte, nėra <mark style="background-color:red;">raudonas</mark>, o <mark style="background-color:green;">žalias</mark>, tai reiškia, kad įskiepis sėkmingai įkeltas.
+3. Kai Plazma paleidžiama, konsolėje bus rodomas naujas turinys. Tai reiškia, kad Plazma sėkmingai įkėlė įskiepį.
+4. Nors Plazma sėkmingai įkėlė įskiepį, gali būti, kad įskiepis nepradėjo veikti. Naudodami komandą `/plugins`, galite pamatyti įkeltus įskiepius serveryje. 설치한 플러그인의 이름이 <mark style="background-color:red;">적색</mark>이 아닌 <mark style="background-color:green;">녹색</mark>이라면 플러그인이 정상적으로 로드된 것입니다.
 
 Jei įskiepis nebuvo sėkmingai įkeltas, galite rasti problemos sprendimo būdus žemiau pateiktame puslapyje.
 
@@ -77,45 +62,36 @@ Jei įskiepis nebuvo sėkmingai įkeltas, galite rasti problemos sprendimo būdu
 
 ## Duomenų paketo naudojimas <a href="#id-3" id="id-3"></a>
 
-Duomenų paketas yra Minecraft pagrindinis vartotojo pritaikymo būdas, panašus į
-[šaltinių paketus](#user-content-fn-1)[^1].
+데이터팩은 Minecraft가 기본적으로 제공하는 사용자화 방법으로써, 리소스팩[^1]과 유사합니다.
 
 Naudojant duomenų paketą, galite redaguoti žaidimo dalis, pvz., pridėti naujų būtybių rūšių ir iššūkių.
 
-{% hint style="caution" %}
-
-**Duomenų paketas gali sugadinti pasaulį!**
+{% hint style="info" %}
+**데이터팩은 월드를 손상시킬 수 있습니다!**
 
 Kai kurie sugadinti duomenų paketai gali sugadinti pasaulį ir tai negali būti atstatyta.
 
 Dėl šios priežasties prieš taikydami duomenų paketą rekomenduojama atlikti pasaulio atsarginę kopiją.
-
 {% endhint %}
 
-Duomenų paketą galima atsisiųsti iš įvairių paslaugų, tokių kaip [CurseForge](https://www.curseforge.com/minecraft/search?page=1\&pageSize=50\&sortBy=relevancy\&class=data-packs), [Modrinth](https://modrinth.com/datapacks), [Planet Minecraft](https://www.planetminecraft.com/data-packs/) ir kt.
+데이터팩 또한 여러 서비스에서 다운로드 할 수 있으며, [CurseForge](https://www.curseforge.com/minecraft/search?page=1\\&pageSize=50\\&sortBy=relevancy\\&class=data-packs), [Modrinth](https://modrinth.com/datapacks), [Planet Minecraft](https://www.planetminecraft.com/data-packs/) 등 여러 서비스에서 찾을 수 있습니다.
 
-Atsisiuntus duomenų paketą, jį galima pritaikyti įkeliant į serverio pasaulio aplanką `datapacks` aplanką.
-Jei aplanko nėra, jį galima sukurti ir pridėti.
+Atsisiuntus duomenų paketą, jį galima pritaikyti įkeliant į serverio pasaulio aplanką `datapacks` aplanką. Jei aplanko nėra, jį galima sukurti ir pridėti.
 
-{% hint style="įspėjimas" %}
-
-**[Kai kurie duomenų rinkiniai](#user-content-fn-2)[^2] gali neveikti tinkamai po pirmojo taikymo.**
+{% hint style="warning" %}
+[**일부 데이터팩**](#user-content-fn-2)[^2]**의 경우 처음 적용시 정상적으로 적용되지 않을 수 있습니다.**
 
 Tokiu atveju rekomenduojama **2 kartus** paleisti serverį.
-
 {% endhint %}
 
 Duomenų paketai gali būti lengvai sugadinti kiekvieną kartą, kai atnaujinamas Minecraft versija.
 
-Ypač, jei duomenų paketas yra visiškai sugadintas, serveris gali susidurti su sutrikimais,
-todėl prieš atnaujinant serverį svarbu atlikti pakankamai testavimo.
+특히, 데이터팩이 완전히 손상된 경우, 서버가 충돌하기 때문에, 서버를 업데이트하기 전 충분한 테스트를 거치는 것이 중요합니다.
 
 {% hint style="info" %}
+**서버 시작 명령어 뒤에 `safeMode`를 입력하여 데이터팩을 모두 비활성화 한 뒤 서버를 시작할 수 있습니다.**
 
-**Paleidus serverį, galima įvesti `safeMode` po serverio paleidimo komandos, kad išjungtumėte visus duomenų paketus ir tada paleisti serverį.**
-
-[Norėdami gauti išsamesnę informaciją, žr. `Nuorodos > Argumentai ir savybės`.](../reference/arguments.md#safemode)
-
+[자세한 내용은 `리퍼런스 > 인수와 속성`을 참고하세요.](../reference/arguments.md#safemode)
 {% endhint %}
 
 Pritaikytus duomenų paketus galima patikrinti naudojant komandą `/datapack list`.
@@ -124,9 +100,9 @@ Pritaikytus duomenų paketus galima patikrinti naudojant komandą `/datapack lis
 
 ## Optimizavimas <a href="#id-4" id="id-4"></a>
 
-Plazmoje taikyta daug optimizavimo patobulinimų. Be to, kai Plazma paleidžiamas pirmą kartą, jis automatiškai optimizuoja konfigūraciją, todėl jei laikotės [pradžios instrukcijų](./README.md), papildomo optimizavimo veiksmų atlikti nereikia.
+Plazmoje taikyta daug optimizavimo patobulinimų. 또한, Plazma가 처음으로 시작되면 자동으로 구성을 최적화 하므로 [시작하기](./) 설명서를 따른 경우 추가적인 최적화 작업을 할 필요가 없습니다.
 
-Tačiau jei prisijungia daug žaidėjų arba pasaulis yra labai didelis, galite atlikti papildomus optimizavimo veiksmus, vadovaudamiesi žemiau pateiktais instrukcijais.
+하지만, 많은 플레이어가 접속하거나, 월드의 크기가 방대한 경우, 아래 설명서를 통해 추가적인 최적화 작업을 할 수 있습니다.
 
 {% content-ref url="../expert/optimize.md" %}
 [optimize.md](../expert/optimize.md)
@@ -136,7 +112,7 @@ Tačiau jei prisijungia daug žaidėjų arba pasaulis yra labai didelis, galite 
 
 ## Tarpininkas <a href="#id-5" id="id-5"></a>
 
-Tarpininkas jungia serverius ir leidžia žaidėjams judėti tarp serverių be papildomo darbo arba bendrauti su kitais serveriais.
+프록시는 서버를 서로 연결하고 플레이어가 추가적인 작업 없이 서버를 이동하거나, 다른 서버와 소통할 수 있게 합니다.
 
 Daugiau informacijos apie saugų ir teisingą tarpininko nustatymą rasite žemiau pateiktame puslapyje.
 
@@ -150,18 +126,15 @@ Daugiau informacijos apie saugų ir teisingą tarpininko nustatymą rasite žemi
 
 Minecraft, besivystant modams, lengvai gali būti rasta internete ir naudojama [pažeidžiamųjų atakų variklių](#user-content-fn-3)[^3].
 
-Nors dauguma pažeidžiamumų yra [pagrindiniu lygiu blokuoti](#user-content-fn-4)[^4] normaliuose žaidimuose,
-naudojant trečiųjų šalių įkroviklį, pažeidžiamumų atakos nebus blokuojamos.
+일반 게임에서도 실행 가능한 대부분의 취약점은 [기본적으로 차단되어 있지만](#user-content-fn-4)[^4], 서드파티 로더를 통해 취약점을 공격하는것은 차단되어 있지 않습니다.
 
-Todėl, jei serveris yra viešas, rekomenduojama diegti įvairius apsaugos įskiepius, tokius kaip Anti-Cheat, ir
-konfigūruoti tarpininką bei automatinį paleidimą, atsarginį kopijavimą ir t.t., kad būtų galima greitai atkurti serverį, jei jis sugriūtų.
+따라서, 서버가 공개되어 있는 경우, 안티 치트 플러그인 등을 설치하여 취약점 사용을 차단하고, 프록시 및 자동 재시작, 백업 등을 구성하여 서버가 다운되어도 빠르게 복구할 수 있도록 하는 것이 권장됩니다.
 
 ### Leidimų nustatymas <a href="#id-5.1" id="id-5.1"></a>
 
 Kai kurių įskiepių administratoriaus komandos gali turėti pažeidžiamumų, jei leidimai nėra tinkamai nustatyti.
 
-Rekomenduojama naudoti leidimų valdymo įskiepius, pvz., [LuckPerms](https://luckperms.net/),
-kad būtų apriboti paprastų vartotojų leidimus.
+[LuckPerms](https://luckperms.net/) 등의 권한 관리 플러그인을 사용하여 일반 사용자의 권한을 제한하는 조치를 하는것이 권장됩니다.
 
 ### X-Ray blokavimas <a href="#id-5.2" id="id-5.2"></a>
 
@@ -177,12 +150,9 @@ X-Ray blokavimo būdas ir aprašymas pateikti žemiau pateiktame puslapyje.
 
 ### Baltasis sąrašas <a href="#id-5.3" id="id-5.3"></a>
 
-Jei norite, kad tik kai kurie vartotojai galėtų prisijungti prie serverio,
-naudodami [Ngrok](./README.md#id-6.2) su [užšifruotu serverio adresu](#user-content-fn-5)[^5] arba
-nustatydami baltąjį sąrašą, kad kiti žaidėjai negalėtų prisijungti prie serverio, tai taip pat yra rekomenduojama.
+일부 사용자만 서버에 접속할 수 있도록 하는 경우, [Ngrok](./#id-6.2)을 사용하여 [난독화된 서버 주소를 사용](#user-content-fn-5)[^5] 하거나, 화이트리스트를 설정하여 다른 플레이어가 서버에 접속하지 못하도록 하는 것도 권장됩니다.
 
-Serverio konsolėje naudodami `/whitelist add <žaidėjas>` galite leisti žaidėjui prisijungti arba,
-`/whitelist remove <žaidėjas>` atšaukti žaidėjo prisijungimą.
+서버 콘솔에서 `/whitelist add <player>` 를 통해 플레이어의 접속을 허용하거나, `/whitelist remove <player>` 로 플레이어의 접속을 다시 금지할 수 있습니다.
 
 Norėdami pamatyti, kokie žaidėjai yra įtraukti į baltąjį sąrašą, naudokite `/whitelist query`.
 
