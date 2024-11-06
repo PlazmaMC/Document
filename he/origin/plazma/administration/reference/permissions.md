@@ -14,18 +14,18 @@ description: לקבלת מידע על הרשאות ה-Plazma.
 
 Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니다.
 
-[운영자](#user-content-fn-1)[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **플레이어**\
+1. **플레이어**\
    일반적으로 모든 플레이어어게 주어지는 권한 그룹입니다.
-1. **중재자**\
+2. **중재자**\
    스폰 보호를 무시할 수 있습니다.
-2. **세계 관리자**\
+3. **세계 관리자**\
    세계 관리와 관련된 모든 명령어와 명령 블록을 사용할 수 있습니다.\
    데이터팩 및 명령 블록에 기본 적용되는 권한 그룹입니다.
-3. **관리자**\
+4. **관리자**\
    플레이어 관리와 관련된 모든 명령어를 사용할 수 있습니다.
-4. **총관리자**\
+5. **총관리자**\
    서버 관리를 포함한 모든 명령어를 사용할 수 있습니다.\
    콘솔 및 운영자에게 기본 적용되는 권한 그룹입니다.
 
@@ -50,9 +50,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 `(Namespaced Key)`에는 엔티티의 [Namespaced ID](#user-content-fn-2)[^2]가 입력됩니다.
 
 {% hint style="info" %}
-
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 모든 엔티티의 특수 기능이 사용 가능한 것은 아닙니다. 사용 가능한 전체 특수 기술은 아래를 참고하세요.
 
 {% hint style="info" %}
-
 **특수 기술에 대한 좋은 아이디어가 있나요?**
 
 [Plazma Discord](https://plazmamc.org/discord) 또는 [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)에 아이디어를 게시해 주세요!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 </details>
 
 {% hint style="info" %}
-
-**ברירת המחדל**: `מנהל עולם`
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 [`/timings` 명령어](commands.md#timings) 사용을 허용합니다.
 
 {% hint style="warning" %}
-
 **해당 명령어는 사용이 중단되었습니다.**
 
 비슷한 기능을 가지는 명령어에 대해 알아보려면 [Spark](https://spark.lucko.me/docs/Command-Usage)를 확인하세요.
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,8 +181,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 - **ברירת המחדל**: `אין`
 
-[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우,
-권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 이렇게 하면 양 측 모두 성능 향상을 경험할 수 있습니다.
 
@@ -202,36 +193,30 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 #### `plazma.bypass-moved-to-quickly-check`
 
-- **ברירת המחדל**: `אין`
+- **기본 제공**: `없음`
 
 {% hint style="warning" %}
-
 해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
-
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **ברירת המחדל**: `אין`
 
-모루에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **ברירת המחדל**: `אין`
 
-모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)을 사용할 수 있도록 허용합니다.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[הגדרות העולם של Purpur](configurations/purpur/world.md)**: פעולה זו תתקיים רק אם הופעלה האפשרות `משקולת > ניתן לצביעה`.
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -241,32 +226,28 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 모루에 [MiniMessage 태그](https://docs.advntr.dev/minimessage/format.html)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **ברירת המחדל**: `אין`
 
-모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[הגדרות העולם של Purpur](configurations/purpur/world.md)**: פעולה זו תתקיים רק אם הופעלה האפשרות `משקולת > ניתן לצביעה`.
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **ברירת המחדל**: `אין`
 
-플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting_codes#Formatting_codes)가 적용되도록 합니다.
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
-- **ברירת המחדל**: `אין`
+- **기본 제공**: `없음`
 
 플레이어를 유휴 상태 추방 대상에서 제외합니다.
 
@@ -285,9 +266,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 구성에서 설정한 아이템으로 스포너 블록을 채굴하면 스포너 블록을 떨어뜨립니다.
 
 {% hint style="info" %}
-
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -299,9 +278,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 `(NumberString)`에는 `one`, `two`, `three`, `four`, `five`, `six`를 입력할 수 있습니다.
 
 {% hint style="info" %}
-
-**[Purpur 세계별 구성](configurations/purpur/world.md)에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -311,9 +288,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 אפשר תותם של אין-מוות גם כאשר הוא נמצא בתיק האביזרים.
 
 {% hint style="info" %}
-
-**[הגדרות Purpur לעולמות](configurations/purpur/world.md) יש להפעיל `totem-of-undying-works-in-inventory` כדי שיפעל.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -329,9 +304,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 לאפשר לשחקן לתקן פריט שהוא נשא עליו כאשר הוא מתעקש.
 
 {% hint style="info" %}
-
-**[הגדרות Purpur לעולמות](configurations/purpur/world.md) יש להפעיל `shift-right-click-repairs-mending-points` כדי שיפעל.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -341,9 +314,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 להתיר לשחקן להתקין ספאוונרים.
 
 {% hint style="info" %}
-
-**[הגדרות העולם של Purpur](configurations/purpur/world.md)**: פעולה זו תתקיים רק אם הופעלה האפשרות `מכשולי המשחק > טאץ' רך`.
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -356,12 +327,10 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 
 - **ברירת המחדל**: `אין`
 
-לאפשר שימוש בקודי צבעים בלוחות [הצבע](https://minecraft.wiki/w/Formatting_codes#Color_codes).
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[הגדרות Purpur לעולמות](configurations/purpur/world.md) יש להפעיל `sign > allow-colors` כדי שיפעל.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -371,21 +340,17 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 לאפשר שימוש בקודי מטען `(&o)` בלוחות.
 
 {% hint style="info" %}
-
-**[הגדרות Purpur לעולמות](configurations/purpur/world.md) יש להפעיל `sign > allow-colors` כדי שיפעל.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **ברירת המחדל**: `אין`
 
-לאפשר שימוש ב[קודי עיצוב `(&o לא כולל)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) בלוחות.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[הגדרות Purpur לעולמות](configurations/purpur/world.md) יש להפעיל `sign > allow-colors` כדי שיפעל.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -395,9 +360,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 להתיר לשחקן למנוע פיצוץ של TNT על ידי שימוש במספרים.
 
 {% hint style="info" %}
-
-**[הגדרות Purpur לעולמות](configurations/purpur/world.md) יש לוודא ש `defuse-tnt-change` הינו `0.0` או יותר כדי שיפעל.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### הרשאות מוצעות
@@ -409,9 +372,7 @@ Minecraft에서는 기본적인 관리 권한 그룹을 제공하고 있습니�
 להתיר לשחקן להתחבר גם בלעדי התקנת המוד [`NoChatReports`](https://modrinth.com/mod/no-chat-reports).
 
 {% hint style="info" %}
-
-**[הגדרות Plazma לעולמות](configurations/plazma/world.md) יש להפעיל `no-chat-reports > require-install` כדי שיפעל.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
