@@ -2,18 +2,16 @@
 description: Aflați cum să vă personalizați Plazma.
 ---
 
-# ⏬ Referință
+# 📜 리퍼런스
 
 Plazma oferă diverse metode de personalizare pentru utilizatori.
 
 Dintre acestea, există 4 metode de personalizare pe care le puteți utiliza imediat, fără alte operațiuni suplimentare.
 
 {% hint style="info" %}
-
-**Nu puteți rezolva problema prin intermediul manualului de instrucțiuni?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Server Discord oficial](https://discord.gg/MmfC52K8A8) sau [Discuții GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) pentru a pune întrebări comunității!
-
 {% endhint %}
 
 ***
