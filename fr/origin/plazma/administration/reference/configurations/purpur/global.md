@@ -2,4 +2,4 @@
 description: Découvrez ce que chaque nœud de purpur.yml signifie.
 ---
 
-# 🦑 Pourpre (composition globale)
+# 🌏 전역 구성
