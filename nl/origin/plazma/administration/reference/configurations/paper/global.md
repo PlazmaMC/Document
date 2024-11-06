@@ -2,4 +2,4 @@
 description: Ontdek wat elke knoop van paper-global.yml betekent.
 ---
 
-# 🛩️ Paper (globale configuratie)
+# 🌏 전역 구성
