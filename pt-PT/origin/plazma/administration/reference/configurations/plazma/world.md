@@ -2,4 +2,4 @@
 description: Descubra o que cada nó em plazma-world.yml significa.
 ---
 
-# ✨ Plazma (composição mundial)
+# 🏳️ 세계별 구성
