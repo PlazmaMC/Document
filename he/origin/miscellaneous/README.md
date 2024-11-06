@@ -1,1 +1,5 @@
-# 🧾 שונות
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
