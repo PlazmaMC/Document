@@ -14,19 +14,17 @@ Pradžios argumentai ir sistemos savybės yra reikšmės, pridedamos prie Plazma
 
 Sistemos savybės yra reikšmės, įvestos prieš Plazmos inicijavimą prieš JVM, kuris jas apdoroja.
 
-{% hint style="įspėjimas" %}
+{% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**Keičiant sistemos savybes, Plazmos ir JVM veikimas gali pasikeisti, tai gali labai paveikti žaidimą!**
-
-Jei nežinote, kokia yra kiekvienos sistemos savybės funkcija, **nenaudokite jos!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Naudojimo instrukcija <a href="#id-1.1" id="id-1.1"></a>
 
 Sistemos savybės įvedamos kaip Java komandos argumentas tarp `java` ir `-jar`.
 
-Pavyzdžiui, norint pritaikyti `Plazma.dummyProperty` sistemos savybę, įvesdami šį kodą, įvykdžius šią savybę įvedama `37`, o Plazma inicijuojama.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -37,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 Jei į savybes neįvedate jokios vertės, vertė bus nustatyta kaip [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**Paperweight serijos serverių platforma, norėdama atskirti kiekvienos platformos sistemos savybes, į savybės pavadinimą įtraukia `.`**
-
-Kai kuriose terminalo programose, pvz., Windows PowerShell, šie parametrai gali būti neleidžiami, todėl parametrų galuose reikia pridėti `"` [prieš](#user-content-fn-4)[^4].
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Visos sistemos savybės <a href="#id-1.2" id="id-1.2"></a>
@@ -82,11 +78,9 @@ Išjungia Spigot stebėjimo šuns sistemos įspėjimus.
 Išjungia patvirtinimo pranešimą dėl `reload` komandos.
 
 {% hint style="danger" %}
-
-**`/reload` komanda yra labai nestabili, todėl visi serverio po `/reload` naudojimo atsiradę problemos yra naudotojo atsakomybėje.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Jeigu esate įskiepių kūrėjas ir turite atnaujinti įskiepius, naudokite šilumą vietoj `reload` komandos.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -131,7 +125,7 @@ Tai įrašo visus neteisingus kaukių blokus žemėlapyje kartu su jų vietomis.
 - **Formatas**: `Logiškas`
 - **Numatytasis**: `Neteisinga`
 
-Išjungia 128 įskaitomųjų įskiepių [kanalų](#user-content-fn-5)[^5] skaičiaus apribojimą vienam žaidėjui.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -151,14 +145,14 @@ Išjungia Netty nusistovėjusią plūduriavimo konsolidavimo sistemą.
 
 #### `Paper.excessiveTELimit`
 
-- **Formatas**: `Sveikas skaičius`
+- **형태**: `Integer`
 - **Numatytasis**: `750`
 
 Jei entitetas yra didesnis nei nustatyta vertė, jis siunčiamas skaidruose paketuose.
 
 #### `Paper.filterThreshold`
 
-- **Formatas**: `Sveikas skaičius`
+- **형태**: `Integer`
 - **Numatytasis**: `8192`
 
 Nustato didžiausią paketo dydį, kurį serveris gali priimti vienu metu.
@@ -171,32 +165,30 @@ Nustato didžiausią paketo dydį, kurį serveris gali priimti vienu metu.
 Išjungia Java versijos patikrinimą.
 
 {% hint style="danger" %}
-
-**Taip galite pabandyti pasiekti JVM neegzistuojantį kodą!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 Tai gali pakenkti failams ir visam žaidimo mechanizmui, nes jie gali būti negrįžtamai sugadinti.
 
 Visos su tuo susijusios problemos yra jūsų atsakomybė, o Plamza nepateiks jokios pagalbos šiuo atveju.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Formatas**: `Sveikas skaičius`
+- **형태**: `Integer`
 - **Numatytasis**: `64`
 
-Nustato ribą plugin kanalo pavadinimui.
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Formatas**: `Sveikas skaičius`
+- **형태**: `Integer`
 - **Numatytasis**: `80`
 
 Nustato didžiausią simbolių skaičių, kurį galima įvesti į vieną piktogramą.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Formatas**: `Sveikas skaičius`
+- **형태**: `Integer`
 - **Numatytasis**: `(pasaulio versija) + 1`
 
 Nustato pradinės pasaulio atnaujinimo informacijos versiją.
@@ -212,12 +204,12 @@ Tai naudinga tik tais atvejais, kai reikia atnaujinti didžiulius kiekvieno ruo�
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Formatas**: `Sveikas skaičius`
+- **형태**: `Integer`
 - **Numatytasis**: `30`
 
 Jei žaidėjas neperduoda jokių duomenų per nustatytą laiką (sekundėmis), jis bus išmestas iš žaidimo.
 
-Įprastai, [žaidimas](#user-content-fn-7)[^7] nuolat siunčia [širdies plakimo signalus](#user-content-fn-8)[^8] į serverį, todėl, jei žaidimas neatsako, jis laikomas susidūrusiu ir toliau nebeapdoroja žaidėjų serverio pusėje, bet juos išmeta.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -295,7 +287,7 @@ Tai nustato paprastąjį Paper konfigūracijos variantą.
 - **Formatas**: `Logiškas`
 - **Numatytasis**: `false`
 
-Slopina pranešimą, kuris rodomas, kai Plazma inicijuojama [įspėjimas](#user-content-fn-11)[^11].
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -311,19 +303,15 @@ Išjungia Plazma prekinį ženklą ir naudoja standartinį serverio favicon.
 - **Konfliktas**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**Šis parametras vis dar yra kūrimo stadijoje.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**Šis parametras atšaukia visus ištaisytus pažeidžiamumus!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 Tai gali labai paveikti serverio saugumą ir veikimą.
 
 Visos problemas, kylančios naudojant šį parametrą, yra operatoriaus dėl serverio.
-
 {% endhint %}
 
 Nustato pradinę konfigūraciją pagal Mojang numatytuosius nustatymus.
@@ -339,14 +327,12 @@ Ištaisymus galima vėl įjungti naudojant Paper arba Plazma konfigūracijas.
 - **Konfliktas**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**Šis parametras vis dar yra kūrimo stadijoje.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 Nustato pradinę konfigūraciją artimą standartiniam variantui.
 
-Tai taikoma tik iki tam tikros, nekenksmingos serverio veiklos/veikimo lygio, ir naudojant `Plazma.disableConfigOptimization` parametrą, priskiriami standartiniai vertingiausi nustatymai.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Nebenaudojamas atributas <a href="#id-1.3" id="id-1.3"></a>
 
@@ -386,21 +372,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Pseudonimas**: `b`
 - **Numatytoji reikšmė**: `bukkit.yml`
 
-Nurodo [Bukkit konfigūracijos failo](../reference/configurations/bukkit.md) pavadinimą ir vietą.
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Pseudonimas**: `c`
 - **Numatytoji reikšmė**: `commands.yml`
 
-Nurodo [Bukkit komandų konfigūracijos failo](../reference/configurations/bukkit.md) pavadinimą ir vietą.
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Pseudonimas**: `c`
 - **Numatytoji reikšmė**: `server.properties`
 
-Nurodo [serverio savybių](../reference/configurations/property.md) failo pavadinimą ir vietą.
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -412,7 +398,7 @@ Ištrina likusius talpyklos failus po pasaulio atnaujinimo.
 
 #### `forceUpgrade`
 
-Nesvarbu kokios versijos, priverčia pasaulį [atnaujinti](#user-content-fn-12)[^12].
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -433,7 +419,7 @@ Sukuria tik konfigūracijos failą ir išjungia serverį.
 - **Pseudonimas**: `s`, `size`
 - **Numatytoji reikšmė**: `(serverio savybė)`
 
-Nustato maksimalų leidžiamą [žaidėjų](#user-content-fn-14)[^14] skaičių.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -450,17 +436,15 @@ Išjungia JLine ir naudoja standartinę konsolę.
 
 Pasirenka, ar patikrinti žaidėją su Mojang autentifikavimo serveriu.
 
-**Naudoti [EULA](../getting-started/README.md#id-5) pažeidimas, jei naudojamas ne Velocity ar kitas įgaliojimų serveris.**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
 - **Pseudonimas**: `paper`
 - **Numatytoji reikšmė**: `paper.yml`
 
-{% hint style="įspėjimas" %}
-
-**Šis argumentas buvo nutrauktas nuo 1.19.4 versijos**
-
+{% hint style="warning" %}
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 Nustato naudoto PaperSpigot konfigūracijos failo vietą.
@@ -472,13 +456,13 @@ Tai naudojama perkelti seną konfigūraciją į naują failą, po to ji nebeveik
 - **Pseudonimas**: `paper-dir`
 - **Numatytoji reikšmė**: `config`
 
-Nustato [Paper konfigūracijos failo](../reference/configurations/paper/README.md) aplankalo pavadinimą ir vietą.
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **Pseudonimas**: `plazma-dir`
 
-Nustato [Plazma konfigūracijos failo](../reference/configurations/plazma/README.md) aplankalo pavadinimą ir vietą.
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -492,14 +476,14 @@ Nustato papildomų įskiepių aplankalo vietą.
 - **Pseudonimas**: `pufferfish`
 - **Numatytoji reikšmė**: `pufferfish.yml`
 
-Nustato [Pufferfish konfigūracijos failo](../reference/configurations/pufferfish.md) pavadinimą ir vietą.
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **Pseudonimas**: `purpur`
 - **Numatytoji reikšmė**: `purpur.yml`
 
-Nustato [Purpur konfigūracijos failo](../reference/configurations/purpur/README.md) pavadinimą ir vietą.
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -510,7 +494,7 @@ Paleidžia serverį saugiuoju režimu, kaip visiškai standartinį.
 - **Pseudonimas**: `h`, `host`
 - **Numatytoji reikšmė**: `(serverio savybė)`
 
-Nustato serverio prievado pavadinimą arba [internetinio protokolo](#user-content-fn-13)[^13] adresą.
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -530,7 +514,7 @@ Nustato serverio pavadinimą.
 - **Pseudonimas**: `S`
 - **Numatytoji reikšmė**: `spigot.yml`
 
-Nurodo [Spigot konfigūracijos failo](../reference/configurations/spigot.md) pavadinimą ir vietą.
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -578,6 +562,6 @@ Nustato pasaulio failo pavadinimą.
 
 [^12]: Žaidimuose `pasaulio optimizavimas` taip pat veikia pagal šį principą.
 
-[^13]: Interneto protokolas, IP.
+[^13]: `Lygio 2` arba aukštesnis administratorius yra išskiriamas.
 
-[^14]: `Lygio 2` arba aukštesnis administratorius yra išskiriamas.
+[^14]: Interneto protokolas, IP.
