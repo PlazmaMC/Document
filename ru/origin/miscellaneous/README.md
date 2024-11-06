@@ -1,1 +1,5 @@
-# 🧾 Разное
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
