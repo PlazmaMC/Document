@@ -2,4 +2,4 @@
 description: Vaadake, mida iga paper-global.yml sõlm tähendab.
 ---
 
-# 🛩️ Paber (globaalne seadistus)
+# 🌏 전역 구성
