@@ -2,18 +2,16 @@
 description: Lær hvordan du tilpasser Plazma's standardtilpasningsmetoder.
 ---
 
-# ⏬ Reference
+# 📜 리퍼런스
 
 Plazma tilbyder forskellige tilpasningsmetoder.
 
 Blandt dem er de følgende 4 metoder tilpasningsmetoder, som kan bruges uden yderligere arbejde.
 
 {% hint style="info" %}
-
-Kan du ikke løse problemet gennem manualen?
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 Spørg fællesskabet ved at bruge [Officiel Discord-server](https://discord.gg/MmfC52K8A8) eller [GitHub-diskussioner](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 ***
