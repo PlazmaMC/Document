@@ -2,4 +2,4 @@
 description: Zbuloni çfarë do të thotë çdo nyje në plazma-global.yml.
 ---
 
-# ✨ Plazma (konfigurimi global)
+# 🌏 전역 구성
