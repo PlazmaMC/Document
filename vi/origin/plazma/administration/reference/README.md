@@ -2,18 +2,16 @@
 description: Tìm hiểu cách tùy chỉnh cơ bản được cung cấp bởi Plazma.
 ---
 
-# ⏬ Tham khảo
+# 📜 리퍼런스
 
 Plazma cung cấp nhiều cách tùy chỉnh khác nhau.
 
 Trong đó, có 4 cách tùy chỉnh sau đây là cách tùy chỉnh có thể sử dụng ngay mà không cần thêm bất kỳ công việc nào.
 
 {% hint style="info" %}
-
-**Không thể giải quyết vấn đề qua hướng dẫn?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Máy chủ Discord chính thức](https://discord.gg/MmfC52K8A8) hoặc [Thảo luận trên GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions) để đặt câu hỏi trong cộng đồng!
-
 {% endhint %}
 
 ***
