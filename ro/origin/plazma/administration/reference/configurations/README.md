@@ -2,14 +2,13 @@
 description: Configurarea este cea mai fundamentală metodă de personalizare a Plazma.
 ---
 
-# 📋 Configurație
+# 🧾 구성
 
 ***
 
 ## 🪨 Atribut <a href="#id-1" id="id-1"></a>
 
-> Atributul este fișierul de configurare fundamental oferit de Minecraft.
-> Prin utilizarea atributului, puteți schimba mecanismele de bază ale jocului.
+> Atributul este fișierul de configurare fundamental oferit de Minecraft. Prin utilizarea atributului, puteți schimba mecanismele de bază ale jocului.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Configurarea este cea mai fundamentală metodă de personalizare a 
 
 ## 🪣 Configurație Bukkit <a href="#id-2" id="id-2"></a>
 
-> Configurația Bukkit este fișierul de configurare fundamental oferit de Plazma.
-> Prin utilizarea configurației Bukkit, puteți schimba mecanismele de bază ale serverului Minecraft.
+> Configurația Bukkit este fișierul de configurare fundamental oferit de Plazma. Prin utilizarea configurației Bukkit, puteți schimba mecanismele de bază ale serverului Minecraft.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Configurarea este cea mai fundamentală metodă de personalizare a 
 
 ## 🛩️ Configurație Paper <a href="#id-4" id="id-4"></a>
 
-> Configurația Paper vă permite să modificați mecanismele generale ale Plazma și să activați [diverse optimizări și remedieri ale vulnerabilităților](#user-content-fn-1)[^1].
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
