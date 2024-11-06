@@ -1,0 +1,2 @@
+# 🎨 Pliki konfiguracyjne
+

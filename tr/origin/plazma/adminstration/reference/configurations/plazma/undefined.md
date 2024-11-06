@@ -1,0 +1,1 @@
+# 🏳️ Dünya Çapında Yapılandırma
