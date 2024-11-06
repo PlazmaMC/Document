@@ -2,4 +2,4 @@
 description: Saznajte što svaki čvor u purpur.yml znači.
 ---
 
-# 🦑 Purpur (sastav svijeta)
+# 🏳️ 세계별 구성
