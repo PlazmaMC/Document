@@ -1,1 +1,5 @@
-# 🧾 Sekalaiset
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
