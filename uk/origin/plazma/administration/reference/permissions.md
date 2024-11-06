@@ -14,18 +14,18 @@ description: Дізнайтеся про дозволи Plazma.
 
 У Minecraft є базові групи прав для управління.
 
-Ви можете налаштувати права для [адміністратора](#user-content-fn-1)[^1] та командних блоків, а також змінити їх у [властивостях сервера](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Гравець**\
+1. **Гравець**\
    Це стандартна група прав, яку отримує кожен гравець.
-1. **Посередник**\
+2. **Посередник**\
    Може ігнорувати захист від спавну.
-2. **Адміністратор світу**\
+3. **Адміністратор світу**\
    Має доступ до всіх команд та командних блоків, що стосуються управління світом.\
    Це базова група прав для даних пакетів та командних блоків.
-3. **Адміністратор**\
+4. **Адміністратор**\
    Має доступ до всіх команд, пов'язаних з управлінням гравцями.
-4. **Головний адміністратор**\
+5. **Головний адміністратор**\
    Має доступ до всіх команд, включаючи управління сервером.\
    Це базова група прав для консолі та адміністраторів.
 
@@ -49,11 +49,9 @@ description: Дізнайтеся про дозволи Plazma.
 
 У `(Namespaced Key)` вказується [Namespaced ID](#user-content-fn-2)[^2] істоти.
 
-{% нагадування стилю="інформація" %}
-
-**Працює тільки при увімкненні `(Entity) > ridable` у [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+{% endhint %}
 
 #### `allow.special.(Namespaced Key)`
 
@@ -63,12 +61,10 @@ description: Дізнайтеся про дозволи Plazma.
 
 Не всі істоти мають доступ до особливих вмінь. Дивіться список доступних особливих вмінь нижче.
 
-{% нагадування стилю="інформація" %}
-
-**Маєте ідеї для особливих вмінь?**
+{% hint style="info" %}
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Поділіться своїми ідеями на [Plazma Discord](https://plazmamc.org/discord) або [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions) !
-
 {% кінець нагадування %}
 
 <details>
@@ -87,11 +83,9 @@ description: Дізнайтеся про дозволи Plazma.
 
 </details>
 
-{% нагадування стилю="інформація" %}
-
-**Працює тільки при увімкненні `(Entity) > ridable` у [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
+{% endhint %}
 
 #### `bukkit.command.compass`
 
@@ -164,11 +158,9 @@ description: Дізнайтеся про дозволи Plazma.
 Дозволяє використовувати команду [`/timings`](commands.md#timings).
 
 {% hint style="warning" %}
-
-**Ця команда більше не підтримується.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Дізнайтеся більше про подібні команди на [Spark](https://spark.lucko.me/docs/Command-Usage).
-
 {% кінець нагадування %}
 
 #### `bukkit.command.uptime`
@@ -189,7 +181,7 @@ description: Дізнайтеся про дозволи Plazma.
 
 - **Стандартно**: `Немає`
 
-Якщо включено блокування X-Ray, це право дозволяє гравцям зареєстрованим правам обходити шифрування блоків для блокування X-Ray.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Це дозволяє покращити продуктивність обох сторін.
 
@@ -204,34 +196,28 @@ description: Дізнайтеся про дозволи Plazma.
 - **Стандартно**: `Немає`
 
 {% hint style="warning" %}
-
-Це право буде перейменовано на `plazma.bypass.watchdog` у версії 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% кінець нагадування %}
 
 #### `purpur.anvil.color`
 
 - **Стандартно**: `Немає`
 
-Дозволяє використовувати [кольорові коди](https://minecraft.wiki/w/Formatting_codes#Color_codes) на наковальні.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
-{% нагадування стилю="інформація" %}
-
-**Працює тільки при увімкненні `anvil > allow-colors` у [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Стандартно**: `Немає`
 
-Дозволяє використовувати [стильові коди](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) на наковальні.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
-{% нагадування стилю="інформація" %}
-
-**Працює тільки при увімкненні `anvil > allow-colors` у [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.anvil.minimessage`
 
@@ -239,29 +225,25 @@ description: Дізнайтеся про дозволи Plazma.
 
 Дозволяє використовувати [міні-повідомлення теги](https://docs.advntr.dev/minimessage/format.html) на наковальні.
 
-{% нагадування стилю="інформація" %}
-
-**Працює тільки при увімкненні `anvil > allow-minimessages` у [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Стандартно**: `Немає`
 
-Дозволяє вимкнути `курсив` за допомогою стильового коду `&r` на наковальні.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
-{% нагадування стилю="інформація" %}
-
-**Працює тільки при увімкненні `anvil > allow-colors` у [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Стандартно**: `Немає`
 
-При підписуванні книги застосовується [стильовий код](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -283,11 +265,9 @@ description: Дізнайтеся про дозволи Plazma.
 
 Після видобування спавнера за допомогою встановлених у конфігурації предметів, спавнер буде випущено.
 
-{% нагадування стилю="інформація" %}
-
-**Працює тільки при увімкненні `gameplay-mechanics > silk-touch` у [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
 
@@ -297,11 +277,9 @@ description: Дізнайтеся про дозволи Plazma.
 
 У `(NumberString)` можна ввести `one`, `two`, `three`, `four`, `five`, `six`.
 
-{% нагадування стилю="інформація" %}
-
-**Працює тільки при увімкненні `ender_chest > six-rows` та `ender_chest > use-permissions-for-rows` у [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.inventory_totem`
 
@@ -309,11 +287,9 @@ description: Дізнайтеся про дозволи Plazma.
 
 Дозволяє працювати з тотемом бессмертя, якщо він є в інвентарі.
 
-{% нагадування стилю="інформація" %}
-
-**Працює тільки при увімкненні `totem-of-undying-works-in-inventory` у [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.joinFullServer`
 
@@ -327,11 +303,9 @@ description: Дізнайтеся про дозволи Plazma.
 
 Дозволяє гравцю відремонтувати триманий предмет, коли він `присідає та взаємодіє`.
 
-{% нагадування стилю="інформація" %}
-
-\*\*Для правильної роботи необхідно активувати `shift-right-click-repairs-mending-points` в **[конфігураціях світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.place.spawners`
 
@@ -339,11 +313,9 @@ description: Дізнайтеся про дозволи Plazma.
 
 Дозволяє гравцю встановлювати спавнери.
 
-{% нагадування стилю="інформація" %}
-
-**Працює тільки при увімкненні `gameplay-mechanics > silk-touch` у [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.portal.instant`
 
@@ -355,13 +327,11 @@ description: Дізнайтеся про дозволи Plazma.
 
 - **Стандартно**: `Немає`
 
-Дозволяє використовувати [коди кольорів](https://minecraft.wiki/w/Formatting_codes#Color_codes) на табличках.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
-{% нагадування стилю="інформація" %}
-
-**Для правильної роботи активуйте `sign > allow-colors` в [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.sign.magic`
 
@@ -369,23 +339,19 @@ description: Дізнайтеся про дозволи Plazma.
 
 Дозволяє використовувати коди затемнення на табличках `(&о)`.
 
-{% нагадування стилю="інформація" %}
-
-**Для правильної роботи активуйте `sign > allow-colors` в [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.sign.style`
 
 - **Стандартно**: `Немає`
 
-Дозволяє використовувати [коди стилізації `(&о виключено)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) на табличках.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
-{% нагадування стилю="інформація" %}
-
-**Для правильної роботи активуйте `sign > allow-colors` в [конфігурації світу Purpur](configurations/purpur/world.md).**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 #### `purpur.tnt.defuse`
 
@@ -393,11 +359,9 @@ description: Дізнайтеся про дозволи Plazma.
 
 Дозволяє гравцеві за допомогою ножиць `взаємодіяти` для запобігання вибуху TNT.
 
-{% нагадування стилю="інформація" %}
-
-**У [конфігураціях світу Purpur](configurations/purpur/world.md) `defuse-tnt-change` повинен бути `0.0` або більше для правильної роботи.**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
+{% endhint %}
 
 ### Представлені дозволи
 
@@ -407,11 +371,9 @@ description: Дізнайтеся про дозволи Plazma.
 
 Дозволяє гравцеві підключатися навіть якщо модуль [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) не встановлено.
 
-{% нагадування стилю="інформація" %}
-
-**У [конфігураціях світу Plazma](configurations/plazma/world.md) потрібно активувати `no-chat-reports > require-install` для правильної роботи.**
-
-{% кінець нагадування %}
+{% hint style="info" %}
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
+{% endhint %}
 
 ***
 
