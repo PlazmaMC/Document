@@ -14,18 +14,18 @@ Quyền là một công cụ bảo mật đơn giản để thiết lập phạm
 
 Trong Minecraft, có các nhóm quyền quản lý cơ bản được cung cấp.
 
-Bạn có thể thiết lập quyền cho [quản trị viên](#user-content-fn-1)[^1] và khối lệnh, và có thể chỉnh sửa trong [cấu hình máy chủ](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Người chơi**\
+1. **Người chơi**\
    Thường là nhóm quyền mà tất cả người chơi được cấp.
-1. **Trung gian**\
+2. **Trung gian**\
    Có thể bỏ qua bảo vệ spawn.
-2. **Quản trị viên thế giới**\
+3. **Quản trị viên thế giới**\
    Có thể sử dụng tất cả các lệnh và khối lệnh liên quan đến quản lý thế giới.\
    Là nhóm quyền mặc định cho dữ liệu và khối lệnh.
-3. **Quản trị viên**\
+4. **Quản trị viên**\
    Có thể sử dụng tất cả các lệnh liên quan đến quản lý người chơi.
-4. **Chủ quản trị**\
+5. **Chủ quản trị**\
    Có thể sử dụng tất cả các lệnh liên quan đến quản lý máy chủ.\
    Là nhóm quyền mặc định cho bảng điều khiển và quản trị viên.
 
@@ -50,9 +50,7 @@ Khi lên thực thể, bạn có thể điều khiển di chuyển của thực 
 Trong `(Namespaced Key)` sẽ là [ID Namespaced của thực thể](#user-content-fn-2)[^2].
 
 {% hint style="info" %}
-
-**Chỉ hoạt động khi đã kích hoạt `(Entity) > ridable` trong [Cấu hình thế giới Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ Cho phép người chơi sử dụng kỹ năng đặc biệt của thực thể
 Không phải tất cả các kỹ năng đặc biệt của thực thể đều có sẵn. Xem danh sách toàn bộ kỹ năng đặc biệt có sẵn dưới đây.
 
 {% hint style="info" %}
-
-**Có ý tưởng tốt cho kỹ năng đặc biệt?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Hãy chia sẻ ý tưởng của bạn tại [Plazma Discord](https://plazmamc.org/discord) hoặc [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Hãy chia sẻ ý tưởng của bạn tại [Plazma Discord](https://plazmamc.o
 </details>
 
 {% hint style="info" %}
-
-**Chỉ hoạt động khi đã kích hoạt `(Entity) > ridable` trong [Cấu hình thế giới Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Thêm `.other` sau tên quyền để cho phép người chơi khác sử dụng
 Cho phép sử dụng lệnh [`/timings`](commands.md#timings).
 
 {% hint style="warning" %}
-
-**Lệnh này đã bị ngừng sử dụng.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Để biết thêm về các lệnh tương tự, hãy xem trang [Spark](https://spark.lucko.me/docs/Command-Usage).
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,8 +181,7 @@ Thêm `.other` sau tên quyền để cho phép người chơi khác sử dụng
 
 - **Mặc định**: `Không`
 
-Khi [Chống X-Ray](../expert/xray.md) được kích hoạt,
-những người chơi có quyền sẽ không bị mã hóa các khối chống X-Ray.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Điều này giúp cả hai bên trải nghiệm cải thiện hiệu suất.
 
@@ -205,33 +196,27 @@ những người chơi có quyền sẽ không bị mã hóa các khối chống
 - **Mặc định**: `Không`
 
 {% hint style="warning" %}
-
-Quyền này sẽ được thay đổi thành `plazma.bypass.watchdog` trong 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Mặc định**: `Không`
 
-Cho phép sử dụng [mã màu](https://minecraft.wiki/w/Formatting_codes#Color_codes) trên mỏ.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Chỉ hoạt động khi đã kích hoạt `anvil > allow-colors` trong [Cấu hình thế giới Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Mặc định**: `Không`
 
-Cho phép sử dụng [mã định dạng](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) trên mỏ.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Chỉ hoạt động khi đã kích hoạt `anvil > allow-colors` trong [Cấu hình thế giới Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -241,28 +226,24 @@ Cho phép sử dụng [mã định dạng](https://minecraft.wiki/w/Formatting_c
 Cho phép sử dụng [Thẻ MiniMessage](https://docs.advntr.dev/minimessage/format.html) trên mỏ.
 
 {% hint style="info" %}
-
-**Chỉ hoạt động khi đã kích hoạt `anvil > allow-minimessages` trong [Cấu hình thế giới Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Mặc định**: `Không`
 
-Cho phép vô hiệu hóa `nghiêng chữ` bằng mã định dạng `&r` trên mỏ.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Chỉ hoạt động khi đã kích hoạt `anvil > allow-colors` trong [Cấu hình thế giới Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Mặc định**: `Không`
 
-Khi người chơi ký vào sách, áp dụng [mã định dạng](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -285,9 +266,7 @@ Không hoạt động nếu không có quyền cho chế độ game đó.
 Khi đào mỏ với vật phẩm được cấu hình, sẽ rơi ra khối spawner.
 
 {% hint style="info" %}
-
-**Chỉ hoạt động khi đã kích hoạt `gameplay-mechanics > silk-touch` trong [Cấu hình thế giới Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -299,9 +278,7 @@ Thay đổi kích thước của hòm kỹ lưu.
 Có thể nhập `one`, `two`, `three`, `four`, `five`, `six` vào `(NumberString)`.
 
 {% hint style="info" %}
-
-**Chỉ hoạt động khi đã kích hoạt `ender_chest > six-rows` và `ender_chest > use-permissions-for-rows` trong [Cấu hình thế giới Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -311,9 +288,7 @@ Có thể nhập `one`, `two`, `three`, `four`, `five`, `six` vào `(NumberStrin
 Cho phép bảo vệ bất tử hoạt động khi còn trong hòm đồ.
 
 {% hint style="info" %}
-
-**Chỉ hoạt động khi đã kích hoạt `totem-of-undying-works-in-inventory` trong [Cấu hình thế giới Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -329,9 +304,7 @@ Cho phép người chơi bỏ qua giới hạn số người truy cập.
 Cho phép người chơi sửa chữa vật phẩm đang cầm khi họ `ngồi xuống và tương tác`.
 
 {% hint style="info" %}
-
-**[Cấu hình theo từng thế giới Purpur](configurations/purpur/world.md) cần kích hoạt `shift-right-click-repairs-mending-points` để hoạt động.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -341,9 +314,7 @@ Cho phép người chơi sửa chữa vật phẩm đang cầm khi họ `ngồi 
 Cho phép người chơi cài đặt trứng sinh vật.
 
 {% hint style="info" %}
-
-**Chỉ hoạt động khi đã kích hoạt `gameplay-mechanics > silk-touch` trong [Cấu hình thế giới Purpur](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -356,12 +327,10 @@ Cho phép người chơi di chuyển ngay lập tức khi họ sử dụng cổn
 
 - **Mặc định**: `Không`
 
-표지판에 [mã màu](https://minecraft.wiki/w/Formatting_codes#Color_codes) được phép sử dụng.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Phải kích hoạt `sign > allow-colors` trong **[cấu hình thế giới Purpur](configurations/purpur/world.md)** để hoạt động.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -371,21 +340,17 @@ Cho phép người chơi di chuyển ngay lập tức khi họ sử dụng cổn
 Cho phép sử dụng mã hóa độc đáo `(&o)` trên biển chỉ dẫn.
 
 {% hint style="info" %}
-
-**Phải kích hoạt `sign > allow-colors` trong **[cấu hình thế giới Purpur](configurations/purpur/world.md)** để hoạt động.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Mặc định**: `Không`
 
-Cho phép sử dụng [mã định dạng `(&o không bao gồm)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) trên biển chỉ dẫn.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Phải kích hoạt `sign > allow-colors` trong **[cấu hình thế giới Purpur](configurations/purpur/world.md)** để hoạt động.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -395,9 +360,7 @@ Cho phép sử dụng [mã định dạng `(&o không bao gồm)`](https://minec
 Cho phép người chơi ngăn chặn vụ nổ TNT bằng cách `tương tác` với nó bằng kéo.
 
 {% hint style="info" %}
-
-**[Cấu hình thế giới Purpur](configurations/purpur/world.md) cần có `defuse-tnt-change` lớn hơn hoặc bằng `0.0` để hoạt động.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Quyền sắp được cung cấp
@@ -409,9 +372,7 @@ Cho phép người chơi ngăn chặn vụ nổ TNT bằng cách `tương tác` 
 Cho phép người chơi kết nối mà không cần cài đặt mod [`NoChatReports`](https://modrinth.com/mod/no-chat-reports).
 
 {% hint style="info" %}
-
-**[Cấu hình thế giới Plazma](configurations/plazma/world.md) cần kích hoạt `no-chat-reports > require-install` để hoạt động.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
