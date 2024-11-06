@@ -2,18 +2,16 @@
 description: Pelajari cara kustomisasi bawaan dari Plazma.
 ---
 
-# ⏬ Referensi
+# 📜 리퍼런스
 
 Plazma menyediakan berbagai metode kustomisasi.
 
 Di antaranya, 4 metode berikut adalah metode kustomisasi yang dapat digunakan langsung tanpa tindakan tambahan.
 
 {% hint style="info" %}
-
-**Apakah Anda tidak bisa menyelesaikan masalah melalui manual?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Server Discord resmi](https://discord.gg/MmfC52K8A8) atau bertanya kepada komunitas melalui [Diskusi GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 ***
