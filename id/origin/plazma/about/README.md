@@ -15,19 +15,15 @@ description: Pelajari lebih lanjut tentang platform server Plazma.
 
 ## ⚙️ 주요 특징 <a href="#id-2" id="id-2"></a>
 
-1. **Ekosistem Plugin Kuat**\
-   [Berkas](https://github.com/PaperMC/Paper) berbasis
-   di internet, sebagian besar [plugin terbaru](#user-content-fn-1)[^1] yang tersedia untuk diunduh berfungsi dengan baik.
-2. **Optimisasi Tanpa Konfigurasi**\
-   Semua patch [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) termasuk,
-   beberapa optimisasi internal dan mod terpasang untuk memberikan kinerja terbaik.
-3. **Game yang Dikustomisasi Sesuai Keinginan**\
-   [Purpur](https://github.com/PurpurMC/Purpur) yang disertakan dalam Plazma
-   memungkinkan modifikasi atribut game secara keseluruhan.
-4. **Server Bermain dengan Aman**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) termasuk sehingga mulai dari 1.19
-   [Sistem Pelaporan Obrolan](#user-content-fn-2)[^2] [Mojang](#user-content-fn-3)[^3] dapat dinonaktifkan,\
-   dan pengumpul informasi diagnosis sepenuhnya dihapus untuk bermain di server yang aman tanpa pelacakan.
+1. **강력한 플러그인 생태계**\
+   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
+2. **설정이 필요 없는 최적화**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
+3. **원하는 대로 사용자화하는 게임**\
+   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며,\
+   진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **가장 빠른 업데이트**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate)는 Plazma의 포함 패치가 항상 최신으로 유지될 수 있도록 해서, Paper 기반 서버 플랫폼 중에서 가장 빠른 업데이트를 제공하고 있습니다.
 6. **기본 구성 파일 최적화**\
@@ -36,12 +32,6 @@ description: Pelajari lebih lanjut tentang platform server Plazma.
    게임의 메커니즘과 관계 없는 시스템 메커니즘을 비동기화 하여, [지연 시간](#user-content-fn-4)[^4]을 줄여 서버를 최적화 합니다.
 8. **불필요한 공간의 사용 차단**\
    비슷한 값을 가진 데이터를 모두 하나로 합쳐 메모리 사용량을 줄입니다.
-
-#### Plazma에 대해 더 알아보고 싶다면? <a href="#etc-1" id="etc-1"></a>
-
-{% content-ref url="patches-list.md" %}
-[patches-list.md](patches-list.md)
-{% endcontent-ref %}
 
 ## ✨ 활용 사례 <a href="#id-3" id="id-3"></a>
 
@@ -52,15 +42,12 @@ description: Pelajari lebih lanjut tentang platform server Plazma.
 - **Platform yang Tetap Cepat di Server RPG**\
   Mampu menjaga 100 pemain dalam satu cluster tanpa penurunan TPS, serta
   memungkinkan 250 pemain untuk bermain nyaman di 4 cluster.
-- **Platform yang Menampilkan Cahaya dari Chunks/Entities**\
-  Mengubah platform server survival yang sebelumnya mengalami keterlambatan dalam pemrosesan chunk dan entity
-  dari Purpur ke Plazma berhasil mengurangi sebagian besar keterlambatan.
+- **청크/엔티티에서 빛을 보이는 플랫폼**\
+  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을 Purpur에서 Plazma로 변경하며 대부분의 지연을 줄일 수 있었습니다.
 - **Platform yang Dipilih Banyak Streamer**\
   Digunakan sebagai ember partisipasi penonton banyak streamer.
 
-<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="Tren Pengguna Plazma Real-Time">
-</a>
+[![실시간 Plazma 사용자 추이](https://badge.plazmamc.org/internal/bstats)](https://bstats.org/plugin/server-implementation/Plazma/18047)
 
 ## ⬇️ Unduh
 
