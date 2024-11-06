@@ -1,1 +1,5 @@
-# 🧾 Ndryshe
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
