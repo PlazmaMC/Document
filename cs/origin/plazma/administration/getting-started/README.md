@@ -7,27 +7,27 @@ description: Zjistěte, jak vytvořit server pomocí Plazma.
 Pro stabilní používání Plazmy musí systém splňovat následující požadavky.
 
 |                | Minimální | Doporučené |
-| :------------: | :-------- | :--------- |
+| :------------: | --------- | ---------- |
 |  Architektura  | x64       | -          |
 |       RAM      | 8GB       | 16GB       |
 | Úložný prostor | 1GB       | 8GB        |
-|       JRE      | 17        | 21         |
+|       JDK      | 17        | 21         |
 
 Pro pohodlnou úpravu konfiguračních souborů je dobré nainstalovat editor jako [Visual Studio Code](https://code.visualstudio.com/download).
 
 ***
 
-## 1. Instalace JRE
+## 1. JDK 설치
 
-Jak název napovídá, Minecraft: **"Java"** Edition je vyvíjen v Javě a ke spuštění je potřeba JRE[^1].
+이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JDK[^1]를 필요로 합니다.
 
-Plazma je oficiální serverová platforma od Mojang Studios [založená na tomto](#user-content-fn-2)[^2], proto je pro používání Plazmy nutné nainstalovat JRE.
+Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JDK를 설치해야 합니다.
 
-### 1.1 Kontrola JRE
+### 1.1 JDK 설치 유무 확인
 
-Pro ověření instalace JRE na systému zadejte do [spustitelného okna](#user-content-fn-3)[^3] příkaz [`cmd /k java --version`](#user-content-fn-4)[^4] a spusťte ho.
+JDK가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
 
-Pokud se zobrazí následující, přeskočte na [Krok 2](#id-2).
+다음과 같이 출력되면 [2 단계](./#id-2)로 건너뜁니다.
 
 {% code title="Správný výstup" lineNumbers="true" %}
 
@@ -39,9 +39,9 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (sestavení 21.0.2+13-LTS, smíšený r
 
 {% endcode %}
 
-Pokud se nezobrazí jako výše, nebo pokud se zobrazí níže, chybí JRE nebo je příliš zastaralý, proveďte [Krok 1.2](#id-1.2).
+위와 같이 출력되지 않거나, 아래와 같이 출력되면 JDK가 없거나 너무 오래되었으므로, [1.2 단계](./#id-1.2)를 수행해야 합니다.
 
-{% code title="JRE není nainstalováno" lineNumbers="true" %}
+{% code title="JDK가 설치되어 있지 않음" lineNumbers="true" %}
 
 ```log
 'java' není rozpoznávaným vnitřním nebo externím příkazem, spustitelným programem nebo
@@ -50,7 +50,7 @@ souborem dávkových příkazů.
 
 {% endcode %}
 
-{% code title="JRE je příliš zastaralé" lineNumbers="true" %}
+{% code title="JDK가 너무 오래됨" lineNumbers="true" %}
 
 ```log
 Nerozpoznaná volba: --version
@@ -60,32 +60,27 @@ Chyba: Došlo k fatální výjimce. Program se ukončí.
 
 {% endcode %}
 
-### 1.2 Instalace JRE
+### 1.2 JDK 설치
 
-V této příručce používáme Azul Zulu jako jeden z [typů JRE](#user-content-fn-5)[^5].
+본 설명서에서는 JDK의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
-Po dokončení instalace proveďte znovu [Krok 1.1](#id-1.1) k ověření, zda byla instalace úspěšně dokončena.
+설치를 완료한 후, [1.1 단계](./#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
 {% tabs %}
-
 {% tab title="Windows" %}
 
 1. Nejprve si stáhněte **JDK 21** ve formátu `.msi` z [Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=windows\\&architecture=x86-64-bit\\&package=jdk#zulu).
 2. Spusťte stažené instalačního průvodce a postupujte kliknutím na `Další`.
 3. V levém středu okna vyberte `Set JAVA_HOME variable`, potvrďte kliknutím na `Další`.
 4. Kliknutím na `Instalovat` dokončete instalaci JRE.
-
-{% endtab %}
+   {% endtab %}
 
 {% tab title="macOS" %}
-
-[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) stáhněte JDK 21 ve formátu `.dmg` a spusťte instalační průvodce pro instalaci JRE.
-
+[Azul Zulu](https://www.azul.com/downloads/?version=java-21-lts\\&os=macos\\&architecture=x86-64-bit\\&package=jdk#zulu) 에서 **JDK 21**을 `.dmg` 형태의 설치 마법사를 다운로드 한 후 실행하여 JRE를 설치합니다.
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
-
-Nejprve spusťte následující příkaz v terminálu k přidání úložiště Azul Zulu do APT.
+먼저, 다음 명령어를 터미널에서 실행하여 APT에 Azul Zulu 저장소를 추가합니다.
 
 ```bash
 sudo apt install gnupg ca-certificates curl --no-install-recommends --no-install-suggests -y
@@ -104,8 +99,7 @@ sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-
 {% endtab %}
 
 {% tab title="Fedora/RHEL" %}
-
-Můžete nainstalovat JRE zadáním následujícího příkazu.
+다음 명령어를 입력하여 JDK를 설치할 수 있습니다.
 
 ```bash
 sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
@@ -123,12 +117,10 @@ sudo dnf install -y zulu21-ca-jre-headless
 Plazma nabízí různé verze spustitelných souborů.
 
 {% hint style="warning" %}
+**대부분의 경우에는 `Mojang-mapped Paperclip`을 사용합니다.**
 
-**Většinou se používá `Reobf Paperclip`.**
-
-Následující informace jsou určeny pro vývojáře nebo ty, kteří se zajímají o různé funkce.\
-Pokud jste běžný uživatel, můžete přeskočit na [Krok 3](#id-3) bez problémů.
-
+아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
+일반 사용자라면 [3 단계](./#id-3)로 뛰어 넘겨도 문제되지 않습니다.
 {% endhint %}
 
 <details>
@@ -140,10 +132,10 @@ Název spustitelného souboru je stanoven jako `plazma-(správce verzí)-1.20.4-
 - **Mapovací forma**\
   Mapování slouží jako jakési spojení mezi skutečným kódem Minecraftu a obfuskovaným kódem.
   - **Reobf**\
-    Reobfuscated (재난독화), Spigot mapování, které je také nazýváno jako Spigot mapování, se používá většinou v NMS pluginů.\
-    Od verze 1.20.5 bude jeho používání ukončeno.
+    Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
+    1.20.6부터 지원이 종료되었습니다.
   - **Mojmap**\
-    Mojang-mapped, mapování používané v běžném Minecraftu.
+    Mojang-mapped, mapování používané v běžném Minecraftu. 1.20.6 이후의 모던 플러그인에서 사용합니다.
 - **Správce verzí**\
   Správce verzí je jakýsi spouštěcí program pro server, který je nezbytný pro spuštění serveru a aplikování patchů na serverové soubory.
   - **Paperclip**\
@@ -159,7 +151,8 @@ Název spustitelného souboru je stanoven jako `plazma-(správce verzí)-1.20.4-
 
 Pro snadné spuštění Plazmy a automatické restartování serveru je nutné vytvořit [startovací skript](#user-content-fn-6)[^6].
 
-Pomocí [Flags.sh](https://flags.sh) můžete vytvořit spouštěcí skript [zde](#user-content-fn-7)[^7]. Stačí zadat pouze paměť, kterou chcete použít v Plazma, a příkaz se automaticky optimalizuje.
+[Flags.sh](https://flags.sh)를 통해 시작 스크립트를 생성[^7]할 수 있습니다.\
+Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령어가 자동으로 최적화 됩니다.
 
 Startovací skript lze stáhnout pomocí tlačítka pro stažení v levém dolním rohu.\
 **Zkontrolujte, zda stažený startovací skript odpovídá vašemu operačnímu systému.**
@@ -171,14 +164,12 @@ Startovací skript lze stáhnout pomocí tlačítka pro stažení v levém doln�
 Přesuňte stažený startovací skript a Plazmu do nové složky.
 
 {% hint style="warning" %}
+**폴더 명칭은 반드시 띄어 쓰기와 특수 문자가 없고, 영어로 설정되어야 합니다.**
 
-**Název složky musí být bez mezer a nastaven v angličtině.**
-
-V opačném případě Plazma nebo JRE nemusí správně fungovat.
-
+그렇지 않으면 Plazma 또는 JDK가 올바르게 작동하지 않을 수 있습니다.
 {% endhint %}
 
-Spusťte startovací skript. Pro Windows vyberte v okně s výběrem povolení firewallu <mark style="background-color:orange;">volbu **Povolit**</mark>.
+Spusťte startovací skript. Windows의 경우, <mark style="background-color:orange;">방화벽 허용 선택 창에서, 반드시</mark> <mark style="background-color:orange;"></mark><mark style="background-color:orange;">**허용**</mark><mark style="background-color:orange;">을 선택</mark>해야 합니다.
 
 ***
 
@@ -189,9 +180,7 @@ Po jednom spuštění startovacího skriptu se vytvoří soubor `eula.txt` ve sl
 EULA[^9] je smlouva o licenci, kterou musíte přijmout k využívání služeb [Mojang Studios](#user-content-fn-10)[^10].
 
 {% hint style="warning" %}
-
-Pokud nesouhlasíte, nemůžete spustit server a porušení EULA může vést k [sankcím](#user-content-fn-11)[^11], jako je pozastavení účtu.
-
+만일 동의하지 않는 경우, 서버를 시작할 수 없으며, EULA를 위반하는 경우 계정을 정지되는 등의 제재[^11]를 받을 수 있습니다.
 {% endhint %}
 
 Pro souhlas s EULOU upravte a uložte soubor `eula.txt` z `eula=false` na `eula=true`.
@@ -202,11 +191,10 @@ Pro souhlas s EULOU upravte a uložte soubor `eula.txt` z `eula=false` na `eula=
 
 Moderní operační systémy blokují externí přístup pomocí základních funkcí jako jsou **firewall** a **router**.
 
-V případě Windows je firewall povolen v [Kroku 3](#id-3), stačí provést pouze přesměrování portů.
+Windows의 경우, 방화벽은 [3 단계](./#id-3)에서 허용했으므로, 포트 포워딩만 하면 됩니다.
 
 {% hint style="info" %}
-
-**Tato příručka je psána za předpokladu, že používáte operační systém Windows a router, který podporuje [UPnP](#user-content-fn-12)[^12].**
+**해당 설명서는 Windows 운영 체제 및** [**UPnP**](#user-content-fn-12)[^12]**를 사용할 수 있는 라우터임을 가정하고 작성되었습니다.**
 
 Pokud váš router nepodporuje UPnP, každý router má jiné rozhraní, takže je třeba provést vlastní vyhledávání informací.
 
@@ -214,9 +202,7 @@ Alternativně můžete použít [Ngrok](https://ngrok.com/) k vytvoření dočas
 {% endhint %}
 
 {% hint style="warning" %}
-
-**Pro operační systémy Linux nebo macOS a další (polo) UNIXové systémy je nutné vyhledat informace o nastavení firewallu pro jednotlivé služby.**
-
+**Linux 또는 macOS 등 (준) UNIX 체계 운영체제의 경우, 방화벽 서비스 별로 설정 방법이 다르므로, 직접 자료를 검색해야 합니다.**
 {% endhint %}
 
 ### 6.1 Kontrola potřeby přesměrování portů
@@ -232,18 +218,14 @@ Pokud je výstup `True`, není třeba nic dalšího, pokud je `False`, je třeba
 ### 6.2 Připojení k serveru
 
 {% tabs %}
-
-{% tab title="Přístup zvenčí" %}
-
-Pokud není potřeba port forwardingu nebo již byl úspěšně nastaven, můžete se nyní připojit k serveru.
+{% tab title="외부에서 접속" %}
+포트 포워딩이 필요 없거나, 이미 포트 포워딩을 성공했다면, 이제 서버에 접속할 수 있습니다.
 
 Při připojení k serveru použijte adresu zde k dispozici: [zde](https://ip.pe.kr/)
-
 {% endtab %}
 
-{% tab title="Pokus o port forwarding pomocí UPnP" %}
-
-V souboru `purpur.yml` na serverovém adresáři aktivujte `network.upnp-port-forwarding` na hodnotu `true`.
+{% tab title="UPnP로 포트포워딩 시도" %}
+서버 폴더의 `purpur.yml`에서, `network.upnp-port-forwarding`을 `true`로 활성화합니다.
 
 Poté restartujte server a Plazma automaticky zkusí přesměrovat porty.
 
@@ -257,12 +239,10 @@ Níže je uvedeno, zda bylo UPnP úspěšné podle zpráv na konzoli, které se 
 | `Služba není dostupná`              | Směrovač nepodporuje UPnP.          |
 
 Když je server vypnut, Plazma automaticky uzavře porty.
-
 {% endtab %}
 
-{% tab title="Vytvoření dočasné adresy pomocí Ngrok" %}
-
-Použití Ngrok je užitečné pro krátkodobé testování, spolupráci nebo hraní s přáteli.
+{% tab title="Ngrok으로 임시 주소 생성" %}
+Ngrok을 이용한 방법은 단기적인 테스트, 참여형 또는 친구들과 함께 플레이하기에 유용합니다.
 
 1. Stáhněte ZIP soubor `Windows (64-bit)` z [domovské stránky Ngrok](https://ngrok.com/download).
 2. Umístěte stažený Ngrok do složky se serverem.
@@ -271,12 +251,10 @@ Použití Ngrok je užitečné pro krátkodobé testování, spolupráci nebo hr
 5. Přidejte `start /b ngrok tcp --region jp 25565` na začátek spouštěcího skriptu a `taskkill /f /t /im ngrok.exe` na konec.
 6. Adresa serveru bude `0.tcp.jp.ngrok.io:12345` zobrazená na vrcholu konzole.
 7. Nyní můžete přistupovat k serveru zvenčí pomocí této adresy.
+   {% endtab %}
 
-{% endtab %}
-
-{% tab title="Připojení z lokálního zařízení" %}
-
-Pokud se chcete připojit k serveru z lokálního zařízení, můžete použít `cmd /k ipconfig` v příkazovém okně pro připojení pomocí `IPv4 adresy`, která je uvedena výstupem.
+{% tab title="로컬에서 접속" %}
+로컬에서 서버에 접속하려고 하는 경우, 실행 창에서 `cmd /k ipconfig`를 실행하여 출력된 `IPv4 주소` 로 접속할 수 있습니다.
 
 Například, pokud se po spuštění příkazu zobrazí následující,
 
@@ -295,7 +273,6 @@ Ethernetový adaptér Ethernet:
 Pokus o připojení k serveru z lokální sítě můžete provést pomocí zobrazené `192.168.3.7` u IPv4 adresy.
 
 Pokud server a hra běží na stejném počítači, můžete se připojit pomocí `localhost`.
-
 {% endtab %}
 {% endtabs %}
 
@@ -311,7 +288,7 @@ Pro zpřiznění serveru se podívejte na následující příručku.
 
 ***
 
-[^1]: Java Runtime Environment, Java běhové prostředí.
+[^1]: Java Development Kit (Java 개발 환경), Java Runtime Environment (JRE, Java 실행 환경) 을 포함하고 있으며, Plazma 에서는 JDK 에서만 제공되는 일부 기능을 이용하고 있으므로 JDK 설치를 필요로 합니다.
 
 [^2]: Paper, na kterém je založen Plazma, je založen na Spigotu, který je oficiální platformou serveru.
 
