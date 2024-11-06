@@ -14,18 +14,18 @@ A jogosultságok megfelelő kihasználásához és könnyű módosításához ha
 
 A Minecraft alapvető adminisztrációs jogosultság csoportokat biztosít.
 
-[Adminisztrátor](#user-content-fn-1)[^1] és parancsblokk jogosultságokat állíthat be, módosíthatja a [szerver tulajdonságokat](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Játékos**\
+1. **Játékos**\
    Általában minden játékosnak rendelkezésére álló jogosultság csoport.
-1. **Mediátor**\
+2. **Mediátor**\
    Figyelmen kívül hagyhatja a spawn védelmet.
-2. **Világkezelő**\
+3. **Világkezelő**\
    Minden világkezeléshez kapcsolódó parancsokat és parancsblokkokat használhat.\
    Ez az alapértelmezett jogosultság csoport a datapackokhoz és parancsblokkokhoz.
-3. **Adminisztrátor**\
+4. **Adminisztrátor**\
    Minden játékossal kapcsolatos parancsokat használhat.
-4. **Főadminisztrátor**\
+5. **Főadminisztrátor**\
    Minden szerverkezeléshez kapcsolódó parancsot használhat.\
    Ez az alapértelmezett jogosultság csoport a konzolhoz és az adminisztrátorokhoz.
 
@@ -50,9 +50,7 @@ Ha felszáll az entitásra, akkor a `mozgás billentyűkkel` irányíthatja az e
 A `(Namespaced Key)` helyére az entitás [Namespaced ID](#user-content-fn-2)[^2] kerül.
 
 {% hint style="info" %}
-
-**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `(Entity) > ridable` engedélyezve van.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ Engedélyezi a játékosoknak, hogy az entitáson ülve használhassák az entit
 Nem minden entitás speciális képessége használható. Az összes elérhető speciális képességet az alábbiakban találja.
 
 {% hint style="info" %}
-
-Van ötlete speciális képességekre?
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Kérjük, ossza meg az ötleteit a [Plazma Discord](https://plazmamc.org/discord) vagy a [GitHub Beszélgetések](https://github.com/PlazmaMC/PlazmaBukkit/discussions) oldalon!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Kérjük, ossza meg az ötleteit a [Plazma Discord](https://plazmamc.org/discord
 </details>
 
 {% hint style="info" %}
-
-**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `(Entity) > ridable` engedélyezve van.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Ha a jogosultság után `.other`-t ír, akkor más játékosok számára is enge
 Engedélyezi a [`/timings` parancs](commands.md#timings) használatát.
 
 {% hint style="warning" %}
-
-**Ez a parancs használata megszűnt.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 További hasonló parancsokért látogasson el a [Spark](https://spark.lucko.me/docs/Command-Usage) oldalra.
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,7 +181,7 @@ Ha a jogosultság után `.other`-t ír, akkor más játékosok számára is enge
 
 - **Alapértelmezett**: `None`
 
-Ha az [X-Ray blokkolás](../expert/xray.md) aktív, akkor a jogosultsággal rendelkező játékosoknak nem végzi el az X-Ray blokkok elhomályosítását.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Ezzel mindkét fél javulást tapasztalhat.
 
@@ -204,33 +196,27 @@ Ezzel mindkét fél javulást tapasztalhat.
 - **Alapértelmezett**: `None`
 
 {% hint style="warning" %}
-
-Ez a jogosultság a 1.20.5 verzióban `plazma.bypass.watchdog` -ra fog változni.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Alapértelmezett**: `None`
 
-Lehetővé teszi a kovácsoló asztalon a [színkódok](https://minecraft.wiki/w/Formatting_codes#Color_codes) használatát.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `anvil > allow-colors` engedélyezve van.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Alapértelmezett**: `None`
 
-Lehetővé teszi a kovácsoló asztalon a [stílus kódok](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) használatát.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `anvil > allow-colors` engedélyezve van.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -240,28 +226,24 @@ Lehetővé teszi a kovácsoló asztalon a [stílus kódok](https://minecraft.wik
 Lehetővé teszi a kovácsoló asztalon a [MiniMessage címkék](https://docs.advntr.dev/minimessage/format.html) használatát.
 
 {% hint style="info" %}
-
-**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `anvil > allow-minimessages` engedélyezve van.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Alapértelmezett**: `None`
 
-Lehetővé teszi a kovácsoló asztalon a [`&r` stílus kód](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) segítségével az `igazított szöveg` eltávolítását.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `anvil > allow-colors` engedélyezve van.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Alapértelmezett**: `None`
 
-Ha a játékos aláírja a könyvet, akkor alkalmazza a [stílus kódokat](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -284,9 +266,7 @@ Csak akkor működik, ha nincs jogosultsága a megfelelő játékmódhoz.
 Ha az előre beállított tárggyal bányászik spawner blokkot, akkor a spawner blokkot elejti.
 
 {% hint style="info" %}
-
-**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha a `gameplay-mechanics > silk-touch` engedélyezve van.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -298,9 +278,7 @@ Megváltoztatja az ender láda méretét.
 A `(NumberString)` helyére `one`, `two`, `three`, `four`, `five`, `six` írható.
 
 {% hint style="info" %}
-
-**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha az `ender_chest > six-rows` és `ender_chest > use-permissions-for-rows` engedélyezve van.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -310,9 +288,7 @@ A `(NumberString)` helyére `one`, `two`, `three`, `four`, `five`, `six` írhat�
 Lehetővé teszi a visszatérő totem működését az inventáriumban.
 
 {% hint style="info" %}
-
-**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha a `totem-of-undying-works-in-inventory` engedélyezve van.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -328,9 +304,7 @@ A játékosnak engedélyezve van, hogy figyelmen kívül hagyja a csatlakozók s
 A játékosnak lehetősége van az `együttműködés lehajlására`, hogy megjavítsa a kezében lévő tárgyat.
 
 {% hint style="info" %}
-
-**A [Purpur világbeállítások](configurations/purpur/world.md)ban aktiválni kell a `shift-right-click-repairs-mending-points`-ot, hogy működjön.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -340,9 +314,7 @@ A játékosnak lehetősége van az `együttműködés lehajlására`, hogy megja
 A játékosnak engedélyezve van a mobgenerálók telepítése.
 
 {% hint style="info" %}
-
-**[Purpur világbeállítások](configurations/purpur/world.md) esetén csak akkor működik, ha a `gameplay-mechanics > silk-touch` engedélyezve van.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -355,12 +327,10 @@ A játékosnak lehetősége van azonnal átugrani, amikor használja a Nether po
 
 - **Alapértelmezett**: `None`
 
-표지판에 [színkódokat](https://minecraft.wiki/w/Formatting_codes#Color_codes) használhat.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-\*\*A **[Purpur világbeállításokban](configurations/purpur/world.md) aktiválnod kell a `sign > allow-colors`-ot, hogy működjön.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -370,21 +340,17 @@ A játékosnak lehetősége van azonnal átugrani, amikor használja a Nether po
 표지판에 난독화 kód`(&o)` használatát engedélyezi.
 
 {% hint style="info" %}
-
-\*\*A **[Purpur világbeállításokban](configurations/purpur/world.md) aktiválnod kell a `sign > allow-colors`-ot, hogy működjön.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.jel.stílus`
 
 - **Alapértelmezett**: `None`
 
-Táblákon [stílus kódok használata `(&o kivéve)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) engedélyezve.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-\*\*A **[Purpur világbeállításokban](configurations/purpur/world.md) aktiválnod kell a `sign > allow-colors`-ot, hogy működjön.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.hatástalanít`
@@ -394,9 +360,7 @@ Táblákon [stílus kódok használata `(&o kivéve)`](https://minecraft.wiki/w/
 A játékosok `kölcsönhatás` használatával megakadályozhatják a TNT robbanását.
 
 {% hint style="info" %}
-
-**[Purpur világ konfiguráció](configurations/purpur/world.md) `hatástalanítás-tnt-változás` értéke legalább `0.0` kell legyen a működéshez.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Biztosított jog
@@ -408,9 +372,7 @@ A játékosok `kölcsönhatás` használatával megakadályozhatják a TNT robba
 A játékosoknak lehetőségük van a [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) módot telepítetlenül is csatlakozni.
 
 {% hint style="info" %}
-
-**[Plazma világ konfiguráció](configurations/plazma/world.md) `nincs-csevegés-jelentések > telepítés-szükséges` aktiválása szükséges a működéshez.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
