@@ -14,18 +14,18 @@ description: تعرف على أذونات Plazma.
 
 يوفر Minecraft مجموعات صلاحيات إدارية أساسية.
 
-يمكن تعيين صلاحيات [المشرفين](#user-content-fn-1)[^1] وكتل الأوامر، ويمكن تعديلها في [خصائص الخادم](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **اللاعب**\
+1. **اللاعب**\
    هو مجموعة صلاحيات تُمنح عادة لجميع اللاعبين.
-1. **الوسيط**\
+2. **الوسيط**\
    يمكن تجاهل حماية الانبعاث.
-2. **مدير العالم**\
+3. **مدير العالم**\
    يمكن استخدام جميع الأوامر وكتل الأوامر المتعلقة بإدارة العالم.\
    هو مجموعة صلاحيات تُطبق افتراضيًا على حزم البيانات وكتل الأوامر.
-3. **المدير**\
+4. **المدير**\
    يمكن استخدام جميع الأوامر المتعلقة بإدارة اللاعبين.
-4. **المدير العام**\
+5. **المدير العام**\
    يمكن استخدام جميع الأوامر، بما في ذلك إدارة الخادم.\
    هو مجموعة صلاحيات تُطبق افتراضيًا على وحدة التحكم والمشرفين.
 
@@ -50,9 +50,7 @@ description: تعرف على أذونات Plazma.
 يتم إدخال [Namespaced ID](#user-content-fn-2)[^2] للكيان في `(Namespaced Key)`.
 
 {% hint style="info" %}
-
-**[Purpur سيتم تشغيلها فقط عند تمكين `(Entity) > ridable` في [تكوينات Purpur العالمية](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ description: تعرف على أذونات Plazma.
 ليست جميع مهارات الكيان متاحة. يرجى الرجوع إلى القائمة الكاملة للمهارات الخاصة المتاحة.
 
 {% hint style="info" %}
-
-**هل لديك أفكار جيدة للمهارات الخاصة؟**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 نشر أفكارك على [Plazma Discord](https://plazmamc.org/discord) أو [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ description: تعرف على أذونات Plazma.
 </details>
 
 {% hint style="info" %}
-
-**[Purpur سيتم تشغيلها فقط عند تمكين `(Entity) > ridable` في [تكوينات Purpur العالمية](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ description: تعرف على أذونات Plazma.
 يسمح باستخدام [`/timings` الأمر](commands.md#timings).
 
 {% hint style="warning" %}
-
-**تم إيقاف استخدام هذا الأمر.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 لمعرفة المزيد عن الأوامر المشابهة، يرجى التحقق من [Spark](https://spark.lucko.me/docs/Command-Usage).
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,7 +181,7 @@ description: تعرف على أذونات Plazma.
 
 - **الافتراضي**: `لا شيء`
 
-في حال تم تفعيل حظر الأشعة السينية، لن يتم تشويش الكتل للاعبين الذين لديهم الإذن.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 هذا سيؤدي إلى تحسين الأداء لكلا الجانبين.
 
@@ -204,33 +196,27 @@ description: تعرف على أذونات Plazma.
 - **الافتراضي**: `لا شيء`
 
 {% hint style="warning" %}
-
-سيتم تغيير هذا الإذن إلى `plazma.bypass.watchdog` في النسخة 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **الافتراضي**: `لا شيء`
 
-يسمح باستخدام رموز [الألوان](https://minecraft.wiki/w/Formatting_codes#Color_codes) في السنادي.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**سيتم تشغيلها فقط عند تمكين `anvil > allow-colors` في [تكوينات Purpur العالمية](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **الافتراضي**: `لا شيء`
 
-يسمح باستخدام رموز [التنسيق](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) في السنادي.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**سيتم تشغيلها فقط عند تمكين `anvil > allow-colors` في [تكوينات Purpur العالمية](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -240,28 +226,24 @@ description: تعرف على أذونات Plazma.
 يسمح باستخدام علامات [MiniMessage](https://docs.advntr.dev/minimessage/format.html) في السنادي.
 
 {% hint style="info" %}
-
-**سيتم تشغيلها فقط عند تمكين `anvil > allow-minimessages` في [تكوينات Purpur العالمية](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **الافتراضي**: `لا شيء`
 
-يسمح بتعطيل `الميل` باستخدام رموز التنسيق `&r` في السنادي.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**سيتم تشغيلها فقط عند تمكين `anvil > allow-colors` في [تكوينات Purpur العالمية](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **الافتراضي**: `لا شيء`
 
-عند توقيع اللاعب على كتاب، سيتم تطبيق رموز [التنسيق](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -284,9 +266,7 @@ description: تعرف على أذونات Plazma.
 عند تنقيب كتلة البيض، سيتم إسقاط كتلة البيض.
 
 {% hint style="info" %}
-
-**سيتم تشغيلها فقط عند تمكين `gameplay-mechanics > silk-touch` في [تكوينات Purpur العالمية](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -298,9 +278,7 @@ description: تعرف على أذونات Plazma.
 يمكن إدخال `one`, `two`, `three`, `four`, `five`, `six` في `(NumberString)`.
 
 {% hint style="info" %}
-
-**سيتم تشغيلها فقط عند تمكين `ender_chest > six-rows` و `ender_chest > use-permissions-for-rows` في [تكوينات Purpur العالمية](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -310,9 +288,7 @@ description: تعرف على أذونات Plazma.
 يسمح بعمل الصندوق الواقي حتى عند وجود توتم الخلود في المخزن.
 
 {% hint style="info" %}
-
-**يجب تفعيل `totem-of-undying-works-in-inventory` في [تكوينات Purpur العالمية](configurations/purpur/world.md) ليعمل.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -328,9 +304,7 @@ description: تعرف على أذونات Plazma.
 يسمح للاعب بإصلاح العناصر التي يحملها عندما يكون `جلوسًا والتفاعل`.
 
 {% hint style="info" %}
-
-**يجب تفعيل `shift-right-click-repairs-mending-points` في [تكوينات Purpur العالمية](configurations/purpur/world.md) ليعمل.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -340,9 +314,7 @@ description: تعرف على أذونات Plazma.
 يسمح للاعب بتثبيت مولدات الوحوش.
 
 {% hint style="info" %}
-
-**سيتم تشغيلها فقط عند تمكين `gameplay-mechanics > silk-touch` في [تكوينات Purpur العالمية](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -355,12 +327,10 @@ description: تعرف على أذونات Plazma.
 
 - **الافتراضي**: `لا شيء`
 
-يسمح باستخدام [أكواد الألوان](https://minecraft.wiki/w/Formatting_codes#Color_codes) على اللافتات.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**يجب تفعيل `sign > allow-colors` في [تكوينات Purpur العالمية](configurations/purpur/world.md) ليعمل.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -370,21 +340,17 @@ description: تعرف على أذونات Plazma.
 يسمح باستخدام رمز التشويش `(&o)` على اللافتات.
 
 {% hint style="info" %}
-
-**يجب تفعيل `sign > allow-colors` في [تكوينات Purpur العالمية](configurations/purpur/world.md) ليعمل.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **الافتراضي**: `لا شيء`
 
-يسمح باستخدام [رموز التنسيق `(&o استثناء)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) على اللافتات.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**يجب تفعيل `sign > allow-colors` في [تكوينات Purpur العالمية](configurations/purpur/world.md) ليعمل.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -394,9 +360,7 @@ description: تعرف على أذونات Plazma.
 يسمح للاعب بمنع انفجار TNT عن طريق التفاعل بالمقص.
 
 {% hint style="info" %}
-
-**يجب أن يكون `defuse-tnt-change` في [تكوينات Purpur العالمية](configurations/purpur/world.md) `0.0` أو أكبر ليعمل.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### الصلاحيات المقررة
@@ -408,9 +372,7 @@ description: تعرف على أذونات Plazma.
 يسمح للاعب بالانضمام دون وجود تثبيت لمود [`NoChatReports`](https://modrinth.com/mod/no-chat-reports).
 
 {% hint style="info" %}
-
-**يجب تفعيل `no-chat-reports > require-install` في [تكوينات Plazma العالمية](configurations/plazma/world.md) ليعمل.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
