@@ -2,18 +2,16 @@
 description: Dowiedz się, jak dostosować Plazmę do swoich potrzeb.
 ---
 
-# ⏬ Odnośniki
+# 📜 리퍼런스
 
 Plazma oferuje różne metody dostosowywania.
 
 Spośród nich cztery metody dostosowywania można używać od razu bez dodatkowych działań.
 
 {% hint style="info" %}
-
-**Czy nie można rozwiązać problemu za pomocą instrukcji?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 Zadaj społeczności pytanie za pośrednictwem [oficjalnego serwera Discord](https://discord.gg/MmfC52K8A8) lub [Dyskusji na GitHubie](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 ***
