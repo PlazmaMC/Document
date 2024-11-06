@@ -2,4 +2,4 @@
 description: Selvitä, miten korjata ongelmatilanteet, kun lisäosa ei toimi oikein.
 ---
 
-# ⏬ Lisäosa
+# 📜 플러그인
