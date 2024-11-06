@@ -2,4 +2,4 @@
 description: Ontdek wat elke knoop in purpur.yml betekent.
 ---
 
-# 🦑 Purper (globale opmaak)
+# 🌏 전역 구성
