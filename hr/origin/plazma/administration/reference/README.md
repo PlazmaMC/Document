@@ -2,18 +2,16 @@
 description: Saznajte osnovne metode prilagodbe koje Plazma nudi.
 ---
 
-# ⏬ Referenca
+# 📜 리퍼런스
 
 Plazma nudi različite metode prilagodbe.
 
 Među njima, četiri metode prilagodbe mogu se odmah koristiti bez dodatnih radnji.
 
 {% hint style="info" %}
-
-**Možete li riješiti problem putem uputa?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Službeni Discord poslužitelj](https://discord.gg/MmfC52K8A8) ili pitajte zajednicu putem [GitHub rasprava](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 ***
