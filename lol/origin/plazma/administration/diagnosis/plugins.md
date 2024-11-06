@@ -2,4 +2,4 @@
 description: PLUGZ IZ NOT WERKIN PROPA, FIND A WAY TO FIX IT.
 ---
 
-# ⏬ PLUGZ
+# 📜 플러그인
