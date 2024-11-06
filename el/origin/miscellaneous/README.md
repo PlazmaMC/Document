@@ -1,1 +1,5 @@
-# 🧾 Διάφορα
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
