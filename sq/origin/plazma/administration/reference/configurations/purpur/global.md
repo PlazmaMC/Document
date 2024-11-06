@@ -2,4 +2,4 @@
 description: Zbuloni çfarë përfaqëson çdo nyje në purpur.yml.
 ---
 
-# 🦑 Purpur (struktura globale)
+# 🌏 전역 구성
