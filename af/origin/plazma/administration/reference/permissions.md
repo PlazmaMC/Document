@@ -14,18 +14,18 @@ Om toestemming behoorlik te gebruik en maklik te wysig, moet jy plugins soos [Lu
 
 Minecraft bied basiese bestuursgroep-toestemmings aan.
 
-Jy kan toestemming vir [operateurs](#user-content-fn-1)[^1] en bevelblokke instel en dit kan by [bediener-eienskappe](configurations/property.md) gewysig word.
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Spelers**\
+1. **Spelers**\
    Gewoonlik die standaard toestemmingsgroep vir alle spelers.
-1. **Bemiddelaar**\
+2. **Bemiddelaar**\
    Kan spawngbeskerming ignoreer.
-2. **Wêreldbestuurder**\
+3. **Wêreldbestuurder**\
    Kan alle bevele en bevelblokke wat met wêreldbestuur verband hou, gebruik.\
    Dit is die standaard toestemmingsgroep vir datapakke en bevelblokke.
-3. **Bestuurder**\
+4. **Bestuurder**\
    Kan alle bevele wat met spelerbestuur verband hou, gebruik.
-4. **Hoofbestuurder**\
+5. **Hoofbestuurder**\
    Kan alle bevele insluitend bedienerbestuur gebruik.\
    Dit is die standaard toestemmingsgroep vir konsole en operateurs.
 
@@ -50,9 +50,7 @@ As jy op 'n entiteit klim, kan jy die entiteit se beweging met die 'bewegingsleu
 Die [Namespaced ID](#user-content-fn-2)[^2] van die entiteit word ingevoer in die `(Namespaced Key)`.
 
 {% hint style="info" %}
-
-**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer slegs wanneer `(Entity) > berijdbaar` in die Purpur wêreldkonfigurasie geaktiveer is.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `toelaat.spesiaal.(Naamruimte Sleutel)`
@@ -64,11 +62,9 @@ Laat spelers toe om die spesiale vaardighede van 'n entiteit te gebruik terwyl h
 Nie alle entiteite se spesiale vaardighede is beskikbaar nie. Raadpleeg die lys van alle beskikbare spesiale vaardighede hieronder.
 
 {% hint style="info" %}
-
-**Het jy 'n goeie idee vir 'n spesiale vaardigheid?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Plaas jou idee op [Plazma Discord](https://plazmamc.org/discord) of [GitHub Besprekings](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Plaas jou idee op [Plazma Discord](https://plazmamc.org/discord) of [GitHub Besp
 </details>
 
 {% hint style="info" %}
-
-**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer slegs wanneer `(Entity) > berijdbaar` in die Purpur wêreldkonfigurasie geaktiveer is.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.opdrag.kompas`
@@ -164,11 +158,9 @@ Voer `.ander` agter die toestemming naam in om dit vir ander spelers toe te laat
 Laat die gebruik van die [`/tydmetings` opdrag](commands.md#timings) toe.
 
 {% hint style="warning" %}
-
-**Hierdie opdrag is gestaak.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Kyk na [Spark](https://spark.lucko.me/docs/Command-Usage) vir soortgelyke funksionaliteit oorweeg.
-
 {% endhint %}
 
 #### `bukkit.opdrag.opdop`
@@ -189,8 +181,7 @@ Voer `.ander` agter die toestemming naam in om dit vir ander spelers toe te laat
 
 - **Standaard Verskaf**: `Geen`
 
-As die [X-straal blokkering](../expert/xray.md) geaktiveer is,
-sal spelers met die regte toestemming nie X-straal blokkering blokkeer nie.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Dit sal beide kante se prestasie verbeter.
 
@@ -205,33 +196,27 @@ Dit sal beide kante se prestasie verbeter.
 - **Standaard Verskaf**: `Geen`
 
 {% hint style="warning" %}
-
-Hierdie toestemming sal binnekort verander na `plazma.deurloop.wagter` in 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.aambeeld.kleur`
 
 - **Standaard Verskaf**: `Geen`
 
-Laat die gebruik van [kleur kodes](https://minecraft.wiki/w/Formatting_codes#Color_codes) op aambeelde toe.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `aambeeld > toelaat-kleure` om dit te laat werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.aambeeld.formaat`
 
 - **Standaard Verskaf**: `Geen`
 
-Laat die gebruik van [styl kodes](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) op aambeelde toe.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `aambeeld > toelaat-kleure` om dit te laat werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.aambeeld.miniberig`
@@ -241,28 +226,24 @@ Laat die gebruik van [styl kodes](https://minecraft.wiki/w/Formatting_codes#Form
 Laat die gebruik van [MiniMessage etikette](https://docs.advntr.dev/minimessage/format.html) op aambeelde toe.
 
 {% hint style="info" %}
-
-**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `aambeeld > toelaat-miniberigte` om dit te laat werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.aambeeld.verwyder_kursief`
 
 - **Standaard Verskaf**: `Geen`
 
-Laat die gebruik van die [`&r` styl kode](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) toe om `skreef` te deaktiveer.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `aambeeld > toelaat-kleure` om dit te laat werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.boek.kleur.teken`
 
 - **Standaard Verskaf**: `Geen`
 
-As 'n speler 'n boek onderteken, word [styl kodes](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) toegepas.
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.verbyIdleKick`
 
@@ -285,9 +266,7 @@ Dit sal nie werk as die speler nie die regte spelmodus toestemming het nie.
 As jy 'n spawner blok met die regte item breek, laat dit die spawner blok val.
 
 {% hint style="info" %}
-
-**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `speel-meganika > sy-tik` om dit te laat werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderkis.rye.(Nommerteks)`
@@ -299,9 +278,7 @@ Verander die grootte van die Ender Chest.
 Jy kan `een`, `twee`, `drie`, `vier`, `vyf`, `ses` in `Nommerteks` invoer.
 
 {% hint style="info" %}
-
-**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `ender_kis > ses-rye` en `ender_kis > gebruik-toestemmings-vir-rye` om dit te laat werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventaris_totem`
@@ -311,9 +288,7 @@ Jy kan `een`, `twee`, `drie`, `vier`, `vyf`, `ses` in `Nommerteks` invoer.
 Laat die werking van die onsterflikheid totem in die inventaris toe.
 
 {% hint style="info" %}
-
-**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `totem-of-undying-works-in-inventory` aktiveer om te werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -329,9 +304,7 @@ Laat spelers toe om die verbindingstoegrens te ignoreer.
 Laat spelers toe om 'n voorwerp wat hulle dra te herstel deur `kniel en interaksie`.
 
 {% hint style="info" %}
-
-**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `shift-right-click-repairs-mending-points` aktiveer om te werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -341,9 +314,7 @@ Laat spelers toe om 'n voorwerp wat hulle dra te herstel deur `kniel en interaks
 Laat spelers toe om spawners te plaas.
 
 {% hint style="info" %}
-
-**[Purpur wêreldkonfigurasies](configurations/purpur/world.md) aktiveer `speel-meganika > sy-tik` om dit te laat werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -356,12 +327,10 @@ Laat spelers direk na die Nether dimensie spring as hulle 'n Nether portal gebru
 
 - **Standaard Verskaf**: `Geen`
 
-Laat toe dat [kleurkodes](https://minecraft.wiki/w/Formatting_codes#Color_codes) op skilders gebruik word.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `sign > allow-colors` aktiveer om te werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -371,21 +340,17 @@ Laat toe dat [kleurkodes](https://minecraft.wiki/w/Formatting_codes#Color_codes)
 Laat toe dat skilders die verwarrende kode`(&o)` gebruik.
 
 {% hint style="info" %}
-
-**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `sign > allow-colors` aktiveer om te werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Standaard Verskaf**: `Geen`
 
-Laat toe dat [stylkode `(&o uitgesluit)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) op skilders gebruik word.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `sign > allow-colors` aktiveer om te werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -395,9 +360,7 @@ Laat toe dat [stylkode `(&o uitgesluit)`](https://minecraft.wiki/w/Formatting_co
 Laat spelers toe om TNT ontploffing te stop deur `interaksie` met 'n skêr.
 
 {% hint style="info" %}
-
-**[Purpur-wêreldkonfigurasies](configurations/purpur/world.md) moet `defuse-tnt-change` `0.0` of meer wees om te werk.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Voorsiene toestemming
@@ -409,9 +372,7 @@ Laat spelers toe om TNT ontploffing te stop deur `interaksie` met 'n skêr.
 Laat spelers toe om aan te sluit sonder dat [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) mod geïnstalleer is.
 
 {% hint style="info" %}
-
-**[Plazma-wêreldkonfigurasies](configurations/plazma/world.md) moet `no-chat-reports > require-install` aktiveer om te werk.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
