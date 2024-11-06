@@ -15,18 +15,16 @@ Başlangıç ​​parametreleri ve sistem özellikleri, Plazma'nın çalışmas
 Sistem özellikleri, `-jar`'ın önüne yerleştirilir ve Plazma'nın başlatılması öncesinde JVM tarafından işlenen değerlerdir.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**Sistem özelliklerini değiştirmek, Plazma ve JVM'nin çalışma şeklini değiştirebilir ve oyunu büyük ölçüde etkileyebilir!**
-
-Her sistem özelliğinin ne işe yaradığını kesin olarak bilmiyorsanız, **kesinlikle kullanmayın!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Kullanım şekli <a href="#id-1.1" id="id-1.1"></a>
 
 Sistem özellikleri, `java` ve `-jar` arasına Java komut argümanı olarak eklenir.
 
-Örneğin, `Plazma.dummyProperty` sistem özelliğini uygulamak istediğinizde, aşağıdaki gibi girerek sonraki özelliğe `37` girilir ve Plazma başlatılır.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -37,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 Özelliklere herhangi bir değer girilmezse değer [`true` olarak sabitlenir](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**Paperweight serisi sunucu platformu, her platform için sistem özelliklerini ayırt etmek için özellik adlarında `.` işaretini içermektedir.**
-
-Windows Powershell gibi bazı terminalde, bu tür argümanlara izin verilmeyebilir, bu nedenle argümanın her iki ucuna da `"` [eklemelisiniz](#user-content-fn-4)[^4].
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Tüm sistem özellikleri <a href="#id-1.2" id="id-1.2"></a>
@@ -83,11 +79,9 @@ Spigot'un Watchdog uyarı sistemi devre dışı bırakılır.
 `/reload` komutunun yeniden doğrulama iletişim kutusunu devre dışı bırakır.
 
 {% hint style="danger" %}
-
-**`/reload` komutu son derece kararsız olduğundan, `/reload` kullanımından sonra ortaya çıkan tüm sunucu sorunları kullanıcıya aittir.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Eğer bir eklenti geliştiricisiyseniz ve eklentiyi güncellemeniz gerekiyorsa, `/reload` yerine hotswap kullanın.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -132,7 +126,7 @@ Bu, tüm hatalı kafatası bloklarını konumlarıyla birlikte günlüğe kayded
 - **Biçimi**: `Boolean`
 - **Varsayılan Değer**: `False`
 
-Her bir oyuncuya uygulanan 128 tane eklenti [kanalı](#user-content-fn-5)[^5] sayısı sınırını devre dışı bırakır.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -152,14 +146,14 @@ Netty flush konsolidasyon sistemini devre dışı bırakır.
 
 #### `Paper.excessiveTELimit`
 
-- **Biçimi**: `Integer`
+- **형태**: `Integer`
 - **Varsayılan Değer**: `750`
 
 Varlık sayısı belirtilen değerden fazla ise çoklu paketlere bölerek iletilir.
 
 #### `Paper.filterThreshold`
 
-- **Biçimi**: `Integer`
+- **형태**: `Integer`
 - **Varsayılan Değer**: `8192`
 
 Sunucunun alabileceği maksimum paket boyutunu ayarlar.
@@ -172,32 +166,30 @@ Sunucunun alabileceği maksimum paket boyutunu ayarlar.
 Java sürüm kontrolünü devre dışı bırakır.
 
 {% hint style="danger" %}
-
-**Bu şekilde, JVM'in mevcut olmayan kodlara erişmeye çalışabileceği unutulmamalıdır!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 Dünya ve diğer tüm dosyalar kalıcı olarak zarar görebilir ve oyunun genel mekanikleri bozulabilir.
 
 Bu nedenle yaşanan tüm sorunlar sizin sorumluluğunuzdadır ve Plamza bunun için herhangi bir destek sağlamaz.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Biçimi**: `Integer`
+- **형태**: `Integer`
 - **Varsayılan Değer**: `64`
 
-Eklenti [kanal](#user-content-fn-6)[^6] adının sınırını belirler.
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Biçimi**: `Integer`
+- **형태**: `Integer`
 - **Varsayılan Değer**: `80`
 
 Tabelanın bir satırına girilebilecek maksimum karakter sayısını ayarlar.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Biçimi**: `Integer`
+- **형태**: `Integer`
 - **Varsayılan Değer**: `(Dünya Sürümü) + 1`
 
 Önce başlanacak dünya güncelleme bilgisinin sürümünü ayarlar.
@@ -213,12 +205,12 @@ YAML dosyalarındaki yorumların işlenmesini etkinleştirir.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Biçimi**: `Integer`
+- **형태**: `Integer`
 - **Varsayılan Değer**: `30`
 
 Oyuncudan belirli bir süre (saniye cinsinden) hiçbir veri alınmazsa, oyuncuyu atar.
 
-Genellikle, [oyun](#user-content-fn-7)[^7] sürekli olarak sunucuya [kalp atış sinyali](#user-content-fn-8)[^8] gönderir, bu nedenle [atılmaz ancak,](#user-content-fn-9)[^9] oyun yanıt vermezse çakışmış olarak kabul edilir ve sunucu artık oyuncuyu işlemez ve atar.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -296,7 +288,7 @@ Bu, Paper'ın varsayılan yapılandırmasını kullanır.
 - **Biçimi**: `Boolean`
 - **Varsayılan Değer**: `false`
 
-Plazma başlatıldığında görünen [uyarı metnini](#user-content-fn-11)[^11] bastırır.
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -312,19 +304,15 @@ Plazma markasını devre dışı bırakır ve vanilya temel sunucu favicon'unu k
 - **Çarpışma**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**Bu özellik henüz geliştirme aşamasındadır.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**Bu özellik, yamaların geri alınmasına neden olur!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 Bu, sunucu güvenliği ve performansı üzerinde büyük etkilere sahip olabilir.
 
 Bu özellikten kaynaklanan herhangi bir sorumluluk sunucu yöneticisine aittir.
-
 {% endhint %}
 
 İlk yapılandırmayı Mojang tarafından sağlanan varsayılan değerlerle sunar.
@@ -340,15 +328,12 @@ Güvenlik açıkları yamaları, Paper yapılandırmasında veya Plazma yapılan
 - **Çarpışma**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**Bu özellik henüz geliştirme aşamasındadır.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 İlk yapılandırmayı vanilyaya yakın olarak ayarlar.
 
-Bu genellikle sunucu performansını ve güvenliğini etkilemeyecek şekilde uygulanır ve
-`Plazma.disableConfigOptimization` özelliği kullanıldığında vanilya varsayılanlarını kullanacak şekilde yapılandırır.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Kullanımdan kaldırılan özellik <a href="#id-1.3" id="id-1.3"></a>
 
@@ -388,21 +373,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Takma ad**: `b`
 - **Varsayılan**: `bukkit.yml`
 
-[Bukkit yapılandırma dosyası](../reference/configurations/bukkit.md)'nın adını ve konumunu ayarlar.
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Takma ad**: `c`
 - **Varsayılan**: `commands.yml`
 
-[Bukkit komut yapılandırma dosyası](../reference/configurations/bukkit.md)'nın adını ve konumunu ayarlar.
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Takma ad**: `c`
 - **Varsayılan**: `server.properties`
 
-[Sunucu özellikleri](../reference/configurations/property.md) dosyasının adını ve konumunu ayarlar.
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -414,7 +399,7 @@ Dünya yükseltme sonrası kalan önbellek dosyalarını siler.
 
 #### `forceUpgrade`
 
-Sürümü dikkate almadan dünyayı zorla [yükseltir](#user-content-fn-12)[^12].
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -435,7 +420,7 @@ JFR profil oluşturmayı etkinleştirir.
 - **Takma ad**: `s`, `size`
 - **Varsayılan**: `(sunucu özellikleri)`
 
-Kabul edilen maksimum [oyuncu](#user-content-fn-14)[^14] sayısını ayarlar.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -452,7 +437,7 @@ JLine'ı devre dışı bırakır ve saf konsolu kullanır.
 
 Oyuncuları Mojang kimlik doğrulama sunucusuyla doğrulamak için seçim yapar.
 
-**Velocity ve benzeri proxy'ler kullanılmadığı takdirde [EULA](../getting-started/README.md#id-5) ihlali nedeniyle cezalandırılabilirsiniz.**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -460,9 +445,7 @@ Oyuncuları Mojang kimlik doğrulama sunucusuyla doğrulamak için seçim yapar.
 - **Varsayılan**: `paper.yml`
 
 {% hint style="warning" %}
-
-**Bu argüman, 1.19.4'ten itibaren kullanımdan kaldırılmıştır**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 Kullanımdan kaldırılan PaperSpigot yapılandırma dosyasının konumunu ayarlar.
@@ -474,13 +457,13 @@ Bu, mevcut yapıyı yeni bir yapılandırma dosyasına taşımak için kullanıl
 - **Takma ad**: `paper-dir`
 - **Varsayılan**: `config`
 
-[Paper yapılandırma dosyası](../reference/configurations/paper/README.md)'nın bulunduğu klasörün adını ve konumunu ayarlar.
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **Takma ad**: `plazma-dir`
 
-[Plazma yapılandırma dosyası](../reference/configurations/plazma/README.md)'nın bulunduğu klasörün adını ve konumunu ayarlar.
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -494,14 +477,14 @@ Eklenti klasörünün konumunu ayarlar.
 - **Takma ad**: `pufferfish`
 - **Varsayılan**: `pufferfish.yml`
 
-[Pufferfish yapılandırma dosyası](../reference/configurations/pufferfish.md)'nın adını ve konumunu ayarlar.
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **Takma ad**: `purpur`
 - **Varsayılan**: `purpur.yml`
 
-[Purpur yapılandırma dosyası](../reference/configurations/purpur/README.md)'nın adını ve konumunu ayarlar.
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -512,7 +495,7 @@ Eklenti klasörünün konumunu ayarlar.
 - **Takma ad**: `h`, `host`
 - **Varsayılan**: `(sunucu özellikleri)`
 
-Sunucunun ana bilgisayar adını veya [internet protokolü](#user-content-fn-13)[^13] adresini ayarlar.
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -532,7 +515,7 @@ Sunucunun adını ayarlar.
 - **Takma ad**: `S`
 - **Varsayılan**: `spigot.yml`
 
-[Spigot yapılandırma dosyası](../reference/configurations/spigot.md)'nın adını ve konumunu ayarlar.
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -580,6 +563,6 @@ Dünya dosyasının adını ayarlar.
 
 [^12]: Oyundaki `dünya optimizasyonu` da aynı prensiple çalışır.
 
-[^13]: Internet Protokolü, IP.
+[^13]: `Seviye 2` ve üzeri yöneticiler hariç tutulur.
 
-[^14]: `Seviye 2` ve üzeri yöneticiler hariç tutulur.
+[^14]: Internet Protokolü, IP.
