@@ -1,1 +1,5 @@
-# 🧾 Çeşitli
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
