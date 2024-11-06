@@ -2,14 +2,13 @@
 description: Opset is die mees basiese manier om Plazma aan te pas.
 ---
 
-# 📋 Samestelling
+# 🧾 구성
 
 ***
 
 ## 🪨 Eienskap <a href="#id-1" id="id-1"></a>
 
-> Eienskappe is die mees basiese samestellingslêer wat in Minecraft beskikbaar is.
-> Deur eienskappe te gebruik, kan die basiese meganismes van die spel verander word.
+> Eienskappe is die mees basiese samestellingslêer wat in Minecraft beskikbaar is. Deur eienskappe te gebruik, kan die basiese meganismes van die spel verander word.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Opset is die mees basiese manier om Plazma aan te pas.
 
 ## 🪣 Bukkit Samestelling <a href="#id-2" id="id-2"></a>
 
-> Bukkit Samestelling is die mees basiese samestellingslêer wat deur Plazma beskikbaar gestel word.
-> Deur Bukkit Samestelling te gebruik, kan die basiese meganismes van 'n Minecraft-bediener verander word.
+> Bukkit Samestelling is die mees basiese samestellingslêer wat deur Plazma beskikbaar gestel word. Deur Bukkit Samestelling te gebruik, kan die basiese meganismes van 'n Minecraft-bediener verander word.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Opset is die mees basiese manier om Plazma aan te pas.
 
 ## 🛩️ Paper Samestelling <a href="#id-4" id="id-4"></a>
 
-> Paper Samestelling maak dit moontlik om die algehele meganismes van Plazma aan te pas en [verskeie optimalisering en kwesbaarheidsoplossings](#user-content-fn-1)[^1] te aktiveer.
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
