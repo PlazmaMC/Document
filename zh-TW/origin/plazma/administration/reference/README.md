@@ -2,18 +2,16 @@
 description: 在Plazma中了解基本提供的用戶化方法。
 ---
 
-# ⏬ 參考資料
+# 📜 리퍼런스
 
 Plazma提供了多種用戶化方法。
 
 其中，以下4種方法是可以直接使用的用戶化方法，無需進行額外操作。
 
 {% hint style="info" %}
-
-**無法透過說明書解決問題嗎？**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [官方 Discord 伺服器](https://discord.gg/MmfC52K8A8) 或者透過 [GitHub 討論區](https://github.com/PlazmaMC/PlazmaBukkit/discussions) 向社群提問！
-
 {% endhint %}
 
 ***
