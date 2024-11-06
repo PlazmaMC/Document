@@ -15,19 +15,16 @@ description: למדו על ארגומנטי ההתחלה והמאפיינים ש
 מאפייני המערכת מתווספים לפני ה `-jar` ומעוברים על ידי הJVM לפני שPlazma מאתחלת.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-כאשר משנים מאפייני מערכת, ייתכן ששינויים יתרחשו בפעולת Plazma ו-JVM ויכולים להשפיע בצורה גדולה על המשחק!
-
-במקרה של אי הבנה מוחלטת לגבי תפקיד של כל מאפיין מערכת, **אז לא להשתמש בהם בשום אופן!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### שימוש <a href="#id-1.1" id="id-1.1"></a>
 
 מאפייני המערכת מתווספים כארגומנטי פקודה בין `java` ל `-jar`.
 
-לדוגמה, כאשר מנסים ליישם את התכונה `Plazma.dummyProperty`,
-עליך להזין את הערך `37` כדי שהתכונה הבאה תהיה `37` וכך תתבצע אתחול של Plazma.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -38,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 אם לא הוזן שום ערך למאפיינים, הערך ייקבע ל־[`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**פלטפורמת השרתים מסוג Paperweight מכילה `.` בשמות המאפיינים כדי להבדיל ביניהם לפי כל פלטפורמה.**
-
-במספר טרמינלים כגון Windows Powershell, ייתכן שלא יאפשרו את הפרמטרים הללו, לכן עליך להוסיף `"` בקצוות הפרמטרים [כדי](#user-content-fn-4)[^4] להוסיף.
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### מאפייני מערכת מלאים <a href="#id-1.2" id="id-1.2"></a>
@@ -84,11 +79,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 מבטל את ההודעה לאימות מחדש של פקודת `/reload`.
 
 {% hint style="danger" %}
-
-**הפקודה `/reload` היא לא יציבה במיוחד, כל בעיה בשרת שתתרחש לאחר השימוש ב-`/reload` תהיה באחריותך האישית.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 אם אתה מפתח תוסף וצריך לעדכן, השתמש בהחלפה חמה במקום `/reload`.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -133,7 +126,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **סוג**: `Boolean`
 - **ערך ברירת מחדל**: `False`
 
-מבטל את ההגבלה של 128 [ערוצי התוסף](#user-content-fn-5)[^5] המיושמים לכל שחקן.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -153,14 +146,14 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 #### `Paper.excessiveTELimit`
 
-- **סוג**: `Integer`
+- **형태**: `Integer`
 - **ערך ברירת מחדל**: `750`
 
 אם יש יותר ישויות מהערך המוגדר, הם ייחלקו לחבילות לשליחה.
 
 #### `Paper.filterThreshold`
 
-- **סוג**: `Integer`
+- **형태**: `Integer`
 - **ערך ברירת מחדל**: `8192`
 
 מגדיר את גודל החבילה המקסימלית שהשרת יכול לקבל בפעם אחת.
@@ -173,32 +166,30 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 מבטל את בדיקת גרסת ה-Java.
 
 {% hint style="danger" %}
-
-**כך אפשר ש-JVM ינסה לגשת לקוד שאינו קיים!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 כך ייתכן שהקבצים בעולם ייפגעו בצורה קבועה והמערכת כולה של המשחק תיפגע.
 
 כל בעיה שתתרחש עקב השימוש בזה תהיה באחריותך בלבד, וPlamza לא תסייע בכך.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **סוג**: `Integer`
+- **형태**: `Integer`
 - **ערך ברירת מחדל**: `64`
 
-מגביל את שם הערוץ של התוסף[^6].
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **סוג**: `Integer`
+- **형태**: `Integer`
 - **ערך ברירת מחדל**: `80`
 
 מגביל את אורך הטקסט המרבי שניתן להכניס בלוח שלט.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **סוג**: `Integer`
+- **형태**: `Integer`
 - **ערך ברירת מחדל**: `(גרסת העולם) + 1`
 
 מגדיר את גרסת העולם הראשונית שיש לאתחל את המידע לעדכון.
@@ -214,12 +205,12 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 #### `Paper.playerConnection.keepAlive`
 
-- **סוג**: `Integer`
+- **형태**: `Integer`
 - **ערך ברירת מחדל**: `30`
 
 כאשר לא קיבלנו נתונים מהשחקן (בשניות), נבעיר את השחקן.
 
-במקרים רבים, ה[משחק](#user-content-fn-7)[^7] ממשיך לשלוח [אותיות לב](#user-content-fn-8)[^8] לשרת, ובמקרה זה המשחק לא יובן כמובן וישוער כתקיעת קונפליקט, ולאחר מכן יבצע הוצאת שחקן מהשרת.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -297,7 +288,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **סוג**: `Boolean`
 - **ערך ברירת מחדל**: `false`
 
-מונע את [הודעת האזהרה](#user-content-fn-11)[^11] שמופיעה באתחול של Plazma.
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -313,19 +304,15 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **קונפליקט**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**המאפיין הזה עדיין בפיתוח.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**המאפיין הזה מכסה את כל נקודות השחרור שנתקלו בהם!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 פעולה זאת עשויה להשפיע מאוד על בטיחות השרת ועל ביצועיו.
 
 כל בעיה שעשויה להתגלות בשימוש במאפיין זה מתוחת לאחריות המנהל של השרת.
-
 {% endhint %}
 
 מציע את ההגדרה ההתחלתית בערכים מוגדרים על ידי Mojang.
@@ -341,15 +328,12 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **קונפליקט**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**המאפיין הזה עדיין בפיתוח.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 מגדיר את ההגדרה ההתחלתית לקרובה יותר לבנילה.
 
-פעולה זו יישם בקצב שאינו משפיע למעלה מדי על ביצועי השרת ועל בטיחותו,
-ויגדיר מחדש את ערכי הבנילה במידה שתישתמש במאפיין `Plazma.disableConfigOptimization`.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### תכונה שהופסקה <a href="#id-1.3" id="id-1.3"></a>
 
@@ -389,21 +373,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **כינוי**: `b`
 - **ערך ברירת מחדל**: `bukkit.yml`
 
-מגדיר את שם ומיקום קובץ התצורה של [Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **כינוי**: `c`
 - **ערך ברירת מחדל**: `commands.yml`
 
-מגדיר את שם ומיקום קובץ ההגדרות של פקודות [Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **כינוי**: `c`
 - **ערך ברירת מחדל**: `server.properties`
 
-מגדיר את שם ומיקום קובץ ההגדרות של השרת.
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -415,7 +399,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 #### `forceUpgrade`
 
-מתעלם מהגרסה ומשדרג את העולם באופן כפוי [^12].
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -436,7 +420,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **כינוי**: `s`, `size`
 - **ערך ברירת מחדל**: `(מאפייני השרת)`
 
-מגדיר את מספר ה[שחקנים](#user-content-fn-14) המרבי שמותר.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -453,7 +437,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 בחר אם לאמת את השחקנים דרך שרתי האימות של Mojang.
 
-**במידה ולא נעשה שימוש ב- [EULA](../getting-started/README.md#id-5) עלול להוטיל עונשים אם לא משתמשים ב-Velocity או פרוקסי.**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `הגדרות-נייר`
 
@@ -461,9 +445,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **ערך ברירת מחדל**: `paper.yml`
 
 {% hint style="warning" %}
-
-**שימוש בארגומנט זה הופסק מגרסה 1.19.4 והלאה**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 מגדיר את מיקום קובץ ההגדרות של PaperSpigot שהופסק בשימוש.
@@ -475,13 +457,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **כינוי**: `תיקיית-נייר`
 - **ערך ברירת מחדל**: `config`
 
-מגדיר את שם התיקייה והמיקום שבו ממוקמות קבצי ההגדרות של Paper.
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `תיקיית-הגדרות-פלזמה`
 
 - **כינוי**: `תיקיית-פלזמה`
 
-מגדיר את שם התיקייה והמיקום שבו ממוקמות קבצי ההגדרות של Plazma.
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `תוספים`
 
@@ -495,14 +477,14 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **כינוי**: `פופרפיש`
 - **ערך ברירת מחדל**: `pufferfish.yml`
 
-מגדיר את שם והמיקום של קובץ ההגדרות של Pufferfish.
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `הגדרות-פורפור`
 
 - **כינוי**: `פורפור`
 - **ערך ברירת מחדל**: `purpur.yml`
 
-מגדיר את שם והמיקום של קובץ ההגדרות של Purpur.
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `מצב-בטיחות`
 
@@ -513,7 +495,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **כינוי**: `h`, `מארח`
 - **ערך ברירת מחדל**: `(מאפייני השרת)`
 
-מגדיר את שם המארח של השרת או כתובת ה- [פרוטוקול האינטרנט](#user-content-fn-13)[^13].
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `יציאת-שרת`
 
@@ -533,7 +515,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **כינוי**: `S`
 - **ערך ברירת מחדל**: `spigot.yml`
 
-מגדיר את שם והמיקום של קובץ ההגדרות של Spigot.
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `גרסה`
 
@@ -581,6 +563,6 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 [^12]: במשחק `אופטימיזצית עולם` עובדת על פי אותו העקרון.
 
-[^13]: פרוטוקול האינטרנט, IP.
+[^13]: מנהלים ברמה 2 ומעלה אינם כלולים.
 
-[^14]: מנהלים ברמה 2 ומעלה אינם כלולים.
+[^14]: פרוטוקול האינטרנט, IP.
