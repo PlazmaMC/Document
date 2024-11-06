@@ -2,4 +2,4 @@
 description: Uurige, mida iga plazma-world.yml sõlme tähendab.
 ---
 
-# ✨ Plazma (maailmade koosseis)
+# 🏳️ 세계별 구성
