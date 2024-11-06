@@ -2,4 +2,4 @@
 description: Aflați ce înseamnă fiecare nod în purpur.yml.
 ---
 
-# 🦑 Purpuriu (compoziție globală)
+# 🌏 전역 구성
