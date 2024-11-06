@@ -15,19 +15,15 @@ description: Uurige, milline platvorm Plazma on.
 
 ## ⚙️ Peamised funktsioonid <a href="#id-2" id="id-2"></a>
 
-1. **Tugev plugin-ökosüsteem**\
-   [Paber](https://github.com/PaperMC/Paper) põhineb,
-   seega enamikul internetist allalaaditavatest [uusimatest plugin-dest](#user-content-fn-1)[^1] on normaalne toimimine.
-2. **Optimeerimist pole vaja seadistada**\
-   Kõik [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) parandused on kaasas,
-   mõned sisemised optimeerimised ja moodulid tagavad parima jõudluse.
-3. **Mäng, mida saate kohandada soovitud viisil**\
-   Plazmas sisalduv [Purpur](https://github.com/PurpurMC/Purpur) võimaldab teil muuta
-   mängu üldisi omadusi vastavalt soovile.
-4. **Turvaline serverimängimine**\
-   Sisaldab [Mingi jutu raporteid](https://github.com/Aizistral-Studios/No-Chat-Reports) alates 1.19-st,
-   [Mojangi](#user-content-fn-2)[^2] [vestluse raporteerimise süsteem](#user-content-fn-3)[^3] saab keelata,\
-   diagnostikaandur on täielikult eemaldatud, võimaldades mängida jälgimata turvalisel serveril.
+1. **강력한 플러그인 생태계**\
+   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
+2. **설정이 필요 없는 최적화**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
+3. **원하는 대로 사용자화하는 게임**\
+   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며,\
+   진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **Kõige kiiremad uuendused**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) hoiab Plazma kaasas olevad parandused alati ajakohasena, pakkudes kõige kiiremaid uuendusi Paperil põhinevate serveri platvormide hulgas.
 6. **Vaikimisi konfiguratsioonifaili optimeerimine**\
@@ -36,12 +32,6 @@ description: Uurige, milline platvorm Plazma on.
    Asünkroniseerib süsteemi mehhanismid, mis ei ole seotud mängu mehhanismidega, et optimeerida serverit ja vähendada [viivitusi](#user-content-fn-4)[^4].
 8. **Tarbetu ruumi kasutamise blokeerimine**\
    Ühendab sarnase väärtusega andmed ühte, et vähendada mälukasutust.
-
-#### Kui soovite rohkem teada saada Plazma kohta? <a href="#etc-1" id="etc-1"></a>
-
-{% content-ref url="patches-list.md" %}
-[patches-list.md](patches-list.md)
-{% endcontent-ref %}
 
 ## ✨ Kasutusjuhud <a href="#id-3" id="id-3"></a>
 
@@ -52,15 +42,12 @@ description: Uurige, milline platvorm Plazma on.
 - **RPG-serveris säilitatakse kiire jõudlus**\
   Ühe klasteriga hoiti 100 mängijat stabiilselt ilma TPS-i languseta ning\
   4 klasteriga sai kokku 250 mängijat mängida sujuvalt.
-- **Platvorm, mis näitab valgust tükkides/üksustes**\
-  Muutes varasemalt ellujäämisserveris esinevat viivitust tükkide ja üksuste töötlemisel
-  Purpuri asemel Plazmaks, suudeti vähendada enamikku viivitusi.
+- **청크/엔티티에서 빛을 보이는 플랫폼**\
+  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을 Purpur에서 Plazma로 변경하며 대부분의 지연을 줄일 수 있었습니다.
 - **Paljud voogedastajad valivad platvormi**\
   Paljud voogedastajad on selle valinud oma vaatajate osalusämbrina.
 
-<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="Plazma kasutajate reaalajas suundumus">
-</a>
+[![실시간 Plazma 사용자 추이](https://badge.plazmamc.org/internal/bstats)](https://bstats.org/plugin/server-implementation/Plazma/18047)
 
 ## ⬇️ Lae alla
 
