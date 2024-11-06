@@ -15,19 +15,16 @@ description: 시작 인수와 시스템 속성에 대해 알아보세요.
 시스템 속성은 `-jar` 앞에 입력되어 Plazma가 초기화 되기 전 JVM에서 처리되는 값입니다.
 
 {% hint style="warning" %}
-
 **시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
 각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
-
 {% endhint %}
 
 ### 사용 방법 <a href="#id-1.1" id="id-1.1"></a>
 
 시스템 속성은 `java` 와 `-jar` 사이에 Java 명령 인수로써 입력됩니다.
 
-예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우,
-다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -38,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정](#user-content-fn-3)[^3]됩니다.
 
 {% hint style="info" %}
-
 **Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야](#user-content-fn-4)[^4] 합니다.
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### 전체 시스템 속성 <a href="#id-1.2" id="id-1.2"></a>
@@ -84,11 +79,9 @@ Spigot의 Watchdog 경고 시스템을 비활성화 합니다.
 `/reload` 명령어의 재확인 메세지를 비활성화 합니다.
 
 {% hint style="danger" %}
-
 **`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 플러그인 개발자이고 플러그인을 업데이트 해야 하는 경우, `/reload` 대신 핫스왑을 사용하세요.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -133,7 +126,7 @@ NBT 오브젝트에서 누락된 키에 대한 디버그 로그를 활성화 합
 - **형태**: `Boolean`
 - **기본값**: `False`
 
-플레이어당 적용되는 128개의 플러그인 [채널](#user-content-fn-5)[^5]의 개수 제한을 비활성화 합니다.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -173,13 +166,11 @@ Netty flush consolidation 체계를 비활성화 합니다.
 Java 버전 확인을 비활성화 합니다.
 
 {% hint style="danger" %}
-
 **이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 월드 등 전반적인 파일이 영구적으로 손상될 수 있으며, 게임의 전체 메커니즘이 망가지게 됩니다.
 
 이를 사용하여 발생한 모든 문제는 본인이 책임지며, Plamza는 이에 대한 아무런 지원을 하지 않습니다.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
@@ -187,7 +178,7 @@ Java 버전 확인을 비활성화 합니다.
 - **형태**: `Integer`
 - **기본값**: `64`
 
-플러그인 [채널](#user-content-fn-6)[^6] 이름의 제한을 설정합니다.
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
@@ -219,7 +210,7 @@ YAML 파일의 주석의 처리를 활성화 합니다.
 
 플레이어에게서 입력된 값(초) 만큼 아무런 데이터도 전송 받지 못했을 때, 플레이어를 추방합니다.
 
-일반적인 경우, [게임](#user-content-fn-7)[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -297,7 +288,7 @@ Minecraft의 [기본 청크 작성 체계](#user-content-fn-10)[^10]을 활성�
 - **형태**: `Boolean`
 - **기본값**: `false`
 
-Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을 억제합니다.
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -313,19 +304,15 @@ Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사
 - **긴림**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
 **해당 속성은 아직 개발중입니다.**
-
 {% endhint %}
 
 {% hint style="danger" %}
-
 **해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 이는 서버 안전 및 성능에 크게 영향을 줄 수 있습니다.
 
 해당 속성을 사용하여 발생하는 모든 문제는 서버 관리자에게 있습니다.
-
 {% endhint %}
 
 초기 구성을 Mojang에서 제공하는 기본값으로 제공합니다.
@@ -341,15 +328,12 @@ Plazma 브랜딩을 비활성화 하고 바닐라 기본 서버 패비콘을 사
 - **긴림**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
 **해당 속성은 아직 개발중입니다.**
-
 {% endhint %}
 
 초기 구성을 바닐라에 가깝게 설정합니다.
 
-이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며,
-`Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### 사용 중단된 속성 <a href="#id-1.3" id="id-1.3"></a>
 
@@ -389,21 +373,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **별칭**: `b`
 - **기본값**: `bukkit.yml`
 
-[Bukkit 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **별칭**: `c`
 - **기본값**: `commands.yml`
 
-[Bukkit 명령어 구성 파일](../reference/configurations/bukkit.md)의 이름 및 위치를 설정합니다.
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **별칭**: `c`
 - **기본값**: `server.properties`
 
-[서버 속성](../reference/configurations/property.md) 파일의 이름 및 위치를 설정합니다.
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -415,7 +399,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 #### `forceUpgrade`
 
-버전을 무시하고 월드를 강제로 [업그레이드](#user-content-fn-12)[^12] 합니다.
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -436,7 +420,7 @@ JFR 프로필링을 활성화 합니다.
 - **별칭**: `s`, `size`
 - **기본값**: `(서버 속성)`
 
-허용되는 최대 [플레이어](#user-content-fn-14)[^14] 수를 설정합니다.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -453,7 +437,7 @@ JLine을 비활성화 하고 바닐라 콘솔을 사용합니다.
 
 Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 
-**Velocity 등 프록시를 사용하는 것이 아닌 경우 [EULA](../getting-started/README.md#id-5) 위반으로 제재될 수 있습니다.**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -461,9 +445,7 @@ Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 - **기본값**: `paper.yml`
 
 {% hint style="warning" %}
-
 **이 인수는 1.19.4 이후 사용이 중지되었습니다**
-
 {% endhint %}
 
 사용 중지된 PaperSpigot 구성 파일의 위치를 설정합니다.
@@ -475,13 +457,13 @@ Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 - **별칭**: `paper-dir`
 - **기본값**: `config`
 
-[Paper 구성 파일](../reference/configurations/paper/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **별칭**: `plazma-dir`
 
-[Plazma 구성 파일](../reference/configurations/plazma/README.md)이 위치하는 폴더의 이름 및 위치를 설정합니다.
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -495,14 +477,14 @@ Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 - **별칭**: `pufferfish`
 - **기본값**: `pufferfish.yml`
 
-[Pufferfish 구성 파일](../reference/configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **별칭**: `purpur`
 - **기본값**: `purpur.yml`
 
-[Purpur 구성 파일](../reference/configurations/purpur/README.md)의 이름 및 위치를 설정합니다.
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -513,7 +495,7 @@ Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 - **별칭**: `h`, `host`
 - **기본값**: `(서버 속성)`
 
-서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-13)[^13] 주소를 설정합니다.
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -533,7 +515,7 @@ Mojang 인증 서버로 플레이어를 검증할지 선택합니다.
 - **별칭**: `S`
 - **기본값**: `spigot.yml`
 
-[Spigot 구성 파일](../reference/configurations/spigot.md)의 이름 및 위치를 설정합니다.
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -581,6 +563,6 @@ Plazma 버전을 출력합니다.
 
 [^12]: 게임에서 `월드 최적화` 도 이와 같은 원리로 동작합니다.
 
-[^13]: Internet Protocol, IP.
+[^13]: `레벨 2` 이상의 관리자는 제외합니다.
 
-[^14]: `레벨 2` 이상의 관리자는 제외합니다.
+[^14]: Internet Protocol, IP.
