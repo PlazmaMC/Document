@@ -2,18 +2,16 @@
 description: Tutustu Plazman tarjoamiin oletuskäyttäjän mukauttamistapoihin.
 ---
 
-# ⏬ Viittaus
+# 📜 리퍼런스
 
 Plazmassa on useita erilaisia käyttäjän mukauttamistapoja.
 
 Neljä alla olevaa tapaa ovat käyttäjän mukauttamistapoja, joita voi käyttää ilman lisätoimenpiteitä.
 
-{% vinkki tyyli="info" %}
-
-**Eikö ongelmaa voi ratkaista ohjeiden avulla?**
+{% hint style="info" %}
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Virallinen Discord-palvelin](https://discord.gg/MmfC52K8A8) tai [GitHub-keskustelut](https://github.com/PlazmaMC/PlazmaBukkit/discussions) voivat auttaa yhteisön kysymyksissä!
-
 {% endhint %}
 
 ***
