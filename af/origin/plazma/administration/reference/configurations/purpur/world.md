@@ -2,4 +2,4 @@
 description: Vind uit wat elke nodus in purpur.yml beteken.
 ---
 
-# 🦑 Purper (samestelling van wêrelde)
+# 🏳️ 세계별 구성
