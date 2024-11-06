@@ -2,4 +2,4 @@
 description: Selvitä, mitä kunkin solmun plazma-world.yml tarkoittaa.
 ---
 
-# ✨ Plazma (maailmanlaajuinen rakenne)
+# 🏳️ 세계별 구성
