@@ -11,7 +11,7 @@ Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 
 | 아키텍쳐 | x64 |    - |
 |   RAM   | 8GB | 16GB |
 | 저장공간 | 1GB |  8GB |
-|   JRE   |  17 |   21 |
+|   JDK   |  17 |   21 |
 
 원할한 구성 파일 수정을 위하여, [Visual Studio Code](https://code.visualstudio.com/download)등의 편집기를 설치하는것도 좋습니다.
 
