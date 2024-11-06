@@ -2,4 +2,4 @@
 description: Tìm hiểu cách khắc phục khi plugin không hoạt động đúng cách.
 ---
 
-# ⏬ Plugin
+# 📜 플러그인
