@@ -2,14 +2,13 @@
 description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법입니다.
 ---
 
-# 📋 STRUCTURE
+# 🧾 구성
 
 ***
 
 ## 🪨 PROPERTIEZ <a href="#id-1" id="id-1"></a>
 
-> PROPERTIEZ iz da most basic configuration file provided in Minecraft.
-> Usin' PROPERTIEZ can change da basic mechanismz of da game.
+> PROPERTIEZ iz da most basic configuration file provided in Minecraft. Usin' PROPERTIEZ can change da basic mechanismz of da game.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ## 🪣 Bukkit CONFIG <a href="#id-2" id="id-2"></a>
 
-> Bukkit CONFIG iz da most basic configuration file provided in Plazma.
-> Usin' Bukkit CONFIG can change da basic mechanismz of a Minecraft server.
+> Bukkit CONFIG iz da most basic configuration file provided in Plazma. Usin' Bukkit CONFIG can change da basic mechanismz of a Minecraft server.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: 구성은 Plazma를 사용자화 하는 가장 기초적인 방법�
 
 ## 🛩️ Paper CONFIG <a href="#id-4" id="id-4"></a>
 
-> Paper CONFIG allowz modification of overall mechanismz of Plazma, enabling various optimizationz and vulnerability resolution.
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
