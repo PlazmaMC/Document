@@ -15,18 +15,16 @@ Algusparameetrid ja süsteemi omadused on väärtused, mis lisatakse Plazma käi
 Süsteemi atribuudid sisestatakse `-jar` ette ja töödeldakse JVM poolt enne Plazma alglaadimist.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**Süsteemi omaduste muutmine võib mõjutada Plazma ja JVM-i toimimist ning võib mõjutada oluliselt mängu!**
-
-Kui te ei tea täpselt, millist rolli iga süsteemi atribuut täidab, siis **ärge kasutage seda kunagi!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Kasutusjuhend <a href="#id-1.1" id="id-1.1"></a>
 
 Süsteemi atribuudid sisestatakse Java käsu argumendina `java` ja `-jar` vahel.
 
-Näiteks kui soovite rakendada süsteemi omadust `Plazma.dummyProperty`, sisestades järgmise, sisestatakse järgmine omadusse `37` ja Plazma alglaaditakse.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -37,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 Kui atribuudile ei sisestata mingit väärtust, siis väärtus fikseeritakse [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**Paperweight seeria serveri platvormid eristavad süsteemi omadusi iga platvormi jaoks, sisaldades atribuudi nimes `.`.**
-
-Mõnedes terminalides, nagu Windows Powershell, võib olla nende parameetrite lubamine keelatud, seega tuleb parameetrite mõlemale otsale lisada `"` [lõppu](#user-content-fn-4)[^4].
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Kogu süsteemi atribuudid <a href="#id-1.2" id="id-1.2"></a>
@@ -82,11 +78,9 @@ Lülitab välja Spigoti valvekoera hoiatussüsteemi.
 Keelab `/reload` käsu uuesti laadimise kinnitussõnumi.
 
 {% hint style="danger" %}
-
-**`/reload` käsk on äärmiselt ebastabiilne, seega kõik serveri probleemid pärast `/reload` kasutamist on kasutaja enda vastutusel.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Kui olete pistikprogrammi arendaja ja peate pistikprogrammi uuendama, siis kasutage `hotswap` asemel `/reload`.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -131,7 +125,7 @@ See logib kõik valesti paigutatud koljuprofiilid asukohaga ja maailmas.
 - **Tüüp**: `Boolean`
 - **Vaikimisi väärtus**: `False`
 
-Keelab 128 plugini [kanali](#user-content-fn-5)[^5] piirangu mängijale.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -151,14 +145,14 @@ Keelab Netty loputamise konsolideerimise süsteemi.
 
 #### `Paper.excessiveTELimit`
 
-- **Tüüp**: `Integer`
+- **형태**: `Integer`
 - **Vaikimisi väärtus**: `750`
 
 Juhul, kui entiteete on rohkem kui määratud väärtus, jagatakse need mitmeks paketiks edastamiseks.
 
 #### `Paper.filterThreshold`
 
-- **Tüüp**: `Integer`
+- **형태**: `Integer`
 - **Vaikimisi väärtus**: `8192`
 
 Määrab serveri vastuvõetavate maksimaalsete paketi suuruse.
@@ -171,32 +165,30 @@ Määrab serveri vastuvõetavate maksimaalsete paketi suuruse.
 Keelab Java versiooni kontrolli.
 
 {% hint style="danger" %}
-
-**See võib põhjustada JVM-i proovimise mitteeksisteerivale koodile juurdepääsu!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 See võib püsivalt kahjustada maailma ja üldiselt faile ning mängu mehaanikat rikkuda.
 
 Kõik sellest tulenevad probleemid on teie enda vastutusel ja Plazma ei paku sellele mingit tuge.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Tüüp**: `Integer`
+- **형태**: `Integer`
 - **Vaikimisi väärtus**: `64`
 
-Piirab pistiku [kanali](#user-content-fn-6)[^6] nime pikkust.
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Tüüp**: `Integer`
+- **형태**: `Integer`
 - **Vaikimisi väärtus**: `80`
 
 Määrab märgi maksimaalse pikkuse ühes reas.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Tüüp**: `Integer`
+- **형태**: `Integer`
 - **Vaikimisi väärtus**: `(maailma versioon) + 1`
 
 Määrab algse maailma uuendusteabe versiooni.
@@ -212,12 +204,12 @@ Lülitab sisse YAML failide kommentaaride töötlemise.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Tüüp**: `Integer`
+- **형태**: `Integer`
 - **Vaikimisi väärtus**: `30`
 
 Kui mängijalt pole määratud aja jooksul (sekundites) saadud andmeid, siis mängija välja visatakse.
 
-Tavaliselt saadab [mäng](#user-content-fn-7)[^7] pidevalt [südamepekslemise signaali](#user-content-fn-8)[^8] serverisse, seega kui mäng ei vasta, siis seda ei visata, vaid loetakse mäng kokkupõrkeks ja mängijat ei töödelda serveris edasi ning ta saadetakse minema.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -295,7 +287,7 @@ See kasutab Paberi vaikimisi seadistust.
 - **Tüüp**: `Boolean`
 - **Vaikimisi väärtus**: `false`
 
-Pärsib Plazma alglaadimisel kuvatava [hoiatuse](#user-content-fn-11)[^11].
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -311,19 +303,15 @@ Keelab Plazma brändi ja kasutab vaikimisi serveri veebilogi.
 - **Kokkupõrge**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**See omadus on endiselt arendamisel.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**See omadus tühistab kõik paigadatud haavatavused!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 See võib oluliselt mõjutada serveri turvalisust ja jõudlust.
 
 Kõik selle omadusest tulenevad probleemid on serveri administraatori vastutusel.
-
 {% endhint %}
 
 Optimeerib algseadistust Mojangi poolt pakutud vaikeseadistusega.
@@ -339,15 +327,12 @@ Haavatavuste parandusi saab uuesti lubada Paberi või Plazma seadistustes.
 - **Kokkupõrge**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**See omadus on endiselt arendamisel.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 Optimeerib algseadistust lähemale vanillale.
 
-See rakendub üldiselt ainult serveri jõudlust ja turvalisust piisavalt mõjutamata ning
-kasutab konfigureerimisel vaikeseadistust olukorras, kus `Plazma.disableConfigOptimization`omadust kasutatakse.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Kasutatud omadus <a href="#id-1.3" id="id-1.3"></a> on lõpetatud
 
@@ -387,21 +372,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Lühend**: `b`
 - **Vaikimisi väärtus**: `bukkit.yml`
 
-Määrab Bukkiti seadistusfaili nime ja asukoha
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Lühend**: `c`
 - **Vaikimisi väärtus**: `commands.yml`
 
-Määrab Bukkiti käskude seadistusfaili nime ja asukoha
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Lühend**: `c`
 - **Vaikimisi väärtus**: `server.properties`
 
-Määrab serveri omaduste faili nime ja asukoha
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -413,7 +398,7 @@ Eemaldab pärast maailma värskendamist allesjäänud vahemälu failid
 
 #### `forceUpgrade`
 
-Eirab versiooni ja sunnib maailma [värskendama](#user-content-fn-12)[^12]
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -434,7 +419,7 @@ Lülitab sisse JFR-profiliseerimise
 - **Lühend**: `s`, `size`
 - **Vaikimisi väärtus**: `(serveri omadus)`
 
-Määrab lubatud maksimaalse [mängijate](#user-content-fn-14)[^14] arvu
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -451,7 +436,7 @@ Keelab JLine'i ja kasutab tavakonsooli
 
 Valib, kas autentida mängijad Mojangi autentimisserveris
 
-**Kui ei kasutata Velocity ega muid proksiservereid, võib see viia [EULA](../getting-started/README.md#id-5) rikkumiseni.**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -459,9 +444,7 @@ Valib, kas autentida mängijad Mojangi autentimisserveris
 - **Vaikimisi väärtus**: `paper.yml`
 
 {% hint style="warning" %}
-
-**See argument on peatatud alates versioonist 1.19.4**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 Määrab kasutatava PaperSpigoti konfiguratsioonifaili asukoha
@@ -473,13 +456,13 @@ Seda kasutatakse varasema seadistuse uude faili migreerimiseks ja seejärel enam
 - **Lühend**: `paper-dir`
 - **Vaikimisi väärtus**: `config`
 
-Määrab Paperi konfiguratsioonifailide kausta nime ja asukoha
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **Lühend**: `plazma-dir`
 
-Määrab Plazma konfiguratsioonifailide kausta nime ja asukoha
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -493,14 +476,14 @@ Määrab pistikprogrammide kausta asukoha
 - **Lühend**: `pufferfish`
 - **Vaikimisi väärtus**: `pufferfish.yml`
 
-Määrab Pufferfishi konfiguratsioonifaili nime ja asukoha
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **Lühend**: `purpur`
 - **Vaikimisi väärtus**: `purpur.yml`
 
-Määrab Purpuri konfiguratsioonifaili nime ja asukoha
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -511,7 +494,7 @@ Alustab serverit täielikult tavalises olekus
 - **Lühend**: `h`, `host`
 - **Vaikimisi väärtus**: `(serveri omadus)`
 
-Määrab serveri hostinime või [Interneti protokolli](#user-content-fn-13)[^13] aadressi
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -531,7 +514,7 @@ Määrab serveri nime
 - **Lühend**: `S`
 - **Vaikimisi väärtus**: `spigot.yml`
 
-Määrab Spigoti seadistusfaili nime ja asukoha
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -579,6 +562,6 @@ Määrab maailma faili nime
 
 [^12]: Mängus `maailma optimeerimine` toimib samal põhimõttel.
 
-[^13]: Interneti protokoll, IP.
+[^13]: `Tase 2` või kõrgemad administraatorid on välja arvatud.
 
-[^14]: `Tase 2` või kõrgemad administraatorid on välja arvatud.
+[^14]: Interneti protokoll, IP.
