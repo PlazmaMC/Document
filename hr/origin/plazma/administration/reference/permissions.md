@@ -14,18 +14,18 @@ Za pravilno korištenje i jednostavno uređivanje dozvola, trebate koristiti dod
 
 Minecraft pruža osnovne administratorske skupine dozvola.
 
-Možete postaviti dozvole za [administratora](#user-content-fn-1)[^1] i naredbeni blok te ih možete urediti u [konfiguracijama poslužitelja](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Igrač**\
+1. **Igrač**\
    Ovo je osnovna skupina dozvola koja se dodjeljuje svim igračima.
-1. **Posrednik**\
+2. **Posrednik**\
    Može ignorirati zaštitu od spawnanja.
-2. **Administrator svijeta**\
+3. **Administrator svijeta**\
    Može koristiti sve naredbe i naredbene blokove povezane s upravljanjem svijetom.\
    Ovo je osnovna skupina dozvola koja se primjenjuje na pakete podataka i naredbene blokove.
-3. **Administrator**\
+4. **Administrator**\
    Može koristiti sve naredbe povezane s upravljanjem igračima.
-4. **Glavni administrator**\
+5. **Glavni administrator**\
    Može koristiti sve naredbe uključujući upravljanje poslužiteljem.\
    Ovo je osnovna skupina dozvola koja se primjenjuje na konzolu i administratore.
 
@@ -50,9 +50,7 @@ Kada se voze entitetom, mogu upravljati kretanjem entiteta pomoću `tipki za kre
 U `(Namespaced Key)` upisuje se [Namespaced ID](#user-content-fn-2)[^2] entiteta.
 
 {% hint style="info" %}
-
-**[Purpur konfiguracije svijeta](configurations/purpur/world.md) moraju biti omogućene `(Entity) > ridable` za funkcioniranje.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ Dopušta igračima da koriste posebne sposobnosti entiteta dok su na njima.
 Nisu sve posebne sposobnosti svih entiteta dostupne. Pogledajte sve dostupne posebne sposobnosti u nastavku.
 
 {% hint style="info" %}
-
-**Imate li dobru ideju za posebne sposobnosti?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Molimo podijelite svoje ideje na [Plazma Discord](https://plazmamc.org/discord) ili [GitHub raspravama](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Molimo podijelite svoje ideje na [Plazma Discord](https://plazmamc.org/discord) 
 </details>
 
 {% hint style="info" %}
-
-**[Purpur konfiguracije svijeta](configurations/purpur/world.md) moraju biti omogućene `(Entity) > ridable` za funkcioniranje.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Dodavanjem `.other` iza imena dozvole omogućuje se korištenje drugim igračima
 Dopušta korištenje [`/timings` naredbe](commands.md#timings).
 
 {% hint style="warning" %}
-
-**Ova naredba je obustavljena.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Za slične funkcionalnosti pogledajte [Spark](https://spark.lucko.me/docs/Command-Usage).
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,7 +181,7 @@ Dodavanjem `.other` iza imena dozvole omogućuje se korištenje drugim igračima
 
 - **Osnovno**: `Nijedan`
 
-Ako je [X-Ray blokiran](../expert/xray.md), igračima s ovlaštenjem neće biti zamagljivanje blokova zaštite od X-Raya.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 To omogućuje poboljšanje performansi za obje strane.
 
@@ -204,33 +196,27 @@ To omogućuje poboljšanje performansi za obje strane.
 - **Osnovno**: `Nijedan`
 
 {% hint style="warning" %}
-
-Ovo ovlaštenje bit će promijenjeno u `plazma.bypass.watchdog` u verziji 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Osnovno**: `Nijedan`
 
-Omogućuje korištenje [boja](https://minecraft.wiki/w/Formatting_codes#Color_codes) na kovčegu.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur konfiguracije svijeta](configurations/purpur/world.md) moraju biti omogućene `anvil > allow-colors` za funkcioniranje.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Osnovno**: `Nijedan`
 
-Omogućuje korištenje [stilova](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) na kovčegu.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur konfiguracije svijeta](configurations/purpur/world.md) moraju biti omogućene `anvil > allow-colors` za funkcioniranje.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -240,28 +226,24 @@ Omogućuje korištenje [stilova](https://minecraft.wiki/w/Formatting_codes#Forma
 Omogućuje korištenje [MiniMessage oznaka](https://docs.advntr.dev/minimessage/format.html) na kovčegu.
 
 {% hint style="info" %}
-
-**[Purpur konfiguracije svijeta](configurations/purpur/world.md) moraju biti omogućene `anvil > allow-minimessages` za funkcioniranje.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Osnovno**: `Nijedan`
 
-Omogućuje onemogućavanje `kurziva` pomoću stilskog koda `&r` na kovčegu.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur konfiguracije svijeta](configurations/purpur/world.md) moraju biti omogućene `anvil > allow-colors` za funkcioniranje.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Osnovno**: `Nijedan`
 
-Kada igrač potpiše knjigu, primjenjuju se [stilski kodovi](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -284,9 +266,7 @@ Nije moguće raditi ako nemate dozvolu za taj način igre.
 Kada iskopate spawner blok s postavkama iz konfiguracije, spawner će pasti na tlo.
 
 {% hint style="info" %}
-
-**[Purpur konfiguracije svijeta](configurations/purpur/world.md) moraju biti omogućene `gameplay-mechanics > silk-touch` za funkcioniranje.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -298,9 +278,7 @@ Mijenja veličinu ender kovčega.
 U `(NumberString)` možete unijeti `one`, `two`, `three`, `four`, `five`, `six`.
 
 {% hint style="info" %}
-
-**[Purpur konfiguracije svijeta](configurations/purpur/world.md) moraju biti omogućene `ender_chest > six-rows` i `ender_chest > use-permissions-for-rows` za funkcioniranje.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -310,9 +288,7 @@ U `(NumberString)` možete unijeti `one`, `two`, `three`, `four`, `five`, `six`.
 Omogućuje funkcioniranje Totema besmrtnosti čak i ako je u inventaru.
 
 {% hint style="info" %}
-
-**[Purpur konfiguracije svijeta](configurations/purpur/world.md) moraju biti omogućene `totem-of-undying-works-in-inventory` za funkcioniranje.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -328,9 +304,7 @@ Dopustite igraču da ignorira ograničenje broja posjetitelja.
 Dopustite igraču da popravi predmet koji drži kada se `poklekne i interagira`.
 
 {% hint style="info" %}
-
-**Morate omogućiti `shift-right-click-repairs-mending-points` u [Purpur konfiguracijama svijeta](configurations/purpur/world.md) da bi to funkcioniralo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -340,9 +314,7 @@ Dopustite igraču da popravi predmet koji drži kada se `poklekne i interagira`.
 Dopustite igraču da postavi spawner.
 
 {% hint style="info" %}
-
-**[Purpur konfiguracije svijeta](configurations/purpur/world.md) moraju biti omogućene `gameplay-mechanics > silk-touch` za funkcioniranje.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -355,12 +327,10 @@ Omogućite igraču trenutno teleportiranje kada koristi Nether portal.
 
 - **Osnovno**: `Nijedan`
 
-표지판에 [색 코드](https://minecraft.wiki/w/Formatting_codes#Color_codes)를 사용할 수 있도록 허용합니다.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur svijet konfiguracija](configurations/purpur/world.md) treba omogućiti `sign > allow-colors` da bi radilo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -370,21 +340,17 @@ Omogućite igraču trenutno teleportiranje kada koristi Nether portal.
 Prijenosnici mogu koristiti kod za otežavanje čitanja `(&o)` na znakovima.
 
 {% hint style="info" %}
-
-**[Purpur svijet konfiguracija](configurations/purpur/world.md) treba omogućiti `sign > allow-colors` da bi radilo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Osnovno**: `Nijedan`
 
-Prijenosnici mogu koristiti [stilizacijske kodove `(&o isključeno)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) na znakovima.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**[Purpur svijet konfiguracija](configurations/purpur/world.md) treba omogućiti `sign > allow-colors` da bi radilo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -394,9 +360,7 @@ Prijenosnici mogu koristiti [stilizacijske kodove `(&o isključeno)`](https://mi
 Dopušta igračima da `međusobno djeluju` škarama kako bi spriječili TNT eksploziju.
 
 {% hint style="info" %}
-
-**[Konfiguracije Purpur svijeta](configurations/purpur/world.md) moraju imati `defuse-tnt-change` veći od `0.0` da bi radilo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Planirana dozvola
@@ -408,9 +372,7 @@ Dopušta igračima da `međusobno djeluju` škarama kako bi spriječili TNT eksp
 Dopušta igračima da se priključe čak i ako nemaju instaliran mod [`NoChatReports`](https://modrinth.com/mod/no-chat-reports).
 
 {% hint style="info" %}
-
-**[Konfiguracije Plazma svijeta](configurations/plazma/world.md) moraju imati omogućeno `no-chat-reports > require-install` da bi radilo.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
