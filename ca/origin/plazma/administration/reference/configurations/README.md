@@ -2,14 +2,13 @@
 description: La configuració és la manera més bàsica de personalitzar Plazma.
 ---
 
-# 📋 Configuració
+# 🧾 구성
 
 ***
 
 ## 🪨 Atributs <a href="#id-1" id="id-1"></a>
 
-> Els atributs són els fitxers de configuració més bàsics proporcionats per Minecraft.
-> Utilitzant els atributs, es pot canviar els mecanismes bàsics del joc.
+> Els atributs són els fitxers de configuració més bàsics proporcionats per Minecraft. Utilitzant els atributs, es pot canviar els mecanismes bàsics del joc.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: La configuració és la manera més bàsica de personalitzar Plazma
 
 ## 🪣 Configuració de Bukkit <a href="#id-2" id="id-2"></a>
 
-> La configuració de Bukkit és el fitxer de configuració més bàsic proporcionat per Plazma.
-> Utilitzant la configuració de Bukkit, es poden canviar els mecanismes bàsics del servidor de Minecraft.
+> La configuració de Bukkit és el fitxer de configuració més bàsic proporcionat per Plazma. Utilitzant la configuració de Bukkit, es poden canviar els mecanismes bàsics del servidor de Minecraft.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: La configuració és la manera més bàsica de personalitzar Plazma
 
 ## 🛩️ Configuració de Paper <a href="#id-4" id="id-4"></a>
 
-> La configuració de Paper permet modificar els mecanismes generals de Plazma i activar diverses optimitzacions i resolució de vulnerabilitats.
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
