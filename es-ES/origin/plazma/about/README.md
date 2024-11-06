@@ -15,19 +15,15 @@ description: Descubre qué es Plazma como plataforma de servidor.
 
 ## ⚙️ Características principales <a href="#id-2" id="id-2"></a>
 
-1. **Un ecosistema de complementos potente**\
-   Basado en [Paper](https://github.com/PaperMC/Paper),
-   la mayoría de los [complementos más recientes](#user-content-fn-1)[^1] disponibles para descargar en Internet funcionan correctamente.
-2. **Optimización sin necesidad de configuración**\
-   Incluye todos los parches de [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) y
-   ofrece un rendimiento óptimo con algunas optimizaciones internas y modos integrados.
-3. **Personalización del juego a tu gusto**\
-   [Purpur](https://github.com/PurpurMC/Purpur) incluido en Plazma
-   permite modificar las propiedades generales del juego a tu gusto.
-4. **Servidor que juega de forma segura**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) incluido desde la versión 1.19
-   de [Mojang](#user-content-fn-2)[^2] que permite deshabilitar el [sistema de informes de chat](#user-content-fn-3)[^3],\
-   permitiendo jugar en un servidor seguro sin seguimiento al eliminar por completo el recolector de información de diagnóstico.
+1. **강력한 플러그인 생태계**\
+   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
+2. **설정이 필요 없는 최적화**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
+3. **원하는 대로 사용자화하는 게임**\
+   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며,\
+   진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **Actualizaciones más rápidas**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) mantiene los parches incluidos en Plazma siempre actualizados, ofreciendo las actualizaciones más rápidas entre las plataformas de servidor basadas en Paper.
 6. **Optimización de archivos de configuración predeterminados**\
@@ -36,12 +32,6 @@ description: Descubre qué es Plazma como plataforma de servidor.
    Asincroniza los mecanismos del sistema que no están relacionados con los mecanismos del juego para optimizar el servidor reduciendo el [tiempo de latencia](#user-content-fn-4)[^4].
 8. **Bloqueo del uso de espacio innecesario**\
    Combina todos los datos con valores similares en uno solo para reducir el uso de memoria.
-
-#### ¿Quieres saber más sobre Plazma? <a href="#etc-1" id="etc-1"></a>
-
-{% content-ref url="patches-list.md" %}
-[patches-list.md](patches-list.md)
-{% endcontent-ref %}
 
 ## ✨ Casos de uso <a href="#id-3" id="id-3"></a>
 
@@ -52,15 +42,12 @@ description: Descubre qué es Plazma como plataforma de servidor.
 - **Plataforma que mantiene un rendimiento rápido incluso en servidores de RPG**\
   Ha mantenido de forma estable a 100 jugadores en un único clúster sin caídas de TPS,\
   y hasta 250 jugadores en 4 clústeres pudieron jugar sin problemas.
-- **Plataforma que muestra luz en los chunks/entidades**\
-  Al cambiar de Purpur a Plazma en el servidor de supervivencia donde se producían retrasos en el procesamiento de chunks y entidades,\
-  se pudo reducir la mayoría de los retrasos.
+- **청크/엔티티에서 빛을 보이는 플랫폼**\
+  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을 Purpur에서 Plazma로 변경하며 대부분의 지연을 줄일 수 있었습니다.
 - **Plataforma elegida por muchos streamers**\
   Ha sido elegida como el cubo de participación de los espectadores de muchos streamers.
 
-<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="Tendencia de usuarios de Plazma en tiempo real">
-</a>
+[![실시간 Plazma 사용자 추이](https://badge.plazmamc.org/internal/bstats)](https://bstats.org/plugin/server-implementation/Plazma/18047)
 
 ## ⬇️ Descargar
 
