@@ -2,4 +2,4 @@
 description: Zjistěte, co znamená každý uzel v souboru plazma-global.yml.
 ---
 
-# ✨ Plazma (globální konfigurace)
+# 🌏 전역 구성
