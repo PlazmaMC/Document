@@ -15,19 +15,15 @@ description: Saznajte više o platformi Plazma za poslužitelje.
 
 ## ⚙️ Glavne značajke <a href="#id-2" id="id-2"></a>
 
-1. **Snažan ekosustav dodataka**\
-   [Paper](https://github.com/PaperMC/Paper) temelji se na njemu,
-   Većina [najnovijih dodataka](#user-content-fn-1)[^1] dostupnih na internetu ispravno funkcionira.
-2. **Optimizacija bez potrebe za postavljanjem**\
-   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) sadrži sve zakrpe,
-   Ugrađene su neke vlastite optimizacije i modovi koji pružaju vrhunske performanse.
-3. **Igra prilagođena vašim željama**\
-   [Purpur](https://github.com/PurpurMC/Purpur) koji dolazi s Plazmom omogućuje
-   uređivanje općih svojstava igre.
-4. **Siguran poslužitelj za igranje**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) je uključen kako bi se omogućilo onemogućavanje
-   [Mojang](#user-content-fn-2)[^2]ovog [sustava prijave u chatu](#user-content-fn-3)[^3] dodanog od 1.19,\
-   Sakupljač dijagnostičkih podataka je potpuno uklonjen kako biste mogli igrati na siguran poslužitelj bez praćenja.
+1. **강력한 플러그인 생태계**\
+   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
+2. **설정이 필요 없는 최적화**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
+3. **원하는 대로 사용자화하는 게임**\
+   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며,\
+   진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **Najbrže nadogradnje**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) osigurava da zakrpe uključene u Plazmu uvijek budu ažurirane, pružajući tako najbrže nadogradnje među svim server platformama temeljenim na Paperu.
 6. **Optimizirane osnovne konfiguracijske datoteke**\
@@ -36,12 +32,6 @@ description: Saznajte više o platformi Plazma za poslužitelje.
    Asinkronizirajući sustavski mehanizmi koji nisu povezani s mehanizmima igre smanjuju [vrijeme kašnjenja](#user-content-fn-4)[^4] kako bi optimizirali server.
 8. **Sprječavanje nepotrebnog korištenja prostora**\
    Spaja sve podatke slične vrijednosti u jednu kako bi smanjio korištenje memorije.
-
-#### Želite li saznati više o Plazmi? <a href="#etc-1" id="etc-1"></a>
-
-{% content-ref url="patches-list.md" %}
-[patches-list.md](patches-list.md)
-{% endcontent-ref %}
 
 ## ✨ Primjeri korištenja <a href="#id-3" id="id-3"></a>
 
@@ -52,15 +42,12 @@ description: Saznajte više o platformi Plazma za poslužitelje.
 - **Platforma koja održava brze performanse čak i na RPG poslužitelju**\
   U jednom klasteru održava stabilnih 100 igrača bez pada TPS-a,\
   Na 4 klastera ukupno 250 igrača moglo je ugodno igrati.
-- **Platforma koja pokazuje svjetlost u čunkovima/entitetima**\
-  Promjenom s Purpura na Plazmu za platformu prethodno opterećenog poslužitelja preživljavanja
-  Mogli smo smanjiti većinu kašnjenja.
+- **청크/엔티티에서 빛을 보이는 플랫폼**\
+  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을 Purpur에서 Plazma로 변경하며 대부분의 지연을 줄일 수 있었습니다.
 - **Mnogi streameri su odabrali platformu**\
   Koristi se kao kanta za gledateljsko sudjelovanje mnogih streamera.
 
-<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="Real-time Plazma user trend">
-</a>
+[![실시간 Plazma 사용자 추이](https://badge.plazmamc.org/internal/bstats)](https://bstats.org/plugin/server-implementation/Plazma/18047)
 
 ## ⬇️ Preuzimanje
 
