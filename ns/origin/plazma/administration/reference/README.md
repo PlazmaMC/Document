@@ -2,18 +2,16 @@
 description: Plazma에서 기본 제공하는 사용자화 방법을 알아보세요.
 ---
 
-# ⏬ 리퍼런스
+# 📜 리퍼런스
 
 Plazma에서는 여러 가지 사용자화 방법을 제공하고 있습니다.
 
 그 중, 아래 4가지 방법은 추가적인 작업 없이 바로 사용할 수 있는 사용자화 방법입니다.
 
 {% hint style="info" %}
-
 **설명서를 통해 문제를 해결할 수 없나요?**
 
 [공식 Discord 서버](https://discord.gg/MmfC52K8A8) 또는 [GitHub 토론](https://github.com/PlazmaMC/PlazmaBukkit/discussions)를 통해 커뮤니티에 질문해 보세요!
-
 {% endhint %}
 
 ***
