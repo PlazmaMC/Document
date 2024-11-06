@@ -2,4 +2,4 @@
 description: Find out what each node in purpur.yml means.
 ---
 
-# 🦑 Purpur (Composition of Worlds)
+# 🏳️ 세계별 구성
