@@ -2,18 +2,16 @@
 description: Leer hoe om die standaard aanpasbaarheid met Plazma te gebruik.
 ---
 
-# ⏬ Verwysings
+# 📜 리퍼런스
 
 Plazma bied verskeie aanpasbaarheid metodes aan.
 
 Van hierdie metodes kan jy dadelik gebruik maak sonder enige ekstra werk.
 
 {% hint style="info" %}
-
-**Kan jy nie die probleem oplos deur die handleiding te raadpleeg nie?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Amptelike Discord-bediener](https://discord.gg/MmfC52K8A8) of [GitHub-besprekings](https://github.com/PlazmaMC/PlazmaBukkit/discussions) vir gemeenskapsvrae!
-
 {% endhint %}
 
 ***
