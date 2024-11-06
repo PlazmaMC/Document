@@ -1,1 +1,5 @@
-# 🧾 Rôzne
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
