@@ -2,4 +2,4 @@
 description: Scopri cosa significa ciascun nodo di plazma-world.yml.
 ---
 
-# ✨ Plazma (composizione mondiale)
+# 🏳️ 세계별 구성
