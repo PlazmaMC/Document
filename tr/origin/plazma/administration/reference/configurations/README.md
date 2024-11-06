@@ -2,14 +2,13 @@
 description: Yapılandırma, Plazma'yı özelleştirmenin en temel yoludur.
 ---
 
-# 📋 Yapı
+# 🧾 구성
 
 ***
 
 ## 🪨 Özellik <a href="#id-1" id="id-1"></a>
 
-> Özellik, Minecraft tarafından sağlanan en temel yapı dosyasıdır.
-> Özellikleri kullanarak oyunun temel mekanizmalarını değiştirebilirsiniz.
+> Özellik, Minecraft tarafından sağlanan en temel yapı dosyasıdır. Özellikleri kullanarak oyunun temel mekanizmalarını değiştirebilirsiniz.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Yapılandırma, Plazma'yı özelleştirmenin en temel yoludur.
 
 ## 🪣 Bukkit Yapı <a href="#id-2" id="id-2"></a>
 
-> Bukkit Yapı, Plazma tarafından sağlanan en temel yapı dosyasıdır.
-> Bukkit Yapısını kullanarak Minecraft sunucusunun temel mekanizmalarını değiştirebilirsiniz.
+> Bukkit Yapı, Plazma tarafından sağlanan en temel yapı dosyasıdır. Bukkit Yapısını kullanarak Minecraft sunucusunun temel mekanizmalarını değiştirebilirsiniz.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Yapılandırma, Plazma'yı özelleştirmenin en temel yoludur.
 
 ## 🛩️ Paper Yapı <a href="#id-4" id="id-4"></a>
 
-> Paper Yapı, Plazma'nın genel mekanizmalarını değiştirmenize ve [çeşitli iyileştirmeleri ve güvenlik açıklarını](#user-content-fn-1)[^1] etkinleştirmenize olanak tanır.
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
