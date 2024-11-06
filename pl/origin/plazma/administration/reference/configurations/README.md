@@ -2,14 +2,13 @@
 description: Konfiguracje są podstawowym sposobem dostosowywania Plazmy.
 ---
 
-# 📋 Konfiguracja
+# 🧾 구성
 
 ***
 
 ## 🪨 Atrybut <a href="#id-1" id="id-1"></a>
 
-> Atrybuty to podstawowy plik konfiguracyjny dostarczany przez Minecraft.
-> Dzięki atrybutom można zmieniać podstawowe mechanizmy gry.
+> Atrybuty to podstawowy plik konfiguracyjny dostarczany przez Minecraft. Dzięki atrybutom można zmieniać podstawowe mechanizmy gry.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Konfiguracje są podstawowym sposobem dostosowywania Plazmy.
 
 ## 🪣 Konfiguracja Bukkit <a href="#id-2" id="id-2"></a>
 
-> Konfiguracja Bukkit to podstawowy plik konfiguracyjny dostarczany przez Plazmę.
-> Dzięki konfiguracji Bukkit można zmieniać podstawowe mechanizmy serwera Minecraft.
+> Konfiguracja Bukkit to podstawowy plik konfiguracyjny dostarczany przez Plazmę. Dzięki konfiguracji Bukkit można zmieniać podstawowe mechanizmy serwera Minecraft.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Konfiguracje są podstawowym sposobem dostosowywania Plazmy.
 
 ## 🛩️ Konfiguracja Paper <a href="#id-4" id="id-4"></a>
 
-> Konfiguracja Paper pozwala dostosować ogólne mechanizmy Plazmy oraz aktywować [różne optymalizacje i rozwiązania podatności](#user-content-fn-1)[^1].
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
