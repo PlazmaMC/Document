@@ -14,18 +14,18 @@ Pentru a utiliza și modifica permisiunile în mod eficient, trebuie să folosi�
 
 În Minecraft, sunt furnizate grupuri de permisiuni de administrare de bază.
 
-Puteți seta permisiunile pentru [operatori](#user-content-fn-1)[^1] și blocuri de comandă, acestea putând fi modificate în [configurările serverului](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Jucător**\
+1. **Jucător**\
    Este grupul de permisiuni acordat de obicei tuturor jucătorilor.
-1. **Mediator**\
+2. **Mediator**\
    Poate ignora protecția de spawn.
-2. **Administrator de lume**\
+3. **Administrator de lume**\
    Poate folosi toate comenzile și blocurile de comandă legate de administrarea lumii.\
    Este grupul de permisiuni implicit pentru datapack-uri și blocuri de comandă.
-3. **Administrator**\
+4. **Administrator**\
    Poate folosi toate comenzile legate de administrarea jucătorilor.
-4. **Superadministrator**\
+5. **Superadministrator**\
    Poate folosi toate comenzile, inclusiv cele de administrare a serverului.\
    Este grupul de permisiuni implicit pentru consolă și operatori.
 
@@ -50,9 +50,7 @@ Când călărește o entitate, jucătorul poate controla mișcarea entității c
 În `(Cheia în spațiul de nume)` se introduce [ID-ul în spațiul de nume](#user-content-fn-2)[^2] al entității.
 
 {% hint style="info" %}
-
-**În [configurațiile lume Purpur](configurations/purpur/world.md), funcționează doar dacă `(Entity) > ridable` este activat.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Cheie spațiată)`
@@ -64,11 +62,9 @@ Permite jucătorului să folosească abilitățile speciale ale entității cân
 Nu toate entitățile au abilități speciale disponibile. Consultați lista completă a abilităților speciale disponibile mai jos.
 
 {% hint style="info" %}
-
-**Aveți idei bune pentru abilități speciale?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Vă rugăm să postați ideile pe [Plazma Discord](https://plazmamc.org/discord) sau [Discuțiile GitHub](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Vă rugăm să postați ideile pe [Plazma Discord](https://plazmamc.org/discord)
 </details>
 
 {% hint style="info" %}
-
-**În [configurațiile lume Purpur](configurations/purpur/world.md), funcționează doar dacă `(Entity) > ridable` este activat.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Introducând `.other` după numele permisiunii, permite utilizarea pentru alți 
 Permite utilizarea comenzii [`/timings`](commands.md#timings).
 
 {% hint style="warning" %}
-
-**Această comandă a fost întreruptă.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Pentru a afla despre comenzile similare, consultați [Spark](https://spark.lucko.me/docs/Command-Usage).
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,7 +181,7 @@ Introducând `.other` după numele permisiunii, permite utilizarea pentru alți 
 
 - **Implicit**: `None`
 
-Dacă este activată [Blocarea X-Ray](../expert/xray.md), nu se va cripta blocurile X-Ray pentru jucătorii cu permisiunea înregistrată.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Aceasta va îmbunătăți performanța pentru ambele părți.
 
@@ -204,33 +196,27 @@ Aceasta va îmbunătăți performanța pentru ambele părți.
 - **Implicit**: `None`
 
 {% hint style="warning" %}
-
-Această permisiune va fi schimbată în `plazma.bypass.watchdog` în versiunea 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Implicit**: `None`
 
-Permite utilizarea codurilor de [culoare](https://minecraft.wiki/w/Formatting_codes#Color_codes) pe nicovală.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**În [configurațiile lume Purpur](configurations/purpur/world.md), funcționează doar dacă `anvil > allow-colors` este activat.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Implicit**: `None`
 
-Permite utilizarea codurilor de [stil](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) pe nicovală.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**În [configurațiile lume Purpur](configurations/purpur/world.md), funcționează doar dacă `anvil > allow-colors` este activat.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -240,28 +226,24 @@ Permite utilizarea codurilor de [stil](https://minecraft.wiki/w/Formatting_codes
 Permite utilizarea tagurilor [MiniMessage](https://docs.advntr.dev/minimessage/format.html) pe nicovală.
 
 {% hint style="info" %}
-
-**În [configurațiile lume Purpur](configurations/purpur/world.md), funcționează doar dacă `anvil > allow-minimessages` este activat.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Implicit**: `None`
 
-Permite dezactivarea `înclinării textului` pe nicovală folosind codul de stilare `&r`.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**În [configurațiile lume Purpur](configurations/purpur/world.md), funcționează doar dacă `anvil > allow-colors` este activat.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Implicit**: `None`
 
-Când un jucător semnează o carte, se aplică [codurile de stil](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -284,9 +266,7 @@ Funcționează doar dacă nu are permisiunea pentru acel mod de joc.
 Dacă săpați un bloc de generator cu un element configurat, va elibera blocul generator.
 
 {% hint style="info" %}
-
-**În [configurațiile lume Purpur](configurations/purpur/world.md), funcționează doar dacă `gameplay-mechanics > silk-touch` este activat.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -298,9 +278,7 @@ Schimbă dimensiunea cufărului ender.
 În `(NumberString)` puteți introduce `one`, `two`, `three`, `four`, `five`, `six`.
 
 {% hint style="info" %}
-
-**În [configurațiile lume Purpur](configurations/purpur/world.md), funcționează doar dacă `ender_chest > six-rows` și `ender_chest > use-permissions-for-rows` sunt activate.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -310,9 +288,7 @@ Schimbă dimensiunea cufărului ender.
 Permite funcționarea totemului de nemurire chiar dacă este în inventar.
 
 {% hint style="info" %}
-
-**În [Configurările lumii Purpur](configurations/purpur/world.md) trebuie să activați `totem-of-undying-works-in-inventory` pentru a funcționa.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -328,9 +304,7 @@ Permite jucătorilor să ignore limita de conectare.
 Permite jucătorilor să-și repare obiectele ținând `apăsat Shift` și făcând clic.
 
 {% hint style="info" %}
-
-**În [Configurările lumii Purpur](configurations/purpur/world.md) trebuie să activați `shift-right-click-repairs-mending-points` pentru a funcționa.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -340,9 +314,7 @@ Permite jucătorilor să-și repare obiectele ținând `apăsat Shift` și făc�
 Permite jucătorilor să instaleze spawnere.
 
 {% hint style="info" %}
-
-**În [configurațiile lume Purpur](configurations/purpur/world.md), funcționează doar dacă `gameplay-mechanics > silk-touch` este activat.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -355,12 +327,10 @@ Permite jucătorilor să se teleporteze instantaneu când folosesc portalul Neth
 
 - **Implicit**: `None`
 
-Permite utilizarea [codurilor de culoare](https://minecraft.wiki/w/Formatting_codes#Color_codes) pe panouri.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**În [Configurările lumii Purpur](configurations/purpur/world.md) trebuie să activați `sign > allow-colors` pentru a funcționa.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -370,21 +340,17 @@ Permite utilizarea [codurilor de culoare](https://minecraft.wiki/w/Formatting_co
 Permite utilizarea codului de iluzie `(&o)` pe panouri.
 
 {% hint style="info" %}
-
-**În [Configurările lumii Purpur](configurations/purpur/world.md) trebuie să activați `sign > allow-colors` pentru a funcționa.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Implicit**: `None`
 
-Permite utilizarea [codurilor de stil `(&o exclus)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) pe panouri.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**În [Configurările lumii Purpur](configurations/purpur/world.md) trebuie să activați `sign > allow-colors` pentru a funcționa.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -394,9 +360,7 @@ Permite utilizarea [codurilor de stil `(&o exclus)`](https://minecraft.wiki/w/Fo
 Permite jucătorilor să prevină explozia TNT-ului interacționând cu ea cu foarfeca.
 
 {% hint style="info" %}
-
-**În [Configurările lumii Purpur](configurations/purpur/world.md) `defuse-tnt-change` trebuie să fie mai mare sau egal cu `0.0` pentru a funcționa.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Permisiuni planificate
@@ -408,9 +372,7 @@ Permite jucătorilor să prevină explozia TNT-ului interacționând cu ea cu fo
 Permite jucătorilor să se conecteze fără a avea modul [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) instalat.
 
 {% hint style="info" %}
-
-**În [Configurările lumii Plazma](configurations/plazma/world.md) trebuie să activați `no-chat-reports > require-install` pentru a funcționa.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
