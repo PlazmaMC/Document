@@ -2,18 +2,16 @@
 description: Zistite, ako používať základné možnosti prispôsobenia v Plazme.
 ---
 
-# ⏬ Odkaz
+# 📜 리퍼런스
 
 V Plazme je k dispozícii niekoľko spôsobov prispôsobenia.
 
 Z týchto možností je 4 spôsoby prispôsobenia, ktoré môžete použiť priamo bez ďalších úprav.
 
 {% hint style="info" %}
-
-**Nie je možné vyriešiť problém cez návod?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Oficiálny Discord server](https://discord.gg/MmfC52K8A8) alebo sa obráťte na komunitu cez [GitHub Diskusie](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 ***
