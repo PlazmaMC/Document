@@ -2,18 +2,16 @@
 description: Uurige Plazma poolt pakutavaid vaikimisi kasutajakohandamise meetodeid.
 ---
 
-# ⏬ Viited
+# 📜 리퍼런스
 
 Plazma pakub mitmeid erinevaid kasutajakohandamise meetodeid.
 
 Nendest neljast meetodist saab kasutada kohe ilma täiendavate toiminguteta.
 
 {% hint style="info" %}
-
-**Kas probleemi ei saa lahendada juhendist?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Ametlik Discordi server](https://discord.gg/MmfC52K8A8) või küsige kogukonnalt küsimusi [GitHubi arutelud](https://github.com/PlazmaMC/PlazmaBukkit/discussions) kaudu!
-
 {% endhint %}
 
 ***
