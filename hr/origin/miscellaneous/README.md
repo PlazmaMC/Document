@@ -1,1 +1,5 @@
-# 🧾 Razno
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
