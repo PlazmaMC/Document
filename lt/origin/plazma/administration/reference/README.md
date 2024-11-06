@@ -2,18 +2,16 @@
 description: Sužinokite, kaip naudotis Plazma numatytais vartotojo pritaikymo būdais.
 ---
 
-# ⏬ Nuorodos
+# 📜 리퍼런스
 
 Plazma siūlo įvairius vartotojo pritaikymo būdus.
 
 Iš jų, šie 4 būdai yra vartotojo pritaikymo būdai, kuriuos galima naudoti be papildomo darbo.
 
 {% hint style="info" %}
-
-**Ar negalite išspręsti problemos naudodamiesi instrukcijomis?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Oficialus „Discord“ serveris](https://discord.gg/MmfC52K8A8) arba [„GitHub“ diskusijos](https://github.com/PlazmaMC/PlazmaBukkit/discussions) - užduokite bendruomenei klausimą!
-
 {% endhint %}
 
 ***
