@@ -2,4 +2,4 @@
 description: Sužinokite, kaip išspręsti problemą, kai įskiepis veikia netinkamai.
 ---
 
-# ⏬ Įskiepis
+# 📜 플러그인
