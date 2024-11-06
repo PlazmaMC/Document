@@ -15,19 +15,16 @@ description: Изучите начальные аргументы и систе�
 Системные свойства вводятся перед `-jar` и обрабатываются в JVM до инициализации Plazma.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**При изменении системных свойств может измениться работа Plazma и JVM, что может серьезно повлиять на игру!**
-
-Если вы не уверены, какую роль играют различные системные свойства, **никогда их не используйте!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Использование <a href="#id-1.1" id="id-1.1"></a>
 
 Системные свойства вводятся как Java-аргументы между `java` и `-jar`.
 
-Например, если вы хотите применить системное свойство `Plazma.dummyProperty`,
-введите следующее, чтобы значение `37` было установлено для следующего свойства и Plazma была инициализирована.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -38,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 값을 입력하지 않으면 값이 [`true`로 설정됩니다](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**Платформа серверов серии Paperweight использует точку в названиях свойств для их различения на разных платформах.**
-
-일부 터미널(예: Windows Powershell)에서는 이러한 매개 변수를 허용하지 않을 수 있으므로, 매개 변수 양 끝에 `"`를 [추가해야](#user-content-fn-4)[^4] 합니다.
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Все системные свойства <a href="#id-1.2" id="id-1.2"></a>
@@ -83,11 +78,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 Отключает подтверждение команды `/reload`.
 
 {% hint style="danger" %}
-
-**Команда `/reload` очень нестабильна, поэтому все проблемы, возникающие после использования `/reload`, лежат на пользователе.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Если вы разработчик плагина и вам нужно обновить плагин, используйте горячую замену вместо команды `/reload`.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -132,7 +125,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **Тип**: `Boolean`
 - **По умолчанию**: `False`
 
-플레이어 당 최대 128개의 플러그인 [채널](#user-content-fn-5)[^5] 수 제한을 해제합니다.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -152,14 +145,14 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 #### `Paper.excessiveTELimit`
 
-- **Тип**: `Integer`
+- **형태**: `Integer`
 - **По умолчанию**: `750`
 
 Разбивает сущности на несколько пакетов для передачи, если их количество больше установленного значения.
 
 #### `Paper.filterThreshold`
 
-- **Тип**: `Integer`
+- **형태**: `Integer`
 - **По умолчанию**: `8192`
 
 Устанавливает максимальный размер пакета, который сервер может принять за один раз.
@@ -172,32 +165,30 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 Отключает проверку версии Java.
 
 {% hint style="danger" %}
-
-**Это может позволить JVM пытаться обратиться к несуществующему коду!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 Это может привести к постоянному повреждению файлов мира и краху механики игры.
 
 Все проблемы, возникшие при использовании этого, лежат на вас, и Plamza не предоставит никакой поддержки по этому поводу.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Тип**: `Integer`
+- **형태**: `Integer`
 - **По умолчанию**: `64`
 
-Устанавливает ограничение на имя плагина [канала](#user-content-fn-6)[^6].
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Тип**: `Integer`
+- **형태**: `Integer`
 - **По умолчанию**: `80`
 
 Устанавливает максимальную длину строки на табличке.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Тип**: `Integer`
+- **형태**: `Integer`
 - **По умолчанию**: `(версия мира) + 1`
 
 Устанавливает версию обновления мира, которую нужно предзагрузить.
@@ -213,12 +204,12 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Тип**: `Integer`
+- **형태**: `Integer`
 - **По умолчанию**: `30`
 
 Когда игрок не отправляет данные в течение указанного времени (в секундах), он будет отключен.
 
-보통 게임은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 보내므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않으면 충돌로 간주되어 더 이상 서버에서 플레이어를 처리하지 않고 추방됩니다.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -296,7 +287,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 - **Тип**: `Boolean`
 - **По умолчанию**: `false`
 
-Plazma 초기화 시 표시되는 [경고 메시지](#user-content-fn-11)[^11] 억제합니다.
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -312,19 +303,15 @@ Plazma 초기화 시 표시되는 [경고 메시지](#user-content-fn-11)[^11] �
 - **Конфликт**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**Этот атрибут все еще находится в разработке.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**Этот атрибут отменяет все уязвимости, исправленные в патче!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 Это может серьезно повлиять на безопасность и производительность сервера.
 
 Все проблемы, возникающие при использовании этого атрибута, лежат на администраторе сервера.
-
 {% endhint %}
 
 Передает изначальную настройку в качестве значений, предоставленных Mojang.
@@ -340,14 +327,12 @@ Plazma 초기화 시 표시되는 [경고 메시지](#user-content-fn-11)[^11] �
 - **Конфликт**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**Этот атрибут все еще находится в разработке.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 Устанавливает изначальную настройку ближе к стандартной.
 
-Это применяется в основном так, чтобы не влиять на производительность и безопасность сервера, и при использовании атрибута `Plazma.disableConfigOptimization` настраивает значения на стандартные для Vanilla.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Используемое свойство <a href="#id-1.3" id="id-1.3"></a> остановлено
 
@@ -387,21 +372,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Псевдоним**: `b`
 - **По умолчанию**: `bukkit.yml`
 
-Устанавливает имя и расположение [файла конфигурации Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Псевдоним**: `c`
 - **По умолчанию**: `commands.yml`
 
-Устанавливает имя и расположение [файла конфигурации команд Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Псевдоним**: `c`
 - **По умолчанию**: `server.properties`
 
-Устанавливает имя и расположение [файла свойств сервера](../reference/configurations/property.md).
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -413,7 +398,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 #### `forceUpgrade`
 
-Принудительно [обновляет](#user-content-fn-12)[^12] мир, игнорируя версию.
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -434,7 +419,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Псевдонимы**: `s`, `size`
 - **По умолчанию**: `(свойства сервера)`
 
-Устанавливает максимальное количество [игроков](#user-content-fn-14)[^14].
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -451,7 +436,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 Выберите, следует ли проверять игроков на Mojang-сервере аутентификации.
 
-**При использовании не Velocity или другого прокси [EULA](../getting-started/README.md#id-5) может быть нарушена.**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -459,9 +444,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **По умолчанию**: `paper.yml`
 
 {% hint style="warning" %}
-
-**Этот аргумент был прекращен с версии 1.19.4**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 Устанавливает местоположение отключенного файла конфигурации PaperSpigot.
@@ -473,13 +456,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Псевдоним**: `paper-dir`
 - **По умолчанию**: `config`
 
-Устанавливает имя и расположение папки, где находятся [файлы конфигурации Paper](../reference/configurations/paper/README.md).
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **Псевдоним**: `plazma-dir`
 
-Устанавливает имя и расположение папки, где находятся [файлы конфигурации Plazma](../reference/configurations/plazma/README.md).
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -493,14 +476,14 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Псевдоним**: `pufferfish`
 - **По умолчанию**: `pufferfish.yml`
 
-Устанавливает имя и расположение [файла конфигурации Pufferfish](../reference/configurations/pufferfish.md).
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **Псевдоним**: `purpur`
 - **По умолчанию**: `purpur.yml`
 
-Устанавливает имя и расположение [файла конфигурации Purpur](../reference/configurations/purpur/README.md).
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -511,7 +494,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Псевдонимы**: `h`, `host`
 - **По умолчанию**: `(свойства сервера)`
 
-Устанавливает имя хоста сервера или [адрес протокола интернета](#user-content-fn-13)[^13].
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -531,7 +514,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Псевдоним**: `S`
 - **По умолчанию**: `spigot.yml`
 
-Устанавливает имя и расположение [файла конфигурации Spigot](../reference/configurations/spigot.md).
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -579,6 +562,6 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 [^12]: В игре `Мировая оптимизация` также работает по тому же принципу.
 
-[^13]: Протокол интернета, IP.
+[^13]: Администраторы уровня 2 и выше исключаются.
 
-[^14]: Администраторы уровня 2 и выше исключаются.
+[^14]: Протокол интернета, IP.
