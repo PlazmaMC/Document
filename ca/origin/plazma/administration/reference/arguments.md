@@ -15,18 +15,16 @@ Els arguments d'inici i les propietats del sistema són valors afegits a l'[ordr
 Les propietats del sistema es col·loquen davant de `-jar` i es processen pel JVM abans que Plazma s'inicialitzi.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**La modificació de les propietats del sistema pot alterar el funcionament de Plazma i JVM i pot tenir un gran impacte en el joc!**
-
-Si no esteu segurs del paper de cada propietat del sistema, **mai l'utilitzeu!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Ús <a href="#id-1.1" id="id-1.1"></a>
 
 Les propietats del sistema s'introdueixen com a arguments de comandament de Java entre `java` i `-jar`.
 
-Per exemple, si voleu aplicar la propietat de sistema `Plazma.dummyProperty`, introduint el següent, el valor `37` s'assignarà a la següent propietat i Plazma s'inicialitzarà.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -37,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 Si no s'introdueix cap valor als paràmetres, el valor es fixa a [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**La plataforma del servidor de la sèrie Paperweight inclou un punt `.` al nom de cada propietat per diferenciar les propietats de cada plataforma.**
-
-En algunes terminals com ara Windows Powershell, pot ser que no s'acceptin aquests paràmetres, així que cal afegir `"` al principi i al final dels paràmetres [com a mesura de precaució](#user-content-fn-4)[^4].
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Totes les propietats del sistema <a href="#id-1.2" id="id-1.2"></a>
@@ -82,11 +78,9 @@ Deshabilita el sistema d'advertències Watchdog de Spigot.
 Deshabilita el missatge de confirmació del comandament `/reload`.
 
 {% hint style="danger" %}
-
-**La comanda `/reload` és molt inestable, per tant, qualsevol problema que es produeixi al servidor després d'utilitzar `/reload` serà responsabilitat de l'usuari.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Si ets un desenvolupador de plugins i necessites actualitzar un plugin, utilitza l'hotswap en lloc de `/reload`.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -131,7 +125,7 @@ Això registra tots els blocs de crani incorrectes al món amb les seves coorden
 - **Tipus**: `Boolean`
 - **Valor per defecte**: `Fals`
 
-Desactiva la limitació de 128 canals de plugins aplicats per jugador.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -151,14 +145,14 @@ Deshabilita la consolidació de Netty flush.
 
 #### `Paper.excessiveTELimit`
 
-- **Tipus**: `Enter`
+- **형태**: `Integer`
 - **Valor per defecte**: `750`
 
 Divideix l'enviament d'entitats en paquets múltiples si supera el valor establert.
 
 #### `Paper.filterThreshold`
 
-- **Tipus**: `Enter`
+- **형태**: `Integer`
 - **Valor per defecte**: `8192`
 
 Estableix la mida màxima del paquet que el servidor pot rebre a la vegada.
@@ -171,32 +165,30 @@ Estableix la mida màxima del paquet que el servidor pot rebre a la vegada.
 Deshabilita la comprovació de la versió de Java.
 
 {% hint style="danger" %}
-
-**Això pot provocar que JVM intenti accedir a codi inexistent!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 Això pot causar danys permanents als arxius del món i provocar un mal funcionament general del joc.
 
 L'usuari assumeix tota la responsabilitat dels problemes que puguin sorgir i Plamza no oferirà cap suport en aquest cas.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Tipus**: `Enter`
+- **형태**: `Integer`
 - **Valor per defecte**: `64`
 
-Estableix una restricció al nom del canal del connector[^6].
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Tipus**: `Enter`
+- **형태**: `Integer`
 - **Valor per defecte**: `80`
 
 Estableix la longitud màxima de caràcters per línia en els rètols.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Tipus**: `Enter`
+- **형태**: `Integer`
 - **Valor per defecte**: `(versió del món) + 1`
 
 Estableix la versió de la informació de l'actualització del món que es carregarà primer.
@@ -212,12 +204,12 @@ Activa el tractament dels comentaris YAML per defecte.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Tipus**: `Enter`
+- **형태**: `Integer`
 - **Valor per defecte**: `30`
 
 Quan un jugador no envia cap dada durant el temps especificat (en segons), es desconnecta.
 
-Normalment, el [joc](#user-content-fn-7)[^7] envia de manera constant senyals de [latitut](#user-content-fn-8)[^8] al servidor, pel que no s'expulsa cap jugador, però si el joc no respon es considera que ha col·lisionat i ja no es processa el jugador al servidor, expulsant-lo.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -295,7 +287,7 @@ Això fa servir la configuració bàsica de Paper.
 - **Tipus**: `Boolean`
 - **Valor per defecte**: `fals`
 
-Inhibeix els [avisos](#user-content-fn-11)[^11] que es mostren quan s'inicialitza Plazma.
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -311,19 +303,15 @@ Desactiva la marca Plazma i fa servir el favicon del servidor com a valor predet
 - **Conflicte**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**Aquesta propietat encara està en desenvolupament.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**Aquesta propietat desfà totes les vulnerabilitats corregides en el patch!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 Això pot tenir un gran impacte en la seguretat i el rendiment del servidor.
 
 Totes les qüestions que es produeixin amb aquesta propietat són responsabilitat de l'administrador del servidor.
-
 {% endhint %}
 
 Fornir la configuració inicial amb els valors predeterminats de Mojang.
@@ -339,14 +327,12 @@ Les correccions de vulnerabilitats es poden tornar a activar en la configuració
 - **Conflicte**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**Aquesta propietat encara està en desenvolupament.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 Configura la configuració inicial per ser més semblant a la vainilla.
 
-Això s'aplica només fins a un punt en què no afecta en gran mesura el rendiment i la seguretat del servidor, i si s'utilitza la propietat `Plazma.disableConfigOptimization`, s'estableix la configuració predeterminada de vainilla.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Propietat obsoleta <a href="#id-1.3" id="id-1.3"></a>
 
@@ -386,21 +372,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Àlies**: `b`
 - **Valor per defecte**: `bukkit.yml`
 
-Configura el nom i la ubicació del [fitxer de configuració de Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Àlies**: `c`
 - **Valor per defecte**: `commands.yml`
 
-Configura el nom i la ubicació del [fitxer de configuració de comandes de Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Àlies**: `c`
 - **Valor per defecte**: `server.properties`
 
-Configura el nom i la ubicació del fitxer de [proprietats del servidor](../reference/configurations/property.md).
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -412,7 +398,7 @@ Elimina els fitxers de memòria cau restants després d'actualitzar el món.
 
 #### `forceUpgrade`
 
-Actualitza el món a la [versió més recent](#user-content-fn-12)[^12] ignorant la versió actual.
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -433,7 +419,7 @@ Activa el perfilatge JFR.
 - **Àlies**: `s`, `size`
 - **Valor per defecte**: `(proprietats del servidor)`
 
-Configura el nombre màxim de [jugadors](#user-content-fn-14)[^14] permesos.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -450,7 +436,7 @@ Desactiva JLine i utilitza la consola de vanil·la.
 
 Selecciona si es validen els jugadors amb el servidor d'autenticació de Mojang.
 
-**En cas de no utilitzar Velocity o un servidor intermediari, es poden imposar sancions per incomplir l'[EULA](../getting-started/README.md#id-5).**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -458,9 +444,7 @@ Selecciona si es validen els jugadors amb el servidor d'autenticació de Mojang.
 - **Valor per defecte**: `paper.yml`
 
 {% hint style="warning" %}
-
-**Aquest argument s'ha deixat de utilitzar des de la versió 1.19.4**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 Configura la ubicació del fitxer de configuració de PaperSpigot obsolet.
@@ -472,13 +456,13 @@ S'utilitza per traslladar la configuració antiga a un nou fitxer de configuraci
 - **Àlies**: `paper-dir`
 - **Valor per defecte**: `config`
 
-Configura el nom i la ubicació de la carpeta on es troba el [fitxer de configuració de Paper](../reference/configurations/paper/README.md).
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **Àlies**: `plazma-dir`
 
-Configura el nom i la ubicació de la carpeta on es troba el [fitxer de configuració de Plazma](../reference/configurations/plazma/README.md).
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -492,14 +476,14 @@ Configura la ubicació de la carpeta de plugins.
 - **Àlies**: `pufferfish`
 - **Valor per defecte**: `pufferfish.yml`
 
-Configura el nom i la ubicació del [fitxer de configuració de Pufferfish](../reference/configurations/pufferfish.md).
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **Àlies**: `purpur`
 - **Valor per defecte**: `purpur.yml`
 
-Configura el nom i la ubicació del [fitxer de configuració de Purpur](../reference/configurations/purpur/README.md).
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -510,7 +494,7 @@ Inicia el servidor en mode segur, com si fos vanil·la.
 - **Àlies**: `h`, `host`
 - **Valor per defecte**: `(proprietats del servidor)`
 
-Configura el nom de l'amfitrió del servidor o l'adreça [IP](#user-content-fn-13)[^13].
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -530,7 +514,7 @@ Configura el nom del servidor.
 - **Àlies**: `S`
 - **Valor per defecte**: `spigot.yml`
 
-Configura el nom i la ubicació del [fitxer de configuració de Spigot](../reference/configurations/spigot.md).
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -578,6 +562,6 @@ Configura el nom del fitxer del món.
 
 [^12]: Aquesta optimització de món al joc també funciona amb aquest mateix principi.
 
-[^13]: Protocol d'Internet, IP.
+[^13]: Els administradors de nivell 2 o superior estan exclosos.
 
-[^14]: Els administradors de nivell 2 o superior estan exclosos.
+[^14]: Protocol d'Internet, IP.
