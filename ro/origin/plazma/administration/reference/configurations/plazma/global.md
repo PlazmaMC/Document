@@ -2,4 +2,4 @@
 description: Aflați ce înseamnă fiecare nod din plazma-global.yml.
 ---
 
-# ✨ Plazma (Configurație globală)
+# 🌏 전역 구성
