@@ -2,14 +2,13 @@
 description: Le configurazioni sono il modo più basilare per personalizzare Plazma.
 ---
 
-# 📋 Configurazione
+# 🧾 구성
 
 ***
 
 ## 🪨 Proprietà <a href="#id-1" id="id-1"></a>
 
-> Le proprietà sono i file di configurazione più basilari forniti da Minecraft.
-> Utilizzando le proprietà è possibile modificare i meccanismi di base del gioco.
+> Le proprietà sono i file di configurazione più basilari forniti da Minecraft. Utilizzando le proprietà è possibile modificare i meccanismi di base del gioco.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Le configurazioni sono il modo più basilare per personalizzare Pla
 
 ## 🪣 Configurazione di Bukkit <a href="#id-2" id="id-2"></a>
 
-> La configurazione di Bukkit è il file di configurazione più basilare fornito da Plazma.
-> Utilizzando la configurazione di Bukkit è possibile modificare i meccanismi di base del server Minecraft.
+> La configurazione di Bukkit è il file di configurazione più basilare fornito da Plazma. Utilizzando la configurazione di Bukkit è possibile modificare i meccanismi di base del server Minecraft.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Le configurazioni sono il modo più basilare per personalizzare Pla
 
 ## 🛩️ Configurazione di Paper <a href="#id-4" id="id-4"></a>
 
-> La configurazione di Paper permette di modificare i meccanismi generali di Plazma e attivare varie ottimizzazioni e risoluzioni di vulnerabilità.
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
