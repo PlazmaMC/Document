@@ -2,14 +2,13 @@
 description: Konfigūracija yra pagrindinis būdas pritaikyti Plazmą.
 ---
 
-# 📋 Sudėtis
+# 🧾 구성
 
 ***
 
 ## 🪨 Savybės <a href="#id-1" id="id-1"></a>
 
-> Savybės yra pagrindinis Minecraft teikiamas konfigūracijos failas.
-> Naudodami savybes galite pakeisti žaidimo pagrindinius mechanizmus.
+> Savybės yra pagrindinis Minecraft teikiamas konfigūracijos failas. Naudodami savybes galite pakeisti žaidimo pagrindinius mechanizmus.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Konfigūracija yra pagrindinis būdas pritaikyti Plazmą.
 
 ## 🪣 Bukkit konfigūracija <a href="#id-2" id="id-2"></a>
 
-> Bukkit konfigūracija yra pagrindinis Plazma teikiamas konfigūracijos failas.
-> Naudodami Bukkit konfigūraciją galite pakeisti Minecraft serverio pagrindinius mechanizmus.
+> Bukkit konfigūracija yra pagrindinis Plazma teikiamas konfigūracijos failas. Naudodami Bukkit konfigūraciją galite pakeisti Minecraft serverio pagrindinius mechanizmus.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Konfigūracija yra pagrindinis būdas pritaikyti Plazmą.
 
 ## 🛩️ Paper konfigūracija <a href="#id-4" id="id-4"></a>
 
-> Paper konfigūracija leidžia keisti Plazmos bendrą mechanizmą ir aktyvuoti [įvairias optimizacijas ir pažeidžiamumų taisymus](#user-content-fn-1)[^1].
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
