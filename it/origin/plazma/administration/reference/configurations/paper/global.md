@@ -2,4 +2,4 @@
 description: Scopri cosa significa ciascun nodo di paper-global.yml.
 ---
 
-# 🛩️ Paper (Configurazione globale)
+# 🌏 전역 구성
