@@ -2,18 +2,16 @@
 description: Ontdek de standaard aanpasmethoden die Plazma biedt.
 ---
 
-# ⏬ Referentie
+# 📜 리퍼런스
 
 Plazma biedt verschillende aanpasmethoden.
 
 Onder deze methoden zijn er 4 die direct kunnen worden gebruikt zonder extra werk.
 
 {% hint style="info" %}
-
-**Kan het probleem niet worden opgelost via de handleiding?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 Stel je vragen aan de community via de [officiële Discord-server](https://discord.gg/MmfC52K8A8) of [GitHub-discussies](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 ***
