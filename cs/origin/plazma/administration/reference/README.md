@@ -2,18 +2,16 @@
 description: Zjistěte, jak používat základní metody personalizace v Plazma.
 ---
 
-# ⏬ Odkaz na referenci
+# 📜 리퍼런스
 
 V Plazma je k dispozici několik metod personalizace.
 
 Z nichž některé jsou metody personalizace, které lze použít okamžitě bez dalších úprav.
 
 {% hint style="info" %}
-
-**Nemůžete vyřešit problém pomocí nápovědy?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Oficiální Discord server](https://discord.gg/MmfC52K8A8) nebo [GitHub Diskuze](https://github.com/PlazmaMC/PlazmaBukkit/discussions) se obraťte na komunitu se svými dotazy!
-
 {% endhint %}
 
 ***
