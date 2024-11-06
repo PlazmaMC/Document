@@ -14,18 +14,18 @@ Pro správné využití oprávnění a snadnou úpravu je třeba použít plugin
 
 V Minecraftu jsou poskytovány základní správcovské skupiny oprávnění.
 
-Můžete nastavit oprávnění pro [administrátory](#user-content-fn-1)[^1] a příkazové bloky, které lze upravit v [vlastnostech serveru](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Hráč**\
+1. **Hráč**\
    Obecná skupina oprávnění, která je obvykle udělena všem hráčům.
-1. **Prostředník**\
+2. **Prostředník**\
    Může ignorovat ochranu spawnu.
-2. **Správce světa**\
+3. **Správce světa**\
    Může používat všechny příkazy a příkazové bloky související se správou světa.\
    Je to základní skupina oprávnění, která se vztahuje na datové balíčky a příkazové bloky.
-3. **Administrátor**\
+4. **Administrátor**\
    Může používat všechny příkazy související s řízením hráčů.
-4. **Hlavní správce**\
+5. **Hlavní správce**\
    Může používat všechny příkazy související se správou serveru.\
    Je to základní skupina oprávnění, která se vztahuje na konzoli a administrátory.
 
@@ -50,9 +50,7 @@ Pokud nastoupíte na entitu, můžete pomocí `kláves pro pohyb` ovládat pohyb
 Do `(Namespaced Key)` se zadává [Namespaced ID](#user-content-fn-2)[^2] entity.
 
 {% hint style="info" %}
-
-**V případě aktivace `(Entity) > ridable` v [konfiguracích Purpur světa](configurations/purpur/world.md) funguje pouze.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ Umožňuje hráči používat speciální schopnosti entity, když na ní jezdí
 Ne všechny entity mají dostupné speciální schopnosti. Pro seznam všech dostupných speciálních schopností se podívejte níže.
 
 {% hint style="info" %}
-
-**Máte nápad na speciální schopnost?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Své nápady můžete sdílet na [Plazma Discordu](https://plazmamc.org/discord) nebo [GitHub Diskuzích](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Své nápady můžete sdílet na [Plazma Discordu](https://plazmamc.org/discord)
 </details>
 
 {% hint style="info" %}
-
-**V případě aktivace `(Entity) > ridable` v [konfiguracích Purpur světa](configurations/purpur/world.md) funguje pouze.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Pokud za oprávněním následuje `.other`, umožňuje použití jinému hráči
 Umožňuje použití příkazu [`/timings`](commands.md#timings).
 
 {% hint style="warning" %}
-
-**Tento příkaz byl zrušen.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Pro informace o podobných příkazech se podívejte na [Spark](https://spark.lucko.me/docs/Command-Usage).
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,7 +181,7 @@ Pokud za oprávněním následuje `.other`, umožňuje použití jinému hráči
 
 - **Výchozí**: `None`
 
-Pokud je aktivováno [blokování X-Ray](../expert/xray.md), neprovádí se zamaskování bloků pro hráče s oprávněním.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Tímto způsobem mohou obě strany zažít zlepšení výkonu.
 
@@ -204,33 +196,27 @@ Tímto způsobem mohou obě strany zažít zlepšení výkonu.
 - **Výchozí**: `None`
 
 {% hint style="warning" %}
-
-Toto oprávnění se změní na `plazma.bypass.watchdog` ve verzi 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Výchozí**: `None`
 
-Umožňuje používat [barevné kódy](https://minecraft.wiki/w/Formatting_codes#Color_codes) na kovadlech.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) musí být aktivováno `anvil > allow-colors`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Výchozí**: `None`
 
-Umožňuje používat [stylizační kódy](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) na kovadlech.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) musí být aktivováno `anvil > allow-colors`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -240,28 +226,24 @@ Umožňuje používat [stylizační kódy](https://minecraft.wiki/w/Formatting_c
 Umožňuje používat [MiniMessage značky](https://docs.advntr.dev/minimessage/format.html) na kovadlech.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) musí být aktivováno `anvil > allow-minimessages`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Výchozí**: `None`
 
-Umožňuje deaktivovat `kurzivu` pomocí [`&r` stylizačního kódu](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) na kovadlech.
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) musí být aktivováno `anvil > allow-colors`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Výchozí**: `None`
 
-Při podpisu knihy se aplikují [stylizační kódy](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -284,9 +266,7 @@ Pokud hráč nemá oprávnění pro tento herní režim, nebude fungovat.
 Při těžbě spawnovacího bloku s nastaveným předmětem se spawnovací blok zahodí.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) musí být aktivováno `gameplay-mechanics > silk-touch`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -298,9 +278,7 @@ Změní velikost Ender truhly.
 Do `(NumberString)` lze zadat `one`, `two`, `three`, `four`, `five`, `six`.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) musí být aktivováno `ender_chest > six-rows` a `ender_chest > use-permissions-for-rows`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -310,9 +288,7 @@ Do `(NumberString)` lze zadat `one`, `two`, `three`, `four`, `five`, `six`.
 Umožňuje fungování Totemu nesmrtelnosti i když je v inventáři.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) je třeba aktivovat `totem-of-undying-works-in-inventory`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -328,9 +304,7 @@ Umožňuje hráčům ignorovat omezení na maximální počet připojených hrá
 Umožňuje hráčům opravit položku, kterou drží, když se `skloní a kliknou`.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) je třeba aktivovat `shift-right-click-repairs-mending-points`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -340,9 +314,7 @@ Umožňuje hráčům opravit položku, kterou drží, když se `skloní a klikno
 Umožňuje hráčům umístit spawnery.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) musí být aktivováno `gameplay-mechanics > silk-touch`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -355,12 +327,10 @@ Umožňuje hráčům okamžitě se přemístit, když použijí Nether portál.
 
 - **Výchozí**: `None`
 
-Umožňuje používat [barevné kódy](https://minecraft.wiki/w/Formatting_codes#Color_codes) na cedulích.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) je třeba aktivovat `sign > allow-colors`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -370,21 +340,17 @@ Umožňuje používat [barevné kódy](https://minecraft.wiki/w/Formatting_codes
 Umožňuje používat kouzelné kódy `(&o)` na cedulích.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) je třeba aktivovat `sign > allow-colors`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Výchozí**: `None`
 
-Umožňuje používat [stylové kódy `(&o vyloučeno)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) na cedulích.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) je třeba aktivovat `sign > allow-colors`, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -394,9 +360,7 @@ Umožňuje používat [stylové kódy `(&o vyloučeno)`](https://minecraft.wiki/
 Umožňuje hráčům zabránit výbuchu TNT interakcí s ním pomocí nůžek.
 
 {% hint style="info" %}
-
-**V [konfiguracích Purpur světa](configurations/purpur/world.md) je třeba mít `defuse-tnt-change` nastaveno na `0.0` nebo vyšší, aby fungovalo.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Plánovaná oprávnění
@@ -408,9 +372,7 @@ Umožňuje hráčům zabránit výbuchu TNT interakcí s ním pomocí nůžek.
 Umožňuje hráčům připojit se i bez nainstalovaného módu [`NoChatReports`](https://modrinth.com/mod/no-chat-reports).
 
 {% hint style="info" %}
-
-**V [konfiguracích Plazma světa](configurations/plazma/world.md) je třeba aktivovat `no-chat-reports > require-install`, aby fungovalo.**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
