@@ -14,18 +14,18 @@ För att använda och enkelt redigera behörigheter bör du använda tillägg so
 
 I Minecraft finns det grundläggande administrativa behörighetsgrupper tillgängliga.
 
-Det är möjligt att ställa in behörigheter för [operatörer](#user-content-fn-1)[^1] och kommandoblock samt att redigera dem i [serveregenskaper](configurations/property.md).
+운영자[^1] 및 명령 블록의 권한을 설정할 수 있으며, [서버 속성](configurations/property.md)에서 수정할 수 있습니다.
 
-0. **Spelare**\
+1. **Spelare**\
    En behörighetsgrupp som vanligtvis tilldelas alla spelare.
-1. **Medlare**\
+2. **Medlare**\
    Kan ignorera spawnskydd.
-2. **Världsadministratör**\
+3. **Världsadministratör**\
    Har åtkomst till alla kommandon och kommandoblock som är relaterade till världshantering.\
    Detta är den grundläggande behörighetsgruppen för datapaket och kommandoblock.
-3. **Administratör**\
+4. **Administratör**\
    Har åtkomst till alla kommandon som är relaterade till spelarhantering.
-4. **Superadministratör**\
+5. **Superadministratör**\
    Har åtkomst till alla kommandon, inklusive serverhantering.\
    Detta är den grundläggande behörighetsgruppen för konsol och operatörer.
 
@@ -50,9 +50,7 @@ När man rider enheten kan spelaren använda rörelsetangenterna för att styra 
 `(Namespaced Key)` är enhetens [Namespaced ID](#user-content-fn-2)[^2].
 
 {% hint style="info" %}
-
-**Funktioner endast om `(Entity) > ridable` är aktiverat i [Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `allow.special.(Namespaced Key)`
@@ -64,11 +62,9 @@ Tillåter spelaren att använda enhetens speciella färdigheter medan de rider e
 Inte alla enheter har tillgång till speciella färdigheter. Se nedan för en lista över alla tillgängliga speciella färdigheter.
 
 {% hint style="info" %}
-
-**Har du bra idéer för speciella färdigheter?**
+**특수 기술에 대한 좋은 아이디어가 있나요?**
 
 Vänligen dela dina idéer på [Plazma Discord](https://plazmamc.org/discord) eller [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
-
 {% endhint %}
 
 <details>
@@ -88,9 +84,7 @@ Vänligen dela dina idéer på [Plazma Discord](https://plazmamc.org/discord) el
 </details>
 
 {% hint style="info" %}
-
-**Funktioner endast om `(Entity) > ridable` är aktiverat i [Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `(Entity) > ridable`을 활성화 한 경우에만 작동합니다.**
 {% endhint %}
 
 #### `bukkit.command.compass`
@@ -164,11 +158,9 @@ Lägg till `.other` efter behörighetsnamnet för att tillåta andra spelare att
 Tillåter användning av [`/timings` kommandot](commands.md#timings).
 
 {% hint style="warning" %}
-
-**Detta kommando har avslutats.**
+**해당 명령어는 사용이 중단되었습니다.**
 
 Kolla in [Spark](https://spark.lucko.me/docs/Command-Usage) för liknande funktioner.
-
 {% endhint %}
 
 #### `bukkit.command.uptime`
@@ -189,8 +181,7 @@ Lägg till `.other` efter behörighetsnamnet för att tillåta andra spelare att
 
 - **Standard**: `Inget`
 
-Om [X-Ray blockering](../expert/xray.md) är aktiverad,
-så kommer behörighetsregistrerade spelare inte att underkastas blockering av block X-Ray.
+[X-Ray 차단](../expert/xray.md)이 활성화 되어 있는 경우, 권한이 등록된 플레이어에게는 X-Ray 차단용 블록 난독화를 진행하지 않습니다.
 
 Detta ger fördelar för båda sidor genom att förbättra prestandan.
 
@@ -205,33 +196,27 @@ Detta ger fördelar för båda sidor genom att förbättra prestandan.
 - **Standard**: `Inget`
 
 {% hint style="warning" %}
-
-Denna behörighet kommer att bytas till `plazma.bypass.watchdog` i version 1.20.5.
-
+해당 권한은 1.20.5에서 `plazma.bypass.watchdog` 으로 변경될 예정입니다.
 {% endhint %}
 
 #### `purpur.anvil.color`
 
 - **Standard**: `Inget`
 
-Tillåter användning av [färgkoder](https://minecraft.wiki/w/Formatting_codes#Color_codes) på städ.
+모루에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Funktionen fungerar endast om `anvil > allow-colors` är aktiverat i [Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.format`
 
 - **Standard**: `Inget`
 
-Tillåter användning av [formateringskoder](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) på städ.
+모루에 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)을 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Funktionen fungerar endast om `anvil > allow-colors` är aktiverat i [Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.minimessage`
@@ -241,28 +226,24 @@ Tillåter användning av [formateringskoder](https://minecraft.wiki/w/Formatting
 Tillåter användning av [MiniMessage taggar](https://docs.advntr.dev/minimessage/format.html) på städ.
 
 {% hint style="info" %}
-
-**Funktionen fungerar endast om `anvil > allow-minimessages` är aktiverat i [Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-minimessages`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.anvil.remove_italics`
 
 - **Standard**: `Inget`
 
-Tillåter att inaktivera `kursiv stil` på städ med stylen `&r` från [formateringskoder](https://minecraft.wiki/w/Formatting_codes#Formatting_codes).
+모루에 [`&r` 스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)로 `글자 기울임`을 비활성화 할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-**Funktionen fungerar endast om `anvil > allow-colors` är aktiverat i [Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `anvil > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.book.color.sign`
 
 - **Standard**: `Inget`
 
-Tillåter att tillämpa [formateringskoder](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) när spelaren signerar en bok.
+플레이어가 책을 서명하면 [스타일링 코드](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)가 적용되도록 합니다.
 
 #### `purpur.bypassIdleKick`
 
@@ -285,9 +266,7 @@ Funktionen fungerar endast om spelaren har behörigheten för det specifika spel
 Om spelaren bryter en spawnerblock med det konfigurerade verktyget kommer spawnerblocket att släppas.
 
 {% hint style="info" %}
-
-**Funktionen fungerar endast om `gameplay-mechanics > silk-touch` är aktiverat i [Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.enderchest.rows.(NumberString)`
@@ -299,9 +278,7 @@ Om spelaren bryter en spawnerblock med det konfigurerade verktyget kommer spawne
 `(NumberString)` kan vara `one`, `two`, `three`, `four`, `five`, `six`.
 
 {% hint style="info" %}
-
-**Funktionen fungerar endast om `ender_chest > six-rows` och `ender_chest > use-permissions-for-rows` är aktiverat i [Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `ender_chest > six-rows` 및 `ender_chest > use-permissions-for-rows`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.inventory_totem`
@@ -311,9 +288,7 @@ Om spelaren bryter en spawnerblock med det konfigurerade verktyget kommer spawne
 Tillåter att det odödliga totemet fungerar även om det finns i inventariot.
 
 {% hint style="info" %}
-
-**Funktionen fungerar endast om `totem-of-undying-works-in-inventory` är aktiverat i [Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `totem-of-undying-works-in-inventory`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.joinFullServer`
@@ -329,9 +304,7 @@ Tillåt spelaren att ignorera begränsningen för antalet anslutningar.
 Tillåt spelaren att reparera det hållna föremålet genom att `shift-klicka` interagera.
 
 {% hint style="info" %}
-
-**För att aktivera `shift-right-click-repairs-mending-points` i **[Purpur World Configurations](configurations/purpur/world.md)**.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `shift-right-click-repairs-mending-points`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.place.spawners`
@@ -341,9 +314,7 @@ Tillåt spelaren att reparera det hållna föremålet genom att `shift-klicka` i
 Tillåt spelaren att placera spawner.
 
 {% hint style="info" %}
-
-**Funktionen fungerar endast om `gameplay-mechanics > silk-touch` är aktiverat i [Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `gameplay-mechanics > silk-touch`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.portal.instant`
@@ -356,12 +327,10 @@ Låt spelaren teleportera direkt när de använder Nether Portal.
 
 - **Standard**: `Inget`
 
-Tillåter användning av [färgkoder](https://minecraft.wiki/w/Formatting_codes#Color_codes) på skyltar.
+표지판에 [색 코드](https://minecraft.wiki/w/Formatting\_codes#Color\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-\*\*För att det ska fungera måste `sign > allow-colors` aktiveras i **[Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.magic`
@@ -371,21 +340,17 @@ Tillåter användning av [färgkoder](https://minecraft.wiki/w/Formatting_codes#
 Tillåt användning av obfuscation-kod `(&o)` på skyltar.
 
 {% hint style="info" %}
-
-\*\*För att det ska fungera måste `sign > allow-colors` aktiveras i **[Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.sign.style`
 
 - **Standard**: `Inget`
 
-Tillåt användning av [formateringskoder `(&o exkluderat)`](https://minecraft.wiki/w/Formatting_codes#Formatting_codes) på skyltar.
+표지판에 [스타일링 코드 `(&o 제외)`](https://minecraft.wiki/w/Formatting\_codes#Formatting\_codes)를 사용할 수 있도록 허용합니다.
 
 {% hint style="info" %}
-
-\*\*För att det ska fungera måste `sign > allow-colors` aktiveras i **[Purpur världskonfigurationen](configurations/purpur/world.md).**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `sign > allow-colors`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 #### `purpur.tnt.defuse`
@@ -395,9 +360,7 @@ Tillåt användning av [formateringskoder `(&o exkluderat)`](https://minecraft.w
 Tillåt spelare att med `interaktion` med sax förhindra TNT-explosioner.
 
 {% hint style="info" %}
-
-**För att fungera måste `defuse-tnt-change` i [Purpur world configuration](configurations/purpur/world.md) vara `0.0` eller högre.**
-
+[**Purpur 세계별 구성**](configurations/purpur/world.md)**에서 `defuse-tnt-change`가 `0.0` 이상이어야 작동합니다.**
 {% endhint %}
 
 ### Planerad behörighet
@@ -409,9 +372,7 @@ Tillåt spelare att med `interaktion` med sax förhindra TNT-explosioner.
 Tillåt spelare att ansluta även om de inte har modet [`NoChatReports`](https://modrinth.com/mod/no-chat-reports) installerat.
 
 {% hint style="info" %}
-
-**För att fungera måste `no-chat-reports > require-install` vara aktiverat i [Plazma world configuration](configurations/plazma/world.md).**
-
+[**Plazma 세계별 구성**](configurations/plazma/world.md)**에서 `no-chat-reports > require-install`를 활성화 해야 작동합니다.**
 {% endhint %}
 
 ***
