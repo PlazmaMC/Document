@@ -15,19 +15,15 @@ description: Cwinywa ki woko ki Plazma.
 
 ## ⚙️ Kube ki kwo tic <a href="#id-2" id="id-2"></a>
 
-1. **Purugat giketo ki pwonyo**\
-   [Paper](https://github.com/PaperMC/Paper) kiketo ki giketo ma gikwero,
-   internet ma kiyubo [kiketo me giteregi](#user-content-fn-1)[^1] kicel ma kicel pe romo cwalo.
-2. **Kwanyo pe i pwonyo me pwonyo**\
-   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) giketo ki kiketo me kiketo,
-   kiketo me kiketo ma pe kicel ma kicel i pwonyo ma kicel pe kicel kicwalo.
-3. **Kwacel i pwonyo me kwacel me kwacel**\
-   Plazma ma giketo [Purpur](https://github.com/PurpurMC/Purpur) giketo ki kwacel ma
-   kicwalo i pwonyo ma pe kwacel.
-4. **Lok me pwonyo ki server**\
-   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) giketo ki kiketo 1.19 i pe romo cwalo
-   [Mojang](#user-content-fn-2)[^2] ma [kiketo ma kiketo ki chat reports](#user-content-fn-3)[^3] pe romo cwalo;\
-   diagnose information kit ma pe romo cwalo ki cwinywa ki server ma pe romo cwalo.
+1. **강력한 플러그인 생태계**\
+   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
+2. **설정이 필요 없는 최적화**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
+3. **원하는 대로 사용자화하는 게임**\
+   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며,\
+   진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **Kube ki peyo update meyo**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) ki ngec meyo Plazma meyo patch ki kwo tic ma kwo kwede, Paper ki geno ni server platform meyo kwo tic ma kwo kwede.
 6. **Kube ki peyo basic configuration file**\
@@ -36,12 +32,6 @@ description: Cwinywa ki woko ki Plazma.
    Game meyo mechanism kadi relation meyo system mechanism ki ngec meyo asynchronous, [delay time](#user-content-fn-4)[^4] ki ngec meyo server ki optimization.
 8. **Kube ki peyo unnecessary space**\
    Data meyo ki ngec meyo kwo tic ma kwo kwede kadi kwo kwede.
-
-#### Ocok me Plazma kicel i kom?  <a href="#etc-1" id="etc-1"></a>
-
-{% content-ref url="patches-list.md" %}
-[patches-list.md](patches-list.md)
-{% endcontent-ref %}
 
 ## ✨ Kube ki kwo tic <a href="#id-3" id="id-3"></a>
 
@@ -52,15 +42,12 @@ description: Cwinywa ki woko ki Plazma.
 - **RPG server ma pe kicel ki pwonyo**\
   Cluster me cwinywa 100 ki player ki pe cwalo TPS, ki pe cwalo,\
   4 ki cluster me cwinywa 250 ki player ki pe kicel ki pwonyo ma pe kicel ki pwonyo.
-- **Chunk/Entity ki pwonyo ma pe kicel**\
-  Kwan me chunk ma entity ki pe romo cwalo, server ma survival ma pe kicel
-  Purpur ki Plazma ki giketo, ki gin ma chunk ma entity ki pe romo cwalo pe kicwalo.
+- **청크/엔티티에서 빛을 보이는 플랫폼**\
+  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을 Purpur에서 Plazma로 변경하며 대부분의 지연을 줄일 수 있었습니다.
 - **Many streamers have chosen the platform**\
   It is being used as a bucket for viewer participation by many streamers.
 
-<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="ŋatwero Plazma makoŋo i kare">
-</a>
+[![실시간 Plazma 사용자 추이](https://badge.plazmamc.org/internal/bstats)](https://bstats.org/plugin/server-implementation/Plazma/18047)
 
 ## ⬇️ Download
 
