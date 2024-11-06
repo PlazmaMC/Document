@@ -15,19 +15,16 @@ Argumen awal dan properti sistem adalah nilai tambahan yang ditambahkan ke [peri
 Properti sistem dimasukkan sebelum `-jar` dan diproses oleh JVM sebelum Plazma diinisialisasi.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**Jika Anda mengubah properti sistem, cara kerja Plazma dan JVM dapat berubah, dan ini dapat berdampak besar pada permainan!**
-
-Jika Anda tidak yakin apa peran setiap properti sistem, **jangan pernah menggunakannya!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Cara Penggunaan <a href="#id-1.1" id="id-1.1"></a>
 
 Properti sistem dimasukkan sebagai argumen perintah Java antara `java` dan `-jar`.
 
-Sebagai contoh, jika Anda mencoba menerapkan properti sistem `Plazma.dummyProperty`,
-masukkan nilai `37` seperti berikut untuk menginisialisasi Plazma dengan nilai tersebut.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -38,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 Jika tidak ada nilai yang dimasukkan ke dalam properti, nilai akan tetap [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**Platform server seri Paperweight menggunakan `.` dalam nama properti untuk membedakan properti sistem di setiap platform.**
-
-Di beberapa terminal seperti Windows Powershell, argumen semacam ini mungkin tidak diizinkan, sehingga, `"` harus ditambahkan di kedua ujung argumen\[#user-content-fn-4)[^4].
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Seluruh Properti Sistem <a href="#id-1.2" id="id-1.2"></a>
@@ -84,11 +79,9 @@ Menonaktifkan sistem peringatan Watchdog Spigot.
 Menonaktifkan pesan konfirmasi untuk perintah `/reload`.
 
 {% hint style="danger" %}
-
-**`/reload` command sangat tidak stabil, jadi semua masalah yang muncul setelah menggunakan `/reload` menjadi tanggung jawab pengguna sendiri.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Jika Anda adalah pengembang plugin dan perlu melakukan pembaruan plugin, gunakan hotswap alih-alih `/reload`.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -133,7 +126,7 @@ Semua blok tengkorak yang tidak valid akan dicatat dengan posisi mereka di dunia
 - **Tipe**: `Boolean`
 - **Default**: `False`
 
-Menonaktifkan batasan jumlah 128 plugin [channel](#user-content-fn-5)[^5] yang diterapkan per pemain.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -153,14 +146,14 @@ Menonaktifkan sistem konsolidasi flush Netty.
 
 #### `Paper.excessiveTELimit`
 
-- **Tipe**: `Integer`
+- **형태**: `Integer`
 - **Default**: `750`
 
 Mengirimkan entitas dalam paket terpisah jika melebihi nilai yang ditetapkan.
 
 #### `Paper.filterThreshold`
 
-- **Tipe**: `Integer`
+- **형태**: `Integer`
 - **Default**: `8192`
 
 Menetapkan ukuran maksimal paket yang dapat diterima oleh server sekaligus.
@@ -173,32 +166,30 @@ Menetapkan ukuran maksimal paket yang dapat diterima oleh server sekaligus.
 Menonaktifkan pengecekan versi Java.
 
 {% hint style="danger" %}
-
-**Ini dapat menyebabkan JVM mencoba mengakses kode yang tidak ada!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 Ini dapat menyebabkan kerusakan permanen pada file-file di dunia dan mempengaruhi mekanisme permainan secara keseluruhan.
 
 Semua masalah yang timbul dari penggunaan ini menjadi tanggung jawab pengguna, dan Plamza tidak memberikan dukungan untuk hal ini.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Tipe**: `Integer`
+- **형태**: `Integer`
 - **Default**: `64`
 
-Mengatur batasan nama [saluran](#user-content-fn-6)[^6] plugin.
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Tipe**: `Integer`
+- **형태**: `Integer`
 - **Default**: `80`
 
 Menetapkan panjang maksimal karakter yang dapat dimasukkan dalam satu baris tanda.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Tipe**: `Integer`
+- **형태**: `Integer`
 - **Default**: `(versi dunia) + 1`
 
 Menetapkan versi informasi pembaruan dunia yang akan diinisialisasi terlebih dahulu.
@@ -214,12 +205,12 @@ Mengaktifkan pengolahan komentar dalam file YAML secara default.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Tipe**: `Integer`
+- **형태**: `Integer`
 - **Default**: `30`
 
 Mengeluarkan pemain dari server jika tidak menerima data apa pun dari pemain selama jumlah waktu tertentu (dalam detik).
 
-Secara umum, [game](#user-content-fn-7)[^7] akan terus mengirimkan [sinyal detak](#user-content-fn-8)[^8] ke server, sehingga tidak akan diusir, tetapi jika game tidak merespons, server akan menganggapnya bertabrakan dan tidak akan lagi memproses pemain di server dan mengusirnya.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -297,7 +288,7 @@ Ini menggunakan konfigurasi default dari Paper.
 - **Tipe**: `Boolean`
 - **Default**: `false`
 
-Menghentikan pesan [peringatan](#user-content-fn-11)[^11] yang muncul saat Plazma diinisialisasi.
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -313,19 +304,15 @@ Menonaktifkan branding Plazma dan menggunakan favicon server default vanila.
 - **Tabrakan**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**Properti ini masih dalam pengembangan.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**Properti ini akan membatalkan semua kerentanan yang sudah di-patch!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 Ini dapat memiliki dampak besar pada keamanan dan performa server.
 
 Semua masalah yang timbul dari penggunaan properti ini menjadi tanggung jawab administrator server.
-
 {% endhint %}
 
 Mengatur konfigurasi awal menjadi nilai default yang disediakan oleh Mojang.
@@ -341,15 +328,12 @@ Patch kerentanan dapat diaktifkan kembali dalam konfigurasi Paper atau Plazma.
 - **Tabrakan**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**Properti ini masih dalam pengembangan.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 Mengatur konfigurasi awal menjadi lebih mendekati vanila.
 
-Ini pada dasarnya hanya diterapkan dalam tingkat yang tidak memengaruhi performa atau keamanan server secara signifikan, dan
-mengkonfigurasi penggunaan nilai default vanila saat properti `Plazma.disableConfigOptimization` digunakan.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Atribut yang sudah tidak digunakan <a href="#id-1.3" id="id-1.3"></a>
 
@@ -389,21 +373,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Alias**: `b`
 - **Nilai Default**: `bukkit.yml`
 
-Menetapkan nama dan lokasi [File Konfigurasi Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Alias**: `c`
 - **Nilai Default**: `commands.yml`
 
-Menetapkan nama dan lokasi [File Konfigurasi Perintah Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Alias**: `c`
 - **Nilai Default**: `server.properties`
 
-Menetapkan nama dan lokasi [File Properti Server](../reference/configurations/property.md).
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -415,7 +399,7 @@ Menghapus file cache yang tersisa setelah upgrade dunia.
 
 #### `forceUpgrade`
 
-Memaksa [upgrade](#user-content-fn-12)[^12] dunia tanpa memperdulikan versi.
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -436,7 +420,7 @@ Mengaktifkan profil JFR.
 - **Alias**: `s`, `size`
 - **Nilai Default**: `(Properti Server)`
 
-Menetapkan jumlah maksimum [pemain](#user-content-fn-14)[^14] yang diizinkan.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -453,7 +437,7 @@ Menonaktifkan JLine dan menggunakan konsol vanilla.
 
 Memilih untuk memverifikasi pemain melalui server otentikasi Mojang.
 
-**Jika tidak menggunakan Velocity atau proxy lain, bisa mengakibatkan pelanggaran [EULA](../getting-started/README.md#id-5).**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -461,9 +445,7 @@ Memilih untuk memverifikasi pemain melalui server otentikasi Mojang.
 - **Nilai Default**: `paper.yml`
 
 {% hint style="warning" %}
-
-**Argumen ini telah dihentikan penggunaannya setelah versi 1.19.4**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 Menetapkan lokasi [File Konfigurasi PaperSpigot](../reference/configurations/paper/README.md) yang telah dihentikan penggunaannya.
@@ -475,13 +457,13 @@ Digunakan untuk memindahkan konfigurasi lama ke file konfigurasi baru dan tidak 
 - **Alias**: `paper-dir`
 - **Nilai Default**: `config`
 
-Menetapkan nama dan lokasi folder tempat [File Konfigurasi Paper](../reference/configurations/paper/README.md) berada.
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **Alias**: `plazma-dir`
 
-Menetapkan nama dan lokasi folder tempat [File Konfigurasi Plazma](../reference/configurations/plazma/README.md) berada.
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -495,14 +477,14 @@ Menetapkan lokasi folder plugin.
 - **Alias**: `pufferfish`
 - **Nilai Default**: `pufferfish.yml`
 
-Menetapkan nama dan lokasi [File Konfigurasi Pufferfish](../reference/configurations/pufferfish.md).
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **Alias**: `purpur`
 - **Nilai Default**: `purpur.yml`
 
-Menetapkan nama dan lokasi [File Konfigurasi Purpur](../reference/configurations/purpur/README.md).
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -513,7 +495,7 @@ Memulai server dalam keadaan vanilla lengkap.
 - **Alias**: `h`, `host`
 - **Nilai Default**: `(Properti Server)`
 
-Menetapkan nama host server atau alamat [protokol internet](#user-content-fn-13)[^13].
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -533,7 +515,7 @@ Menetapkan nama server.
 - **Alias**: `S`
 - **Nilai Default**: `spigot.yml`
 
-Menetapkan nama dan lokasi [File Konfigurasi Spigot](../reference/configurations/spigot.md).
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -581,6 +563,6 @@ Menetapkan nama file dunia.
 
 [^12]: Dalam permainan, `optimisasi dunia` juga beroperasi dengan prinsip yang sama.
 
-[^13]: Protokol Internet, IP.
+[^13]: Administrator `level 2` ke atas dikecualikan.
 
-[^14]: Administrator `level 2` ke atas dikecualikan.
+[^14]: Protokol Internet, IP.
