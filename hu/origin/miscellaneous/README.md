@@ -1,1 +1,5 @@
-# 🧾 Egyéb
+---
+hidden: true
+---
+
+# ⏬ Miscellaneous
