@@ -15,19 +15,16 @@ Aloitusparametrit ja järjestelmäominaisuudet ovat Plazman suorituksessa käyte
 Järjestelmäominaisuus syötetään `-jar`-parametrin eteen ja sitä käsitellään JVM:ssä ennen Plazman alustamista.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**Järjestelmäominaisuuksien muuttaminen voi muuttaa Plazman ja JVM:n toimintatapaa ja vaikuttaa suuresti peliin!**
-
-Jos et tiedä tarkalleen, mitä kukin järjestelmäominaisuus tekee, **älä käytä niitä missään tapauksessa!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Käyttöohje <a href="#id-1.1" id="id-1.1"></a>
 
 Järjestelmäominaisuudet syötetään Java-käskyparametreina `java` ja `-jar` välissä.
 
-Esimerkiksi jos haluat soveltaa `Plazma.dummyProperty`-järjestelmäominaisuutta,
-kirjoita seuraavasti, jolloin seuraavaan ominaisuuteen syötetään `37` ja Plazma alustetaan.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -37,12 +34,10 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 
 Jos arvoa ei anneta, arvoksi asetetaan [`true`](#user-content-fn-3)[^3].
 
-{% vinkki tyyli="info" %}
+{% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**Paperweight-sarjan palvelualustat sisältävät pisteen ominaisuuden nimen erottamiseksi kullakin alustalla.**
-
-Joissakin terminaaleissa, kuten Windows Powershellissä, nämä parametrit eivät ehkä ole sallittuja, joten parametrien molempiin päihin on lisättävä `"`[.](#user-content-fn-4)[^4]
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Kaikki järjestelmäominaisuudet <a href="#id-1.2" id="id-1.2"></a>
@@ -83,11 +78,9 @@ Poistaa käytöstä Spigotin vartijan varoitusjärjestelmän.
 Poistaa käytöstä `/reload`-komentoon liittyvän varmistusviestin.
 
 {% hint style="danger" %}
-
-**`/reload`-komento on erittäin epävakaa, joten kaikki ongelmat, jotka ilmenevät sen käytön jälkeen, ovat käyttäjän omalla vastuulla.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Jos olet lisäosakehittäjä ja sinun on päivitettävä lisäosaa, käytä `hotswap`-toimintoa `/reload`-käytön sijaan.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -132,7 +125,7 @@ Tämä kirjaa kaikki virheelliset päälohkot sijainteineen maailmassa.
 - **Tyyppi**: `Boolean`
 - **Oletusarvo**: `False`
 
-Poistaa rajoituksen, joka koskee yhden pelaajan 128 [lisäosakanavaa](#user-content-fn-5)[^5].
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -152,14 +145,14 @@ Poistaa käytöstä Netty-tiedonsiirron tiivistyksen.
 
 #### `Paper.excessiveTELimit`
 
-- **Tyyppi**: `Integer`
+- **형태**: `Integer`
 - **Oletusarvo**: `750`
 
 Jos entiteettejä on enemmän kuin asetettu arvo, ne lähetetään useampina paketteina.
 
 #### `Paper.filterThreshold`
 
-- **Tyyppi**: `Integer`
+- **형태**: `Integer`
 - **Oletusarvo**: `8192`
 
 Asettaa maksimikokoisen paketin, jonka palvelin voi vastaanottaa kerralla.
@@ -172,32 +165,30 @@ Asettaa maksimikokoisen paketin, jonka palvelin voi vastaanottaa kerralla.
 Poistaa käytöstä Java-version tarkistuksen.
 
 {% hint style="danger" %}
-
-**Tällä tavoin JVM voi yrittää käsitellä olematonta koodia!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 Tämä voi aiheuttaa pysyvää vahinkoa maailmoille ja yleisille tiedostoille, ja pelin koko mekaniikka voi hajota.
 
 Kaikki tämän käytön aiheuttamat ongelmat ovat käyttäjän vastuulla, eikä Plazma tarjoa tukea tähän.
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Tyyppi**: `Integer`
+- **형태**: `Integer`
 - **Oletusarvo**: `64`
 
-Rajoita pluginin [kanavan](#user-content-fn-6)[^6] nimi.
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Tyyppi**: `Integer`
+- **형태**: `Integer`
 - **Oletusarvo**: `80`
 
 Asettaa kyltin yhdellä rivillä näytettävien merkkien enimmäismäärän.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Tyyppi**: `Integer`
+- **형태**: `Integer`
 - **Oletusarvo**: `(maailman versio) + 1`
 
 Asettaa alustettavien maailman päivitystietojen version ensin.
@@ -213,12 +204,12 @@ Aktivoi YAML-tiedostojen kommenttien käsittelyn.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Tyyppi**: `Integer`
+- **형태**: `Integer`
 - **Oletusarvo**: `30`
 
 Kun pelaaja ei ole lähettänyt mitään tietoa annetun ajan (sekunteina), pelaaja poistetaan palvelimelta.
 
-Yleensä [peli](#user-content-fn-7)[^7] lähettää jatkuvasti [sydämenlyöntisignaalia](#user-content-fn-8)[^8] palvelimelle, joten sitä ei [karkoteta,](#user-content-fn-9)[^9] mutta jos peli ei vastaa, se katsotaan kaatuneeksi ja se ei enää käsittele pelaajia palvelimella vaan karkottaa heidät.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -296,7 +287,7 @@ Tämä asettaa käyttöön Paperin oletuskokoonpanon.
 - **Tyyppi**: `Boolean`
 - **Oletusarvo**: `false`
 
-Estää [varoitusviestin](#user-content-fn-11)[^11], joka ilmestyy Plazman alustuksen yhteydessä.
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -311,20 +302,16 @@ Poistaa Plazman brändäyksen käytöstä ja asettaa käytettäväksi vanillan p
 - **Oletusarvo**: `false`
 - **Yhteentörmäys**: `Plazma.disableConfigOptimization`
 
-{% vinkki tyyli="info" %}
-
-**Tämä ominaisuus on vielä kehitysvaiheessa.**
-
+{% hint style="info" %}
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**Tämä ominaisuus palauttaa kaikki liittyvät haavoittuvuudet!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 Tällä voi olla merkittävä vaikutus palvelimen turvallisuuteen ja suorituskykyyn.
 
 Kaikki tämän ominaisuuden aiheuttamat ongelmat ovat palvelimen ylläpitäjän vastuulla.
-
 {% endhint %}
 
 Tuottaa alkuperäisen kokoonpanon Mojangin tarjoamilla oletusarvoilla.
@@ -339,16 +326,13 @@ Haavoittuvuuden korjaukset voidaan aktivoida uudelleen Paperin tai Plazman asetu
 - **Oletusarvo**: `true`
 - **Yhteentörmäys**: `Plazma.aggressiveOptimize`
 
-{% vinkki tyyli="info" %}
-
-**Tämä ominaisuus on vielä kehitysvaiheessa.**
-
+{% hint style="info" %}
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 Asettaa alkuperäisen kokoonpanon lähemmäksi vaniljaa.
 
-Tämä soveltuu pääasiassa palvelimen suorituskyvyn ja turvallisuuden kannalta niin, ettei vaikuta merkittävästi,
-kun käytetään `Plazma.disableConfigOptimization` ominaisuutta, konfiguroidaan käyttämään vanilan oletusarvoja.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Käytöstä poistettu ominaisuus <a href="#id-1.3" id="id-1.3"></a>
 
@@ -388,21 +372,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Alias**: `b`
 - **Oletusarvo**: `bukkit.yml`
 
-Asettaa Bukkitin [konfiguraatiotiedoston](../reference/configurations/bukkit.md) nimen ja sijainnin.
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Alias**: `c`
 - **Oletusarvo**: `commands.yml`
 
-Asettaa Bukkittiin [komentokonfiguraatiotiedoston](../reference/configurations/bukkit.md) nimen ja sijainnin.
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Alias**: `c`
 - **Oletusarvo**: `server.properties`
 
-Asettaa [palvelimen ominaisuudet](../reference/configurations/property.md) tiedoston nimen ja sijainnin.
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -414,7 +398,7 @@ Poistaa jäljellä olevat välimuistitiedostot maailman päivityksen jälkeen.
 
 #### `forceUpgrade`
 
-Ohittaa version ja pakottaa maailman [päivityksen](#user-content-fn-12)[^12].
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -435,7 +419,7 @@ Aktivoi JFR-profiloinnin.
 - **Alias**: `s`, `size`
 - **Oletusarvo**: `(palvelimen ominaisuus)`
 
-Asettaa sallitun maksimi [pelaajien](#user-content-fn-14)[^14] määrän.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -452,7 +436,7 @@ Poistaa JLinen käytöstä ja käyttää vaniljan konsolia.
 
 Valitsee, tarkistetaanko pelaajat Mojangin todennuspalvelimella.
 
-**Jos et käytä Velocityä tai muita etuovia, voit rikkoa [EULA:n](../getting-started/README.md#id-5) ja joutua seuraamuksiin.**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -460,9 +444,7 @@ Valitsee, tarkistetaanko pelaajat Mojangin todennuspalvelimella.
 - **Oletusarvo**: `paper.yml`
 
 {% hint style="warning" %}
-
-**Tämä parametri on poistettu käytöstä 1.19.4 jälkeen**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 Asettaa käytöstä poistetun PaperSpigotin konfiguraatiotiedoston sijainnin.
@@ -474,13 +456,13 @@ Tätä käytetään siirtämään vanhaa konfiguraatiota uuteen konfiguraatiotie
 - **Alias**: `paper-dir`
 - **Oletusarvo**: `config`
 
-Asettaa [Paperin konfiguraatiotiedoston](../reference/configurations/paper/README.md) sijainnin ja nimen.
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **Alias**: `plazma-dir`
 
-Asettaa [Plazman konfiguraatiotiedoston](../reference/configurations/plazma/README.md) sijainnin ja nimen.
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -494,14 +476,14 @@ Asettaa liitännäisten kansion sijainnin.
 - **Alias**: `pufferfish`
 - **Oletusarvo**: `pufferfish.yml`
 
-Asettaa [Pufferfishin konfiguraatiotiedoston](../reference/configurations/pufferfish.md) nimen ja sijainnin.
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **Alias**: `purpur`
 - **Oletusarvo**: `purpur.yml`
 
-Asettaa [Purpurin konfiguraatiotiedoston](../reference/configurations/purpur/README.md) nimen ja sijainnin.
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -512,7 +494,7 @@ Käynnistää palvelimen täyteen vaniljatilaan.
 - **Alias**: `h`, `host`
 - **Oletusarvo**: `(palvelimen ominaisuus)`
 
-Asettaa palvelimen isännän nimen tai [Internet-protokolla](#user-content-fn-13)[^13] osoitteen.
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -532,7 +514,7 @@ Asettaa palvelimen nimen.
 - **Alias**: `S`
 - **Oletusarvo**: `spigot.yml`
 
-Asettaa [Spigotin konfiguraatiotiedoston](../reference/configurations/spigot.md) nimen ja sijainnin.
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -580,6 +562,6 @@ Asettaa maailmatiedoston nimen.
 
 [^12]: Pelissä `maailman optimointi` toimii samalla periaatteella.
 
-[^13]: Internet-protokolla, IP.
+[^13]: `Tason 2` ylläpitäjät on suljettu pois.
 
-[^14]: `Tason 2` ylläpitäjät on suljettu pois.
+[^14]: Internet-protokolla, IP.
