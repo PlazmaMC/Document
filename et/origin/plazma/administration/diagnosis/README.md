@@ -2,4 +2,4 @@
 description: Vaadake, kuidas probleemide tekkimisel reageerida.
 ---
 
-# 🩺 Diagnoos
+# 🧾 진단
