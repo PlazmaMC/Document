@@ -17,15 +17,15 @@ Plazma를 안정적으로 사용하기 위해선, 시스템이 다음과 같은 
 
 ***
 
-## 1. JRE 설치
+## 1. JDK 설치
 
-이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JRE[^1]를 필요로 합니다.
+이름에서 알 수 있듯이, Minecraft: **"Java"** Edition 은 Java로 개발되어, 실행을 위해선 JDK[^1]를 필요로 합니다.
 
-Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JRE를 설치해야 합니다.
+Plazma는 Mojang Studios의 공식 서버 플랫폼을 [기반으로 하므로](#user-content-fn-2)[^2], Plazma를 사용하기 위해서도 JDK를 설치해야 합니다.
 
-### 1.1 JRE 유무 확인
+### 1.1 JDK 설치 유무 확인
 
-JRE가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
+JDK가 시스템에 설치되어 있는지 확인하려면, [실행 창](#user-content-fn-3)[^3]에 [`cmd /k java --version`](#user-content-fn-4)[^4]을 입력하고 실행합니다.
 
 다음과 같이 출력되면 [2 단계](#id-2)로 건너뜁니다.
 
@@ -41,7 +41,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 위와 같이 출력되지 않거나, 아래와 같이 출력되면 JRE가 없거나 너무 오래되었으므로, [1.2 단계](#id-1.2)를 수행해야 합니다.
 
-{% code title="JRE가 설치되어 있지 않음" lineNumbers="true" %}
+{% code title="JDK가 설치되어 있지 않음" lineNumbers="true" %}
 
 ```log
 'java'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
@@ -50,7 +50,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 {% endcode %}
 
-{% code title="JRE가 너무 오래됨" lineNumbers="true" %}
+{% code title="JDK가 너무 오래됨" lineNumbers="true" %}
 
 ```log
 Unrecognized option: --version
@@ -60,9 +60,9 @@ Error: A fatal exception has occurred. Program will exit.
 
 {% endcode %}
 
-### 1.2 JRE 설치
+### 1.2 JDK 설치
 
-본 설명서에서는 JRE의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
+본 설명서에서는 JDK의 [종류 중 하나](#user-content-fn-5)[^5]로 Azul Zulu를 사용합니다.
 
 설치를 완료한 후, [1.1 단계](#id-1.1)을 다시 수행하여 설치가 올바르게 완료되었는지 확인해 보세요.
 
@@ -105,7 +105,7 @@ sudo apt install --no-install-recommends --no-install-suggests -y zulu21-ca-jre-
 
 {% tab title="Fedora/RHEL" %}
 
-다음 명령어를 입력하여 JRE를 설치할 수 있습니다.
+다음 명령어를 입력하여 JDK를 설치할 수 있습니다.
 
 ```bash
 sudo dnf install -y https://cdn.azul.com/zulu/bin/zulu-repo-1.0.0-1.noarch.rpm
@@ -124,7 +124,7 @@ Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니�
 
 {% hint style="warning" %}
 
-**대부분의 경우에는 `Reobf Paperclip`을 사용합니다.**
+**대부분의 경우에는 `Mojang-mapped Paperclip`을 사용합니다.**
 
 아래 내용은 개발자 또는 각 형태의 특징에 대해 궁금한 분들을 위한 것입니다.\
 일반 사용자라면 [3 단계](#id-3)로 뛰어 넘겨도 문제되지 않습니다.
@@ -141,9 +141,9 @@ Plazma에서는 여러 가지 형태의 실행 파일을 제공하고 있습니�
   매핑은 Minecraft의 실제 코드와 난독화된 코드를 잇는 일종의 지도입니다.
   * **Reobf**\
     Reobfuscated (재난독화), Spigot 매핑으로도 불리며 대부분의 NMS 플러그인에서 사용됩니다.\
-    1.20.5부터 사용이 종료될 예정입니다.
+    1.20.6부터 지원이 종료되었습니다.
   * **Mojmap**\
-    Mojang-mapped, 바닐라 Minecraft 매핑입니다.
+    Mojang-mapped, 바닐라 Minecraft 매핑입니다. 1.20.6 이후의 모던 플러그인에서 사용합니다.
 * **버전 관리자**\
   버전 관리자는 서버 구동에 필요한 라이브러리와, 서버 파일을 패치하는 서버의 런처라고 할 수 있습니다.
   * **Paperclip**\
@@ -173,9 +173,9 @@ Plazma에 [사용할 메모리](#user-content-fn-8)[^8]만 입력하면 명령�
 
 {% hint style="warning" %}
 
-**폴더 명칭은 반드시 띄어 쓰기가 없고, 영어로 설정되어야 합니다.**
+**폴더 명칭은 반드시 띄어 쓰기와 특수 문자가 없고, 영어로 설정되어야 합니다.**
 
-그렇지 않으면 Plazma 또는 JRE가 올바르게 작동하지 않을 수 있습니다.
+그렇지 않으면 Plazma 또는 JDK가 올바르게 작동하지 않을 수 있습니다.
 
 {% endhint %}
 
@@ -312,7 +312,7 @@ Windows IP 구성
 
 ***
 
-[^1]: Java Runtime Environment, Java 실행 환경.
+[^1]: Java Development Kit (Java 개발 환경), Java Runtime Environment (JRE, Java 실행 환경) 을 포함하고 있으며, Plazma 에서는 JDK 에서만 제공되는 일부 기능을 이용하고 있으므로 JDK 설치를 필요로 합니다.
 
 [^2]: Plazma의 기반 Paper는 Spigot을 기반으로 하며, Spigot이 공식 서버 플랫폼을 기반으로 합니다.
 
