@@ -2,14 +2,13 @@
 description: Konfigurace je základním způsobem personalizace Plazmy.
 ---
 
-# 📋 Konfigurace
+# 🧾 구성
 
 ***
 
 ## 🪨 Vlastnost <a href="#id-1" id="id-1"></a>
 
-> Vlastnost je základní konfigurační soubor poskytovaný v Minecraftu.
-> Pomocí vlastnosti můžete změnit základní mechanismy hry.
+> Vlastnost je základní konfigurační soubor poskytovaný v Minecraftu. Pomocí vlastnosti můžete změnit základní mechanismy hry.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Konfigurace je základním způsobem personalizace Plazmy.
 
 ## 🪣 Bukkit konfigurace <a href="#id-2" id="id-2"></a>
 
-> Bukkit konfigurace je základní konfigurační soubor poskytovaný v Plazmě.
-> Pomocí Bukkit konfigurace můžete změnit základní mechanismy serveru Minecraft.
+> Bukkit konfigurace je základní konfigurační soubor poskytovaný v Plazmě. Pomocí Bukkit konfigurace můžete změnit základní mechanismy serveru Minecraft.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Konfigurace je základním způsobem personalizace Plazmy.
 
 ## 🛩️ Paper konfigurace <a href="#id-4" id="id-4"></a>
 
-> Paper konfigurace umožňuje úpravu celkových mechanismů Plazmy a aktivaci [různých optimalizací a řešení zranitelností](#user-content-fn-1)[^1].
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
