@@ -2,18 +2,16 @@
 description: Erfahren Sie, wie Sie die benutzerdefinierten Funktionen von Plazma nutzen können.
 ---
 
-# ⏬ Referenz
+# 📜 리퍼런스
 
 Plazma bietet verschiedene Möglichkeiten zur Benutzeranpassung.
 
 Unter diesen sind 4 Methoden sofort einsatzbereit, ohne zusätzliche Maßnahmen.
 
-{% Hinweis-Stil="info" %}
-
-**Können Sie das Problem nicht über die Anleitung lösen?**
+{% hint style="info" %}
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Offizieller Discord-Server](https://discord.gg/MmfC52K8A8) oder [GitHub-Diskussionen](https://github.com/PlazmaMC/PlazmaBukkit/discussions) - stellen Sie Ihre Fragen an die Community!
-
 {% endhint %}
 
 ***
