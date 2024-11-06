@@ -2,18 +2,16 @@
 description: Kolot me Plazma ki dong pe romo ki iye i pwonyo.
 ---
 
-# ⏬ Kacok
+# 📜 리퍼런스
 
 Plazma ki dong pe obedo i pwonyo me i pwonyo.
 
 Dong me, i cwalo 4 me i pwonyo ducu ki dong pe romo ki iye i pwonyo.
 
 {% hint style="info" %}
-
-**Gin ma en aye kiketo ni i pwonyo ki ngom?**
+**설명서를 통해 문제를 해결할 수 없나요?**
 
 [Acholi translation not available]
-
 {% endhint %}
 
 ***
