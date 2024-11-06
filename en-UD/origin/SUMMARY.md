@@ -11,15 +11,14 @@
 - [❓ amzalPɹɐl](plazma/about/README.md)
   - [⬇️ ǝuopnolɹɐ](plazma/about/downloads.md)
   - [✅ ǝuɹǝp ıɯɐɹuɐ sɐɯʇɐ](plazma/about/supported-versions.md)
-  - [📑 ɹǝʇɐɯnɹɐɔ ǝɹɐʇɥıd](plazma/about/patches-list.md)
 - (⚒️.ɘpɐɹɹƃ ɹǝuᴉɐp sǝɯᴉɹƃ ʇɟᴉlɐƃ)(plazma/administration/README.md)
   - (👟.ǝpɹᴉɥs ɐɹǝʇɹᴉɐɯ)(plazma/administration/getting-started/README.md)
-    - [📶 evolving](plazma/administration/getting-started/next-step.md)
+    - [🎨 발전하기](plazma/administration/getting-started/next-step.md)
   - [📜 ǝɹnsɹǝuɹ]
     - [🖥️ ɯouɹǝɯǝ]
     - [🛡️ ǝɥɔɹɐu]
     - [🎛️ ɹǝuɟǝs ɐuɯ sᴉɥʇuɐɯ]
-    - [📋 Configuration](plazma/administration/reference/configurations/README.md)
+    - [🧾 구성](plazma/administration/reference/configurations/README.md)
       - [🪨 속성](plazma/administration/reference/configurations/property.md)
       - [🪣 ʇɐʞǝɯ]
       - [🚰 ʇɯᴉƃ]
@@ -40,8 +39,8 @@
     - [🩻 X-Ray ɹǝɯɐu](plazma/administration/expert/xray.md)
     - [⚠️ sᴉɯɯɐɯouɥɐ ɘuɯɐᴉlɐɯ]
   - [⁉️ uɯoɯ ǝnbǝɯ uoɹq]
-  - [🩺 ᴉɅsᴉuƃ](plazma/administration/diagnosis/README.md)
-    - [⏬ ɹǝɥʇuƃᴉl](plazma/administration/diagnosis/plugins.md)
+  - [🧾 진단](plazma/administration/diagnosis/README.md)
+    - [📜 플러그인](plazma/administration/diagnosis/plugins.md)
 - [⚙️ ɐılǝɹɐɯɹ ǝɔıp](plazma/developers.md)
   - [✏️ sǝɹǝɥoɹɐılɐ](https://github.com/PlazmaMC/PlazmaBukkit/blob/main/CONTRIBUTION.md)
   - [☕ sdɹɐɯouɔ](https://jd.plazmamc.org/)
@@ -56,5 +55,5 @@
 
 ## Miscellaneous
 
-- [🧾 Miscellaneous](miscellaneous/README.md)
+- [⏬ Miscellaneous](miscellaneous/README.md)
   - [⬇️ ɯouǝuɯɐ ǝɹɹǝɯsɹǝɔ]
