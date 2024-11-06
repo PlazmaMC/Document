@@ -2,4 +2,4 @@
 description: Ontdek wat elke knooppunt in plazma-global.yml betekent.
 ---
 
-# ✨ Plazma (globale configuratie)
+# 🌏 전역 구성
