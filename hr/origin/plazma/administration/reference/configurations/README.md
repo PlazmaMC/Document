@@ -2,14 +2,13 @@
 description: Konfiguracije su osnovni način prilagodbe Plazme.
 ---
 
-# 📋 Konfiguracija
+# 🧾 구성
 
 ***
 
 ## 🪨 Svojstva <a href="#id-1" id="id-1"></a>
 
-> Svojstva su osnovna konfiguracijska datoteka koju pruža Minecraft.
-> Korištenjem svojstava možete promijeniti osnovne mehanizme igre.
+> Svojstva su osnovna konfiguracijska datoteka koju pruža Minecraft. Korištenjem svojstava možete promijeniti osnovne mehanizme igre.
 
 {% content-ref url="property.md" %}
 [property.md](property.md)
@@ -19,8 +18,7 @@ description: Konfiguracije su osnovni način prilagodbe Plazme.
 
 ## 🪣 Bukkit konfiguracija <a href="#id-2" id="id-2"></a>
 
-> Bukkit konfiguracija je osnovna konfiguracijska datoteka koju pruža Plazma.
-> Korištenjem Bukkita konfiguracije možete promijeniti osnovne mehanizme Minecraft poslužitelja.
+> Bukkit konfiguracija je osnovna konfiguracijska datoteka koju pruža Plazma. Korištenjem Bukkita konfiguracije možete promijeniti osnovne mehanizme Minecraft poslužitelja.
 
 {% content-ref url="bukkit.md" %}
 [bukkit.md](bukkit.md)
@@ -40,7 +38,7 @@ description: Konfiguracije su osnovni način prilagodbe Plazme.
 
 ## 🛩️ Paper konfiguracija <a href="#id-4" id="id-4"></a>
 
-> Paper konfiguracija omogućuje uređivanje općih mehanizama Plazme i omogućuje aktiviranje [raznih optimizacija i rješavanje ranjivosti](#user-content-fn-1)[^1].
+> Paper 구성은 Plazma의 전반적인 메커니즘을 수정하고, [각종 최적화와 취약점 해결](./#user-content-fn-1)\[^1]을 활성화 할 수 있게 합니다.
 
 {% content-ref url="paper/" %}
 [paper](paper/)
