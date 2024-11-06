@@ -15,19 +15,16 @@ Začiatočné argumenty a vlastnosti systému predstavujú hodnoty, ktoré sa pr
 Systémová vlastnosť je hodnota spracovaná v JVM pred inicializáciou Plazmy pred `-jar`.
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**Ak sa zmenia vlastnosti systému, môže to ovplyvniť fungovanie Plazmy a JVM a môže to mať veľký vplyv na hru!**
-
-Ak neviete presne, akú úlohu zohráva každá vlastnosť systému, **určite ju nepoužívajte!**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### Použitie <a href="#id-1.1" id="id-1.1"></a>
 
 Systémová vlastnosť sa zadáva ako Java argument medzi `java` a `-jar`.
 
-Napríklad, ak sa snažíte použiť systémovú vlastnosť `Plazma.dummyProperty`,
-po zadaniu nasledujúceho kódu sa hodnota `37` priradí k danej vlastnosti a Plazma sa inicializuje.
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -38,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 Ak nezadáte žiadnu hodnotu do vlastnosti, hodnota sa nastaví na [`true`](#user-content-fn-3)[^3].
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**Platforma serverov z radu Paperweight obsahuje bodku `.` v názve vlastnosti na rozlišovanie vlastností systému pre každú platformu.**
-
-V niektorých termináloch ako Windows Powershell nemusia byť tieto argumenty povolené, preto je potrebné pridať `"` na oboch koncoch argumentu [ako ochranu](#user-content-fn-4)[^4].
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### Všetky systémové vlastnosti <a href="#id-1.2" id="id-1.2"></a>
@@ -83,11 +78,9 @@ Deaktivuje systém upozornení Watchdog v Spigote.
 Deaktivuje potvrdenie príkazu `/reload`.
 
 {% hint style="danger" %}
-
-**Príkaz `/reload` je veľmi nestabilný, preto všetky problémy v serveri po jeho použití sú zodpovednosťou používateľa.**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 Ak ste vývojár pluginov a musíte aktualizovať pluginy, použite hotswap namiesto príkazu `/reload`.
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -132,7 +125,7 @@ Toto zaznamenáva všetky neplatné lebky v svete spolu s ich polohou.
 - **Typ**: `Boolean`
 - **Predvolená hodnota**: `False`
 
-Deaktivuje obmedzenie na 128 kanálov [zásuvných modulov](#user-content-fn-5)[^5] aplikovaných na hráča.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -152,14 +145,14 @@ Deaktivuje systém zlučovania Netty flush.
 
 #### `Paper.excessiveTELimit`
 
-- **Typ**: `Integer`
+- **형태**: `Integer`
 - **Predvolená hodnota**: `750`
 
 Ak entita presiahne stanovenú hodnotu, bude odoslaná ako viacero paketov.
 
 #### `Paper.filterThreshold`
 
-- **Typ**: `Integer`
+- **형태**: `Integer`
 - **Predvolená hodnota**: `8192`
 
 Nastavuje maximálnu veľkosť paketu, ktorú server môže prijať naraz.
@@ -172,32 +165,30 @@ Nastavuje maximálnu veľkosť paketu, ktorú server môže prijať naraz.
 Deaktivuje kontrolu verzie Javy.
 
 {% hint style="danger" %}
-
-**Týmto spôsobom sa môže JVM pokúsiť pristúpiť k neexistujúcemu kódu!**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 Môže to trvalo poškodiť súbory v hre a spôsobiť zlyhanie hry.
 
 Všetky problémy spôsobené týmto opatrením sú plne zodpovednosťou používateľa a Plazma neposkytuje žiadnu podporu!
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **Typ**: `Integer`
+- **형태**: `Integer`
 - **Predvolená hodnota**: `64`
 
-Nastavuje obmedzenie pre názov [kanála](#user-content-fn-6)[^6] pluginu.
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **Typ**: `Integer`
+- **형태**: `Integer`
 - **Predvolená hodnota**: `80`
 
 Nastavuje maximálnu dĺžku textu na jednom riadku tabule.
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **Typ**: `Integer`
+- **형태**: `Integer`
 - **Predvolená hodnota**: `(verzia sveta) + 1`
 
 Nastavuje verziu údajov, ktoré sa majú najskôr aktualizovať pri inicializácii sveta.
@@ -213,12 +204,12 @@ Aktivuje spracovanie komentárov v YAML súboroch.
 
 #### `Paper.playerConnection.keepAlive`
 
-- **Typ**: `Integer`
+- **형태**: `Integer`
 - **Predvolená hodnota**: `30`
 
 Ak hráč neodosielal žiadne dáta počas určeného času (v sekundách), hráča vyhodí zo servera.
 
-V bežnom prípade [hra](#user-content-fn-7)[^7] neprestáva posielať [srdcový impulz](#user-content-fn-8)[^8] na server, takže nie je vyhostená, ale ak hra prestane reagovať, server ju považuje za zlyhanú a prestane ju ďalej spracovávať a vyhostí hráča.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -296,7 +287,7 @@ Toto nastavenie používa predvolenú konfiguráciu Paperu.
 - **Typ**: `Boolean`
 - **Predvolená hodnota**: `false`
 
-Potláča varovanie, ktoré sa zobrazuje pri inicializácii Plazmy [upozornenia](#user-content-fn-11)[^11].
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -312,19 +303,15 @@ Deaktivuje značenie Plazma a používa základný serverový ikonu.
 - **Konflikt**: `Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**Tento vlastnosť je stále vo vývoji.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**Tento vlastnosť vráti všetky opravené chyby v patchoch!**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 Toto môže mať veľký vplyv na bezpečnosť a výkon servera.
 
 Všetky problémy, ktoré spôsobí použitie tejto vlastnosti sú zodpovednosťou správcu servera.
-
 {% endhint %}
 
 Poskytuje počiatočnú konfiguráciu s predvolenými hodnotami od Mojangu.
@@ -340,14 +327,12 @@ Chybové opravy môžu byť opäť aktivované v Paper konfigurácii alebo Plazm
 - **Konflikt**: `Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**Tento vlastnosť je stále vo vývoji.**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 Nastavuje počiatočnú konfiguráciu približne k základným hodnotám.
 
-Toto sa zvyčajne uplatňuje len v miere, ktorá nemá vplyv na výkon a bezpečnosť servera a keď je použitá vlastnosť `Plazma.disableConfigOptimization`, konfiguruje sa na základné hodnoty z vanilla.
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### Použitá zastaraná vlastnosť <a href="#id-1.3" id="id-1.3"></a>
 
@@ -387,21 +372,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **Alias**: `b`
 - **Predvolená hodnota**: `bukkit.yml`
 
-Nastavuje názov a umiestnenie [konfiguračného súboru Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **Alias**: `c`
 - **Predvolená hodnota**: `commands.yml`
 
-Nastavuje názov a umiestnenie [konfiguračného súboru príkazov Bukkit](../reference/configurations/bukkit.md).
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **Alias**: `c`
 - **Predvolená hodnota**: `server.properties`
 
-Nastavuje názov a umiestnenie [súboru vlastností servera](../reference/configurations/property.md).
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -413,7 +398,7 @@ Odstráni zostávajúce cache súbory po aktualizácii sveta.
 
 #### `forceUpgrade`
 
-Vynúti [aktualizáciu](#user-content-fn-12)[^12] sveta bez ohľadu na verziu.
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -434,7 +419,7 @@ Aktivuje JFR profilovanie.
 - **Alias**: `s`, `size`
 - **Predvolená hodnota**: `(vlastnosť servera)`
 
-Nastavuje maximálny počet [hráčov](#user-content-fn-14)[^14], ktorí sú povolení na serveri.
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -451,7 +436,7 @@ Vypne JLine a použije základnú konzolu.
 
 Určuje, či sa majú hráči overovať prostredníctvom Mojang autentizačných serverov.
 
-**Ak nie je použitý Velocity alebo iný proxy, môže to byť porušením [EULA](../getting-started/README.md#id-5).**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -459,9 +444,7 @@ Určuje, či sa majú hráči overovať prostredníctvom Mojang autentizačných
 - **Predvolená hodnota**: `paper.yml`
 
 {% hint style="warning" %}
-
-**Tento argument bol po verzii 1.19.4 zastavený.**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 Nastavuje umiestnenie [konfiguračného súboru PaperSpigot](../reference/configurations/paper/README.md), ktorý bol zastavený.
@@ -473,13 +456,13 @@ Slúži na prenesenie existujúcej konfigurácie do nového súboru a následne 
 - **Alias**: `paper-dir`
 - **Predvolená hodnota**: `config`
 
-Nastavuje názov a umiestnenie priečinka, kde sa nachádza [konfiguračný súbor Paper](../reference/configurations/paper/README.md).
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **Alias**: `plazma-dir`
 
-Nastavuje názov a umiestnenie priečinka, kde sa nachádza [konfiguračný súbor Plazma](../reference/configurations/plazma/README.md).
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -493,14 +476,14 @@ Nastavuje umiestnenie priečinka s pluginmi.
 - **Alias**: `pufferfish`
 - **Predvolená hodnota**: `pufferfish.yml`
 
-Nastavuje názov a umiestnenie [konfiguračného súboru Pufferfish](../reference/configurations/pufferfish.md).
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **Alias**: `purpur`
 - **Predvolená hodnota**: `purpur.yml`
 
-Nastavuje názov a umiestnenie [konfiguračného súboru Purpur](../reference/configurations/purpur/README.md).
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -511,7 +494,7 @@ Spustí server v úplnom vanilla režime.
 - **Alias**: `h`, `host`
 - **Predvolená hodnota**: `(vlastnosť servera)`
 
-Nastavuje názov hostiteľa servera alebo [IP adresu](#user-content-fn-13)[^13].
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -531,7 +514,7 @@ Nastavuje názov servera.
 - **Alias**: `S`
 - **Predvolená hodnota**: `spigot.yml`
 
-Nastavuje názov a umiestnenie [konfiguračného súboru Spigot](../reference/configurations/spigot.md).
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -579,6 +562,6 @@ Nastavuje názov súboru sveta.
 
 [^12]: V hre `svetová optimalizácia` funguje rovnakým spôsobom.
 
-[^13]: Internetový protokol, IP.
+[^13]: `Úroveň 2` alebo vyšší administrátori sú vylúčení.
 
-[^14]: `Úroveň 2` alebo vyšší administrátori sú vylúčení.
+[^14]: Internetový protokol, IP.
