@@ -15,18 +15,16 @@ description: 了解启动参数和系统属性。
 系统属性是在`-jar`之前输入的值，在Plazma初始化之前由JVM处理。
 
 {% hint style="warning" %}
+**시스템 속성을 수정하면 Plazma 및 JVM의 작동 방식이 변경될 수 있으며, 게임에 큰 영향을 미칠 수 있습니다!**
 
-**修改系統屬性可能會影響 Plazma 和 JVM 的操作方式，對遊戲產生重大影響！**
-
-如果不確定每個系統屬性的作用，**絕對不要使用！**
-
+각 시스템 속성이 어떠한 역할을 하는지 확실히 알지 못하는 경우, **절대 사용하지 마세요!**
 {% endhint %}
 
 ### 使用方法 <a href="#id-1.1" id="id-1.1"></a>
 
 系统属性作为Java命令参数输入在`java`和`-jar`之间。
 
-例如，如果要應用`Plazma.dummyProperty`系統屬性，輸入如下，下一個屬性將輸入`37`以初始化Plazma。
+예를 들어, `Plazma.dummyProperty` 시스템 속성을 적용하려 하는 경우, 다음과 같이 입력하면 다음 속성에 `37`이 입력되어 Plazma가 초기화 됩니다.
 
 ```batch
 java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
@@ -37,11 +35,9 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar (...)
 속성에 아무런 값도 입력하지 않으면 값이 [`true`로 고정](#user-content-fn-3)[^3]됩니다.
 
 {% hint style="info" %}
+**Paperweight 계열 서버 플랫폼은 각 플랫폼마다 시스템 속성을 구분하기 위하여 속성 이름에 `.`을 포함하고 있습니다.**
 
-**Paperweight 系列伺服器平台為了區分每個平台的系統屬性，在屬性名稱中包含`.`。**
-
-Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 [추가해야](#user-content-fn-4)[^4] 합니다.
-
+Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하지 않을 수 있으므로, 인수 양 끝에 `"`를 추가해야[^4] 합니다.
 {% endhint %}
 
 ### 全部系统属性 <a href="#id-1.2" id="id-1.2"></a>
@@ -82,11 +78,9 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 禁用`/reload`命令的重新加载消息。
 
 {% hint style="danger" %}
-
-**`/reload` 命令非常不穩定，因此使用 `/reload` 後產生的所有伺服器問題由使用者自行負責。**
+**`/reload` 명령어는 매우 불안정하므로, `/reload` 사용 이후 발생하는 서버 내 모든 문제는 사용자 본인에게 있습니다.**
 
 如果您是插件开发人员并且需要更新插件，请使用热交换而不是`/reload`。
-
 {% endhint %}
 
 #### `io.papermc.paper.suppress.sout.nags` <a href="#suppresssoutnags" id="suppresssoutnags"></a>
@@ -131,7 +125,7 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 - **类型**: `布尔值`
 - **默认值**: `False`
 
-플레이어당 적용되는 128개의 플러그인 [채널](#user-content-fn-5)[^5]의 개수 제한을 비활성화 합니다.
+플레이어당 적용되는 128개의 플러그인 채널[^5]의 개수 제한을 비활성화 합니다.
 
 #### `Paper.disableClassPrioritization`
 
@@ -151,14 +145,14 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 
 #### `Paper.excessiveTELimit`
 
-- **类型**: `整数`
+- **형태**: `Integer`
 - **默认值**: `750`
 
 如果实体超过设置的值，则将其分割为多个数据包进行传输。
 
 #### `Paper.filterThreshold`
 
-- **类型**: `整数`
+- **형태**: `Integer`
 - **默认值**: `8192`
 
 设置服务器一次接收的最大数据包大小。
@@ -171,32 +165,30 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 禁用Java版本检查。
 
 {% hint style="danger" %}
-
-**這樣做可能會導致 JVM 試圖訪問不存在的代碼！**
+**이렇게 하면 JVM이 존재하지 않는 코드에 접근하려 시도할 수 있습니다!**
 
 可能会永久损坏世界等文件，并破坏游戏的整个机制。
 
 由此产生的所有问题由用户承担，Plamza不提供任何支持。
-
 {% endhint %}
 
 #### `Paper.maxCustomChannelName`
 
-- **类型**: `整数`
+- **형태**: `Integer`
 - **默认值**: `64`
 
-設置插件[通道](#user-content-fn-6)[^6]名稱的限制。
+플러그인 채널[^6] 이름의 제한을 설정합니다.
 
 #### `Paper.maxSignLength`
 
-- **类型**: `整数`
+- **형태**: `Integer`
 - **默认值**: `80`
 
 设置牌子一行中可以输入的最大字符数。
 
 #### `Paper.minPrecachedDatafixVersion`
 
-- **类型**: `整数`
+- **형태**: `Integer`
 - **默认值**: `(世界版本) + 1`
 
 设置要首先初始化的世界更新信息的版本。
@@ -212,12 +204,12 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 
 #### `Paper.playerConnection.keepAlive`
 
-- **类型**: `整数`
+- **형태**: `Integer`
 - **默认值**: `30`
 
 当玩家在输入值（秒）后未收到任何数据时，将踢出玩家。
 
-일반적인 경우, [게임](#user-content-fn-7)[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
+일반적인 경우, 게임[^7]은 서버로 계속해서 [하트비트 신호](#user-content-fn-8)[^8]를 전송하므로, [추방되지 않지만,](#user-content-fn-9)[^9] 게임이 응답하지 않는 경우 게임이 충돌한 것으로 간주하고 더 이상 서버에서도 플레이어를 처리하지 않고 추방합니다.
 
 #### `Paper.skipServerPropertiesComments`
 
@@ -295,7 +287,7 @@ Windows Powershell 등 일부 터미널에서는 이러한 인수를 허용하�
 - **类型**: `布尔值`
 - **默认值**: `false`
 
-Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을 억제합니다.
+Plazma가 초기화될 때 출력되는 경고문[^11]을 억제합니다.
 
 #### `Plazma.useVanillaFavicon`
 
@@ -311,19 +303,15 @@ Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을
 - **衝突**：`Plazma.disableConfigOptimization`
 
 {% hint style="info" %}
-
-**此屬性尚在開發中。**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 {% hint style="danger" %}
-
-**此屬性將回滾所有已修補的漏洞！**
+**해당 속성은 패치된 모든 취약점을 되돌립니다!**
 
 這可能會對伺服器的安全性和效能造成重大影響。
 
 所有使用此屬性引起的問題應由伺服器管理員負責。
-
 {% endhint %}
 
 將初始化配置提供為Mojang提供的默認值。
@@ -339,15 +327,12 @@ Plazma가 초기화될 때 출력되는 [경고문](#user-content-fn-11)[^11]을
 - **衝突**：`Plazma.aggressiveOptimize`
 
 {% hint style="info" %}
-
-**此屬性尚在開發中。**
-
+**해당 속성은 아직 개발중입니다.**
 {% endhint %}
 
 將初始化配置設置為接近Vanilla。
 
-這基本上只會以不會影響伺服器性能和安全性的程度應用，
-如果使用`Plazma.disableConfigOptimization`屬性，將配置為使用Vanilla預設值。
+이는 기본적으로 서버 성능 및 안전에 영향을 주지 않을 정도로만 적용되며, `Plazma.disableConfigOptimization` 속성을 사용할 경우 바닐라 기본값을 사용하도록 구성합니다.
 
 ### 已停用屬性 <a href="#id-1.3" id="id-1.3"></a>
 
@@ -387,21 +372,21 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **別名**: `b`
 - **預設值**: `bukkit.yml`
 
-設置[Bukkit配置文件](../reference/configurations/bukkit.md)的名稱和位置。
+[Bukkit 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `command-settings`
 
 - **別名**: `c`
 - **預設值**: `commands.yml`
 
-設置[Bukkit命令配置文件](../reference/configurations/bukkit.md)的名稱和位置。
+[Bukkit 명령어 구성 파일](configurations/bukkit.md)의 이름 및 위치를 설정합니다.
 
 #### `config`
 
 - **別名**: `c`
 - **預設值**: `server.properties`
 
-設置[服務器屬性](../reference/configurations/property.md)文件的名稱和位置。
+[서버 속성](configurations/property.md) 파일의 이름 및 위치를 설정합니다.
 
 #### `demo`
 
@@ -413,7 +398,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 #### `forceUpgrade`
 
-忽略版本並強制升級世界[^12]。
+버전을 무시하고 월드를 강제로 업그레이드[^12] 합니다.
 
 #### `help`
 
@@ -434,7 +419,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **別名**: `s`, `size`
 - **預設值**: `(服務器屬性)`
 
-設置允許的最大[玩家](#user-content-fn-14)[^14]數。
+허용되는 최대 플레이어[^13] 수를 설정합니다.
 
 #### `nogui`
 
@@ -451,7 +436,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 選擇是否要通過Mojang驗證服務器驗證玩家。
 
-**如果不使用Velocity等代理，可能會因違反[EULA](../getting-started/README.md#id-5)而受到制裁。**
+**Velocity 등 프록시를 사용하는 것이 아닌 경우** [**EULA**](../getting-started/#id-5) **위반으로 제재될 수 있습니다.**
 
 #### `paper-settings`
 
@@ -459,9 +444,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **預設值**: `paper.yml`
 
 {% hint style="warning" %}
-
-**此參數自版本 1.19.4 後已停止使用**
-
+**이 인수는 1.19.4 이후 사용이 중지되었습니다**
 {% endhint %}
 
 設置停用的PaperSpigot配置文件位置。
@@ -473,13 +456,13 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **別名**: `paper-dir`
 - **預設值**: `config`
 
-設置[Paper配置文件](../reference/configurations/paper/README.md)所在的文件夾名稱和位置。
+[Paper 구성 파일](configurations/paper/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plazma-settings-directory`
 
 - **別名**: `plazma-dir`
 
-設置[Plazma配置文件](../reference/configurations/plazma/README.md)所在的文件夾名稱和位置。
+[Plazma 구성 파일](configurations/plazma/)이 위치하는 폴더의 이름 및 위치를 설정합니다.
 
 #### `plugins`
 
@@ -493,14 +476,14 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **別名**: `pufferfish`
 - **預設值**: `pufferfish.yml`
 
-設置[Pufferfish配置文件](../reference/configurations/pufferfish.md)的名稱和位置。
+[Pufferfish 구성 파일](configurations/pufferfish.md)의 이름 및 위치를 설정합니다.
 
 #### `purpur-settings`
 
 - **別名**: `purpur`
 - **預設值**: `purpur.yml`
 
-設置[Purpur配置文件](../reference/configurations/purpur/README.md)的名稱和位置。
+[Purpur 구성 파일](configurations/purpur/)의 이름 및 위치를 설정합니다.
 
 #### `safeMode`
 
@@ -511,7 +494,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **別名**: `h`, `host`
 - **預設值**: `(服務器屬性)`
 
-設置服務器的主機名稱或[互聯網協議](#user-content-fn-13)[^13]地址。
+서버의 호스트 이름 또는 [인터넷 프로토콜](#user-content-fn-14)[^14] 주소를 설정합니다.
 
 #### `server-port`
 
@@ -531,7 +514,7 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 - **別名**: `S`
 - **預設值**: `spigot.yml`
 
-設置[Spigot配置文件](../reference/configurations/spigot.md)的名稱和位置。
+[Spigot 구성 파일](configurations/spigot.md)의 이름 및 위치를 설정합니다.
 
 #### `version`
 
@@ -579,6 +562,6 @@ java -Xms4G (...) -DPlazma.dummyProperty=37 -jar plazma.jar nogui (...)
 
 [^12]: 在遊戲中，`世界優化` 也遵循這個原則。
 
-[^13]: 網際網路協定，IP。
+[^13]: 管理員排除`等級2`以上。
 
-[^14]: 管理員排除`等級2`以上。
+[^14]: 網際網路協定，IP。
