@@ -15,17 +15,15 @@ description: Mësoni më shumë për platformën e serverit Plazma.
 
 ## ⚙️ Pika kryesore <a href="#id-2" id="id-2"></a>
 
-1. **Ekosistema e shtojcave të fuqishme**\
-   [Bum](https://github.com/PaperMC/Paper) është bazuar në,
-   shumica e [shtojcave më të fundit](#user-content-fn-1)[^1] në internet janë të funksionueshme në mënyrë normale.
-2. **Optimizimi pa nevojë për konfigurim**\
-   Të gjitha patch-et e [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) janë përfshirë,
-   disa optimizime të brendshme dhe moda janë të përfshira për të ofruar performancën më të mirë.
-3. **Loja e personalizuar sipas dëshirës**\
-   [Purpur](https://github.com/PurpurMC/Purpur) i përfshirë në Plazma lejon modifikimin e tipareve të përgjithshme të lojës.
-4. **Serveri që luajnë në mënyrë të sigurt**\
-   [Për raportet e bisedës](https://github.com/Aizistral-Studios/No-Chat-Reports) janë përfshirë për të çaktivizuar sistemin e [raportimit të bisedës](#user-content-fn-3)[^3] të [Mojang](#user-content-fn-2)[^2] së 1.19,\
-   informacioni i diagnozës është plotësisht larguar për të luajtur në një server të sigurt pa gjurmim.
+1. **강력한 플러그인 생태계**\
+   [Paper](https://github.com/PaperMC/Paper)를 기반으로 하고 있어, 인터넷에서 다운로드 가능한 대부분의 [최신 플러그인](#user-content-fn-1)[^1]이 정상 작동합니다.
+2. **설정이 필요 없는 최적화**\
+   [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)의 모든 패치가 포함되어 있으며, 일부 자체 최적화와 모드가 내장되어 있어 최고의 성능을 제공합니다.
+3. **원하는 대로 사용자화하는 게임**\
+   Plazma에 포함된 [Purpur](https://github.com/PurpurMC/Purpur)는 게임의 전반적인 속성을 수정할 수 있게 해줍니다.
+4. **안전하게 플레이하는 서버**\
+   [No Chat Reports](https://github.com/Aizistral-Studios/No-Chat-Reports)가 포함되어 있어 1.19부터 추가된 Mojang[^2]의 [채팅 신고 시스템](#user-content-fn-3)[^3]을 비활성화 할 수 있으며,\
+   진단 정보 수집기가 완전 제거되어 추적 없는 안전한 서버를 플레이 할 수 있습니다.
 5. **Përditësimi më i shpejtë**\
    [AlwaysUpToDate](https://github.com/PlazmaMC/AlwaysUpToDate) siguron që patch-et e përfshira në Plazma gjithmonë mbeten të përditësuara, duke ofruar një nga përditësimet më të shpejta në platformën e serverit të bazuar në Paper.
 6. **Optimizimi i konfigurimit fillestar**\
@@ -34,12 +32,6 @@ description: Mësoni më shumë për platformën e serverit Plazma.
    Sistemi i përdorur për mekanizmat që nuk kanë lidhje me lojën është asinkron, duke zvogëluar kohën e vonuar dhe duke optimizuar serverin.
 8. **Bllokimi i përdorimit të hapësirës së panevojshme**\
    Të dhënat me vlera të ngjashme janë të bashkuara për të zvogëluar përdorimin e memorjes.
-
-#### Dëshironi të mësoni më shumë për Plazma? <a href="#etc-1" id="etc-1"></a>
-
-{% content-ref url="patches-list.md" %}
-[patches-list.md](patches-list.md)
-{% endcontent-ref %}
 
 ## ✨ Rastet e përdorimit <a href="#id-3" id="id-3"></a>
 
@@ -50,15 +42,12 @@ description: Mësoni më shumë për platformën e serverit Plazma.
 - **Platforma që mbajti performancën e shpejtë edhe në serverët RPG**\
   Në një klaster të vetëm, 100 lojtarë janë mbajtur në mënyrë stabile pa rënien e TPS,\
   në 4 klasterë, një total prej 250 lojtarëve kanë luajtur në një mënyrë të këndshme.
-- **Platforma që shfaq dritë në chunk/entity**\
-  Duke ndryshuar nga Purpur në Plazma në serverin e shërbyesit të mbijetuarve ku ka pasur vonesa në trajtimin e chunk-ve dhe entiteteve,\
-  kemi mundur të zvogëlojmë shumicën e vonesave.
+- **청크/엔티티에서 빛을 보이는 플랫폼**\
+  기존에 청크와 엔티티를 처리하는 데 지연이 발생하던 서바이벌 서버의 플랫폼을 Purpur에서 Plazma로 변경하며 대부분의 지연을 줄일 수 있었습니다.
 - **Platforma e zgjedhur nga shumë transmetues**\
   Është zgjedhur si një ndërrues pjesëmarrësish nga shumë transmetues.
 
-<a href="https://bstats.org/plugin/server-implementation/Plazma/18047">
-   <img src="https://badge.plazmamc.org/internal/bstats" alt="Tendencë e përdoruesve të Plazma në kohë reale">
-</a>
+[![실시간 Plazma 사용자 추이](https://badge.plazmamc.org/internal/bstats)](https://bstats.org/plugin/server-implementation/Plazma/18047)
 
 ## ⬇️ Shkarko
 
