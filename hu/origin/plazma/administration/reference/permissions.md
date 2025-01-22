@@ -69,7 +69,7 @@ Kérjük, ossza meg az ötleteit a [Plazma Discord](https://plazmamc.org/discord
 
 <details>
 
-<összefoglalás>Elérhető speciális képességek megtekintése<!--összefoglalás-->
+<összefoglalás>Elérhető speciális képességek megtekintése</összefoglalás>
 
 - **`crepper`**\
   Ha megnyomja az `ugrás gombot`, akkor felrobban.\
