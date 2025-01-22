@@ -42,7 +42,7 @@ If ye be a developer and be needin' a different type o' file, consult the page b
         </tr>
         <tr>
             <td>1.21.4</td>
-            <td><a href="https://ci.codemc.io/job/PlazmaMC/job/Plazma/job/dev%252F1.21.4/lastSuccessfulBuild/artifact/build/libs/plazma-paperclip-1.21.4-R0.1-SNAPSHOT-reobf.jar">
+            <td><a href="https://ci.codemc.io/job/PlazmaMC/job/Plazma/job/dev%252F1.21.4/lastSuccessfulBuild/artifact/build/libs/plazma-paperclip-1.21.4-R0.1-SNAPSHOT-mojmap.jar">
                 <img src="https://badge.plazmamc.org/1/다운로드" alt="다운로드">
             </a></td>
         </tr>
