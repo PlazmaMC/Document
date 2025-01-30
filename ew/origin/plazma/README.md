@@ -1,0 +1,43 @@
+---
+description: "Plazma is an open source server platform for Minecraft: Java Edition that adds experimental optimization based on paper and customization features using various game mechanisms."
+---
+
+# ✨ Plazma Usage Docs
+
+## 👋 Welcome to Plazma Docs
+
+Welcome to the Plazma Usage Docs!
+
+{% hint style="info" %}
+
+**Can't solve the problem through the manual?**
+
+Ask the community questions through the [official Discord server](https://discord.gg/MmfC52K8A8) or [GitHub Discussions](https://github.com/PlazmaMC/PlazmaBukkit/discussions)!
+
+{% endhint %}
+
+### About Plazma
+
+> Learn about what Plazma server platform is.
+
+{% content-ref url="about/" %}
+[about](about/)
+{% endcontent-ref %}
+
+### For Administrators
+
+> Create your own server using Plazma.
+
+{% content-ref url="administration/" %}
+[administration](administration/)
+{% endcontent-ref %}
+
+### For Developers
+
+> Develop third-party projects using Plazma.
+
+{% content-ref url="developers.md" %}
+[developers.md](developers.md)
+{% endcontent-ref %}
+
+***

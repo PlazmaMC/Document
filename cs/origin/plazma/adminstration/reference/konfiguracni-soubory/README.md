@@ -1,0 +1,2 @@
+# 🎨 Konfigurační soubory
+

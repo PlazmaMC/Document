@@ -1,0 +1,1 @@
+# 🏳️ Weltweite Konfiguration

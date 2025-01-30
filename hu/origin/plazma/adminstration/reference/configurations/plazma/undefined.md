@@ -1,0 +1,1 @@
+# 🏳️ Világ szerinti összetétel

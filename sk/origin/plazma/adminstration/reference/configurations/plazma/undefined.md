@@ -1,0 +1,1 @@
+# 🏳️ Svetová štruktúra
